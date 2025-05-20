@@ -2,7 +2,8 @@
 
 This projects gives you access to every map in .jpg & soon enough every cities per map version (in JSON).\
 If you have any suggestion on what we could add to this repo, or if you see a mistake, do not hesitate to try a pull request.\
-This project can be used to build, per example, an interactive map for a particular (or current) season (using Leaflet), with cities and good quality image of the map.\\
+This project can be used to build, per example, an interactive map for a particular (or current) season (using Leaflet), with cities and good quality image of the map.\
+Don't be confused by the folders names (in Chapters folders), Saison is equal to Season (you probably guessed it). I've named them in French by mistake (will be corrected).\\
 
 ## Formats, extensions for images of maps
 
