@@ -2,6 +2,9 @@
 
 This projects gives you access to every map in .jpg & every cities per map version (in JSON).\
 This may have errors, since I've mainly parsed & scraped wikis or websites that appromatively gave what I needed. It has been hard to retrieve all datas and I'm working on doing it better, if you have advices or recommandations, don't mind telling me.\
+
+__I made a mistake while working on Python, and you'll see that there are 2 jsons per folder, and a subfolder in a version folder. This doesn't affect your use, except that you may be lost for 5 minutes at the beginning (then everything will be alright)__
+
 This project can be used to build, per example, an interactive map for a particular (or current) season (using Leaflet), with cities and good quality image of the map.\
 Don't be confused by the folders names (in Chapters folders), Saison is equal to Season (you probably guessed it). I've named them in French by mistake (will be corrected).\\
 
