@@ -8,11 +8,11 @@ This project can be used to build, per example, an interactive map for a particu
 
 All maps have been named after the season corresponding to it.\
 All of them are avalaible in "jpg".\
-Depending on the age of the season, the map may be in 1024x1024, 2048x2048 or 4096x4096 (usually (almost all of them) 2048x2048).\
+Depending on the age of the season, the map may be in 1024x1024, 2048x2048 or 4096x4096 (most of them are - 2048x2048).\
 
 ## About JSONs and cities
 
-I've worked on a way to scrap (that's what i did for all the .jpg maps), and retrieve every cities name for each season by using an endpoint from fandom.wiki for Fortnite,\
+I've worked on a way to scrap (that's what I did for all the .jpg maps), and retrieve every cities name for each season by using an endpoint from fandom.wiki for Fortnite,\
 The correct folder structure that I am using, would be :
 - Chapter 6/
 - - Season 4/
