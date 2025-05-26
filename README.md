@@ -1,12 +1,8 @@
-# Fortnite Archives (maps, locations) since the beginning of the game until now
+# Fortnite Archives (maps, locations, POIs, Weapons) from Chapter 6 Season 3 to Chapter 1 Season 1
 
-This projects gives you access to every map in .jpg & every cities per map version (in JSON).\
-This may have errors, since I've mainly parsed & scraped wikis or websites that appromatively gave what I needed. It has been hard to retrieve all datas and I'm working on doing it better, if you have advices or recommandations, don't mind telling me.\
-
-__I made a mistake while working on Python, and you'll see that there are 2 jsons per folder, and a subfolder versions folders. This doesn't affect your use, except that you may be lost for 5 minutes at the beginning (then everything will be alright)__
+This Open-Sourced project gives developers & fans any datas they want to retrieve. You will find here, every maps from every updates, JSONs with POIs, Named locations, and soon weapons & utils.
 
 This project can be used to build, per example, an interactive map for a particular (or current) season (using Leaflet), with cities and good quality image of the map.\
-Don't be confused by the folders names (in Chapters folders), Saison is equal to Season (you probably guessed it). I've named them in French by mistake (will be corrected).\\
 
 ## Formats, extensions for images of maps
 
@@ -36,5 +32,5 @@ Every season (or more precisely every update) will claim his own folder, and thi
 
 If anyone like the projects, let me know or give a star. If the projects is helpful and interesting for many people, I'll work on every weapons from every season in the same way i did for maps and cities.\
 
-## This is of course free to use :)
+## This project is opened to anyone willing to participate.
 
