@@ -1,0 +1,158 @@
+name: Auto-Update Map Archives
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Every 6 hours
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check for new Fortnite version
+        id: check_version
+        run: |
+          # Get current game version from Fortnite-API.com
+          RESPONSE=$(curl -sf "https://fortnite-api.com/v2/aes" || echo '{}')
+          CURRENT_BUILD=$(echo "$RESPONSE" | node -e "
+            const data = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
+            const build = data?.data?.build || '';
+            // Extract version like '38.10' from build string
+            const match = build.match(/(\d+\.\d+)/);
+            console.log(match ? match[1] : '');
+          ")
+
+          if [ -z "$CURRENT_BUILD" ]; then
+            echo "Could not detect current version, skipping"
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "current_version=$CURRENT_BUILD" >> $GITHUB_OUTPUT
+
+          # Read manifest latest
+          if [ -f manifest.json ]; then
+            MANIFEST_LATEST=$(node -e "console.log(JSON.parse(require('fs').readFileSync('manifest.json','utf8')).latest || '')")
+          else
+            MANIFEST_LATEST=""
+          fi
+
+          echo "manifest_latest=$MANIFEST_LATEST" >> $GITHUB_OUTPUT
+
+          if [ "$CURRENT_BUILD" = "$MANIFEST_LATEST" ]; then
+            echo "Already up to date: $CURRENT_BUILD"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "New version detected: $CURRENT_BUILD (was: $MANIFEST_LATEST)"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Determine chapter and season
+        if: steps.check_version.outputs.skip != 'true'
+        id: meta
+        run: |
+          VERSION="${{ steps.check_version.outputs.current_version }}"
+          node -e "
+            const version = parseFloat('$VERSION');
+            // Version-to-chapter/season mapping
+            const map = [
+              [32.99, 6, 0], [33.99, 6, 1], [34.99, 6, 2],
+              [35.99, 6, 3], [36.99, 6, 4], [37.99, 6, 5],
+              [38.99, 6, 5], [39.99, 6, 6], [40.99, 7, 1],
+              [41.99, 7, 2], [42.99, 7, 3], [43.99, 7, 4],
+            ];
+            let chapter = 6, season = 5; // fallback
+            for (const [maxV, c, s] of map) {
+              if (version <= maxV) { chapter = c; season = s; break; }
+            }
+            console.log('chapter=' + chapter);
+            console.log('season=' + season);
+          " >> $GITHUB_OUTPUT
+
+      - name: Download map image
+        if: steps.check_version.outputs.skip != 'true'
+        id: download
+        run: |
+          VERSION="${{ steps.check_version.outputs.current_version }}"
+          CHAPTER="${{ steps.meta.outputs.chapter }}"
+          SEASON="${{ steps.meta.outputs.season }}"
+          VERSION_UNDERSCORE=$(echo "$VERSION" | tr '.' '_')
+
+          DIR="chapter_${CHAPTER}/season_${SEASON}/${VERSION_UNDERSCORE}"
+          mkdir -p "$DIR"
+
+          # Try fortnite.gg minimap (common static URL pattern)
+          MAP_URL="https://media.fortniteapi.io/images/map.png"
+          HTTP_CODE=$(curl -sf -o "$DIR/${VERSION_UNDERSCORE}.jpg" -w "%{http_code}" "$MAP_URL" || echo "000")
+
+          if [ "$HTTP_CODE" != "200" ] || [ ! -s "$DIR/${VERSION_UNDERSCORE}.jpg" ]; then
+            echo "Could not download map image (HTTP $HTTP_CODE)"
+            echo "map_downloaded=false" >> $GITHUB_OUTPUT
+            rm -f "$DIR/${VERSION_UNDERSCORE}.jpg"
+          else
+            echo "Map image downloaded to $DIR/${VERSION_UNDERSCORE}.jpg"
+            echo "map_downloaded=true" >> $GITHUB_OUTPUT
+          fi
+
+          echo "dir=$DIR" >> $GITHUB_OUTPUT
+          echo "version_underscore=$VERSION_UNDERSCORE" >> $GITHUB_OUTPUT
+
+      - name: Scrape POIs
+        if: steps.check_version.outputs.skip != 'true'
+        run: |
+          VERSION="${{ steps.check_version.outputs.current_version }}"
+          DIR="${{ steps.download.outputs.dir }}"
+          VERSION_UNDERSCORE="${{ steps.download.outputs.version_underscore }}"
+
+          # Try to get POI data from fortnite-api.com
+          POIS=$(curl -sf "https://fortnite-api.com/v1/map" || echo '{}')
+
+          node -e "
+            const fs = require('fs');
+            const data = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
+            const pois = data?.data?.pois || [];
+
+            const output = pois.map(poi => ({
+              name: poi.name || poi.id,
+              x: poi.location?.x ?? null,
+              y: poi.location?.y ?? null,
+              z: poi.location?.z ?? null,
+            }));
+
+            fs.writeFileSync('${DIR}/${VERSION_UNDERSCORE}.json', JSON.stringify(output, null, 2));
+            console.log('Wrote ' + output.length + ' POIs');
+          " <<< "$POIS"
+
+      - name: Update latest symlink
+        if: steps.check_version.outputs.skip != 'true'
+        run: |
+          DIR="${{ steps.download.outputs.dir }}"
+          rm -rf latest
+          mkdir -p latest
+          cp -r "$DIR"/* latest/ 2>/dev/null || true
+
+      - name: Regenerate manifest
+        if: steps.check_version.outputs.skip != 'true'
+        run: node scripts/generate-manifest.js
+
+      - name: Commit and push
+        if: steps.check_version.outputs.skip != 'true'
+        run: |
+          VERSION="${{ steps.check_version.outputs.current_version }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "auto: add map data for v${VERSION}"
+          git push
