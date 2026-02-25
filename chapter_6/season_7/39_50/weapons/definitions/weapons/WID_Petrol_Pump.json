@@ -1,0 +1,118 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Petrol_Pump",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Weapons/Prototype/Petrol/PetrolPump/B_Petrol_Pump_Handle.B_Petrol_Pump_Handle_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/Game/Weapons/Prototype/Petrol/PetrolPump/Mesh/SK_Petrol_Pump_Handle.SK_Petrol_Pump_Handle",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "PetrolPump_R_Ore_T03"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Abilities/GA_Ranged_Petrol_Projectile_Athena.GA_Ranged_Petrol_Projectile_Athena_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/Game/Athena/Items/Weapons/Abilities/GA_FuelEquipped.GA_FuelEquipped_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Items/HeldObjects/HeldObjectVersion2/GA_HeldObject_Component_Passive.GA_HeldObject_Component_Passive_C",
+        "SubPathString": ""
+      }
+    ],
+    "EquippedAbilitySet": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Prototype/AbilitySet_PetrolInventory.AbilitySet_PetrolInventory",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite.AmmoInfinite",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "ReticleCornerAngles": [],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher.HUD_Xhair_Launcher",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_petrol_pump"
+    ],
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Game/Weapons/Prototype/Petrol/B_Prj_Petrol_Pump.B_Prj_Petrol_Pump_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-GasCan.T-T-Icon-BR-GasCan",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-GasCan-L.T-T-Icon-BR-GasCan-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Trait.Explosive",
+          "Rarity.Common",
+          "Item.Weapon.Ranged.Launcher.PetrolPump",
+          "Athena.ItemAction.Consume",
+          "Athena.ItemAction.Secondary.Throw",
+          "Item.Fuel.PetrolPump"
+        ]
+      }
+    ]
+  }
+}

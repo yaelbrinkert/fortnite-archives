@@ -1,0 +1,63 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_NPC_Athena_Commando_M_Scrapyard",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_Scrapyard_NPC.CP_Athena_Head_M_Scrapyard_NPC",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Scrapyard_NPC.CP_Athena_Body_M_Scrapyard_NPC",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "31FCAD1242705AFBB25ED4A05B40D1F4",
+      "SourceString": "Kit",
+      "LocalizedString": "Kit"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "07993C4B41D0B8030A205DBB569CDFF6",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Inventory/Art/T_UI_WeaponType_Guard_Icon.T_UI_WeaponType_Guard_Icon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.StepType.BootsMetal",
+          "SoundLibrary.ID.ClothingType.ArmorMetal",
+          "SoundLibrary.ID.HandType.Glove"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

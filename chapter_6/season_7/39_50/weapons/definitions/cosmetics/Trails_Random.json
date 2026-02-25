@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaSkyDiveContrailItemDefinition",
+  "Name": "Trails_Random",
+  "Class": "UScriptClass'AthenaSkyDiveContrailItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ShuffleItempreview.ShuffleItemPreview_C",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "6425613B441A2675DF03989BDA93A690",
+      "SourceString": "Random",
+      "LocalizedString": "Random"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "753F24F1428E5E2C4DCED0AD3390DD1D",
+      "SourceString": "Randomly chooses between favorite Contrails (or all owned Contrails if nothing is marked as a favorite)\r\nArchived items will be excluded.",
+      "LocalizedString": "Randomly chooses between favorite Contrails (or all owned Contrails if nothing is marked as a favorite)\r\nArchived items will be excluded."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "762808554D14DD7F6A0BA4A76F0D6900",
+      "SourceString": "Contrail",
+      "LocalizedString": "Contrail"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.ShuffleTile"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.DefaultItem"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/ShuffleIcons/T_UI_Shuffle_Contrail.T_UI_Shuffle_Contrail",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/T_Icon_Random_256.T_Icon_Random_256",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "/Game/Athena/UI/Icons/S_UI_ShuffleIcon.S_UI_ShuffleIcon",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -4.0,
+          "Yaw": 60.0,
+          "Roll": -8.0
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

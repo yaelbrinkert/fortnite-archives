@@ -1,0 +1,45 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_STWHero",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7B4916AF4FEFFA0C2106339700569BEC",
+      "SourceString": "Hero Outfit",
+      "LocalizedString": "Hero Outfit"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "535236974298FDD8F95305B5A9BC1101",
+      "SourceString": "Use your commander's default appearance in place of an Outfit.",
+      "LocalizedString": "Use your commander's default appearance in place of an Outfit."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "05FB5FB1440697B77125F0901C915822",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.DefaultItem",
+          "Cosmetics.Source.CampaignHero"
+        ]
+      }
+    ]
+  }
+}

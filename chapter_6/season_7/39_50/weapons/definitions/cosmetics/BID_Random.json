@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_Random",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'NoBackpack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ShuffleItempreview.ShuffleItemPreview_C",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "99F5E7F543F62527698FECA12D6F3576",
+      "SourceString": "Random",
+      "LocalizedString": "Random"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0AAE9B2E41A4A23822AA88819DAF1B39",
+      "SourceString": "Randomly chooses between favorite Back Blings (or all owned Back Blings if nothing is marked as a favorite)\r\nArchived items will be excluded.",
+      "LocalizedString": "Randomly chooses between favorite Back Blings (or all owned Back Blings if nothing is marked as a favorite)\r\nArchived items will be excluded."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EE0F3DE947C13FF20F0F8C91D476D7C6",
+      "SourceString": "Back Bling",
+      "LocalizedString": "Back Bling"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.ShuffleTile"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/ShuffleIcons/T_UI_Shuffle_Backbling.T_UI_Shuffle_Backbling",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/T_Icon_Random_256.T_Icon_Random_256",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "/Game/Athena/UI/Icons/S_UI_ShuffleIcon.S_UI_ShuffleIcon",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -4.0,
+          "Yaw": 60.0,
+          "Roll": -8.0
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

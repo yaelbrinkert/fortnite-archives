@@ -1,0 +1,109 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Octopus_Weapon",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Vehicles/B_OctopusWeapon.B_OctopusWeapon_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Vehicle_Towhook_Athena_R_Ore_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Abilities/GA_Ranged_OctopusTowhook_Projectile.GA_Ranged_OctopusTowhook_Projectile_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite.AmmoInfinite",
+      "SubPathString": ""
+    },
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCornerAngles": [
+      0.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/Fort_HUD/HUD_Xhair_Basic.HUD_Xhair_Basic",
+      "SubPathString": ""
+    },
+    "ReticleInvalidTargetImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/blockedshot_reticle.blockedshot_reticle",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Hamsterball"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Hamsterball",
+      "Tag:Weapon:wid_octopus_weapon"
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5B5236944941BFD7DE82B8B05FE11D94",
+      "SourceString": "Biplane",
+      "LocalizedString": "Biplane"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/Vehicles/B_Prj_OctopusTowhook_Athena.B_Prj_OctopusTowhook_Athena_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "AbilityWeapon.Ranged",
+          "Weapon.Ranged.Hamsterball",
+          "Rarity.Rare"
+        ]
+      }
+    ]
+  }
+}
