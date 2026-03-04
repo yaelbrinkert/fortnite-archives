@@ -1,0 +1,105 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Caller",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Caller/Emote_Caller_CMM_M.Emote_Caller_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Caller/Emote_Caller_CMF_M.Emote_Caller_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Caller/Emote_Caller_CLM_M.Emote_Caller_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Caller/Emote_Caller_CLF_M.Emote_Caller_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C2B0EDD24D3A4DEADE02E1BE152AA924",
+      "SourceString": "Lights up",
+      "LocalizedString": "Lights up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A48756E64EAD8D26E420A48FEC592A79",
+      "SourceString": "This is my song!",
+      "LocalizedString": "This is my song!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "564461314A006748E925ADAED9FB8605",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.65
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Caller.T-Icon-Emotes-E-Caller",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Caller-L.T-Icon-Emotes-E-Caller-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.17"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

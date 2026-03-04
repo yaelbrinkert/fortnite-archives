@@ -1,0 +1,149 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CajunTaco",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bLockGroupEmoteLeaderRotation": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_CajunTaco.GAB_Emote_CajunTaco_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CajunTaco/Emote_CajunTaco_CMM_M.Emote_CajunTaco_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CajunTaco/CMF/Emote_CajunTaco_CMF_M.Emote_CajunTaco_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CajunTaco/CLM/Emote_CajunTaco_CLM_M.Emote_CajunTaco_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CajunTaco/CLF/Emote_CajunTaco_CLF_M.Emote_CajunTaco_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 20.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_CajunTaco:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_CajunTaco.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AF9A8A8947B74CC386DC1088A620BA05",
+      "SourceString": "BMO Game Time",
+      "LocalizedString": "BMO Game Time"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C5923D1747966448EA0ED08D87A7D07F",
+      "SourceString": "Who wants to play video games?",
+      "LocalizedString": "Who wants to play video games?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EA21755D4E61CEDADD132A8E5E2750DB",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 10.0,
+          "Y": 0.0,
+          "Z": -7.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.Timmy",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_CajunTaco.T_Icon_Emotes_CajunTaco",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_CajunTaco_L.T_Icon_Emotes_CajunTaco_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 50.0,
+            "Y": 19.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": false,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 15.0,
+              "Y": 75.0,
+              "Z": -25.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": {
+              "ObjectName": "AthenaDanceItemDefinition'EID_CajunTaco_Sync_Follower'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_CajunTaco_Sync_Follower.0"
+            },
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 210.0
+          },
+          "AdditionalPreviewFollowerConfigs": [],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::AfterLeaderIntroDelay",
+          "GroupEmotePreviewFollowerJoinDelayOverride": 2.8
+        }
+      }
+    ]
+  }
+}

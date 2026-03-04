@@ -1,0 +1,257 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_TiltedParrot",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 25.0,
+      "Y": -40.0,
+      "Z": -30.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_TiltedParrot/Meshes/TiltedParrot_Glider.TiltedParrot_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/TiltedParrot/TiltedParrot_Glider_AnimBP.TiltedParrot_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/TiltedParrot/Player/TiltedParrot_PlayerAnimSet.TiltedParrot_PlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_TiltedParrot/FX/NS_Glider_TiltedParrot_Idle.NS_Glider_TiltedParrot_Idle",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/TiltedParrot/SC_GliderOpen_TiltedParrot.SC_GliderOpen_TiltedParrot",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/TiltedParrot/SC_GliderOpen_TiltedParrot.SC_GliderOpen_TiltedParrot",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/TiltedParrot/SC_GliderClose_TiltedParrot.SC_GliderClose_TiltedParrot",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/TiltedParrot/GliderThrustLoop_TiltedParrot_Cue.GliderThrustLoop_TiltedParrot_Cue",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/TiltedParrot/SC_GliderThrust_TiltedParrot.SC_GliderThrust_TiltedParrot",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/TiltedParrot/SC_GliderThrust_TiltedParrot.SC_GliderThrust_TiltedParrot",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/TiltedParrot/SC_GliderThrust_TiltedParrot.SC_GliderThrust_TiltedParrot",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FE635E394C902B59EDB9A49ED6143D4E",
+      "SourceString": "Bugsy",
+      "LocalizedString": "Bugsy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A40EFA4B4D65D3944445589667077249",
+      "SourceString": "Did you hear the latest buzz?",
+      "LocalizedString": "Did you hear the latest buzz?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 30.0,
+          "Y": -40.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": -75.0,
+          "Roll": -5.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S25/T-Icon_Glider-TiltedParrot.T-Icon_Glider-TiltedParrot",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S25/T-Icon_Glider-TiltedParrot-L.T-Icon_Glider-TiltedParrot-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.Source.Event.14DaysOfSummer.Glider"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          270,
+          546,
+          556,
+          239,
+          122,
+          389,
+          612,
+          615,
+          666,
+          729,
+          823,
+          1148,
+          482,
+          2345,
+          2540,
+          2913,
+          3577,
+          4463
+        ]
+      }
+    ]
+  }
+}

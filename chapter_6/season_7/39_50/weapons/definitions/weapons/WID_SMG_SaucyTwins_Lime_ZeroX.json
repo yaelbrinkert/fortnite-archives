@@ -1,0 +1,374 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_SMG_SaucyTwins_Lime_ZeroX",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/LimeSaucyTwins/Blueprints/B_SMG_MusterQuick_Lime_Child_HighTier.B_SMG_MusterQuick_Lime_Child_HighTier_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "SMG_Muster_Athena_Zero_UR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/LimeWeaponsCore/Ammo/Lime_AmmoDataBulletsLight.Lime_AmmoDataBulletsLight",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.SMG",
+      "Item.Weapon.Ranged.SMG.LimeSaucerX",
+      "Lime.Item.Weapon.Ranged.SMG.LimeSaucerX"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.SMG",
+      "Item.Weapon.Ranged.SMG.LimeSaucerX",
+      "Lime.Item.Weapon.Ranged.SMG.LimeSaucerX",
+      "Tag:Weapon:wid_smg_saucytwins_lime_zerox"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Light",
+        "Exotic",
+        "Lime",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Transcendent",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "79228AC844FE5F7F4877ECB935F5ECBB",
+      "SourceString": "Super Saucer",
+      "LocalizedString": "Super Saucer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C9236ABD448A81C36AFB7C83F60FF7FC",
+      "SourceString": "Rapid condiment fire that leaves a saucy trail. You'll relish the results!",
+      "LocalizedString": "Rapid condiment fire that leaves a saucy trail. You'll relish the results!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "09C920B64EA53AD03566D79F340621F2",
+      "SourceString": "Super Saucer",
+      "LocalizedString": "Super Saucer"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/LimeSaucyTwins/Icons/T_Icon_Weapons_LimeSaucyTwins_X.T_Icon_Weapons_LimeSaucyTwins_X",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/LimeSaucyTwins/Icons/T_Icon_Weapons_LimeSaucyTwins_X_L.T_Icon_Weapons_LimeSaucyTwins_X_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Skill.sniper.headshotbuff",
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.SMG.Auto",
+          "phoebe.weapon.ranged.smg",
+          "phoebe.weapon.trait.fullauto",
+          "phoebe.items.smg",
+          "Rarity.Transcendent",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Lime.Item.Guard",
+          "Behavior.Injection.Lime.Behaviors.Ranged",
+          "Lime.Item.Weapon.Ranged.SMG.LimeSaucerX",
+          "Item.Weapon.Ranged"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 6.3647523,
+          "Yaw": 24.121056,
+          "Roll": -21.732279
+        },
+        "Scale": 1.0
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/LimeSaucyTwins/SkeletalMeshes/SKM_SaucyTwins_HighTier.SKM_SaucyTwins_HighTier",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_LimeWeapon_64'",
+            "ObjectPath": "/LimeWeaponsCore/Ranged/Icons/T_Icon_LimeWeapon_64.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/LimeSaucyTwins/Audio/Lime_SaucyTwins_Pickup_Cue.Lime_SaucyTwins_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/LimeSaucyTwins/Audio/Lime_SaucyTwins_Drop_Cue.Lime_SaucyTwins_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/LimeSaucyTwins/Audio/Lime_SaucyTwins_LandImpact_Cue.Lime_SaucyTwins_LandImpact_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 9.995142,
+          "Y": 30.773977,
+          "Z": 21.289316
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "59036FC241B050AFFE3713A89CE424BD",
+          "SourceString": "Guns Ranged Pistols LightBullets Automatic",
+          "LocalizedString": "Guns Ranged Pistols LightBullets Automatic"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VII",
+        "MaxTier": "EFortItemTier::No_Tier"
+      }
+    ]
+  }
+}

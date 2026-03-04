@@ -1,0 +1,111 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_TampaTwoStep",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TampaTwoStep/CMM/Emote_TampaTwoStep_CMM_M.Emote_TampaTwoStep_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TampaTwoStep/CMF/Emote_TampaTwoStep_CMF_M.Emote_TampaTwoStep_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TampaTwoStep/CLM/Emote_TampaTwoStep_CLM_M.Emote_TampaTwoStep_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TampaTwoStep/CLF/Emote_TampaTwoStep_CLF_M.Emote_TampaTwoStep_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BBDBB03043BFC6E83893F795B92EB1EC",
+      "SourceString": "two",
+      "LocalizedString": "two"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B2CFF40E428086D3669AED984131CE2F",
+      "SourceString": "Show off what you've got.",
+      "LocalizedString": "Show off what you've got."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "856A5F69489F6773598D64B20DCF5EC3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_TampaTwostep.T_Icon_Emotes_TampaTwostep",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_TampaTwostep_L.T_Icon_Emotes_TampaTwostep_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

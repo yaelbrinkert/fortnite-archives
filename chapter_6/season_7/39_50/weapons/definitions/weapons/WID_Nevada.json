@@ -1,0 +1,128 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Nevada",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/Nevada/Weapons/EnergyCannon/B_Nevada_EnergyCannon.B_Nevada_EnergyCannon_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Vehicle_Nevada_EnergyCannon_R_Ore_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Nevada/Weapons/EnergyCannon/GA_Nevada_EnergyCannon_PrimaryFire.GA_Nevada_EnergyCannon_PrimaryFire_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/Nevada/Weapons/TractorBeam/Proto/GA_TractorBeam_Toss.GA_TractorBeam_Toss_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite.AmmoInfinite",
+      "SubPathString": ""
+    },
+    "bAlwaysChargeUpToMin": true,
+    "bEndAbilityOnChargeEnd": true,
+    "bUpdateLastFireTimeOnDischarge": true,
+    "bCanAutofireWithMinimalCharge": true,
+    "ReticleCornerAngles": [],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_cross_new.reticle_cross_new",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Vehicle.Nevada.EnergyCannon"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Vehicle.Nevada.EnergyCannon",
+      "Tag:Weapon:wid_nevada"
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A47CC95740A19CCE9249019E667FA9BC",
+      "SourceString": "Saucer",
+      "LocalizedString": "Saucer"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Nevada/Weapons/EnergyCannon/B_Prj_Ranged_Nevada_EnergyCannon.B_Prj_Ranged_Nevada_EnergyCannon_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "C54AD55040E68BA5FF9741B9F58C75FA",
+          "SourceString": "Saucer",
+          "LocalizedString": "Saucer"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/2dAssets/Banners/Season9/Wargames/T-Banners-Icons-UFO.T-Banners-Icons-UFO",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "AbilityWeapon.Ranged",
+          "Rarity.Rare",
+          "Trait.Explosive",
+          "Trait.Vehicle",
+          "Phoebe.items.Nevada.1",
+          "Phoebe.weapon.ranged.nevada.1",
+          "Item.Weapon.Vehicle.Nevada.EnergyCannon"
+        ]
+      }
+    ]
+  }
+}

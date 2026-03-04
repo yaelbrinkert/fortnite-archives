@@ -1,0 +1,127 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_RoseDust",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RoseDust/Emote_RoseDust_CMM_M.Emote_RoseDust_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RoseDust/Emote_RoseDust_CMF_M.Emote_RoseDust_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RoseDust/Emote_RoseDust_CLM_M.Emote_RoseDust_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RoseDust/Emote_RoseDust_CLF_M.Emote_RoseDust_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 15.8,
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_RoseDust:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_RoseDust.1"
+      }
+    ],
+    "ShotGridIds": [
+      60145
+    ],
+    "BaseShotGridId": 60145,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "710368544A96181E0F62EBA309DF3861",
+      "SourceString": "Arachrobatics",
+      "LocalizedString": "Arachrobatics"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EFDEB854486606C43D5887BA5E54E90B",
+      "SourceString": "Embody agility, grace, and power.",
+      "LocalizedString": "Embody agility, grace, and power."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "374BD642467F115DBE0AAF94B28C2E3D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 7.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-RoseDust.T-Icon-Emotes-E-RoseDust",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-RoseDust-L.T-Icon-Emotes-E-RoseDust-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.22",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.FairGlory",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

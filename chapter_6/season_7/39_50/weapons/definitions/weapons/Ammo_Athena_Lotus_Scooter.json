@@ -1,0 +1,111 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Ammo_Athena_Lotus_Scooter",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageSize": {
+        "X": 10.0,
+        "Y": 24.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'Icon-AmmoSingle-Special'",
+        "ObjectPath": "/Game/UI/Icons/Icon-Ammo/Icon-AmmoSingle-Special.0"
+      }
+    },
+    "AmmoIconBrush": {
+      "Brush_XS": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Special-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-32.0"
+        }
+      },
+      "Brush_S": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Special-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-32.0"
+        }
+      },
+      "Brush_M": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Special-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-32.0"
+        }
+      },
+      "Brush_L": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Special-64'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-64.0"
+        }
+      }
+    },
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-128.T-Icon-Special-128",
+      "SubPathString": ""
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 5.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-128.T-Icon-Special-128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 50.000046,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Launcher_Snowball_Lime_SR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/LimeSnowballLauncher/Blueprints/B_GrenadeLauncher_Snowball_Lime.B_GrenadeLauncher_Snowball_Lime_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/LimeSnowballLauncher/SkeletalMesh/LimeSnowballLauncher.LimeSnowballLauncher",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Launcher_Grenade_Athena_Snow_SR_Ore_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Abilities/GA_Ranged_GenericProjectileExplosive_SnowballLauncher_Athena.GA_Ranged_GenericProjectileExplosive_SnowballLauncher_Athena_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/LimeWeaponsCore/Ammo/Lime_AmmoDataRockets.Lime_AmmoDataRockets",
+      "SubPathString": ""
+    },
+    "bAllowTargetingDuringReload": true,
+    "bEnableWeaponMeshOverrideUpdates": false,
+    "ReticleCornerAngles": [],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCenterImageOffset": {
+      "X": 0.0,
+      "Y": 23.0
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Heavy",
+      "Item.Weapon.Ranged.Launcher.Snowball.LimeSnowball",
+      "Lime.Item.Weapon.Ranged.Launcher.Snowball.LimeSnowball"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Heavy",
+      "Item.Weapon.Ranged.Launcher.Snowball.LimeSnowball",
+      "Lime.Item.Weapon.Ranged.Launcher.Snowball.LimeSnowball",
+      "Tag:Weapon:wid_launcher_snowball_lime_sr"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Rockets",
+        "Legendary",
+        "Lime",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AA6A30424FCCB9EAC76E5CA366DE804E",
+      "SourceString": "Snowball Launcher",
+      "LocalizedString": "Snowball Launcher"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "435BFC134B3781886D8F5FBFB41D78D1",
+      "SourceString": "Lobs snowballs that burst dealing damage to everything in an area.",
+      "LocalizedString": "Lobs snowballs that burst dealing damage to everything in an area."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6C430D6449EF1E53A0158C896203B343",
+      "SourceString": "Snowball Launcher",
+      "LocalizedString": "Snowball Launcher"
+    },
+    "DataList": [
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/B_Prj_Ranged_GrenadeLauncher_Snowball_Athena.B_Prj_Ranged_GrenadeLauncher_Snowball_Athena_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/LimeSnowballLauncher/SkeletalMesh/LimeSnowballLauncher.LimeSnowballLauncher",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/Lime/PickUps/B_Pickup_Override_Lime.B_Pickup_Override_Lime_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_LimeLauncher_128'",
+            "ObjectPath": "/LimeWeaponsCore/Ranged/Icons/T_Icon_LimeLauncher_128.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Launcher_Pickup_Athena_Cue.Launcher_Pickup_Athena_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Launcher_Drop_Cue.Launcher_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/UI_DropWeaponImpact_Launcher_Cue.UI_DropWeaponImpact_Launcher_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 16.140182,
+          "Y": 31.380054,
+          "Z": 22.399998
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "578E12814E963208AB38DDA60E7D5FE2",
+          "SourceString": "Guns Ranged Grenade Launcher AOE",
+          "LocalizedString": "Guns Ranged Grenade Launcher AOE"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::V",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/LimeSnowballLauncher/Icons/T_Icon_Weapons_LimeSnowballLauncher.T_Icon_Weapons_LimeSnowballLauncher",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/LimeSnowballLauncher/Icons/T_Icon_Weapons_LimeSnowballLauncher_L.T_Icon_Weapons_LimeSnowballLauncher_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.206897,
+          "Yaw": 20.854452,
+          "Roll": -20.854452
+        },
+        "Scale": 1.1
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.Launcher.Grenade",
+          "phoebe.weapon.ranged.grenade_launcher",
+          "phoebe.items.grenade_launcher",
+          "Lime.Item.Weapon.Launcher",
+          "Lime.Item.Guard",
+          "Behavior.Injection.Lime.Behaviors.Ranged",
+          "Rarity.SuperRare",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Lime.Item.Weapon.Ranged.Launcher.Snowball.LimeSnowball",
+          "Item.Weapon.Ranged"
+        ]
+      }
+    ]
+  }
+}

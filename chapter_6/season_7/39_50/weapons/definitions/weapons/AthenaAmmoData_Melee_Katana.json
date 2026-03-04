@@ -1,0 +1,59 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_Melee_Katana",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageSize": {
+        "X": 128.0,
+        "Y": 128.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T-Icon-Weapons-Sharp-KatanaWeapon'",
+        "ObjectPath": "/KatanaGameplay/Items/Katana/Icons/T-Icon-Weapons-Sharp-KatanaWeapon.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/KatanaGameplay/Items/Katana/Icons/T-Icon-Weapons-Sharp-KatanaWeapon.T-Icon-Weapons-Sharp-KatanaWeapon",
+      "SubPathString": ""
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 4.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/KatanaGameplay/Items/Katana/Icons/T-Icon-Weapons-Sharp-KatanaWeapon.T-Icon-Weapons-Sharp-KatanaWeapon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/KatanaGameplay/Items/Katana/Icons/T-Icon-Weapons-Sharp-KatanaWeapon-L.T-Icon-Weapons-Sharp-KatanaWeapon-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      }
+    ]
+  }
+}

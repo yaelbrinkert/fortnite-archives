@@ -1,0 +1,176 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BlondeJaw",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.5,
+    "TraversalToStaticBlendTime": 0.5,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CMM_FE_M.Emote_Blondejaw_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CMF_FE_M.Emote_Blondejaw_CMF_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CLM_FE_M.Emote_Blondejaw_CLM_FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CLF_FE_M.Emote_Blondejaw_CLF_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 54.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CMM_M.Emote_Blondejaw_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CMF_M.Emote_Blondejaw_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CLM_M.Emote_Blondejaw_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlondeJaw/Emote_Blondejaw_CLF_M.Emote_Blondejaw_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_BlondeJaw:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_BlondeJaw.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "35871F6144B02EE62EE8778879726CC2",
+      "SourceString": "Lil' Godzilla Attack",
+      "LocalizedString": "Lil' Godzilla Attack"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BE7A15DB4FF64B6C4727399F88A5C936",
+      "SourceString": "Wreak havoc on lil' downtown.",
+      "LocalizedString": "Wreak havoc on lil' downtown."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "28A63C7248E6F829B3A19B841885C618",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.GiantRoyalty",
+          "Cosmetics.Emote.HideMimosaInPreview",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_IconEmotes_BlondeJaw.T_IconEmotes_BlondeJaw",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_IconEmotes_BlondeJaw_L.T_IconEmotes_BlondeJaw_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.SceneChanger.BattlePass"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BlondeJaw.Character_BlondeJaw",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      },
+      {
+        "SmallRewardIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LargeRewardIcon": {
+          "AssetPathName": "/BRCosmetics/2dAssets/Loadingscreens/Season33/T_QuestScreen_Reward/T_Icon_Emotes_BlondeJaw_512.T_Icon_Emotes_BlondeJaw_512",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

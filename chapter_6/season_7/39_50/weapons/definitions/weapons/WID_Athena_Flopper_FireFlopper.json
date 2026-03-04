@@ -1,0 +1,345 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_Flopper_FireFlopper",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/FireFlopper/B_FireFlopper_Weap_Athena.B_FireFlopper_Weap_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_M80"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/FireFlopper/GA_Athena_Flopper_FireFlopper.GA_Athena_Flopper_FireFlopper_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Parents/GA_Athena_Consumable_Pass_Parent.GA_Athena_Consumable_Pass_Parent_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/FireFlopper/WID_Athena_Flopper_FireFlopper.WID_Athena_Flopper_FireFlopper",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Consumable.Fish.FlopperFire"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.Fish.FlopperFire",
+      "Tag:Consumable:wid_athena_flopper_fireflopper"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "58DBC5E6426823551ECEB2BBD5AA71D2",
+      "SourceString": "Spicy Fish",
+      "LocalizedString": "Spicy Fish"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3DA5CCF64F1C3C97D191AF920DB73AE0",
+      "SourceString": "Spicy! Consume to gain a speed boost.",
+      "LocalizedString": "Spicy! Consume to gain a speed boost."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.MaxStackAmount.FireFlopper"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Game/Gadgets/Assets/Fish/Flamey_Fish/Meshes/Flamey_Fish.Flamey_Fish",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Flopper/Puffer_Pickup_Cue.Puffer_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Flopper/Fire_Flopper_Drop_Cue.Fire_Flopper_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Flopper/Flopper_Landed_Cue.Flopper_Landed_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 0.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 16.93792,
+          "Y": 19.064945,
+          "Z": 15.505004
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/FireFlopper/B_Prj_Athena_Consumable_Thrown_Flopper_FireFlopper.B_Prj_Athena_Consumable_Thrown_Flopper_FireFlopper_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'Flopper_Consumable_Lib'",
+            "ObjectPath": "/Game/Athena/Sounds/Items/Flopper/Flopper_Consumable_Lib.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/Fish_Icons/T_Ui_Fish_FlameyFish_Black_S.T_Ui_Fish_FlameyFish_Black_S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/Fish_Icons/T_Ui_Fish_FlameyFish_Black_L.T_Ui_Fish_FlameyFish_Black_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Consume.Health.HealthPack",
+          "Athena.ItemAction.Consume",
+          "Trait.Restoration.Health",
+          "Athena.Achievements.CatchFish",
+          "Trait.Restoration.Shields",
+          "Athena.ItemAction.Secondary.Throw",
+          "Trait.Fish.Big",
+          "Rarity.Rare",
+          "Item.Consumable.Fish.FlopperFire",
+          "Trait.Spicy",
+          "Item.SortsRight",
+          "Item.Consumable.Edible",
+          "HUD.PreferredSlotType.Consumable"
+        ]
+      }
+    ]
+  }
+}

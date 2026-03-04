@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Marinara",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Marinara/CMM/Emote_Marinara_CMM_M.Emote_Marinara_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Marinara/CMF/Emote_Marinara_CMF_M.Emote_Marinara_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Marinara/CLM/Emote_Marinara_CLM_M.Emote_Marinara_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Marinara/CLF/Emote_Marinara_CLF_M.Emote_Marinara_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      86215
+    ],
+    "BaseShotGridId": 86215,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2E44CEF24BCBF34C9A1B0587278BD96C",
+      "SourceString": "Kindness Punk",
+      "LocalizedString": "Kindness Punk"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EDC7E89B442E1D2BFF3AF5B8796D4A2D",
+      "SourceString": "A rebellion of kindness.",
+      "LocalizedString": "A rebellion of kindness."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "521045404BEFB461BF38FBB3EA0384D7",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-Marinara.T-Icon-Emotes-Marinara",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-Marinara-L.T-Icon-Emotes-Marinara-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Set.FlowerRelate",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

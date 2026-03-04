@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_Cattus",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Cap.CP_Bean_Head_Cap",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Fantasy.CP_Bean_Body_Fantasy",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_Cattus:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_Cattus.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "37E36D074E4A79D4D105428363C6C302",
+      "SourceString": "The Devourer",
+      "LocalizedString": "The Devourer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C4E03B4B480C54D579B9D99360DDA8CF",
+      "SourceString": "No longer trapped in his icy prison.",
+      "LocalizedString": "No longer trapped in his icy prison."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_Cattus.T_Bean_Cattus",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_Cattus_L.T_Bean_Cattus_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.11",
+          "Cosmetics.Set.IceStories",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'FrozenSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/FrozenSeries.0"
+        }
+      }
+    ]
+  }
+}

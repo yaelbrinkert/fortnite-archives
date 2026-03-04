@@ -1,0 +1,60 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_Commando_LeftyAndRighty",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Commando/Actives/LeftyAndRighty/GA_Commando_LeftyAndRighty.GA_Commando_LeftyAndRighty_C",
+      "SubPathString": ""
+    },
+    "AdditionalItemsToLoadWhenEquipped": [
+      {
+        "AssetPathName": "/SaveTheWorld/Abilities/Player/Commando/Actives/LeftyAndRighty/LeftyAndRightyWeapon.LeftyAndRightyWeapon",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/SaveTheWorld/Abilities/Player/Commando/Actives/LeftyAndRighty/LeftyAndRightyWeapon_ZipAndZap.LeftyAndRightyWeapon_ZipAndZap",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/SaveTheWorld/Abilities/Player/Commando/Actives/LeftyAndRighty/LeftyAndRighWeapon_Twinblast.LeftyAndRighWeapon_Twinblast",
+        "SubPathString": ""
+      }
+    ],
+    "DamageStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'RangedWeapons'",
+        "ObjectPath": "/Game/Items/Datatables/RangedWeapons.0"
+      },
+      "RowName": "LeftyRighty"
+    },
+    "ItemType": "EFortItemType::HeroAbility",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "ED02A0A54E9461D52F8E29895CCB34F4",
+      "SourceString": "Lefty and Righty",
+      "LocalizedString": "Lefty and Righty"
+    },
+    "DataList": [
+      {
+        "PreferredQuickbarSlot": 7
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Soldier/Abilities/Icon-Soldier-LeftyAndRighty-128.Icon-Soldier-LeftyAndRighty-128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.AllowQuickbarFocusForGamepadOnly",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

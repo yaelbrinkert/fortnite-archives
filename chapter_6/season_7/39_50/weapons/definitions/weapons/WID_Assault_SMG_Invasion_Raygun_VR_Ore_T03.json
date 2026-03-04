@@ -1,0 +1,337 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Assault_SMG_Invasion_Raygun_VR_Ore_T03",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/B_Assault_SMG_Invasion_RayGun.B_Assault_SMG_Invasion_RayGun_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/Assets/Meshes/Invasion_RayGun.Invasion_RayGun",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'RangedWeapons'",
+        "ObjectPath": "/Game/Items/Datatables/RangedWeapons.0"
+      },
+      "RowName": "Assault_SMG_Invasion_RayGun_VR_Ore_T03"
+    },
+    "AlterationSlotsLoadoutRow": "SlotLoadout.Explicit.Invasion.RayGun",
+    "BaselineAlterationSlotsLoadoutRow": "SlotLoadout.Explicit.Invasion.RayGun",
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/SaveTheWorld/Items/Alterations/CosmeticAlterations/Assault_CosmeticAlteration_01.Assault_CosmeticAlteration_01",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/GA_Ranged_Damage_Invasion_RayGunV3.GA_Ranged_Damage_Invasion_RayGunV3_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/SaveTheWorld/Items/Ammo/AmmoDataEnergyCell.AmmoDataEnergyCell",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "DisplayTier": "EFortDisplayTier::Malachite",
+    "bShouldMagazineSizeDisplayInfinity": true,
+    "ReticleCenterImage": {
+      "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/Reticle/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/Reticle/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_assault_smg_invasion_raygun_vr_ore_t03"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9116947D4D95F973B97FF981893AAD34",
+      "SourceString": "Shooting Star",
+      "LocalizedString": "Shooting Star"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "7E70AA2F44C0B50AFD3986BEF83B5A97",
+      "SourceString": "This alien weapon emits a star-fueled laser blast.",
+      "LocalizedString": "This alien weapon emits a star-fueled laser blast."
+    },
+    "DataList": [
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/Assets/Meshes/Invasion_RayGun.Invasion_RayGun",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Assault-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/SFX_RayGun/Invasion_RayGun_Pickup_Cue.Invasion_RayGun_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/SFX_RayGun/Invasion_RayGun_Drop_Cue.Invasion_RayGun_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 10.737177,
+          "Y": 36.93492,
+          "Z": 14.694895
+        }
+      },
+      {
+        "DisassembleRecipe": {
+          "DataTable": {
+            "ObjectName": "DataTable'DisassembleRecipes'",
+            "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+          },
+          "RowName": "Disassemble.Ranged.SMG.VR.Ore.T03"
+        },
+        "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+        "DisassembleDurabilityDegradeMaxLootPercent": 0.4
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "B7B9D2DF43BE68450F20A684FC50432F",
+          "SourceString": "smg energycell",
+          "LocalizedString": "smg energycell"
+        }
+      },
+      {
+        "RatingLookup": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'BaseItemRating'",
+            "ObjectPath": "/Game/Items/Datatables/BaseItemRating.0"
+          },
+          "RowName": "Default_VR_T03"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::V"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/UI_Assets/T_Icon_Weapons_Invasion_RayGunWeapon.T_Icon_Weapons_Invasion_RayGunWeapon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/Items/Weapons/Ranged/SMG/STWLlamaRoaster/UI_Assets/T_Icon_Weapons_Invasion_RayGunWeapon_L.T_Icon_Weapons_Invasion_RayGunWeapon_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Ranged.SMG",
+          "WeaponSet.Invasion"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.HasDurability",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

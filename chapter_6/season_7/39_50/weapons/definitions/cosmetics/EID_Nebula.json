@@ -1,0 +1,109 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Nebula",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Nebula/Emote_Nebula_CMM_M.Emote_Nebula_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Nebula/CMF/Emote_Nebula_CMF_M.Emote_Nebula_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Nebula/CLM/Emote_Nebula_CLM_M.Emote_Nebula_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Nebula/CLF/Emote_Nebula_CLF_M.Emote_Nebula_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      65219
+    ],
+    "BaseShotGridId": 65219,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "068291234B996936EFDD1E83C029B861",
+      "SourceString": "Taiko Drumbeat",
+      "LocalizedString": "Taiko Drumbeat"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F0BEC26A42B326551C46BF8A0BB791A2",
+      "SourceString": "Feel it in your heart.",
+      "LocalizedString": "Feel it in your heart."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "150F33F542588B696C3D8086F6BDA5C8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -15.0,
+          "Y": 85.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Nebula.T-Icon-Emotes-Nebula",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Nebula-L.T-Icon-Emotes-Nebula-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.24",
+          "Cosmetics.Set.AdventureGroup"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

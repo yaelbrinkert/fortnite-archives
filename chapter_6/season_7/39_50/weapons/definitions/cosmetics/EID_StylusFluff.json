@@ -1,0 +1,160 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_StylusFluff",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "UnEquip",
+        "EvaluationMode": "EMontageSelectionPredicateType::ActiveSwapPresence",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [],
+            "Item": {
+              "ObjectName": "AthenaPickaxeItemDefinition'Pickaxe_StylusFluff'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_StylusFluff.0"
+            }
+          }
+        ]
+      }
+    ],
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CMM/Emote_StylusFluff_CMM_FE_M.Emote_StylusFluff_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CMF/Emote_StylusFluff_CMF_FE_M.Emote_StylusFluff_CMF_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CLM/Emote_StylusFluff_CLM_FE_M.Emote_StylusFluff_CLM_FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CLF/Emote_StylusFluff_CLF_FE_M.Emote_StylusFluff_CLF_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CMM/Emote_StylusFluff_CMM_M.Emote_StylusFluff_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CMF/Emote_StylusFluff_CMF_M.Emote_StylusFluff_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CLM/Emote_StylusFluff_CLM_M.Emote_StylusFluff_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StylusFluff/CLF/Emote_StylusFluff_CLF_M.Emote_StylusFluff_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7D2BBD7F4B99379E0CFFF8B82EA1FE3A",
+      "SourceString": "Arm-Up",
+      "LocalizedString": "Arm-Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "622AE0A741359D9D4110E0B4BA392174",
+      "SourceString": "Never go into battle unarmed.",
+      "LocalizedString": "Never go into battle unarmed."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "18AD65974D62D009D09F588B0141558F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 5.0,
+          "Y": 80.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.BrightSound",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_StylusFluff.T_Icon_Emotes_StylusFluff",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_StylusFluff_L.T_Icon_Emotes_StylusFluff_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      }
+    ]
+  }
+}

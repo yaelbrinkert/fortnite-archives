@@ -1,0 +1,111 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Spotlight",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Spotlight/Emote_Spotlight_CMM_M.Emote_Spotlight_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Spotlight/Emote_Spotlight_CMF_M.Emote_Spotlight_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Spotlight/Emote_Spotlight_CLM_M.Emote_Spotlight_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Spotlight/Emote_Spotlight_CLF_M.Emote_Spotlight_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_Spotlight:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Spotlight.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "807D2AF74020765AFA67EFB89C928C54",
+      "SourceString": "Light It Up",
+      "LocalizedString": "Light It Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9551B5B14995BC386E9E8FBE56CF7801",
+      "SourceString": "You really bring the room together.",
+      "LocalizedString": "You really bring the room together."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "784388B142E20E43A458BB9C86A1031D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/TIconEmotesSpotlight.TIconEmotesSpotlight",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/TIconEmotesSpotlightL.TIconEmotesSpotlightL",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 20.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.31"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

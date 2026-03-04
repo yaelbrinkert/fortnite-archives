@@ -1,0 +1,291 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_GoldCat",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 20.0,
+      "Y": -20.0,
+      "Z": 0.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_GoldCat/Meshes/GoldCat_Glider.GoldCat_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/GoldCat/GoldCat_Glider_SurfStyle_AnimBP.GoldCat_Glider_SurfStyle_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/Game/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveSurf.Athena_PlayerCameraModeSkydiveSurf_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/GoldCat/Player/GoldCatPlayer_AnimSet.GoldCatPlayer_AnimSet",
+      "SubPathString": ""
+    },
+    "AttachSocket": "attach",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_GoldCat/FX/NS_Glider_GoldCat_Trail.NS_Glider_GoldCat_Trail",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_GoldCat/FX/NS_Glider_GoldCat_Deploy.NS_Glider_GoldCat_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Root",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/GoldCat/MSS_Glider_GoldCat_Open.MSS_Glider_GoldCat_Open",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/GoldCat/MSS_Glider_GoldCat_Open.MSS_Glider_GoldCat_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/GoldCat/MSS_Glider_GoldCat_Close.MSS_Glider_GoldCat_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/GoldCat/MSS_Glider_GoldCat_Thrust.MSS_Glider_GoldCat_Thrust",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/GoldCat/SC_GliderThrustLoop_Forward_GoldCat.SC_GliderThrustLoop_Forward_GoldCat",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_GoldCat:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_GoldCat.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      120112
+    ],
+    "ShotGridIds": [
+      111620,
+      120112
+    ],
+    "BaseShotGridId": 111620,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "22A697A140C7DD2135B4E38B4433E54E",
+      "SourceString": "Skelleshark",
+      "LocalizedString": "Skelleshark"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E6873CAE41AEBDF28BCCA69048EB81DD",
+      "SourceString": "A fearsome sky chum.",
+      "LocalizedString": "A fearsome sky chum."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -60.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 12.0,
+          "Yaw": -38.0,
+          "Roll": -12.0
+        },
+        "Scale": 0.55
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S32/T_Icon_Glider_GoldCat.T_Icon_Glider_GoldCat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S32/T_Icon_Glider_GoldCat_L.T_Icon_Glider_GoldCat_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Set.MuscleMoney",
+          "Cosmetics.Source.Season32.BattlePass.Free",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          270,
+          546,
+          162,
+          566,
+          122,
+          613,
+          245,
+          564,
+          724,
+          729,
+          779,
+          839,
+          57,
+          438,
+          971,
+          1070,
+          1073,
+          103,
+          834,
+          1529,
+          2389
+        ]
+      }
+    ]
+  }
+}

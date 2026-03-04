@@ -1,0 +1,288 @@
+{
+  "Type": "FortResourceItemDefinition",
+  "Name": "GoldItemData",
+  "Class": "UScriptClass'FortResourceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ResourceType": "EFortResourceType::GoldCurrency",
+    "AccumulatingStatType": "EFortReplicatedStat::WoodGathered",
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH2S1",
+        "CommonItem",
+        "GameItem",
+        "Item",
+        "OverrideCount_500"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3A1028394B99FD0685BD54B0BB72A06D",
+      "SourceString": "Gold",
+      "LocalizedString": "Gold"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CA1A46C44B528759878AC3ABAA2E2CB5",
+      "SourceString": "Basic resource found throughout the world.",
+      "LocalizedString": "Basic resource found throughout the world."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 10000.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Items/T-Icon-S-Loot-GoldCurrency.T-Icon-S-Loot-GoldCurrency",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Items/T-Icon-S-Loot-GoldCurrency-L.T-Icon-S-Loot-GoldCurrency-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "phoebe.items.resource",
+          "Item.Resource.Gold"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": -120.00001,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/Game/Items/Art_noLOD/Meshes/LlamaCoin.LlamaCoin",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 0.2,
+              "Hex": "33FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Athena/Sounds/LTMs/Wax/Wax_Coin_Appear_Cue.Wax_Coin_Appear_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/LTMs/Wax/Wax_Coin_Appear_Cue.Wax_Coin_Appear_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 2.3197055,
+          "Y": 17.58906,
+          "Z": 17.58906
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "E5A49B6340E981F6B5F87AA4641AD953",
+          "SourceString": "Resource gold coin",
+          "LocalizedString": "Resource gold coin"
+        }
+      }
+    ]
+  }
+}

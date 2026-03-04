@@ -1,0 +1,116 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_MerryMaking",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 521.604,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MerryMaking/CMM/Emote_MerryMaking_CMM_M.Emote_MerryMaking_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MerryMaking/CMF/Emote_MerryMaking_CMF_M.Emote_MerryMaking_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MerryMaking/CLM/Emote_MerryMaking_CLM_M.Emote_MerryMaking_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MerryMaking/CLF/Emote_MerryMaking_CLF_M.Emote_MerryMaking_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "PreviewLength": 28.4,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AC3B703D4E17E24BB3C24982F1E41B7B",
+      "SourceString": "Flagpole Sitta",
+      "LocalizedString": "Flagpole Sitta"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DB5912D3471ACEE74F9420A973816CD8",
+      "SourceString": "Some sick-ish tricks.",
+      "LocalizedString": "Some sick-ish tricks."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "C76D6B88499E4D7869FA2D8DBA0263B9",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 100.0,
+          "Z": 40.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.UserFacingFlags.Emote.Traversal"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_MerryMaking.T_Icon_Emotes_MerryMaking",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_MerryMaking_L.T_Icon_Emotes_MerryMaking_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

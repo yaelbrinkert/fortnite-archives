@@ -1,0 +1,143 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Armadillo",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Default",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_Armadillo.CP_Athena_Head_M_Armadillo",
+              "SubPathString": ""
+            }
+          },
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_Armadillo.CP_Athena_Head_F_Armadillo",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_EmptyHead.CP_Athena_Head_M_EmptyHead",
+              "SubPathString": ""
+            }
+          },
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_EmptyHead.CP_Head_F_EmptyHead",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Armadillo/Emote_ArmadilloP1_CMM_M.Emote_ArmadilloP1_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Armadillo/Emote_ArmadilloP1_CMF_M.Emote_ArmadilloP1_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_417_Athena_Commando_F_Armadillo.CID_A_417_Athena_Commando_F_Armadillo",
+      "SubPathString": ""
+    },
+    "TagsWhichIndicateEmoteParent": [
+      "Cosmetics.Set.ArmedRobotSquad"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_Armadillo:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Armadillo.1"
+      }
+    ],
+    "ShotGridIds": [
+      57508
+    ],
+    "BaseShotGridId": 57508,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7A4D5A2C48BE70A6DE748D9BA6B42A93",
+      "SourceString": "Battle Stances!",
+      "LocalizedString": "Battle Stances!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "17A78B6C4D6F48B16F1DE180272D0449",
+      "SourceString": "Gear up for battle!",
+      "LocalizedString": "Gear up for battle!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "1CA97AAB433F08A5966A899B5E8AD8C6",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.20",
+          "Cosmetics.Set.ArmedRobotSquad",
+          "Cosmetics.UserFacingFlags.Transform",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-ArmadilloFEmote.T-Icon-Emotes-ArmadilloFEmote",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-ArmadilloFEmote-L.T-Icon-Emotes-ArmadilloFEmote-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

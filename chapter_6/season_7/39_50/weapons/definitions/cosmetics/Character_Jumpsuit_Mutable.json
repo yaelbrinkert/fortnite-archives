@@ -1,0 +1,1187 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_Jumpsuit_Mutable",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/CP/CP_Athena_Head_M_Jumpsuit_Mutable.CP_Athena_Head_M_Jumpsuit_Mutable",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/CP/CP_Athena_Body_M_Jumpsuit_Mutable.CP_Athena_Body_M_Jumpsuit_Mutable",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "VariantChannelsToNeverSendToMCP": [
+      {
+        "TagName": "Cosmetics.Variant.Channel.Slot.20"
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCustomizableObjectParameterVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectParameterVariant_4'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.6"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectParameterVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectParameterVariant_2'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.4"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectParameterVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectParameterVariant_3'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.5"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectParameterVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectParameterVariant_1'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.3"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectParameterVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectParameterVariant_0'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.2"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_4'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.19"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_11'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.11"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_10'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.10"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_6'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.21"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_12'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.12"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_17'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.16"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_9'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.23"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_8'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.22"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_5'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.20"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_0'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.8"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_1'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.9"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_15'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.15"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_14'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.14"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_13'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.13"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_2'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.17"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectSprayVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectSprayVariant_3'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.18"
+      },
+      {
+        "ObjectName": "FortCustomizableObjectParameterVariant'Character_Jumpsuit_Mutable:FortCustomizableObjectParameterVariant_5'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.7"
+      },
+      {
+        "ObjectName": "FortCosmeticPropertyVariant'Character_Jumpsuit_Mutable:FortCosmeticPropertyVariant_0'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.1"
+      }
+    ],
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "MeshCosmeticsAppliedSchemaData'Character_Jumpsuit_Mutable:MeshCosmeticsAppliedSchemaData_0'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.25"
+      },
+      {
+        "ObjectName": "MeshCosmeticsAdditionalData_SpecifyMaterialOnlyParams'Character_Jumpsuit_Mutable:MeshCosmeticsAdditionalData_SpecifyMaterialOnlyParams_0'",
+        "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.24"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Corruption"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat5"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Mesh"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat0"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Parts"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle0"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Pattern"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat14"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.RichColor"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Color.003"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_3, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.14"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_16, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.8"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_2, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.9"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_27, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.13"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_32, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.7"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_1, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.12"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_4, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.10"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_6, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.11"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_21, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.15"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_7, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.0"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_31, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.1"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_8, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.4"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_1, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.5"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_9, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.6"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_3, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.2"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_29, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.3"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.20"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Stage0"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      },
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Corruption"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat1"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Mesh"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat5"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Parts"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle8"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Pattern"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat17"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.RichColor"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Color.004"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_9, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.14"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_1, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.8"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_8, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.9"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_6, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.13"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_2, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.7"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_7, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.12"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_16, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.10"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_3, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.11"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_3, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.15"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_27, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.0"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_4, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.1"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_31, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.4"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_21, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.5"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_6, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.6"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_29, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.2"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_32, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.3"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.20"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Stage0"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      },
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Corruption"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat4"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Mesh"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat2"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Parts"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle13"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Pattern"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat18"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.RichColor"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Color.001"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.14"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_31, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.8"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_21, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.9"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_9, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.13"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_3, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.7"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_16, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.12"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_6, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.10"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_8, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.11"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_JumpsuitMasks_6, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.15"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_29, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.0"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_1, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.1"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_27, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.4"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_4, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.5"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_32, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.6"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_7, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.2"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "SprayAsset=AthenaDance:Spray_Jumpsuit_2, Saturation=1.00, Wear=0.00, Scale= 1.00, Rotation=0.00",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.3"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.ObjectSpray"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_Jumpsuit_Mutable'",
+              "ObjectPath": "/MeshCosmetics/Jumpsuit/M_MED_Jumpsuit/Character_Jumpsuit_Mutable.0"
+            },
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Slot.20"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Stage0"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ShotGridIds": [
+      58438
+    ],
+    "BaseShotGridId": 58438,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F63EFCE64348EABF4CF327AE45B9518D",
+      "SourceString": "Alias",
+      "LocalizedString": "Alias"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A76BC997494AA3C2ABEB0283BE1AD19B",
+      "SourceString": "Secure the bag.",
+      "LocalizedString": "Secure the bag."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Variants/S23/Characters/T-Soldier-Hero-Jumpsuit-Skin-C-Locker-L.T-Soldier-Hero-Jumpsuit-Skin-C-Locker-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Variants/S23/Characters/T-Soldier-Hero-Jumpsuit-Skin-C-Locker.T-Soldier-Hero-Jumpsuit-Skin-C-Locker",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.StepType.ShoesSneakers",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Glove",
+          "Cosmetics.Variant.FilterSet.JumpsuitMale",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Set.LeaveExpert",
+          "Cosmetics.FrontEnd.ForceHighQualityMips",
+          "Cosmetics.Filter.Season.26",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.FrontEndPose.DontCrossArms",
+          "Cosmetics.Gating.Allow.Shoes"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          537,
+          490,
+          238,
+          541,
+          231,
+          611,
+          359,
+          247,
+          114,
+          248,
+          162,
+          239,
+          563,
+          570,
+          571,
+          574,
+          575,
+          166,
+          579,
+          6,
+          262,
+          7,
+          26,
+          713,
+          40,
+          741,
+          742,
+          169,
+          179,
+          112,
+          63,
+          426,
+          1279,
+          661,
+          1280,
+          1025
+        ]
+      }
+    ]
+  }
+}

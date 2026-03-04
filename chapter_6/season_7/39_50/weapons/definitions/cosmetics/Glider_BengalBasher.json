@@ -1,0 +1,279 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_BengalBasher",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 200.0,
+      "Y": -20.0,
+      "Z": -50.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BengalBasher/Meshes/BengalBasher_Glider.BengalBasher_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/BengalBasher/BengalBasher_Glider_AnimBP.BengalBasher_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/BengalBasher/Player/BengalBasher_PlayerAnimSet.BengalBasher_PlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BengalBasher/FX/NS_Glider_BengalBasher.NS_Glider_BengalBasher",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Root",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/SC_GliderOpen_BengalBasher.SC_GliderOpen_BengalBasher",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/SC_GliderOpen_BengalBasher.SC_GliderOpen_BengalBasher",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/SC_GliderClose_BengalBasher.SC_GliderClose_BengalBasher",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/GliderThrustLoop_BengalBasher_Cue.GliderThrustLoop_BengalBasher_Cue",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/GliderThrustFwd_BengalBasher_Cue.GliderThrustFwd_BengalBasher_Cue",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            },
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/SC_GliderThrustBkwd_BengalBasher.SC_GliderThrustBkwd_BengalBasher",
+                "SubPathString": ""
+              },
+              "GateValue": 0.7,
+              "Direction": "ELayeredAudioTriggerDir::Backward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/SC_GliderThrustSide_BengalBasher.SC_GliderThrustSide_BengalBasher",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/BengalBasher/SC_GliderThrustSide_BengalBasher.SC_GliderThrustSide_BengalBasher",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/BRCosmetics/Environments/FrontEnd/Blueprints/ItemPreview/Cameras_Glider/GliderItemPreview_BengalBasher.GliderItemPreview_BengalBasher_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      78375
+    ],
+    "BaseShotGridId": 78375,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "314D3893458BCD89E2DFE2936ADD4F5C",
+      "SourceString": "Victory Vaunter",
+      "LocalizedString": "Victory Vaunter"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "751780E348BC75009F3453B3D7C50FD4",
+      "SourceString": "Show them what a champion looks like.",
+      "LocalizedString": "Show them what a champion looks like."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 100.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 2.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S28/T-Icon_Glider-BengalBasher.T-Icon_Glider-BengalBasher",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S28/T-Icon_Glider-BengalBasher-L.T-Icon_Glider-BengalBasher-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Source.Season28.BattlePass.Paid",
+          "Cosmetics.Set.HugeKittyFight"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          247,
+          616,
+          994,
+          1295,
+          352,
+          1329,
+          1330,
+          1334,
+          2306,
+          1589,
+          2426,
+          284,
+          2874,
+          2964,
+          2965,
+          2968,
+          2969,
+          3682,
+          3919
+        ]
+      }
+    ]
+  }
+}

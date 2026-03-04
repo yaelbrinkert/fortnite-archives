@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Dazzle",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Dazzle/CMM/Emote_Dazzle_CMM_M.Emote_Dazzle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Dazzle/Emote_Dazzle_CMF_M.Emote_Dazzle_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Dazzle/CLM/Emote_Dazzle_CLM_M.Emote_Dazzle_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Dazzle/CLF/Emote_Dazzle_CLF_M.Emote_Dazzle_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      65221
+    ],
+    "BaseShotGridId": 65221,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "06AE33BD423951A2C9C16DAD9EFE5E42",
+      "SourceString": "Expressionism",
+      "LocalizedString": "Expressionism"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "40147C3B4961ABA0BAB5EEA70511F8AD",
+      "SourceString": "Color your reality however you want.",
+      "LocalizedString": "Color your reality however you want."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "233BC33A4D3482E4E80884885A1BF37B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 80.0,
+          "Z": 20.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Dazzle.T-Icon-Emotes-Dazzle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Dazzle-L.T-Icon-Emotes-Dazzle-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.24",
+          "Cosmetics.Set.OldRemake",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

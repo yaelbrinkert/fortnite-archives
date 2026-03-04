@@ -1,0 +1,109 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_AmberVine",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T-Icon-ShadowOrb-32'",
+        "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-ShadowOrb-32.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "RegenCooldown": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'PlotTwistGameData'",
+          "ObjectPath": "/PlotTwist/DataTables/PlotTwistGameData.0"
+        },
+        "RowName": "Default.AmberVine.Ammo.RechargeTime"
+      }
+    },
+    "AmmoIconBrush": {
+      "Brush_XS": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-ShadowOrb-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-ShadowOrb-32.0"
+        }
+      },
+      "Brush_S": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-ShadowOrb-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-ShadowOrb-32.0"
+        }
+      },
+      "Brush_M": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-ShadowOrb-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-ShadowOrb-32.0"
+        }
+      },
+      "Brush_L": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-ShadowOrb-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-ShadowOrb-32.0"
+        }
+      }
+    },
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'PlotTwistGameData'",
+              "ObjectPath": "/PlotTwist/DataTables/PlotTwistGameData.0"
+            },
+            "RowName": "Default.AmberVine.Ammo.Count"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-ShadowOrb-32.T-Icon-ShadowOrb-32",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -5.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.999997,
+          "Yaw": -179.99995,
+          "Roll": -3.0000033
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

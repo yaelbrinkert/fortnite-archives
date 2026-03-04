@@ -1,0 +1,218 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Jugular",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CMM_M_FrontEnd.Emote_Jugular_Jug_CMM_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CMF_M_FrontEnd.Emote_Jugular_Jug_CMF_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CLM_M_FrontEnd.Emote_Jugular_Jug_CLM_M_FrontEnd",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CLF_M_FrontEnd.Emote_Jugular_Jug_CLF_M_FrontEnd",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_Jugular.GAB_Emote_Jugular_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CMM_M.Emote_Jugular_Jug_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CMF_M.Emote_Jugular_Jug_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CLF_M.Emote_Jugular_Jug_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Jug/Emote_Jugular_Jug_CLM_M.Emote_Jugular_Jug_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 30.476187,
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_LargeGroupEmote.ItemOnPawnPreview_LargeGroupEmote_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      49013
+    ],
+    "BaseShotGridId": 49013,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2ADA9D2D4826704B1C030D8E0F91D3C3",
+      "SourceString": "Jug Band",
+      "LocalizedString": "Jug Band"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A59BFC1F4872C5964A87C4B71851CA86",
+      "SourceString": "Every rollicking hootenanny starts with a single jug.",
+      "LocalizedString": "Every rollicking hootenanny starts with a single jug."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "68819A0543B8B5D4070748BA2B0EF2A6",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.21",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Jugular.T-Icon-Emotes-E-Jugular",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Jugular-L.T-Icon-Emotes-E-Jugular-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": -120.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 35.0,
+              "Y": -80.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": {
+              "ObjectName": "AthenaDanceItemDefinition'EID_Jugular_Banjo'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Jugular_Banjo.0"
+            },
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 30.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 35.0,
+                "Y": -160.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_Jugular_Fiddle'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Jugular_Fiddle.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 0.0
+            },
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 0.0,
+                "Y": -240.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_Jugular_Guitar'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Jugular_Guitar.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 30.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Automatic",
+          "GroupEmotePreviewFollowerJoinDelayOverride": -1.0
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "SpecificationMethod": "ECosmeticItemPreviewActorOverrideMethod::ByCosmeticPreviewActorClassMapTag",
+        "ExplicitPreviewActorOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorIdentifierTag": {
+          "TagName": "None"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_370_FuchsiaFemale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Fuchsia_Female/Meshes/Fuchsia_Female_Glider.Fuchsia_Female_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Fuchsia_Female/Fuchsia_Female_SurfStyle_AnimBP.Fuchsia_Female_SurfStyle_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/Game/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveSurf.Athena_PlayerCameraModeSkydiveSurf_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Fuchsia_Female/Player/Fuchsia_Female_PlayerAnimSet.Fuchsia_Female_PlayerAnimSet",
+      "SubPathString": ""
+    },
+    "AttachSocket": "attach",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Fuchsia_Female/FX/NS_Glider_Fuchsia_Female.NS_Glider_Fuchsia_Female",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FuchsiaFemale/SC_GliderOpen_FuchsiaFemale.SC_GliderOpen_FuchsiaFemale",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FuchsiaFemale/SC_GliderClose_FuchsiaFemale.SC_GliderClose_FuchsiaFemale",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FuchsiaFemale/SC_GliderThrustLoop_FuchsiaFemale.SC_GliderThrustLoop_FuchsiaFemale",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/FuchsiaFemale/SC_GliderThrustStartLarge_FuchsiaFemale.SC_GliderThrustStartLarge_FuchsiaFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/FuchsiaFemale/SC_GliderThrustStartSmall_FuchsiaFemale.SC_GliderThrustStartSmall_FuchsiaFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/FuchsiaFemale/SC_GliderThrustStartSmall_FuchsiaFemale.SC_GliderThrustStartSmall_FuchsiaFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_ID_370_FuchsiaFemale:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_370_FuchsiaFemale.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/BRCosmetics/Environments/FrontEnd/Blueprints/ItemPreview/Cameras_Glider/GliderItemPreview_Fuchsia.GliderItemPreview_Fuchsia_C",
+      "SubPathString": ""
+    },
+    "VariantShotGridIds": [
+      57874,
+      58457
+    ],
+    "ShotGridIds": [
+      57874,
+      57874,
+      58457
+    ],
+    "BaseShotGridId": 57874,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "17E3792D4C34B41E00766183EE99105C",
+      "SourceString": "Dragon Rider",
+      "LocalizedString": "Dragon Rider"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E6A6DC2F42FEA5DCCED3F6BA58BD706E",
+      "SourceString": "Spirit-bound dragon familiar.",
+      "LocalizedString": "Spirit-bound dragon familiar."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": -235.0,
+          "Roll": -5.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-FuchsiaGlider.T-Icon_Glider-FuchsiaGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-FuchsiaGlider-L.T-Icon_Glider-FuchsiaGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.21",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Set.LizardDriver",
+          "Cosmetics.Source.Season21.BattlePass.Paid"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          555,
+          249,
+          122,
+          105,
+          170,
+          244,
+          591,
+          613,
+          246,
+          1339,
+          670,
+          724,
+          767,
+          35,
+          585,
+          484,
+          931,
+          2574,
+          1233,
+          2317,
+          2792
+        ]
+      }
+    ]
+  }
+}

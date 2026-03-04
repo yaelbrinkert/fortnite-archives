@@ -1,0 +1,70 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_CeremonialGuard_Fencer_NPC",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_EmptyHead.CP_Head_F_EmptyHead",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_CeremonialGuard_Fencer_NPC.CP_Athena_Body_F_CeremonialGuard_Fencer_NPC",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      80396
+    ],
+    "BaseShotGridId": 80396,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8FB3E07948838E10971B26B4079458F3",
+      "SourceString": "NPC",
+      "LocalizedString": "NPC"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5AD1C3CD4E9DFF0CDD02CC9B64064BD4",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "AthenaCharacterItemDefinition.Character_CeremonialGuard_Fencer.short_description",
+      "SourceString": "Character",
+      "LocalizedString": "Character"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Outfit.T_Placeholder_Item_Outfit",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.StepType.BootsCombat",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Glove"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

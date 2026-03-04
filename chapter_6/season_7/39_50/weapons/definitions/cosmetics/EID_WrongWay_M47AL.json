@@ -1,0 +1,94 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_WrongWay_M47AL",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WrongWay/Emote_WrongWay_CMM_M.Emote_WrongWay_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WrongWay/Emote_WrongWay_CMF_M.Emote_WrongWay_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WrongWay/Emote_WrongWay_CLF_M.Emote_WrongWay_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WrongWay/Emote_WrongWay_CLM_M.Emote_WrongWay_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      55531
+    ],
+    "BaseShotGridId": 55531,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FB02EC694CAC9A5C15FF22917E87E93B",
+      "SourceString": "This Is The Way",
+      "LocalizedString": "This Is The Way"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D4904CD3433F552B5680A980047B9EF1",
+      "SourceString": "A Mandalorian mantra.",
+      "LocalizedString": "A Mandalorian mantra."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "1793117646FB60D4A0B103956ABCA868",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-WrongWay.T-Icon-Emotes-E-WrongWay",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-WrongWay-L.T-Icon-Emotes-E-WrongWay-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.Set.LooseBeam"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

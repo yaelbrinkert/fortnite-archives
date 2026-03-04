@@ -1,0 +1,839 @@
+{
+  "Type": "FortWeaponMeleeItemDefinition",
+  "Name": "WID_Piercing_Junkyard_VR_Ore_T03",
+  "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/SaveTheWorld/Weapons/FORT_Melee/Blueprints/Piercing/B_Melee_Piercing_Spear_Junkyard.B_Melee_Piercing_Spear_Junkyard_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/SaveTheWorld/Weapons/FORT_Melee/Meshes/Junk_Samurai_Spear_Melee.Junk_Samurai_Spear_Melee",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'MeleeWeapons'",
+        "ObjectPath": "/Game/Items/Datatables/MeleeWeapons.0"
+      },
+      "RowName": "Piercing_Spear_Medieval_VR_Ore_T03"
+    },
+    "AlterationSlotsLoadoutRow": "SlotLoadout.Explicit.Medieval.Spear",
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_PiercingDamage.BaseAlteration_PiercingDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Weapons/Melee/Spear/GAB_Melee_Spear_Combo.GAB_Melee_Spear_Combo_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Weapons/Melee/Spear/GAB_Melee_Spear_Joust.GAB_Melee_Spear_Joust_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/SaveTheWorld/Abilities/Weapons/Melee/Spear/GAB_Melee_Spear_Joust.GAB_Melee_Spear_Joust_C",
+        "SubPathString": ""
+      }
+    ],
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "DisplayTier": "EFortDisplayTier::Malachite",
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_piercing_junkyard_vr_ore_t03"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "33DC1E3F424766484BCDF788B9719CB4",
+      "SourceString": "Scrapper Spear",
+      "LocalizedString": "Scrapper Spear"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "378E8D85422721893E6F35A4A4FA8AE9",
+      "SourceString": "Spear: A spear that combines a good mix of damage and impact to deliver long range thrusting attacks. Joust: Charge forward, damaging and knocking back smaller enemies in your way.",
+      "LocalizedString": "Spear: A spear that combines a good mix of damage and impact to deliver long range thrusting attacks. Joust: Charge forward, damaging and knocking back smaller enemies in your way."
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/SaveTheWorld/Weapons/FORT_Melee/Meshes/Junk_Samurai_Spear_Melee.Junk_Samurai_Spear_Melee",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Spear-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/SaveTheWorld/Sounds/Fort_GamePlay_Sounds/Loot/Pickup_Pierce2_Cue.Pickup_Pierce2_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/SaveTheWorld/Sounds/Fort_GamePlay_Sounds/Loot/Pickup_Pierce_Cue.Pickup_Pierce_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 5.489607,
+          "Y": 8.0149355,
+          "Z": 83.15922
+        }
+      },
+      {
+        "DisassembleRecipe": {
+          "DataTable": {
+            "ObjectName": "DataTable'DisassembleRecipes'",
+            "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+          },
+          "RowName": "Disassemble.Melee.Shaft.VR.Ore.T03"
+        },
+        "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+        "DisassembleDurabilityDegradeMaxLootPercent": 0.4
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "4C709C9D408DC10DEC853AA8E1B42710",
+          "SourceString": "Melee Piercing Spear Pitchfork Combat",
+          "LocalizedString": "Melee Piercing Spear Pitchfork Combat"
+        }
+      },
+      {
+        "RatingLookup": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'BaseItemRating'",
+            "ObjectPath": "/Game/Items/Datatables/BaseItemRating.0"
+          },
+          "RowName": "Default_VR_T03"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::V"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-JunkSamuraiSpear.T-Icon-Weapons-JunkSamuraiSpear",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-JunkSamuraiSpear-L.T-Icon-Weapons-JunkSamuraiSpear-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Melee.Piercing.Spear"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 30.0,
+          "Yaw": 5.0,
+          "Roll": 45.0
+        },
+        "Scale": 0.5
+      },
+      {
+        "ImpactPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ImpactNiagaraPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.HasDurability",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

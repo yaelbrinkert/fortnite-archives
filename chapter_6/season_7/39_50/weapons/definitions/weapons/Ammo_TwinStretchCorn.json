@@ -1,0 +1,73 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Ammo_TwinStretchCorn",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bIsConsumed": {
+      "Value": 0.0
+    },
+    "AmmoIconBrush": {
+      "Brush_S": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'striking-diamonds'",
+          "ObjectPath": "/TwinStretchCorn/Assets/TEMP/Icons/striking-diamonds.0"
+        }
+      },
+      "Brush_M": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'striking-diamonds'",
+          "ObjectPath": "/TwinStretchCorn/Assets/TEMP/Icons/striking-diamonds.0"
+        }
+      },
+      "Brush_L": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'striking-diamonds'",
+          "ObjectPath": "/TwinStretchCorn/Assets/TEMP/Icons/striking-diamonds.0"
+        }
+      }
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 5.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/TwinStretchCorn/Assets/TEMP/Icons/striking-diamonds.striking-diamonds",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

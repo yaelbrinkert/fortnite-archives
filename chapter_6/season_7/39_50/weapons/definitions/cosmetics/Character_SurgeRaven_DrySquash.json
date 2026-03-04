@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_SurgeRaven_DrySquash",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_SurgeRaven_Pack.CP_Athena_Head_F_SurgeRaven_Pack",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_SurgeRaven_Zany.CP_Athena_Body_F_SurgeRaven_Zany",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_SurgeRaven_Zany_FaceAcc.CP_F_MED_SurgeRaven_Zany_FaceAcc",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'Character_SurgeRaven_DrySquash:FortCosmeticCharacterPartVariant_3'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_SurgeRaven_DrySquash.1"
+      }
+    ],
+    "ShotGridIds": [
+      166816
+    ],
+    "BaseShotGridId": 166816,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D62493134154E3F985221EB2A40E3579",
+      "SourceString": "The Bride Yellow Jacket",
+      "LocalizedString": "The Bride Yellow Jacket"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A72EDF14495F780E1743A6B2A3F289C8",
+      "SourceString": "Here comes the bride.",
+      "LocalizedString": "Here comes the bride."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S39/T_Soldier_SurgeRaven_Pack.T_Soldier_SurgeRaven_Pack",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S39/T_Soldier_SurgeRaven_Pack_L.T_Soldier_SurgeRaven_Pack_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Gating.Allow.Shoes",
+          "SoundLibrary.ID.StepType.ShoesSneakers",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

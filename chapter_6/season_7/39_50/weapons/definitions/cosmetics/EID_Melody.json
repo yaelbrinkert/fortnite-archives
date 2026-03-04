@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Melody",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Melody/CMM/Emote_Melody_CMM_M_New.Emote_Melody_CMM_M_New",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Melody/CMF/Emote_Melody_CMF_M.Emote_Melody_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Melody/CLM/Emote_Melody_CLM_M_New.Emote_Melody_CLM_M_New",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Melody/CLF/Emote_Melody_CLF_M_New.Emote_Melody_CLF_M_New",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4E24DB7948918A1CAC2159B87F89B1C7",
+      "SourceString": "Mine",
+      "LocalizedString": "Mine"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4B4C18454126FFD9D158DDA0EAE3C1FA",
+      "SourceString": "Kiss it better.",
+      "LocalizedString": "Kiss it better."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2C30D6B54FC46A5FE1F92BBFD11422C0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 55.0,
+          "Z": 18.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-Melody.T-Icon-Emotes-Melody",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-Melody-L.T-Icon-Emotes-Melody-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.30",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SonnyBoy",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnyBoy/CMM/Emote_SonnyBoy_CMM_M.Emote_SonnyBoy_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnyBoy/CMF/Emote_SonnyBoy_CMF_M.Emote_SonnyBoy_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnyBoy/CLM/Emote_SonnyBoy_CLM_M.Emote_SonnyBoy_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnyBoy/CLF/Emote_SonnyBoy_CLF_M.Emote_SonnyBoy_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "067A87E544E1FEE4ECF7EEB770055459",
+      "SourceString": "Pop 'n Lockdown",
+      "LocalizedString": "Pop 'n Lockdown"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D0D832EA47949E667C06E49758870D7D",
+      "SourceString": "Lock it up and slow it down.",
+      "LocalizedString": "Lock it up and slow it down."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8A6BC8C84002B889C38FFE9E74F14277",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 5.0,
+          "Y": -40.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Filter.Season.39"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_SonnyBoy.T_Icon_Emotes_SonnyBoy",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_SonnyBoy_L.T_Icon_Emotes_SonnyBoy_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_Grenade_Molotov",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_Grenade_Molotov_Athena.B_Grenade_Molotov_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Athena_MolotovCocktail"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/MolotovCocktail/GA_Athena_MolotovCocktail_WithTrajectory.GA_Athena_MolotovCocktail_WithTrajectory_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/MolotovCocktail/GA_Athena_MolotovCocktail_SecondaryAimed.GA_Athena_MolotovCocktail_SecondaryAimed_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/MolotovCocktail/WID_Athena_Grenade_Molotov.WID_Athena_Grenade_Molotov",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Weapon.Ranged.Grenade",
+      "Item.Consumable.Molotov"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Grenade",
+      "Item.Consumable.Molotov",
+      "Tag:Weapon:wid_athena_grenade_molotov"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH2S3",
+        "ConsumableItem",
+        "DamageItem",
+        "FireStartingItem",
+        "Item",
+        "RareItem",
+        "Throwable"
+      ]
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8F2BC8354B85A41D60941F8A118F208A",
+      "SourceString": "Firefly Jar",
+      "LocalizedString": "Firefly Jar"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2B26B5E441999D2DE2EB37BACC2A904E",
+      "SourceString": "Burn Baby",
+      "LocalizedString": "Burn Baby"
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.MaxStackAmount.Molotov"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/Game/Gadgets/Assets/Fire_Jar/Meshes/Fire_Jar.Fire_Jar",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.16773131,
+            "Y": 0.044942476,
+            "Z": 0.9512506,
+            "W": 0.25488964,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0000001
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.5,
+            "Y": 1.5,
+            "Z": 1.5
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_Weapons/Grenades/Frag/Grenade_Frag_Pickup_Cue.Grenade_Frag_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Item_Consumables_Generic_Drop_Cue.Item_Consumables_Generic_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 8.904766,
+          "Y": 5.9869866,
+          "Z": 10.855682
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "CAB8701D4FF27B8A1E8F3CA6D561104E",
+          "SourceString": "Gadget UtilityItem M80 Grenade",
+          "LocalizedString": "Gadget UtilityItem M80 Grenade"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/OnlyDamageTooltipStat.OnlyDamageTooltipStat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-FireJar.T-T-Icon-BR-FireJar",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-FireJar-L.T-T-Icon-BR-FireJar-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/MolotovCocktail/B_Prj_Athena_Grenade_MolotovCocktail.B_Prj_Athena_Grenade_MolotovCocktail_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [],
+        "WeaponOwnerSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'Molotov_Lib'",
+            "ObjectPath": "/Game/Sounds/Fort_Weapons/Grenades/FireJar/Molotov_Lib.0"
+          }
+        ],
+        "WeaponCollectionTag": []
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Weapon.Ranged.Heavy.Grenade",
+          "Bacchus.Throw.Grenade.Explosive",
+          "Athena.ItemAction.Throw",
+          "Trait.Explosive",
+          "phoebe.weapon.throwable.grenade",
+          "Athena.ItemAction.Secondary.Throw",
+          "Rarity.Rare",
+          "phoebe.items.Grenade.GrenadeM",
+          "Weapon.Ranged.Grenade.Molotov",
+          "Item.Consumable.Molotov",
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Utility",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Cosmetics.OverrideWrapBehavior.DoNotOverride",
+          "Cosmetics.Wrap.DoNotApplyOnPickups",
+          "Athena.HUD.Pickup.ShowTotalAmmo"
+        ]
+      }
+    ]
+  }
+}

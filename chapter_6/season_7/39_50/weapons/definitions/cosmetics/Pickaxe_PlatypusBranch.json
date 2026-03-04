@@ -1,0 +1,201 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_PlatypusBranch",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXOnPawnPreviewOffset": {
+      "X": 15.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "PickaxeDualWieldPreviewOffset": {
+      "X": 1.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": -11.0,
+        "Z": 20.0
+      },
+      "CylinderHalfHeight": 92.0,
+      "CylinderRadius": 95.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_PlatypusBranch'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_PlatypusBranch.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_PlatypusBranch:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_PlatypusBranch.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      128840,
+      138158
+    ],
+    "ShotGridIds": [
+      128840,
+      128840,
+      138158
+    ],
+    "BaseShotGridId": 128840,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "90A5771E4A59E6DA0D9AF8A8A5B4AF36",
+      "SourceString": "Electro Pairing Blades",
+      "LocalizedString": "Electro Pairing Blades"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6111D3EF41F55692683E9BB9DC2D6FB3",
+      "SourceString": "Highly charged. Evie-modified.",
+      "LocalizedString": "Highly charged. Evie-modified."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B27433D649260025761B52901D249B06",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": 32.0,
+          "Yaw": 285.0,
+          "Roll": 3.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.DualWield",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.35",
+          "Cosmetics.Set.SpaceCrime",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Type.Pickaxe.DualWield"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S35/T_Icon_Pickaxes_PlatypusBranch.T_Icon_Pickaxes_PlatypusBranch",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S35/T_Icon_Pickaxes_PlatypusBranch_L.T_Icon_Pickaxes_PlatypusBranch_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          490,
+          541,
+          546,
+          359,
+          114,
+          105,
+          593,
+          603,
+          607,
+          591,
+          24,
+          246,
+          112,
+          259,
+          1907,
+          2413,
+          1986,
+          2342,
+          2381,
+          476,
+          3042,
+          6684
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.PreviewType.OffPawn"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/PickaxeItemPreview_PlatypusBranch.PickaxeItemPreview_PlatypusBranch_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

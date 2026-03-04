@@ -1,0 +1,82 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Specter_Updoot",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseNativeWeaponTrace": false,
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/SpecterGameplay/items/B_Specter_Updoot_Weapon.B_Specter_Updoot_Weapon_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Athena_HealSpray_R_Ore_T03"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SpecterGameplay/Abilities/GA_SpecterUpdootPrimary.GA_SpecterUpdootPrimary_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/SpecterGameplay/Abilities/AS_SpecterUpdootWeaponEquipped.AS_SpecterUpdootWeaponEquipped",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite_NoIcon.AmmoInfinite_NoIcon",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Custom",
+    "bAllowAutoReload": false,
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "bEnableWeaponMeshOverrideUpdates": false,
+    "AnalyticTags": [
+      "Specter.UpdootItem"
+    ],
+    "ActualAnalyticFNames": [
+      "Specter.UpdootItem",
+      "Tag:Weapon:wid_specter_updoot"
+    ],
+    "Rarity": "EFortRarity::Transcendent",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9C90560942117B2955700EB763067223",
+      "SourceString": "Updoot",
+      "LocalizedString": "Updoot"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1F6D78F947D393218A019F97CC0C3C77",
+      "SourceString": "Send a gift to remaining players.",
+      "LocalizedString": "Send a gift to remaining players."
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SpecterGameplay/items/icons/T_Icon_Weapons_Specter_Updoot.T_Icon_Weapons_Specter_Updoot",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SpecterGameplay/items/icons/T_Icon_Weapons_Specter_Updoot_L.T_Icon_Weapons_Specter_Updoot_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Specter.UpdootItem",
+          "Athena.Item.Utility",
+          "Athena.ItemAction.Throw",
+          "Weapon.IgnoresCancelPrimaryAbilityOnRelease",
+          "Rarity.Transcendent"
+        ]
+      }
+    ]
+  }
+}

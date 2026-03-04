@@ -1,0 +1,337 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_CandyCorn",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/B_CandyCorn_Weap_Athena.B_CandyCorn_Weap_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_M80"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/GA_Athena_CandyCorn.GA_Athena_CandyCorn_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Parents/GA_Athena_Consumable_Pass_Parent.GA_Athena_Consumable_Pass_Parent_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/WID_Athena_CandyCorn.WID_Athena_CandyCorn",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Consumable:wid_athena_candycorn"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH2S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "EB2482D244B3A53FFDA338965A6ECC4F",
+      "SourceString": "Candy Corn",
+      "LocalizedString": "Candy Corn"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CEBAA1914FBB9AAF0FF48D8D18CE92D4",
+      "SourceString": "Consume for a small amount of health over time.",
+      "LocalizedString": "Consume for a small amount of health over time."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.MaxStackAmount.CandyCorn"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/Game/FrontEnd/Store/Pinata/Assets/Shared/Candy/S_Candy_Corn.S_Candy_Corn",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.49999982,
+            "Y": -0.5000001,
+            "Z": 0.49999988,
+            "W": 0.50000006,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.9999999
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 9.0,
+            "Y": 9.0,
+            "Z": 9.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/S14_Halloween/CandyCorn_Halloween_Pickup_Cue.CandyCorn_Halloween_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/S14_Halloween/CandyCorn_Halloween_Drop_Cue.CandyCorn_Halloween_Drop_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 0.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 1.6889377,
+          "Y": 0.9132283,
+          "Z": 0.63657755
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "52B5829A41462C26FEC5EA846BB50BE8",
+          "SourceString": "Gadget UtilityItem MedKit Heal",
+          "LocalizedString": "Gadget UtilityItem MedKit Heal"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/Prj_Athena_Consumable_Thrown_CandyCorn.Prj_Athena_Consumable_Thrown_CandyCorn_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-CandyCorn.T-T-Icon-BR-CandyCorn",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-CandyCorn-L.T-T-Icon-BR-CandyCorn-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Consume.Health.HealthPack",
+          "Athena.ItemAction.Consume",
+          "Trait.Restoration.Health",
+          "Athena.ItemAction.Secondary.Throw",
+          "Rarity.Common",
+          "Trait.Foraged",
+          "Trait.Candy",
+          "Item.Consumable.CandyCorn",
+          "Item.SortsRight",
+          "Item.Consumable.Edible",
+          "phoebe.items.consumable.candycorn",
+          "HUD.PreferredSlotType.Consumable"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

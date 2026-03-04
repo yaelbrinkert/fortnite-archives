@@ -1,0 +1,902 @@
+{
+  "Type": "FortWeaponMeleeOffhandItemDefinition",
+  "Name": "WID_Sprout_Salt",
+  "Class": "UScriptClass'FortWeaponMeleeOffhandItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/SproutTG_CookFishCollect/Props/BP/Cooking/Handhelds/B_Sprout_Consumable_Food.B_Sprout_Consumable_Food_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/SproutTG_CookFishCollect/Props/BP/Cooking/Handhelds/Ingredients/Mesh/SKM_Sprout_Salt.SKM_Sprout_Salt",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Juno_MeleeWeapons'",
+        "ObjectPath": "/JunoGame/DataTables/Juno_MeleeWeapons.0"
+      },
+      "RowName": "Null"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_ImpactDamage.BaseAlteration_ImpactDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SproutCore/Handhelds/ConsumableBase/GA_Handheld_Consumable_Stack_Parent.GA_Handheld_Consumable_Stack_Parent_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/SproutTG_CookFishCollect/Props/BP/Cooking/Handhelds/Ingredients/WID_Sprout_Salt.WID_Sprout_Salt",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bEnableWeaponMeshOverrideUpdates": false,
+    "ReticleImage": {
+      "AssetPathName": "/JunoGame/UI/Reticle/T_UI_Juno_Reticle_Dot.T_UI_Juno_Reticle_Dot",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_sprout_salt"
+    ],
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8442756441198BE44708D1B0134A2372",
+      "SourceString": "Salt",
+      "LocalizedString": "Salt"
+    },
+    "ItemDescription": {
+      "CultureInvariantString": "Pure salt - used for flavoring other dishes. "
+    },
+    "ItemShortDescription": {
+      "CultureInvariantString": null
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "AnimTrails": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AnimTrailsNiagara": {
+          "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Default_Mark_III/FX/NS_Pickaxe_Defualt_Mark_III_Trail.NS_Pickaxe_Defualt_Mark_III_Trail",
+          "SubPathString": ""
+        },
+        "NiagaraSkeletonDIVariableName": "User.SkeletalMesh",
+        "AnimTrailsFirstSocketName": "Melee_R_Upper",
+        "AnimTrailsSecondSocketName": "Melee_R_Lower",
+        "AnimTrailsWidth": 1.0,
+        "bAttachAnimTrailsToWeapon": true
+      },
+      {
+        "PrimaryFireSoundMap": [
+          {
+            "Key": "EFortWeaponSoundState::Normal",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "ImpactPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ImpactNiagaraPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "/JunoGame/Effects/Harvesting/NS_Juno_NoDamage.NS_Juno_NoDamage",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "/JunoGame/Effects/Harvesting/NS_Juno_Harvest_Impact_Wood.NS_Juno_Harvest_Impact_Wood",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "/JunoGame/Effects/Harvesting/NS_Juno_Harvest_Impact_Stone.NS_Juno_Harvest_Impact_Stone",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "/JunoGame/Effects/Harvesting/NS_Juno_Harvest_Impact_Metal.NS_Juno_Harvest_Impact_Metal",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "/JunoGame/Effects/Harvesting/NS_Juno_Harvest_Impact_Dirt.NS_Juno_Harvest_Impact_Dirt",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "/JunoGame/Effects/Harvesting/NS_Juno_Harvest_Impact_Sand.NS_Juno_Harvest_Impact_Sand",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "ImpactPhysicalSurfaceSoundsMap": [
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "ReloadSoundsMap": [
+          {
+            "Key": "EFortReloadFXState::ReloadStart",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_SO_Sprout_Popcorn'",
+            "ObjectPath": "/JunoCommonArtAssets/Audio/Items/Misc_Handheld/Libraries/SL_SO_Sprout_Popcorn.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Harvest"
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 1
+      },
+      {
+        "MaxStackSize": {
+          "Value": 999.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.SpicyBurger"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SproutTG_CookFishCollect/Props/SBID/Textures/T__Con_Salt_A.T__Con_Salt_A",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "Athena.ItemAction.Consume",
+          "Athena.ItemAction.Secondary.Throw",
+          "Juno.Inventory.Group.Offhand",
+          "Juno.FreeBuild.Category.Food",
+          "Juno.FreeBuild.SubCategory.ProcessedFood",
+          "Juno.MountStyle.TopView",
+          "Juno.Inventory.Group.Quickbar",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Sprout.Item.Handheld.Action.UsableWhileSitting",
+          "Sprout.Item.HandHeld.Food.Salt",
+          "Sprout.Item.HandHeld.Traits.Food.Salt",
+          "Sprout.Item.Fishing.Bait",
+          "Sprout.Item.Handheld.Anim.Eat.Popcorn.WhiteStud",
+          "Sprout.Item.Handheld.Compostable"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/SproutTG_CookFishCollect/Props/BP/Cooking/Handhelds/Ingredients/Mesh/SKM_Sprout_Salt.SKM_Sprout_Salt",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.130526,
+            "Z": 0.0,
+            "W": 0.991445,
+            "IsNormalized": true,
+            "Size": 1.0000001,
+            "SizeSquared": 1.0000002
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Resources/Food/Sounds/MSS_Resource_Food_Bonemeal_Pickup.MSS_Resource_Food_Bonemeal_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Resources/Generic/MSS_Resource_Misc_Generic_Drop.MSS_Resource_Misc_Generic_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Resources/Food/Sounds/MSS_Resource_Food_Crunchy_Land.MSS_Resource_Food_Crunchy_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 12.861054,
+          "Y": 16.798203,
+          "Z": 15.820755
+        }
+      },
+      {
+        "WeaponMaterialOverrides": [
+          {
+            "AssetPathName": "/JunoAtomAssets/Materials/MI_LegoStandard_1.MI_LegoStandard_1",
+            "SubPathString": ""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_330_LoneWolfMale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 120.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Lone_Wolf_Male/Meshes/Lone_Wolf_Male_Glider.Lone_Wolf_Male_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/LoneWolfMale_Glider_AnimBP.LoneWolfMale_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Lone_Wolf_Male/FX/NS_Glider_Lone_Wolf_Male_Deploy.NS_Glider_Lone_Wolf_Male_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Lone_Wolf_Male/FX/NS_Glider_Lone_Wolf_Male_Trails.NS_Glider_Lone_Wolf_Male_Trails",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/LoneWolfMale/SC_GliderOpen_LoneWolfMale.SC_GliderOpen_LoneWolfMale",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/LoneWolfMale/SC_GliderClose_LoneWolfMale.SC_GliderClose_LoneWolfMale",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/LoneWolfMale/SC_GliderThrustLoop_LoneWolfMale.SC_GliderThrustLoop_LoneWolfMale",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/LoneWolfMale/SC_GliderThrustStart_LoneWolfMale.SC_GliderThrustStart_LoneWolfMale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/LoneWolfMale/SC_GliderThrustStartSmall_LoneWolfMale.SC_GliderThrustStartSmall_LoneWolfMale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/LoneWolfMale/SC_GliderThrustStartSmall_LoneWolfMale.SC_GliderThrustStartSmall_LoneWolfMale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_ID_330_LoneWolfMale:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_330_LoneWolfMale.1"
+      }
+    ],
+    "VariantShotGridIds": [
+      52637,
+      52641
+    ],
+    "ShotGridIds": [
+      52576,
+      52637,
+      52641
+    ],
+    "BaseShotGridId": 52576,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4BAA00A74DC213D2B03418A22DB498D0",
+      "SourceString": "The Soaring Crescent",
+      "LocalizedString": "The Soaring Crescent"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AD23BF654E8542CA270F0281425D6366",
+      "SourceString": "They said it was broken beyond repair. He said differently.",
+      "LocalizedString": "They said it was broken beyond repair. He said differently."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -20.0,
+          "Yaw": 120.0,
+          "Roll": 25.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-LoneWolfGlider.T-Icon_Glider-LoneWolfGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-LoneWolfGlider-L.T-Icon_Glider-LoneWolfGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Source.Season19.BattlePass.Paid",
+          "Cosmetics.Set.CrescentCycles",
+          "Cosmetics.Filter.Season.19"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          490,
+          238,
+          541,
+          546,
+          247,
+          772,
+          162,
+          249,
+          576,
+          126,
+          105,
+          564,
+          1339,
+          112,
+          440,
+          259,
+          1254,
+          1972,
+          1095,
+          459,
+          2381,
+          2563
+        ]
+      }
+    ]
+  }
+}

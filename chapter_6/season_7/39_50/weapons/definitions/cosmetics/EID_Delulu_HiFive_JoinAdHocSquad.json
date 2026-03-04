@@ -1,0 +1,120 @@
+{
+  "Type": "AthenaAdHocSquadsJoinDanceItemDefinition",
+  "Name": "EID_Delulu_HiFive_JoinAdHocSquad",
+  "Class": "UScriptClass'AthenaAdHocSquadsJoinDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GroupEmoteToStartLeader_AdHocSquadUp": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_Sync'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_Sync.0"
+    },
+    "GroupEmoteToStartFollower_AdHocSquadUp": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_Sync_InfiniteTolerance'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_Sync_InfiniteTolerance.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn_AdHocSquadUp": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_SyncOwned'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_SyncOwned.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn_AdHocSquadUp": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_SyncOwned_InfiniteTolerance'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_SyncOwned_InfiniteTolerance.0"
+    },
+    "bAllowLowerBodyLocomotion": true,
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_Sync'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_Sync_InfiniteTolerance'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_Sync_InfiniteTolerance.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_Sync'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_Sync.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Delulu_HiFive_SyncOwned_InfiniteTolerance'",
+      "ObjectPath": "/Delulu/Emotes/EID_Delulu_HiFive_SyncOwned_InfiniteTolerance.0"
+    },
+    "GroupEmotePositionOffset": {
+      "X": 105.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 1.0,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_GroupEmoteRequest_JoinAdHocSquad.GAB_GroupEmoteRequest_JoinAdHocSquad_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/Delulu/Emotes/Delulu_HiFive/Request/CMM/Emote_Delulu_HiFive_Request_AdHocSquad_Lead_CMM_Intro_M.Emote_Delulu_HiFive_Request_AdHocSquad_Lead_CMM_Intro_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Delulu/Emotes/Delulu_HiFive/Request/CMF/Emote_Delulu_HiFive_Request_AdHocSquad_Lead_CMF_Intro_M.Emote_Delulu_HiFive_Request_AdHocSquad_Lead_CMF_Intro_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9E06F74D44A14E6E773AD9AAC13E0D11",
+      "SourceString": "Invite to Party",
+      "LocalizedString": "Invite to Party"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8F7DF3214F23B6976D12F19AA82521DE",
+      "SourceString": "Invite a player to your party.",
+      "LocalizedString": "Invite a player to your party."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "4D5767CD441DA5ED3843CFBD4A6A1BE8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.EmoteType.AdHocSquad.Join"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T_TeamEmotes_Join.T_TeamEmotes_Join",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T_TeamEmotes_Join_L.T_TeamEmotes_Join_L",
+          "SubPathString": ""
+        }
+      },
+      {},
+      {
+        "InteractText": {
+          "Namespace": "",
+          "Key": "6917A5EF4E45D6165716DA8D8C0BAECA",
+          "SourceString": "Join Party",
+          "LocalizedString": "Join Party"
+        }
+      }
+    ]
+  }
+}

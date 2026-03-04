@@ -1,0 +1,121 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Juno_StormAcolyte_CaptainProjectileRangedAbility",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JunoComponentCrafting_NeptuneEnemies/Items/Weapons/Sword/B_Juno_StormAcolyte_CaptainProjectileRangedAbility.B_Juno_StormAcolyte_CaptainProjectileRangedAbility_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/JunoNeptune_WeaponArt/Juno_Weapon_Sword_Neptune_T4/SkeletalMesh/SKM_Juno_Weapon_Sword_Neptune_T4.SKM_Juno_Weapon_Sword_Neptune_T4",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Juno_AIRangedWeapons_Neptune'",
+        "ObjectPath": "/JunoNeptune_Enemies/DataTables/Juno_AIRangedWeapons_Neptune.0"
+      },
+      "RowName": "StormAcolyteCaptainProjectileSpreadShot"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JunoComponentCrafting_NeptuneEnemies/Items/Weapons/Sword/GA_Juno_StormAcolyte_CaptainProjectileRangedAbility_Fire.GA_Juno_StormAcolyte_CaptainProjectileRangedAbility_Fire_C",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bShouldMagazineSizeDisplayInfinity": true,
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_2x10_line.HUD_Xhair_2x10_line",
+      "SubPathString": ""
+    },
+    "PlayerGrantedGameplayTags": [
+      "Granted.ItemEquipped.Ranged"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_juno_stormacolyte_captainprojectilerangedability"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/JunoGame/UI/Icons/Tools_Weapons/T_UI_Juno_Icon_Weapon_Sword_T4_Iron.T_UI_Juno_Icon_Weapon_Sword_T4_Iron",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -42.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.569563,
+          "Yaw": 24.64069,
+          "Roll": -16.679253
+        },
+        "Scale": 1.0
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "B44B989C4D77318BD62CF08F85162A74",
+          "SourceString": "Ranged Gun",
+          "LocalizedString": "Ranged Gun"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/JunoProjectile_Storm/Projectiles/Juno_Prj_Storm_LWProjConfig.Juno_Prj_Storm_LWProjConfig_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Rarity.VeryRare",
+          "Trait.Juno.Damage.IgnorePartialDestruction",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Juno.Abilities.NPC.CaptainProjectile",
+          "phoebe.weapon.melee"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

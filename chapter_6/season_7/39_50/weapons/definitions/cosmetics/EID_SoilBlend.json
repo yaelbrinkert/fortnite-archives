@@ -1,0 +1,167 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SoilBlend",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "bUseHighPreviewCamera": true,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CMM/Emote_SoilBlend_CMM_M_Frontend.Emote_SoilBlend_CMM_M_Frontend",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CMF/Emote_SoilBlend_CMF_M_Frontend.Emote_SoilBlend_CMF_M_Frontend",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CLM/Emote_SoilBlend_CLM_M_Frontend.Emote_SoilBlend_CLM_M_Frontend",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CLF/Emote_SoilBlend_CLF_M_Frontend.Emote_SoilBlend_CLF_M_Frontend",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 200.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CMM/Emote_SoilBlend_CMM_M.Emote_SoilBlend_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CMF/Emote_SoilBlend_CMF_M.Emote_SoilBlend_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CLM/Emote_SoilBlend_CLM_M.Emote_SoilBlend_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SoilBlend/CLF/Emote_SoilBlend_CLF_M.Emote_SoilBlend_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "80BE4780480DDC283FD47EB48AD91A1D",
+      "SourceString": "Mysterio's Magic Trick",
+      "LocalizedString": "Mysterio's Magic Trick"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "353A29E44731ACACEC0FFD9DA2456769",
+      "SourceString": "Project supernatural menace... with a little help.",
+      "LocalizedString": "Project supernatural menace... with a little help."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "DBED58BE4A5F2E9477B4528544AC6D47",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 15.0,
+          "Y": 70.0,
+          "Z": 35.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/TIconEmotesSoilBlend.TIconEmotesSoilBlend",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/TIconEmotesSoilBlendL.TIconEmotesSoilBlendL",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.31",
+          "Cosmetics.Set.MedievalSmoke",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.SceneChanger.BattlePass"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_SoilBlend_Haunt.Character_SoilBlend_Haunt",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

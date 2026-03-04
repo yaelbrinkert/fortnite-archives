@@ -1,0 +1,290 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Umbrella_RankedDefender",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GliderType": "EFortGliderType::Umbrella",
+    "CameraFramingBoundsCenterOffset": {
+      "X": -100.0,
+      "Y": -20.0,
+      "Z": -15.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_RankedDefender.B_Athena_Glider_RankedDefender_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/Umbrella_Season31/Meshes/Season_31_Glider.Season_31_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/VinderTech_Umbrella_AnimBP.VinderTech_Umbrella_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/Umbrella/UmbrellaPlayerAnimSet.UmbrellaPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/Umbrella_RankedDefender/FX/NS_Glider_Umbrella_RankedDefender.NS_Glider_Umbrella_RankedDefender",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedDefender/SC_GliderOpen_RankedDefender.SC_GliderOpen_RankedDefender",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedDefender/SC_GliderOpen_RankedDefender.SC_GliderOpen_RankedDefender",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedDefender/SC_GliderClose_RankedDefender.SC_GliderClose_RankedDefender",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedDefender/SC_GliderThrustLoop_RankedDefender.SC_GliderThrustLoop_RankedDefender",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedDefender/SC_GliderThrustStart_RankedDefender.SC_GliderThrustStart_RankedDefender",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedDefender/SC_GliderThrustStart_Small_RankedDefender.SC_GliderThrustStart_Small_RankedDefender",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedDefender/SC_GliderThrustStart_Small_RankedDefender.SC_GliderThrustStart_Small_RankedDefender",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ObservedPlayerStats": [
+      "StatManager.HabaneroS31"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticRankedVariant'Umbrella_RankedDefender:FortCosmeticRankedVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Umbrella_RankedDefender.1"
+      }
+    ],
+    "ShotGridIds": [
+      109790
+    ],
+    "ItemSearchTags": [
+      {
+        "Namespace": "",
+        "Key": "08BA6847432A03D6970E2C8291E9FCF8",
+        "SourceString": "Umbrella",
+        "LocalizedString": "Umbrella"
+      }
+    ],
+    "BaseShotGridId": 109790,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "433AB88446F38DE6883CD4B5BBA43D25",
+      "SourceString": "Ranker's Doom Brella",
+      "LocalizedString": "Ranker's Doom Brella"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F3964A7B41525A244E191598FEC8B0D4",
+      "SourceString": "Your victory is on the horizon.",
+      "LocalizedString": "Your victory is on the horizon."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5110886B4B82702C760EDCBF12AFD624",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 15.0,
+          "Yaw": 45.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S31/T_Icon_Glider_Ranked_Defender.T_Icon_Glider_Ranked_Defender",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S31/T_Icon_Glider_Ranked_Defender_L.T_Icon_Glider_Ranked_Defender_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Filter.Season.31",
+          "Cosmetics.Set.WarmPopulation"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          8,
+          490,
+          238,
+          270,
+          546,
+          114,
+          557,
+          249,
+          593,
+          244,
+          607,
+          591,
+          639,
+          626,
+          667,
+          112,
+          438,
+          943,
+          1042,
+          1062,
+          113,
+          2359,
+          2505
+        ]
+      }
+    ]
+  }
+}

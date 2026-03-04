@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Irons",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Irons/Emote_Irons_CMM_M.Emote_Irons_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Irons/Emote_Irons_CMF_M.Emote_Irons_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Irons/LargeBodies/Emote_Irons_CLF_M.Emote_Irons_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Irons/LargeBodies/Emote_Irons_CLM_M.Emote_Irons_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      55392
+    ],
+    "BaseShotGridId": 55392,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "348400C348907B058B6B39A1E730AD47",
+      "SourceString": "Curling Iron",
+      "LocalizedString": "Curling Iron"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9B512BEB413FF1F47DF60F948C6ECD42",
+      "SourceString": "Do you even lift, bro?",
+      "LocalizedString": "Do you even lift, bro?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "482B390E470AA25C3EC092B2A65BC416",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.23"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-Irons.T-Icon-Emotes-E-Irons",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-Irons-L.T-Icon-Emotes-E-Irons-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

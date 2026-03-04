@@ -1,0 +1,224 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_293_AntiqueMale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 0.0,
+      "Y": -25.0,
+      "Z": -100.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Antique_Male/Meshes/Antique_Male_Glider.Antique_Male_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Antique_Male/Antique_Male_Glider_AnimBP.Antique_Male_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Antique_Male/FX/NS_Glider_Antique_Trail.NS_Glider_Antique_Trail",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Antique_Male/FX/NS_Glider_Antique_Deploy.NS_Glider_Antique_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Frame",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Antique_Male/SC_GliderOpen_Antique_Male.SC_GliderOpen_Antique_Male",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Antique_Male/SC_GliderClose_Antique_Male.SC_GliderClose_Antique_Male",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Antique_Male/SC_GliderThrustLoop_Antique_Male.SC_GliderThrustLoop_Antique_Male",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      40347
+    ],
+    "BaseShotGridId": 40347,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1C1CA4D649E3B32B703D608C9ECAF4D4",
+      "SourceString": "Chop Dropper",
+      "LocalizedString": "Chop Dropper"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0855477C4297475EC6CBD4AD5A2434FF",
+      "SourceString": "Skull-infused battle balloon.",
+      "LocalizedString": "Skull-infused battle balloon."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-AntiqueGlider.T-Icon_Glider-AntiqueGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-AntiqueGlider-L.T-Icon_Glider-AntiqueGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.17",
+          "Cosmetics.Source.Season17.BattlePass.Paid",
+          "Cosmetics.Set.ColorfulSlot"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": -50.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          549,
+          249,
+          478,
+          587,
+          588,
+          593,
+          594,
+          262,
+          244,
+          601,
+          667,
+          39,
+          2072,
+          849,
+          877,
+          880,
+          1064,
+          323,
+          2192,
+          2278,
+          2373
+        ]
+      }
+    ]
+  }
+}

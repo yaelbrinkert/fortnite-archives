@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Phantom",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Phantom/Emote_Phantom_CMM_M.Emote_Phantom_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Phantom/Emote_Phantom_CMF_M.Emote_Phantom_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Phantom/Emote_Phantom_CLM_M.Emote_Phantom_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Phantom/Emote_Phantom_CLF_M.Emote_Phantom_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8188F5E04D091D943CEDDDAF55728BE0",
+      "SourceString": "BIRDS OF A FEATHER",
+      "LocalizedString": "BIRDS OF A FEATHER"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E39893BA4657E7B47C3A9D8A472B13DF",
+      "SourceString": "Time to flock together.",
+      "LocalizedString": "Time to flock together."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9D0AD5E84FCC89C9BB366889E27468EB",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 64.8789,
+          "Z": 17.739931
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_Phantom.T_Icon_Emotes_Phantom",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_Phantom_L.T_Icon_Emotes_Phantom_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

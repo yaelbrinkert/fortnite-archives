@@ -1,0 +1,200 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_PacificSweater",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_PacificSweater_Leader'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater_Leader.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_PacificSweater_Joiner'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater_Joiner.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_PacificSweater_Leader'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater_Leader.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_PacificSweater_Joiner'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater_Joiner.0"
+    },
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_PacificSweater.GAB_Emote_PacificSweater_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PacificSweater/CMM/Emote_PacificSweater_CMM_Starting_M.Emote_PacificSweater_CMM_Starting_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PacificSweater/CMF/Emote_PacificSweater_CMF_Starting_M.Emote_PacificSweater_CMF_Starting_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PacificSweater/CLM/Emote_PacificSweater_CLM_Starting_M.Emote_PacificSweater_CLM_Starting_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PacificSweater/CLF/Emote_PacificSweater_CLF_Starting_M.Emote_PacificSweater_CLF_Starting_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_PacificSweater:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_LargeGroupEmote.ItemOnPawnPreview_LargeGroupEmote_C",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5E3A4BC9498299AAC3135587AEFBEA35",
+      "SourceString": "The Bus Stop",
+      "LocalizedString": "The Bus Stop"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B501C654435014FB90D43E8B04CD6F4D",
+      "SourceString": "Stop the BUS!",
+      "LocalizedString": "Stop the BUS!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "599D79BF49F58F1B61A00FA09395A240",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 80.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.4
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.ManyHappy"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_PacificSweater.T_Icon_Emotes_PacificSweater",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_PacificSweater_L.T_Icon_Emotes_PacificSweater_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 0.0,
+              "Y": 110.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": {
+              "ObjectName": "AthenaDanceItemDefinition'EID_PacificSweater_Joiner'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater_Joiner.0"
+            },
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 0.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 0.0,
+                "Y": -110.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_PacificSweater_Joiner'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater_Joiner.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 0.0
+            },
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 0.0,
+                "Y": -220.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_PacificSweater_Joiner'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PacificSweater_Joiner.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 20.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Automatic",
+          "GroupEmotePreviewFollowerJoinDelayOverride": 5.0
+        }
+      }
+    ]
+  }
+}

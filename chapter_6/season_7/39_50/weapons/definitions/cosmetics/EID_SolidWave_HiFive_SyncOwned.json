@@ -1,0 +1,82 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SolidWave_HiFive_SyncOwned",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "bAllowLowerBodyLocomotion": true,
+    "GroupEmotePositionOffset": {
+      "X": 132.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 1.0,
+    "WalkForwardSpeed": 400.0,
+    "Animation": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashShade/CMM/Emote_SwashShade_Joiner_CMM_Sync_M.Emote_SwashShade_Joiner_CMM_Sync_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashShade/CMF/Emote_SwashShade_Joiner_CMF_Sync_M.Emote_SwashShade_Joiner_CMF_Sync_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 90.0,
+      "Roll": 0.0
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "63BD0BFD44CDEADF646FC4946E838DF9",
+      "SourceString": "Invite to Team",
+      "LocalizedString": "Invite to Team"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DA47C9F94A67B67DA97E06A8B32512DA",
+      "SourceString": "Invite a player to your team.",
+      "LocalizedString": "Invite a player to your team."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "809517DB483902313B9BDA8D7CD68C3C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Join.T_TeamEmotes_SolidWave_Join",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Join_L.T_TeamEmotes_SolidWave_Join_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_BentBaton",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 200.0,
+      "Y": -30.0,
+      "Z": -50.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BentBaton/Meshes/BentBaton_Glider.BentBaton_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Ebony_Glider_AnimBP.Ebony_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/Game/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveSurf.Athena_PlayerCameraModeSkydiveSurf_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Ebony/Ebony_SurfStyle_PlayerAnimSet.Ebony_SurfStyle_PlayerAnimSet",
+      "SubPathString": ""
+    },
+    "AttachSocket": "attach",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BentBaton/FX/NS_Glider_BentBaton.NS_Glider_BentBaton",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Frame",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BentBaton/FX/NS_Glider_BentBaton_Deploy.NS_Glider_BentBaton_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Frame",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/BentBaton/MSS_Glider_BentBaton_Open.MSS_Glider_BentBaton_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/BentBaton/MSS_Glider_BentBaton_Close.MSS_Glider_BentBaton_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/BentBaton/MSS_Glider_BentBaton_Thrust.MSS_Glider_BentBaton_Thrust",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_BentBaton:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_BentBaton.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ShotGridIds": [
+      155019
+    ],
+    "BaseShotGridId": 155019,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AB4014F3437C950449062C944E226758",
+      "SourceString": "Cheer Bolt",
+      "LocalizedString": "Cheer Bolt"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "79E535A5447143E64C6D3FA9741A41DC",
+      "SourceString": "Ride in on the roars of the storm.",
+      "LocalizedString": "Ride in on the roars of the storm."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 5.0,
+          "Yaw": -45.0,
+          "Roll": -20.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S36/T_Icon_Glider_BentBaton.T_Icon_Glider_BentBaton",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S36/T_Icon_Glider_BentBaton_L.T_Icon_Glider_BentBaton_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.Set.BatteryDrink",
+          "Cosmetics.Source.Season36.BattlePass.Paid",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          593,
+          244,
+          602,
+          591,
+          246,
+          1339,
+          767,
+          769,
+          3618,
+          585,
+          365,
+          214,
+          983,
+          599,
+          1429,
+          2339,
+          2649,
+          2897,
+          3570,
+          3619,
+          4854
+        ]
+      }
+    ]
+  }
+}

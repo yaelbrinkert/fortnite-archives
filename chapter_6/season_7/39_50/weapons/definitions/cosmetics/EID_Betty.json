@@ -1,0 +1,182 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Betty",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupAnimationSync": true,
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Betty_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Betty_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Betty_Sync_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Betty_Sync_Follower.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Betty_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Betty_Sync.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Betty_Sync_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Betty_Sync_Follower.0"
+    },
+    "GroupEmotePositionOffsetTolerance": 0.0,
+    "GroupEmoteFollowDistance": 0.0,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Betty/Emote_Betty_CMM_Owner_M.Emote_Betty_CMM_Owner_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Betty/Emote_Betty_CMF_Intro_M.Emote_Betty_CMF_Intro_M",
+      "SubPathString": ""
+    },
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_GroupEmoteRequest.GAB_GroupEmoteRequest_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Betty/Emote_Betty_CMM_Owner_M.Emote_Betty_CMM_Owner_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Betty/Emote_Betty_CMF_Intro_M.Emote_Betty_CMF_Intro_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Betty/Emote_Betty_CLM_Intro_M.Emote_Betty_CLM_Intro_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Betty/Emote_Betty_CLF_Intro_M.Emote_Betty_CLF_Intro_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 90.0,
+      "Roll": 0.0
+    },
+    "ShotGridIds": [
+      59179
+    ],
+    "BaseShotGridId": 59179,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0BCD0AB84C7CC0305897BE8F15F76E6C",
+      "SourceString": "Boop!",
+      "LocalizedString": "Boop!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "09772D834DFC821D642797AA6CE816EC",
+      "SourceString": "Seize every boopable moment.",
+      "LocalizedString": "Seize every boopable moment."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "801AD0434C8CDF91D9C6FC949D86BD12",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.21",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Betty.T-Icon-Emotes-E-Betty",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Betty-L.T-Icon-Emotes-E-Betty-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::BetweenLeaderAndFirstFollower",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": false,
+            "PositionOffsetOverride": {
+              "X": 0.0,
+              "Y": -140.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": null,
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::SyncWithLeader",
+            "AdditionalYaw": 0.0
+          },
+          "AdditionalPreviewFollowerConfigs": [],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Automatic",
+          "GroupEmotePreviewFollowerJoinDelayOverride": -1.0
+        }
+      },
+      {
+        "SpecificationMethod": "ECosmeticItemPreviewActorOverrideMethod::ByCosmeticPreviewActorClassMapTag",
+        "ExplicitPreviewActorOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorIdentifierTag": {
+          "TagName": "None"
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_021_Scavenger",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": -50.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy.B_Athena_Glider_Legacy_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Meshes/SK_M_VinderTech_GliderChute.SK_M_VinderTech_GliderChute",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.70710677,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/VinderTech_GliderChute_AnimBP.VinderTech_GliderChute_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Rusty_Raider/FX/NS_Glider_RustyRaider.NS_Glider_RustyRaider",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Disc_Root",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.70710677,
+            "W": 0.70710677,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -10.75
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Scavenger_Open_Cue.Athena_Glider_Scavenger_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Close_Cue.Athena_Glider_Close_Cue",
+      "SubPathString": ""
+    },
+    "Bits": [
+      {
+        "Mesh": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Rusty_Raider/Meshes/SK_Glider_Rusty_Raider_Parts.SK_Glider_Rusty_Raider_Parts",
+          "SubPathString": ""
+        },
+        "AnimBPClass": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Rusty_Raider/Meshes/SK_Glider_Rusty_Raider_Parts_Skeleton_AnimBP.SK_Glider_Rusty_Raider_Parts_Skeleton_AnimBP_C",
+          "SubPathString": ""
+        },
+        "OverrideMaterials": [],
+        "RelativeTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "SocketName": "None",
+        "bApplyGliderMaterialOverrides": false
+      }
+    ],
+    "MaterialOverrides": [
+      {
+        "ComponentName": "ParachuteMesh0",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Rusty_Raider/Materials/MI_Glider_Rusty_Raider_Inst.MI_Glider_Rusty_Raider_Inst",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E00701B64C51EF40D63ADA84FD935A3E",
+      "SourceString": "Rusty Rider",
+      "LocalizedString": "Rusty Rider"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "856A5FAA4C72AD5DC9FD659BF0D8CF57",
+      "SourceString": "Finely crafted from twisted wreckage.",
+      "LocalizedString": "Finely crafted from twisted wreckage."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 10.000004,
+          "Yaw": -43.86128,
+          "Roll": -2.00001
+        },
+        "Scale": 0.8
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-024.T-Icon_Glider-024",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-024-L.T-Icon_Glider-024-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Set.StormScavenger",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.3"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          490,
+          238,
+          270,
+          546,
+          549,
+          359,
+          247,
+          555,
+          564,
+          488,
+          276,
+          112,
+          856,
+          960,
+          1559,
+          1117,
+          1178,
+          1180,
+          1181,
+          834,
+          318,
+          1015,
+          1543,
+          31,
+          1907,
+          2771,
+          3330
+        ]
+      }
+    ]
+  }
+}

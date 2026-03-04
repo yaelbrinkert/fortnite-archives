@@ -1,0 +1,132 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Drum_HypnoticSlumber",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/HypnoticSlumber/Persistent/Emote_Drum_HypnoticSlumber_CMM_M.Emote_Drum_HypnoticSlumber_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/HypnoticSlumber/Persistent/Emote_Drum_HypnoticSlumber_CMF_M.Emote_Drum_HypnoticSlumber_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/HypnoticSlumber/Persistent/Emote_Drum_HypnoticSlumber_CLM_M.Emote_Drum_HypnoticSlumber_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/HypnoticSlumber/Persistent/Emote_Drum_HypnoticSlumber_CLF_M.Emote_Drum_HypnoticSlumber_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Drum_HypnoticSlumber:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Drum/HypnoticSlumber/EID_Drum_HypnoticSlumber.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B9CED3CC4E285E81D5CF429306BBAB47",
+      "SourceString": "Hypno Stix",
+      "LocalizedString": "Hypno Stix"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "72DB4ED644A7208A6E24829BB4742263",
+      "SourceString": "Relax and follow the rhythm. ",
+      "LocalizedString": "Relax and follow the rhythm. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "4736D85941D230FBB721498325628AC8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S36/T_UI_Icon_SparksEmote_DrumHypnoticSlumber.T_UI_Icon_SparksEmote_DrumHypnoticSlumber",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S36/T_UI_Icon_SparksEmote_DrumHypnoticSlumber_L.T_UI_Icon_SparksEmote_DrumHypnoticSlumber_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -100.0,
+          "Z": -10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

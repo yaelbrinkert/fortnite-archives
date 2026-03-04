@@ -1,0 +1,119 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HeavyRoarDance",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HeavyRoarDance/Emote_HeavyRoarDance_CMM_M.Emote_HeavyRoarDance_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HeavyRoarDance/Emote_HeavyRoarDance_CMF_M.Emote_HeavyRoarDance_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HeavyRoarDance/Emote_HeavyRoarDance_CLM_M.Emote_HeavyRoarDance_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HeavyRoarDance/Emote_HeavyRoarDance_CLF_M.Emote_HeavyRoarDance_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_HeavyRoarDance:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_HeavyRoarDance.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4529EFFE42FA841AD3EE9DADC5450A4A",
+      "SourceString": "Real Slim Shady",
+      "LocalizedString": "Real Slim Shady"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CCB8CF07491CCB9FA3A81090F11B7E4C",
+      "SourceString": "Be the Realest.",
+      "LocalizedString": "Be the Realest."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B4494DAB4037120C4E1D9986293B357F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 40.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-HeavyRoarDance.T-Icon-Emotes-HeavyRoarDance",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-HeavyRoarDance-L.T-Icon-Emotes-HeavyRoarDance-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.27",
+          "Cosmetics.Set.ThickBottle"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

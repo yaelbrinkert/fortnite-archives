@@ -1,0 +1,137 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Magnetic",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CMM/Emote_Magnetic_CMM_Frontend_M.Emote_Magnetic_CMM_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CMF/Emote_Magnetic_CMF_Frontend_M.Emote_Magnetic_CMF_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CLM/Emote_Magnetic_CLM_Frontend_M.Emote_Magnetic_CLM_Frontend_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CLF/Emote_Magnetic_CLF_Frontend_M.Emote_Magnetic_CLF_Frontend_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 151.158,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CMM/Emote_Magnetic_CMM_M.Emote_Magnetic_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CMF/Emote_Magnetic_CMF_M.Emote_Magnetic_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CLM/Emote_Magnetic_CLM_M.Emote_Magnetic_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Magnetic/CLF/Emote_Magnetic_CLF_M.Emote_Magnetic_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D0050E7B49894A60BD952597560E98BF",
+      "SourceString": "Metal Detectin'",
+      "LocalizedString": "Metal Detectin'"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D815676F43FAE7684362EB829C336E73",
+      "SourceString": "The ultimate get-rich-slow scheme.",
+      "LocalizedString": "The ultimate get-rich-slow scheme."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6CF58B8040E2BC6E8BBF0193B29E4DF9",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 80.0,
+          "Z": 20.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-Magnetic.T-Icon-Emotes-Magnetic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-Magnetic-L.T-Icon-Emotes-Magnetic-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.30",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

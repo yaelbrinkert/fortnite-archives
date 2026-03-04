@@ -1,0 +1,97 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Interstellar",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Interstellar/Emote_Interstellar_CMM_M.Emote_Interstellar_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Interstellar/Emote_Interstellar_CMF_M.Emote_Interstellar_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Interstellar/Emote_Interstellar_CLM_M.Emote_Interstellar_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Interstellar/Emote_Interstellar_CLF_M.Emote_Interstellar_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "PreviewLength": 26.0,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      44289
+    ],
+    "BaseShotGridId": 44289,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7496AAA248D4B48B6FC1CE9AA4D83403",
+      "SourceString": "GALAXIAN",
+      "LocalizedString": "GALAXIAN"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D88994BF47B3145A67B85B98BC155590",
+      "SourceString": "MISSION: DESTROY ALIENS.",
+      "LocalizedString": "MISSION: DESTROY ALIENS."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "42A7842F4674648BDF8FB68A4CB6BF2E",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Interstellar.T-Icon-Emotes-E-Interstellar",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Interstellar-L.T-Icon-Emotes-E-Interstellar-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.21",
+          "Cosmetics.Set.FinalTract"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

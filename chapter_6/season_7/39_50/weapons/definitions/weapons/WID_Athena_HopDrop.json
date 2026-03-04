@@ -1,0 +1,336 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_HopDrop",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/B_HopDrop_Weap_Athena.B_HopDrop_Weap_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_M80"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/GA_Athena_HopDrop.GA_Athena_HopDrop_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Parents/GA_Athena_Consumable_Pass_Parent.GA_Athena_Consumable_Pass_Parent_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/WID_Athena_HopDrop.WID_Athena_HopDrop",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Consumable:wid_athena_hopdrop"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH2S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "001EE78C4A6F56B6291972B08B083D97",
+      "SourceString": "Hop Drop",
+      "LocalizedString": "Hop Drop"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "114B2C0C460E58F3CBED34859AA4BE53",
+      "SourceString": "Consume for a small amount of health and low gravity effect.",
+      "LocalizedString": "Consume for a small amount of health and low gravity effect."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.MaxStackAmount.HopDrop"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/Game/FrontEnd/Store/Pinata/Assets/Shared/Candy/S_GumDrop_Sparkly.S_GumDrop_Sparkly",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.49999982,
+            "Y": -0.5000001,
+            "Z": 0.49999985,
+            "W": 0.50000006,
+            "IsNormalized": true,
+            "Size": 0.9999999,
+            "SizeSquared": 0.9999998
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 7.0,
+            "Y": 7.0,
+            "Z": 7.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/S14_Halloween/GumDrop_Halloween_Pickup_Cue.GumDrop_Halloween_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/S14_Halloween/GumDrop_Halloween_Drop_Cue.GumDrop_Halloween_Drop_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 0.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 1.5216621,
+          "Y": 1.4874978,
+          "Z": 1.481549
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "844C802749643942620EEF840536D154",
+          "SourceString": "Gadget UtilityItem MedKit Heal",
+          "LocalizedString": "Gadget UtilityItem MedKit Heal"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/Prj_Athena_Consumable_Thrown_HopDrop.Prj_Athena_Consumable_Thrown_HopDrop_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-CandyHopDrop.T-T-Icon-BR-CandyHopDrop",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-CandyHopDrop-L.T-T-Icon-BR-CandyHopDrop-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Consume.Health.HealthPack",
+          "Athena.ItemAction.Consume",
+          "Trait.Restoration.Health",
+          "Athena.ItemAction.Secondary.Throw",
+          "Rarity.Common",
+          "Trait.Foraged",
+          "Trait.Candy",
+          "Item.Consumable.HopDrop",
+          "Item.SortsRight",
+          "Item.Consumable.Edible",
+          "phoebe.items.consumable.hopdrop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

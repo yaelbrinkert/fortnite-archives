@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HipHurdle",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HipHurdle/CMM/Emote_HipHurdle_CMM_M.Emote_HipHurdle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HipHurdle/CMF/Emote_HipHurdle_CMF_M.Emote_HipHurdle_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HipHurdle/CLM/Emote_HipHurdle_CLM_M.Emote_HipHurdle_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HipHurdle/CLF/Emote_HipHurdle_CLF_M.Emote_HipHurdle_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "53251BBC4536654006F13E9255A86315",
+      "SourceString": "Take Me Thru Dere",
+      "LocalizedString": "Take Me Thru Dere"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2932CFF54D313BE84AED04B825292274",
+      "SourceString": "Make 'em jump.",
+      "LocalizedString": "Make 'em jump."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "368E98094B308FBC0681749AC46D974A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -40.0,
+          "Z": 7.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Filter.Season.39"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_HipHurdle.T_Icon_Emotes_HipHurdle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_HipHurdle_L.T_Icon_Emotes_HipHurdle_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

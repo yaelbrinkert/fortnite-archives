@@ -1,0 +1,284 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Wumba",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GadgetPriority": 1,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "OnDestroyParticleSystem": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/FX/P_Jetpack_Explode.P_Jetpack_Explode",
+      "SubPathString": ""
+    },
+    "OnDestroySound": {
+      "AssetPathName": "/Game/Athena/Sounds/Items/Jetpack/Jetpack_Drop_Cue.Jetpack_Drop_Cue",
+      "SubPathString": ""
+    },
+    "OnDestroyAttachToSocketName": "Backpack",
+    "WeaponItemDefinition": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/Wumba/WID_Athena_Wumba.WID_Athena_Wumba",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "13F55D1844031BF043AFDABA135E45A4",
+      "SourceString": "Upgrade Bench",
+      "LocalizedString": "Upgrade Bench"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8852C3534E76B11C19FACCACC749837F",
+      "SourceString": "Deployable Upgrade Bench",
+      "LocalizedString": "Deployable Upgrade Bench"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5DEF907540AD36E8F17917B0AF44B4C0",
+      "SourceString": "Upgrade your weapons.",
+      "LocalizedString": "Upgrade your weapons."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.AlwaysCountForCollectionQuest"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Game/Gadgets/Assets/Wumba/Meshes/Wumba_Gadget.Wumba_Gadget_Item_Wumba_Quad_LOD0",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.16773328,
+            "Y": 0.044947393,
+            "Z": 0.95124847,
+            "W": 0.25489527,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -6.0,
+            "Y": 0.0,
+            "Z": -5.0
+          },
+          "Scale3D": {
+            "X": 0.2,
+            "Y": 0.2,
+            "Z": 0.2
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Containers/Wumba/Wumba_Pickup_Cue.Wumba_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Containers/Wumba/Wumba_Drop_Cue.Wumba_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Containers/Wumba/Wumba_Placed_Cue.Wumba_Placed_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 65.29577,
+          "Y": 65.29576,
+          "Z": 122.05681
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "FBDAEAAC46B2E36979F6EABA4B15ECC2",
+          "SourceString": "Consumable",
+          "LocalizedString": "Consumable"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "C5F691B84A3E866B814896A697A83C8B",
+          "SourceString": "Wumba",
+          "LocalizedString": "Wumba"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-Wumba.T-T-Icon-BR-Wumba",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-Wumba-L.T-T-Icon-BR-Wumba-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.Rare",
+          "Building.Type.ItemContainer.Wumba",
+          "Trap.ExtraPiece.Cost.Ignore",
+          "Item.Consumable.UpgradeBench",
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Utility"
+        ]
+      }
+    ]
+  }
+}

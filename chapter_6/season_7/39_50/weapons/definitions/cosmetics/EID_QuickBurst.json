@@ -1,0 +1,221 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_QuickBurst",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "bLockGroupEmoteLeaderRotation": true,
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_QuickBurst.GAB_Emote_QuickBurst_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CMM_M.Emote_Quickburst_GuitarFlame_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CMF_M.Emote_Quickburst_GuitarFlame_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CLM_M.Emote_Quickburst_GuitarFlame_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CLF_M.Emote_Quickburst_GuitarFlame_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": -15.0,
+      "Roll": 0.0
+    },
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_LargeGroupEmote.ItemOnPawnPreview_LargeGroupEmote_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      104864
+    ],
+    "BaseShotGridId": 104864,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "57605365496E8848A9DF4C9DEB0AEF02",
+      "SourceString": "Wasteland Rock",
+      "LocalizedString": "Wasteland Rock"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "79FCBF0E4E5A584062D7DDA9C3994A96",
+      "SourceString": "Band together.",
+      "LocalizedString": "Band together."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "11839162422E9C6A8BA29CA5CA8DB52A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 30.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.75
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-QuickBurst.T-Icon-Emotes-QuickBurst",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-QuickBurst-L.T-Icon-Emotes-QuickBurst-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.30",
+          "Cosmetics.Set.DustyContainer",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.Emote.HideMimosaInPreview",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": 115.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 115.0,
+              "Y": 120.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": {
+              "ObjectName": "AthenaDanceItemDefinition'EID_QuickBurst_GuitarSparks'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_QuickBurst_GuitarSparks.0"
+            },
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 0.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 0.0,
+                "Y": 240.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_QuickBurst_Drums'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_QuickBurst_Drums.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 0.0
+            },
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": -100.0,
+                "Y": 120.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_QuickBurst_Speakers'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_QuickBurst_Speakers.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 0.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Immediate",
+          "GroupEmotePreviewFollowerJoinDelayOverride": 10.0
+        }
+      },
+      {
+        "SpecificationMethod": "ECosmeticItemPreviewActorOverrideMethod::ByCosmeticPreviewActorClassMapTag",
+        "ExplicitPreviewActorOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorIdentifierTag": {
+          "TagName": "None"
+        }
+      }
+    ]
+  }
+}

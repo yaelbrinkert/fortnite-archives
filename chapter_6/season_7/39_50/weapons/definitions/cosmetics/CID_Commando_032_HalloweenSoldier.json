@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Commando_032_HalloweenSoldier",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/Male/Medium/Commando/Commando_Male_Body_Montage_Idle.Commando_Male_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Commando_032_HalloweenSoldier:CP_Head_Soldier_SeeBot_Commando'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Commando/CosmeticCharacterItemDefinitions/CID_Commando_032_HalloweenSoldier.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2032A5E34CA149A8507F41A2AFF7ED2F",
+      "SourceString": "JONESEE-BOT",
+      "LocalizedString": "JONESEE-BOT"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4D9905C1441A4C5284C68390999B04D6",
+      "SourceString": "He's here, he's spooky, and he is SEEING",
+      "LocalizedString": "He's here, he's spooky, and he is SEEING"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Soldier/Portrait/T-Soldier-HID-Soldier-Seebot.T-Soldier-HID-Soldier-Seebot",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Soldier/Portrait/T-Soldier-HID-Soldier-Seebot-L.T-Soldier-HID-Soldier-Seebot-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "Type": "FortTrapItemDefinition",
+  "Name": "TID_Floor_MountedTurret_UEFN",
+  "Class": "UScriptClass'FortTrapItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "EquipSound": {
+      "AssetPathName": "/Game/Sounds/Fort_Traps/MountedTurret/Turret_Ballistic_Equip_Cue.Turret_Ballistic_Equip_Cue",
+      "SubPathString": ""
+    },
+    "UEFNFolderTag": {
+      "TagName": "UEFNFolder.Trap"
+    },
+    "BlueprintClass": {
+      "AssetPathName": "/Game/Athena/Items/Traps/MountedTurret/Trap_Floor_MountedTurret.Trap_Floor_MountedTurret_C",
+      "SubPathString": ""
+    },
+    "PlacementPreviewClass": {
+      "AssetPathName": "/Script/FortniteGame.FortDecoPreview_GenericTrapSkeletalMesh",
+      "SubPathString": ""
+    },
+    "GridPlacementOffset": -17.0,
+    "bForceIgnoreOverlapTest": false,
+    "bIgnoreCollisionWithVehicles": false,
+    "bForceIgnoreBuildingOverlaps": true,
+    "bIgnoreCollisionWithCriticalActors": true,
+    "bAutoCreateAttachmentBuilding": true,
+    "AutoCreateAttachmentBuildingResourceType": "EFortResourceType::Metal",
+    "AutoCreateAttachmentBuildingShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Floor/EMP_Floor_Floor.EMP_Floor_Floor",
+        "SubPathString": ""
+      }
+    ],
+    "AllowedShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Floor/EMP_Floor_Floor.EMP_Floor_Floor",
+        "SubPathString": ""
+      }
+    ],
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Athena/Items/Traps/TrapTool_ContextTrap_Athena.TrapTool_ContextTrap_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaTraps'",
+        "ObjectPath": "/Game/Items/Datatables/AthenaTraps.0"
+      },
+      "RowName": "Trap_Floor_Spikes_Athena_R_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Trap.MountedTurret"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Trap.MountedTurret",
+      "Tag:Trap:tid_floor_mountedturret_uefn"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Device",
+        "DeviceCreativeHidden",
+        "DeviceUEFNAllowIslandImport",
+        "DeviceUEFNReady",
+        "TrapDevice",
+        "WeaponDevice"
+      ]
+    },
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A81424664DBC5AF410C44FA2FEF536F9",
+      "SourceString": "Environmental Trap - Mounted Turret",
+      "LocalizedString": "Environmental Trap - Mounted Turret"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "93AD1F8B4C6930F617AA9AA48BBE66EC",
+      "SourceString": "Spawns a mounted turret for players to use. Traps must be attached to the relevant building piece.",
+      "LocalizedString": "Spawns a mounted turret for players to use. Traps must be attached to the relevant building piece."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 50.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 4
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-Turret-Gun.T-Icon-Weapons-Turret-Gun",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-Turret-Gun-L.T-Icon-Weapons-Turret-Gun-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Athena.ItemAction.Place",
+          "Trap.Floor",
+          "Rarity.SuperRare",
+          "Bacchus.Place.Trap.Damage",
+          "Item.Trap.MountedTurret",
+          "Weapon.Ranged.Turret"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "/Game/Gadgets/Assets/Turret_Gun/Meshes/Turret_Gun.Turret_Gun",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 8.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 6.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.65
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Game/Gadgets/Assets/Turret_Gun/Meshes/Turret_Gun.Turret_Gun",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 9.456895E-10,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.3,
+            "Y": 0.3,
+            "Z": 0.3
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_Traps/MountedTurret/Turret_Ballistic_Pickup_02_Cue.Turret_Ballistic_Pickup_02_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 121.709854,
+          "Y": 107.44502,
+          "Z": 96.037224
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::V",
+        "MaxTier": "EFortItemTier::V"
+      }
+    ]
+  }
+}

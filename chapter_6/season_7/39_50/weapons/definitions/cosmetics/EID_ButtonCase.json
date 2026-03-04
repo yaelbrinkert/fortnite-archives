@@ -1,0 +1,106 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ButtonCase",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ButtonCase/Emote_ButtonCase_CMM_M.Emote_ButtonCase_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ButtonCase/CMF/Emote_ButtonCase_CMF_M.Emote_ButtonCase_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ButtonCase/CLM/Emote_ButtonCase_CLM_M.Emote_ButtonCase_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ButtonCase/CLF/Emote_ButtonCase_CLF_M.Emote_ButtonCase_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4CADF243427C9F0FE84BD7B14DA6ED22",
+      "SourceString": "WOOOAAHH!",
+      "LocalizedString": "WOOOAAHH!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B4C5E7B5464FC1B983120A88CC6C32F3",
+      "SourceString": "Wrestling has more than one royal family.",
+      "LocalizedString": "Wrestling has more than one royal family."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A510DEBD432911031D9111B45652CE08",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 20.0,
+          "Y": 100.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.PoleVault",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_ButtonCase.T_Icon_Emotes_ButtonCase",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_ButtonCase_L.T_Icon_Emotes_ButtonCase_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

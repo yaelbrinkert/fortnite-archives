@@ -1,0 +1,348 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_STW_Meat",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/B_Meat_Weap_STW.B_Meat_Weap_STW_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'GadgetScaling'",
+        "ObjectPath": "/Game/Balance/DataTables/GadgetScaling.0"
+      },
+      "RowName": "Generic_0_Damage_NoCrit_NoImpact"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/GA_STW_Meat.GA_STW_Meat_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/GA_STW_Consumable_Pass_Parent_Hack.GA_STW_Consumable_Pass_Parent_Hack_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/WID_STW_Meat.WID_STW_Meat",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Consumable.Meat"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.Meat",
+      "Tag:Consumable:wid_stw_meat"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Regenerative"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2EC1A42B440CB72D5411E0842EC0CB96",
+      "SourceString": "Meat",
+      "LocalizedString": "Meat"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C3914021476D534284DEF08934D0DDEE",
+      "SourceString": "Consume for a small amount of health.",
+      "LocalizedString": "Consume for a small amount of health."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/B_Prj_STW_Consumable_Thrown_Meat.B_Prj_STW_Consumable_Thrown_Meat_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [],
+        "WeaponOwnerSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'Generic_Item_Lib'",
+            "ObjectPath": "/SaveTheWorld/Sounds/SoundLibraries/Generic_Item_Lib.0"
+          }
+        ],
+        "WeaponCollectionTag": []
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/Assets/Meshes/Meat_Gadget.Meat_Gadget",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -15.0
+          },
+          "Scale3D": {
+            "X": 0.85,
+            "Y": 0.85,
+            "Z": 0.85
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/Assets/Sounds/Meat_Pickup_Cue.Meat_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/Assets/Sounds/Meat_Landed_Cue.Meat_Landed_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 0.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 10.824615,
+          "Y": 23.213684,
+          "Z": 9.256807
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "A22F55724B3FB78ECDD97FA584710652",
+          "SourceString": "Gadget UtilityItem MedKit Heal",
+          "LocalizedString": "Gadget UtilityItem MedKit Heal"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "MaxStackSize": {
+          "Value": 999.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "Default.Consumables.MaxStackAmount.Pepper"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/T-T-Icon-BR-Meat.T-T-Icon-BR-Meat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/Items/Consumables/Meat/T-T-Icon-BR-Meat-L.T-T-Icon-BR-Meat-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::WeaponRanged"
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Consume.Health.HealthPack",
+          "Athena.ItemAction.Consume",
+          "Trait.Restoration.Health",
+          "Athena.ItemAction.Secondary.Throw",
+          "Rarity.Common",
+          "Item.SortsRight",
+          "Trait.Meat",
+          "Item.Consumable.Meat"
+        ]
+      }
+    ]
+  }
+}

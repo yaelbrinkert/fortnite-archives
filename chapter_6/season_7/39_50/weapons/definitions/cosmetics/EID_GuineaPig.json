@@ -1,0 +1,123 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_GuineaPig",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.4,
+    "TraversalToStaticBlendTime": 0.4,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CMM_FE_M.Emote_GuineaPig_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CMF_FE_M.Emote_GuineaPig_CMF_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CLM_FE_M.Emote_GuineaPig_CLM_FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CLF_FE_M.Emote_GuineaPig_CLF_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 64.047,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CMM_M.Emote_GuineaPig_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CMF_M.Emote_GuineaPig_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CLM_M.Emote_GuineaPig_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GuineaPig/Emote_GuineaPig_CLF_M.Emote_GuineaPig_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "171CA1A1415044728C60D6A3A7FD69EF",
+      "SourceString": "Lil' AT-AT",
+      "LocalizedString": "Lil' AT-AT"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1D6AA7E746AD0C4EAFC58A9D5B92202E",
+      "SourceString": "Watch your step for tow cables underfoot.",
+      "LocalizedString": "Watch your step for tow cables underfoot."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "854549204240CF6868C8F49C8300EA86",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-GuineaPig.T-Icon-Emotes-GuineaPig",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-GuineaPig-L.T-Icon-Emotes-GuineaPig-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Set.SuddenBoundary",
+          "Cosmetics.UserFacingFlags.Emote.Traversal"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

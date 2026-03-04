@@ -1,0 +1,389 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_PulseRifle_X2_Lime_R",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldSpawnBulletShellFX": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/LimePulseRifle/Blueprints/B_Rifle_Cowboy_Lime_Child.B_Rifle_Cowboy_Lime_Child_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/LimePulseRifle/SkeletalMeshes/SKM_PulseRifleX2.SKM_PulseRifleX2",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Sniper_Cowboy_Athena_R_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/Projectile/GA_Ranged_AthenaSniperProjectileImpact.GA_Ranged_AthenaSniperProjectileImpact_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/LimeWeaponsCore/Ammo/Lime_AmmoDataBulletsHeavy.Lime_AmmoDataBulletsHeavy",
+      "SubPathString": ""
+    },
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCornerAngles": [
+      0.0,
+      89.0,
+      179.0,
+      270.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "weapon.ranged.sniper",
+      "Item.Weapon.Ranged.Sniper.LimePulseRifle",
+      "Lime.Item.Weapon.Ranged.Sniper.LimePulseRifle"
+    ],
+    "ActualAnalyticFNames": [
+      "weapon.ranged.sniper",
+      "Item.Weapon.Ranged.Sniper.LimePulseRifle",
+      "Lime.Item.Weapon.Ranged.Sniper.LimePulseRifle",
+      "Tag:Weapon:wid_pulserifle_x2_lime_r"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Heavy",
+        "Guard",
+        "Lime",
+        "NewThisSeason",
+        "Rare",
+        "RecentlyAdded",
+        "Sniper",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "53B337854383177F5D8C0B84FD248D70",
+      "SourceString": "PulseRifle X2 Mk.2",
+      "LocalizedString": "PulseRifle X2 Mk.2"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CC70E9BD439E70FF86E4E38D9E3FC35B",
+      "SourceString": "Unleashes focused energy with dazzling precision.",
+      "LocalizedString": "Unleashes focused energy with dazzling precision."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D081817244EAB4CBC19F5CB9AAE389AD",
+      "SourceString": "PulseRifle X2",
+      "LocalizedString": "PulseRifle X2"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/LimePulseRifle/Blueprints/B_Prj_Bullet_Cowboy_Lime.B_Prj_Bullet_Cowboy_Lime_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/LimePulseRifle/SkeletalMeshes/SKM_PulseRifleX2.SKM_PulseRifleX2",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_LimeWeapon_64'",
+            "ObjectPath": "/LimeWeaponsCore/Ranged/Icons/T_Icon_LimeWeapon_64.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/LimePulseRifle/Audio/Lime_PulseLaser_Reload_Start_Cue.Lime_PulseLaser_Reload_Start_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 11.342865,
+          "Y": 23.602503,
+          "Z": 27.412891
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "0EF5D7BB421CCA45D7DACBA1953D8DF8",
+          "SourceString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction",
+          "LocalizedString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/LimePulseRifle/Icons/T_Icon_Weapons_LimePulseRifle.T_Icon_Weapons_LimePulseRifle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/LimePulseRifle/Icons/T_Icon_Weapons_LimePulseRifle_L.T_Icon_Weapons_LimePulseRifle_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Skill.sniper.headshotbuff",
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.Sniper.Bolt",
+          "phoebe.weapon.ranged.rifle",
+          "phoebe.items.repeater",
+          "Rarity.Rare",
+          "Lime.Item.Guard",
+          "Behavior.Injection.Lime.Behaviors.Ranged",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Lime.Item.Weapon.Ranged.Sniper.LimePulseRifle",
+          "Item.Weapon.Ranged"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "/LimePulseRifle/SkeletalMeshes/SKM_PulseRifleX2.SKM_PulseRifleX2",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -42.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.5695634,
+          "Yaw": 24.64069,
+          "Roll": -16.679253
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

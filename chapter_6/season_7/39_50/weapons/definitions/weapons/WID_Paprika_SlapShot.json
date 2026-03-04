@@ -1,0 +1,326 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Paprika_SlapShot",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/B_Paprika_SlapShot_Weap.B_Paprika_SlapShot_Weap_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_Placeholder"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/Abilities/GA_Paprika_SlapShot_Primary.GA_Paprika_SlapShot_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Parents/GA_Athena_Consumable_Pass_Parent.GA_Athena_Consumable_Pass_Parent_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/WID_Paprika_SlapShot.WID_Paprika_SlapShot",
+      "SubPathString": ""
+    },
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ActualAnalyticFNames": [
+      "Tag:Consumable:wid_paprika_slapshot"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH5S1",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "23A4CAF24BFCF14E8348ACA91F895EFA",
+      "SourceString": "FlowBerry",
+      "LocalizedString": "FlowBerry"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5FD950BE49344D71913DF9A0CC79D1CA",
+      "SourceString": "Juice-filled berry that grants shields and low-grav to you and your allies.",
+      "LocalizedString": "Juice-filled berry that grants shields and low-grav to you and your allies."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 6.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/PaprikaConsumables/Assets/StormBerry/Meshes/Fruit_Storm_Consumable.Fruit_Storm_Consumable",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.13052619,
+            "Z": 0.0,
+            "W": 0.9914449,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.1,
+            "Y": 1.1,
+            "Z": 1.1
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/Audio/Paprika_SlapShot_Pickup_Cue.Paprika_SlapShot_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/Audio/Paprika_SlapShot_Drop_Cue.Paprika_SlapShot_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/Audio/Paprika_SlapShot_Land_Cue.Paprika_SlapShot_Land_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 7.936759,
+          "Y": 7.9261107,
+          "Z": 14.640294
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/B_Prj_Paprika_ConsumableThrown_SlapShot.B_Prj_Paprika_ConsumableThrown_SlapShot_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'Paprika_SlapShot_Consumable_Lib'",
+            "ObjectPath": "/PaprikaConsumables/Gameplay/SlapShot/Audio/Paprika_SlapShot_Consumable_Lib.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/Icons/T-T-Icon-BR-FruitStorm.T-T-Icon-BR-FruitStorm",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/SlapShot/Icons/T-T-Icon-BR-FruitStorm-L.T-T-Icon-BR-FruitStorm-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Item.Consumable.Paprika.BumpBerry",
+          "HUD.PreferredSlotType.Consumable",
+          "Item.SortsRight",
+          "Trait.Restoration.Shields",
+          "Athena.ItemAction.Consume",
+          "Athena.ItemAction.Secondary.Throw",
+          "Rarity.Uncommon"
+        ]
+      }
+    ]
+  }
+}

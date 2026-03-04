@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Ninja_Myth02",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Small/Ninja/Ninja_Male_Body_Montage_Idle.Ninja_Male_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/MontageLookUpTables/SmallMale.SmallMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Ninja_Myth02:CP_Head_Ninja_Myth02_SR'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Ninja/CosmeticCharacterItemDefinitions/CID_Ninja_Myth02.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2CFE3BD8487BB3F6144B7FB39D355CC2",
+      "SourceString": "The Cloaked Star",
+      "LocalizedString": "The Cloaked Star"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3A0237BF4290CED663BD3DA299229269",
+      "SourceString": "Cloaked in mystery.",
+      "LocalizedString": "Cloaked in mystery."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Ninja/Portrait/T-Ninja-HID-Ninja-Myth02-SR-T02.T-Ninja-HID-Ninja-Myth02-SR-T02",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Ninja/Portrait/T-Ninja-HID-Ninja-Myth02-SR-T02-L.T-Ninja-HID-Ninja-Myth02-SR-T02-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.ShoesSneakers"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

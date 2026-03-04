@@ -1,0 +1,34 @@
+{
+  "Type": "FortWeaponMeleeItemDefinition",
+  "Name": "WID_GauntletsTemplate",
+  "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Weapons/FORT_Melee/Blueprints/B_Athena_Pickaxe_DualWield_Forearm_Generic.B_Athena_Pickaxe_DualWield_Forearm_Generic_C",
+      "SubPathString": ""
+    },
+    "bEnableWeaponMeshOverrideUpdates": false,
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_gauntletstemplate"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.HasDurability"
+        ]
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "Animation.CharacterParts.HideFX.Hands"
+        ]
+      }
+    ]
+  }
+}

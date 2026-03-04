@@ -1,0 +1,132 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Faux",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Unzip",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.Faux.Male"
+        },
+        "bRequireCharacterPart": true,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_Faux.CP_Athena_Head_M_Faux",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return_2Idle_Spray",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.Faux.Female"
+        },
+        "bRequireCharacterPart": true,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_Faux.CP_Head_F_Faux",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Faux/Faux_CMF_M.Faux_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Faux/Faux_CMF_M.Faux_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_019_Emote_FauxStyle'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_019_Emote_FauxStyle.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_111_Athena_Commando_M_Faux.CID_A_111_Athena_Commando_M_Faux",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      42113
+    ],
+    "BaseShotGridId": 42113,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DB24CB274601F3809ACC69B3E5A843D5",
+      "SourceString": "Unzipped",
+      "LocalizedString": "Unzipped"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "84FBE73F404725016AB62D87FC5C0D4B",
+      "SourceString": "Zip it!",
+      "LocalizedString": "Zip it!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "60C5E48140EF6E5C8F258F8E254FC36F",
+      "SourceString": "Built-in Emote",
+      "LocalizedString": "Built-in Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.17",
+          "Cosmetics.Source.Season17.BattlePass.Paid",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Emote.BuiltIn.Transform"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Faux.T-Icon-Emotes-E-Faux",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Faux-L.T-Icon-Emotes-E-Faux-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

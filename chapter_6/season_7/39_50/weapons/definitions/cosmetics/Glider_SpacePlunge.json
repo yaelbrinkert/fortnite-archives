@@ -1,0 +1,270 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_SpacePlunge",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": -186.65965,
+      "Y": -8.978864,
+      "Z": 18.556967
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SpacePlunge/Meshes/SpacePlunge_Glider.SpacePlunge_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/SpacePlunge/SpacePlunge_AnimBP.SpacePlunge_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/Game/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveSurf.Athena_PlayerCameraModeSkydiveSurf_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/SpacePlunge/SpacePlunge_Player/SpacePlungeGliderSurferAltPlayerAnimSet.SpacePlungeGliderSurferAltPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "AttachSocket": "attach",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SpacePlunge/FX/NS_Glider_SpacePlunge.NS_Glider_SpacePlunge",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SpacePlunge/FX/NS_Glider_SpacePlunge_Deploy.NS_Glider_SpacePlunge_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Root",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/SpacePlunge/MSS_Glider_SpacePlunge_Open.MSS_Glider_SpacePlunge_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/SpacePlunge/MSS_Glider_SpacePlunge_Close.MSS_Glider_SpacePlunge_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/SpacePlunge/MSS_Glider_SpacePlunge_Thrust.MSS_Glider_SpacePlunge_Thrust",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMeshVariant'Glider_SpacePlunge:FortCosmeticMeshVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_SpacePlunge.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/Cameras_Glider/GliderItemPreview_SpacePlunge.GliderItemPreview_SpacePlunge_C",
+      "SubPathString": ""
+    },
+    "VariantShotGridIds": [
+      183870,
+      183882
+    ],
+    "ShotGridIds": [
+      183870,
+      183870,
+      183882
+    ],
+    "BaseShotGridId": 183870,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "615AAB8A4CCDE58AD882A2871B1AD493",
+      "SourceString": "Reality Voyager",
+      "LocalizedString": "Reality Voyager"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "16A07AF1454A72A44E4BD6911FEAEBBB",
+      "SourceString": "A dark voyage awaits.",
+      "LocalizedString": "A dark voyage awaits."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 5.0,
+          "Y": -30.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 111.7646,
+          "Roll": 18.77382
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S39/T_Icon_Glider_SpacePlunge.T_Icon_Glider_SpacePlunge",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S39/T_Icon_Glider_SpacePlunge_L.T_Icon_Glider_SpacePlunge_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.NothingMan",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Source.Season39.BattlePass.Paid"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          541,
+          546,
+          231,
+          359,
+          772,
+          162,
+          615,
+          567,
+          276,
+          958,
+          1331,
+          1253,
+          1506,
+          1254,
+          253,
+          2347,
+          2400,
+          383,
+          3016,
+          3017,
+          6626
+        ]
+      }
+    ]
+  }
+}

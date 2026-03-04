@@ -1,0 +1,114 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_AccentWall",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AccentWall/CMM/Emote_AccentWall_CMM_M.Emote_AccentWall_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AccentWall/CMF/Emote_AccentWall_CMF_M.Emote_AccentWall_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AccentWall/CLM/Emote_AccentWall_CLM_M.Emote_AccentWall_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AccentWall/CLF/Emote_AccentWall_CLF_M.Emote_AccentWall_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_AccentWall:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_AccentWall.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "81095D4C49058135C21596855EE01FC9",
+      "SourceString": "Davy's Pipe Organ",
+      "LocalizedString": "Davy's Pipe Organ"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "45ADEE36430031BE1A0BB081E5B6E02E",
+      "SourceString": "Play it loud enough for Calypso to hear.",
+      "LocalizedString": "Play it loud enough for Calypso to hear."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6A5B82C74708C969D14563BC8C796B15",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-AccentWall.T-Icon-Emotes-AccentWall",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.30",
+          "Cosmetics.Set.GroanScheme",
+          "Cosmetics.Emote.HideMimosaInPreview",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-AccentWall-L.T-Icon-Emotes-AccentWall-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

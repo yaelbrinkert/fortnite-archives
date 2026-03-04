@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Outlander_024",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Medium/Outlander/Outlander_Male_Body_MediumBodyType_Montage_Idle.Outlander_Male_Body_MediumBodyType_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Outlander_024:CP_Head_Med_Soldier_M_StreetRacerCobra'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Outlander/CosmeticCharacterItemDefinitions/CID_Outlander_024.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8E38D47F41CF1AB5022F479763226D61",
+      "SourceString": "Steel Wool Anthony",
+      "LocalizedString": "Steel Wool Anthony"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "46FEECEB42B01370274287A728E63636",
+      "SourceString": "Dropping sick beats and husk beatdowns.",
+      "LocalizedString": "Dropping sick beats and husk beatdowns."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra.T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra-L.T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

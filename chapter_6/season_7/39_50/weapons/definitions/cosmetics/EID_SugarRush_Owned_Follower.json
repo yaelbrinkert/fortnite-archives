@@ -1,0 +1,98 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SugarRush_Owned_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CMM_M_FrontEnd.Emote_SugarRush_OwnedFollower_CMM_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CMF_M_FrontEnd.Emote_SugarRush_OwnedFollower_CMF_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CLM_M_FrontEnd.Emote_SugarRush_OwnedFollower_CLM_M_FrontEnd",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CLF_M_FrontEnd.Emote_SugarRush_OwnedFollower_CLF_M_FrontEnd",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower.GAB_EmoteBand_Follower_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CMM_M.Emote_SugarRush_OwnedFollower_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CMF_M.Emote_SugarRush_OwnedFollower_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CLF_M.Emote_SugarRush_OwnedFollower_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SugarRush/Emote_SugarRush_OwnedFollower_CLM_M.Emote_SugarRush_OwnedFollower_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "bIncludeAudioWithAnimDuration": false,
+    "EmoteCooldownSecs": 1.0,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E93EB51D4DFFA0F204E89CA6B57D106F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote.T_Placeholder_Item_Emote",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

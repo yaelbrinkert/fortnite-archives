@@ -1,0 +1,168 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_AshenMagnus",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXOnPawnPreviewOffset": {
+      "X": -35.0,
+      "Y": 0.0,
+      "Z": 25.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 15.0,
+        "Y": -2.0,
+        "Z": 13.0
+      },
+      "CylinderHalfHeight": 45.0,
+      "CylinderRadius": 45.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_AshenMagnus'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Templates/Weapon_Pickaxe_AshenMagnus.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_AshenMagnus:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Templates/Pickaxe_AshenMagnus.1"
+      }
+    ],
+    "VariantShotGridIds": [
+      152501,
+      158546
+    ],
+    "ShotGridIds": [
+      152501,
+      152501,
+      158546
+    ],
+    "BaseShotGridId": 152501,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F1837DA64DCF9CC203A2939CD21D6750",
+      "SourceString": "Hunter's Knife",
+      "LocalizedString": "Hunter's Knife"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C3A1E99543394B1845AEABB1D1DF2D4D",
+      "SourceString": "Cut your way to your prey.",
+      "LocalizedString": "Cut your way to your prey."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "77AAB5304B644D0C2B3A49A2ADF8220C",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": 30.0,
+          "Yaw": 332.0,
+          "Roll": 5.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.OneHanded",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.SingleGun",
+          "Cosmetics.Source.Season36.BattlePass.Paid"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Pickaxe-S.T_Placeholder_Item_Pickaxe-S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/Athena/Prototype/Textures/T_Placeholder_Item_Pickaxe.T_Placeholder_Item_Pickaxe",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          541,
+          546,
+          359,
+          162,
+          239,
+          166,
+          567,
+          179,
+          112,
+          835,
+          259,
+          664,
+          216,
+          1986,
+          2378,
+          2379,
+          2380,
+          2381,
+          2563,
+          3609,
+          4854
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.PreviewType.OffPawn"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/PickaxeItemPreview_PolarityWinn.PickaxeItemPreview_PolarityWinn_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Candor",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Transformation",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Candor.CP_Athena_Body_M_Candor",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_CandorTech.CP_Athena_Body_F_CandorTech",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Candor/Emote_Candor_CMM_M.Emote_Candor_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_034_Emote_Candor'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_034_Emote_Candor.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_Candor.Character_Candor",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      60146
+    ],
+    "BaseShotGridId": 60146,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F2BCA832464BD3356718CFAD40F38825",
+      "SourceString": "Digitized",
+      "LocalizedString": "Digitized"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "67B3BEF7436E3AC38C0CC4A6356B7C25",
+      "SourceString": "Go forth and scout a new digital reality.",
+      "LocalizedString": "Go forth and scout a new digital reality."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "412D277C487CFE526073C4988DD62E68",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.22",
+          "Cosmetics.UserFacingFlags.Transform",
+          "Emote.BuiltIn.Transform",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Set.MobPatrol"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-Candor.T-Icon-Emotes-E-Candor",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-Candor-L.T-Icon-Emotes-E-Candor-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

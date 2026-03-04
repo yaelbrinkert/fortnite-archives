@@ -1,0 +1,83 @@
+{
+  "Type": "FortTrapItemDefinition",
+  "Name": "TID_Creative_ItemSpawnerVendingMachine",
+  "Class": "UScriptClass'FortTrapItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BlueprintClass": {
+      "AssetPathName": "/Game/Creative/Devices/ItemSpawnerVendingMachine/Device_item_SpawnerVendingMachine.Device_item_SpawnerVendingMachine_C",
+      "SubPathString": ""
+    },
+    "PlacementPreviewClass": {
+      "AssetPathName": "/Script/FortniteGame.FortDecoPreview_GenericBuildingSMActor",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Trap:tid_creative_itemspawnervendingmachine"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C2BC0CF14BAF46EE9DF8FC8B1AEB7A03",
+      "SourceString": "Vending Machine",
+      "LocalizedString": "Vending Machine"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1C4121E14F6922A099327995E8AF50CF",
+      "SourceString": "Spawn items from the vending machine during gamplay",
+      "LocalizedString": "Spawn items from the vending machine during gamplay"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B93DEB784EAB79AAA7CD36B940DDA44B",
+      "SourceString": "Spawn items from the vending machine during gamplay",
+      "LocalizedString": "Spawn items from the vending machine during gamplay"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.HasDurability",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 999.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 4
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PlaysetGrenade/T-Icon-PS-CP-Devices-ItemSpawner-VendingMachine.T-Icon-PS-CP-Devices-ItemSpawner-VendingMachine",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PlaysetGrenade/T-Icon-PS-CP-Devices-ItemSpawner-VendingMachine-L.T-Icon-PS-CP-Devices-ItemSpawner-VendingMachine-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.Uncommon"
+        ]
+      }
+    ]
+  }
+}

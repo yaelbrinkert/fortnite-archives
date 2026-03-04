@@ -1,0 +1,64 @@
+{
+  "Type": "AthenaPetItemDefinition",
+  "Name": "PetID_005_Wolf",
+  "Class": "UScriptClass'AthenaPetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StimuliBanks": [
+      {
+        "ObjectName": "FortPetStimuliBank'SharedPetStimuli'",
+        "ObjectPath": "/BRCosmetics/Characters/Pets/Shared/SharedPetStimuli.0"
+      }
+    ],
+    "PetPrefabClass": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Dog_WolfPup/B_PetInst_WolfPup.B_PetInst_WolfPup_C",
+      "SubPathString": ""
+    },
+    "PetSoundBank": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Dog_WolfPup/SoundBank_WolfPup.SoundBank_WolfPup",
+      "SubPathString": ""
+    },
+    "CosmeticSoundLibraries": [
+      {
+        "ObjectName": "SoundLibrary'PT_DwMl_VO_Lib'",
+        "ObjectPath": "/BRCosmetics/Sounds/Pets/DwMl/PT_DwMl_VO_Lib.0"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3A08A8314B9777ED60193E9ACEF95206",
+      "SourceString": "Remus",
+      "LocalizedString": "Remus"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4B261EE84E2630DF6777CD8EFB89E591",
+      "SourceString": "Untamed and unafraid.",
+      "LocalizedString": "Untamed and unafraid."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D35E75A8434BA7CA1EBD5E875E62F6BE",
+      "SourceString": "Pet",
+      "LocalizedString": "Pet"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.7"
+        ]
+      }
+    ]
+  }
+}

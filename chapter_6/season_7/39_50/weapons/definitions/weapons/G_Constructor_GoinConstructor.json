@@ -1,0 +1,55 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_Constructor_GoinConstructor",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Constructor/Actives/GoinConstructor/GA_Constructor_GoinConstructor.GA_Constructor_GoinConstructor_C",
+      "SubPathString": ""
+    },
+    "AdditionalItemsToLoadWhenEquipped": [
+      {
+        "AssetPathName": "/SaveTheWorld/Abilities/Player/Constructor/Actives/GoinConstructor/GoinConstructor_Weapon.GoinConstructor_Weapon",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/SaveTheWorld/Abilities/Player/Constructor/Actives/GoinConstructor/GoinConstructor_BlackKnight_Weapon.GoinConstructor_BlackKnight_Weapon",
+        "SubPathString": ""
+      }
+    ],
+    "DamageStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'MeleeWeapons'",
+        "ObjectPath": "/Game/Items/Datatables/MeleeWeapons.0"
+      },
+      "RowName": "Goin_Constructor_C_Ore_T01"
+    },
+    "ItemType": "EFortItemType::HeroAbility",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "791C42844A9BE6E23B9E0C9C5A7EA055",
+      "SourceString": "Goin' Constructor",
+      "LocalizedString": "Goin' Constructor"
+    },
+    "DataList": [
+      {
+        "PreferredQuickbarSlot": 7
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Abilities/Icon-Constructor-GoinConstructor-128.Icon-Constructor-GoinConstructor-128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.AllowQuickbarFocusForGamepadOnly",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_Meteorwomen_Alt",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Meteorwomen_Alt/Meshes/Meteorwomen_Alt_Glider.Meteorwomen_Alt_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/MeteorwomenAlt_Glider_AnimBP.MeteorwomenAlt_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/BRCosmetics/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveNoGlider.Athena_PlayerCameraModeSkydiveNoGlider_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/MeteorwomenAlt/MeteorwomenAltPlayerAnimSet.MeteorwomenAltPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "AttachSocket": "spine_05",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Meteorwomen_Alt/FX/NS_Glider_MeteorWomen.NS_Glider_MeteorWomen",
+          "SubPathString": ""
+        },
+        "EffectSocket": "root",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "CleanUpDeployEffect": true,
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/MeteorwomenAlt/SC_GliderOpen_MeteorwomenAlt.SC_GliderOpen_MeteorwomenAlt",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/MeteorwomenAlt/SC_GliderClose_MeteorwomenAlt.SC_GliderClose_MeteorwomenAlt",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/MeteorwomenAlt/GliderThrustLoop_MeteorwomenAlt_Cue.GliderThrustLoop_MeteorwomenAlt_Cue",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::AnyDirection",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/MeteorwomenAlt/SC_GliderThrustStart_MeteorwomenAlt.SC_GliderThrustStart_MeteorwomenAlt",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ShapeshifterFemale/SC_GliderThrustStart_Shapeshifter_Female.SC_GliderThrustStart_Shapeshifter_Female",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_Meteorwomen_Alt:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_Meteorwomen_Alt.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/BRCosmetics/Environments/FrontEnd/Blueprints/ItemPreview/Cameras_Glider/ItemOnPawnPreview_Meteorwomen.ItemOnPawnPreview_Meteorwomen_C",
+      "SubPathString": ""
+    },
+    "VariantShotGridIds": [
+      60984
+    ],
+    "ShotGridIds": [
+      59714,
+      60984
+    ],
+    "BaseShotGridId": 59714,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2A3E1E0A41791C7F100F83A3D057F09B",
+      "SourceString": "Lunar Skyspan",
+      "LocalizedString": "Lunar Skyspan"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6F7EBD5D412AB91264F53596905C09AE",
+      "SourceString": "No true home but the sky.",
+      "LocalizedString": "No true home but the sky."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -115.0,
+          "Roll": -15.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S22/T-Icon_Glider-Glider-MeteorWoman-default.T-Icon_Glider-Glider-MeteorWoman-default",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S22/T-Icon_Glider-Glider-MeteorWoman-default-L.T-Icon_Glider-Glider-MeteorWoman-default-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Glider.HideBackPack",
+          "Cosmetics.Filter.Season.22",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Source.Season22.BattlePass.Free",
+          "Cosmetics.Set.Asteroid"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          231,
+          772,
+          162,
+          580,
+          603,
+          615,
+          567,
+          246,
+          958,
+          352,
+          1331,
+          1506,
+          1254,
+          2065,
+          253,
+          2347,
+          2400,
+          383,
+          2521,
+          388
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_BB_ShoppingCartVehicleSK",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.ShoppingCart.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.ShoppingCart.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/BlastberryMapContent/Game/Blueprints/ShoppingCart/Rufus_ShoppingCartVehicleSK.Rufus_ShoppingCartVehicleSK_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "rufusshoppingcart",
+      "rufusshopping",
+      "rufus shopping cart"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

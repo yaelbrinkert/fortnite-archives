@@ -1,0 +1,107 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Valet_BasicCar_Vehicle_GetAway",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinSpawnPercent.BasicCar"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxSpawnPercent.BasicCar"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0,
+      "Curve": {
+        "RowName": "Default.Valet.BasicCar.MaxCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentWithGas.BasicCar"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentWithGas.BasicCar"
+      }
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentInoperable.BasicCar"
+      }
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentInoperable.BasicCar"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/GetAwayCar/Vehicle/Valet_BasicCar_Vehicle_GetAway.Valet_BasicCar_Vehicle_GetAway_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "getaway"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5BC8DBCE479CB9D42ED54CBC17196F7A",
+      "SourceString": "Nitro Fang",
+      "LocalizedString": "Nitro Fang"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/GetAwayCar/Icons/T-T-Icon-BR-Vehicle-Sedan-Getaway.T-T-Icon-BR-Vehicle-Sedan-Getaway",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/GetAwayCar/Icons/T-T-Icon-BR-Vehicle-Sedan-Getaway-L.T-T-Icon-BR-Vehicle-Sedan-Getaway-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

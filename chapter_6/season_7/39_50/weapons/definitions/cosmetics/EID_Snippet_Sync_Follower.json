@@ -1,0 +1,61 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Snippet_Sync_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "GroupEmotePositionOffset": {
+      "X": 110.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "GroupEmoteFollowerRotationYawOffset": 180.0,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Snippet/Emote_Snippet_CMM__2_Sync_M.Emote_Snippet_CMM__2_Sync_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Snippet/Emote_Snippet_CMF__2_Sync_M.Emote_Snippet_CMF__2_Sync_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Snippet/Emote_Snippet_CLM__2_Sync_M.Emote_Snippet_CLM__2_Sync_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Snippet/Emote_Snippet_CLF__2_Sync_M.Emote_Snippet_CLF__2_Sync_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.4"
+        ]
+      }
+    ]
+  }
+}

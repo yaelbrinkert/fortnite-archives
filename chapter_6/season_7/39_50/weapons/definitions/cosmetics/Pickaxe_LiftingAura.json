@@ -1,0 +1,167 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_LiftingAura",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXPreviewOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 63.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": -11.0,
+        "Z": 22.0
+      },
+      "CylinderHalfHeight": 50.0,
+      "CylinderRadius": 50.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_LiftingAura'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_LiftingAura.0"
+    },
+    "MetaTags": [
+      "Cosmetics.MetaTags.LiftingAura"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_LiftingAura:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_LiftingAura.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 5.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/BRCosmetics/Environments/FrontEnd/Blueprints/ItemPreview/Cameras_Pickaxe/PickaxeItemPreview_LiftingAura.PickaxeItemPreview_LiftingAura_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      83801
+    ],
+    "BaseShotGridId": 83801,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "108030C647F8F57747D52DA2D2F8C488",
+      "SourceString": "Heart's Carver",
+      "LocalizedString": "Heart's Carver"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AD31097A4E9B92C53026989A9FDE919B",
+      "SourceString": "Cut to the heart of the matter.",
+      "LocalizedString": "Cut to the heart of the matter."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3265174847686796CEEC1B92CE4E8194",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 32.0,
+          "Yaw": 315.0,
+          "Roll": 3.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S29/T-Icon-Pickaxes-LiftingAura.T-Icon-Pickaxes-LiftingAura",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S29/T-Icon-Pickaxes-LiftingAura-L.T-Icon-Pickaxes-LiftingAura-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.OneHanded",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Source.Season29.BattlePass.Free",
+          "Cosmetics.Source.Season29.BattlePass.Paid",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Set.QueenLove",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          541,
+          546,
+          548,
+          247,
+          554,
+          114,
+          249,
+          606,
+          626,
+          24,
+          112,
+          894,
+          438,
+          697,
+          1214,
+          259,
+          1986,
+          460,
+          2412
+        ]
+      }
+    ]
+  }
+}

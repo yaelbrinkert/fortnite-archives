@@ -1,0 +1,139 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Keytar_HandStand",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Spawned/Emote_Keytar_HandStand_Spawned_CMM_M.Emote_Keytar_HandStand_Spawned_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Spawned/Emote_Keytar_HandStand_Spawned_CMF_M.Emote_Keytar_HandStand_Spawned_CMF_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Spawned/Emote_Keytar_HandStand_Spawned_CLM_M.Emote_Keytar_HandStand_Spawned_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Spawned/Emote_Keytar_HandStand_Spawned_CLF_M.Emote_Keytar_HandStand_Spawned_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Persistent/Emote_Keytar_HandStand_CMM_M.Emote_Keytar_HandStand_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Persistent/Emote_Keytar_HandStand_CMF_M.Emote_Keytar_HandStand_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Persistent/Emote_Keytar_HandStand_CLM_M.Emote_Keytar_HandStand_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/HandStand/Persistent/Emote_Keytar_HandStand_CLF_M.Emote_Keytar_HandStand_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bPlayRandomSection": true,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "SpotlightStart",
+        "SectionWeight": 2.0
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7811A316446CD2CE4F2E0888E5506775",
+      "SourceString": "Flipping Out",
+      "LocalizedString": "Flipping Out"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B3AE9A7A4FCB8BC10855079A16A87326",
+      "SourceString": "Balance is key. ",
+      "LocalizedString": "Balance is key. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D2F366E3450231D9CFC8DC854D30AA0C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Filter.Sparks"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Keytar-Handstand.T-UI-Icon-SparksEmote-Keytar-Handstand",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Keytar-Handstand-L.T-UI-Icon-SparksEmote-Keytar-Handstand-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      }
+    ]
+  }
+}

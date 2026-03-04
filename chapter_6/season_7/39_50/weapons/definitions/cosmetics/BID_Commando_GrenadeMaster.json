@@ -1,0 +1,45 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_Commando_GrenadeMaster",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'Female_Commando_04'",
+        "ObjectPath": "/SaveTheWorld/Characters/CharacterParts/Backpacks/Female_Commando_04.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Mythic",
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Commando-GrenadeMaster.T-Icon-Backpacks-Commando-GrenadeMaster",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Commando-GrenadeMaster-L.T-Icon-Backpacks-Commando-GrenadeMaster-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

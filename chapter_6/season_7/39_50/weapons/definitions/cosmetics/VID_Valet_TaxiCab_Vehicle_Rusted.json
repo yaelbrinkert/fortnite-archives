@@ -1,0 +1,93 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Valet_TaxiCab_Vehicle_Rusted",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinSpawnPercent.TaxiCab.Rusted"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxSpawnPercent.TaxiCab.Rusted"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.TaxiCab.MaxCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentWithGas.TaxiCab.Rusted"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentWithGas.TaxiCab.Rusted"
+      }
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentInoperable.TaxiCab.Rusted"
+      }
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentInoperable.TaxiCab.Rusted"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/Valet/TaxiCab/Valet_TaxiCab_Vehicle_Rusted.Valet_TaxiCab_Vehicle_Rusted_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "taxirusted"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

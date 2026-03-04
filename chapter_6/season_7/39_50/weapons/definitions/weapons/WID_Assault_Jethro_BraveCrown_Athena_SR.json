@@ -1,0 +1,392 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Assault_Jethro_BraveCrown_Athena_SR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bTreatOverheatAsReload": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/B_Assault_Jethro_BraveCrown_Athena_Test.B_Assault_Jethro_BraveCrown_Athena_Test_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/Meshes/BraveCrown_Rifle.BraveCrown_Rifle",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Assault_Jethro_BraveCrown_Athena_SR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Items/Ammo/AmmoInfiniteEnergy.AmmoInfiniteEnergy",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bReticleCornerOutsideSpreadRadius": true,
+    "bModsHidden": true,
+    "ReticleCornerAngles": [
+      0.0,
+      89.0,
+      179.0,
+      270.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.Jethro.BraveCrown"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Item.Weapon.Ranged.Assault.Jethro.BraveCrown"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.Jethro.BraveCrown",
+      "Tag:Weapon:wid_assault_jethro_bravecrown_athena_sr"
+    ],
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E6ABC8D34A761EF15EC4F9B915EB664F",
+      "SourceString": "DLT-19 Blaster Rifle",
+      "LocalizedString": "DLT-19 Blaster Rifle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F1B898DC404AEAEC9D6800B2ED398671",
+      "SourceString": "Fast firing Automatic Blaster Rifle, similar to an Assault Rifle in distant galaxies. Most effective at close-to-medium range due to lower accuracy.",
+      "LocalizedString": "Fast firing Automatic Blaster Rifle, similar to an Assault Rifle in distant galaxies. Most effective at close-to-medium range due to lower accuracy."
+    },
+    "DataList": [
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/Icons/T_Icon_Weapons_Rifle_BraveCrown.T_Icon_Weapons_Rifle_BraveCrown",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/Icons/T_Icon_Weapons_Rifle_BraveCrown_L.T_Icon_Weapons_Rifle_BraveCrown_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.AR.Auto",
+          "phoebe.weapon.ranged.rifle",
+          "phoebe.weapon.trait.fullauto",
+          "phoebe.items.assault_rifle",
+          "Weapon.Ranged.Assault",
+          "Item.Weapon.Ranged.Assault.Jethro.BraveCrown",
+          "Item.Weapon.Ranged.Assault.Auto",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Rarity.SuperRare",
+          "Weapon.Reload.InputOverriden"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -31.0,
+          "Z": -3.0
+        },
+        "InitialRotation": {
+          "Pitch": 9.880858,
+          "Yaw": 23.314001,
+          "Roll": -19.386724
+        },
+        "Scale": 1.1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/Meshes/BraveCrown_Rifle.BraveCrown_Rifle",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Assault-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/JethroWeaponGameplay/Assets/Audio/BraveCrown/SL_Jethro_BraveCrown_Pickup.SL_Jethro_BraveCrown_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 7.4972086,
+          "Y": 61.294052,
+          "Z": 11.014809
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "2FB9612B40ABEAC3E3445FB69EF8AF62",
+          "SourceString": "Guns Assault Rifles Machinegun LightBullets Automatic",
+          "LocalizedString": "Guns Assault Rifles Machinegun LightBullets Automatic"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats_NoMagSize.Athena_RangedWeaponTooltipStats_NoMagSize",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::V",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_Jethro_BraveCrown_Weapon'",
+            "ObjectPath": "/JethroWeaponGameplay/Assets/Audio/BraveCrown/SL_Jethro_BraveCrown_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Rifle'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Rifle.0"
+        }
+      }
+    ]
+  }
+}

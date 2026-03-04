@@ -1,0 +1,110 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SaltySumo",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SaltySumo/Emote_SaltySumo_CMM_M.Emote_SaltySumo_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SaltySumo/Emote_SaltySumo_CMF_M.Emote_SaltySumo_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SaltySumo/Emote_SaltySumo_CLM_M.Emote_SaltySumo_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SaltySumo/Emote_SaltySumo_CLF_M.Emote_SaltySumo_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_SaltySumo:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_SaltySumo.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "6EF9AABA4F9840C72E5F1EA96549BC46",
+      "SourceString": "Sumo Salt Throw",
+      "LocalizedString": "Sumo Salt Throw"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "34DA957F4B905BDA22FAB78BCE999A62",
+      "SourceString": "Purify and prepare for the battlefield.",
+      "LocalizedString": "Purify and prepare for the battlefield."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7FAD8691459784840711C1B691ED301C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 110.0,
+          "Z": 25.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.33"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_SaltySumo.T_Icon_Emotes_SaltySumo",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_SaltySumo_L.T_Icon_Emotes_SaltySumo_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

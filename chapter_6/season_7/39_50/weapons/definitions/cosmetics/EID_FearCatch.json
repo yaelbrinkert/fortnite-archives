@@ -1,0 +1,142 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_FearCatch",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CMM/Emote_FearCatch_CMM_FE_M.Emote_FearCatch_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CMF/Emote_FearCatch_CMF_FE_M.Emote_FearCatch_CMF_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CLM/Emote_FearCatch_CLM_FE_M.Emote_FearCatch_CLM_FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CLF/Emote_FearCatch_CLF_FE_M.Emote_FearCatch_CLF_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 500.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CMM/Emote_FearCatch_CMM_Static_M.Emote_FearCatch_CMM_Static_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CMF/Emote_FearCatch_CMF_M.Emote_FearCatch_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CLM/Emote_FearCatch_CLM_M.Emote_FearCatch_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FearCatch/CLF/Emote_FearCatch_CLF_M.Emote_FearCatch_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_FearCatch:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_FearCatch.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D64297CD4BF9D5E64BC70E96A420118C",
+      "SourceString": "Lil' Specter Speeder",
+      "LocalizedString": "Lil' Specter Speeder"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DE6B189349F57ED6AC6A429556FEFD5D",
+      "SourceString": "Pursue all ghosts, big and lil'. ",
+      "LocalizedString": "Pursue all ghosts, big and lil'. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "4AE759784BA48271117F02A4DE09B20B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 30.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.65
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.PlugCheese",
+          "Cosmetics.Filter.Season.39"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_FearCatch.T_Icon_Emotes_FearCatch",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_FearCatch_L.T_Icon_Emotes_FearCatch_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

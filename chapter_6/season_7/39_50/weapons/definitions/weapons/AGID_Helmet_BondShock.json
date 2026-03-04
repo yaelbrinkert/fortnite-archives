@@ -1,0 +1,438 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Helmet_BondShock",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_BondShock_Helmet'",
+        "ObjectPath": "/WildEstate/Gameplay/BondShock/CP_BondShock_Helmet.1"
+      }
+    ],
+    "CharacterPartsExtraSpecial": [
+      {
+        "CharacterPartsForExtraSpecial": [
+          {
+            "ObjectName": "CustomCharacterPart'CP_BondShock_Face'",
+            "ObjectPath": "/WildEstate/Gameplay/BondShock/CP_BondShock_Face.1"
+          }
+        ],
+        "SkinMetaTagsForExtraSpecial": [
+          "Cosmetics.MetaTags.Special.ReplaceFace"
+        ]
+      },
+      {
+        "CharacterPartsForExtraSpecial": [
+          {
+            "ObjectName": "CustomCharacterPart'CP_BondShock_Head'",
+            "ObjectPath": "/WildEstate/Gameplay/BondShock/CP_BondShock_Head.1"
+          }
+        ],
+        "SkinMetaTagsForExtraSpecial": [
+          "Cosmetics.MetaTags.Special.ReplaceHead"
+        ]
+      },
+      {
+        "CharacterPartsForExtraSpecial": [
+          {
+            "ObjectName": "CustomCharacterPart'CP_BondShock_Tail'",
+            "ObjectPath": "/WildEstate/Gameplay/BondShock/CP_BondShock_Tail.1"
+          }
+        ],
+        "SkinMetaTagsForExtraSpecial": [
+          "Cosmetics.MetaTags.Special.ReplaceTail"
+        ]
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/WildEstate/Gameplay/BondShock/AS_BondShock_Helm.AS_BondShock_Helm",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "49A1E22B4684109558462F9F1A3BF978",
+      "SourceString": "Jebediah's Protective Helm",
+      "LocalizedString": "Jebediah's Protective Helm"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "244DCC164F7A1CE4DCEEFAB1E50C8B6F",
+      "SourceString": "I hope they find the punk who did this, and I hope they cut his head off! Wearing the head protects from headshot damage, but reveals the wearer's location on the map.",
+      "LocalizedString": "I hope they find the punk who did this, and I hope they cut his head off! Wearing the head protects from headshot damage, but reveals the wearer's location on the map."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.DisallowQuickbarFocus"
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/WildEstate/Gameplay/BondShock/Assets/Icons/T_Icon_BR_BondShock_Head_L.T_Icon_BR_BondShock_Head_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WildEstate/Gameplay/BondShock/Assets/Icons/T_Icon_BR_BondShock_Head.T_Icon_BR_BondShock_Head",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/WildEstate/Environment/Props/WildEstate/WildEstate_TownStatue_A/Meshes/SM_WildEstate_TownStatue_A_Head.SM_WildEstate_TownStatue_A_Head",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_UI_BondShock_Minimap_Icon'",
+            "ObjectPath": "/WildEstate/Gameplay/BondShock/Assets/UI/Texture/T_UI_BondShock_Minimap_Icon.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/WildEstate/Gameplay/BondShock/Assets/Audio/SFX/MSS_BondShock_Pickup.MSS_BondShock_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/WildEstate/Gameplay/BondShock/Assets/Audio/SFX/MSS_BondShock_Drop.MSS_BondShock_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/WildEstate/Gameplay/BondShock/Assets/Audio/SFX/MSS_BondShock_DropLand.MSS_BondShock_DropLand",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 37.460403,
+          "Y": 41.83817,
+          "Z": 62.58869
+        }
+      },
+      {
+        "Tags": [
+          "Item.SortsRight",
+          "Item.Gadget.BondShock",
+          "Rarity.Mythic",
+          "Athena.Item.Utility",
+          "HUD.PreferredSlotType.Consumable"
+        ]
+      },
+      {
+        "SpecialActorPickupTag": {
+          "TagName": "SpecialActor.BondShock.Pickup"
+        },
+        "MapLegendTag": {
+          "TagName": "None"
+        },
+        "PickupCompassRenderDistance": -1.0,
+        "SpecialActorPickupStatList": [],
+        "PickupMinimapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_UI_BondShock_Minimap_Icon'",
+            "ObjectPath": "/WildEstate/Gameplay/BondShock/Assets/UI/Texture/T_UI_BondShock_Minimap_Icon.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupMinimapIconScale": {
+          "X": 0.25,
+          "Y": 0.25
+        },
+        "PickupCompassIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_UI_BondShock_Minimap_Icon'",
+            "ObjectPath": "/WildEstate/Gameplay/BondShock/Assets/UI/Texture/T_UI_BondShock_Minimap_Icon.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupCompassIconScale": {
+          "X": 0.25,
+          "Y": 0.25
+        },
+        "RenderTags": [],
+        "RenderDisabledTags": [],
+        "bDrawCompassDistanceText": false,
+        "bDrawMapIconUnderStorm": false
+      }
+    ]
+  }
+}

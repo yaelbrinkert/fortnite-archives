@@ -1,0 +1,305 @@
+{
+  "Type": "FortWeaponModItemDefinition",
+  "Name": "WMID_FeralCorgiBarrel_Suppressor",
+  "Class": "UScriptClass'FortWeaponModItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ModSlot": {
+      "TagName": "WeaponMod.Slot.Barrel"
+    },
+    "DefaultModData": {
+      "MeshData": {
+        "ModMesh": {
+          "AssetPathName": "/WeaponMods/Items/WeaponMods/Barrel/Suppressor/Mesh/Suppressor.Suppressor",
+          "SubPathString": ""
+        },
+        "SocketName": "attach_barrel"
+      },
+      "AudioData": {
+        "AssetPathName": "/WeaponMods/Items/WeaponMods/Barrel/Suppressor/Sounds/Settings/WMAD_Suppressor_Rifle.WMAD_Suppressor_Rifle",
+        "SubPathString": ""
+      }
+    },
+    "PlayerGrantedGameplayTags": [
+      "WeaponMod.Barrel.Suppressor"
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/WeaponMods/Items/WeaponMods/Barrel/Suppressor/AS_WM_Barrel_Suppressor.AS_WM_Barrel_Suppressor",
+      "SubPathString": ""
+    },
+    "AllowedWeaponTagQuery": {
+      "TagDictionary": [
+        {
+          "TagName": "item.weapon.ranged.shotgun.TripleBarrel.SunRose"
+        },
+        {
+          "TagName": "Item.Weapon.Ranged.Bow.Crossbow.Moonflax"
+        },
+        {
+          "TagName": "Item.Weapon.Ranged.Shotgun.Flavor.FirePetal"
+        }
+      ],
+      "QueryTokenStream": [
+        0,
+        1,
+        3,
+        3,
+        0,
+        1,
+        2
+      ],
+      "UserDescription": "Exclude Cerberus Shotgun, Explosive Crossbow and Shogun Shotgun",
+      "AutoDescription": " NONE( item.weapon.ranged.shotgun.TripleBarrel.SunRose, Item.Weapon.Ranged.Bow.Crossbow.Moonflax, Item.Weapon.Ranged.Shotgun.Flavor.FirePetal )"
+    },
+    "WeaponModTag": {
+      "TagName": "WeaponMod.Barrel.Suppressor"
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "EF59C1A3464AEBF6ADC4DA9717145F5B",
+      "SourceString": "Suppressor",
+      "LocalizedString": "Suppressor"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C1B000D44BC028C4E045FAA8DF4084AA",
+      "SourceString": "Reduces Muzzle Flash and dampens audio",
+      "LocalizedString": "Reduces Muzzle Flash and dampens audio"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "18C98FF248B53F9EB976DE87C56D34F9",
+      "SourceString": "Reduced Muzzle Flash, and Dampens Audio",
+      "LocalizedString": "Reduced Muzzle Flash, and Dampens Audio"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WeaponMods/UI/Icons/T_Icon_Suppressor_32.T_Icon_Suppressor_32",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/WeaponMods/UI/Icons/T_Icon_Suppressor_64.T_Icon_Suppressor_64",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "WeaponMod.Barrel.Suppressor"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/WeaponMods/Items/WeaponMods/Barrel/Suppressor/Mesh/Suppressor.Suppressor",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.12940952,
+            "Y": -0.12940952,
+            "Z": -0.017037086,
+            "W": 0.9829629,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Drop_Cue.Shotgun_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": false,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.1195483,
+          "Y": 12.8797455,
+          "Z": 2.8744655
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "7E53258246C55C65F050EABD4902DD48",
+          "SourceString": "Weapon Mod",
+          "LocalizedString": "Weapon Mod"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      }
+    ]
+  }
+}

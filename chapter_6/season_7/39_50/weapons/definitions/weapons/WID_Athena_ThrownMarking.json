@@ -1,0 +1,363 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_ThrownMarking",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/B_Athena_ThrownMarking_Held.B_Athena_ThrownMarking_Held_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_NonDamaging"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/Abilities/GA_Athena_ThrownMarking_ThrowProjectile_Primary.GA_Athena_ThrownMarking_ThrowProjectile_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/Abilities/GA_Athena_ThrownMarking_ThrowProjectile_Secondary.GA_Athena_ThrownMarking_ThrowProjectile_Secondary_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
+      "SubPathString": ""
+    },
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Consumable.ThrownMarking"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.ThrownMarking",
+      "Tag:Consumable:wid_athena_thrownmarking"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH6S2",
+        "ConsumableItem",
+        "Deployable",
+        "EpicItem",
+        "Item",
+        "Throwable"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1454E750415E4AEEACE537A19AFEAD8C",
+      "SourceString": "Pulse Scanner",
+      "LocalizedString": "Pulse Scanner"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2ADA891F4BC847E133BB63B52FBFBD8D",
+      "SourceString": "Find them before they find you. Mark enemies and chests alike with this high-tech scanner.",
+      "LocalizedString": "Find them before they find you. Mark enemies and chests alike with this high-tech scanner."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'ThrownMarkingGameData'",
+              "ObjectPath": "/ThrownMarkingGameplay/DataTables/ThrownMarkingGameData.0"
+            },
+            "RowName": "Default.ThrownMarking.MaxStackSize"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/ThrownMarkingGameplay/Assets/Meshes/ReconScanner_Gadget_Pickup.ReconScanner_Gadget_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 4.181447E-28,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 20.0
+          },
+          "Scale3D": {
+            "X": 1.3,
+            "Y": 1.3,
+            "Z": 1.3
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/ThrownMarkingGameplay/Assets/Audio/SC_ThrownMarking_Pickup.SC_ThrownMarking_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/ThrownMarkingGameplay/Assets/Audio/SC_ThrownMarking_Drop.SC_ThrownMarking_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/ThrownMarkingGameplay/Assets/Audio/SC_ThrownMarking_Land.SC_ThrownMarking_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 10.056757,
+          "Y": 7.766099,
+          "Z": 23.27231
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/B_Prj_Athena_ThrownMarking.B_Prj_Athena_ThrownMarking_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "Default.Consumables.RechargeRate.ShieldBubble"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ThrownMarkingGameplay/Assets/Icons/T_Icon_BR_ReconScannerClosed.T_Icon_BR_ReconScannerClosed",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/ThrownMarkingGameplay/Assets/Icons/T_Icon_BR_ReconScannerClosed_L.T_Icon_BR_ReconScannerClosed_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Gadget"
+      },
+      {
+        "Tags": [
+          "Athena.ItemAction.Throw",
+          "Athena.Item.Utility",
+          "Athena.ItemAction.Secondary.Throw",
+          "Trait.Restoration.Shields",
+          "Item.SortsRight",
+          "Item.Consumable.ThrownMarking",
+          "Rarity.VeryRare",
+          "HUD.PreferredSlotType.Utility"
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_Athena_ThrowMarking'",
+            "ObjectPath": "/ThrownMarkingGameplay/Assets/Audio/SL_Athena_ThrowMarking.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      }
+    ]
+  }
+}

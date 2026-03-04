@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CyclopsPrey_Sizzle",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CyclopsPrey_Sizzle/CMM/Emote_CyclopsPrey_Sizzle_CMM_M.Emote_CyclopsPrey_Sizzle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CyclopsPrey_Sizzle/CMF/Emote_CyclopsPrey_Sizzle_CMF_M.Emote_CyclopsPrey_Sizzle_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CyclopsPrey_Sizzle/CLM/Emote_CyclopsPrey_Sizzle_CLM_M.Emote_CyclopsPrey_Sizzle_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CyclopsPrey_Sizzle/CLF/Emote_CyclopsPrey_Sizzle_CLF_M.Emote_CyclopsPrey_Sizzle_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 30.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_CyclopsPrey_Sizzle:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_CyclopsPrey_Sizzle.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4D13EDB445CB9EB46F0ACB9FAD6E8B14",
+      "SourceString": "Bob's Happy Dance",
+      "LocalizedString": "Bob's Happy Dance"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1B2716684B174A634F48F0A3D7BF91BA",
+      "SourceString": "When you find that place, you gotta dance.",
+      "LocalizedString": "When you find that place, you gotta dance."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2BE5759440482C78B976999C95A23D3F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Set.CarDoor",
+          "Cosmetics.Filter.Season.36"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_CyclopsPrey_Sizzle.T_Icon_Emotes_CyclopsPrey_Sizzle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_CyclopsPrey_Sizzle_L.T_Icon_Emotes_CyclopsPrey_Sizzle_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

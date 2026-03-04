@@ -1,0 +1,338 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_AgileChug",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_ConsumableLarge_ChugJug_Athena.B_ConsumableLarge_ChugJug_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AgileChugJug_PH'",
+        "ObjectPath": "/AgileChugJugGameplay/DataTables/AgileChugJug_PH.0"
+      },
+      "RowName": "AgileChugJug"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/AgileChugJugGameplay/Gameplay/GA_AgileChug.GA_AgileChug_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/AgileChugJugGameplay/Gameplay/GA_ChugJug_ConsumablePass.GA_ChugJug_ConsumablePass_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "",
+        "SubPathString": ""
+      }
+    ],
+    "AmmoData": {
+      "AssetPathName": "/AgileChugJugGameplay/Gameplay/AmmoData_AgileChug.AmmoData_AgileChug",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bUsesPhantomReserveAmmo": true,
+    "bUsesCustomAmmoType": true,
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "AnalyticTags": [
+      "Item.Consumable.AgileChugJug"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.AgileChugJug",
+      "Tag:Consumable:wid_agilechug"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH6S2",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E8E00A3F4FF79F0B2A810B95DC4E42F2",
+      "SourceString": "Chug Jug",
+      "LocalizedString": "Chug Jug"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BDC896A6426C10A977208B8C1B4BE06C",
+      "SourceString": "A thousand ounces of the slurp juice you love, now available on the go!",
+      "LocalizedString": "A thousand ounces of the slurp juice you love, now available on the go!"
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/SM_ChugJug.SM_ChugJug",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.08682409,
+            "Y": 0.08682409,
+            "Z": -0.0075961235,
+            "W": 0.99240386,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/AgileChugJugGameplay/Assets/Audio/Item_Consumables_Agile_Chug_Jug_Pickup_Cue.Item_Consumables_Agile_Chug_Jug_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Chug_Jug/Item_Consumables_Chug_Jug_Drop_Cue.Item_Consumables_Chug_Jug_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/AgileChugJugGameplay/Assets/Audio/Item_Consumables_Agile_Chug_Jug_Hit_Cue.Item_Consumables_Agile_Chug_Jug_Hit_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 27.24835,
+          "Y": 24.232029,
+          "Z": 33.24027
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::V",
+        "MaxTier": "EFortItemTier::V"
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/T-Icon-BR-SM-Athena-ChugJug.T-Icon-BR-SM-Athena-ChugJug",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/T-Icon-BR-SM-Athena-ChugJug-L.T-Icon-BR-SM-Athena-ChugJug-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Trait.Restoration.Shields",
+          "HUD.PreferredSlotType.Consumable",
+          "Item.SortsRight",
+          "Athena.HUD.Pickup.ShowTotalAmmo",
+          "Trait.Restoration.Health",
+          "Pawn.Reload.BlockAddSpareAmmoOnReload",
+          "Item.Consumable.AgileChugJug",
+          "Athena.ItemAction.Consume",
+          "Athena.ItemAction.Secondary.Throw",
+          "Item.Consumable.Drinkable",
+          "Rarity.SuperRare",
+          "Phoebe.Items.AgileChugJug",
+          "Phoebe.Consumable.Heal.LowHealthThreshold",
+          "Phoebe.Consumable.Heal.LowShieldThreshold",
+          "phoebe.weapon.trait.noaccuracy"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/B_Prj_Athena_Consumable_Thrown_ChugJug.B_Prj_Athena_Consumable_Thrown_ChugJug_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'Item_Consumables_Agile_Chug_Jug_Library'",
+            "ObjectPath": "/AgileChugJugGameplay/Assets/Audio/Item_Consumables_Agile_Chug_Jug_Library.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "CustomDropAction": {
+          "ObjectName": "BlueprintGeneratedClass'Action_DropChugJug_C'",
+          "ObjectPath": "/AgileChugJugGameplay/Gameplay/Action_DropChugJug.1"
+        }
+      }
+    ]
+  }
+}

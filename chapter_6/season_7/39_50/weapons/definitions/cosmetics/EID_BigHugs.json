@@ -1,0 +1,118 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BigHugs",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BigHugs/Emote_BigHugs_CMM_M.Emote_BigHugs_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BigHugs/Emote_BigHugs_CMF_M.Emote_BigHugs_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BigHugs/Emote_BigHugs_CLM_M.Emote_BigHugs_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BigHugs/Emote_BigHugs_CLF_M.Emote_BigHugs_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 33.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_BigHugs:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_BigHugs.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E612687E43835C214926EBBFB580FAC8",
+      "SourceString": "100% Pure Love",
+      "LocalizedString": "100% Pure Love"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F08CD33A423726601FF85C93D203CC2A",
+      "SourceString": "Keep it one hundred.",
+      "LocalizedString": "Keep it one hundred."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "895722424F2361DB7EA26FA5BBBD25FF",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 48.964874,
+          "Z": 22.08256
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_BigHugs.T_Icon_Emotes_BigHugs",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_BigHugs_L.T_Icon_Emotes_BigHugs_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

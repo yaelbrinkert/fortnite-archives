@@ -1,0 +1,114 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_RelayStick_Carmine",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Carmine/CMM/Emote_RelayStick_Carmine_CMM_M.Emote_RelayStick_Carmine_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Carmine/CMF/Emote_RelayStick_Carmine_CMF_M.Emote_RelayStick_Carmine_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Carmine/CLF/Emote_RelayStick_Carmine_CLF_M.Emote_RelayStick_Carmine_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Carmine/CLM/Emote_RelayStick_Carmine_CLM_M.Emote_RelayStick_Carmine_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5ADF00164603656BAADD749AD509109F",
+      "SourceString": "Rebellious",
+      "LocalizedString": "Rebellious"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "715F74464B88BFEAE18DB4900D7C24A7",
+      "SourceString": "Never settle for less.",
+      "LocalizedString": "Never settle for less."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F4852FC74E82D01BCA533EB0C4933407",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-RelayStick-Carmine.T-Icon-Emotes-RelayStick-Carmine",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-RelayStick-Carmine-L.T-Icon-Emotes-RelayStick-Carmine-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

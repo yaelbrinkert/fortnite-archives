@@ -1,0 +1,332 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_SteelKite",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/B_Consumable_SteelKite_Athena.B_Consumable_SteelKite_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_M80"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Abilities/GA_SteelKite_Primary.GA_SteelKite_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Abilities/GA_SteelKite_Consumable_Pass.GA_SteelKite_Consumable_Pass_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/WID_Athena_SteelKite.WID_Athena_SteelKite",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Consumable:wid_athena_steelkite"
+    ],
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8B651CB54565FF3A0F77998D73D3B633",
+      "SourceString": "Super Squishee",
+      "LocalizedString": "Super Squishee"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BD95F7D741D99D00C44151BD0332D471",
+      "SourceString": "Get an energy rush with this experimental all syrup super squishee, with new slap flavor!",
+      "LocalizedString": "Get an energy rush with this experimental all syrup super squishee, with new slap flavor!"
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'WildEstateConsumablesGameData'",
+              "ObjectPath": "/WildEstateConsumables/DataTables/WildEstateConsumablesGameData.0"
+            },
+            "RowName": "Default.SteelKite.MaxStackSize"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Meshes/SteelKite_Consumable_Pickup.SteelKite_Consumable_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.13052619,
+            "Z": 0.0,
+            "W": 0.9914449,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -10.0
+          },
+          "Scale3D": {
+            "X": 1.5,
+            "Y": 1.5,
+            "Z": 1.5
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Audio/MSS_SteelKite_Pickup.MSS_SteelKite_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Audio/MSS_SteelKite_Drop.MSS_SteelKite_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Audio/MSS_SteelKite_Drop_Land.MSS_SteelKite_Drop_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Audio/SL_SteelKite_Pickup.SL_SteelKite_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 0.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 6.7794065,
+          "Y": 6.7778864,
+          "Z": 14.551533
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/B_Prj_Athena_Consumable_Thrown_SteelKite.B_Prj_Athena_Consumable_Thrown_SteelKite_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_SteelKite_Consumable'",
+            "ObjectPath": "/WildEstateConsumables/Gameplay/SteelKite/Audio/SL_SteelKite_Consumable.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Icons/T_Icon_BR_SteelKite.T_Icon_BR_SteelKite",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/SteelKite/Icons/T_Icon_BR_SteelKite_L.T_Icon_BR_SteelKite_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Athena.ItemAction.Consume",
+          "Athena.ItemAction.Secondary.Throw",
+          "Item.SortsRight",
+          "phoebe.items.consumable.EggplantDip",
+          "Rarity.Rare",
+          "Item.Consumable.Drinkable",
+          "Trait.Restoration.Health",
+          "Trait.Restoration.Shields",
+          "Item.Consumable.SteelKite"
+        ]
+      }
+    ]
+  }
+}

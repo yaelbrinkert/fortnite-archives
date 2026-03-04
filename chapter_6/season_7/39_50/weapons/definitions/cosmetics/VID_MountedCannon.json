@@ -1,0 +1,43 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_MountedCannon",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResolveCannonGameData'",
+          "ObjectPath": "/ResolveCannon/DataTables/ResolveCannonGameData.0"
+        },
+        "RowName": "Default.MountedCannon.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResolveCannonGameData'",
+          "ObjectPath": "/ResolveCannon/DataTables/ResolveCannonGameData.0"
+        },
+        "RowName": "Default.MountedCannon.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/ResolveCannon/Environmental/MountedCannon/Vehicle/MountedCannon__v2.MountedCannon__v2_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "mountedcannon"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

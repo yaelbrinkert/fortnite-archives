@@ -1,0 +1,96 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BasilStrong",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BasilStrong/Emote_BasilStrong_CMM_M.Emote_BasilStrong_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BasilStrong/Emote_BasilStrong_CMF_M.Emote_BasilStrong_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/BasilStrong/Emote_BasilStrong_CLM_M.Emote_BasilStrong_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BasilStrong/Emote_BasilStrong_CLF_M.Emote_BasilStrong_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      59871
+    ],
+    "BaseShotGridId": 59871,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0DD0796E42FB2973D36F248A0BFE6476",
+      "SourceString": "HULK SMASH!",
+      "LocalizedString": "HULK SMASH!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F86AB5694BDA2E8B4BFDA69AB7C274A2",
+      "SourceString": "They won't like you when you're angry.",
+      "LocalizedString": "They won't like you when you're angry."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FF173683451469A6F1818CB72DE42E19",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-BasilStrong.T-Icon-Emotes-E-BasilStrong",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-BasilStrong-L.T-Icon-Emotes-E-BasilStrong-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.PriceDish",
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

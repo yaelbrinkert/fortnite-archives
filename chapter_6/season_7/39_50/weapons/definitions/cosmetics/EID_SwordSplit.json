@@ -1,0 +1,203 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SwordSplit",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Equip",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.SplitSword.SingleWield"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaPickaxeItemDefinition'Pickaxe_FNCS_S32'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_FNCS_S32.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Mesh"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Stage1"
+                }
+              }
+            ],
+            "Item": {
+              "ObjectName": "AthenaPickaxeItemDefinition'Pickaxe_FNCS_S32'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_FNCS_S32.0"
+            }
+          }
+        ]
+      },
+      {
+        "MontageSectionName": "Unequip",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.SplitSword.DualWield"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaPickaxeItemDefinition'Pickaxe_FNCS_S32'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_FNCS_S32.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Mesh"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Stage2"
+                }
+              }
+            ],
+            "Item": {
+              "ObjectName": "AthenaPickaxeItemDefinition'Pickaxe_FNCS_S32'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_FNCS_S32.0"
+            }
+          }
+        ]
+      }
+    ],
+    "GroupEmoteFollowDistance": 0.0,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CMM/Emote_SwordSplit_CMM_FE_M.Emote_SwordSplit_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CMF/Emote_SwordSplit_CMF_FE_M.Emote_SwordSplit_CMF_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CLM/Emote_SwordSplit_CLM__FE_M.Emote_SwordSplit_CLM__FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CLF/Emote_SwordSplit_CLF_FE_M.Emote_SwordSplit_CLF_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CMM/Emote_SwordSplit_CMM_M.Emote_SwordSplit_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CMF/Emote_SwordSplit_CMF_M.Emote_SwordSplit_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CLM/Emote_SwordSplit_CLM_M.Emote_SwordSplit_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SwordSplit/CLF/Emote_SwordSplit_CLF_M.Emote_SwordSplit_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "bHolsterWeaponIfDualWieldPickaxe": true,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5FC437DE4AD34E5824BAF0A1E8D3CA67",
+      "SourceString": "Champion's Blade-Splitter",
+      "LocalizedString": "Champion's Blade-Splitter"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BBB5D71745790D7F7C2755862A0CF88A",
+      "SourceString": "Reforged in the spark of victory.",
+      "LocalizedString": "Reforged in the spark of victory."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "926C5F544727FF12FC71EB94FCA257AD",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 168.0,
+          "Z": 55.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.FNCS"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_SwordSplit.T_Icon_Emotes_SwordSplit",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_SwordSplit_L.T_Icon_Emotes_SwordSplit_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

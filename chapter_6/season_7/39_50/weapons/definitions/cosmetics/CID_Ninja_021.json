@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Ninja_021",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Female/Small/Ninja/Ninja_Female_Body_Montage_Idle.Ninja_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Ninja_021:CP_143_Athena_Body_F_DarkNinja'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Ninja/CosmeticCharacterItemDefinitions/CID_Ninja_021.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "21F6D21B404351A21B087C939CC315E9",
+      "SourceString": "Forged Fate",
+      "LocalizedString": "Forged Fate"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6279F4E2444C38DE797638A9B5C4D0C4",
+      "SourceString": "Prepare to meet your Fate.",
+      "LocalizedString": "Prepare to meet your Fate."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-143-Athena-Commando-F-DarkNinja.T-Soldier-HID-143-Athena-Commando-F-DarkNinja",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-143-Athena-Commando-F-DarkNinja-L.T-Soldier-HID-143-Athena-Commando-F-DarkNinja-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.ShoesSneakers"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_BouncePadPlant_Throwable_Test",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/BouncePadPlant/Gameplay/Test/B_Weap_BouncePadPlant_Throwable.B_Weap_BouncePadPlant_Throwable_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Athena_Grenade"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/BouncePadPlant/Gameplay/Test/GA_BouncePadPlant_Throw.GA_BouncePadPlant_Throw_C",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_bouncepadplant_throwable_test"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8AFDC54E4A61C6EFDD2A069C4892887A",
+      "SourceString": "Bounce Pad Plant Spawner",
+      "LocalizedString": "Bounce Pad Plant Spawner"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      }
+    ]
+  }
+}

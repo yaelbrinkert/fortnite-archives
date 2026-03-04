@@ -1,0 +1,74 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_GiftWrap",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_HairShort.CP_Bean_Head_HairShort",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_GiftWrap:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_GiftWrap.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B62AE4B7443D7313C96DC9BA005080C6",
+      "SourceString": "Frosted Flurry",
+      "LocalizedString": "Frosted Flurry"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A5A95D5C4861BB6EBF6C1799A134EFE6",
+      "SourceString": "Every day's a snow day. ",
+      "LocalizedString": "Every day's a snow day. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_GiftWrap.T_Bean_GiftWrap",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_GiftWrap_L.T_Bean_GiftWrap_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.11",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

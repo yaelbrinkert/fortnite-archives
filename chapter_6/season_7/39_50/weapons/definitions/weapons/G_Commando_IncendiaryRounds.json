@@ -1,0 +1,42 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_Commando_IncendiaryRounds",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Commando/Actives/IncendiaryRounds/GA_Commando_IncendiaryRounds.GA_Commando_IncendiaryRounds_C",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::HeroAbility",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3AE51C9048CDA9E88F80D49A29914303",
+      "SourceString": "TechClip: Incendiary Rounds",
+      "LocalizedString": "TechClip: Incendiary Rounds"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "555FA08347F5E0E6C3BFB4A4374F5969",
+      "SourceString": "Grants 10 seconds of Incendiary Rounds. During this effect, ranged weapon shots cause targets to take stacking fire damage. Deals damage every 3 seconds for 12 seconds. Damage is based on damage dealt. Costs 55 energy.",
+      "LocalizedString": "Grants 10 seconds of Incendiary Rounds. During this effect, ranged weapon shots cause targets to take stacking fire damage. Deals damage every 3 seconds for 12 seconds. Damage is based on damage dealt. Costs 55 energy."
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Icons/Abilities/Icon-Ability-IncendiaryRounds.Icon-Ability-IncendiaryRounds",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.AllowQuickbarFocusForGamepadOnly",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

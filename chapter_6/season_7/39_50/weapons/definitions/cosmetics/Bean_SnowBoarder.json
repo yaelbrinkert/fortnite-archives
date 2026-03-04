@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_SnowBoarder",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Hood.CP_Bean_Head_Hood",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Casual.CP_Bean_Body_Casual",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_SnowBoarder:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_SnowBoarder.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "47F2172D4FC0C069F8661B886351575E",
+      "SourceString": "Karve",
+      "LocalizedString": "Karve"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F26B93CB42A7D06BA7FEAFA60C0C2E65",
+      "SourceString": "It's all downhill from here.",
+      "LocalizedString": "It's all downhill from here."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_SnowBoarder.T_Bean_SnowBoarder",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_SnowBoarder_L.T_Bean_SnowBoarder_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.15",
+          "Cosmetics.Set.NewSnow",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

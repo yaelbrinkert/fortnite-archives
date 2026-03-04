@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_LaughTrack",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LaughTrack/LaughTrack_CMM_M.LaughTrack_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LaughTrack/LaughTrack_CMF_M.LaughTrack_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LaughTrack/LaughTrack_CLM_M.LaughTrack_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LaughTrack/LaughTrack_CLF_M.LaughTrack_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      42055
+    ],
+    "BaseShotGridId": 42055,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7A7563AC429A04CAC83D13AC729DDC2B",
+      "SourceString": "[Insert Laughter Here]",
+      "LocalizedString": "[Insert Laughter Here]"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "7381E6414BB046FB2ACEE1A392CA2356",
+      "SourceString": "I mean I thought it was funny but..",
+      "LocalizedString": "I mean I thought it was funny but.."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "AA3DCE8049902701071B5EA44C1F55E6",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.18",
+          "Emote.Mech.Disabled.Art"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-LaughTrack.T-Icon-Emotes-E-LaughTrack",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-LaughTrack-L.T-Icon-Emotes-E-LaughTrack-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

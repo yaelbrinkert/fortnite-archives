@@ -1,0 +1,351 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Sniper_BoltAction_Scope_R_Ore_T01",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bTraceThroughPawns": true,
+    "bShouldSpawnBulletShellFX": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/SaveTheWorld/Weapons/FORT_Rifles/Blueprints/B_Rifle_Sniper.B_Rifle_Sniper_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/Game/Weapons/FORT_Sniper/Meshes/SK_Bolt_Rifle_With_Scope.SK_Bolt_Rifle_With_Scope",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'RangedWeapons'",
+        "ObjectPath": "/Game/Items/Datatables/RangedWeapons.0"
+      },
+      "RowName": "Sniper_BoltAction_Scope_R_Ore_T01"
+    },
+    "AlterationSlotsLoadoutRow": "SlotLoadout.Explicit.OneShot",
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/SaveTheWorld/Items/Alterations/CosmeticAlterations/Rifle_CosmeticAlteration_01.Rifle_CosmeticAlteration_01",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Items/Ammo/AmmoDataBulletsHeavy.AmmoDataBulletsHeavy",
+      "SubPathString": ""
+    },
+    "DisplayTier": "EFortDisplayTier::Copper",
+    "bAllowTargetingDuringReload": true,
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_sniper_boltaction_scope_r_ore_t01"
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C4454EB24BA94C832E85F1A02B611015",
+      "SourceString": "One Shot",
+      "LocalizedString": "One Shot"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "160BD15D40A089C51D6ECCA5B22C7FBF",
+      "SourceString": "Sniper Rifle: Bolt-Action. Powerful and accurate rifle with a bolt-action mechanism that results in a reliable but slow rate of fire. Shots can pierce through multiple enemies.",
+      "LocalizedString": "Sniper Rifle: Bolt-Action. Powerful and accurate rifle with a bolt-action mechanism that results in a reliable but slow rate of fire. Shots can pierce through multiple enemies."
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Game/Weapons/FORT_Sniper/Meshes/SK_Bolt_Rifle_With_Scope.SK_Bolt_Rifle_With_Scope",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Sniper-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Sniper-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 5.1224976,
+          "Y": 51.192764,
+          "Z": 15.686053
+        }
+      },
+      {
+        "DisassembleRecipe": {
+          "DataTable": {
+            "ObjectName": "DataTable'DisassembleRecipes'",
+            "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+          },
+          "RowName": "Disassemble.Ranged.Sniper.R.Ore.T01"
+        },
+        "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+        "DisassembleDurabilityDegradeMaxLootPercent": 0.4
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "0EF5D7BB421CCA45D7DACBA1953D8DF8",
+          "SourceString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction",
+          "LocalizedString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction"
+        }
+      },
+      {
+        "RatingLookup": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'BaseItemRating'",
+            "ObjectPath": "/Game/Items/Datatables/BaseItemRating.0"
+          },
+          "RowName": "Default_R_T01"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Bolt-Rifle-With-Scope.T-Icon-Weapons-SK-Bolt-Rifle-With-Scope",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Bolt-Rifle-With-Scope-L.T-Icon-Weapons-SK-Bolt-Rifle-With-Scope-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -42.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.5695634,
+          "Yaw": 24.64069,
+          "Roll": -16.679253
+        },
+        "Scale": 1.0
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T01_"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "Weapon.Ranged.sniper",
+          "Skill.sniper.headshotbuff",
+          "Gameplay.DamageSource.Weapon"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.HasDurability",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

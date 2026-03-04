@@ -1,0 +1,71 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Hurtle_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower.GAB_EmoteBand_Follower_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/Emote_Hurtle_CMM_Follower_M.Emote_Hurtle_CMM_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CMF/Emote_Hurtle_CMF_Follower_M.Emote_Hurtle_CMF_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CLM/Emote_Hurtle_CLM_Follower_M.Emote_Hurtle_CLM_Follower_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CLF/Emote_Hurtle_CLF_Follower_M.Emote_Hurtle_CLF_Follower_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      56047
+    ],
+    "BaseShotGridId": 56047,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6D62EBEB408566709C310AB669EB8080",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      }
+    ]
+  }
+}

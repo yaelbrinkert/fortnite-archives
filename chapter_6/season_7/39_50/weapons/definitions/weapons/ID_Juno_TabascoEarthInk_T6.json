@@ -1,0 +1,308 @@
+{
+  "Type": "FortResourceItemDefinition",
+  "Name": "ID_Juno_TabascoEarthInk_T6",
+  "Class": "UScriptClass'FortResourceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ResourceType": "EFortResourceType::Ingredient",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "246EA04C4A7A6AD578D23D970CD7B396",
+      "SourceString": "EARTH Ink",
+      "LocalizedString": "EARTH Ink"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F0375B4D436E8C15369A03A691BA9B96",
+      "SourceString": "Found at EARTH Shrines. Used to craft EARTH Scrolls.",
+      "LocalizedString": "Found at EARTH Shrines. Used to craft EARTH Scrolls."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "1F32888B43AEDA570FE60EA5F31EC02B",
+      "SourceString": "\"We were supposed to have a saying? It was all you could eat sushi night, I got distracted…\" - Cole",
+      "LocalizedString": "\"We were supposed to have a saying? It was all you could eat sushi night, I got distracted…\" - Cole"
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.WolfClaw"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoTM_TabascoGeneric_Prop/Items/Resources/ElementalInk/Mesh/SM_Res_ElementalInkEarth_B.SM_Res_ElementalInkEarth_B",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Resources/Minerals/MSS_Resource_Mineral_Silver_Pickup.MSS_Resource_Mineral_Silver_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Resources/Minerals/MSS_Resource_Mineral_Glass_Drop.MSS_Resource_Mineral_Glass_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Resources/Minerals/MSS_Resource_Mineral_Glass_Land.MSS_Resource_Mineral_Glass_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 12.780812,
+          "Y": 11.559766,
+          "Z": 18.688112
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "DF01D9B74BC56DA8105BE79A9036D3A7",
+          "SourceString": "crafting resource",
+          "LocalizedString": "crafting resource"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoTabascoMaple/Ink/ID/T_UI_Juno_Icon_Item_TabascoElementalInk_Earth.T_UI_Juno_Icon_Item_TabascoElementalInk_Earth",
+          "SubPathString": ""
+        }
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Tags": [
+          "Juno.CraftingResource.Special.Ink.Earth.T6"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoTabascoMaple/Ink/ID/MI_UI_Juno_Icon_Item_TabascoElementalInk_Earth.MI_UI_Juno_Icon_Item_TabascoElementalInk_Earth",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Resource"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.Misc"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "437689844D48BBC9EB285DBD084826D6",
+          "SourceString": "Seek out a grounded <emphA>Shrine</>.",
+          "LocalizedString": "Seek out a grounded <emphA>Shrine</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "Namespace": "",
+          "Key": "32E88AE1457B3A10513971A1BC052A4E",
+          "SourceString": "Found on <img id=\"IcoNinja\"/><emphA>Ninjago Island</>.",
+          "LocalizedString": "Found on <img id=\"IcoNinja\"/><emphA>Ninjago Island</>."
+        }
+      }
+    ]
+  }
+}

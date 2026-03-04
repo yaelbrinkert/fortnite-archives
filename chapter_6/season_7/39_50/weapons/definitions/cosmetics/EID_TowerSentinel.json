@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_TowerSentinel",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Helmet_Off",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.TowerSentinel.HelmOn"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Helmet_On",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.TowerSentinel.HelmOff"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TowerSentinel/Emote_TowerSentinel_CMF_M.Emote_TowerSentinel_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TowerSentinel/Emote_TowerSentinel_CMF_M.Emote_TowerSentinel_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_038_Athena_Commando_F_TowerSentinel.CID_A_038_Athena_Commando_F_TowerSentinel",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'EID_TowerSentinel:FortCosmeticMaterialVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_TowerSentinel.1"
+      }
+    ],
+    "ShotGridIds": [
+      39357
+    ],
+    "BaseShotGridId": 39357,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "946D73B54C7D169D34C19F96FAD3A6BD",
+      "SourceString": "Tower Guard",
+      "LocalizedString": "Tower Guard"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5B4B70334F0D1B595BB9D9AA194176C2",
+      "SourceString": "There's no turning back...",
+      "LocalizedString": "There's no turning back..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "197FB3184B1635DBDA2C8B9E54419325",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Cosmetics.Source.Season16.BattlePass.Paid",
+          "Cosmetics.Filter.Season.16",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-TowerSentinel.T-Icon-Emotes-E-TowerSentinel",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-TowerSentinel-L.T-Icon-Emotes-E-TowerSentinel-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

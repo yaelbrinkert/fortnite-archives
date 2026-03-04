@@ -1,0 +1,109 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_JethroXV_Torpedoes",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JethroXV/Gameplay/LockOn/B_JethroXV_LockOn.B_JethroXV_LockOn_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'JethroXVAthenaRangedWeapons'",
+        "ObjectPath": "/JethroXV/DataTables/JethroXVAthenaRangedWeapons.0"
+      },
+      "RowName": "JethroXV_Torpedo_VR_Ore_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JethroXV/Gameplay/LockOn/GA_Ranged_JethroXV_Projectile_Athena.GA_Ranged_JethroXV_Projectile_Athena_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/JethroXV/Gameplay/LockOn/GA_JethroXV_Torpedo_LockOnTargeting.GA_JethroXV_Torpedo_LockOnTargeting_C",
+        "SubPathString": ""
+      }
+    ],
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite.AmmoInfinite",
+      "SubPathString": ""
+    },
+    "ReticleCenterImage": {
+      "AssetPathName": "/JethroXV/Gameplay/LockOn/HUD/JethroXV_HUD_Xhair_Dot_Torpedoes.JethroXV_HUD_Xhair_Dot_Torpedoes",
+      "SubPathString": ""
+    },
+    "PlayerGrantedGameplayTags": [
+      "Gameplay.Damage.Vehicle.JethroTV.LaserCannons"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_jethroxv_torpedoes"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "43F665704A6895481061EDA784795FAB",
+      "SourceString": "X-Wing Proton Torpedoes",
+      "LocalizedString": "X-Wing Proton Torpedoes"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/JethroXV/Gameplay/LockOn/B_Prj_JethroXV_Torpedo.B_Prj_JethroXV_Torpedo_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "AbilityWeapon.Ranged",
+          "Rarity.Rare",
+          "Trait.Vehicle",
+          "Trait.Explosive",
+          "Item.Weapon.Vehicle.XV.Proton",
+          "Weapon.Ranged.XV"
+        ]
+      }
+    ]
+  }
+}

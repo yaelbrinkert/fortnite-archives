@@ -1,0 +1,74 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_Brawler",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Cap.CP_Bean_Head_Cap",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_Brawler:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_Brawler.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E018B14B44921AF0F5707191E25E1D28",
+      "SourceString": "Brawler",
+      "LocalizedString": "Brawler"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FDCD0B6B45932C9510E980A1DEF2B19B",
+      "SourceString": "Rare brawler outfit. ",
+      "LocalizedString": "Rare brawler outfit. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EDA87E9F4E3B46CAE4D073AF1555A6B5",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_Brawler.T_Bean_Brawler",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_Brawler_L.T_Bean_Brawler_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.1",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

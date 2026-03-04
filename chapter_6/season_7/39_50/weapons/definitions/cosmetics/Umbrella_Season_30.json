@@ -1,0 +1,236 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Umbrella_Season_30",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GliderType": "EFortGliderType::Umbrella",
+    "CameraFramingBoundsCenterOffset": {
+      "X": -100.0,
+      "Y": -20.0,
+      "Z": -15.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/Umbrella_Season30/Meshes/Season_30_Glider.Season_30_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/VinderTech_Umbrella_AnimBP.VinderTech_Umbrella_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/Umbrella/UmbrellaPlayerAnimSet.UmbrellaPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/Umbrella_Season30/FX/NS_Glider_Umbrella_S30_Deploy.NS_Glider_Umbrella_S30_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/Umbrella_Season30/FX/NS_Glider_Umbrella_S30.NS_Glider_Umbrella_S30",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/UmbrellaS30/MSS_Glider_Umbrella_S30_Open.MSS_Glider_Umbrella_S30_Open",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/UmbrellaS30/MSS_Glider_Umbrella_S30_Open.MSS_Glider_Umbrella_S30_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/UmbrellaS30/MSS_Glider_Umbrella_S30_Close.MSS_Glider_Umbrella_S30_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/UmbrellaS30/MSS_Glider_Umbrella_S30_Thrust.MSS_Glider_Umbrella_S30_Thrust",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [],
+    "ShotGridIds": [
+      100409
+    ],
+    "ItemSearchTags": [
+      {
+        "Namespace": "",
+        "Key": "08BA6847432A03D6970E2C8291E9FCF8",
+        "SourceString": "Umbrella",
+        "LocalizedString": "Umbrella"
+      }
+    ],
+    "BaseShotGridId": 100409,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7691D78F4ED6E7F05AF7FEAF633EAFE8",
+      "SourceString": "Junker 'Brella",
+      "LocalizedString": "Junker 'Brella"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2051A8C5475E304170B843940DDE55CD",
+      "SourceString": "Technically this is a unicycle.",
+      "LocalizedString": "Technically this is a unicycle."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5110886B4B82702C760EDCBF12AFD624",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 15.0,
+          "Yaw": 45.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S30/T-Icon_Glider-Umbrella-Season30.T-Icon_Glider-Umbrella-Season30",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S30/T-Icon_Glider-Umbrella-Season30-L.T-Icon_Glider-Umbrella-Season30-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.30",
+          "Cosmetics.Source.Season30.FirstWin"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          359,
+          162,
+          126,
+          567,
+          618,
+          265,
+          564,
+          246,
+          1651,
+          834,
+          1253,
+          1254,
+          2065,
+          2233,
+          253,
+          2347,
+          2395,
+          2440,
+          2521,
+          2939
+        ]
+      }
+    ]
+  }
+}

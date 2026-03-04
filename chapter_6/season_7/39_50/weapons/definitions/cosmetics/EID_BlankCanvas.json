@@ -1,0 +1,115 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BlankCanvas",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlankCanvas/CMM/Emote_BlankCanvas_CMM_M.Emote_BlankCanvas_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlankCanvas/CMF/Emote_BlankCanvas_CMF_M.Emote_BlankCanvas_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlankCanvas/CLF/Emote_BlankCanvas_CLF_M.Emote_BlankCanvas_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BlankCanvas/CLM/Emote_BlankCanvas_CLM_M.Emote_BlankCanvas_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 100.0,
+      "Roll": 0.0
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B33EF3C442F7ADEE2DC47EBF91CFD8D2",
+      "SourceString": "Gentle Painting",
+      "LocalizedString": "Gentle Painting"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1D8361F7466802C3EF4E8CBED1887465",
+      "SourceString": "No mistakes here.",
+      "LocalizedString": "No mistakes here."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7954C275444C867A6CD1D5B9D3FC2FC0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 20.0,
+          "Z": 8.161492
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.36"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_BlankCanvas.T_Icon_Emotes_BlankCanvas",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_BlankCanvas_L.T_Icon_Emotes_BlankCanvas_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

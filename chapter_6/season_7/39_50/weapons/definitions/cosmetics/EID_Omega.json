@@ -1,0 +1,201 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Omega",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Omega_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Omega_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Omega_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Omega_Follower.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Omega_Sync_Leader'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Omega_Sync_Leader.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Omega_Sync_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Omega_Sync_Follower.0"
+    },
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_Omega.GAB_Emote_Omega_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Omega/CMM/Guitar/Emote_Omega_CMM_Guitar_M.Emote_Omega_CMM_Guitar_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Omega/CMF/Guitar/Emote_Omega_CMF_Guitar_M.Emote_Omega_CMF_Guitar_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Omega/CLM/Guitar/Emote_Omega_CLM_Guitar_M.Emote_Omega_CLM_Guitar_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Omega/CLF/Guitar/Emote_Omega_CLF_Guitar_M.Emote_Omega_CLF_Guitar_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 23.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_LargeGroupEmote.ItemOnPawnPreview_LargeGroupEmote_C",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E6BF2C754423F426BE3651B6C6BDC221",
+      "SourceString": "In The End",
+      "LocalizedString": "In The End"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "95D1CD284007DA1B8AA94A9DCE939BF0",
+      "SourceString": "Band together.",
+      "LocalizedString": "Band together."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "35A6F414485FB8369B9F3EBD6404293B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.TummyContort",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.Emote.MimosaReaction.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_Omega.T_Icon_Emotes_Omega",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_Omega_L.T_Icon_Emotes_Omega_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": -100.0,
+            "Y": -100.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": -200.0,
+              "Y": -200.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": {
+              "ObjectName": "AthenaDanceItemDefinition'EID_Omega_Drums'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Omega_Drums.0"
+            },
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 30.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": -50.0,
+                "Y": -250.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_Omega_BassGuitar'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Omega_BassGuitar.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 50.0
+            },
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": -100.0,
+                "Y": -60.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_Omega_Rhythm'",
+                "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Omega_Rhythm.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": -20.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Immediate",
+          "GroupEmotePreviewFollowerJoinDelayOverride": -1.0
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

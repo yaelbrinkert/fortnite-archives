@@ -1,0 +1,1339 @@
+{
+  "Type": "FortWeaponMeleeDualWieldItemDefinition",
+  "Name": "WID_Juno_Sword_CompCraft_T1_Enemy_KlomboPirateWithShield",
+  "Class": "UScriptClass'FortWeaponMeleeDualWieldItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/JunoKlomboGP/Items/Sword/Enemy/B_Juno_Sword_Mantis_Enemy_KlomboPirate.B_Juno_Sword_Mantis_Enemy_KlomboPirate_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/JunoGame/Weapons/Melee/WoodSword/SkeletalMesh/SKM_WoodSword.SKM_WoodSword",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Juno_AIMeleeWeapons_Klombo'",
+        "ObjectPath": "/JunoKlomboGP/AI/DataTables/Juno_AIMeleeWeapons_Klombo.0"
+      },
+      "RowName": "KlomboPirateSword"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_ImpactDamage.BaseAlteration_ImpactDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JunoGame/Weapons/Abilities/GAB_Juno_MeleeSpecials.GAB_Juno_MeleeSpecials_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/JunoGame/Weapons/Abilities/GAS_Juno_Sword.GAS_Juno_Sword",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "PlayerGrantedGameplayTags": [
+      "Granted.ItemEquipped.Melee.Harvest",
+      "Juno.Item.Weapon.Enemy.1stAttack.Minifig"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_juno_sword_compcraft_t1_enemy_klombopiratewithshield"
+    ],
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_CBC_Sword_Wood_Enemy'",
+            "ObjectPath": "/JunoComponentCrafting/Audio/Weapons/Sword/Wood/SL_CBC_Sword_Wood_Enemy.0"
+          },
+          {
+            "ObjectName": "SoundLibrary'SL_CBC_Sword_Wood_Impacts'",
+            "ObjectPath": "/JunoComponentCrafting/Audio/Weapons/Sword/Wood/SL_CBC_Sword_Wood_Impacts.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Harvest"
+        }
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.Toys"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoGame/UI/Icons/ComponentCrafting/Sword/Sword_T1/T_UI_Neptune_CC_Weapon_Sword_T1_Base.T_UI_Neptune_CC_Weapon_Sword_T1_Base",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/JunoGame/Weapons/Melee/WoodSword/SkeletalMesh/SKM_WoodSword.SKM_WoodSword",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.13052619,
+            "Z": 0.0,
+            "W": 0.9914449,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoComponentCrafting/Audio/Weapons/Sword/Wood/MSS_CBC_Sword_Wood_Pickup.MSS_CBC_Sword_Wood_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoComponentCrafting/Audio/Weapons/Sword/Wood/MSS_CBC_Sword_Wood_Drop.MSS_CBC_Sword_Wood_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoComponentCrafting/Audio/Weapons/Sword/Wood/MSS_CBC_Sword_Wood_Land.MSS_CBC_Sword_Wood_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.499999,
+          "Y": 5.4999924,
+          "Z": 30.583643
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Juno.Item.ComponentBase",
+          "Behavior.Injection.Juno.Behaviors.Melee",
+          "phoebe.weapon.melee",
+          "Weapon.Melee.Impact.Pickaxe",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Juno.Item.Weapon.Enemy.Sword.Klombo.Pirate"
+        ]
+      },
+      {
+        "SwingEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SwingEffectNiagara": {
+          "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Default_MarkII/FX/NS_Pickaxe_Defualt_Mark_II_Trail.NS_Pickaxe_Defualt_Mark_II_Trail",
+          "SubPathString": ""
+        },
+        "SwingFXSocketName": "None"
+      },
+      {
+        "ImpactPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ImpactNiagaraPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "SwingEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SwingEffectNiagara": {
+          "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Default_MarkII/FX/NS_Pickaxe_Defualt_Mark_II_Trail.NS_Pickaxe_Defualt_Mark_II_Trail",
+          "SubPathString": ""
+        },
+        "SwingFXSocketName": "SwingFX"
+      },
+      {
+        "AnimTrails": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AnimTrailsNiagara": {
+          "AssetPathName": "/JunoComponentCrafting/Items/Weapons/NS_Juno_ComponentBasedCrafting_Trail.NS_Juno_ComponentBasedCrafting_Trail",
+          "SubPathString": ""
+        },
+        "NiagaraSkeletonDIVariableName": "User.SkeletalMesh",
+        "AnimTrailsFirstSocketName": "AnimTrail_01",
+        "AnimTrailsSecondSocketName": "AnimTrail_02",
+        "AnimTrailsWidth": 1.0,
+        "bAttachAnimTrailsToWeapon": true
+      },
+      {
+        "ImpactPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ImpactNiagaraPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

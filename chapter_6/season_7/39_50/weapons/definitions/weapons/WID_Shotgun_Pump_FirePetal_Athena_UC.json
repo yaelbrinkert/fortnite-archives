@@ -1,0 +1,423 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Shotgun_Pump_FirePetal_Athena_UC",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/B_Shotgun_Pump_FirePetal_Athena.B_Shotgun_Pump_FirePetal_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Shotgun_FirePetal_Pump_Athena_UC_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bModsHidden": true,
+    "HitNotifyDuration": 0.5,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.HUD_Xhair_Shotgun_Frame",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [
+      45.0,
+      135.0,
+      225.0,
+      315.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "weapon.ranged.shotgun",
+      "Item.Weapon.Ranged.Shotgun.Pump.FirePetal"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Item.Weapon.Ranged.Shotgun.Pump.FirePetal"
+    ],
+    "ActualAnalyticFNames": [
+      "weapon.ranged.shotgun",
+      "Item.Weapon.Ranged.Shotgun.Pump.FirePetal",
+      "Tag:Weapon:wid_shotgun_pump_firepetal_athena_uc"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "79D2EAB34CCF767F1804E9A7A70587C6",
+      "SourceString": "Sentinel Pump Shotgun",
+      "LocalizedString": "Sentinel Pump Shotgun"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6E18189E478411B76B4814AC7CBBB08B",
+      "SourceString": "Pump-Action Shotgun. Deals high damage at a slow fire rate. Short range and limited mag size.",
+      "LocalizedString": "Pump-Action Shotgun. Deals high damage at a slow fire rate. Short range and limited mag size."
+    },
+    "DataList": [
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "WeaponModSlots": [
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionOptic'WMID_Default_IronSights'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Optics/IronSight/WMID_Default_IronSights.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionMagazine'WMID_Default_Magazine'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Magazines/DefaultMags/WMID_Default_Magazine.0"
+            },
+            "bIsDynamic": true
+          }
+        ]
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/Icons/T_Icon_Weapons_Shotgun_Pump_FirePetal.T_Icon_Weapons_Shotgun_Pump_FirePetal",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/Icons/T_Icon_Weapons_Shotgun_Pump_FirePetal_L.T_Icon_Weapons_Shotgun_Pump_FirePetal_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.Shotgun.PumpAction",
+          "phoebe.weapon.ranged.shotgun",
+          "phoebe.items.pump_shotgun",
+          "Weapon.Ranged.Shotgun",
+          "Item.Weapon.Ranged.Shotgun.Pump.FirePetal",
+          "Rarity.Uncommon"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -30.0,
+          "Z": 2.0
+        },
+        "InitialRotation": {
+          "Pitch": 6.8169928,
+          "Yaw": 16.552195,
+          "Roll": -21.50716
+        },
+        "Scale": 0.9
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/Meshes/Pump_FirePetal_Shotgun.Pump_FirePetal_Shotgun",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Shotgun-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Shotgun-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/Sounds/SL_FirePetal_PumpShotgun_Pickup.SL_FirePetal_PumpShotgun_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "Item.Weapon.Ranged.Shotgun"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.1941879,
+          "Y": 38.635468,
+          "Z": 9.850693
+        }
+      },
+      {
+        "DisassembleRecipe": {
+          "DataTable": {
+            "ObjectName": "DataTable'DisassembleRecipes'",
+            "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+          },
+          "RowName": "Disassemble.Ranged.Shotgun.UC.Ore.T03"
+        },
+        "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+        "DisassembleDurabilityDegradeMaxLootPercent": 0.8
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "D166E6BB41163FE73C5C998198E160E6",
+          "SourceString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto",
+          "LocalizedString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::II",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.WeaponRanged.ShowReticleHitNotifyAtImpactLocation"
+        ]
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Shotgun'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Shotgun.0"
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_FirePetal_PumpShotgun_Weapon'",
+            "ObjectPath": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/Sounds/SL_FirePetal_PumpShotgun_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "Type": "FortWeaponMeleeItemDefinition",
+  "Name": "WID_FirePetal_Masamune_NoodleDuck",
+  "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/MasamuneGameplay/Gameplay/Actors/B_Weap_FirePetal_Masamune.B_Weap_FirePetal_Masamune_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Masamune_RangedWeapons'",
+        "ObjectPath": "/MasamuneGameplay/DataTables/Masamune_RangedWeapons.0"
+      },
+      "RowName": "Masamune_NoodleDuck"
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/MasamuneGameplay/Gameplay/Abilities/GA_FirePetal_Masamune_SecondaryNoCharge.GA_FirePetal_Masamune_SecondaryNoCharge_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/MasamuneGameplay/Gameplay/Abilities/AS_FirePetal_Masamune.AS_FirePetal_Masamune",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bRechargeAmmoToClip": true,
+    "bUsesCustomAmmoType": true,
+    "bShowRemainingAmmoOnly": true,
+    "bAllowSecondaryFireToInterruptPrimary": true,
+    "bForceReticleTrace": true,
+    "PlayerGrantedGameplayTags": [
+      "Granted.RollLanding.PreventHolster",
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+      "Granted.BoostedJump.SkipAnimation",
+      "Granted.BoostedJump.PreventHoslter",
+      "Granted.Masamune.Equipped"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_firepetal_masamune_noodleduck"
+    ],
+    "WeaponMovementSpeedStats": {
+      "Tag": {
+        "Tag": {
+          "TagName": "Movement.Weapon.Gadget"
+        }
+      }
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "848074F94A295D5A59F65D96A479869F",
+      "SourceString": "Typhoon Blade",
+      "LocalizedString": "Typhoon Blade"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "151CCB654041C644DEBAA4AEBC9FB52D",
+      "SourceString": "A katana imbued with mystic winds, allowing for increased speed and a cyclonic slash attack.",
+      "LocalizedString": "A katana imbued with mystic winds, allowing for increased speed and a cyclonic slash attack."
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/MasamuneGameplay/Assets/Meshes/Typhoon_Posed_Pickup/TyphoonBlade_Posed_LOD0.TyphoonBlade_Posed_LOD0",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/MasamuneGameplay/Assets/Audio/SC_Masamune_Pickup.SC_Masamune_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/MasamuneGameplay/Assets/Audio/SC_Masamune_Drop.SC_Masamune_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/MasamuneGameplay/Assets/Audio/SC_Masamune_Drop_Land.SC_Masamune_Drop_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 9.763838,
+          "Y": 34.043434,
+          "Z": 75.05215
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/MasamuneGameplay/Assets/Icons/T_Icon_BR_TyphoonBlade.T_Icon_BR_TyphoonBlade",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "Item.Weapon.Melee.Masamune",
+          "Rarity.VeryRare",
+          "Weapon.Melee",
+          "Granted.Athena.TacticalSprint.PreventHolster",
+          "Granted.RollLanding.PreventHolster",
+          "Granted.Athena.Hurdle.PreventHolster",
+          "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+          "phoebe.items.melee.katana",
+          "phoebe.weapon.trait.infiniteammo",
+          "phoebe.weapon.trait.noaccuracy",
+          "Granted.Cooldown.Masamune",
+          "HUD.PreferredSlotType.Utility",
+          "Athena.Item.Utility",
+          "Item.ExclusivePickupGroup.Masamune"
+        ]
+      },
+      {
+        "ImpactPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ImpactNiagaraPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.SingleStack",
+          "Item.Trait.AllowSwapSingleStack"
+        ]
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "/Script/FortniteGame.FortWeaponMeleeItemDefinitionTooltip",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/MasamuneGameplay/Assets/Icons/T_Icon_BR_TyphoonBlade_L.T_Icon_BR_TyphoonBlade_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Umbrella_RankedHalt",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GliderType": "EFortGliderType::Umbrella",
+    "CameraFramingBoundsCenterOffset": {
+      "X": -120.0,
+      "Y": -10.0,
+      "Z": 10.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_RankedHalt.B_Athena_Glider_RankedHalt_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Ch_6_Mini_Season_1/Meshes/Ch_6_Mini_Season_1_Glider.Ch_6_Mini_Season_1_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Ch_6_Mini_Season_1/Ch_6_mini_season_1_Glider_AnimBP.Ch_6_mini_season_1_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/Umbrella/UmbrellaPlayerAnimSet.UmbrellaPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Ch_6_Mini_Season_1/FX/NS_Glider_Umbrella_RankedHalt.NS_Glider_Umbrella_RankedHalt",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Ch6MiniSeason1/IP_MSS_Glider_Ch6MiniSeason1_Open.IP_MSS_Glider_Ch6MiniSeason1_Open",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Ch6MiniSeason1/IP_MSS_Glider_Ch6MiniSeason1_Open.IP_MSS_Glider_Ch6MiniSeason1_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Ch6MiniSeason1/IP_MSS_Glider_Ch6MiniSeason1_Close.IP_MSS_Glider_Ch6MiniSeason1_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Ch6MiniSeason1/IP_MSS_Glider_Ch6MiniSeason1_Thrust.IP_MSS_Glider_Ch6MiniSeason1_Thrust",
+      "SubPathString": ""
+    },
+    "ObservedPlayerStats": [
+      "StatManager.HabaneroS35"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticRankedVariant'Umbrella_RankedHalt:FortCosmeticRankedVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Umbrella_RankedHalt.1"
+      }
+    ],
+    "ShotGridIds": [
+      152765
+    ],
+    "ItemSearchTags": [
+      {
+        "Namespace": "",
+        "Key": "08BA6847432A03D6970E2C8291E9FCF8",
+        "SourceString": "Umbrella",
+        "LocalizedString": "Umbrella"
+      }
+    ],
+    "BaseShotGridId": 152765,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CD1C310E446EFDFC5DE8C99C2469642F",
+      "SourceString": "Ranker's Death Star",
+      "LocalizedString": "Ranker's Death Star"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "33E214C14B97EF8D4533E293433D0C7E",
+      "SourceString": "You may win when ready.",
+      "LocalizedString": "You may win when ready."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5110886B4B82702C760EDCBF12AFD624",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 15.0,
+          "Yaw": 45.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.05
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S35/T_Icon_Glider_Umbrella_RankedHalt.T_Icon_Glider_Umbrella_RankedHalt",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S35/T_Icon_Glider_Umbrella_RankedHalt_L.T_Icon_Glider_Umbrella_RankedHalt_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.35",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          162,
+          249,
+          126,
+          567,
+          564,
+          1651,
+          985,
+          983,
+          834,
+          958,
+          1253,
+          1254,
+          2233,
+          253,
+          2347,
+          2440,
+          2521,
+          4193,
+          6684
+        ]
+      }
+    ]
+  }
+}

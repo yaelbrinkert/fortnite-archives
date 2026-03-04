@@ -1,0 +1,106 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Jugular_Banjo",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Jugular_Fiddle'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Jugular_Fiddle.0"
+    },
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CMM_M_FrontEnd.Emote_Jugular_Banjo_CMM_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CMF_M_FrontEnd.Emote_Jugular_Banjo_CMF_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CLM_M_FrontEnd.Emote_Jugular_Banjo_CLM_M_FrontEnd",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CLF_M_FrontEnd.Emote_Jugular_Banjo_CLF_M_FrontEnd",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower.GAB_EmoteBand_Follower_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CMM_M.Emote_Jugular_Banjo_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CMF_M.Emote_Jugular_Banjo_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CLM_M.Emote_Jugular_Banjo_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jugular/Banjo/Emote_Jugular_Banjo_CLF_M.Emote_Jugular_Banjo_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2B79B64D449FA95B39E82A9EC3CED2D8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Jugular.T-Icon-Emotes-E-Jugular",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Jugular-L.T-Icon-Emotes-E-Jugular-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

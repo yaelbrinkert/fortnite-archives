@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_StudyBench",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 483.187,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StudyBench/CMM/Emote_StudyBench_CMM_M.Emote_StudyBench_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StudyBench/CMM/Emote_StudyBench_CMF_M.Emote_StudyBench_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StudyBench/CMM/Emote_StudyBench_CLM_M.Emote_StudyBench_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StudyBench/CMM/Emote_StudyBench_CLF_M.Emote_StudyBench_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 30.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_StudyBench:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_StudyBench.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DA3D80C14A9DBB8A72C19686F4588866",
+      "SourceString": "Lil' Swordfish II",
+      "LocalizedString": "Lil' Swordfish II"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4FF143AB4E08500440C3ADB6BDEE4D14",
+      "SourceString": "Redesigned for lil' deployment.",
+      "LocalizedString": "Redesigned for lil' deployment."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "21D2EA9F4701B8010FF0FBB662B86A93",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.AnotherMeeting",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_StudyBench.T_Icon_Emotes_StudyBench",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_StudyBench_L.T_Icon_Emotes_StudyBench_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

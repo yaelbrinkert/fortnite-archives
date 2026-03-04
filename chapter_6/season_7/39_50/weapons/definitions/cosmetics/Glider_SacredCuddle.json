@@ -1,0 +1,197 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_SacredCuddle",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 95.0,
+      "Y": -20.0,
+      "Z": -60.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy.B_Athena_Glider_Legacy_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Meshes/SK_M_VinderTech_GliderChute.SK_M_VinderTech_GliderChute",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.70710677,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/VinderTech_GliderChute_AnimBP.VinderTech_GliderChute_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SacredCuddle/FX/NS_Glider_SacredCuddle.NS_Glider_SacredCuddle",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Open_Cue.Athena_Glider_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Close_Cue.Athena_Glider_Close_Cue",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SacredCuddle/Materials/MI_Glider_SacredCuddle.MI_Glider_SacredCuddle",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ShotGridIds": [
+      127209
+    ],
+    "BaseShotGridId": 127209,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8F7D56F44C625D086912B19654B42F89",
+      "SourceString": "Cuddle Team Sierra",
+      "LocalizedString": "Cuddle Team Sierra"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3DE2B85244450297261656A1C96B647C",
+      "SourceString": "A feat of stealth bearcraft.",
+      "LocalizedString": "A feat of stealth bearcraft."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2796D97C4B609890F2431CA8345E7151",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 11.0,
+          "Yaw": -65.0,
+          "Roll": -14.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S33/T_Icon_Glider_SacredCuddleGlider.T_Icon_Glider_SacredCuddleGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S33/T_Icon_Glider_SacredCuddleGlider_L.T_Icon_Glider_SacredCuddleGlider_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Set.LoveSight"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          162,
+          573,
+          576,
+          262,
+          389,
+          564,
+          652,
+          773,
+          1042,
+          1180,
+          352,
+          318,
+          385,
+          2393,
+          2399,
+          2691,
+          404,
+          1897,
+          392
+        ]
+      }
+    ]
+  }
+}

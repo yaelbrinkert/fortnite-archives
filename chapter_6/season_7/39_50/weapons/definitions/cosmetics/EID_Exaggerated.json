@@ -1,0 +1,85 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Exaggerated",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Exaggerated/Emote_Exaggerated_CMM_M.Emote_Exaggerated_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Exaggerated/Emote_Exaggerated_CMF_M.Emote_Exaggerated_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Exaggerated/Emote_Exaggerated_CLF_M.Emote_Exaggerated_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Exaggerated/Emote_Exaggerated_CLM_M.Emote_Exaggerated_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D9B4959441020D6E48C186955808739B",
+      "SourceString": "Egg Drop Scoop",
+      "LocalizedString": "Egg Drop Scoop"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "07DE555143473A5EA49E528B69D523E1",
+      "SourceString": "Exit through the gift basket.",
+      "LocalizedString": "Exit through the gift basket."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2A29F4584351161B823E0A8D36748520",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.16",
+          "Emote.Mech.Disabled.Design",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Exaggerated.T-Icon-Emotes-E-Exaggerated",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Exaggerated-L.T-Icon-Emotes-E-Exaggerated-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_255_FlapjackWranglerMale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 150.0,
+      "Y": -25.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_Generic_FlapjackWrangler.B_Athena_Glider_Generic_FlapjackWrangler_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Mark_II/Meshes/Glider_Mark_II.Glider_Mark_II",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Mark_II_Glider_AnimBP.Mark_II_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_FlapjackWranglerMale/FX/NS_Glider_Flapjack_Wrangler.NS_Glider_Flapjack_Wrangler",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_FlapjackWranglerMale/FX/NS_Glider_Flapjack_Wrangler_Deploy.NS_Glider_Flapjack_Wrangler_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FlapjackWranglerMale/SC_GliderOpen_Flapjack_Wrangler_Male.SC_GliderOpen_Flapjack_Wrangler_Male",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FlapjackWranglerMale/SC_GliderClose_Flapjack_Wrangler_Male.SC_GliderClose_Flapjack_Wrangler_Male",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FlapjackWranglerMale/SC_GliderThrustLoop_Flapjack_Wrangler_Male.SC_GliderThrustLoop_Flapjack_Wrangler_Male",
+      "SubPathString": ""
+    },
+    "Bits": [
+      {
+        "Mesh": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_FlapjackWranglerMale/Meshes/Flapjack_Wrangler_Male_Glider.Flapjack_Wrangler_Male_Glider",
+          "SubPathString": ""
+        },
+        "AnimBPClass": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_FlapjackWranglerMale/Meshes/FlapjackWranglerGlider_AnimBP.FlapjackWranglerGlider_AnimBP_C",
+          "SubPathString": ""
+        },
+        "OverrideMaterials": [],
+        "RelativeTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "SocketName": "None",
+        "bApplyGliderMaterialOverrides": false
+      }
+    ],
+    "MaterialOverrides": [
+      {
+        "ComponentName": "ParachuteMesh0",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_FlapjackWranglerMale/Materials/MI_Glider_FlapjackWranglerMale.MI_Glider_FlapjackWranglerMale",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_ID_255_FlapjackWranglerMale:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_255_FlapjackWranglerMale.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "44CEDE07459E424CECD3A6831767D7A8",
+      "SourceString": "Flapjack Flyer",
+      "LocalizedString": "Flapjack Flyer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DECE29B345FD152568BC9F983159F853",
+      "SourceString": "Syrup, up, and away!",
+      "LocalizedString": "Syrup, up, and away!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -105.0,
+          "Roll": -15.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-FlapjackWranglerGlider.T-Icon_Glider-FlapjackWranglerGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-FlapjackWranglerGlider-L.T-Icon_Glider-FlapjackWranglerGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.Season15.BattlePass.Free",
+          "Cosmetics.Filter.Season.15",
+          "Cosmetics.Set.DinnerThief",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          270,
+          546,
+          249,
+          239,
+          389,
+          691,
+          330,
+          1307,
+          1308,
+          1311,
+          1312,
+          352,
+          191,
+          1614,
+          1618,
+          2030,
+          2394,
+          2691,
+          3998,
+          392
+        ]
+      }
+    ]
+  }
+}

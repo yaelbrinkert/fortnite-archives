@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_RenegadeRaiderFire",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Helmet.CP_Bean_Head_Helmet",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_RenegadeRaiderFire:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_RenegadeRaiderFire.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D5350D31455D5F3B7D4581957092410B",
+      "SourceString": "Blaze",
+      "LocalizedString": "Blaze"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "78355EBC4AA430AA75D0B284DEF376E0",
+      "SourceString": "Fill the world with flames.",
+      "LocalizedString": "Fill the world with flames."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_RenegadeRaiderFire.T_Bean_RenegadeRaiderFire",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_RenegadeRaiderFire_L.T_Bean_RenegadeRaiderFire_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.13",
+          "Cosmetics.Set.OutlawFire",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'LavaSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/LavaSeries.0"
+        }
+      }
+    ]
+  }
+}

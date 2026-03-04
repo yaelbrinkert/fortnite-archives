@@ -1,0 +1,251 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_353_ThriveSpiritFemale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 70.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_Generic_Thrive_Spirit.B_Athena_Glider_Generic_Thrive_Spirit_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Thrive_Spirit_Female/Meshes/Thrive_Spirit_Female_Glider.Thrive_Spirit_Female_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Thrive_Female/Thrive_Female_Glider_SurfStyle_AnimBP.Thrive_Female_Glider_SurfStyle_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/Game/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveSurf.Athena_PlayerCameraModeSkydiveSurf_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Thrive_Female/Player/Thrive_Female_SurfStyle_PlayerAnimSet.Thrive_Female_SurfStyle_PlayerAnimSet",
+      "SubPathString": ""
+    },
+    "AttachSocket": "attach",
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ThriveSpiritFemale/SC_GliderOpen_ThriveSpiritFemale.SC_GliderOpen_ThriveSpiritFemale",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ThriveSpiritFemale/SC_GliderClose_ThriveSpiritFemale.SC_GliderClose_ThriveSpiritFemale",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ThriveSpiritFemale/SC_GliderThrustLoop_ThriveSpiritFemale.SC_GliderThrustLoop_ThriveSpiritFemale",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ThriveSpiritFemale/SC_GliderThrustStart_ThriveSpiritFemale.SC_GliderThrustStart_ThriveSpiritFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ThriveSpiritFemale/SC_GliderThrustStartSmall_ThriveSpiritFemale.SC_GliderThrustStartSmall_ThriveSpiritFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ThriveSpiritFemale/SC_GliderThrustStartSmall_ThriveSpiritFemale.SC_GliderThrustStartSmall_ThriveSpiritFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ShotGridIds": [
+      56147
+    ],
+    "BaseShotGridId": 56147,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2591F3514CACB66DB6E693A3659CBBE1",
+      "SourceString": "Cursed Hazeboard",
+      "LocalizedString": "Cursed Hazeboard"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F38B552F41CD1B9CD7FE0C9DD5B0AB3C",
+      "SourceString": "Ride the fog of dimensions unseen.",
+      "LocalizedString": "Ride the fog of dimensions unseen."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-ThriveGlider-Spirit.T-Icon_Glider-ThriveGlider-Spirit",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-ThriveGlider-Spirit-L.T-Icon_Glider-ThriveGlider-Spirit-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.StoreSlam"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 10.0,
+          "Yaw": -70.0,
+          "Roll": -10.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          247,
+          248,
+          239,
+          126,
+          105,
+          262,
+          603,
+          785,
+          246,
+          255,
+          1339,
+          1517,
+          585,
+          5284,
+          1187,
+          1343,
+          2045,
+          1637,
+          1413,
+          1948,
+          1972,
+          2071,
+          2077,
+          2080,
+          2798,
+          2906,
+          2908,
+          4085,
+          2040,
+          5674,
+          4612
+        ]
+      }
+    ]
+  }
+}

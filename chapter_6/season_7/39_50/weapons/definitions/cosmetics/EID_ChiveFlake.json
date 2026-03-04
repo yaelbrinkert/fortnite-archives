@@ -1,0 +1,141 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ChiveFlake",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/Frontend/Emote_ChiveFlake_CMM_Frontend_M.Emote_ChiveFlake_CMM_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/Frontend/Emote_ChiveFlake_CMF_Frontend_M.Emote_ChiveFlake_CMF_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/Frontend/Emote_ChiveFlake_CLM_Frontend_M.Emote_ChiveFlake_CLM_Frontend_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/Frontend/Emote_ChiveFlake_CLF_Frontend_M.Emote_ChiveFlake_CLF_Frontend_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/Emote_ChiveFlake_CMM_M.Emote_ChiveFlake_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/CMF/Emote_ChiveFlake_CMF_M.Emote_ChiveFlake_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/CLM/Emote_ChiveFlake_CLM_M.Emote_ChiveFlake_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ChiveFlake/CLF/Emote_ChiveFlake_CLF_M.Emote_ChiveFlake_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_ChiveFlake:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ChiveFlake.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C5028035441F054656C1E08BB3482377",
+      "SourceString": "Jake Car",
+      "LocalizedString": "Jake Car"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "526E78F442D015798A8977964D7F37E4",
+      "SourceString": "The fastest dog-car in all of Ooo.",
+      "LocalizedString": "The fastest dog-car in all of Ooo."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "689C21034BD88A22FAB011B8E1249EBD",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 20.0,
+          "Y": 50.0,
+          "Z": -12.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.Timmy",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_ChiveFlake.T_Icon_Emotes_ChiveFlake",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_ChiveFlake_L.T_Icon_Emotes_ChiveFlake_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

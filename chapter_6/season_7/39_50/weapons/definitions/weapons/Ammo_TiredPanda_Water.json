@@ -1,0 +1,56 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Ammo_TiredPanda_Water",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "AmmoIconBrush": {
+      "Brush_XXS": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_XS": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_S": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_M": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_L": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_XL": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 100.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      }
+    ]
+  }
+}

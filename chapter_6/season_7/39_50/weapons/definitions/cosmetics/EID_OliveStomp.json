@@ -1,0 +1,137 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_OliveStomp",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Retract",
+        "EvaluationMode": "EMontageSelectionPredicateType::ActiveSwapPresence",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [],
+            "Item": null
+          }
+        ]
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Olivestomp/Emote_Olivestomp_CMM_M.Emote_Olivestomp_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Olivestomp/Emote_Olivestomp_CMF_M.Emote_Olivestomp_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Olivestomp/Emote_Olivestomp_CLM_M.Emote_Olivestomp_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Olivestomp/Emote_Olivestomp_CLF_M.Emote_Olivestomp_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_OliveStomp:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_OliveStomp.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4D7C7D78484A541ACB93199837058C9D",
+      "SourceString": "SNIKT-ing Go Time",
+      "LocalizedString": "SNIKT-ing Go Time"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B25C3E664DD4FABD48EC889C0B038873",
+      "SourceString": "Want to see what I'm made of, Bub?",
+      "LocalizedString": "Want to see what I'm made of, Bub?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "80ED23F843DB1203BB805FAB7B37AB3D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-OliveStomp.T-Icon-Emotes-OliveStomp",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Filter.Season.30",
+          "Cosmetics.Set.WhaleDay",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-OliveStomp-L.T-Icon-Emotes-OliveStomp-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

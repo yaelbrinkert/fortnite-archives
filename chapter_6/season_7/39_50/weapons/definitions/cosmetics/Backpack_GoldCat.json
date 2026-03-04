@@ -1,0 +1,134 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "Backpack_GoldCat",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Backpack_GoldCat'",
+        "ObjectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/CP_Backpack_GoldCat.1"
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'Backpack_GoldCat:FortCosmeticMaterialVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/Backpack_GoldCat.1"
+      }
+    ],
+    "ShotGridIds": [
+      111618
+    ],
+    "BaseShotGridId": 111618,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "09BD3B474A0EDEBC2F5DFAB06FBB3A43",
+      "SourceString": "Feline Dagger",
+      "LocalizedString": "Feline Dagger"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BEE66CD6425967340EEE27B9E3698538",
+      "SourceString": "For the classy cat on a mouse hunt.",
+      "LocalizedString": "For the classy cat on a mouse hunt."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "73DF571A4F469163A6D335B14F5865D9",
+      "SourceString": "Back Bling",
+      "LocalizedString": "Back Bling"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Backpacks/S32/T_IconBackpacks_GoldCat.T_IconBackpacks_GoldCat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Backpacks/S32/T_IconBackpacks_GoldCat_L.T_IconBackpacks_GoldCat_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Set.MuscleMoney"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.SceneChanger.BattlePass"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_GoldCat_Claw.Character_GoldCat_Claw",
+              "SubPathString": ""
+            },
+            "VariantOverrides": [
+              {
+                "WhenViewingVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Backbling_GoldCat_StyleB.VTID_Backbling_GoldCat_StyleB",
+                  "SubPathString": ""
+                },
+                "OverrideCharacterWithVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_GoldCat_StyleB.VTID_Character_GoldCat_StyleB",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          270,
+          546,
+          548,
+          359,
+          556,
+          245,
+          640,
+          654,
+          24,
+          285,
+          2072,
+          112,
+          849,
+          971,
+          1049,
+          1064,
+          1108,
+          113,
+          1973,
+          2360,
+          319,
+          1475
+        ]
+      }
+    ]
+  }
+}

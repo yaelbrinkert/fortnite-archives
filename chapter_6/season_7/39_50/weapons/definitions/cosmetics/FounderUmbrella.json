@@ -1,0 +1,169 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "FounderUmbrella",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GliderType": "EFortGliderType::Umbrella",
+    "CameraFramingBoundsCenterOffset": {
+      "X": -120.0,
+      "Y": -10.0,
+      "Z": 10.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_Umbrella/Meshes/SK_VinderTech_Umbella.SK_VinderTech_Umbella",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/VinderTech_Umbrella_AnimBP.VinderTech_Umbrella_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/Umbrella/UmbrellaPlayerAnimSet.UmbrellaPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Umbrella_Open_Cue.Athena_Umbrella_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Umbrella_Close_Cue.Athena_Umbrella_Close_Cue",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/Materials/MI_VinderTech_UmbrellaB.MI_VinderTech_UmbrellaB",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemSearchTags": [
+      {
+        "Namespace": "",
+        "Key": "858BAD764D919DC270AF30B904A7CDDA",
+        "SourceString": "Umbrella",
+        "LocalizedString": "Umbrella"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9577660A41E3FD7B7CFA67ACF5C75ABA",
+      "SourceString": "Founder's Umbrella",
+      "LocalizedString": "Founder's Umbrella"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "52944DD84C0AAD311140B99FB6A123ED",
+      "SourceString": "Founder's exclusive!",
+      "LocalizedString": "Founder's exclusive!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6B74EBDC437A8EF6CFC0F9BBC4BFFD9B",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 15.0,
+          "Yaw": 45.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.05
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Umbrella-S-VinderTech-Umbella-Founders.T-Icon_Umbrella-S-VinderTech-Umbella-Founders",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Umbrella-S-VinderTech-Umbella-Founders-L.T-Icon_Umbrella-S-VinderTech-Umbella-Founders-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.Granted.Founders",
+          "Cosmetics.QuestsMetaData.Achievements.Umbrella"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          270,
+          359,
+          166,
+          245,
+          667,
+          179,
+          943,
+          948,
+          1042,
+          171,
+          664,
+          1023,
+          243,
+          2217,
+          394,
+          380,
+          3840,
+          349,
+          3843
+        ]
+      }
+    ]
+  }
+}

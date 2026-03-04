@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Anxiety",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Anxiety/Emote_Anxiety_CMM_M.Emote_Anxiety_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Anxiety/Emote_Anxiety_CMF_M.Emote_Anxiety_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Anxiety/Emote_Anxiety_CLM_M.Emote_Anxiety_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Anxiety/Emote_Anxiety_CLF_M.Emote_Anxiety_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      68501
+    ],
+    "BaseShotGridId": 68501,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CC2F0C8849DD11986CA72EB4AF8FCF7A",
+      "SourceString": "Squeezie Does it",
+      "LocalizedString": "Squeezie Does it"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "11A5D8BC4FCFCC2E10F7B0BF5193E3E3",
+      "SourceString": "Breathe in... Breathe out...",
+      "LocalizedString": "Breathe in... Breathe out..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3824D32A4605ABF727509A8C32B33D6B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.24"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Anxiety.T-Icon-Emotes-Anxiety",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Anxiety-L.T-Icon-Emotes-Anxiety-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

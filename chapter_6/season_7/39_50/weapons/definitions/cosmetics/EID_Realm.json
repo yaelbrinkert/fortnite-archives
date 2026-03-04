@@ -1,0 +1,160 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Realm",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CMM_Frontend_M.Emote_Realm_CMM_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CMF_Frontend_M.Emote_Realm_CMF_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CLM_Frontend_M.Emote_Realm_CLM_Frontend_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CLF_Frontend_M.Emote_Realm_CLF_Frontend_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 146.175,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CMM_M.Emote_Realm_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CMF_M.Emote_Realm_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CLM_M.Emote_Realm_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CLF_M.Emote_Realm_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "PreviewLength": 38.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Realm:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Realm.1"
+      },
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Realm:FortCosmeticProfileLoadoutVariant_2'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Realm.2"
+      }
+    ],
+    "ShotGridIds": [
+      57506
+    ],
+    "BaseShotGridId": 57506,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "581369BA4A068A46F47BB197E195711A",
+      "SourceString": "Imperial March",
+      "LocalizedString": "Imperial March"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3290357446C22F3DD3BD91B1D1C194B8",
+      "SourceString": "Channel the power of the Dark Side.",
+      "LocalizedString": "Channel the power of the Dark Side."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3FFE79DC42E310384250D1A6648016E7",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Realm.T-Icon-Emotes-E-Realm",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Realm-L.T-Icon-Emotes-E-Realm-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Source.Season21.BattlePass.Free",
+          "Cosmetics.Filter.Season.21",
+          "Cosmetics.Set.JestTap"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

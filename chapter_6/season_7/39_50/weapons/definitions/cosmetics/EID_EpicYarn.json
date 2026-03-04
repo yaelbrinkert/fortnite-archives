@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_EpicYarn",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EpicYarn/Emote_EpicYarn_CMM_M.Emote_EpicYarn_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/EpicYarn/Emote_EpicYarn_CMF_M.Emote_EpicYarn_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EpicYarn/Emote_EpicYarn_CLM_M.Emote_EpicYarn_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EpicYarn/Emote_EpicYarn_CLF_M.Emote_EpicYarn_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      45585
+    ],
+    "BaseShotGridId": 45585,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4F121AE140C9007F45DAA8986515FC0D",
+      "SourceString": "Choice Knit",
+      "LocalizedString": "Choice Knit"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "01847E81474CB8095C9CB191478BC4C9",
+      "SourceString": "You wanted a v-neck, right? ",
+      "LocalizedString": "You wanted a v-neck, right? "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EEE0263C4CB349199CAEFCAF52955921",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.Set.ColdCompete"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-EpicYarn.T-Icon-Emotes-E-EpicYarn",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-EpicYarn-L.T-Icon-Emotes-E-EpicYarn-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

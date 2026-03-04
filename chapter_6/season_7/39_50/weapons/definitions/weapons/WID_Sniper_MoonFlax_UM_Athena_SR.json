@@ -1,0 +1,390 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Sniper_MoonFlax_UM_Athena_SR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bForceProjectileTooltip": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/B_Sniper_MoonFlax_Athena.B_Sniper_MoonFlax_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Sniper_MoonFlax_Athena_SR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/GA_Ranged_AthenaSniperProjectileImpact_Vehicle_MoonFlax.GA_Ranged_AthenaSniperProjectileImpact_Vehicle_MoonFlax_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+      "SubPathString": ""
+    },
+    "bTargetingPreventsReload": true,
+    "bModsHidden": true,
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot_new.reticle_dot_new",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "weapon.ranged.sniper",
+      "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax"
+    ],
+    "ActualAnalyticFNames": [
+      "weapon.ranged.sniper",
+      "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax",
+      "Tag:Weapon:wid_sniper_moonflax_um_athena_sr"
+    ],
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "47BDE77A447B61618EE5F1905BBD0646",
+      "SourceString": "Heavy Impact Sniper Rifle",
+      "LocalizedString": "Heavy Impact Sniper Rifle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "7DDDEC9944083F11CC47D8921E857AE0",
+      "SourceString": "A single shot high damage sniper rifle, the Heavy Impact Sniper Rifle offers bonus damage and impulse to vehicles.",
+      "LocalizedString": "A single shot high damage sniper rifle, the Heavy Impact Sniper Rifle offers bonus damage and impulse to vehicles."
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -42.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.5695634,
+          "Yaw": 24.64069,
+          "Roll": -16.679253
+        },
+        "Scale": 1.0
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Meshes/Heavy_MoonFlax_Sniper.Heavy_MoonFlax_Sniper",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Sniper-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Sniper-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/SoundsVS/MoonFlaxSniper_Weapon_Pickup_Cue.MoonFlaxSniper_Weapon_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/SoundsVS/MoonFlaxSniper_Weapon_Drop_Cue.MoonFlaxSniper_Weapon_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/SoundsVS/MoonFlaxSniper_Weapon_Drop_Land_Cue.MoonFlaxSniper_Weapon_Drop_Land_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.1357,
+          "Y": 58.784256,
+          "Z": 13.601701
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "0EF5D7BB421CCA45D7DACBA1953D8DF8",
+          "SourceString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction",
+          "LocalizedString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::V",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'MoonFlaxSniper_Lib'",
+            "ObjectPath": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/SoundsVS/MoonFlaxSniper_Lib.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponModSlots": [
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionOptic'WMOID_Optic_Sniper'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Optics/LongRangeScope/WMOID_Optic_Sniper.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinition'WMID_Barrel_MuzzleBrake'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Barrel/MuzzleBrake/WMID_Barrel_MuzzleBrake.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionMagazine'WMID_Default_Magazine'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Magazines/DefaultMags/WMID_Default_Magazine.0"
+            },
+            "bIsDynamic": true
+          }
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Icons/T-Icon-Weapons-SniperHeavy-MoonFlax.T-Icon-Weapons-SniperHeavy-MoonFlax",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Icons/T-Icon-Weapons-SniperHeavy-MoonFlax-L.T-Icon-Weapons-SniperHeavy-MoonFlax-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Skill.sniper.headshotbuff",
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.Sniper.Bolt",
+          "Weapon.Ranged.Sniper.Bolt",
+          "Weapon.Meta.Scoped",
+          "Trait.Scoped",
+          "phoebe.weapon.ranged.sniper",
+          "phoebe.weapon.trait.scoped",
+          "phoebe.items.bolt_action_sniper_rifle",
+          "phoebe.weapon.trait.singleshot",
+          "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax",
+          "Rarity.SuperRare"
+        ]
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Prj_MoonFlax_Sniper.Prj_MoonFlax_Sniper_C",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

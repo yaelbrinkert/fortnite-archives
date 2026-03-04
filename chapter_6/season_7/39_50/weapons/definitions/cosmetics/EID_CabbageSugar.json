@@ -1,0 +1,128 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CabbageSugar",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CabbageSugar/CMM/Emote_CabbageSugar_CMM_M.Emote_CabbageSugar_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CabbageSugar/CMF/Emote_CabbageSugar_CMF_M.Emote_CabbageSugar_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CabbageSugar/CLM/Emote_CabbageSugar_CLM_M.Emote_CabbageSugar_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CabbageSugar/CLF/Emote_CabbageSugar_CLF_M.Emote_CabbageSugar_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_CabbageSugar:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_CabbageSugar.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_CabbageSugar:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_CabbageSugar.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "700D700441727441F9AFB88BA7CEA86D",
+      "SourceString": "Allen's Snack",
+      "LocalizedString": "Allen's Snack"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "892A7ED946F860C5BB0D7985661A6C84",
+      "SourceString": "Mmm..kanzlok! Now, that hits the spot!",
+      "LocalizedString": "Mmm..kanzlok! Now, that hits the spot!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F51075234351EB2369C9FB9BE29A138F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 8.0,
+          "Y": 110.0,
+          "Z": 12.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.EarthSavior"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_CabbageSugar.T_Icon_Emotes_CabbageSugar",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_CabbageSugar_L.T_Icon_Emotes_CabbageSugar_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "OverlayMaterialData": {
+          "LowQualityMaterial": {
+            "AssetPathName": "/BRCosmetics/Animation/Props/Gadgets_CabbageSugar/Materials/MI_Gadget_CabbageSugar_InvhullOutline.MI_Gadget_CabbageSugar_InvhullOutline",
+            "SubPathString": ""
+          },
+          "HighQualityMaterial": {
+            "AssetPathName": "/BRCosmetics/Animation/Props/Gadgets_CabbageSugar/Materials/MI_Gadget_CabbageSugar_InvhullOutline.MI_Gadget_CabbageSugar_InvhullOutline",
+            "SubPathString": ""
+          }
+        }
+      }
+    ]
+  }
+}

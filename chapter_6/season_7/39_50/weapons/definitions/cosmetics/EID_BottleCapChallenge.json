@@ -1,0 +1,77 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BottleCapChallenge",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BottleCap_Challenge/Bottlecap_Challenge_CMM_M.Bottlecap_Challenge_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BottleCap_Challenge/Bottlecap_Challenge_CMF_M.Bottlecap_Challenge_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bPlayRandomSection": true,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "Success",
+        "SectionWeight": 0.3
+      },
+      {
+        "SectionName": "Fail",
+        "SectionWeight": 1.0
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A9242A2D43E3778BE65C28AD1872772B",
+      "SourceString": "Cap Kick",
+      "LocalizedString": "Cap Kick"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4EFB89E44F0E04E38DEE668FC125AE4E",
+      "SourceString": "Give it a kick. ",
+      "LocalizedString": "Give it a kick. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "15F5245F469ED23F523F18AB1AB619A7",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.11",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-BottleCapChallenge.T-Icon-Emotes-E-BottleCapChallenge",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-BottleCapChallenge-L.T-Icon-Emotes-E-BottleCapChallenge-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

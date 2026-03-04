@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Ninja_015_F_V1_RoadTrip",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Female/Small/Ninja/Ninja_Female_Body_Montage_Idle.Ninja_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Ninja_015_F_V1_RoadTrip:CP_Head_F_StreetRacerWhite'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Ninja/CosmeticCharacterItemDefinitions/CID_Ninja_015_F_V1_RoadTrip.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AD6CF9194F3F500DDF981D8E3529C64E",
+      "SourceString": "Whiteout Fiona",
+      "LocalizedString": "Whiteout Fiona"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E9D9536D4800BA92F2C9B6A07BB2741E",
+      "SourceString": "Break away from the pack.",
+      "LocalizedString": "Break away from the pack."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite.T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite-L.T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.ShoesSneakers"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

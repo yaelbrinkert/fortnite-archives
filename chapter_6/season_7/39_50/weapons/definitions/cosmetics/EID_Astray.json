@@ -1,0 +1,108 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Astray",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astray/Emote_Astray_CMM_M.Emote_Astray_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astray/Emote_Astray_CMF_M.Emote_Astray_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astray/Emote_Astray_CLM_M.Emote_Astray_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astray/Emote_Astray_CLF_M.Emote_Astray_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      60495
+    ],
+    "BaseShotGridId": 60495,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7DAA05624057777A19AF2B8E00412E7B",
+      "SourceString": "Check the Map",
+      "LocalizedString": "Check the Map"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AFDF66294F457390A674B0AB02E92106",
+      "SourceString": "I'm not lost, I'm just disoriented.",
+      "LocalizedString": "I'm not lost, I'm just disoriented."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FC4ED945417BAC25DDA11D95957BB04F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 35.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-Astray.T-Icon-Emotes-E-Astray",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-Astray-L.T-Icon-Emotes-E-Astray-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.23"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SharpMagnet",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SharpMagnet/CMM/SharpMagnet_CMM_M.SharpMagnet_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SharpMagnet/CMF/Emote_SharpMagnet_CMF_M.Emote_SharpMagnet_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SharpMagnet/CLM/Emote_SharpMagnet_CLM_M.Emote_SharpMagnet_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SharpMagnet/CLF/Emote_SharpMagnet_CLF_M.Emote_SharpMagnet_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3EFE6D0446650D398E0B8F9B72BF266B",
+      "SourceString": "Fastest Fastball",
+      "LocalizedString": "Fastest Fastball"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "706017F84524EFED2BDCB4A24AF9CF82",
+      "SourceString": "How about a little game of catch?",
+      "LocalizedString": "How about a little game of catch?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "517E53374E8C65E996EF3B93E3B8AB65",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-SharpMagnet.T-Icon-Emotes-SharpMagnet",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-SharpMagnet-L.T-Icon-Emotes-SharpMagnet-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.27",
+          "Cosmetics.Set.EarthSavior"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_EmeraldGlassGreen",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Default",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.EmeraldGlass.Default"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_EmeraldGlassGreen.CP_Athena_Body_M_EmeraldGlassGreen",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.EmeraldGlass.Style"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_EmeraldGlassGreen_FX.CP_Athena_Body_M_EmeraldGlassGreen_FX",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EmeraldGlass/Emote_EmeraldGlass_CMM_M.Emote_EmeraldGlass_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_EmeraldGlassGreen.Character_EmeraldGlassGreen",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      60494
+    ],
+    "BaseShotGridId": 60494,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F77D579A4096B1026F597A851197C4DC",
+      "SourceString": "Izuku's Quirk",
+      "LocalizedString": "Izuku's Quirk"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9A7E3E544E0BA7C0553739BD12424489",
+      "SourceString": "I'll do my best!",
+      "LocalizedString": "I'll do my best!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7BA534864505F35391CC7987210DADD1",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 35.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-EmeraldGlassGreen.T-Icon-Emotes-E-EmeraldGlassGreen",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-EmeraldGlassGreen-L.T-Icon-Emotes-E-EmeraldGlassGreen-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Set.FlockCherry",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

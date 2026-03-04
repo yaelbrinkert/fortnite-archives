@@ -1,0 +1,114 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SpeedDial",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SpeedDial/CMM/Emote_SpeedDial_CMM_M.Emote_SpeedDial_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SpeedDial/CMF/Emote_SpeedDial_CMF_M.Emote_SpeedDial_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SpeedDial/CLM/Emote_SpeedDial_CLM_M.Emote_SpeedDial_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SpeedDial/CLF/Emote_SpeedDial_CLF_M.Emote_SpeedDial_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AC8FC39E45B5296E9E2F75B2C311948E",
+      "SourceString": "Popular Vibe",
+      "LocalizedString": "Popular Vibe"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B4B21BA14225B97DEE7C66BA5ABE86F2",
+      "SourceString": "Get famous.",
+      "LocalizedString": "Get famous."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A6B880184E48D801E2C6A68CF0BFDFAF",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 20.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-SpeedDial.T-Icon-Emotes-SpeedDial",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-SpeedDial-L.T-Icon-Emotes-SpeedDial-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Set.HugeSilk",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_WingBath_Sturdy",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WingBath_Sturdy/Emote_WingBath_Sturdy_CMM_M.Emote_WingBath_Sturdy_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WingBath_Sturdy/Emote_WingBath_Sturdy_CMF_M.Emote_WingBath_Sturdy_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WingBath_Sturdy/Emote_WingBath_Sturdy_CLM_M.Emote_WingBath_Sturdy_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WingBath_Sturdy/Emote_WingBath_Sturdy_CLF_M.Emote_WingBath_Sturdy_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_WingBath_Sturdy:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_WingBath_Sturdy.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "88ACD5704BDEC297D9B1169E2C5865B3",
+      "SourceString": "Whistling Bird Salute",
+      "LocalizedString": "Whistling Bird Salute"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "99CAB4864A659C50AD41D4AF826D5565",
+      "SourceString": "Celebrate, Mandalorian style.",
+      "LocalizedString": "Celebrate, Mandalorian style."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "CAD720644C88314B836642ABE0D612F0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 75.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.35",
+          "Cosmetics.Set.SpaceGladiator"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_WingBath_Sturdy.T_Icon_Emotes_WingBath_Sturdy",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_WingBath_Sturdy_L.T_Icon_Emotes_WingBath_Sturdy_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_VelvetDesk_Cam",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VelvetDeskCam/Emote_VelvetDeskCam_CMM_M.Emote_VelvetDeskCam_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VelvetDeskCam/CMF/Emote_VelvetDeskCam_CMF_M.Emote_VelvetDeskCam_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VelvetDeskCam/CLM/Emote_VelvetDeskCam_CLM_M.Emote_VelvetDeskCam_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VelvetDeskCam/CLF/Emote_VelvetDeskCam_CLF_M.Emote_VelvetDeskCam_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D2E1B7C04D2BF1A769B9DF8EAF5DC808",
+      "SourceString": "Hey Batter Batter",
+      "LocalizedString": "Hey Batter Batter"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "75CF647845B4D4C3BEF95288F733BC4E",
+      "SourceString": "Aim for the clouds.",
+      "LocalizedString": "Aim for the clouds."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "75C48EEA4B9C5E4FA880E3941320CBC5",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 90.0,
+          "Z": 40.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.StandingDesk"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_VelvetDeskCam.T_Icon_Emotes_VelvetDeskCam",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_VelvetDeskCam_L.T_Icon_Emotes_VelvetDeskCam_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

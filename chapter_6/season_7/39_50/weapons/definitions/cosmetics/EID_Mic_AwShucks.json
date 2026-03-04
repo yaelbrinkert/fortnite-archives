@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Mic_AwShucks",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Mic/AwShucks/Persistent/Emote_Mic_AwShucks_CMM_M.Emote_Mic_AwShucks_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Mic/AwShucks/Persistent/Emote_Mic_AwShucks_CMF_M.Emote_Mic_AwShucks_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Mic/AwShucks/Persistent/Emote_Mic_AwShucks_CLM_M.Emote_Mic_AwShucks_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Mic/AwShucks/Persistent/Emote_Mic_AwShucks_CLF_M.Emote_Mic_AwShucks_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Mic_AwShucks:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Mic/AwShucks/EID_Mic_AwShucks.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B86764EA42675574953A3689183AF656",
+      "SourceString": "Aw, shucks.",
+      "LocalizedString": "Aw, shucks."
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2A7F13454FAEB82B6C3DDF9FBC8024FE",
+      "SourceString": "You're too kind. ",
+      "LocalizedString": "You're too kind. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E47A0570450E8EBA95411585028F0FD6",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S36/T_Icon_Emotes_AwShucks.T_Icon_Emotes_AwShucks",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S36/T_Icon_Emotes_AwShucks_L.T_Icon_Emotes_AwShucks_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.SparksPass",
+          "Cosmetics.Filter.Season.36"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

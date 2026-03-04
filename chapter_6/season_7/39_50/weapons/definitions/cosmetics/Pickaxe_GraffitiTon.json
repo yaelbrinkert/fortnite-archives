@@ -1,0 +1,191 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_GraffitiTon",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXOnPawnPreviewOffset": {
+      "X": -35.0,
+      "Y": 0.0,
+      "Z": 10.0
+    },
+    "PickaxeDualWieldPreviewOffset": {
+      "X": 0.0,
+      "Y": 12.0,
+      "Z": 0.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 20.0,
+        "Y": 1.0,
+        "Z": -3.0
+      },
+      "CylinderHalfHeight": 25.0,
+      "CylinderRadius": 25.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_GraffitiTon'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_GraffitiTon.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_GraffitiTon:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_GraffitiTon.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      153005,
+      156917
+    ],
+    "ShotGridIds": [
+      153005,
+      153005,
+      156917
+    ],
+    "BaseShotGridId": 153005,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "465F3B854EA8384F69A88088D034324B",
+      "SourceString": "Paint Pummelers",
+      "LocalizedString": "Paint Pummelers"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FC41C66D499B5EA7344467B1FD67075A",
+      "SourceString": "Make your mark.",
+      "LocalizedString": "Make your mark."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8668410E467118D3E276179F042414BA",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": 32.0,
+          "Yaw": 270.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.DualWield",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.PerfectTricks"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Pickaxe-S.T_Placeholder_Item_Pickaxe-S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Pickaxe.T_Placeholder_Item_Pickaxe",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.PreviewType.OffPawn"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/PickaxeItemPreview_GraffitiTon.PickaxeItemPreview_GraffitiTon_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          359,
+          556,
+          239,
+          262,
+          255,
+          723,
+          444,
+          426,
+          151,
+          1670,
+          471,
+          2798,
+          1669,
+          2013,
+          362,
+          4370,
+          4371,
+          4372,
+          4854
+        ]
+      }
+    ]
+  }
+}

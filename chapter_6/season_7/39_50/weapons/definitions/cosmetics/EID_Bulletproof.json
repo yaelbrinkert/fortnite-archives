@@ -1,0 +1,94 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Bulletproof",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bulletproof/Emote_Bulletproof_CMM_M.Emote_Bulletproof_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bulletproof/CMF/Emote_Bulletproof_CMF_M.Emote_Bulletproof_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bulletproof/CLM/Emote_Bulletproof_CLM_M.Emote_Bulletproof_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bulletproof/CLF/Emote_Bulletproof_CLF_M.Emote_Bulletproof_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 0,
+    "PreviewLength": 37.3,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2D88B86C42A80FBC7814308A1F28A510",
+      "SourceString": "Run It Down",
+      "LocalizedString": "Run It Down"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F094D3CA4301D899BA68938BB6EABEC2",
+      "SourceString": "Only the best can keep up with you.",
+      "LocalizedString": "Only the best can keep up with you."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "442A5C354FD95BBE034B01A8DADC6570",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-BulletProof.T-Icon-Emotes-BulletProof",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-BulletProof-L.T-Icon-Emotes-BulletProof-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

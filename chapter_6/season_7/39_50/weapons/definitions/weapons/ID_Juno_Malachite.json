@@ -1,0 +1,324 @@
+{
+  "Type": "FortResourceItemDefinition",
+  "Name": "ID_Juno_Malachite",
+  "Class": "UScriptClass'FortResourceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ResourceType": "EFortResourceType::Ingredient",
+    "ItemName": {
+      "Namespace": "Juno_GameplayItemToTagMapping",
+      "Key": "422CCBEF4FC9F4BA271DF5A40E1545E1",
+      "SourceString": "Malachite",
+      "LocalizedString": "Malachite"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "328BA4084645544D294D7996961CDB7D",
+      "SourceString": "An sturdy stone found in the Frostlands.",
+      "LocalizedString": "An sturdy stone found in the Frostlands."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "620DC79C41E49F45FB1CB8A3E64122C4",
+      "SourceString": "Chilly but shiny!",
+      "LocalizedString": "Chilly but shiny!"
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.Malachite"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoGame/Items/Resources/Juno_Resource_Malachite/Mesh/SM_Juno_Resource_Malachite.SM_Juno_Resource_Malachite",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Resources/Minerals/MSS_Resource_Mineral_Rough_Amber_Pickup.MSS_Resource_Mineral_Rough_Amber_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Resources/Stone/MSS_Resource_Stone_MetalDull_Drop.MSS_Resource_Stone_MetalDull_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Resources/Minerals/MSS_Resource_Mineral_Land.MSS_Resource_Mineral_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 22.205616,
+          "Y": 17.40562,
+          "Z": 16.0
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "8D232B1E445F4DCCDBE5F1BEE9C64707",
+          "SourceString": "crafting resource",
+          "LocalizedString": "crafting resource"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoCraftingBase/Icons/Ressources/T_UI_Juno_Icon_Material_Malachite.T_UI_Juno_Icon_Material_Malachite",
+          "SubPathString": ""
+        }
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Tags": [
+          "Juno.CraftingResource.Stone.Malachite",
+          "Juno.CraftingResource.Stone.AnyStone",
+          "Juno.MountStyle.RotationOverride.Yaw.90"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoCraftingBase/Icons/Ressources/MI_UI_Juno_Icon_Material_Malachite.MI_UI_Juno_Icon_Material_Malachite",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Resource"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.Rock"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "CD333E6648BCEE4EBE04C7920D811565",
+          "SourceString": "A very cold <EmphA>stone</>.",
+          "LocalizedString": "A very cold <EmphA>stone</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "Namespace": "",
+          "Key": "0692D2B4465AE7C83C8217B80A9683F1",
+          "SourceString": "Found on the <img id=\"IcoFro\"/> <Fro>Frostlands Cliffs</>.",
+          "LocalizedString": "Found on the <img id=\"IcoFro\"/> <Fro>Frostlands Cliffs</>."
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "IDJunoMalachite"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

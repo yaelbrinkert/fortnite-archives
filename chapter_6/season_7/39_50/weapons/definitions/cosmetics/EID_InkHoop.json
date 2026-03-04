@@ -1,0 +1,146 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_InkHoop",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "None",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "None",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/InkHoop/Emote_InkHoop_CLM_M.Emote_InkHoop_CLM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_InkHoop.Character_InkHoop",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AAB6309243C2CDD76F0138B52C465D94",
+      "SourceString": "Rise N' Grind",
+      "LocalizedString": "Rise N' Grind"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4F211A4F4FE7002FF0BCBF897642DDE9",
+      "SourceString": "Sharpened and ready to charge.",
+      "LocalizedString": "Sharpened and ready to charge."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EBEEFB1249C72AB3FBD3788FCF3B49C0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.TumbleCourt",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_InkHoop.T_Icon_Emotes_InkHoop",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_InkHoop_L.T_Icon_Emotes_InkHoop_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

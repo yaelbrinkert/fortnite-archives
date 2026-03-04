@@ -1,0 +1,127 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Clash_JLK96",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Default",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.variant.Meta.ClashV.Human"
+        },
+        "bRequireCharacterPart": true,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_ClashVCasual.CP_Athena_Body_M_ClashVCasual",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.ClashV.Alien"
+        },
+        "bRequireCharacterPart": true,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_ClashV.CP_Athena_Body_M_ClashV",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClashV/Emote_ClashV_CMM_M.Emote_ClashV_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClashV/Emote_ClashV_CLM_M.Emote_ClashV_CLM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_204_Athena_Commando_M_ClashV_SQNVJ.CID_A_204_Athena_Commando_M_ClashV_SQNVJ",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      43332
+    ],
+    "BaseShotGridId": 43332,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9B04F9C34A19F619E292E3ACD3F93889",
+      "SourceString": "Venom Unleashed",
+      "LocalizedString": "Venom Unleashed"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "96D543FF448D1004BA960988C4346AAD",
+      "SourceString": "Time to cut loose, Eddie!",
+      "LocalizedString": "Time to cut loose, Eddie!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "652D6880420440D17267BCAB0084076A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ClashV.T-Icon-Emotes-E-ClashV",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ClashV-L.T-Icon-Emotes-E-ClashV-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.18",
+          "Cosmetics.Set.Synergy",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Emote.BuiltIn.Transform"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

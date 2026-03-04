@@ -1,0 +1,213 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Umbrella_RankedTandem_Reload",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GliderType": "EFortGliderType::Umbrella",
+    "CameraFramingBoundsCenterOffset": {
+      "X": -108.48076,
+      "Y": -9.589697,
+      "Z": -15.977314
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Season_39/Meshes/Season_39_Glider.Season_39_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Season_39/Meshes/Season_39_Glider_AnimBP.Season_39_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/Umbrella/UmbrellaPlayerAnimSet.UmbrellaPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Season_39/FX/NS_Glider_RankedTandem.NS_Glider_RankedTandem",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedTandem/MSS_Glider_RankedTandem_Open.MSS_Glider_RankedTandem_Open",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedTandem/MSS_Glider_RankedTandem_Open.MSS_Glider_RankedTandem_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedTandem/MSS_Glider_RankedTandem_Close.MSS_Glider_RankedTandem_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RankedTandem/MSS_Glider_RankedTandem_Thrust.MSS_Glider_RankedTandem_Thrust",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Umbrella_RankedTandem_Reload:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Umbrella_RankedTandem_Reload.1"
+      }
+    ],
+    "ShotGridIds": [
+      185350
+    ],
+    "ItemSearchTags": [
+      {
+        "Namespace": "",
+        "Key": "08BA6847432A03D6970E2C8291E9FCF8",
+        "SourceString": "Umbrella",
+        "LocalizedString": "Umbrella"
+      }
+    ],
+    "BaseShotGridId": 185350,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "680EE8F14D81D422B78A86BE70FA66DE",
+      "SourceString": "Fame 'Brella Reloaded",
+      "LocalizedString": "Fame 'Brella Reloaded"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AF5D9586487F2A00BFF94BB3F3C54872",
+      "SourceString": "Take it again, from the top.",
+      "LocalizedString": "Take it again, from the top."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5110886B4B82702C760EDCBF12AFD624",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 15.0,
+          "Yaw": 45.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.05
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S39/T_Icon_Glider_RankedTandem_Reload.T_Icon_Glider_RankedTandem_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S39/T_Icon_Glider_RankedTandem_Reload_L.T_Icon_Glider_RankedTandem_Reload_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Source.QuestReward"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          556,
+          248,
+          249,
+          603,
+          607,
+          591,
+          246,
+          667,
+          693,
+          696,
+          438,
+          943,
+          1062,
+          113,
+          3209,
+          2867,
+          394,
+          380,
+          3842,
+          349,
+          3843,
+          6626
+        ]
+      }
+    ]
+  }
+}

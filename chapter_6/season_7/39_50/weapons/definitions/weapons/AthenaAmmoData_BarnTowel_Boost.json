@@ -1,0 +1,71 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_BarnTowel_Boost",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageSize": {
+        "X": 10.0,
+        "Y": 24.0
+      }
+    },
+    "AmmoIconBrush": {
+      "Brush_L": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      }
+    },
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'BarnTowelGameplayGameData'",
+              "ObjectPath": "/BarnTowelGameplay/DataTables/BarnTowelGameplayGameData.0"
+            },
+            "RowName": "Default.BarnTowelGameplay.Boost.Ammo.MaxCount"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -5.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.999997,
+          "Yaw": -179.99995,
+          "Roll": -3.0000033
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

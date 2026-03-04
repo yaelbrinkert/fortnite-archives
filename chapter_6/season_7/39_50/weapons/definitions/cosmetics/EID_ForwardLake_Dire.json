@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ForwardLake_Dire",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ForwardLake_Dire/CMM/Emote_ForwardLake_Dire_CMM_M.Emote_ForwardLake_Dire_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ForwardLake_Dire/CMF/Emote_ForwardLake_Dire_CMF_M.Emote_ForwardLake_Dire_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ForwardLake_Dire/CLM/Emote_ForwardLake_Dire_CLM_M.Emote_ForwardLake_Dire_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ForwardLake_Dire/CLF/Emote_ForwardLake_Dire_CLF_M.Emote_ForwardLake_Dire_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_ForwardLake_Dire:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ForwardLake_Dire.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A56B9D1947CB3C436B8233865A90F981",
+      "SourceString": "Jakku Barter",
+      "LocalizedString": "Jakku Barter"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A99D140F4682459EAD6FEE9B1EF14632",
+      "SourceString": "ONE QUARTER PORTION!",
+      "LocalizedString": "ONE QUARTER PORTION!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "05BA337045819D506694198FD9228532",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.35",
+          "Cosmetics.Set.LatestTerminal"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_ForwardLake_Dire.T_Icon_Emotes_ForwardLake_Dire",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_ForwardLake_Dire_L.T_Icon_Emotes_ForwardLake_Dire_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      }
+    ]
+  }
+}

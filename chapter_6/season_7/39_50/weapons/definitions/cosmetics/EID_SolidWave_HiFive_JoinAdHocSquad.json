@@ -1,0 +1,105 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SolidWave_HiFive_JoinAdHocSquad",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bAllowLowerBodyLocomotion": true,
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_SolidWave_HiFive_Sync'",
+      "ObjectPath": "/SolidWave_ExtraAssets/Emotes/EID_SolidWave_HiFive_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_SolidWave_HiFive_SyncOwned'",
+      "ObjectPath": "/SolidWave_ExtraAssets/Emotes/EID_SolidWave_HiFive_SyncOwned.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_SolidWave_HiFive_Sync'",
+      "ObjectPath": "/SolidWave_ExtraAssets/Emotes/EID_SolidWave_HiFive_Sync.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_SolidWave_HiFive_SyncOwned'",
+      "ObjectPath": "/SolidWave_ExtraAssets/Emotes/EID_SolidWave_HiFive_SyncOwned.0"
+    },
+    "GroupEmotePositionOffset": {
+      "X": 132.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 1.0,
+    "WalkForwardSpeed": 400.0,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_GroupEmoteRequest_JoinAdHocSquad.GAB_GroupEmoteRequest_JoinAdHocSquad_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashShade/CMM/Emote_SwashShade_Lead_CMM_Intro_M.Emote_SwashShade_Lead_CMM_Intro_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashShade/CMF/Emote_SwashShade_Lead_CMF_Intro_M.Emote_SwashShade_Lead_CMF_Intro_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A7D3C87C44D8FABB5BC554BB580260FF",
+      "SourceString": "Invite to Team",
+      "LocalizedString": "Invite to Team"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "7614682B4BF9A6256A28E79241031487",
+      "SourceString": "Invite a player to your team.",
+      "LocalizedString": "Invite a player to your team."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8BE4E4AD471885573F37FEBCD6336CF8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Join.T_TeamEmotes_SolidWave_Join",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Join_L.T_TeamEmotes_SolidWave_Join_L",
+          "SubPathString": ""
+        }
+      },
+      {},
+      {
+        "InteractText": {
+          "Namespace": "",
+          "Key": "F05E1CDD479C00C554D38BAFB6A8F162",
+          "SourceString": "Join Team",
+          "LocalizedString": "Join Team"
+        }
+      }
+    ]
+  }
+}

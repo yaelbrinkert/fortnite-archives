@@ -1,0 +1,199 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_026_ShuttleB",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 50.0,
+      "Y": -30.0,
+      "Z": -25.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy_SpaceShuttle.B_Athena_Glider_Legacy_SpaceShuttle_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SpaceShuttle/Meshes/SK_Glider_SpaceShuttle.SK_Glider_SpaceShuttle",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.70710677,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/SpaceShuttle_Glider_AnimBP_Black.SpaceShuttle_Glider_AnimBP_Black_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SpaceShuttle/FX/NS_GliderContrail_SpaceShuttleB.NS_GliderContrail_SpaceShuttleB",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Shuttle_Open_Cue.Athena_Glider_Shuttle_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Shuttle_Close_Cue.Athena_Glider_Shuttle_Close_Cue",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "ParachuteMesh0",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SpaceShuttle02/Material/MI_Glider_SpaceShuttle02.MI_Glider_SpaceShuttle02",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "96EFDC5741C66C17B71A0390E725324E",
+      "SourceString": "Deep Space Lander",
+      "LocalizedString": "Deep Space Lander"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "80F68175467F79D30322E195DB505A16",
+      "SourceString": "Light-years ahead of the competition.",
+      "LocalizedString": "Light-years ahead of the competition."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": -55.0,
+          "Roll": -2.000009
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-Glider-Shuttle-02.T-Icon_Glider-Glider-Shuttle-02",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-Glider-Shuttle-02-L.T-Icon_Glider-Glider-Shuttle-02-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.SpaceExplorers",
+          "Cosmetics.Filter.Season.3"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          359,
+          247,
+          162,
+          239,
+          603,
+          615,
+          567,
+          958,
+          1428,
+          1253,
+          1506,
+          1254,
+          304,
+          253,
+          1257,
+          2347,
+          2521,
+          388,
+          2590,
+          2691,
+          3016,
+          3017,
+          3199
+        ]
+      }
+    ]
+  }
+}

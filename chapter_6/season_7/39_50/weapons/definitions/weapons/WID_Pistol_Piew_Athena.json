@@ -1,0 +1,446 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Pistol_Piew_Athena",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bAllowTargetingDuringOverheat": true,
+    "bAllowADSInAir": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/PiewPistolGameplay/Gameplay/BP_Pistol_Piew_Athena.BP_Pistol_Piew_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/PiewPistolGameplay/Assets/Meshes/PiewPowder_Pistol.PiewPowder_Pistol",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Pistol_Piew_TidalCrane_Athena_UR_Ore_T03"
+    },
+    "AlterationSlotsLoadoutRow": "SlotLoadout.Explicit.Neon.Pistol",
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_EnergyDamage.BaseAlteration_EnergyDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/PiewPistolGameplay/Gameplay/GA_PiewPistol_Primary.GA_PiewPistol_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/PiewPistolGameplay/Gameplay/GA_Targeting_PiewPistol.GA_Targeting_PiewPistol_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/PiewPistolGameplay/Gameplay/GA_TargetingFX_PiewPistol.GA_TargetingFX_PiewPistol_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/PiewPistolGameplay/Gameplay/GA_HipFireFX_PiewPistol.GA_HipFireFX_PiewPistol_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/PiewPistolGameplay/Gameplay/GA_ReloadFX_PiewPistol.GA_ReloadFX_PiewPistol_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/PiewPistolGameplay/Gameplay/Animation/GA_PiewPistol_PassiveFromEvent_Athena.GA_PiewPistol_PassiveFromEvent_Athena_C",
+        "SubPathString": ""
+      }
+    ],
+    "EquippedAbilitySet": {
+      "AssetPathName": "/PiewPistolGameplay/Gameplay/AS_PiewPistol_Bugs_DamageMultiplier.AS_PiewPistol_Bugs_DamageMultiplier",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/PiewPistolGameplay/Gameplay/AthenaAmmoData_PiewPistolBar.AthenaAmmoData_PiewPistolBar",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bRechargeAmmoToClip": true,
+    "bUsesPhantomReserveAmmo": true,
+    "bUsesCustomAmmoType": true,
+    "bAllowSecondaryFireToInterruptPrimary": true,
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Weapon.Ranged.Pistol",
+      "Item.Weapon.Ranged.PiewPistol",
+      "Item.Weapon.Ranged.Pistol"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Pistol",
+      "Item.Weapon.Ranged.PiewPistol",
+      "Item.Weapon.Ranged.Pistol",
+      "Tag:Weapon:wid_pistol_piew_athena"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "13E8F5FD4A38BA5144D9ED9BA4A6916F",
+      "SourceString": "Blade Blaster",
+      "LocalizedString": "Blade Blaster"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "349D00EB42D1305E684F58ADAA82F2D9",
+      "SourceString": "A dual-mode pistol: fires quick, snappy shots in hip-fire, and powerful explosive rounds when aiming down sights.",
+      "LocalizedString": "A dual-mode pistol: fires quick, snappy shots in hip-fire, and powerful explosive rounds when aiming down sights."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "67072C414A191A63FF70E6A8AF4D849E",
+      "SourceString": "A dual-mode pistol: snappy shots in hipfire, explosive rounds when aiming down sight.",
+      "LocalizedString": "A dual-mode pistol: snappy shots in hipfire, explosive rounds when aiming down sight."
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/PiewPistolGameplay/Assets/Meshes/PiewPowder_Pistol.PiewPowder_Pistol",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [
+          {
+            "AssetPathName": "/PiewPistolGameplay/Assets/Audio/BP_PiewPistol_Pickup_Component.BP_PiewPistol_Pickup_Component_C",
+            "SubPathString": ""
+          }
+        ],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pistol_Drop_Cue.Pistol_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/PiewPistolGameplay/Assets/Audio/IP_SL_PiewPistol_Pickup.IP_SL_PiewPistol_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.5208435,
+          "Y": 22.905941,
+          "Z": 13.448788
+        }
+      },
+      {
+        "DisassembleRecipe": {
+          "DataTable": {
+            "ObjectName": "DataTable'DisassembleRecipes'",
+            "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+          },
+          "RowName": "Disassemble.Ranged.Pistol.SR.OreEnergy.T04"
+        },
+        "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+        "DisassembleDurabilityDegradeMaxLootPercent": 0.4
+      },
+      {
+        "RatingLookup": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'BaseItemRating'",
+            "ObjectPath": "/Game/Items/Datatables/BaseItemRating.0"
+          },
+          "RowName": "Default_SR_T04"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::V"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/PiewPistolGameplay/Assets/T_Icon_Weapons_Pistol_PiewPowder.T_Icon_Weapons_Pistol_PiewPowder",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/PiewPistolGameplay/Assets/T_Icon_Weapons_Pistol_PiewPowder_L.T_Icon_Weapons_Pistol_PiewPowder_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -14.0,
+          "Z": -6.0
+        },
+        "InitialRotation": {
+          "Pitch": 1.4898554,
+          "Yaw": -0.3576419,
+          "Roll": -28.488802
+        },
+        "Scale": 1.5
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T04_"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "WeaponSet.NeonGlow",
+          "Gameplay.DamageSource.Weapon",
+          "Gameplay.Damage.Physical.Energy",
+          "phoebe.items.pistol",
+          "phoebe.weapon.ranged.pistol",
+          "Item.Weapon.Ranged.PiewPistol",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Weapon.Ranged.Pistol",
+          "Item.Weapon.Ranged.Pistol",
+          "Rarity.Mythic",
+          "Skill.sniper.headshotbuff"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.IgnoreAmmoForReload"
+        ]
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats_NoMagSize.Athena_RangedWeaponTooltipStats_NoMagSize",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/PiewPistolGameplay/Gameplay/Prj_PiewPistol_Lightweight.Prj_PiewPistol_Lightweight_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "AdditionalLightWeightProjectiles": [
+          {
+            "AssetPathName": "/PiewPistolGameplay/Gameplay/Prj_PiewPistol_Lightweight_SuperShot.Prj_PiewPistol_Lightweight_SuperShot_C",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'PiewPistolGameplayGameData'",
+              "ObjectPath": "/PiewPistolGameplay/DataTables/PiewPistolGameplayGameData.0"
+            },
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

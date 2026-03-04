@@ -1,0 +1,101 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_RowLiaison_DrySquash",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_RowLiaison_Cafe.CP_Athena_Head_F_RowLiaison_Cafe",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RowLiaison_Cast.CP_Athena_Body_F_RowLiaison_Cast",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_RowLiaison_CastSly_FaceAcc.CP_F_MED_RowLiaison_CastSly_FaceAcc",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ObservedPlayerStats": [
+      "StatManager.AthenaKills"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'Character_RowLiaison_DrySquash:FortCosmeticCharacterPartVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_RowLiaison_DrySquash.2"
+      },
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'Character_RowLiaison_DrySquash:FortCosmeticCharacterPartVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_RowLiaison_DrySquash.1"
+      }
+    ],
+    "VariantShotGridIds": [
+      164531,
+      164531
+    ],
+    "ShotGridIds": [
+      161583,
+      164531,
+      164531
+    ],
+    "BaseShotGridId": 161583,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "49A7316D4439E07E1AB2A1B831D307E8",
+      "SourceString": "Leading Laddy",
+      "LocalizedString": "Leading Laddy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "19FC4A54433C455B3D2584837A1AD7E4",
+      "SourceString": "Knock 'em dead.",
+      "LocalizedString": "Knock 'em dead."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S39/T_Soldier_RowLiaison_Cafe.T_Soldier_RowLiaison_Cafe",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S39/T_Soldier_RowLiaison_Cafe_L.T_Soldier_RowLiaison_Cafe_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Gating.Allow.Shoes",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsHeeled"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

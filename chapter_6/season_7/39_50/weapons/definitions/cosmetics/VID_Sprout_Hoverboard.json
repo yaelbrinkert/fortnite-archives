@@ -1,0 +1,60 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Sprout_Hoverboard",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Jackal.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Jackal.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/SproutVehicles/Vehicles/Hoverboard/Sprout_Hoverboard_Vehicle.Sprout_Hoverboard_Vehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "SproutHoverboard"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "48327D98481D6A80553DC883CF9FFEBF",
+      "SourceString": "Hover Board",
+      "LocalizedString": "Hover Board"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SproutVehicles/Vehicles/UI/T_UI_Sprout_Icon_Vehicle_SproutHoverboard.T_UI_Sprout_Icon_Vehicle_SproutHoverboard",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tag": {
+          "TagName": "Sprout.Item.Cost.Currency.Cash.Vehicle.Hoverboard"
+        }
+      }
+    ]
+  }
+}

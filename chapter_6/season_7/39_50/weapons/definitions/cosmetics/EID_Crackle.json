@@ -1,0 +1,108 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Crackle",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Crackle/CMM/Emote_Crackle_CMM_M.Emote_Crackle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Crackle/CMF/Emote_Crackle_CMF_SkirtTest_M.Emote_Crackle_CMF_SkirtTest_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Crackle/CLM/Emote_Crackle_CLM_M.Emote_Crackle_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Crackle/CLF/Emote_Crackle_CLF_M.Emote_Crackle_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      73207
+    ],
+    "BaseShotGridId": 73207,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0C75104B4B9F489145AB65BED2647949",
+      "SourceString": "Aw Snap!",
+      "LocalizedString": "Aw Snap!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A77500E443E09DB703213A8824A8171F",
+      "SourceString": "Did you see that?",
+      "LocalizedString": "Did you see that?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6CB54604353DB665086C5B9F23FA64B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.48
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-Crackle.T-Icon-Emotes-Crackle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-Crackle-L.T-Icon-Emotes-Crackle-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

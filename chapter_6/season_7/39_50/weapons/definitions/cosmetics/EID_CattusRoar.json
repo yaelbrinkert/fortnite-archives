@@ -1,0 +1,76 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CattusRoar",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/CattusRoar/Emote_CattusRoar_CMM_M.Emote_CattusRoar_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_644_Athena_Commando_M_Cattus.CID_644_Athena_Commando_M_Cattus",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "117AA6C641D14970940350AE7D3644F0",
+      "SourceString": "Power Roar",
+      "LocalizedString": "Power Roar"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "351320AF408A5155743D108911ED333A",
+      "SourceString": "Scream of the Devourer.",
+      "LocalizedString": "Scream of the Devourer."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5EA9568C4A375BF2C56FB49DADA485EB",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'FrozenSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/FrozenSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-CattusRoar.T-Icon-Emotes-E-CattusRoar",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-CattusRoar-L.T-Icon-Emotes-E-CattusRoar-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.11",
+          "Cosmetics.Set.IceStories",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

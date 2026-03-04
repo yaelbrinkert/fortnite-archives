@@ -1,0 +1,45 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_MurkyVole_Missile",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bTriggersFeedbackLines": true,
+    "RegenCooldown": {
+      "Curve": {
+        "RowName": "Default.PlotTwist.Force.Projectile.Ammo.RechargeTime"
+      }
+    },
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'MurkyVoleGameplayGameData'",
+              "ObjectPath": "/MurkyVoleGameplay/DataTables/MurkyVoleGameplayGameData.0"
+            },
+            "RowName": "Default.MurkyVole.MissileSwarm.Ammo.Max"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      }
+    ]
+  }
+}

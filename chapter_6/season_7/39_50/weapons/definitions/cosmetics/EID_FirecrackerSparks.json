@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_FirecrackerSparks",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FirecrackerSparks/Emote_FirecrackerSparks_CMM_M.Emote_FirecrackerSparks_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FirecrackerSparks/Emote_FirecrackerSparks_CMF_M.Emote_FirecrackerSparks_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "Section_A",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "Section_B",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "Section_C",
+        "SectionWeight": 1.0
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_FirecrackerSparks:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_FirecrackerSparks.1"
+      }
+    ],
+    "ShotGridIds": [
+      41949
+    ],
+    "BaseShotGridId": 41949,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5C090FBF4256F625F1558FBBBAAAA70F",
+      "SourceString": "Roman Candle",
+      "LocalizedString": "Roman Candle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AA2A8FA74C570F9186E8668A76F0D7DB",
+      "SourceString": "Are you feeling sparks?",
+      "LocalizedString": "Are you feeling sparks?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "0DB5F00944BAE579F1176CA6A5AB3F1E",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-FirecrackerSparks.T-Icon-Emotes-E-FirecrackerSparks",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-FirecrackerSparks-L.T-Icon-Emotes-E-FirecrackerSparks-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.17",
+          "Cosmetics.Set.BigBoom",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

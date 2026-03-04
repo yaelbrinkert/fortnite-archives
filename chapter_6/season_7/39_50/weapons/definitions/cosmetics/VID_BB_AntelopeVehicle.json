@@ -1,0 +1,58 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_BB_AntelopeVehicle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Antelope.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Antelope.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/BlastberryMapContent/Game/Blueprints/QuadCrasher/Rufus_AntelopeVehicle.Rufus_AntelopeVehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "rufusatv",
+      "rufusantelope",
+      "rufusquadcrasher",
+      "rufusquad"
+    ],
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Vehicles/T-Icon-Vehicle-QuadBike.T-Icon-Vehicle-QuadBike",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Vehicles/T-Icon-Vehicle-QuadBike-L.T-Icon-Vehicle-QuadBike-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

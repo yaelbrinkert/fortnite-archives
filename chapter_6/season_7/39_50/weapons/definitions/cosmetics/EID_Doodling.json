@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Doodling",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Doodling/Emote_Doodling_CMM_M.Emote_Doodling_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Doodling/Emote_Doodling_CMF_M.Emote_Doodling_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Doodling/Emote_Doodling_CLM_M.Emote_Doodling_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Doodling/Emote_Doodling_CLF_M.Emote_Doodling_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      53727
+    ],
+    "BaseShotGridId": 53727,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "36F3E51348DC5E61CFD72BB736613A92",
+      "SourceString": "Love it!",
+      "LocalizedString": "Love it!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "018D98704BD45D83743946AC87EE91E3",
+      "SourceString": "A true work of art. ",
+      "LocalizedString": "A true work of art. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6BA4C5D145FD55DDFA39EFB746097D43",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.19"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Doodling.T-Icon-Emotes-E-Doodling",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Doodling-L.T-Icon-Emotes-E-Doodling-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

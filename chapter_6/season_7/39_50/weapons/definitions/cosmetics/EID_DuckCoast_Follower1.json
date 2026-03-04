@@ -1,0 +1,103 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_DuckCoast_Follower1",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower.GAB_EmoteBand_Follower_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DuckCoast/CMM/Emote_DuckCoast_CMM_Follower_M.Emote_DuckCoast_CMM_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DuckCoast/CMF/Emote_DuckCoast_CMF_Follower_M.Emote_DuckCoast_CMF_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DuckCoast/CLM/Emote_DuckCoast_CLM_Follower_M.Emote_DuckCoast_CLM_Follower_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DuckCoast/CLF/Emote_DuckCoast_CLF_Follower_M.Emote_DuckCoast_CLF_Follower_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_DuckCoast_Follower1:FortCosmeticLoadoutTagDrivenVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_DuckCoast_Follower1.1"
+      }
+    ],
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "824052BA4D0E7950C33D95990172BB0B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote-S.T_Placeholder_Item_Emote-S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote.T_Placeholder_Item_Emote",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

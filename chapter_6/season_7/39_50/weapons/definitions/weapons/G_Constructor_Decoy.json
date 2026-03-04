@@ -1,0 +1,49 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_Constructor_Decoy",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Constructor/Actives/Decoy/GA_Constructor_Decoy.GA_Constructor_Decoy_C",
+      "SubPathString": ""
+    },
+    "WeaponItemDefinition": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Constructor/Actives/Decoy/D_Constructor_Decoy.D_Constructor_Decoy",
+      "SubPathString": ""
+    },
+    "DamageStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'GadgetScaling'",
+        "ObjectPath": "/Game/Balance/DataTables/GadgetScaling.0"
+      },
+      "RowName": "Constructor_Decoy_ReflectMeleeDamage"
+    },
+    "ItemType": "EFortItemType::HeroAbility",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7554B29D4A116596EF9CBC8C1736987A",
+      "SourceString": "D.E.C.O.Y.",
+      "LocalizedString": "D.E.C.O.Y."
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Abilities/Icon-Constructor-Decoy-128.Icon-Constructor-Decoy-128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 9
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.AllowQuickbarFocusForGamepadOnly",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

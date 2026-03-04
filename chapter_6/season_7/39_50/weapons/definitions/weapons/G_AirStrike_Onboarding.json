@@ -1,0 +1,47 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_AirStrike_Onboarding",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Generic/Gadgets/AirStrike/GA_AirStrike_OB.GA_AirStrike_OB_C",
+      "SubPathString": ""
+    },
+    "WeaponItemDefinition": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Generic/Gadgets/OnboardingAirStrike/D_AirStrike_Onboarding.D_AirStrike_Onboarding",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::HomebaseGadget",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5A199D7B48B6C70FB0CC24B5129E73C2",
+      "SourceString": "AirStrike",
+      "LocalizedString": "AirStrike"
+    },
+    "DataList": [
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "8D74025F40E5BD8EA3F691A7AEBDDC45",
+          "SourceString": "Air strike",
+          "LocalizedString": "Air strike"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Gadgets/Icon-Gadget-Airstrike-bg-128.Icon-Gadget-Airstrike-bg-128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

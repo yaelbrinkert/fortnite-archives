@@ -1,0 +1,84 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_TwiceBaked",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TwiceBaked/Emote_TwiceBaked_CMM_M.Emote_TwiceBaked_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TwiceBaked/Emote_TwiceBaked_CMF_M.Emote_TwiceBaked_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TwiceBaked/Emote_TwiceBaked_CLM_M.Emote_TwiceBaked_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TwiceBaked/Emote_TwiceBaked_CLF_M.Emote_TwiceBaked_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3FB95A5B47E71C78DA54559BC05E0F78",
+      "SourceString": "D-Pad Decay",
+      "LocalizedString": "D-Pad Decay"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "56EA52E7451F5FBEDC67A39036F7027B",
+      "SourceString": "Game over.",
+      "LocalizedString": "Game over."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "DC0F909C40DA3EBD67D471B753DC4641",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Set.FlockCherry"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-TwiceBaked.T-Icon-Emotes-TwiceBaked",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-TwiceBaked-L.T-Icon-Emotes-TwiceBaked-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

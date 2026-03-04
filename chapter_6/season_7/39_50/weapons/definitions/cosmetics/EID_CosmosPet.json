@@ -1,0 +1,90 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CosmosPet",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/NonPlayerTrigger/Emote_NonPlayerTrigger_CMM_M.Emote_NonPlayerTrigger_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/NonPlayerTrigger/Emote_NonPlayerTrigger_CMM_M.Emote_NonPlayerTrigger_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/PetCarriers/PetCarrier_015_Cosmos.PetCarrier_015_Cosmos",
+      "SubPathString": ""
+    },
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 175.0,
+      "Roll": 0.0
+    },
+    "ShotGridIds": [
+      37822
+    ],
+    "BaseShotGridId": 37822,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "03196DF8458DBC642F6ABFAF6D340A2C",
+      "SourceString": "Hover-Pram Control",
+      "LocalizedString": "Hover-Pram Control"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CA41E4FC408F9D59D0D5138799D054C2",
+      "SourceString": "Keep him close.",
+      "LocalizedString": "Keep him close."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "CA22930B43D7B64152570CBA9A4996D8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Cosmos.T-Icon-Emotes-E-Cosmos",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Cosmos-L.T-Icon-Emotes-E-Cosmos-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.15",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

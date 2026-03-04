@@ -1,0 +1,235 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_180_NeonGraffiti",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 180.0,
+      "Y": -25.0,
+      "Z": 0.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Mark_II/Meshes/Glider_Mark_II.Glider_Mark_II",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Mark_II_Glider_AnimBP.Mark_II_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_NeonGraffiti/FX/NS_Glider_NeonGraffiti_Trail.NS_Glider_NeonGraffiti_Trail",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/NeonGraffiti/Glider_NeonGraffiti_Open_Cue.Glider_NeonGraffiti_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/NeonGraffiti/Glider_NeonGraffiti_Close_Cue.Glider_NeonGraffiti_Close_Cue",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_NeonGraffiti/Materials/MI_Glider_NeonGraffiti.MI_Glider_NeonGraffiti",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_ID_180_NeonGraffiti:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_180_NeonGraffiti.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 6.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ShotGridIds": [
+      37276
+    ],
+    "BaseShotGridId": 37276,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2E8986E94A21EF50EF46CD8071B5101A",
+      "SourceString": "Xile",
+      "LocalizedString": "Xile"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AC6A865349CCA3B1495750BF37A560C6",
+      "SourceString": "Make your own way.",
+      "LocalizedString": "Make your own way."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -105.0,
+          "Roll": -15.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-NeonGraffitiGlider.T-Icon_Glider-NeonGraffitiGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-NeonGraffitiGlider-L.T-Icon_Glider-NeonGraffitiGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Set.AerosolAssassins",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Reactive",
+          "Cosmetics.Filter.Season.12",
+          "Cosmetics.UserFacingFlags.HasVariants"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          359,
+          247,
+          162,
+          262,
+          244,
+          389,
+          615,
+          873,
+          697,
+          352,
+          1331,
+          1506,
+          1508,
+          1624,
+          1634,
+          1378,
+          1926,
+          2393,
+          2394,
+          2521,
+          2691,
+          404,
+          1897,
+          392,
+          4429,
+          4432,
+          4462
+        ]
+      }
+    ]
+  }
+}

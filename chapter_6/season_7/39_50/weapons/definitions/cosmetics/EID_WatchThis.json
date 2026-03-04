@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_WatchThis",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WatchThis/Emote_Watch_This_CMM_M.Emote_Watch_This_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WatchThis/Emote_Watch_This_CMF_M.Emote_Watch_This_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WatchThis/Emote_Watch_This_CLF_M.Emote_Watch_This_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_WatchThis:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_WatchThis.1"
+      }
+    ],
+    "ShotGridIds": [
+      40001
+    ],
+    "BaseShotGridId": 40001,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9957391D48820229C200DBBF5C1219F8",
+      "SourceString": "Ready When You Are",
+      "LocalizedString": "Ready When You Are"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1FCAAE3F499D2F2DCD63F1BAA63642F5",
+      "SourceString": "No go on. Take your time. I'll wait.",
+      "LocalizedString": "No go on. Take your time. I'll wait."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E44B7F2449FD82D8DC109EBE9CE2920F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season18.BattlePass.Paid",
+          "Cosmetics.Filter.Season.18",
+          "Cosmetics.Set.SliverOperator",
+          "Emote.Mech.Disabled.Art"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-WatchThis.T-Icon-Emotes-E-WatchThis",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-WatchThis-L.T-Icon-Emotes-E-WatchThis-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

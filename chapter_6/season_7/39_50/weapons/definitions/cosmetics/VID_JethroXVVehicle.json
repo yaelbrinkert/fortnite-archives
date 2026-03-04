@@ -1,0 +1,54 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_JethroXVVehicle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/JethroXV/Gameplay/Fighter/BP_Jethro_XV.BP_Jethro_XV_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "maverick_fighter",
+      "x_wing_fighter"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A9A76B564622D27C889FF691F137B7CA",
+      "SourceString": "X-wing",
+      "LocalizedString": "X-wing"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3E950388418188F3535977933ACE5560",
+      "SourceString": "The iconic Rebel Alliance X-wing fighter used against the Galactic Empire",
+      "LocalizedString": "The iconic Rebel Alliance X-wing fighter used against the Galactic Empire"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JethroXV/UI/Icons/T_Icon_BR_JethroXV.T_Icon_BR_JethroXV",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/JethroXV/UI/Icons/T_Icon_BR_JethroXV_L.T_Icon_BR_JethroXV_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

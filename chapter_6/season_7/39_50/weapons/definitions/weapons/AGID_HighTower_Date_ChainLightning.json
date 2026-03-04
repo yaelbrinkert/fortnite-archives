@@ -1,0 +1,414 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_HighTower_Date_ChainLightning",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ContextOverrideWidget": {
+      "AssetPathName": "/HighTower/UI/InstanceTooltips/AbilityTooltip_Date_ChainLightning.AbilityTooltip_Date_ChainLightning_C",
+      "SubPathString": ""
+    },
+    "AbilitySet": {
+      "AssetPathName": "/HighTower/Items/Date/ChainLightning/AS_HighTower_Date_ChainLightning.AS_HighTower_Date_ChainLightning",
+      "SubPathString": ""
+    },
+    "WeaponItemDefinition": {
+      "AssetPathName": "/HighTower/Items/Date/ChainLightning/WID_HighTower_Date_ChainLightning.WID_HighTower_Date_ChainLightning",
+      "SubPathString": ""
+    },
+    "AdditionalItemsToLoadWhenEquipped": [
+      {
+        "AssetPathName": "/HighTower/Items/Date/ChainLightning/AGID_HighTower_Date_ChainLightning_Jump.AGID_HighTower_Date_ChainLightning_Jump",
+        "SubPathString": ""
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "43CD136A43E86F20F30E9DB286A88C1A",
+      "SourceString": "Doctor Doom's Arcane Gauntlets",
+      "LocalizedString": "Doctor Doom's Arcane Gauntlets"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E90F76934AEBA9B0C7A6C18FC7029BFE",
+      "SourceString": "Harness the power of Doctor Doom. Fire mystical energy projectiles from your fingertips. Exert dominance over gravity with an otherworldy leap.",
+      "LocalizedString": "Harness the power of Doctor Doom. Fire mystical energy projectiles from your fingertips. Exert dominance over gravity with an otherworldy leap."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.ForceQuickbarFocusWhenAdded"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/HighTower/Items/Pickups/Item/Hightower_Lightning/HighTower_Lightning_Pickup.HighTower_Lightning_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/HighTower/Items/Pickups/B_Pickups_HighTower_B.B_Pickups_HighTower_B_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CompositeCurveTable'AthenaCompositeGD_Hightower'",
+              "ObjectPath": "/HighTower/Playlists/AthenaCompositeGD_Hightower.0"
+            },
+            "RowName": "Default.MeteorDrop.Gauntlet.DespawnTime"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CompositeCurveTable'AthenaCompositeGD_Hightower'",
+              "ObjectPath": "/HighTower/Playlists/AthenaCompositeGD_Hightower.0"
+            },
+            "RowName": "Hightower.DespawnTime.Storm"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/HighTower/Audio/Date/Hightower_Date_Gauntlet_Pickup_Cue.Hightower_Date_Gauntlet_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/HighTower/Audio/Date/Hightower_Date_Gauntlet_Drop_Cue.Hightower_Date_Gauntlet_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 9.285455,
+          "Y": 26.44508,
+          "Z": 27.00655
+        }
+      },
+      {
+        "SpecialActorPickupTag": {
+          "TagName": "SpecialActor"
+        },
+        "MapLegendTag": {
+          "TagName": "None"
+        },
+        "PickupCompassRenderDistance": -1.0,
+        "SpecialActorPickupStatList": [],
+        "PickupMinimapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-T-Icon-HightowerPickups-Hightower-Lightning'",
+            "ObjectPath": "/HighTower/Items/Icons/T-T-Icon-HightowerPickups-Hightower-Lightning.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupMinimapIconScale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "PickupCompassIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupCompassIconScale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "RenderTags": [],
+        "RenderDisabledTags": [],
+        "bDrawCompassDistanceText": false,
+        "bDrawMapIconUnderStorm": false
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/HighTower/Items/Icons/T-T-Icon-HightowerPickups-Hightower-Lightning.T-T-Icon-HightowerPickups-Hightower-Lightning",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/HighTower/Items/Icons/T-T-Icon-HightowerPickups-Hightower-Lightning-L.T-T-Icon-HightowerPickups-Hightower-Lightning-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Trait.HighTower.Power.Type.Primary",
+          "Weapon.Ranged",
+          "phoebe.items.hightower.date",
+          "phoebe.weapon.ranged.hightower.date",
+          "Item.DisableAutoPickup.InputTag"
+        ]
+      }
+    ]
+  }
+}

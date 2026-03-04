@@ -1,0 +1,434 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_JunoRiftRipperWeaponRegenerativeRift_T4",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseNativeWeaponTrace": false,
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JunoRiftWizardItems/Items/B_Juno_RiftRipperWand.B_Juno_RiftRipperWand_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Juno_RangedWeapons_JunoRiftRipperItems'",
+        "ObjectPath": "/JunoRiftWizardItems/Data/Juno_RangedWeapons_JunoRiftRipperItems.0"
+      },
+      "RowName": "RiftRipperWand_T4"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JunoRiftWizardItems/Abilities/Primary/v3/GA_Juno_RW_ThrowRiftShard_v3.GA_Juno_RW_ThrowRiftShard_v3_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/JunoRiftWizardItems/Abilities/Ultimate/GA_RW_UnlockPotential.GA_RW_UnlockPotential_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/JunoRiftWizardItems/Abilities/AS_RiftWizard_Weapon_Variant_RegenerativeRift.AS_RiftWizard_Weapon_Variant_RegenerativeRift",
+      "SubPathString": ""
+    },
+    "bAllowAutoReload": false,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "bEnableWeaponMeshOverrideUpdates": false,
+    "ReticleCornerAngles": [
+      0.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/JunoGame/UI/Reticle/T_UI_Juno_Reticle_Cross.T_UI_Juno_Reticle_Cross",
+      "SubPathString": ""
+    },
+    "ReticleInvalidTargetImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/blockedshot_reticle.blockedshot_reticle",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_junoriftripperweaponregenerativerift_t4"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E0A783374BFF3F5639632AA15A16A18B",
+      "SourceString": "Soothing Shard Shredder",
+      "LocalizedString": "Soothing Shard Shredder"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E489C4B74128BD682C7C1A8956CEA948",
+      "SourceString": "Hurl stinging Rift Shards at your enemies as a primary attack.\r\n\r\nOnce charged, use Get Ripped as a secondary attack to trigger a powerful Rift blast that damages enemies and fortifies you. Get Ripped regenerates your health while active.",
+      "LocalizedString": "Hurl stinging Rift Shards at your enemies as a primary attack.\r\n\r\nOnce charged, use Get Ripped as a secondary attack to trigger a powerful Rift blast that damages enemies and fortifies you. Get Ripped regenerates your health while active."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2CD95AE046445B34E7478BB7768C67F8",
+      "SourceString": "Get Ripped, then get restored.",
+      "LocalizedString": "Get Ripped, then get restored."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.Toys"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoRiftWizardItems/Meshes/Gear_RiftRipperAcc_T1_A/SM_Weapon_RiftRipper_T1_A.SM_Weapon_RiftRipper_T1_A",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Tools/GrappleGun/MSS/MSS_GrappleGun_PickUp.MSS_GrappleGun_PickUp",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Resources/Generic/MSS_Resource_Misc_Generic_Drop.MSS_Resource_Misc_Generic_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Tools/GrappleGun/MSS/MSS_GrappleGun_Land.MSS_GrappleGun_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 17.6,
+          "Y": 17.6,
+          "Z": 22.4
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoRiftWizardItems/Icons/T_UI_Juno_RiftRipperWeapon.T_UI_Juno_RiftRipperWeapon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Juno.Inventory.Group.Quickbar",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Pawn.Reload.BlockAddSpareAmmoOnReload",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Weapon.SemiAuto.IgnoresCancelPrimaryAbilityOnFire",
+          "Weapon.IgnoresCancelPrimaryAbilityOnRelease",
+          "Item.Weapon.TwoHanded",
+          "Juno.Item.Weapon.HeroItem.RiftWizardWeapon",
+          "Juno.Inventory.AutoReplace.Category.RiftWizardWeapon",
+          "Juno.Item.Weapon.HeroItem.Weapon.T4",
+          "Juno.MountStyle.Flat"
+        ]
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "B20990C447A96874ECEFCB947DE9FEE6",
+          "SourceString": "Guns Ranged",
+          "LocalizedString": "Guns Ranged"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.HasDurability"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoRiftWizardItems/Icons/MI_UI_Juno_Icon_RiftRipperWeapon.MI_UI_Juno_Icon_RiftRipperWeapon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MaxCharges": [
+          {
+            "ChargeTag": {
+              "TagName": "Juno.Charge.Default"
+            },
+            "MaxCharge": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "RiftShard.HitsToMaxCharge"
+              },
+              "RegistryType": {
+                "Name": "Juno.RiftWizardItems.GameData"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Weapon"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.HeroWeapon"
+        },
+        "ItemTypeTag": {
+          "TagName": "Juno.FreeBuild.Type.RiftWizard.Weapon"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "644EDCC74FEE7F59978227B6A3CD3A75",
+          "SourceString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>.",
+          "LocalizedString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_RiftWizard_Shard_Equip'",
+            "ObjectPath": "/JunoRiftWizardItems/Audio/Libraries/SL_RiftWizard_Shard_Equip.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "UseActionText": {
+          "Namespace": "",
+          "Key": "7381E02A40AD4768941DE7A11724902A",
+          "SourceString": "Rift Shards",
+          "LocalizedString": "Rift Shards"
+        },
+        "OffhandActionText": {
+          "Namespace": "",
+          "Key": "F6A0F423467E5AB1D6FEFD99765373FE",
+          "SourceString": "Get Ripped",
+          "LocalizedString": "Get Ripped"
+        },
+        "ShowOffhandPromptFirst": false,
+        "HideOffhandPrompt": false
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "WIDJunoRiftRipperWeaponRegenerativeRiftT4"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_256_FutureSamuraiMale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_Generic_FutureSamuraiMale.B_Athena_Glider_Generic_FutureSamuraiMale_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Future_Samurai_Male/Meshes/Future_Samurai_Male.Future_Samurai_Male",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/FutureSamuraiMale_Glider_AnimBP.FutureSamuraiMale_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Future_Samurai_Male/FX/NS_Glider_Future_Samurai_Glow.NS_Glider_Future_Samurai_Glow",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FutureSamuraiMale/SC_GliderOpen_Future_Samurai.SC_GliderOpen_Future_Samurai",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FutureSamuraiMale/SC_GliderClose_Future_Samurai.SC_GliderClose_Future_Samurai",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/FutureSamuraiMale/SC_GliderThrustLoop_Future_Samurai.SC_GliderThrustLoop_Future_Samurai",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_ID_256_FutureSamuraiMale:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_256_FutureSamuraiMale.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BE2631144DB14F8DB2756FBE6802EE82",
+      "SourceString": "Crimson Wish",
+      "LocalizedString": "Crimson Wish"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CC5236744B092D3454FBD9AF9588FDA6",
+      "SourceString": "Vengeance will find you.",
+      "LocalizedString": "Vengeance will find you."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-FutureSamuraiGlider.T-Icon_Glider-FutureSamuraiGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-FutureSamuraiGlider-L.T-Icon_Glider-FutureSamuraiGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.Season15.BattlePass.Paid",
+          "Cosmetics.Filter.Season.15",
+          "Cosmetics.Set.GhostReprisal",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 5.0,
+          "Yaw": 65.0,
+          "Roll": 10.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          541,
+          546,
+          231,
+          359,
+          247,
+          162,
+          166,
+          567,
+          713,
+          179,
+          958,
+          1506,
+          1254,
+          2030,
+          253,
+          2347,
+          2400,
+          383,
+          2569,
+          381,
+          3199
+        ]
+      }
+    ]
+  }
+}

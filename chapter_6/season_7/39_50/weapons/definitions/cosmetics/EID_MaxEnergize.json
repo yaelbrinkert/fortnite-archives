@@ -1,0 +1,178 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_MaxEnergize",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Stage1",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_MED_Stamina_FaceAcc.CP_M_MED_Stamina_FaceAcc",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Stage2",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_MED_Stamina_Super_FaceAcc.CP_M_MED_Stamina_Super_FaceAcc",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Stage3",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.Style.OptionA"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_MED_Stamina_SuperBlue_FaceAcc.CP_M_MED_Stamina_SuperBlue_FaceAcc",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.Style.OptionA"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_MED_Stamina_Evolved_FaceAcc.CP_M_MED_Stamina_Evolved_FaceAcc",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MaxEnergize/Emote_MaxEnergize_CMM_M.Emote_MaxEnergize_CMM_M",
+      "SubPathString": ""
+    },
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MaxEnergize/Emote_MaxEnergize_CMM_M.Emote_MaxEnergize_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_462_Athena_Commando_M_Stamina.CID_A_462_Athena_Commando_M_Stamina",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      58144
+    ],
+    "BaseShotGridId": 58144,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "26671F264AC8E1A0A1FAF880E34FFFB0",
+      "SourceString": "Goku's Charging Up",
+      "LocalizedString": "Goku's Charging Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F143ACE24CB0B1E0D09AEFAE60C6B7D6",
+      "SourceString": "Amplify your ki.",
+      "LocalizedString": "Amplify your ki."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3E7B1E1A4822440387CD35B24E7BEED7",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 7.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.67
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-MaxEnergize.T-Icon-Emotes-E-MaxEnergize",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-MaxEnergize-L.T-Icon-Emotes-E-MaxEnergize-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.WordRemark",
+          "Cosmetics.Filter.Season.21",
+          "Emote.BuiltIn.Transform",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

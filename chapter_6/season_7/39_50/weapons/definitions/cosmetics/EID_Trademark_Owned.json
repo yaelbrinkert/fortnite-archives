@@ -1,0 +1,98 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Trademark_Owned",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "bGroupAnimationSync": true,
+    "bLockGroupEmoteLeaderRotation": true,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CMM/Emote_Trademark_CMM_FrontEnd_Intro_M.Emote_Trademark_CMM_FrontEnd_Intro_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CMM/Emote_Trademark_CMF_FrontEnd_Intro_M.Emote_Trademark_CMF_FrontEnd_Intro_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CLM/Emote_Trademark_CLM_Lead_Intro_M_FrontEnd.Emote_Trademark_CLM_Lead_Intro_M_FrontEnd",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CLF/Emote_Trademark_CLF_Lead_FrontEnd_M.Emote_Trademark_CLF_Lead_FrontEnd_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CMM/Emote_Trademark_CMM_Lead_M.Emote_Trademark_CMM_Lead_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CMF/Emote_Trademark_CMF_Lead_M.Emote_Trademark_CMF_Lead_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CLF/Emote_Trademark_CLF_Lead_M.Emote_Trademark_CLF_Lead_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TradeMark/Lead/CLM/Emote_Trademark_CLM_Lead_M.Emote_Trademark_CLM_Lead_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      72598
+    ],
+    "BaseShotGridId": 72598,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A4FA889240147CBEC311A8A6BC9B3067",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote.T_Placeholder_Item_Emote",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

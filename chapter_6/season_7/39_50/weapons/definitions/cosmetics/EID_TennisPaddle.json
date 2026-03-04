@@ -1,0 +1,79 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_TennisPaddle",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/TennisPaddle/Emote_TennisPaddle_CMM_M.Emote_TennisPaddle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/TennisPaddle/Emote_TennisPaddle_CMF_M.Emote_TennisPaddle_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/TennisPaddle/Emote_TennisPaddle_CLM_M.Emote_TennisPaddle_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewHero": {
+      "AssetPathName": "/Game/Athena/Items/Cosmetics/Characters/CID_556_Athena_Commando_F_RebirthDefaultA.CID_556_Athena_Commando_F_RebirthDefaultA",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5C4A797E4ECF72542C0B1ABCA319124A",
+      "SourceString": "Paddle Royale",
+      "LocalizedString": "Paddle Royale"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B6218E6F442A67BD365830AC441B8E47",
+      "SourceString": "Hop on the paddle bus.",
+      "LocalizedString": "Hop on the paddle bus."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3C8BCCD747AD686E049D2AB47A474A2A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.13"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-TennisPaddle.T-Icon-Emotes-TennisPaddle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-TennisPaddle-L.T-Icon-Emotes-TennisPaddle-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_RushRustle",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.0,
+    "TraversalToStaticBlendTime": 0.0,
+    "bUseHighPreviewCamera": true,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/Emote_RushRustle_CMM_Frontend_M.Emote_RushRustle_CMM_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/CMF/Emote_RushRustle_CMF_Frontend_M.Emote_RushRustle_CMF_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/CLM/Emote_RushRustle_CLM_Frontend_M.Emote_RushRustle_CLM_Frontend_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/CLF/Emote_RushRustle_CLF_Frontend_M.Emote_RushRustle_CLF_Frontend_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 200.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/Emote_RushRustle_CMM_M.Emote_RushRustle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/CMF/Emote_RushRustle_CMF_M.Emote_RushRustle_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/CLM/Emote_RushRustle_CLM_M.Emote_RushRustle_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RushRustle/CLF/Emote_RushRustle_CLF_M.Emote_RushRustle_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1F88171544D18A22A51D62847BFD8F85",
+      "SourceString": "Lil' Tank",
+      "LocalizedString": "Lil' Tank"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DA78501E44F7C9417324A7A595ED9F16",
+      "SourceString": "Where lil' danger treads.",
+      "LocalizedString": "Where lil' danger treads."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5B28879344592AB6D6816183C0FB34FA",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Set.OtherComeback",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_RushRustle.T_Icon_Emotes_RushRustle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_RushRustle_L.T_Icon_Emotes_RushRustle_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 100.0,
+          "Z": 26.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

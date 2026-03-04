@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_GiraffeScallion",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GiraffeScallion/Emote_GiraffeScallion_CMM_M.Emote_GiraffeScallion_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GiraffeScallion/Emote_GiraffeScallion_CMF_M.Emote_GiraffeScallion_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GiraffeScallion/Emote_GiraffeScallion_CLM_M.Emote_GiraffeScallion_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GiraffeScallion/Emote_GiraffeScallion_CLF_M.Emote_GiraffeScallion_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_GiraffeScallion:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_GiraffeScallion.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4C968F0F460B02CD603CA0A3195A33B7",
+      "SourceString": "Moxxi's Lip Service",
+      "LocalizedString": "Moxxi's Lip Service"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FE1779D146D6EA5357ACFB9D4398BD80",
+      "SourceString": "When I'm good I'm very good...",
+      "LocalizedString": "When I'm good I'm very good..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "517B3A474CD8469FAD06CEA73C44D611",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 90.0,
+          "Z": 25.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.Set.BarbequeLarry"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_GiraffeScallion.T_Icon_Emotes_GiraffeScallion",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_GiraffeScallion_L.T_Icon_Emotes_GiraffeScallion_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      }
+    ]
+  }
+}

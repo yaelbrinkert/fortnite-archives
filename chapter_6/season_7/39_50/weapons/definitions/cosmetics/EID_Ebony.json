@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Ebony",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Ebony/Emote_Ebony_CMM_M.Emote_Ebony_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Ebony/Emote_Ebony_CMF_M.Emote_Ebony_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Ebony/Emote_Ebony_CLM_M.Emote_Ebony_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Ebony/Emote_Ebony_CLF_M.Emote_Ebony_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      65223
+    ],
+    "BaseShotGridId": 65223,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "320B7EF54BFD19DD87964EA97A312870",
+      "SourceString": "Standing Bow",
+      "LocalizedString": "Standing Bow"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4E7C15F34B52D9D2EC5E7A878E9A8D87",
+      "SourceString": "Show some respect.",
+      "LocalizedString": "Show some respect."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "089C199B472C20524EF08ABB39B075E0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.24",
+          "Cosmetics.Set.CluePup"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Ebony.T-Icon-Emotes-Ebony",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Ebony-L.T-Icon-Emotes-Ebony-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

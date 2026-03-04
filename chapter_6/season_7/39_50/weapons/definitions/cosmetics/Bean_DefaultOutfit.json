@@ -1,0 +1,100 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_DefaultOutfit",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticGameplayTagVariant'Bean_DefaultOutfit:FortCosmeticGameplayTagVariant_0'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_DefaultOutfit.4"
+      },
+      {
+        "ObjectName": "FortCosmeticCIDRedirectorVariant'Bean_DefaultOutfit:FortCosmeticCIDRedirectorVariant_0'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_DefaultOutfit.2"
+      },
+      {
+        "ObjectName": "FortCosmeticCIDRedirectorVariant'Bean_DefaultOutfit:FortCosmeticCIDRedirectorVariant_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_DefaultOutfit.3"
+      }
+    ],
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_DefaultOutfit:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_DefaultOutfit.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "25FA863E47F87FD778FDDB8E8367200D",
+      "SourceString": "Default",
+      "LocalizedString": "Default"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F1E4A1E848B6A132689DB0906C93463D",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DefaultTile",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/T_UI_Outfit_Default_128.T_UI_Outfit_Default_128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/T_UI_Outfit_Default.T_UI_Outfit_Default",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.DefaultItem",
+          "Beanstalk.Cosmetics.Character"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "SharedFilterSet": {
+          "AssetPathName": "/Game/Athena/UI/Customization/DefaultOutfitFilterSet.DefaultOutfitFilterSet",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

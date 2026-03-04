@@ -1,0 +1,80 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_CraneLaugh",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_HairUpdo.CP_Bean_Head_HairUpdo",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Casual.CP_Bean_Body_Casual",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_CraneLaugh:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_CraneLaugh.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FAF13CB347D92BDE12F075B76F52B502",
+      "SourceString": "Lady of Cranes",
+      "LocalizedString": "Lady of Cranes"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1087C1784DE02629967923A8FCC9E2AD",
+      "SourceString": "A thousand years of good fortune.",
+      "LocalizedString": "A thousand years of good fortune."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5BE2C4E34D8510E33A587CA6C94737C4",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Cosmetics.Filter.Season.32"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_CraneLaugh.T_Bean_CraneLaugh",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_CraneLaugh_L.T_Bean_CraneLaugh_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CrewSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CrewSeries.0"
+        }
+      }
+    ]
+  }
+}

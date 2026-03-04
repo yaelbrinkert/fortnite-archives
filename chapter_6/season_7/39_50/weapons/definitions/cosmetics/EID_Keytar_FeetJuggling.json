@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Keytar_FeetJuggling",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/FeetJuggling/Persistent/Emote_Keytar_FeetJuggling_CMM_M.Emote_Keytar_FeetJuggling_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/FeetJuggling/Persistent/Emote_Keytar_FeetJuggling_CMF_M.Emote_Keytar_FeetJuggling_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/FeetJuggling/Persistent/Emote_Keytar_FeetJuggling_CLM_M.Emote_Keytar_FeetJuggling_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/FeetJuggling/Persistent/Emote_Keytar_FeetJuggling_CLF_M.Emote_Keytar_FeetJuggling_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Keytar_FeetJuggling:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Keytar/FeetJuggling/EID_Keytar_FeetJuggling.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FC4684D74E974AE9C85532858A792E41",
+      "SourceString": "Kick it!",
+      "LocalizedString": "Kick it!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "908C938B411D3943152C16AA1CBDE6FF",
+      "SourceString": "Put your best foot upward. ",
+      "LocalizedString": "Put your best foot upward. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "566843994610AC8723AF6FADC91DBFAF",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S31/Icon/T_UI_Icon_SparksEmote_Keytar_FeetJuggling.T_UI_Icon_SparksEmote_Keytar_FeetJuggling",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S31/Icon/T_UI_Icon_SparksEmote_Keytar_FeetJuggling_L.T_UI_Icon_SparksEmote_Keytar_FeetJuggling_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.5
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season.31"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

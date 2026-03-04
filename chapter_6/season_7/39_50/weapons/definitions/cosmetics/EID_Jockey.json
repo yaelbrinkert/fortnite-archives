@@ -1,0 +1,90 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Jockey",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jockey/Emote_Jockey_CMM_M.Emote_Jockey_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jockey/CMF/Emote_Jockey_CMF_M.Emote_Jockey_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jockey/CLM/Emote_Jockey_CLM_M.Emote_Jockey_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Jockey/CLF/Emote_Jockey_CLF_M.Emote_Jockey_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 16.866,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      73813
+    ],
+    "BaseShotGridId": 73813,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3640C3634EE6BD32FE605494F47C9278",
+      "SourceString": "Start it Up",
+      "LocalizedString": "Start it Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5ABDE4EA42C16C5BCE685AA2EC8C44F9",
+      "SourceString": "Get this thing rolling. ",
+      "LocalizedString": "Get this thing rolling. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7F6F8609491F54C0DAAFF5A62153532B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-Jockey.T-Icon-Emotes-Jockey",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CoolOff",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolOff/Emote_CoolOff_CMM_M.Emote_CoolOff_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolOff/Emote_CoolOff_CMF_M.Emote_CoolOff_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolOff/Emote_CoolOff_CLF_M.Emote_CoolOff_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AC288E2B45057DFFB7A0F287A8399EB0",
+      "SourceString": "I Declare!",
+      "LocalizedString": "I Declare!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "92A98E3640B9A1DB628CE4985AD11559",
+      "SourceString": "Be your own biggest fan.",
+      "LocalizedString": "Be your own biggest fan."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "99C618DD47011835F3DE6EB4EE47BFAB",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.11"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-CoolOff.T-Icon-Emotes-E-CoolOff",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-CoolOff-L.T-Icon-Emotes-E-CoolOff-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

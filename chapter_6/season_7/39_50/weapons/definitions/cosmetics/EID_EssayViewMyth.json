@@ -1,0 +1,120 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_EssayViewMyth",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EssayViewMyth/CMM/Emote_EssayViewMyth_CMM_M.Emote_EssayViewMyth_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EssayViewMyth/CMF/Emote_EssayViewMyth_CMF_M.Emote_EssayViewMyth_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EssayViewMyth/CLM/Emote_EssayViewMyth_CLM_M.Emote_EssayViewMyth_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EssayViewMyth/CLF/Emote_EssayViewMyth_CLF_M.Emote_EssayViewMyth_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "PreviewLength": 34.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_EssayViewMyth:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_EssayViewMyth.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "75FDAF9F44EFE278410D649E39846D1A",
+      "SourceString": "The Tylil Dance",
+      "LocalizedString": "The Tylil Dance"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "22014E064ADB36520E445A8F7031B010",
+      "SourceString": "Dance to the dream.",
+      "LocalizedString": "Dance to the dream."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "50C467B64444F17D09072499FFEC0D37",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 5.0,
+          "Y": 70.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Set.WonderTree"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_EssayViewMyth.T_Icon_Emotes_EssayViewMyth",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_EssayViewMyth_L.T_Icon_Emotes_EssayViewMyth_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

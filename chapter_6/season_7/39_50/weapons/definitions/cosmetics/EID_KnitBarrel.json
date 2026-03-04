@@ -1,0 +1,148 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_KnitBarrel",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CMM/Emote_KnitBarrel_CMM_FrontEnd_M.Emote_KnitBarrel_CMM_FrontEnd_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CMF/Emote_KnitBarrel_CMF_FrontEnd_M.Emote_KnitBarrel_CMF_FrontEnd_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CLM/Emote_KnitBarrel_CLM_FrontEnd_M.Emote_KnitBarrel_CLM_FrontEnd_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CLF/Emote_KnitBarrel_CLF_FrontEnd_M.Emote_KnitBarrel_CLF_FrontEnd_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 162.933,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CMM/Emote_KnitBarrel_CMM_M.Emote_KnitBarrel_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CMF/Emote_KnitBarrel_CMF_M.Emote_KnitBarrel_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CLM/Emote_KnitBarrel_CLM_M.Emote_KnitBarrel_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KnitBarrel/CLF/Emote_KnitBarrel_CLF_M.Emote_KnitBarrel_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 30.0,
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 40.0,
+      "Roll": 0.0
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BD36BE564569AE6938C70ABABF200DBB",
+      "SourceString": "Lil' Sandcrawler",
+      "LocalizedString": "Lil' Sandcrawler"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FC60979A40A399447033C6A0BDF0B972",
+      "SourceString": "Scavenge the Dune Sea.",
+      "LocalizedString": "Scavenge the Dune Sea."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "CEEBC52747D5226FC0772590040F1E43",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 25.0,
+          "Y": 125.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.35",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.SuddenBoundary",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_KnitBarrel.T_Icon_Emotes_KnitBarrel",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_KnitBarrel_L.T_Icon_Emotes_KnitBarrel_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ColumbusSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ColumbusSeries.0"
+        }
+      }
+    ]
+  }
+}

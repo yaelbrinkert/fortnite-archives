@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HulaHoopChallenge",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HulaChallenge/emote_hulaChallenge_CMM_M.emote_hulaChallenge_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HulaChallenge/emote_hulaChallenge_CMF_M.emote_hulaChallenge_CMF_M",
+      "SubPathString": ""
+    },
+    "PreviewLength": 70.0,
+    "EmoteCooldownSecs": 1.0,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "Fail",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "Fail1",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "Success",
+        "SectionWeight": 0.2
+      }
+    ],
+    "ShotGridIds": [
+      24485
+    ],
+    "BaseShotGridId": 24485,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "65F725A04EA8F7CAB4C4E3B10D2AE9BB",
+      "SourceString": "Hula Hoopin'",
+      "LocalizedString": "Hula Hoopin'"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FE48869C4311D8DD1F2287B8E1409BCD",
+      "SourceString": "Practice makes perfect. ",
+      "LocalizedString": "Practice makes perfect. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B8989652474588366F9D70ACA3C76136",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season11.BattlePass.Paid",
+          "Cosmetics.Filter.Season.11",
+          "Emote.Mech.Disabled.Art",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HulaHoopChallenge.T-Icon-Emotes-E-HulaHoopChallenge",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HulaHoopChallenge-L.T-Icon-Emotes-E-HulaHoopChallenge-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

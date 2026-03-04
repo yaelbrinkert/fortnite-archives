@@ -1,0 +1,400 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Juno_Blaster_Rifle",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JunoOsirisGameplay/Blaster_Rifle/B_Juno_Blaster_Rifle.B_Juno_Blaster_Rifle_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Juno_RangedWeapons_Osiris'",
+        "ObjectPath": "/JunoOsirisGameplay/DataTables/Juno_RangedWeapons_Osiris.0"
+      },
+      "RowName": "Blaster_Rifle_T4"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JunoOsirisGameplay/Blaster_Rifle/GA_Juno_Blaster_Rifle_Fire.GA_Juno_Blaster_Rifle_Fire_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/JunoOsirisGameplay/BowCaster/Juno_AmmoInfinite_NoIcon.Juno_AmmoInfinite_NoIcon",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bShouldMagazineSizeDisplayInfinity": true,
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_2x10_line.HUD_Xhair_2x10_line",
+      "SubPathString": ""
+    },
+    "PlayerGrantedGameplayTags": [
+      "Granted.ItemEquipped.Ranged"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_juno_blaster_rifle"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "B51E4DD54A8D96DFCE40EE8311C5B21E",
+      "SourceString": "E-11",
+      "LocalizedString": "E-11"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "D9F5E1AD4ECABA0378DF01861DAB1A4C",
+      "SourceString": "Auto-fire blaster rifle that deals damage to a single target and has a high fire rate. Ammo is unlimited, but durability will be drained per fire.",
+      "LocalizedString": "Auto-fire blaster rifle that deals damage to a single target and has a high fire rate. Ammo is unlimited, but durability will be drained per fire."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "53CBD48748EFE3C5536423BDECDF3CCD",
+      "SourceString": "Rebels! Blast 'em!",
+      "LocalizedString": "Rebels! Blast 'em!"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/LFNTG_RiotFly_Prop/UI/Icons/T_UI_Juno_Icon_Weapon_BlasterRifle.T_UI_Juno_Icon_Weapon_BlasterRifle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -42.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.569563,
+          "Yaw": 24.64069,
+          "Roll": -16.679253
+        },
+        "Scale": 1.0
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/LFNWeaponBlasterRifle/SkeletalMesh/SKM_Blaster_Rifle.SKM_Blaster_Rifle",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.12941022,
+            "Y": -0.12940948,
+            "Z": 0.017037174,
+            "W": 0.98296285,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/LFNWeaponBlasterRifle/Audio/Blaster/Wavs/E11_Pickup_01.E11_Pickup_01",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoOsirisGameplay/Audio/Blaster/MSS/MSS_E11_Drop.MSS_E11_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoOsirisGameplay/Audio/Blaster/MSS/MSS_E11_Land.MSS_E11_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.300614,
+          "Y": 23.891964,
+          "Z": 13.23707
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "413FF1B2439684A695B8878A9D306C2B",
+          "SourceString": "Ranged Gun",
+          "LocalizedString": "Ranged Gun"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/JunoOsirisGameplay/Blaster_Rifle/Juno_Prj_Blaster_Rifle_LW.Juno_Prj_Blaster_Rifle_LW_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_Blaster'",
+            "ObjectPath": "/JunoOsirisGameplay/Audio/Blaster/Libraries/SL_Blaster.0"
+          },
+          {
+            "ObjectName": "SoundLibrary'SL_Foley_Traverse_E11'",
+            "ObjectPath": "/JunoCommonArtAssets/Audio/Resources/Foley/Libraries/SL_Foley_Traverse_E11.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Juno.Inventory.Group.Quickbar",
+          "Rarity.VeryRare",
+          "Juno.Item.Weapon.Blaster.Rifle",
+          "Juno.Item.Weapon.Ranged.Blaster.Rifle",
+          "Juno.Harvesting.Weapon.PreventResourceDrop",
+          "Trait.Juno.Damage.IgnorePartialDestruction",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Juno.Inventory.AutoReplace.Category.BlasterRifle",
+          "Juno.Item.Weapon.Ranged.CanAutoFire"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.HasDurability",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoOsirisGameplay/UI/Icons/MI_UI_Juno_Icon_Weapon_BlasterRifle.MI_UI_Juno_Icon_Weapon_BlasterRifle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Weapon"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.RangedWeapon"
+        },
+        "ItemTypeTag": {
+          "TagName": "Juno.FreeBuild.Type.Osiris.Blaster"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "6180473146A5A4E504A6A2A8F28A30D6",
+          "SourceString": "You'll need a <EmphA>metal</> from <Yel>far, far away</>.",
+          "LocalizedString": "You'll need a <EmphA>metal</> from <Yel>far, far away</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "WIDJunoBlasterRifle"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

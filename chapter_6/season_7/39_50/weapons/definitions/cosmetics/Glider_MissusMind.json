@@ -1,0 +1,352 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_MissusMind",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_MissusMind/Meshes/MissusMind_Glider.MissusMind_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/MissusMind/MissusMind_Glider_AnimBP.MissusMind_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/BRCosmetics/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveNoGlider.Athena_PlayerCameraModeSkydiveNoGlider_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/Shapeshifter/ShapeshifterNoGliderPlayerAnimSetNoShake.ShapeshifterNoGliderPlayerAnimSetNoShake",
+      "SubPathString": ""
+    },
+    "AttachSocket": "spine_05",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_MissusMind/FX/NS_Glider_MissusMind_Trail.NS_Glider_MissusMind_Trail",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_MissusMind/FX/NS_Glider_MissusMind_Deploy.NS_Glider_MissusMind_Deploy",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/MissusMind/MSS_Glider_MissusMind_Open.MSS_Glider_MissusMind_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/MissusMind/MSS_Glider_MissusMind_Close.MSS_Glider_MissusMind_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/MissusMind/MSS_Glider_MissusMind_Thrust.MSS_Glider_MissusMind_Thrust",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::AnyDirection",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 2.0,
+          "ReleaseSpeed": 1.0,
+          "Oneshots": []
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 2.0,
+          "ReleaseSpeed": 1.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 2.0,
+          "ReleaseSpeed": 1.0,
+          "Oneshots": []
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 2.0,
+          "ReleaseSpeed": 1.0,
+          "Oneshots": []
+        }
+      }
+    ],
+    "MetaTags": [
+      "Cosmetics.MetaTags.MissusMind"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_MissusMind:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_MissusMind.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'Glider_MissusMind:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_MissusMind.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      111638
+    ],
+    "BaseShotGridId": 111638,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "993CBA954CFBCB804A9D028129B0D8A9",
+      "SourceString": "Chaotic Crawler",
+      "LocalizedString": "Chaotic Crawler"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "66B526FC492ABB5F1EC089908791E154",
+      "SourceString": "Skitter silently across the sky.\r\n\r\nGlider will match style of backpack if both are equipped",
+      "LocalizedString": "Skitter silently across the sky.\r\n\r\nGlider will match style of backpack if both are equipped"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -1.3,
+          "Y": -70.0,
+          "Z": -30.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -115.0,
+          "Roll": -15.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S32/T_Icon_Glider_MissusMind.T_Icon_Glider_MissusMind",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Glider.HideBackPack",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Set.PressedEarth",
+          "Cosmetics.Source.Season32.BattlePass.Paid.Additional",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.SceneChanger.BattlePass"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_MissusMind_Suit.Character_MissusMind_Suit",
+              "SubPathString": ""
+            },
+            "VariantOverrides": [
+              {
+                "WhenViewingVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Glider_MissusMind_StyleB.VTID_Glider_MissusMind_StyleB",
+                  "SubPathString": ""
+                },
+                "OverrideCharacterWithVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_MissusMind_StyleB.VTID_Character_MissusMind_StyleB",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S32/T_Icon_Glider_MissusMind_L.T_Icon_Glider_MissusMind_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          490,
+          238,
+          541,
+          546,
+          359,
+          114,
+          626,
+          112,
+          856,
+          971,
+          440,
+          1042,
+          259,
+          1289,
+          125,
+          1907,
+          1986,
+          2245,
+          2379,
+          2381,
+          2544
+        ]
+      }
+    ]
+  }
+}

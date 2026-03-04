@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Pupil",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Pupil/Emote_Pupil_CMM_M.Emote_Pupil_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Pupil/Emote_Pupil_CMF_M.Emote_Pupil_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Pupil/Emote_Pupil_CLM_M.Emote_Pupil_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Pupil/Emote_Pupil_CLF_M.Emote_Pupil_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      72038
+    ],
+    "BaseShotGridId": 72038,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C35007094D2F3C052C82A5A1129134D8",
+      "SourceString": "Full Googly",
+      "LocalizedString": "Full Googly"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DAD27A4A48CAD62CAA53878C27E7B009",
+      "SourceString": "The eyes have it.",
+      "LocalizedString": "The eyes have it."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6F09AEBF4984BC6E6E6C9583D7C63F93",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-Pupil.T-Icon-Emotes-Pupil",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-Pupil-L.T-Icon-Emotes-Pupil-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

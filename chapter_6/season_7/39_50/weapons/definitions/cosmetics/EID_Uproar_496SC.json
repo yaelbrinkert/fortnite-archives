@@ -1,0 +1,96 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Uproar_496SC",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Uproar/Emote_Uproar_CMM_M.Emote_Uproar_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Uproar/Emote_Uproar_CMF_M.Emote_Uproar_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Uproar/Emote_Uproar_CLM_M.Emote_Uproar_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Uproar/Emote_Uproar_CLF_M.Emote_Uproar_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      54766
+    ],
+    "BaseShotGridId": 54766,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "34EF846B40CAAFD83CBD1E90173567D1",
+      "SourceString": "Punching Practice",
+      "LocalizedString": "Punching Practice"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5151FCED48337882BCE780AC2D39797C",
+      "SourceString": "Prepare for Vi-ctory!",
+      "LocalizedString": "Prepare for Vi-ctory!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FBED7EED454296FF9188ACB29F5FD88D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Uproar.T-Icon-Emotes-E-Uproar",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Uproar-L.T-Icon-Emotes-E-Uproar-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.Set.RelativeCall"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

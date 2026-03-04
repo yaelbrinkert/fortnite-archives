@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HightowerGrape",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HighTowerGrape/Emote_HighTowerGrape_CMM_M.Emote_HighTowerGrape_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "Cosmetics.Awakenings.HightowerGrape"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_010_Emote_HightowerGrape'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_010_Emote_HightowerGrape.0"
+        }
+      }
+    ],
+    "VisibilityData": [
+      {
+        "Rule": "EMontageVisibilityRule::ForbiddenItem",
+        "Item": {
+          "ObjectName": "AthenaPetCarrierItemDefinition'PetCarrier_014_HightowerRadish'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/PetCarriers/PetCarrier_014_HightowerRadish.0"
+        },
+        "TagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        }
+      }
+    ],
+    "EmoteWheelExclusiveTags": [
+      "Cosmetics.Awakenings.HightowerGrape"
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_840_Athena_Commando_M_HightowerGrape.CID_840_Athena_Commando_M_HightowerGrape",
+      "SubPathString": ""
+    },
+    "ItemPreviewHero": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_840_Athena_Commando_M_HightowerGrape.CID_840_Athena_Commando_M_HightowerGrape",
+      "SubPathString": ""
+    },
+    "ExclusiveIcon": {
+      "AssetPathName": "/BRCosmetics/Athena/UI/Season/Art/Textures/T_Ui_Awakening_Mini_Grape.T_Ui_Awakening_Mini_Grape",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "95449B434990D1F74BD0B492DC465EFC",
+      "SourceString": "Battle Brother",
+      "LocalizedString": "Battle Brother"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D44E2AE74673C92EFD3631942242BD0A",
+      "SourceString": "Don't forget your favorite furry pal.",
+      "LocalizedString": "Don't forget your favorite furry pal."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2052CCD74BD46E64DB95EBAAE0152DE5",
+      "SourceString": "Built-in Emote",
+      "LocalizedString": "Built-in Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerGrape.T-Icon-Emotes-E-HighTowerGrape",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerGrape-L.T-Icon-Emotes-E-HighTowerGrape-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season14.BattlePass.Paid",
+          "Cosmetics.QuestsMetaData.Emote.Awakening.HightowerGrape",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.CoalMonarch",
+          "Cosmetics.HidePreviewAction",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

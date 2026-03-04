@@ -1,0 +1,69 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ShrimpStroll_Owned_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "WalkForwardSpeed": 188.406,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower_Interacting.GAB_EmoteBand_Follower_Interacting_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CMM_M.Emote_Shrimpstroll_Kim_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CMF_M.Emote_Shrimpstroll_Kim_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CLM_M.Emote_Shrimpstroll_Kim_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CLF_M.Emote_Shrimpstroll_Kim_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "PreviewLength": 30.0,
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_ShrimpStroll_Owned_Follower:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ShrimpStroll_Owned_Follower.1"
+      }
+    ],
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.4"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_MonteKeyboard",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MonteKeyboard/Emote_MonteKeyboard_CMM_M.Emote_MonteKeyboard_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MonteKeyboard/Emote_MonteKeyboard_CMF_M.Emote_MonteKeyboard_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MonteKeyboard/Emote_MonteKeyboard_CLM_M1.Emote_MonteKeyboard_CLM_M1",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 21.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewHero": {
+      "AssetPathName": "/Game/Athena/Items/Cosmetics/Characters/CID_556_Athena_Commando_F_RebirthDefaultA.CID_556_Athena_Commando_F_RebirthDefaultA",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "57851E5D44E57C8930F8668B54CA0FCE",
+      "SourceString": "Keyed Up",
+      "LocalizedString": "Keyed Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6F0F41D143986E12FC7CC3BA183D68E5",
+      "SourceString": "Lock in the melody.",
+      "LocalizedString": "Lock in the melody."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "68A37EB94214906F70889E93D8907C9C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season13.BattlePass.Paid",
+          "Cosmetics.Filter.Season.13",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-MonteKeyboard.T-Icon-Emotes-MonteKeyboard",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-MonteKeyboard-L.T-Icon-Emotes-MonteKeyboard-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

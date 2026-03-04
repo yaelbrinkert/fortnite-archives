@@ -1,0 +1,115 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_WildEstate_ColdFern_DualWeapon_Shotgun_Athena_VR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/Actors/B_DualWeapon_Shotgun_WildEstate_ColdFern.B_DualWeapon_Shotgun_WildEstate_ColdFern_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "WildEstate_Shotgun_ColdFern_Athena_R_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/Abilities/GA_ColdFern_DualWeapon_Shotgun_Primary.GA_ColdFern_DualWeapon_Shotgun_Primary_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bAllowTargetingDuringReload": true,
+    "bAllowAutoReload": false,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.HUD_Xhair_Shotgun_Frame",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [
+      45.0,
+      135.0,
+      225.0,
+      315.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_wildestate_coldfern_dualweapon_shotgun_athena_vr"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Rarity.VeryRare",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Item.Weapon.Ranged.SMG.ColdFern",
+          "weapon.ranged.shotgun",
+          "phoebe.weapon.ranged.shotgun",
+          "phoebe.items.ShotgunBreach",
+          "Bacchus.Shoot.Shotgun.Tactical"
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_ColdFern_Shotgun_Weapon'",
+            "ObjectPath": "/WildEstateWeapons/Gameplay/ColdFern/Sound/SL_ColdFern_Shotgun_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_SMG'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_SMG.0"
+        }
+      },
+      {
+        "OnHitAbility": {
+          "AssetPathName": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/Abilities/GA_ColdFern_DualWeapon_Shotgun_OnWeaponHit.GA_ColdFern_DualWeapon_Shotgun_OnWeaponHit_C",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

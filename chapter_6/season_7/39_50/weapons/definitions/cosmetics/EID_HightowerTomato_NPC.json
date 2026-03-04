@@ -1,0 +1,80 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HightowerTomato_NPC",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/NPCs/HighTower_Tomato_Hover/HighTowerTomato_NPC_Hovering_M.HighTowerTomato_NPC_Hovering_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_843_Athena_Commando_M_HightowerTomato_Casual.CID_843_Athena_Commando_M_HightowerTomato_Casual",
+      "SubPathString": ""
+    },
+    "ExclusiveIcon": {
+      "AssetPathName": "/BRCosmetics/Athena/UI/Season/Art/Textures/T_Ui_Awakening_Mini_Tomato.T_Ui_Awakening_Mini_Tomato",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D2DD4E34430B1864A71F909BBA83FCD4",
+      "SourceString": "Hover",
+      "LocalizedString": "Hover"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "883C795F4BDDD4B18E9742862F24119A",
+      "SourceString": "Iron Man AI Hovers",
+      "LocalizedString": "Iron Man AI Hovers"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7E5A0228475EBD1D658F27AD62B8ECB4",
+      "SourceString": "AI Iron Man Emote",
+      "LocalizedString": "AI Iron Man Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerTomato.T-Icon-Emotes-E-HighTowerTomato",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerTomato-L.T-Icon-Emotes-E-HighTowerTomato-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.QuestsMetaData.Emote.Awakening.HightowerTomato",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.MarbleShot",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

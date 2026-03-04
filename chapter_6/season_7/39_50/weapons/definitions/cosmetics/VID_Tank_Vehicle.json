@@ -1,0 +1,105 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Tank_Vehicle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TankGameData'",
+          "ObjectPath": "/Tank/DataTables/GameData/TankGameData.0"
+        },
+        "RowName": "Vehicle.Tank.Spawn.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TankGameData'",
+          "ObjectPath": "/Tank/DataTables/GameData/TankGameData.0"
+        },
+        "RowName": "Vehicle.Tank.Spawn.MaxSpawnPercent"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TankGameData'",
+          "ObjectPath": "/Tank/DataTables/GameData/TankGameData.0"
+        },
+        "RowName": "Default.Tank.Spawn.MaxNumberCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TankGameData'",
+          "ObjectPath": "/Tank/DataTables/GameData/TankGameData.0"
+        },
+        "RowName": "Default.Tank.Spawn.MaxPercentWithGas"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TankGameData'",
+          "ObjectPath": "/Tank/DataTables/GameData/TankGameData.0"
+        },
+        "RowName": "Default.Tank.Spawn.MaxPercentWithGas"
+      }
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TankGameData'",
+          "ObjectPath": "/Tank/DataTables/GameData/TankGameData.0"
+        },
+        "RowName": "Default.Tank.Spawn.MinPercentInoperable"
+      }
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TankGameData'",
+          "ObjectPath": "/Tank/DataTables/GameData/TankGameData.0"
+        },
+        "RowName": "Default.Tank.Spawn.MaxPercentInoperable"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/Tank/Vehicle/Tank_Vehicle.Tank_Vehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "tank"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Tank/Icons/T-T-Icon-BR-TankVehicle.T-T-Icon-BR-TankVehicle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Tank/Icons/T-T-Icon-BR-TankVehicle-L.T-T-Icon-BR-TankVehicle-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

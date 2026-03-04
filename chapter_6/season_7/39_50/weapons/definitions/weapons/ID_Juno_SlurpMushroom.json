@@ -1,0 +1,325 @@
+{
+  "Type": "FortResourceItemDefinition",
+  "Name": "ID_Juno_SlurpMushroom",
+  "Class": "UScriptClass'FortResourceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ResourceType": "EFortResourceType::Ingredient",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "Juno_GameplayItemToTagMapping",
+      "Key": "A5CA53B649D1B6250C7F289E05B13EB4",
+      "SourceString": "Slurp Mushroom",
+      "LocalizedString": "Slurp Mushroom"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "17B4F8064885EED1121D9C82D9EC23F1",
+      "SourceString": "A cooking ingredient commonly found in caves.",
+      "LocalizedString": "A cooking ingredient commonly found in caves."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "343DED614CF6C5E22A7FC4B23A885B2E",
+      "SourceString": "Like candy from the caves!",
+      "LocalizedString": "Like candy from the caves!"
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.SlurpMushroom"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoGame/Items/Resources/Juno_Resource_Slurp_Mushroom/Mesh/SM_Juno_Resource_Slurp_Mushroom.SM_Juno_Resource_Slurp_Mushroom",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Resources/Food/Sounds/MSS_Resource_Food_Mushroom_Pickup.MSS_Resource_Food_Mushroom_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Resources/Misc/MSS_Resource_Misc_Plant_Drop.MSS_Resource_Misc_Plant_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Resources/Food/Sounds/MSS_Resource_Food_Gooey_Land.MSS_Resource_Food_Gooey_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 16.007763,
+          "Y": 16.007769,
+          "Z": 14.577059
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "3117258D4C349043E57BE9A5966472FD",
+          "SourceString": "crafting resource",
+          "LocalizedString": "crafting resource"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoCraftingBase/Icons/Food/T_UI_Juno_Icon_Food_SlurpMushroom.T_UI_Juno_Icon_Food_SlurpMushroom",
+          "SubPathString": ""
+        }
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Tags": [
+          "Juno.CraftingResource.Misc.SlurpMushroom",
+          "Trait.Fungus",
+          "Trait.Slurp"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoCraftingBase/Icons/Food/MI_UI_Juno_Icon_Food_SlurpMushroom.MI_UI_Juno_Icon_Food_SlurpMushroom",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Food"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.FruitAndVegetable"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "793907954829452918C08FBE86D819B3",
+          "SourceString": "A vegetable often found in <EmphA>Caves</>.",
+          "LocalizedString": "A vegetable often found in <EmphA>Caves</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "Namespace": "",
+          "Key": "CDF4BF914D8C30F6F1895B87DD9DD49B",
+          "SourceString": "Found in <EmphB>Caves</>.",
+          "LocalizedString": "Found in <EmphB>Caves</>."
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "IDJunoSlurpMushroom"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

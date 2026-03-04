@@ -1,0 +1,71 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Sprout_Wave",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/SproutCore/Players/Emotes/Dances/GAB_Sprout_Emote_Generic_Wave.GAB_Sprout_Emote_Generic_Wave_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/SproutCore/Animation/Minifig/Actions/AM_Minifig_Wave.AM_Minifig_Wave",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SproutCore/Animation/Minifig/Actions/AM_Minifig_Wave.AM_Minifig_Wave",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7213BD404841A95A5043778DDE495CA9",
+      "SourceString": "Wave",
+      "LocalizedString": "Wave"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0830ADFA4D70C4693FB66BAFC740C77D",
+      "SourceString": "Wave Hello",
+      "LocalizedString": "Wave Hello"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2CAF0F044AD9747EE46529B872D9682A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.QuestsMetaData.Emote.Sprout.Wave"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SproutCore/Players/Emotes/Icons/T_UI_Sprout_Pose_wave.T_UI_Sprout_Pose_wave",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SproutCore/Players/Emotes/Icons/T_UI_Sprout_Pose_wave_L.T_UI_Sprout_Pose_wave_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

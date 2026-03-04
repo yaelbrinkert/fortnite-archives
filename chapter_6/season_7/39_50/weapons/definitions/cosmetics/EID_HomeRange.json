@@ -1,0 +1,110 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HomeRange",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HomeRange/CMM/Emote_Homerange_CMM_M.Emote_Homerange_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HomeRange/CMF/Emote_Homerange_CMF_M.Emote_Homerange_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HomeRange/CLM/Emote_Homerange_CLM_M.Emote_Homerange_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HomeRange/CLF/Emote_Homerange_CLF_M.Emote_Homerange_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_HomeRange:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_HomeRange.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A243AE724EB1E0F06559DEA4F4501CA1",
+      "SourceString": "Stake Whittlin'",
+      "LocalizedString": "Stake Whittlin'"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "613BF0A74552DC5D75FF23824F8A594C",
+      "SourceString": "Just a whittle dangerous. ",
+      "LocalizedString": "Just a whittle dangerous. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9B135FB54A01B8EACFF4B48C375A1EA4",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 25.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.BigLeaves"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_HomeRange.T_Icon_Emotes_HomeRange",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_HomeRange_L.T_Icon_Emotes_HomeRange_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

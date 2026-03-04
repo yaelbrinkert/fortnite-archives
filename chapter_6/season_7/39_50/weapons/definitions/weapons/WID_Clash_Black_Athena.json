@@ -1,0 +1,97 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Clash_Black_Athena",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_Placeholder"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/ClashGameplay/Gameplay/Clash/Clash_Black/GA_Clash_Punch_Black.GA_Clash_Punch_Black_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/ClashGameplay/Gameplay/Clash/Clash_Black/AS_Clash_Black_Equip.AS_Clash_Black_Equip",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/Fort_HUD/HUD_Xhair_Basic.HUD_Xhair_Basic",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_clash_black_athena"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C0DA2022425EA101ACB1959820D95C85",
+      "SourceString": "Venom Symbiote",
+      "LocalizedString": "Venom Symbiote"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "6E55083845CFA6DBA8E7DD9BAFADB0CC",
+          "SourceString": "Power",
+          "LocalizedString": "Power"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ClashGameplay/Gameplay/Clash/Shared/Icons/T-T-Icon-BR-ClashBlack.T-T-Icon-BR-ClashBlack",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/ClashGameplay/Gameplay/Clash/Shared/Icons/T-T-Icon-BR-ClashBlack-L.T-T-Icon-BR-ClashBlack-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Rarity.Mythic",
+          "Item.Power.Clash.Black"
+        ]
+      }
+    ]
+  }
+}

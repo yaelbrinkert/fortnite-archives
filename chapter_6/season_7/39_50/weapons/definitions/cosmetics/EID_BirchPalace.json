@@ -1,0 +1,170 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BirchPalace",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Switch",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Metatags.BirchPalace"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaCharacterItemDefinition'Character_BirchPalace'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BirchPalace.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Immutable.Material"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Mat1"
+                }
+              }
+            ],
+            "Item": null
+          }
+        ]
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Metatags.BirchPalaceGas"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaCharacterItemDefinition'Character_BirchPalace'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BirchPalace.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Immutable.Material"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Mat2"
+                }
+              }
+            ],
+            "Item": null
+          }
+        ]
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BirchPalace/CMM/Emote_BirchPalace_CMM_M.Emote_BirchPalace_CMM_M",
+      "SubPathString": ""
+    },
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BirchPalace.Character_BirchPalace",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CDF4FC3C4AC76A99D76F0BB89D77D20A",
+      "SourceString": "Shadow Shift",
+      "LocalizedString": "Shadow Shift"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1624F6A5478EAEE08415C6BF71817764",
+      "SourceString": "New look, no shade.",
+      "LocalizedString": "New look, no shade."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "026EB05D4DB7403254B487B98D03E3C2",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.PolarStorm"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_BirchPalace.T_Icon_Emotes_BirchPalace",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_BirchPalace_L.T_Icon_Emotes_BirchPalace_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      }
+    ]
+  }
+}

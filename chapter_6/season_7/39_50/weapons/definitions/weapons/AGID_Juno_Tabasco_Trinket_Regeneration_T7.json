@@ -1,0 +1,309 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Juno_Tabasco_Trinket_Regeneration_T7",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bCanBeDroppedWhenEquipmentChangeIsBlocked": true,
+    "bAllowedFuelGadgetUI": false,
+    "InventoryMinimapIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "InventoryCompassIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "bApplyGadgetDataManually": true,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "AbilitySet": {
+      "AssetPathName": "/JunoTabascoGameplay/Trinkets/AS_Juno_Tabasco_Trinket_EffectAplicator.AS_Juno_Tabasco_Trinket_EffectAplicator",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::Gadget",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9125AAFC48BE703199C021849A7EC87C",
+      "SourceString": "Regeneration Charm",
+      "LocalizedString": "Regeneration Charm"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "A837450141356AA07659A48ED0F0F85C",
+      "SourceString": "Regenerates health over time.",
+      "LocalizedString": "Regenerates health over time."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "BFF12B2B483CFDA54D3E01A36DED86DA",
+      "SourceString": "What are you, some kind of healing maniac?!",
+      "LocalizedString": "What are you, some kind of healing maniac?!"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoTM_TabascoGeneric_Prop/Items/Trinkets/Mesh/SM_Trinket_Tabasco_HealthRegen_A.SM_Trinket_Tabasco_HealthRegen_A",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 60000.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Items/Gear/Trinkets/MSS_Trinket_Pickup.MSS_Trinket_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Items/Gear/Trinkets/MSS_Trinket_Drop.MSS_Trinket_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Items/Gear/Trinkets/MSS_Trinket_Land.MSS_Trinket_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": false,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 20.800001,
+          "Y": 28.732344,
+          "Z": 42.37751
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VII",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoTabascoGameplay/UI/Icons/Trinkets/T_UI_Juno_Tabasco_Icon_Trinket_HealthRegen.T_UI_Juno_Tabasco_Icon_Trinket_HealthRegen",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Juno.Inventory.Group.Gear.Charm",
+          "Juno.Item.Gear.Player",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Juno.Item.Jewelry.TrinketRegeneration_T7"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoTabascoGameplay/UI/Icons/Trinkets/MI_UI_Juno_Tabasco_Icon_Trinket_HealthRegen.MI_UI_Juno_Tabasco_Icon_Trinket_HealthRegen",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Equipment"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.Charm"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "8CD7775349C0FD7476977F9426D4701E",
+          "SourceString": "Learn in the Ninja Mastery Tab ",
+          "LocalizedString": "Learn in the Ninja Mastery Tab "
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "AGIDJunoTabascoTrinketRegenerationT7"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

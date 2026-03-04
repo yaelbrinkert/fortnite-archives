@@ -1,0 +1,373 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "WID_Juno_AmmoData_Cannonball",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageSize": {
+        "X": 10.0,
+        "Y": 24.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'Icon-AmmoSingle-Special'",
+        "ObjectPath": "/Game/UI/Icons/Icon-Ammo/Icon-AmmoSingle-Special.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "AmmoIconBrush": {
+      "Brush_XS": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      },
+      "Brush_S": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      },
+      "Brush_M": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      },
+      "Brush_L": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      }
+    },
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Music-S.T_Placeholder_Item_Music-S",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "EFE6221E43951480B611DEABB45D7B81",
+      "SourceString": "Cannonball",
+      "LocalizedString": "Cannonball"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "5F376C3248A0EA01F4EB7DBDA8B62B53",
+      "SourceString": "Ammo for Cannons.",
+      "LocalizedString": "Ammo for Cannons."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "ED97F00F49ADBC8B468C0A88D0018CE8",
+      "SourceString": "CANNONBALL!",
+      "LocalizedString": "CANNONBALL!"
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.Cannonball"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoStationaryCannon/Mesh/SM_CannonBall.SM_CannonBall",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.25,
+            "Y": -0.25,
+            "Z": -0.0669873,
+            "W": 0.9330127,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoStationaryCannon/Audio/Sounds/MSS_Cannonball_Pickup.MSS_Cannonball_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoStationaryCannon/Audio/Sounds/MSS_Cannonball_Drop.MSS_Cannonball_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoStationaryCannon/Audio/Sounds/MSS_Cannonball_Land.MSS_Cannonball_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 24.053524,
+          "Y": 24.053524,
+          "Z": 28.93061
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoGame/UI/Icons/Tools_Weapons/T_UI_Juno_Icon_Weapon_Ammo_CannonBall.T_UI_Juno_Icon_Weapon_Ammo_CannonBall",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -5.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.0,
+          "Yaw": -180.0,
+          "Roll": -3.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "supplies.ammo.shell",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Juno.Item.WeaponConsumable.Cannonball",
+          "Juno.UI.Filter.Cannon"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoGame/UI/Icons/Tools_Weapons/MI_UI_Juno_Slot_Weapon_Ammo_CannonBall.MI_UI_Juno_Slot_Weapon_Ammo_CannonBall",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Weapon"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.ProjectileAndAmmunition"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "461E46C64AEAF7C3E461EBACF4D182EA",
+          "SourceString": "You'll need a <EmphA>Crafting Bench</> and an <EmphA>explosive</> resource.",
+          "LocalizedString": "You'll need a <EmphA>Crafting Bench</> and an <EmphA>explosive</> resource."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "WIDJunoAmmoDataCannonball"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

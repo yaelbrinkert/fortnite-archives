@@ -1,0 +1,116 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ScoopPluck",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ScoopPluck/CMM/Emote_ScoopPluck_CMM_M.Emote_ScoopPluck_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ScoopPluck/CMF/Emote_ScoopPluck_CMF_M.Emote_ScoopPluck_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ScoopPluck/CLM/Emote_ScoopPluck_CLM_M.Emote_ScoopPluck_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ScoopPluck/CLF/Emote_ScoopPluck_CLF_M.Emote_ScoopPluck_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_ScoopPluck:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ScoopPluck.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_ScoopPluck:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ScoopPluck.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "91412EBB4157997D2A8E44BE62FD2565",
+      "SourceString": "Hardcourt Hype",
+      "LocalizedString": "Hardcourt Hype"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1955A59042B8E981B8852981DFB78C01",
+      "SourceString": "Nothing but net.",
+      "LocalizedString": "Nothing but net."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EFD441D7417ABAFB2EC031AEC149A6C3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 25.0,
+          "Y": 125.0,
+          "Z": 30.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.WildJaunt"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_ScoopPluck.T_Icon_Emotes_ScoopPluck",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_ScoopPluck_L.T_Icon_Emotes_ScoopPluck_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

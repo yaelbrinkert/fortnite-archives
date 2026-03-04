@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Constructor_Myth02",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Medium/Constructor/Constructor_Male_Body_MediumBodyType_Montage_Idle.Constructor_Male_Body_MediumBodyType_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Constructor_Myth02:CP_Body_Constructor_Myth02_SR'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Constructor/CosmeticCharacterItemDefinitions/CID_Constructor_Myth02.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FC53D5F04A2A9BC3D2C04D961FFE22D6",
+      "SourceString": "Steel Wool Syd",
+      "LocalizedString": "Steel Wool Syd"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CDE895B14EB9717831F9B9B2F11C6E97",
+      "SourceString": "\"One, Two... One, Two, Three, Four...\" - Syd",
+      "LocalizedString": "\"One, Two... One, Two, Three, Four...\" - Syd"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-Myth02-SR-T01.T-Constructor-HID-Constructor-Myth02-SR-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-Myth02-SR-T01-L.T-Constructor-HID-Constructor-Myth02-SR-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

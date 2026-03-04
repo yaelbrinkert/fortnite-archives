@@ -1,0 +1,83 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Survivorsault_NJ7WC",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Survivorsault/Emote_Survivorsault_CMM_M.Emote_Survivorsault_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Survivorsault/Emote_Survivorsault_CMF_M.Emote_Survivorsault_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Survivorsault/Emote_Survivorsault_CLM_M.Emote_Survivorsault_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "44B416C34C9641A12B2C7F9E8524B948",
+      "SourceString": "Survivorsault",
+      "LocalizedString": "Survivorsault"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D2D140EC4D638E428083CCB4DEC8B743",
+      "SourceString": "Been doing this.",
+      "LocalizedString": "Been doing this."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "0A6C55D442ABC818F3AF08B623BEE610",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Survivorsault.T-Icon-Emotes-E-Survivorsault",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Survivorsault-L.T-Icon-Emotes-E-Survivorsault-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.16",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

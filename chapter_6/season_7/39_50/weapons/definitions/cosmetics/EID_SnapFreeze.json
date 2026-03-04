@@ -1,0 +1,142 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SnapFreeze",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Transform",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_SnapFreeze_Hunt.CP_Athena_Body_F_SnapFreeze_Hunt",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_SnapFreeze_Graze.CP_Athena_Body_F_SnapFreeze_Graze",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SnapFreeze/CMF/Emote_SnapFreeze_CMF_M.Emote_SnapFreeze_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_044_SnapFreeze'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_044_SnapFreeze.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_SnapFreeze_Hunt.Character_SnapFreeze_Hunt",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A01E6DEB45130604A2978AB7BDDFB114",
+      "SourceString": "Take the Mantle",
+      "LocalizedString": "Take the Mantle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "62EB83BD43578D7133ADD9984672DD5C",
+      "SourceString": "Embrace the power of Bast.",
+      "LocalizedString": "Embrace the power of Bast."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EE3279CB4DA3B56B672E5A85B74E59D3",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 30.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/TIconEmotesSnapFreeze.TIconEmotesSnapFreeze",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/TIconEmotesSnapFreezeL.TIconEmotesSnapFreezeL",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.GravelAloof"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      }
+    ]
+  }
+}

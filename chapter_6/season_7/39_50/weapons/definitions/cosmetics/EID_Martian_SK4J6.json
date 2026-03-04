@@ -1,0 +1,92 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Martian_SK4J6",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Martian/Emote_Martian_CMM_M.Emote_Martian_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Martian/Emote_Martian_CMF_M.Emote_Martian_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Martian/Emote_Martian_CLM_M.Emote_Martian_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Martian/Emote_Martian_CLF_M.Emote_Martian_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 25.94596,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E6E1F844484411F32F983FB044648025",
+      "SourceString": "Leave The Door Open",
+      "LocalizedString": "Leave The Door Open"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F7D144FC4E6848D8825853AA648E07F7",
+      "SourceString": "Music by Bruno Mars & Anderson .Paak as Silk Sonic. Dance Moves by Bruno Mars.",
+      "LocalizedString": "Music by Bruno Mars & Anderson .Paak as Silk Sonic. Dance Moves by Bruno Mars."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D4B82C9043069CABEF2D7D8D5F251BF7",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Martian.T-Icon-Emotes-E-Martian",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Martian-L.T-Icon-Emotes-E-Martian-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.16",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

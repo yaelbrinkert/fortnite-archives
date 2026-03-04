@@ -1,0 +1,67 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ShrimpStroll_Sync_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "GroupEmotePositionOffset": {
+      "X": 150.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "GroupEmoteFollowerRotationYawOffset": 180.0,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CMM_M.Emote_Shrimpstroll_Kim_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CMF_M.Emote_Shrimpstroll_Kim_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CLM_M.Emote_Shrimpstroll_Kim_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ShrimpStroll/Emote_Shrimpstroll_Kim_CLF_M.Emote_Shrimpstroll_Kim_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_ShrimpStroll_Sync_Follower:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ShrimpStroll_Sync_Follower.1"
+      }
+    ],
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.4"
+        ]
+      }
+    ]
+  }
+}

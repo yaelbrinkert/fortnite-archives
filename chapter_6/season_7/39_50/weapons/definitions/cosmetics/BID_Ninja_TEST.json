@@ -1,0 +1,39 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_Ninja_TEST",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'Female_Ninja_08'",
+        "ObjectPath": "/SaveTheWorld/Characters/CharacterParts/Backpacks/Female_Ninja_08.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_BackBling.T_Placeholder_Item_BackBling",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_OilPaint",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OilPaint/CMM/Emote_OilPaint_CMM_M.Emote_OilPaint_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OilPaint/Emote_OilPaint_CMF_M.Emote_OilPaint_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OilPaint/CLM/Emote_OilPaint_CLM_M.Emote_OilPaint_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OilPaint/CLF/Emote_OilPaint_CLF_M.Emote_OilPaint_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      68555
+    ],
+    "BaseShotGridId": 68555,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "44D08DFB481D301661141CBE5BCEEE1C",
+      "SourceString": "Pay it Off",
+      "LocalizedString": "Pay it Off"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "01E92981464E4F23F068E0B1725EF8A1",
+      "SourceString": "Make it work for you.",
+      "LocalizedString": "Make it work for you."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "AF4759364F5DDF2E0C3A168B0AD794B6",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-OilPaint.T-Icon-Emotes-OilPaint",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-OilPaint-L.T-Icon-Emotes-OilPaint-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

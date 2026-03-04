@@ -1,0 +1,72 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_EchoAngel_NPC",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_EchoAngel_NPC.CP_Athena_Body_M_EchoAngel_NPC",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'Character_EchoAngel_NPC:FortCosmeticMaterialVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_EchoAngel_NPC.1"
+      }
+    ],
+    "ShotGridIds": [
+      80557
+    ],
+    "BaseShotGridId": 80557,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9863A78D4DEDE29838E6D8844D3E712F",
+      "SourceString": "NPC",
+      "LocalizedString": "NPC"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A450798546F38FA6C5724387357C4337",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Outfit.T_Placeholder_Item_Outfit",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.StepType.ShoesSneakers",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Glove"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

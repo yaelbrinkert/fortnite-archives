@@ -1,0 +1,119 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CitrusSpoon",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CitrusSpoon/Emote_CitrusSpoon_CMM_FE_M.Emote_CitrusSpoon_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 180.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CitrusSpoon/Emote_CitrusSpoon_CMM_M.Emote_CitrusSpoon_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CitrusSpoon/Emote_CitrusSpoon_CMF_M.Emote_CitrusSpoon_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CitrusSpoon/Emote_CitrusSpoon_CLM_M.Emote_CitrusSpoon_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CitrusSpoon/Emote_CitrusSpoon_CLF_M.Emote_CitrusSpoon_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_CitrusSpoon:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_CitrusSpoon.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DF6EAEE74D66254D3758DCA71CFD1405",
+      "SourceString": "Lil' Battle Robot",
+      "LocalizedString": "Lil' Battle Robot"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A546A6974676505BC63D11A8E45A3C62",
+      "SourceString": "Roll up on a lil' top secret battle robot.",
+      "LocalizedString": "Roll up on a lil' top secret battle robot."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FA29305A4E012F013A0FA48F194536D4",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/T_IconEmotes_CitrusSpoon.T_IconEmotes_CitrusSpoon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 75.0,
+          "Z": 25.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Filter.Season.31",
+          "Cosmetics.Set.ShawlTime"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/T_IconEmotes_CitrusSpoon_L.T_IconEmotes_CitrusSpoon_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_HoneyFiberWaiter_StormMod",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/HoneyFiberWaiter/Gameplay/B_Weap_HoneyFiber_Waiter.B_Weap_HoneyFiber_Waiter_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_Placeholder"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/HoneyFiberWaiter/Gameplay/StormCentering/GA_HoneyFiber_Waiter_Use.GA_HoneyFiber_Waiter_Use_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/HoneyFiberWaiter/Gameplay/StormCentering/GA_HoneyFiber_Waiter_Use.GA_HoneyFiber_Waiter_Use_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/HoneyFiberWaiter/Gameplay/StormCentering/WID_HoneyFiberWaiter_StormMod.WID_HoneyFiberWaiter_StormMod",
+      "SubPathString": ""
+    },
+    "ReticleImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot_new.reticle_dot_new",
+      "SubPathString": ""
+    },
+    "PlayerGrantedGameplayTags": [
+      "Granted.Athena.Hurdle.PreventHolster",
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+      "Granted.HoneyFiber.Waiter.NoMelee"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_honeyfiberwaiter_stormmod"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "98648DED4980DFE4807D56B061C9215E",
+      "SourceString": "Stick of Truth",
+      "LocalizedString": "Stick of Truth"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F95607464F4EFF9E3644BFA7FD3C8E10",
+      "SourceString": "Altering the fibers of reality, you command the Storm to come to you. It can only be used once - use wisely!",
+      "LocalizedString": "Altering the fibers of reality, you command the Storm to come to you. It can only be used once - use wisely!"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "Namespace": "",
+          "Key": "05793BBE429335AD837EEE9399034E3E",
+          "SourceString": "Stick of Truth",
+          "LocalizedString": "Stick of Truth"
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/HoneyFiberWaiter/Assets/Meshes/HoneyFiber.HoneyFiber",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [
+          {
+            "AssetPathName": "/Game/Sounds/Fort_Audio_Blueprints/WeaponComponents/Pickups/BP_SpecialPickupSoundComponent_PlayOnce.BP_SpecialPickupSoundComponent_PlayOnce_C",
+            "SubPathString": ""
+          }
+        ],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.70710677,
+            "Y": -4.3297803E-17,
+            "Z": 0.70710677,
+            "W": 4.3297803E-17,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -30.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'AV_Tree_32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Navigation/AV_Tree_32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/HoneyFiberWaiter/Assets/Audio/IP_SL_HoneyFiber_Waiter_Pickup.IP_SL_HoneyFiber_Waiter_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.7060285,
+          "Y": 4.1251755,
+          "Z": 33.337273
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "/Script/FortniteGame.FortWeaponMeleeItemDefinitionTooltip",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.VeryRare",
+          "Weapon.Melee",
+          "Granted.Athena.TacticalSprint.PreventHolster",
+          "Granted.RollLanding.PreventHolster",
+          "Granted.Athena.Hurdle.PreventHolster",
+          "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+          "phoebe.weapon.trait.infiniteammo",
+          "phoebe.weapon.trait.noaccuracy",
+          "HUD.PreferredSlotType.Utility",
+          "Athena.Item.Utility",
+          "phoebe.weapon.melee",
+          "Item.HoneyFiber.Waiter"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/HoneyFiberWaiter/Icon/T_IconWeapons_Blunt_HoneyFiber.T_IconWeapons_Blunt_HoneyFiber",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'IP_SL_HoneyFiber_Waiter'",
+            "ObjectPath": "/HoneyFiberWaiter/Assets/Audio/IP_SL_HoneyFiber_Waiter.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      }
+    ]
+  }
+}

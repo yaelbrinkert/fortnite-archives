@@ -1,0 +1,897 @@
+{
+  "Type": "FortWeaponMeleeItemDefinition",
+  "Name": "WID_MistRaven_GrimStrutAscended",
+  "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/GrimStrutAscended/B_MistRaven_GrimStrutAscended.B_MistRaven_GrimStrutAscended_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'MistRaven_TendrilVacuum_RangedWeapons'",
+        "ObjectPath": "/MistRaven/DataTables/MistRaven_TendrilVacuum_RangedWeapons.0"
+      },
+      "RowName": "MistRavenAscendedGrimStrut"
+    },
+    "AbilitySet": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/GrimStrutAscended/AS_MistRaven_GrimStrutAscended.AS_MistRaven_GrimStrutAscended",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/GrimStrutAscended/Blueprints/GA_GrimStrutAscended_Activate.GA_GrimStrutAscended_Activate_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/GrimStrutAscended/Blueprints/GA_GrimStrutAscended_Activate.GA_GrimStrutAscended_Activate_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/GrimStrutAscended/AS_MistRaven_GrimStrutAscended_Equipped.AS_MistRaven_GrimStrutAscended_Equipped",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/GrimStrutAscended/Blueprints/AthenaAmmoData_GrimStrutAscended_CustomAmmo.AthenaAmmoData_GrimStrutAscended_CustomAmmo",
+      "SubPathString": ""
+    },
+    "bUsesCustomAmmoType": true,
+    "bAllowTargetingDuringReload": true,
+    "AnalyticTags": [
+      "MistRaven.GrimStrut.WID"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "Weapon.IgnoresCancelPrimaryAbilityOnRelease"
+    ],
+    "CosmeticGatingTags": [
+      "MistRaven.GrimStrut.Ascended.CharacterPartTag"
+    ],
+    "ActualAnalyticFNames": [
+      "MistRaven.GrimStrut.WID",
+      "Tag:Weapon:wid_mistraven_grimstrutascended"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH6S3",
+        "EpicItem",
+        "Item",
+        "MobilityItem"
+      ]
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "341AA786492E66FBFE6572AB62DC09DD",
+      "SourceString": "Myst Form",
+      "LocalizedString": "Myst Form"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AC3DA9F149F884DE02E4E5900E408680",
+      "SourceString": "Leave the physical world and gain flight for a short duration.",
+      "LocalizedString": "Leave the physical world and gain flight for a short duration."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "C0EE22F64A32C759F1D55F99E6F4866C",
+      "SourceString": "Become immaterial and fly.",
+      "LocalizedString": "Become immaterial and fly."
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -20.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": -30.663826,
+          "Yaw": 28.454832,
+          "Roll": 44.77352
+        },
+        "Scale": 0.5
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/MistRaven/Assets/Mesh/WraithForm_MistRaven_Pickup.WraithForm_MistRaven_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Bacchus_Wing'",
+            "ObjectPath": "/Game/Athena/HUD/Art/BacchusHudIcons/Bacchus_Wing.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/MistRaven/Assets/Audio/SL_MistRaven_GrimStrut_Pickup.SL_MistRaven_GrimStrut_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 43.49665,
+          "Y": 16.7234,
+          "Z": 55.525597
+        }
+      },
+      {
+        "DisassembleRecipe": {
+          "DataTable": {
+            "ObjectName": "DataTable'DisassembleRecipes'",
+            "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+          },
+          "RowName": "Disassemble.Melee.Shaft.R.Ore.T03"
+        },
+        "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+        "DisassembleDurabilityDegradeMaxLootPercent": 0.8
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "ImpactPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ImpactNiagaraPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "EquippedCharacterParts": [
+          {
+            "AssetPathName": "/MistRaven/Gameplay/Ascended/CP_Mistraven_Cloak_Black.CP_Mistraven_Cloak_Black",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.IgnoreAmmoForReload",
+          "Item.Trait.AllowSwapSingleStack",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/MistRaven/Assets/Mesh/Icons/T_Icon_BR_WraithForm_MistRaven.T_Icon_BR_WraithForm_MistRaven",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/MistRaven/Assets/Mesh/Icons/T_Icon_BR_WraithForm_MistRaven_L.T_Icon_BR_WraithForm_MistRaven_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Athena.Item.Utility",
+          "HUD.PreferredSlotType.Utility",
+          "Item.SortsRight",
+          "Rarity.VeryRare",
+          "Trait.Backpack",
+          "Trait.Mobility",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Gameplay.DamageSource.Weapon",
+          "Ability.DamageSource.Melee",
+          "Athena.HUD.Pickup.ShowTotalAmmo",
+          "Item.Consumable",
+          "Athena.HUD.EquippedItem.ShowSurplusAmmo",
+          "Item.UsesEnergyPool",
+          "Creative.Item.AllowInfiniteReserveEnergy",
+          "Granted.Cooldown.MistRaven.GrimStrut.Ascended.Cooldown",
+          "Item.Weapon.Ranged.MistRaven.WraithForm",
+          "Weapon.IgnoresCancelPrimaryAbilityOnRelease",
+          "Item.ExclusivePickupGroup.MistRavenWraithForm",
+          "Item.ExclusivePickupGroup.MistRavenCombinedExclusiveGrimStrut",
+          "phoebe.items.movement.augmentmovementitem",
+          "Phoebe.weapon.trait.ignored",
+          "MistRaven.GrimStrut.WID",
+          "phoebe.weapon.ranged",
+          "phoebe.weapon.trait.noaccuracy"
+        ]
+      }
+    ]
+  }
+}

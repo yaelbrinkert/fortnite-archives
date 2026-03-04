@@ -1,0 +1,130 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_NPC_ByTheFire",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "bGroupAnimationSync": true,
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_ByTheFire_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ByTheFire_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_ByTheFire_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ByTheFire_Follower.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_ByTheFire_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ByTheFire_Sync.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_ByTheFire_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ByTheFire_Follower.0"
+    },
+    "GroupEmotePositionOffset": {
+      "X": -150.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "bLockGroupEmoteLeaderRotation": true,
+    "GroupEmoteLeaderRotationYawOffset": 90.0,
+    "GroupEmoteFollowerRotationYawOffset": -90.0,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMM_M.Emote_ByTheFire_Leader_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMF_M.Emote_ByTheFire_Leader_CMF_M",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMM_M.Emote_ByTheFire_Leader_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMF_M.Emote_ByTheFire_Leader_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CB1DB6EC42B033CD19FD6EB421602DA3",
+      "SourceString": "Hey Now! FOR NPCs",
+      "LocalizedString": "Hey Now! FOR NPCs"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F0360FB14B31AA702732DB932745BE4C",
+      "SourceString": "USED FOR AI NPCs. SHOULD NOT BE ON STORE.",
+      "LocalizedString": "USED FOR AI NPCs. SHOULD NOT BE ON STORE."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "72010E4E40FA54302028958EE76B8426",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 7.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.68
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ByTheFire.T-Icon-Emotes-E-ByTheFire",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ByTheFire-L.T-Icon-Emotes-E-ByTheFire-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.17",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

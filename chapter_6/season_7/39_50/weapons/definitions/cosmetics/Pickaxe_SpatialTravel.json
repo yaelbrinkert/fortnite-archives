@@ -1,0 +1,194 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_SpatialTravel",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXOnPawnPreviewOffset": {
+      "X": -33.0,
+      "Y": 0.0,
+      "Z": 5.0
+    },
+    "PickaxeDualWieldPreviewOffset": {
+      "X": 1.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": -5.0,
+        "Z": -6.0
+      },
+      "CylinderHalfHeight": 4.0,
+      "CylinderRadius": 48.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_SpatialTravel'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_SpatialTravel.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_SpatialTravel:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_SpatialTravel.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      152504,
+      158352
+    ],
+    "ShotGridIds": [
+      152504,
+      152504,
+      158352
+    ],
+    "BaseShotGridId": 152504,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CC38423C499E8505ACE68692E1744975",
+      "SourceString": "Rezz-Arc",
+      "LocalizedString": "Rezz-Arc"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "86C1F2714E0ACD8ACAE39E8383913916",
+      "SourceString": "Crackling with barely-contained rezz energy.",
+      "LocalizedString": "Crackling with barely-contained rezz energy."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "C3A4E8614A3B216A889398A1C44D4C93",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": 212.0,
+          "Yaw": 270.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.DualWield",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.DigitalWheels",
+          "Cosmetics.Source.Season36.BattlePass.Paid.Additional"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S36/T_Icon_Pickaxes_SpatialTravel.T_Icon_Pickaxes_SpatialTravel",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S36/T_Icon_Pickaxes_SpatialTravel_L.T_Icon_Pickaxes_SpatialTravel_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          548,
+          556,
+          593,
+          603,
+          591,
+          24,
+          246,
+          112,
+          438,
+          440,
+          1160,
+          1190,
+          259,
+          2413,
+          1986,
+          2342,
+          2359,
+          459,
+          2382,
+          4854
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.PreviewType.OffPawn"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/PickaxeItemPreview_SpatialTravel.PickaxeItemPreview_SpatialTravel_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

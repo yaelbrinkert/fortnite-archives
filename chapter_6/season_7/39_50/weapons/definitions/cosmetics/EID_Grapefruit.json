@@ -1,0 +1,97 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Grapefruit",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Grapefruit/Emote_Grapefruit_CMM_M.Emote_Grapefruit_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Grapefruit/Emote_Grapefruit_CMF_M.Emote_Grapefruit_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Grapefruit/Emote_Grapefruit_CLM_M.Emote_Grapefruit_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Grapefruit/Emote_Grapefruit_CLF_M.Emote_Grapefruit_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 0,
+    "PreviewLength": 17.6,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      43564
+    ],
+    "BaseShotGridId": 43564,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2959567E478ADFAE276293A0A84D045A",
+      "SourceString": "PAC-Brained",
+      "LocalizedString": "PAC-Brained"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A188B2704089B2133ED101B4B174E707",
+      "SourceString": "Waka waka!",
+      "LocalizedString": "Waka waka!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F3FB3D1F4F490C5CB83F67A02749E1D0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-GrapefruitEmote.T-Icon-Emotes-GrapefruitEmote",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-GrapefruitEmote-L.T-Icon-Emotes-GrapefruitEmote-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.20",
+          "Cosmetics.Set.FightPardon"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

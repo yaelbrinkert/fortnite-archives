@@ -1,0 +1,114 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_WarmShade",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WarmShade/CMM/Emote_WarmShade_CMM_M.Emote_WarmShade_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WarmShade/CMF/Emote_WarmShade_CMF_M.Emote_WarmShade_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WarmShade/CLM/Emote_WarmShade_CLM_M.Emote_WarmShade_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WarmShade/CLF/Emote_WarmShade_CLF_M.Emote_WarmShade_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "PreviewLength": 30.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9DBC03764A30FE4D9CF030A7B76A5179",
+      "SourceString": "Ones N Twos",
+      "LocalizedString": "Ones N Twos"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A53F7E364D25380B44D89E8C446172E7",
+      "SourceString": "Turn the tables on 'em.",
+      "LocalizedString": "Turn the tables on 'em."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "BDEA28DA4423E3C0BC975C8500FD5679",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.31",
+          "Cosmetics.Set.BraveWorkshop",
+          "Cosmetics.Emote.MimosaReaction.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/T_IconEmotes_WarmShade.T_IconEmotes_WarmShade",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S31/T_IconEmotes_WarmShade_L.T_IconEmotes_WarmShade_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 70.0,
+          "Z": 25.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

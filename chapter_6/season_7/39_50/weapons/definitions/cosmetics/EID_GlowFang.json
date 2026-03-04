@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_GlowFang",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GlowFang/Spawned/Emote_GlowFang_CMM_Spawned_M.Emote_GlowFang_CMM_Spawned_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GlowFang/Spawned/Emote_GlowFang_CMF_Spawned_M.Emote_GlowFang_CMF_Spawned_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GlowFang/Spawned/Emote_GlowFang_CLM_Spawned_M.Emote_GlowFang_CLM_Spawned_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GlowFang/Spawned/Emote_GlowFang_CLF_Spawned_M.Emote_GlowFang_CLF_Spawned_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_GlowFang:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_GlowFang.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E75929924E8FC2DF64AFD58ABD666BF3",
+      "SourceString": "Lord Zedd's Magic",
+      "LocalizedString": "Lord Zedd's Magic"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "28157EF84D09CA81A7714B94D8B585B2",
+      "SourceString": "Muahahahaha!",
+      "LocalizedString": "Muahahahaha!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "08834BC349BE14EABF9ED98FD6C70E23",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.SuperSentai",
+          "Cosmetics.Filter.Season.37"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_GlowFang.T_Icon_Emotes_GlowFang",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_GlowFang_L.T_Icon_Emotes_GlowFang_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

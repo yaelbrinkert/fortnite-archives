@@ -1,0 +1,91 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_EngagedWalk",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 55.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Engaged_Walk/Engaged_Walk_Traversal_CMM_M.Engaged_Walk_Traversal_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Engaged_Walk/Engaged_Walk_Traversal_CMF_M.Engaged_Walk_Traversal_CMF_M",
+      "SubPathString": ""
+    },
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "6E9C46DA4267BC5EF4B5D5AC597F9D52",
+      "SourceString": "Focused",
+      "LocalizedString": "Focused"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AC9B278B4AFF120AA53CB6918C2CE6FB",
+      "SourceString": "Stay focused in the heat of battle. ",
+      "LocalizedString": "Stay focused in the heat of battle. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "037403314B3F6B292F83CBB6012610B3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 32.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.57
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-EngagedWalk.T-Icon-Emotes-E-EngagedWalk",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-EngagedWalk-L.T-Icon-Emotes-E-EngagedWalk-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Filter.Season.11"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

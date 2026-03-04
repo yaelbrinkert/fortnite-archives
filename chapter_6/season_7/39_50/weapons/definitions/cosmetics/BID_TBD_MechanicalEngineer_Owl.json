@@ -1,0 +1,64 @@
+{
+  "Type": "AthenaPetItemDefinition",
+  "Name": "BID_TBD_MechanicalEngineer_Owl",
+  "Class": "UScriptClass'AthenaPetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StimuliBanks": [
+      {
+        "ObjectName": "FortPetStimuliBank'SharedPetStimuli'",
+        "ObjectPath": "/BRCosmetics/Characters/Pets/Shared/SharedPetStimuli.0"
+      }
+    ],
+    "PetPrefabClass": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Mechanical_Engineer_Owl/B_Pet_MechanicalEngineer.B_Pet_MechanicalEngineer_C",
+      "SubPathString": ""
+    },
+    "PetSoundBank": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Mechanical_Engineer_Owl/SoundBank_MechEng_Owl.SoundBank_MechEng_Owl",
+      "SubPathString": ""
+    },
+    "CosmeticSoundLibraries": [
+      {
+        "ObjectName": "SoundLibrary'PT_MechOwl_VO_Lib'",
+        "ObjectPath": "/BRCosmetics/Sounds/Pets/MechEng/PT_MechOwl_VO_Lib.0"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CA418D8B47A033B94C89FBA41340EBAF",
+      "SourceString": "Ohm's Perch",
+      "LocalizedString": "Ohm's Perch"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "96ADB9334017D9B81ACF9494A18C90AB",
+      "SourceString": "Ohm's personal perch.",
+      "LocalizedString": "Ohm's personal perch."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D35E75A8434BA7CA1EBD5E875E62F6BE",
+      "SourceString": "Pet",
+      "LocalizedString": "Pet"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.8"
+        ]
+      }
+    ]
+  }
+}

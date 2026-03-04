@@ -1,0 +1,145 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_RelayStick_Plume",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CMM/Emote_RelayStick_Plume_CMM_Frontent_M.Emote_RelayStick_Plume_CMM_Frontent_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CMF/Emote_RelayStick_Plume_CMF_Frontent_Montage.Emote_RelayStick_Plume_CMF_Frontent_Montage",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CLM/Emote_RelayStick_Plume_CLM_Frontent_M.Emote_RelayStick_Plume_CLM_Frontent_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CLF/Emote_RelayStick_Plume_CLF_Frontend_M.Emote_RelayStick_Plume_CLF_Frontend_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 110.764,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CMM/Emote_RelayStick_Plume_CMM_M.Emote_RelayStick_Plume_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CMF/Emote_RelayStick_Plume_CMF_Montage.Emote_RelayStick_Plume_CMF_Montage",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CLM/Emote_RelayStick_Plume_CLM_M.Emote_RelayStick_Plume_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RelayStick_Plume/CLF/Emote_RelayStick_Plume_CLF_M.Emote_RelayStick_Plume_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CA42673A48A30B2F18CEB0A64BBA451E",
+      "SourceString": "Sonic Surfer",
+      "LocalizedString": "Sonic Surfer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D19C2AAD4B96B2DEC85BF79BE4B7B3D9",
+      "SourceString": "Be light as a giant feather.",
+      "LocalizedString": "Be light as a giant feather."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2D59F56E4B213B3AA62E2DABEA6879B4",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 100.0,
+          "Z": 35.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-RelayStick-Plume.T-Icon-Emotes-RelayStick-Plume",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-RelayStick-Plume-L.T-Icon-Emotes-RelayStick-Plume-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

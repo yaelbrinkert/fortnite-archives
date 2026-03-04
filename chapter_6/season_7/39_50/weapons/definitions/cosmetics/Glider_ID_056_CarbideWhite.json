@@ -1,0 +1,202 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_056_CarbideWhite",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 0.0,
+      "Y": -30.0,
+      "Z": 20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy_Carbide_White.B_Athena_Glider_Legacy_Carbide_White_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_CarbideBlack/Meshes/SK_Glider_CarbideBlack.SK_Glider_CarbideBlack",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.70710677,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/CarbideBlack_Glider_AnimBP.CarbideBlack_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_CarbideWhite/FX/NS_Glider_Carbide_White.NS_Glider_Carbide_White",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Glider_CarbideWhite_Open_Cue.Glider_CarbideWhite_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Glider_CarbideWhite_Close_Cue.Glider_CarbideWhite_Close_Cue",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_CarbideWhite/Materials/MI_Glider_CarbideWhite.MI_Glider_CarbideWhite",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ShotGridIds": [
+      15172
+    ],
+    "BaseShotGridId": 15172,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BC631DAD4C7D1DF9D008BBB92338DE56",
+      "SourceString": "Aurora",
+      "LocalizedString": "Aurora"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "703F67644B427F1509FCB4BF676DA51E",
+      "SourceString": "Harness the solar wind.",
+      "LocalizedString": "Harness the solar wind."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -10.0,
+          "Yaw": 245.0,
+          "Roll": -15.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-056-CarbideWhite.T-Icon_Glider-056-CarbideWhite",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-056-CarbideWhite-L.T-Icon_Glider-056-CarbideWhite-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.Promo",
+          "Cosmetics.Set.CarbideWhite",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.Filter.Season.6"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          541,
+          546,
+          231,
+          359,
+          162,
+          239,
+          603,
+          615,
+          567,
+          179,
+          958,
+          352,
+          1506,
+          1254,
+          1700,
+          253,
+          2347,
+          2400,
+          383,
+          2521,
+          388,
+          3199
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_PrivateJet",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CMM_FE_M.Emote_PrivateJet_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CMF_FE_M.Emote_PrivateJet_CMF_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CLM_FE_M.Emote_PrivateJet_CLM_FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CLF_FE_M.Emote_PrivateJet_CLF_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 100.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CMM_M.Emote_PrivateJet_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CMF_M.Emote_PrivateJet_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CLM_M.Emote_PrivateJet_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PrivateJet/Emote_PrivateJet_CLF_M.Emote_PrivateJet_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 0,
+    "PreviewLength": 12.67,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      72041
+    ],
+    "BaseShotGridId": 72041,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "99FD29444663BE2491A51DBFBF6C8795",
+      "SourceString": "Lock, Shock and Barrel's Tub",
+      "LocalizedString": "Lock, Shock and Barrel's Tub"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EA49C30A4083D04A88AE39A1FAC767EB",
+      "SourceString": "Travel on clawfoot.",
+      "LocalizedString": "Travel on clawfoot."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EADFCB4A4ED05A087089169791FBF989",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S26/T-Icon-Emotes-PrivateJet.T-Icon-Emotes-PrivateJet",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S26/T-Icon-Emotes-PrivateJet-L.T-Icon-Emotes-PrivateJet-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Filter.Season.26",
+          "Cosmetics.Set.LectureRange"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

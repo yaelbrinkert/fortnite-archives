@@ -1,0 +1,198 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_369_RebirthSoldierFreshMale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 150.0,
+      "Y": -25.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Mark_II/Meshes/Glider_Mark_II.Glider_Mark_II",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Mark_II_Glider_AnimBP.Mark_II_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Mark_II/FX/NS_Glider_RebirthSoldierFreshMale.NS_Glider_RebirthSoldierFreshMale",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/DefaultMarkII/Glider_Mark2_Open_Cue.Glider_Mark2_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/DefaultMarkII/Glider_Mark2_Close_Cue.Glider_Mark2_Close_Cue",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/DefaultMarkII/Glider_Mark2_Loop_Cue.Glider_Mark2_Loop_Cue",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      55865
+    ],
+    "BaseShotGridId": 55865,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7FC6F8AA41DA3E92FC342AA8C6C98955",
+      "SourceString": "New World Flyer",
+      "LocalizedString": "New World Flyer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BE974F854717E47C8A6E7095EC9E18D0",
+      "SourceString": "It's a whole new Island out there.",
+      "LocalizedString": "It's a whole new Island out there."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -105.0,
+          "Roll": -15.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-RebirthSoldierFreshGlider.T-Icon_Glider-RebirthSoldierFreshGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-RebirthSoldierFreshGlider-L.T-Icon_Glider-RebirthSoldierFreshGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.20",
+          "Cosmetics.Set.RookieRemake",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          541,
+          546,
+          359,
+          248,
+          162,
+          249,
+          239,
+          166,
+          389,
+          615,
+          245,
+          713,
+          179,
+          1042,
+          1180,
+          352,
+          1506,
+          1508,
+          2311,
+          2393,
+          2394,
+          2521,
+          2691,
+          404,
+          1897,
+          380,
+          392
+        ]
+      }
+    ]
+  }
+}

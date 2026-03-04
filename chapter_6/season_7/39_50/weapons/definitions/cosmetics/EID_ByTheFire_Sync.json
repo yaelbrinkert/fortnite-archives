@@ -1,0 +1,78 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ByTheFire_Sync",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "bGroupAnimationSync": true,
+    "GroupEmotePositionOffset": {
+      "X": -150.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "bLockGroupEmoteLeaderRotation": true,
+    "GroupEmoteLeaderRotationYawOffset": 90.0,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMM_M.Emote_ByTheFire_Leader_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMF_M.Emote_ByTheFire_Leader_CMF_M",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMM_M.Emote_ByTheFire_Leader_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ByTheFire/Emote_ByTheFire_Leader_CMF_M.Emote_ByTheFire_Leader_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "46C548B64BCFB1CEECFDF4A8CAD8516A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ByTheFire.T-Icon-Emotes-E-ByTheFire",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ByTheFire-L.T-Icon-Emotes-E-ByTheFire-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_VictoryCrown",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GadgetPriority": 1,
+    "AbilitySet": {
+      "AssetPathName": "/VictoryCrownsGameplay/Items/AS_VictoryCrown.AS_VictoryCrown",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::WorldResource",
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DE95707A43030AD7A97DCFB362EEA71F",
+      "SourceString": "Victory Crown",
+      "LocalizedString": "Victory Crown"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FFB4F73140593947EE5239B634850F6D",
+      "SourceString": "The Crown of a victor. Win a match while wearing it to level up the Crowning Achievement emote",
+      "LocalizedString": "The Crown of a victor. Win a match while wearing it to level up the Crowning Achievement emote"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowDepositInStorageVault"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/VictoryCrownsGameplay/Items/Assets/Meshes/Victory_Crown_Gadget.Victory_Crown_Gadget",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/VictoryCrownsGameplay/Items/B_PickupEffect_VictoryCrown.B_PickupEffect_VictoryCrown_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.13052616,
+            "Z": 0.0,
+            "W": 0.9914449,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 10.0
+          },
+          "Scale3D": {
+            "X": 1.25,
+            "Y": 1.25,
+            "Z": 1.25
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-T-Icon-BR-VictoryCrownItem'",
+            "ObjectPath": "/VictoryCrownsGameplay/Icons/T-T-Icon-BR-VictoryCrownItem.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'VictoryCrownsGameplayGameData'",
+              "ObjectPath": "/VictoryCrownsGameplay/DataTables/VictoryCrownsGameplayGameData.0"
+            },
+            "RowName": "Default.VictoryCrownsGameplay.Pickup.DespawnTime"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/VictoryCrownsGameplay/Sounds/sfx_VictoryCrown_Pickup_Cue.sfx_VictoryCrown_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "/VictoryCrownsGameplay/Sounds/sfx_VictoryCrown_Alert_Ping_Cue.sfx_VictoryCrown_Alert_Ping_Cue",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/VictoryCrownsGameplay/Sounds/sfx_VictoryCrown_Drop_Cue.sfx_VictoryCrown_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "/VictoryCrownsGameplay/Sounds/sfx_VictoryCrown_Amb_lp_Cue.sfx_VictoryCrown_Amb_lp_Cue",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/VictoryCrownsGameplay/Sounds/sfx_VictoryCrown_Drop_Impt_Cue.sfx_VictoryCrown_Drop_Impt_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 500.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": true,
+        "bDropOnDeath": true,
+        "bDropOnLogout": true,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 12.365363,
+          "Y": 13.721681,
+          "Z": 8.841149
+        }
+      },
+      {
+        "SpecialActorPickupTag": {
+          "TagName": "SpecialActor.VictoryCrown.Pickup"
+        },
+        "MapLegendTag": {
+          "TagName": "MapLegend.PlayerVariable.VictoryCrown"
+        },
+        "PickupCompassRenderDistance": 40000.0,
+        "SpecialActorPickupStatList": [],
+        "PickupMinimapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-T-Icon-BR-VictoryCrownItem'",
+            "ObjectPath": "/VictoryCrownsGameplay/Icons/T-T-Icon-BR-VictoryCrownItem.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupMinimapIconScale": {
+          "X": 0.25,
+          "Y": 0.25
+        },
+        "PickupCompassIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-T-Icon-BR-VictoryCrownItem'",
+            "ObjectPath": "/VictoryCrownsGameplay/Icons/T-T-Icon-BR-VictoryCrownItem.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupCompassIconScale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "RenderTags": [],
+        "RenderDisabledTags": [],
+        "bDrawCompassDistanceText": true,
+        "bDrawMapIconUnderStorm": false
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "9F70EE604CE8ABDDDBF69199D8EB361C",
+          "SourceString": "Victory Crown",
+          "LocalizedString": "Victory Crown"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/VictoryCrownsGameplay/Icons/T-T-Icon-BR-VictoryCrownItem.T-T-Icon-BR-VictoryCrownItem",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/VictoryCrownsGameplay/Icons/T-T-Icon-BR-VictoryCrownItem-L.T-T-Icon-BR-VictoryCrownItem-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Gadget"
+      },
+      {
+        "Tags": [
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Utility",
+          "Item.AutoPickupDisabled",
+          "HUD.Athena.Inventory.Resource.TopRow",
+          "Item.VictoryCrown"
+        ]
+      }
+    ]
+  }
+}

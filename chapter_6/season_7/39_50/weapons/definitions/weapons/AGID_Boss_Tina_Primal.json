@@ -1,0 +1,329 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Boss_Tina_Primal",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Bow",
+        "CH2S2",
+        "Explosive",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "GadgetPriority": 1,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "AttributeSet": {
+      "AssetPathName": "/Script/FortniteGame.FortChargingSet_Kaboom",
+      "SubPathString": ""
+    },
+    "AttributeInitKey": {
+      "AttributeInitCategory": "Kaboom",
+      "AttributeInitSubCategory": "Default"
+    },
+    "TrackedAttributes": [
+      {
+        "AttributeName": "Charge",
+        "Attribute": {
+          "Path": [
+            "Charge"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'FortChargingSet_Kaboom'",
+            "ObjectPath": "/Script/FortniteGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'FortChargingSet_Kaboom'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "AttributeName": "MaxCharge",
+        "Attribute": {
+          "Path": [
+            "MaxCharge"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'FortChargingSet_Kaboom'",
+            "ObjectPath": "/Script/FortniteGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'FortChargingSet_Kaboom'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "AttributeName": "ChargeRate",
+        "Attribute": {
+          "Path": [
+            "ChargeRate"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'FortChargingSet_Kaboom'",
+            "ObjectPath": "/Script/FortniteGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'FortChargingSet_Kaboom'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      }
+    ],
+    "WeaponItemDefinition": {
+      "AssetPathName": "/PrimalGameplay/Items/BossWeapons/TnTina/WID_Boss_Tina_Primal.WID_Boss_Tina_Primal",
+      "SubPathString": ""
+    },
+    "bValidForLastEquipped": true,
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E748E1CB492B24D9BF5C89986DDAB984",
+      "SourceString": "TNTina's Ka-Boom Bow",
+      "LocalizedString": "TNTina's Ka-Boom Bow"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.AlwaysCountForCollectionQuest"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Game/Weapons/FORT_Crossbows/TNTina_Bow/Meshes/TNTina_Bow.TNTina_Bow",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_Weapons/Grenades/Frag/Grenade_Frag_Pickup_Cue.Grenade_Frag_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Item_Consumables_Generic_Drop_Cue.Item_Consumables_Generic_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": true,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.20415,
+          "Y": 44.178337,
+          "Z": 51.782036
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "972DE8F2462570AA4C8AAD99E1D6A411",
+          "SourceString": "Ranged Weapon",
+          "LocalizedString": "Ranged Weapon"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-TnTinaBow.T-Icon-Weapons-TnTinaBow",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-TnTinaBow-L.T-Icon-Weapons-TnTinaBow-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Ranged.Crossbow.Explosive",
+          "Trait.Explosive",
+          "phoebe.weapon.ranged.bow",
+          "phoebe.items.BoomBow",
+          "phoebe.weapon.trait.infiniteammo",
+          "Weapon.Gadget.CooldownType.Attribute",
+          "Item.Weapon.Ranged.Bow.Explosive.TNTina",
+          "Rarity.Mythic",
+          "Item.SortsRight",
+          "Gadget.Cooldown.ShowNumbers",
+          "Item.UsesCharges"
+        ]
+      }
+    ]
+  }
+}

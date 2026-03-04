@@ -1,0 +1,303 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_JunoMaple_Scroll_T3",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bCanBeDroppedWhenEquipmentChangeIsBlocked": true,
+    "bAllowedFuelGadgetUI": false,
+    "InventoryMinimapIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "InventoryCompassIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "bApplyGadgetDataManually": true,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "AbilitySet": {
+      "AssetPathName": "/JunoTabascoMaple/Scroll/AS_JunoMaple_Scroll_T3.AS_JunoMaple_Scroll_T3",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::Gadget",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D00A59AC46A1650676D27D80754892E8",
+      "SourceString": "Advanced EARTH Spinjitzu Scroll",
+      "LocalizedString": "Advanced EARTH Spinjitzu Scroll"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "7A5E86414F2E857BF20FE19F19AEA9BB",
+      "SourceString": "While equipped, gain Double Jump, Breakfall Landing, Ninja Run, and a more powerful Spinjitzu Tornado of EARTH. Strong against LIGHTNING.\n\nSpinjitzu deals more damage and uses less stamina.",
+      "LocalizedString": "While equipped, gain Double Jump, Breakfall Landing, Ninja Run, and a more powerful Spinjitzu Tornado of EARTH. Strong against LIGHTNING.\n\nSpinjitzu deals more damage and uses less stamina."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "25B38C394F82FDBA591687B62EC6EC15",
+      "SourceString": "\"Long before us, long after us, the patient rock remains.\" - Ancient Spinjitzu Proverb",
+      "LocalizedString": "\"Long before us, long after us, the patient rock remains.\" - Ancient Spinjitzu Proverb"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoTabascoMaple/Scroll/Art/T_UI_Juno_NinjaScrollMaple.T_UI_Juno_NinjaScrollMaple",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Juno.Item.Gear.Player",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Juno.Inventory.Group.Gear.PassiveEquipment",
+          "Juno.Item.Tabasco.MapleScroll.T3"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoTabascoMaple/Scroll/Mesh/SM_Gear_NinjaScroll_EarthT1_A.SM_Gear_NinjaScroll_EarthT1_A",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.12941,
+            "Y": -0.129409,
+            "Z": 0.017037,
+            "W": 0.982963,
+            "IsNormalized": true,
+            "Size": 1.0000001,
+            "SizeSquared": 1.0000002
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 60000.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoTabascoMaple/Audio/SoundCues/SC_Item_Scroll_Earth_Pickup_Stow.SC_Item_Scroll_Earth_Pickup_Stow",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoTabascoMaple/Audio/SoundCues/SC_Item_Scroll_Earth_Drop.SC_Item_Scroll_Earth_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoTabascoMaple/Audio/SoundCues/SC_Item_Scroll_Earth_Land.SC_Item_Scroll_Earth_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": false,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 15.999998,
+          "Y": 15.999973,
+          "Z": 3.1999998
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Equipment"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.Equipment"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "3B48ABD74C0102BA623722A8BA162046",
+          "SourceString": "Learn in the Ninja EARTH Mastery Tab",
+          "LocalizedString": "Learn in the Ninja EARTH Mastery Tab"
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "AGIDJunoMapleScrollT3"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

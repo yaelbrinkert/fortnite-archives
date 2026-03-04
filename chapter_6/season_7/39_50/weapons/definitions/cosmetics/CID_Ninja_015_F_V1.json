@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Ninja_015_F_V1",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Female/Small/Ninja/Ninja_Female_Body_Montage_Idle.Ninja_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/MontageLookUpTables/SmallFemale.SmallFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Ninja_015_F_V1:CP_Body_Ninja_015_F_V1_UC'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Ninja/CosmeticCharacterItemDefinitions/CID_Ninja_015_F_V1.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "46890D7B42A6918DD00D14BB8C8D3C70",
+      "SourceString": "Harvester Sarah",
+      "LocalizedString": "Harvester Sarah"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "687BD57045D97E4891F90B8B22C9A6D5",
+      "SourceString": "\"It's gonna be a good harvest.\" - Sarah",
+      "LocalizedString": "\"It's gonna be a good harvest.\" - Sarah"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Ninja/Portrait/T-Ninja-HID-Ninja-015-F-V1-UC-T01.T-Ninja-HID-Ninja-015-F-V1-UC-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Ninja/Portrait/T-Ninja-HID-Ninja-015-F-V1-UC-T01-L.T-Ninja-HID-Ninja-015-F-V1-UC-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.ShoesSneakers"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

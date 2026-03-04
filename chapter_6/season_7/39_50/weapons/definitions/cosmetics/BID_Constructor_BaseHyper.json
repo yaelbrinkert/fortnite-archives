@@ -1,0 +1,52 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_Constructor_BaseHyper",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'Male_Constructor_02_V01'",
+        "ObjectPath": "/SaveTheWorld/Characters/CharacterParts/Backpacks/Male_Constructor_02_V01.1"
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'BID_Constructor_BaseHyper:Male_Constructor_02_V01'",
+        "ObjectPath": "/SaveTheWorld/Items/Cosmetics/Backpacks/Constructor/BID_Constructor_BaseHyper.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Constructor-BaseHyper-VariantEpic.T-Icon-Backpacks-Constructor-BaseHyper-VariantEpic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Constructor-BaseHyper-VariantEpic-L.T-Icon-Backpacks-Constructor-BaseHyper-VariantEpic-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

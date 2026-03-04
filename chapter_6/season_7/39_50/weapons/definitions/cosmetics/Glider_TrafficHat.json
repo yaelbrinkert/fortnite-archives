@@ -1,0 +1,286 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_TrafficHat",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 130.0,
+      "Y": -30.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Default_Mark_III/Meshes/Default_Mark_III_Glider.Default_Mark_III_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Default_Mark_III_Glider_AnimBP.Default_Mark_III_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_TrafficHat/FX/NS_Glider_TrafficHat_Trail.NS_Glider_TrafficHat_Trail",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/Game/Sounds/Fort_Gadgets/Athena/MarkIIIMale/GliderOpen_MarkIIIMale.GliderOpen_MarkIIIMale",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/Game/Sounds/Fort_Gadgets/Athena/MarkIIIMale/GliderClose_MarkIIIMale.GliderClose_MarkIIIMale",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/Game/Sounds/Fort_Gadgets/Athena/MarkIIIMale/GliderThrustLoop_MarkIIIMale_Cue.GliderThrustLoop_MarkIIIMale_Cue",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/Game/Sounds/Fort_Gadgets/Athena/MarkIIIMale/GliderThrustStart_MarkIIIMale.GliderThrustStart_MarkIIIMale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/Game/Sounds/Fort_Gadgets/Athena/MarkIIIMale/GliderThrustStart_MarkIIIMale.GliderThrustStart_MarkIIIMale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/Game/Sounds/Fort_Gadgets/Athena/MarkIIIMale/GliderThrustStart_MarkIIIMale.GliderThrustStart_MarkIIIMale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_TrafficHat/Materials/MI_Glider_TrafficHat.MI_Glider_TrafficHat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 1,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_TrafficHat/Materials/MI_Glider_TrafficHat_Tarp.MI_Glider_TrafficHat_Tarp",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/BRCosmetics/Environments/FrontEnd/Blueprints/ItemPreview/Cameras_Glider/GliderItemPreview_DefaultMk3.GliderItemPreview_DefaultMk3_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      126989
+    ],
+    "BaseShotGridId": 126989,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "171CA6CF40735061285CFF96E3B02568",
+      "SourceString": "Chemist's Cloudglider",
+      "LocalizedString": "Chemist's Cloudglider"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "10A7C9F249D3ED92B32E79AE08E6939E",
+      "SourceString": "Cumulonimb-tastic!",
+      "LocalizedString": "Cumulonimb-tastic!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 35.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -10.0,
+          "Yaw": 120.0,
+          "Roll": 12.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S34/T_Icon_Glider_TrafficHat.T_Icon_Glider_TrafficHat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S34/T_Icon_Glider_TrafficHat_L.T_Icon_Glider_TrafficHat_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.RandomPotion",
+          "Cosmetics.Source.Season34.BattlePass.Free"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          490,
+          238,
+          541,
+          546,
+          548,
+          114,
+          248,
+          162,
+          566,
+          573,
+          576,
+          262,
+          244,
+          558,
+          389,
+          615,
+          45,
+          564,
+          652,
+          861,
+          1180,
+          352,
+          1408,
+          1254
+        ]
+      }
+    ]
+  }
+}

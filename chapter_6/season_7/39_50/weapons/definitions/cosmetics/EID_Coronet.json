@@ -1,0 +1,89 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Coronet",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Coronet/Emote_Coronet_CMM_M.Emote_Coronet_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Coronet/Emote_Coronet_CMF_M.Emote_Coronet_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Coronet/Emote_Coronet_CLM_M.Emote_Coronet_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Coronet/Emote_Coronet_CLF_M.Emote_Coronet_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      52949
+    ],
+    "BaseShotGridId": 52949,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4384B27D493C4251D6D68285708466C8",
+      "SourceString": "Crowning Achievement",
+      "LocalizedString": "Crowning Achievement"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D781287641F14C02FD3CA09E83DFBEB2",
+      "SourceString": "Oooh, sparkly. ",
+      "LocalizedString": "Oooh, sparkly. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "1C0462E947110A4CF64C6DBACF851940",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Coronet.T-Icon-Emotes-E-Coronet",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Coronet-L.T-Icon-Emotes-E-Coronet-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

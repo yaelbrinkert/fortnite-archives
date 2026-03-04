@@ -1,0 +1,65 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_PatPat_Sync_Owned_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "bGroupAnimationSync": true,
+    "GroupEmotePositionOffset": {
+      "X": -110.14,
+      "Y": 2.11,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 0.0,
+    "bLockGroupEmoteLeaderRotation": true,
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/PatPat/Emote_PatPat_CMM_Join_M.Emote_PatPat_CMM_Join_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/PatPat/Emote_PatPat_CMF_Join_M.Emote_PatPat_CMF_Join_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5543578C4ED8F48FE4E56FB212A15D24",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-PatPat.T-Icon-Emotes-E-PatPat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-PatPat-L.T-Icon-Emotes-E-PatPat-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

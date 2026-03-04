@@ -1,0 +1,365 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_SMGShotgun_PrimaryShotgun_Athena_X",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bForceProjectileTooltip": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/B_DualWield_VividRazor_ShotgunPrimary_Athena.B_DualWield_VividRazor_ShotgunPrimary_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Shotgun/DualWield_VividRazor_Shotgun.DualWield_VividRazor_Shotgun",
+      "SubPathString": ""
+    },
+    "IntrinsicOverrideWrap": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/ItemWraps/Wrap_RushedMummy.Wrap_RushedMummy",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Shotgun_VividRazor_DualWield_Athena_Exotic_UR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/GA_Ranged_PrimaryShotgunDamage.GA_Ranged_PrimaryShotgunDamage_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/GA_SMGShotgun_Secondary_Empty.GA_SMGShotgun_Secondary_Empty_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Exotic/GA_SMGShotgun_ReloadSwapZeroX.GA_SMGShotgun_ReloadSwapZeroX_C",
+        "SubPathString": ""
+      }
+    ],
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCornerAngles": [],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "PlayerGrantedGameplayTags": [
+      "CameraController.DisableFirstPerson"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_smgshotgun_primaryshotgun_athena_x"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Light",
+        "Ammo:Shells",
+        "CH6S2",
+        "Exotic",
+        "Shotgun",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Transcendent",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A1E8D02946CD5F6D69C846991C026AFB",
+      "SourceString": "Lawless Blink Pump & Dump",
+      "LocalizedString": "Lawless Blink Pump & Dump"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BF335CBF4132A9744CEBF9A75100B6EF",
+      "SourceString": "Exotic Pump & Dump: Grants a few seconds of zero point dash after reloading.",
+      "LocalizedString": "Exotic Pump & Dump: Grants a few seconds of zero point dash after reloading."
+    },
+    "DataList": [
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_VividRazor_SMGShotgun_Shotgun_Weapon'",
+            "ObjectPath": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Audio/SL_VividRazor_SMGShotgun_Shotgun_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Shotgun/DualWield_VividRazor_Pickup.DualWield_VividRazor_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Audio/MSS_VividRazor_SMGShotgun_Pickup_Preset.MSS_VividRazor_SMGShotgun_Pickup_Preset",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Audio/MSS_VividRazor_SMGShotgun_Drop.MSS_VividRazor_SMGShotgun_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Audio/MSS_VividRazor_SMGShotgun_Drop_Impact.MSS_VividRazor_SMGShotgun_Drop_Impact",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "Item.Weapon.Ranged.Shotgun"
+        },
+        "MeshBoundsExtents": {
+          "X": 15.042331,
+          "Y": 31.185707,
+          "Z": 16.58383
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/UI/Icons/T_Icon_Weapons_SMG_Dual_VividRazor_Blink_L.T_Icon_Weapons_SMG_Dual_VividRazor_Blink_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/UI/Icons/T_Icon_Weapons_SMG_Dual_VividRazor_Blink.T_Icon_Weapons_SMG_Dual_VividRazor_Blink",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/DualWieldingRuntime.FortGameplayAbility_ReloadPrimary",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Ranged",
+          "Rarity.Transcendent",
+          "HUD.PreferredSlotType.SMG",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Item.Weapon.Ranged.Shotgun.DualWield.ShotgunSMG.Exotic",
+          "Weapon.Vehicle.Gamepad.DisableEnclosedPassengerReleaseReload",
+          "Weapon.RequiresLeaningToFireInEnclosedVehicle"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.AllowSwapSingleStack",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "AdditonalAssetIds": [
+          {
+            "PrimaryAssetType": {
+              "Name": "Weapon"
+            },
+            "PrimaryAssetName": "WID_SMGShotgun_SecondarySMG_Athena_X"
+          }
+        ]
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Shotgun'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Shotgun.0"
+        }
+      },
+      {
+        "LinkedItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Exotic/WID_SMGShotgun_SecondarySMG_Athena_X.WID_SMGShotgun_SecondarySMG_Athena_X",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VII",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

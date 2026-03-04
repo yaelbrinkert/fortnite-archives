@@ -1,0 +1,118 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Drum_RelaxedDrummer",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/RelaxedDrummer/Persistent/Emote_Drums_RelaxedDrummer_CMM_M.Emote_Drums_RelaxedDrummer_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/RelaxedDrummer/Persistent/Emote_Drums_RelaxedDrummer_CMF_M.Emote_Drums_RelaxedDrummer_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/RelaxedDrummer/Persistent/Emote_Drums_RelaxedDrummer_CLM_M.Emote_Drums_RelaxedDrummer_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/RelaxedDrummer/Persistent/Emote_Drums_RelaxedDrummer_CLF_M.Emote_Drums_RelaxedDrummer_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 33.0,
+      "Roll": 0.0
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Drum_RelaxedDrummer:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Drum/RelaxedDrummer/EID_Drum_RelaxedDrummer.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0402144D4AE985B79AC146BC4B051311",
+      "SourceString": "The Break",
+      "LocalizedString": "The Break"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C90085EA418406FE31E984833AD76915",
+      "SourceString": "It's all about the beats you don't play. ",
+      "LocalizedString": "It's all about the beats you don't play. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "056D691442A630A358A612B5715B6B44",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Drum_RelaxedDrummer.T_UI_Icon_SparksEmote_Drum_RelaxedDrummer",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Drum_RelaxedDrummer_L.T_UI_Icon_SparksEmote_Drum_RelaxedDrummer_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.57
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks.Season.07",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

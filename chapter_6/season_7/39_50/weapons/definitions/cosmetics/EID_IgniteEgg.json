@@ -1,0 +1,121 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_IgniteEgg",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IgniteEgg/CMM/Emote_IgniteEgg_CMM_M.Emote_IgniteEgg_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IgniteEgg/CMF/Emote_IgniteEgg_CMF_M.Emote_IgniteEgg_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IgniteEgg/CLM/Emote_IgniteEgg_CLM_M.Emote_IgniteEgg_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IgniteEgg/CLF/Emote_IgniteEgg_CLF_M.Emote_IgniteEgg_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": -50.0,
+      "Roll": 0.0
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_IgniteEgg:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_IgniteEgg.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_IgniteEgg:FortCosmeticLoadoutTagDrivenVariant_5'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_IgniteEgg.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C525AFD94FA89EA8041A448172E27664",
+      "SourceString": "Saitama's Routine",
+      "LocalizedString": "Saitama's Routine"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A312ED484469E5F458669EB46E496B55",
+      "SourceString": "Every single day!!!",
+      "LocalizedString": "Every single day!!!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "18E1DDA4477B83BCA417C1A8CA24C208",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 18.0,
+          "Y": 100.0,
+          "Z": 4.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.BaldFist"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_IgniteEgg.T_Icon_Emotes_IgniteEgg",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_IgniteEgg_L.T_Icon_Emotes_IgniteEgg_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

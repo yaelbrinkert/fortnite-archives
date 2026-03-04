@@ -1,0 +1,76 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Outlander_022",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Medium/Outlander/Outlander_Male_Body_MediumBodyType_Montage_Idle.Outlander_Male_Body_MediumBodyType_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Outlander_022:CP_Athena_Body_M_ArcticSniper'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Outlander/CosmeticCharacterItemDefinitions/CID_Outlander_022.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4D900B8343DD5C151E054084EAD83FD5",
+      "SourceString": "Subzero Zenith",
+      "LocalizedString": "Subzero Zenith"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B612EED7468A5CB70A01B5A838D44518",
+      "SourceString": "Peak performance at any elevation.",
+      "LocalizedString": "Peak performance at any elevation."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Outlander/Portrait/T-Outlander-HID-Outlander-022-SR-T01.T-Outlander-HID-Outlander-022-SR-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Outlander/Portrait/T-Outlander-HID-Outlander-022-SR-T01-L.T-Outlander-HID-Outlander-022-SR-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

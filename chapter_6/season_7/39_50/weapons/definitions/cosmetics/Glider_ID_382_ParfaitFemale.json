@@ -1,0 +1,511 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_382_ParfaitFemale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_Generic_HighTower_Tapas_Trifle_Parfait.B_Athena_Glider_Generic_HighTower_Tapas_Trifle_Parfait_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Parfait_Female/Meshes/Parfait_Female_Glider.Parfait_Female_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Parfait_Female/Meshes/Parfait_HighTower_Tapas_Glider_AnimBP.Parfait_HighTower_Tapas_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/BRCosmetics/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveNoGlider.Athena_PlayerCameraModeSkydiveNoGlider_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/HighTowerTapas/HighTowerTapasPlayerAnimSet.HighTowerTapasPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Parfait_Female/FX/NS_Glider_Parfait_Female.NS_Glider_Parfait_Female",
+          "SubPathString": ""
+        },
+        "EffectSocket": "FX_Root",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "GlidingSwaps": [
+      {
+        "SwapRequirements": [
+          {
+            "ItemCategory": "ECosmeticMetaTagRequirementCategory::Character",
+            "SpecificItem": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_439_Athena_Commando_M_Trifle.CID_A_439_Athena_Commando_M_Trifle",
+              "SubPathString": ""
+            },
+            "MetaTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "RequiredMetaTags": [
+              "Cosmetics.MetaTags.CapeOff"
+            ],
+            "ExcludedMetaTags": []
+          },
+          {
+            "ItemCategory": "ECosmeticMetaTagRequirementCategory::Backpack",
+            "SpecificItem": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MetaTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "RequiredMetaTags": [],
+            "ExcludedMetaTags": [
+              "Cosmetics.Backpack.IsCape"
+            ]
+          }
+        ],
+        "SwapData": [
+          {
+            "Item": {
+              "ObjectName": "AthenaCharacterItemDefinition'CID_A_439_Athena_Commando_M_Trifle'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_439_Athena_Commando_M_Trifle.0"
+            },
+            "ChannelInfoList": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaCharacterItemDefinition'CID_A_439_Athena_Commando_M_Trifle'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_439_Athena_Commando_M_Trifle.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Parts"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Stage1"
+                }
+              }
+            ],
+            "CachedItemType": "EFortItemType::Max_None"
+          }
+        ],
+        "ForcedSwapState": "EFortAppliedSwapItemAndVariantState::Active",
+        "SwapId": "0E4ACB67-4068EA70-2DF22182-173D9184"
+      },
+      {
+        "SwapRequirements": [
+          {
+            "ItemCategory": "ECosmeticMetaTagRequirementCategory::Character",
+            "SpecificItem": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_440_Athena_Commando_F_Parfait.CID_A_440_Athena_Commando_F_Parfait",
+              "SubPathString": ""
+            },
+            "MetaTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "RequiredMetaTags": [
+              "Cosmetics.MetaTags.CapeOff"
+            ],
+            "ExcludedMetaTags": []
+          },
+          {
+            "ItemCategory": "ECosmeticMetaTagRequirementCategory::Backpack",
+            "SpecificItem": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MetaTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "RequiredMetaTags": [],
+            "ExcludedMetaTags": [
+              "Cosmetics.Backpack.IsCape"
+            ]
+          }
+        ],
+        "SwapData": [
+          {
+            "Item": {
+              "ObjectName": "AthenaCharacterItemDefinition'CID_A_440_Athena_Commando_F_Parfait'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_440_Athena_Commando_F_Parfait.0"
+            },
+            "ChannelInfoList": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaCharacterItemDefinition'CID_A_440_Athena_Commando_F_Parfait'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_440_Athena_Commando_F_Parfait.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Material"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Mat1"
+                }
+              }
+            ],
+            "CachedItemType": "EFortItemType::Max_None"
+          }
+        ],
+        "ForcedSwapState": "EFortAppliedSwapItemAndVariantState::Active",
+        "SwapId": "1D60517E-447A4219-A1E44EB1-AC6A52E4"
+      },
+      {
+        "SwapRequirements": [
+          {
+            "ItemCategory": "ECosmeticMetaTagRequirementCategory::Backpack",
+            "SpecificItem": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MetaTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "RequiredMetaTags": [],
+            "ExcludedMetaTags": [
+              "Cosmetics.Backpack.IsCape"
+            ]
+          },
+          {
+            "ItemCategory": "ECosmeticMetaTagRequirementCategory::Glider",
+            "SpecificItem": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_382_ParfaitFemale.Glider_ID_382_ParfaitFemale",
+              "SubPathString": ""
+            },
+            "MetaTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "RequiredMetaTags": [],
+            "ExcludedMetaTags": [
+              "Cosmetics.MetaTags.Style.OptionA"
+            ]
+          }
+        ],
+        "SwapData": [
+          {
+            "Item": null,
+            "ChannelInfoList": [],
+            "CachedItemType": "EFortItemType::Max_None"
+          }
+        ],
+        "ForcedSwapState": "EFortAppliedSwapItemAndVariantState::Active",
+        "SwapId": "00AF6296-4871D8DF-4D520D82-1D4A8374"
+      },
+      {
+        "SwapRequirements": [
+          {
+            "ItemCategory": "ECosmeticMetaTagRequirementCategory::Glider",
+            "SpecificItem": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_382_ParfaitFemale.Glider_ID_382_ParfaitFemale",
+              "SubPathString": ""
+            },
+            "MetaTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "RequiredMetaTags": [
+              "Cosmetics.MetaTags.Style.OptionA"
+            ],
+            "ExcludedMetaTags": []
+          }
+        ],
+        "SwapData": [
+          {
+            "Item": {
+              "ObjectName": "AthenaBackpackItemDefinition'BID_Empty'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/BID_Empty.0"
+            },
+            "ChannelInfoList": [],
+            "CachedItemType": "EFortItemType::Max_None"
+          }
+        ],
+        "ForcedSwapState": "EFortAppliedSwapItemAndVariantState::Active",
+        "SwapId": "E66D15FA-451CC5DF-9CE010B0-09523626"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ParfaitFemale/SC_GliderOpen_ParfaitFemale.SC_GliderOpen_ParfaitFemale",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ParfaitFemale/SC_GliderClose_ParfaitFemale.SC_GliderClose_ParfaitFemale",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ParfaitFemale/SC_GliderThrustLoop_ParfaitFemale.SC_GliderThrustLoop_ParfaitFemale",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ParfaitFemale/SC_GliderThrustStart_ParfaitFemale.SC_GliderThrustStart_ParfaitFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ParfaitFemale/SC_GliderThrustStart_Small_ParfaitFemale.SC_GliderThrustStart_Small_ParfaitFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ParfaitFemale/SC_GliderThrustStart_Small_ParfaitFemale.SC_GliderThrustStart_Small_ParfaitFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'Glider_ID_382_ParfaitFemale:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_382_ParfaitFemale.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+      "SubPathString": ""
+    },
+    "ItemPreviewHero": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_440_Athena_Commando_F_Parfait.CID_A_440_Athena_Commando_F_Parfait",
+      "SubPathString": ""
+    },
+    "ExclusiveRequiresOutfitTags": [
+      "Cosmetics.Exclusives.Parfait",
+      "Cosmetics.Exclusives.ParfaitGlider"
+    ],
+    "CustomExclusiveCallout": {
+      "Namespace": "",
+      "Key": "8AE951664FDFB7EE585B948E036C9CF4",
+      "SourceString": "Appears as the Default Glider when not equipped with a Thor Outfit.",
+      "LocalizedString": "Appears as the Default Glider when not equipped with a Thor Outfit."
+    },
+    "ShotGridIds": [
+      51496
+    ],
+    "BaseShotGridId": 51496,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3AC40AA24693098A5FA2B1840C3EB8DA",
+      "SourceString": "Mjolnir's Flight",
+      "LocalizedString": "Mjolnir's Flight"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BACBF4834AB79B56773480AF9114455C",
+      "SourceString": "Use the lightning to glide through the sky.",
+      "LocalizedString": "Use the lightning to glide through the sky."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -20.0,
+          "Yaw": 120.0,
+          "Roll": 25.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-ParfaitGlider.T-Icon_Glider-ParfaitGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-ParfaitGlider-L.T-Icon_Glider-ParfaitGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.21",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.FunnySofa",
+          "Cosmetics.Frontend.ItemSelect.PreviewCharacterOnConflictOnly",
+          "Cosmetics.FrontEnd.Preview.ForceUserBackpack"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          490,
+          541,
+          546,
+          248,
+          105,
+          607,
+          591,
+          613,
+          246,
+          1339,
+          2100,
+          767,
+          112,
+          1019,
+          161,
+          314,
+          1208,
+          2317,
+          2359,
+          2493,
+          2494
+        ]
+      }
+    ]
+  }
+}

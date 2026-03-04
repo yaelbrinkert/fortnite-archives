@@ -1,0 +1,116 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Astral",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astral/Emote_Astral_CMM_M.Emote_Astral_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astral/Emote_Astral_CMF_M.Emote_Astral_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astral/Emote_Astral_CLM_M.Emote_Astral_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Astral/Emote_Astral_CLF_M.Emote_Astral_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      58824
+    ],
+    "BaseShotGridId": 58824,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F2C278B544BAAD988D4C869A0F0CA994",
+      "SourceString": "Starfire's Flourish",
+      "LocalizedString": "Starfire's Flourish"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5B25D2E94C684162FB7D72A6314404B2",
+      "SourceString": "Demonstrate your Tamaranean powers in a beautiful display.",
+      "LocalizedString": "Demonstrate your Tamaranean powers in a beautiful display."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8652CD0A49C77F7F049EDAADCE049649",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'DCUSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/DCUSeries.0"
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 7.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.65
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Astral.T-Icon-Emotes-E-Astral",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Astral-L.T-Icon-Emotes-E-Astral-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.AutomaticDuke",
+          "Cosmetics.Filter.Season.21"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

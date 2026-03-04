@@ -1,0 +1,173 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_MercurialStorm",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXPreviewOffset": {
+      "X": -50.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": -12.0,
+        "Y": 5.0,
+        "Z": 12.0
+      },
+      "CylinderHalfHeight": 60.0,
+      "CylinderRadius": 55.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_MercurialStorm'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_MercurialStorm.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_MercurialStorm:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_MercurialStorm.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 5.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+      "SubPathString": ""
+    },
+    "ItemPreviewHero": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_MercurialStorm.Character_MercurialStorm",
+      "SubPathString": ""
+    },
+    "ExclusiveRequiresOutfitTags": [
+      "Cosmetics.Exclusives.MercurialStorm"
+    ],
+    "CustomExclusiveCallout": {
+      "Namespace": "",
+      "Key": "7AED8E7446ED0E4FE72EF5BF2106102C",
+      "SourceString": "Appears as the Default Pickaxe when not equipped along with the Iron Man Zero Outfit.",
+      "LocalizedString": "Appears as the Default Pickaxe when not equipped along with the Iron Man Zero Outfit."
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "568113C848C4A6D3A328229313778708",
+      "SourceString": "Bladed Gauntlet",
+      "LocalizedString": "Bladed Gauntlet"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "13A752A84C6021D1BEA8FA842F39356A",
+      "SourceString": "A wrist-mounted blade for combat.",
+      "LocalizedString": "A wrist-mounted blade for combat."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "62276CCF43CF13CB842A81AA67A7A10D",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-Pickaxe-MercurialStorm.T-Icon-Pickaxes-Pickaxe-MercurialStorm",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-Pickaxe-MercurialStorm-L.T-Icon-Pickaxes-Pickaxe-MercurialStorm-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.OneHanded",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.NoneBattle"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": -3.0,
+          "Yaw": 38.0,
+          "Roll": 38.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          541,
+          546,
+          359,
+          247,
+          162,
+          580,
+          567,
+          564,
+          24,
+          112,
+          440,
+          1042,
+          116,
+          1180,
+          259,
+          1907,
+          1095,
+          1986,
+          2379,
+          2381,
+          2563
+        ]
+      }
+    ]
+  }
+}

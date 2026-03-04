@@ -1,0 +1,190 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "Backpack_NimblePilot",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Backpack_NimblePilot'",
+        "ObjectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/CP_Backpack_NimblePilot.1"
+      }
+    ],
+    "ObservedPlayerStats": [
+      "StatManager.AthenaKills"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Backpack_NimblePilot:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/Backpack_NimblePilot.1"
+      },
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Backpack_NimblePilot:FortCosmeticParticleVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/Backpack_NimblePilot.2"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle3"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle4"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle5"
+            }
+          },
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle6"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "ShotGridIds": [
+      159078
+    ],
+    "BaseShotGridId": 159078,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3E015F8E45D5FD42638161BD1AA11B90",
+      "SourceString": "Control Center",
+      "LocalizedString": "Control Center"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "74CEC6CB46FDACA7C3EB20B1200AB767",
+      "SourceString": "Never lose control.",
+      "LocalizedString": "Never lose control."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "CB08DCC34AA357ED4D9719806D6EA841",
+      "SourceString": "Back Bling",
+      "LocalizedString": "Back Bling"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Backpacks/S37/T_Icon_Backpacks_NimblePilot.T_Icon_Backpacks_NimblePilot",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Backpacks/S37/T_Icon_Backpacks_NimblePilot_L.T_Icon_Backpacks_NimblePilot_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.CrewBling.Progressive",
+          "Cosmetics.Set.AndDone"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CrewSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CrewSeries.0"
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          548,
+          359,
+          247,
+          276,
+          1042,
+          1441,
+          1180,
+          1329,
+          318,
+          2415,
+          2416,
+          2590,
+          2600,
+          493,
+          2750,
+          406,
+          3228,
+          3323,
+          5296,
+          5319,
+          6001
+        ]
+      },
+      {
+        "SpecificationMethod": "ECosmeticItemPreviewActorOverrideMethod::Explicit",
+        "ExplicitPreviewActorOverride": {
+          "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_BackpackReducedGlare.ItemOnPawnPreview_BackpackReducedGlare_C",
+          "SubPathString": ""
+        },
+        "PreviewActorIdentifierTag": {
+          "TagName": "None"
+        }
+      }
+    ]
+  }
+}

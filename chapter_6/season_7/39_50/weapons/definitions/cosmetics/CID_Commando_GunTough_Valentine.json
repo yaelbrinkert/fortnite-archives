@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Commando_GunTough_Valentine",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/Male/Medium/Commando/Commando_Male_Body_Montage_Idle.Commando_Male_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Commando_GunTough_Valentine:M_Med_Soldier_Head_Cupid'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Commando/CosmeticCharacterItemDefinitions/CID_Commando_GunTough_Valentine.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "36FBCB844D574E2D31A75EA9BF27F993",
+      "SourceString": "Love Ranger Jonesy",
+      "LocalizedString": "Love Ranger Jonesy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "11A86ABF416AD6964FC8A0A80569E85F",
+      "SourceString": "Aim for the heart.",
+      "LocalizedString": "Aim for the heart."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Soldier/Portrait/T-Soldier-HID-Commando-GunTough-Valentine-SR-T01.T-Soldier-HID-Commando-GunTough-Valentine-SR-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Soldier/Portrait/T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L.T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

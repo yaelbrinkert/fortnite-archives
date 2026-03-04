@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Flourish",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Flourish/Emote_FlourishTransform_M.Emote_FlourishTransform_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_038_Emote_Flourish'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_038_Emote_Flourish.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_NitroFlow.Character_NitroFlow",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Flourish:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Flourish.1"
+      }
+    ],
+    "ShotGridIds": [
+      69571
+    ],
+    "BaseShotGridId": 69571,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "56F6FDF945B46DCCBFC82AAF725627DD",
+      "SourceString": "Arrival of the Empress",
+      "LocalizedString": "Arrival of the Empress"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6C229036465CABFF7C2AD5822BD5298D",
+      "SourceString": "A ritual only known by the Empress of the River Guard.",
+      "LocalizedString": "A ritual only known by the Empress of the River Guard."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B98BB8704E5E319D07AA24AB6C9D9438",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 75.0,
+          "Z": 22.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Flourish.T-Icon-Emotes-Flourish",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Flourish-L.T-Icon-Emotes-Flourish-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Cosmetics.Filter.Season.24",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.WaterWatch",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Guitar_JammingChill",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JammingChill/Persistent/Emote_Guitar_JammingChill_CMM_M.Emote_Guitar_JammingChill_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JammingChill/Persistent/Emote_Guitar_JammingChill_CMF_M.Emote_Guitar_JammingChill_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JammingChill/Persistent/Emote_Guitar_JammingChill_CLM_M.Emote_Guitar_JammingChill_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JammingChill/Persistent/Emote_Guitar_JammingChill_CLF_M.Emote_Guitar_JammingChill_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 5,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Guitar_JammingChill:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Guitar/JammingChill/EID_Guitar_JammingChill.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E27B152F457B691494C00DAEA28AADA9",
+      "SourceString": "Strum Stepper",
+      "LocalizedString": "Strum Stepper"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B005AD854047984791D19097A999DC02",
+      "SourceString": "And strum, and step, and strum, and step...",
+      "LocalizedString": "And strum, and step, and strum, and step..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3408BEDE4A95F380A52D57B6DD29FD6B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S35/T_UI_Icon_SparksEmote_Guitar_JammingChill.T_UI_Icon_SparksEmote_Guitar_JammingChill",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S35/T_UI_Icon_SparksEmote_Guitar_JammingChill_L.T_UI_Icon_SparksEmote_Guitar_JammingChill_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.73
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

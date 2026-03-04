@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Outlander_039_Female_Gumshoe",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Female/Small/Outlander/Outlander_Female_Body_Montage_Idle.Outlander_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Outlander_039_Female_Gumshoe:CP_Head_Outlander_026_Bunny'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Outlander/CosmeticCharacterItemDefinitions/CID_Outlander_039_Female_Gumshoe.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0084268B4AB52472ADA73E8CB1499CDC",
+      "SourceString": "Gumshoe",
+      "LocalizedString": "Gumshoe"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C6335B444F41E8D535A1D8ACC5B3C8D7",
+      "SourceString": "\"Let's beat feet and take care of business.\" - Gumshoe",
+      "LocalizedString": "\"Let's beat feet and take care of business.\" - Gumshoe"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-155-Athena-Commando-F-Gumshoe.T-Soldier-HID-155-Athena-Commando-F-Gumshoe",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L.T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

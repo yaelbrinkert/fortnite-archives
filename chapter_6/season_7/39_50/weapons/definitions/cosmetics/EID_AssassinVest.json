@@ -1,0 +1,84 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_AssassinVest",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Assassin_Vest/Emote_assassin_vest_CMM_M.Emote_assassin_vest_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Assassin_Vest/Emote_assassin_vest_CMF_M.Emote_assassin_vest_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Assassin_Vest/Emote_assassin_vest_CMM_M_Child.Emote_assassin_vest_CMM_M_Child",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Assassin_Vest/Emote_assassin_vest_CMF_M_Child.Emote_assassin_vest_CMF_M_Child",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9574CC484E60E40434B4AAB2CD82A955",
+      "SourceString": "Bulletproof",
+      "LocalizedString": "Bulletproof"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B25F1957454B78C4B847C4BE73077079",
+      "SourceString": "Brush it off.",
+      "LocalizedString": "Brush it off."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7BBA287C4F82FE6230F95FB36DFE7AE4",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Set.AssassinSuit",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.9"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-AssassinVest.T-Icon-Emotes-E-AssassinVest",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-AssassinVest-L.T-Icon-Emotes-E-AssassinVest-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

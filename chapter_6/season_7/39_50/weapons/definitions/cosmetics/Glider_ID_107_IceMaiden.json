@@ -1,0 +1,192 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_107_IceMaiden",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 0.0,
+      "Y": -5.0,
+      "Z": -40.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy_IceMaiden.B_Athena_Glider_Legacy_IceMaiden_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_IceMaiden/Meshes/Ice_Maiden.Ice_Maiden_sled_MESH",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.7071067,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.9999999
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Ice_Maiden_Glider_AnimBP.Ice_Maiden_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_IceMaiden/FX/NS_Glider_IceMaiden_Magic.NS_Glider_IceMaiden_Magic",
+          "SubPathString": ""
+        },
+        "EffectSocket": "body_offset",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Glider_IceMaiden_Open_Cue.Glider_IceMaiden_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Glider_IceMaiden_Close_Cue.Glider_IceMaiden_Close_Cue",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A81A146A4EFCF0366827F4B8DC7C62D4",
+      "SourceString": "Crystal Carriage",
+      "LocalizedString": "Crystal Carriage"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F68F933546F814E998A4DB8E67C38DC5",
+      "SourceString": "The finest coach in the land.",
+      "LocalizedString": "The finest coach in the land."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": -50.0,
+          "Roll": -5.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-Glider-ID-107-IceMaiden.T-Icon_Glider-Glider-ID-107-IceMaiden",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-Glider-ID-107-IceMaiden-L.T-Icon_Glider-Glider-ID-107-IceMaiden-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.IceMaiden",
+          "Cosmetics.Filter.Season.7"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          359,
+          248,
+          249,
+          603,
+          607,
+          591,
+          613,
+          515,
+          771,
+          531,
+          532,
+          533,
+          246,
+          59,
+          438,
+          991,
+          1020,
+          1062,
+          1190,
+          1771,
+          1193,
+          1802,
+          1196,
+          2521,
+          4436,
+          4506,
+          4528
+        ]
+      }
+    ]
+  }
+}

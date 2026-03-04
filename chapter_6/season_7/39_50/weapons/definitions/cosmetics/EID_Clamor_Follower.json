@@ -1,0 +1,95 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Clamor_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower.GAB_EmoteBand_Follower_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Clamor/Emote_Clamor_Follower_CMM_M.Emote_Clamor_Follower_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Clamor/Emote_Clamor_Follower_CMF_M.Emote_Clamor_Follower_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Clamor/Emote_Clamor_Follower_CLF_M.Emote_Clamor_Follower_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Clamor/Emote_Clamor_Follower_CLM_M.Emote_Clamor_Follower_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      56256
+    ],
+    "BaseShotGridId": 56256,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5D5BA8454BF711758D6C3E851E89FDC2",
+      "SourceString": "Jump Around",
+      "LocalizedString": "Jump Around"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "01D5B6C342968C12C907E6AEA429A3ED",
+      "SourceString": "What jumps up, must get down.",
+      "LocalizedString": "What jumps up, must get down."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "42B9181C46752C0C6F768094FF509998",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.21"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Prance.T-Icon-Emotes-E-Prance",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Prance-L.T-Icon-Emotes-E-Prance-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

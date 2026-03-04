@@ -1,0 +1,79 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Meticulous_Sync",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "GroupEmotePositionOffset": {
+      "X": 0.0,
+      "Y": -134.8,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 1.0,
+    "GroupEmoteFollowerRotationYawOffset": -90.0,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Meticulous/Emote_Meticulous_Sync_CMM_M.Emote_Meticulous_Sync_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Meticulous/Emote_Meticulous_Sync_CMF_M.Emote_Meticulous_Sync_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Meticulous/Emote_Meticulous_Sync_CLM_M.Emote_Meticulous_Sync_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Meticulous/Emote_Meticulous_Sync_CLF_M.Emote_Meticulous_Sync_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FCB35CBE49D661347C32B5B6EC87330E",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Meticulous.T-Icon-Emotes-E-Meticulous",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Meticulous-L.T-Icon-Emotes-E-Meticulous-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

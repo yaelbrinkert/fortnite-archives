@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_LeafyVest",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_HairShort.CP_Bean_Head_HairShort",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_LeafyVest:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_LeafyVest.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C27738F24A1F147A98D20C8E4AD3AD03",
+      "SourceString": "Kyran Aryk",
+      "LocalizedString": "Kyran Aryk"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "93BA53DD4B00C27857819DA0DF122218",
+      "SourceString": "Step up and stand out.",
+      "LocalizedString": "Step up and stand out."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "450A123E4EEEE0A689DD57B14EEA7F43",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Cosmetics.Filter.Season.31",
+          "Cosmetics.Set.SmartHit"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_LeafyVest.T_Bean_LeafyVest",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_LeafyVest_L.T_Bean_LeafyVest_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CrewSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CrewSeries.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_SMG_RedDot_Athena_UR_ThorneBoss",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/B_SMG_RedDot_Athena.B_SMG_RedDot_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/Meshes/RedDot_SMG.RedDot_SMG",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "SMG_ScopedBurst_Athena_UR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.Scoped.Tactical"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.Scoped.Tactical",
+      "Tag:Weapon:wid_smg_reddot_athena_ur_thorneboss"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Light",
+        "CH4S4",
+        "Guard",
+        "Mythic",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "ABCB778941B722DCA0DCEA9E20DD3429",
+      "SourceString": "Thorne's Scoped Burst SMG",
+      "LocalizedString": "Thorne's Scoped Burst SMG"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E88AEC4E4BF20DB1A9D9B4A1AACC0B71",
+      "SourceString": "Short burst submachine gun with low recoil and a precision scope.",
+      "LocalizedString": "Short burst submachine gun with low recoil and a precision scope."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/Meshes/RedDot_SMG.RedDot_SMG",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Assault-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/Audio/SMG_RedDot_Pickup.SMG_RedDot_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/Audio/SMG_RedDot_Drop.SMG_RedDot_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/Audio/SMG_RedDot_DropLand.SMG_RedDot_DropLand",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.9022875,
+          "Y": 31.460608,
+          "Z": 17.567112
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -35.0,
+          "Z": -2.0
+        },
+        "InitialRotation": {
+          "Pitch": 4.876024,
+          "Yaw": 27.70803,
+          "Roll": -17.801233
+        },
+        "Scale": 1.0
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "5141788844AAABF4E3B6A1A97AAFF7B4",
+          "SourceString": "Ranged Weapon",
+          "LocalizedString": "Ranged Weapon"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "A02541D04787CFC0251EE8B70A184430",
+          "SourceString": "Guns Assault Rifles Machinegun LightBullets Automatic",
+          "LocalizedString": "Guns Assault Rifles Machinegun LightBullets Automatic"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/Icons/T-Icon-Weapons-SMG-RedDot.T-Icon-Weapons-SMG-RedDot",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/ScopedBurstSMG/Icons/T-Icon-Weapons-SMG-RedDot-L.T-Icon-Weapons-SMG-RedDot-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Meta.Scoped",
+          "Quest.Metadata.LTM.Wax",
+          "phoebe.weapon.trait.scoped",
+          "Trait.Scoped",
+          "Rarity.Mythic",
+          "phoebe.items.BurstSMG",
+          "phoebe.weapon.ranged.smg",
+          "Bacchus.Shoot.SMG",
+          "Item.Weapon.Ranged.SMG.RedDotBurst",
+          "Weapon.Ranged.SMG"
+        ]
+      }
+    ]
+  }
+}

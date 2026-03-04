@@ -1,0 +1,77 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_GoatDance_Sync_Owned",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "bGroupAnimationSync": true,
+    "GroupEmotePositionOffset": {
+      "X": 70.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Goat_Dance/Emote_GoatDance_Owned_Join_CMM_M2.Emote_GoatDance_Owned_Join_CMM_M2",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Goat_Dance/CMF/Emote_GoatDance_Owned_Join_CMF_M2.Emote_GoatDance_Owned_Join_CMF_M2",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DED948444CBF5453E9E8C28D33029657",
+      "SourceString": "Double Up",
+      "LocalizedString": "Double Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1F4F1FC9457CC42C0C4C94BBE13943D0",
+      "SourceString": "It takes two...",
+      "LocalizedString": "It takes two..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2CC047424F1B590341A6BCA3BF9E7C34",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.11",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-GoatDance.T-Icon-Emotes-E-GoatDance",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-GoatDance-L.T-Icon-Emotes-E-GoatDance-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

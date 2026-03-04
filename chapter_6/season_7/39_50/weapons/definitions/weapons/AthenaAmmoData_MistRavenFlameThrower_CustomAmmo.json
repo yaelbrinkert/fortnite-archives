@@ -1,0 +1,100 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_MistRavenFlameThrower_CustomAmmo",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageType": "ESlateBrushImageType::FullColor",
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T-Icon-Blank'",
+        "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+      }
+    },
+    "RegenCooldown": {
+      "Curve": {
+        "RowName": "Default.PlotTwist.Force.Projectile.Ammo.RechargeTime"
+      }
+    },
+    "AmmoIconBrush": {
+      "Brush_XXS": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_XS": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_S": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_M": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_L": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_XL": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      }
+    },
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.T-Icon-Blank",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "96DEBD1F49A4BD7EEF9E16B2913F92C8",
+      "SourceString": "MistRavenCharges",
+      "LocalizedString": "MistRavenCharges"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 100.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      }
+    ]
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_JunoShadowCallerWeaponShieldingFlurry_T4",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseNativeWeaponTrace": false,
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "bAllowContinuousFire": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JunoMistRavenItems/B_Juno_MistRaven_Weapon.B_Juno_MistRaven_Weapon_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Juno_Range_ShadowCallerItems'",
+        "ObjectPath": "/JunoMistRavenItems/Data/Juno_Range_ShadowCallerItems.0"
+      },
+      "RowName": "ShadowCallerEnergy_T4"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JunoMistRavenItems/Abilities/RavenShot/GA_RavenShot_HoverAndFire.GA_RavenShot_HoverAndFire_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/JunoMistRavenItems/Abilities/DarkCoil/GA_Juno_DarkCoil_Parent.GA_Juno_DarkCoil_Parent_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/JunoMistRavenItems/Abilities/AS_MistRaven_Weapon_Variant_ShieldingFlurry.AS_MistRaven_Weapon_Variant_ShieldingFlurry",
+      "SubPathString": ""
+    },
+    "bAllowAutoReload": false,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "bEnableWeaponMeshOverrideUpdates": false,
+    "ReticleCornerAngles": [
+      0.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/JunoGame/UI/Reticle/T_UI_Juno_Reticle_Cross.T_UI_Juno_Reticle_Cross",
+      "SubPathString": ""
+    },
+    "ReticleInvalidTargetImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/blockedshot_reticle.blockedshot_reticle",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_junoshadowcallerweaponshieldingflurry_t4"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "970A2A824CBCA5A7EF7532976FDADE0E",
+      "SourceString": "Fueling Fist",
+      "LocalizedString": "Fueling Fist"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "592E10774AFD86B68D05EE9D874F82A3",
+      "SourceString": "Take flight and rain darkness upon your enemies with Command Shadow as a primary attack.\r\n\r\nOnce charged, use Dark Flurry as a secondary attack to unleash a stream of ravens that damages enemies and temporarily increases your friends' Shield.",
+      "LocalizedString": "Take flight and rain darkness upon your enemies with Command Shadow as a primary attack.\r\n\r\nOnce charged, use Dark Flurry as a secondary attack to unleash a stream of ravens that damages enemies and temporarily increases your friends' Shield."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8E94C7114F6535593B24EFAFF80FD241",
+      "SourceString": "Unleash pain, gain power.",
+      "LocalizedString": "Unleash pain, gain power."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.Toys"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoMistRavenItems/Meshes/Weapon_MistRaven_T1_A/SM_Weapon_MistRaven_T1_A.SM_Weapon_MistRaven_T1_A",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Tools/GrappleGun/MSS/MSS_GrappleGun_PickUp.MSS_GrappleGun_PickUp",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Resources/Generic/MSS_Resource_Misc_Generic_Drop.MSS_Resource_Misc_Generic_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Tools/GrappleGun/MSS/MSS_GrappleGun_Land.MSS_GrappleGun_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 16.0,
+          "Y": 16.716324,
+          "Z": 27.532963
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoMistRavenItems/Icons/T_UI_Juno_ShadowCallerWeapon.T_UI_Juno_ShadowCallerWeapon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Juno.Inventory.Group.Quickbar",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Pawn.Reload.BlockAddSpareAmmoOnReload",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Weapon.SemiAuto.IgnoresCancelPrimaryAbilityOnFire",
+          "Weapon.IgnoresCancelPrimaryAbilityOnRelease",
+          "Item.Weapon.TwoHanded",
+          "Juno.Item.Weapon.HeroItem.MistRavenWeapon",
+          "Juno.Inventory.AutoReplace.Category.MistRavenWeapon",
+          "Juno.Item.Weapon.HeroItem.Weapon.T4",
+          "Juno.MountStyle.Flat"
+        ]
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "02B4E57448F889CFC8FFF0BE658C2CD7",
+          "SourceString": "Guns Ranged",
+          "LocalizedString": "Guns Ranged"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.HasDurability"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoMistRavenItems/Icons/MI_UI_Juno_Icon_ShadowCallerWeapon.MI_UI_Juno_Icon_ShadowCallerWeapon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MaxCharges": [
+          {
+            "ChargeTag": {
+              "TagName": "Juno.Charge.Default"
+            },
+            "MaxCharge": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "Default.Juno.MistRaven.Ultimate.MaxCharge"
+              },
+              "RegistryType": {
+                "Name": "Juno.MistRavenItems.GameData"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Weapon"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.HeroWeapon"
+        },
+        "ItemTypeTag": {
+          "TagName": "Juno.FreeBuild.Type.MistRaven.Weapon"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "8C74A67D4644EAA784F98D8116FA237B",
+          "SourceString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>.",
+          "LocalizedString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_MistRaven_ShadowCaller_Equip'",
+            "ObjectPath": "/JunoMistRavenItems/Audio/Libraries/SL_MistRaven_ShadowCaller_Equip.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "UseActionText": {
+          "Namespace": "",
+          "Key": "D1EC424A49127DD29694F385D28B2026",
+          "SourceString": "Command Shadow",
+          "LocalizedString": "Command Shadow"
+        },
+        "OffhandActionText": {
+          "Namespace": "",
+          "Key": "6026468D45D069AEA0C503A7478C0E09",
+          "SourceString": "Dark Flurry",
+          "LocalizedString": "Dark Flurry"
+        },
+        "ShowOffhandPromptFirst": false,
+        "HideOffhandPrompt": false
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "WIDJunoShadowCallerWeaponShieldingFlurryT4"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

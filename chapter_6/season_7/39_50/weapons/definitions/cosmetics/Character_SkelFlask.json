@@ -1,0 +1,93 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_SkelFlask",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_SkelFlask.CP_Athena_Head_M_SkelFlask",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_SkelFlask.CP_Athena_Body_M_SkelFlask",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Menu/BR/CustomSkins/_s39/SkelFlask_M/SkelFlask_Idle_fbx_Montage.SkelFlask_Idle_fbx_Montage",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'Character_SkelFlask:FortCosmeticCharacterPartVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_SkelFlask.1"
+      }
+    ],
+    "ShotGridIds": [
+      168913
+    ],
+    "BaseShotGridId": 168913,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "623F05D3484202940B499993AF76C7BC",
+      "SourceString": "Skull Raider",
+      "LocalizedString": "Skull Raider"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9D1A86154D14BE5BB10B8CA0C098C447",
+      "SourceString": "A specter of doom approaches.",
+      "LocalizedString": "A specter of doom approaches."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S39/T_Soldier_SkelFlask.T_Soldier_SkelFlask",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S39/T_Soldier_SkelFlask_L.T_Soldier_SkelFlask_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Gating.Allow.Shoes",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.CrewBling.Progressive",
+          "SoundLibrary.ID.ClothingType.ArmorLeather",
+          "SoundLibrary.ID.HandType.Glove",
+          "SoundLibrary.ID.StepType.BootsCombat",
+          "Cosmetics.Set.EvilSocket"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CrewSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CrewSeries.0"
+        }
+      }
+    ]
+  }
+}

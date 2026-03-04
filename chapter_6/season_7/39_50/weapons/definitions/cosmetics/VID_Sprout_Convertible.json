@@ -1,0 +1,106 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Sprout_Convertible",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 2.86,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinSpawnPercent.BasicCar"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxSpawnPercent.BasicCar"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0,
+      "Curve": {
+        "RowName": "Default.Valet.BasicCar.MaxCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentWithGas.BasicCar"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentWithGas.BasicCar"
+      }
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentInoperable.BasicCar"
+      }
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentInoperable.BasicCar"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/SproutVehicles/Vehicles/Convertible/Sprout_Convertible_Vehicle.Sprout_Convertible_Vehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "Convertible"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "934F4C4F4771DF70ABDF11A9DCA7DCAA",
+      "SourceString": "Vopper T60X",
+      "LocalizedString": "Vopper T60X"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SproutVehicles/Vehicles/UI/T_UI_Sprout_Icon_Vehicle_Sprout_Convertible.T_UI_Sprout_Icon_Vehicle_Sprout_Convertible",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tag": {
+          "TagName": "Sprout.Item.Cost.Currency.Cash.Vehicle.Convertible"
+        }
+      }
+    ]
+  }
+}

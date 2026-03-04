@@ -1,0 +1,373 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Chrono_SlapSplash",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/Actors/B_Chrono_Weap_SlapSplash.B_Chrono_Weap_SlapSplash_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_NonDamaging"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/TestCosmeticAlteration.TestCosmeticAlteration",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/Abilities/GA_Chrono_SlapSplash_Primary.GA_Chrono_SlapSplash_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/Abilities/GA_Chrono_SlapSplash_Secondary.GA_Chrono_SlapSplash_Secondary_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
+      "SubPathString": ""
+    },
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Consumable:wid_chrono_slapsplash"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH4S3",
+        "ConsumableItem",
+        "Item",
+        "OverrideCount_5",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F2E8263A4A242112481409BCA4C2E112",
+      "SourceString": "Slap Splash",
+      "LocalizedString": "Slap Splash"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B7A6C0C949DA277418D7F6B11D643134",
+      "SourceString": "Splashes all nearby players, giving energy regen, health, and shields.",
+      "LocalizedString": "Splashes all nearby players, giving energy regen, health, and shields."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'ChronoConsumablesGameData'",
+              "ObjectPath": "/ChronoConsumables/DataTables/ChronoConsumablesGameData.0"
+            },
+            "RowName": "Chrono.SlapSplash.MaxStacks"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/ChronoConsumables/Assets/SlapSplash/Meshes/Slap_Splash_Consumable.Slap_Splash_Consumable",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.17298733,
+            "Y": -0.08583166,
+            "Z": -0.015134433,
+            "W": 0.9810603,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0000001
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/Sounds/SlapSplash_Pickup_Cue.SlapSplash_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/Sounds/SlapSplash_Drop_Cue.SlapSplash_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/Sounds/SlapSplash_DropImpact_Cue.SlapSplash_DropImpact_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 10.609051,
+          "Y": 10.333834,
+          "Z": 9.317994
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "324C24334768FB1C90D858BDD73538C4",
+          "SourceString": "AoEHealing Heal UtilityItem ",
+          "LocalizedString": "AoEHealing Heal UtilityItem "
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/Actors/Prj_Chrono_SlapSplash.Prj_Chrono_SlapSplash_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SlapSplash_Lib'",
+            "ObjectPath": "/ChronoConsumables/Gameplay/SlapSplash/Sounds/SlapSplash_Lib.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.RechargeRate.ChugJug"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ChronoConsumables/Assets/SlapSplash/UI/T-T-Icon-BR-Consumable-SlapSplash.T-T-Icon-BR-Consumable-SlapSplash",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/ChronoConsumables/Assets/SlapSplash/UI/T-T-Icon-BR-Consumable-SlapSplash-L.T-T-Icon-BR-Consumable-SlapSplash-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::WeaponRanged"
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Throw.Grenade.Explosive",
+          "Athena.Item.Utility",
+          "Athena.ItemAction.Throw",
+          "Rarity.Rare",
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Consumable",
+          "Item.Consumable.SlapSplash",
+          "phoebe.weapon.throwable_selfheal",
+          "phoebe.items.consumable.SlapSplash",
+          "Athena.ItemAction.ThrowDown"
+        ]
+      }
+    ]
+  }
+}

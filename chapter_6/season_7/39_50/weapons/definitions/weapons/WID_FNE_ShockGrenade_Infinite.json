@@ -1,0 +1,367 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_FNE_ShockGrenade_Infinite",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/CloudyMuffin/B_CloudyMuffin_Jethro_Athena.B_CloudyMuffin_Jethro_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/CloudyMuffin/Meshes/CloudyMuffin_Explosive.CloudyMuffin_Explosive",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Athena_TNT"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/TestCosmeticAlteration.TestCosmeticAlteration",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/FNEShockGrenade/Gameplay/GA_FNE_ShockGrenade_Infinite.GA_FNE_ShockGrenade_Infinite_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/FNEShockGrenade/Gameplay/GA_FNE_ShockGrenade_InfiniteAimed.GA_FNE_ShockGrenade_InfiniteAimed_C",
+      "SubPathString": ""
+    },
+    "bShouldMagazineSizeDisplayInfinity": true,
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Weapon.Ranged.Grenade",
+      "Item.Consumable.ShockGrenade"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Grenade",
+      "Item.Consumable.ShockGrenade",
+      "Tag:Weapon:wid_fne_shockgrenade_infinite"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DBB88C4342493F144617D5A7622B18A1",
+      "SourceString": "Thermal Imploder",
+      "LocalizedString": "Thermal Imploder"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8CE1193F436A8EB24E481A95CD5F2AE9",
+      "SourceString": "Standard issue Grenade for Stormtroopers. Its large explosive and knockback radius make it one of the deadliest weapons carried by Stormtroopers!",
+      "LocalizedString": "Standard issue Grenade for Stormtroopers. Its large explosive and knockback radius make it one of the deadliest weapons carried by Stormtroopers!"
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/CloudyMuffin/Meshes/CloudyMuffin_Explosive_Pickup.CloudyMuffin_Explosive_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.9,
+            "Y": 1.9,
+            "Z": 1.9
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JethroWeaponGameplay/Assets/Audio/CloudyMuffin/IP_MSS_Jethro_CloudyMuffin_Pickup.IP_MSS_Jethro_CloudyMuffin_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JethroWeaponGameplay/Assets/Audio/CloudyMuffin/IP_MSS_Jethro_CloudyMuffin_Drop.IP_MSS_Jethro_CloudyMuffin_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JethroWeaponGameplay/Assets/Audio/CloudyMuffin/IP_MSS_Jethro_CloudyMuffin_Drop_Impact.IP_MSS_Jethro_CloudyMuffin_Drop_Impact",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 6.520449,
+          "Y": 5.6736884,
+          "Z": 10.849104
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "F825538142B46335DF3F07875375460C",
+          "SourceString": "KnockGrenade UtilityItem Grenade",
+          "LocalizedString": "KnockGrenade UtilityItem Grenade"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/CloudyMuffin/B_Prj_Jethro_CloudyMuffin.B_Prj_Jethro_CloudyMuffin_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'IP_SL_Jethro_CloudyMuffin'",
+            "ObjectPath": "/JethroWeaponGameplay/Assets/Audio/CloudyMuffin/IP_SL_Jethro_CloudyMuffin.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.RechargeRate.KnockbackGrenade"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/CloudyMuffin/Icons/T_Icon_Weapons_Explosive_CloudyMuffin.T_Icon_Weapons_Explosive_CloudyMuffin",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Throw.Grenade.Explosive",
+          "Athena.Item.Utility",
+          "Weapon.Ranged.Heavy.Grenade",
+          "Athena.ItemAction.Throw",
+          "Item.Consumable.ShockGrenade",
+          "Item.SortsRight",
+          "Cosmetics.OverrideWrapBehavior.DoNotOverride",
+          "phoebe.weapon.throwable.grenade",
+          "HUD.PreferredSlotType.Utility",
+          "Rarity.Rare",
+          "Granted.Cooldown.FNEShockGrenadeInfinite.Activation"
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/CloudyMuffin/Icons/T_Icon_Weapons_Explosive_CloudyMuffin_L.T_Icon_Weapons_Explosive_CloudyMuffin_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

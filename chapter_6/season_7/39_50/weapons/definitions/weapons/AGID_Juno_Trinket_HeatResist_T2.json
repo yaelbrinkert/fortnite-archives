@@ -1,0 +1,308 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Juno_Trinket_HeatResist_T2",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bCanBeDroppedWhenEquipmentChangeIsBlocked": true,
+    "bAllowedFuelGadgetUI": false,
+    "InventoryMinimapIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "InventoryCompassIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "bApplyGadgetDataManually": true,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "AbilitySet": {
+      "AssetPathName": "/JunoGame/Items/Trinkets/Common/AS_Juno_Armor_Head_Basic.AS_Juno_Armor_Head_Basic",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::Gadget",
+    "ItemName": {
+      "Namespace": "Juno_GameplayItemToTagMapping",
+      "Key": "692A0F9349852B93B73309867008CA86",
+      "SourceString": "Cool-Headed Charm",
+      "LocalizedString": "Cool-Headed Charm"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "38B2ECB94E9A5AC7C197DEB5567F8CA1",
+      "SourceString": "Provides immunity to Burning temperatures.",
+      "LocalizedString": "Provides immunity to Burning temperatures."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "D1E8163143124780583B3B923F454FC1",
+      "SourceString": "Wearable air conditioning.",
+      "LocalizedString": "Wearable air conditioning."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoGame/Items/Trinkets/Mesh/SM_Juno_Trinket_Cold_Resistance.SM_Juno_Trinket_Cold_Resistance",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 60000.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Items/Gear/Trinkets/MSS_Trinket_Pickup.MSS_Trinket_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Items/Gear/Trinkets/MSS_Trinket_Drop.MSS_Trinket_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoAudioCore/SFX/Items/Gear/Trinkets/MSS_Trinket_Land.MSS_Trinket_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": false,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 16.180359,
+          "Y": 29.149254,
+          "Z": 38.181007
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoGame/UI/Icons/Trinkets/T_UI_Juno_Icon_Trinket_ColdResist.T_UI_Juno_Icon_Trinket_ColdResist",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Juno.Inventory.Group.Gear.Charm",
+          "Juno.Item.Gear.Player",
+          "Juno.Item.Jewelry.TrinketHeatResist_T2",
+          "Juno.Crafting.IgnoreIngredientsForReveal"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoGame/UI/Icons/Trinkets/MI_UI_Juno_Icon_Trinket_ColdResist.MI_UI_Juno_Icon_Trinket_ColdResist",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Equipment"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.Charm"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "AC3484424346F25AC5F3368522108A2F",
+          "SourceString": "Made with something dropped by a <EmphA>rolling hostile creature</> from the <img id=\"IcoFro\"/> <Fro>Frostlands</>.",
+          "LocalizedString": "Made with something dropped by a <EmphA>rolling hostile creature</> from the <img id=\"IcoFro\"/> <Fro>Frostlands</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "AGIDJunoTrinketHeatResistT2"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CrispRover",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrispRover/Emote_CrispRover_CMM_M.Emote_CrispRover_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrispRover/CMF/Emote_CrispRover_CMF_M.Emote_CrispRover_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrispRover/CLM/Emote_CrispRover_CLM_M.Emote_CrispRover_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrispRover/CLF/Emote_CrispRover_CLF_M.Emote_CrispRover_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 0,
+    "PreviewLength": 41.53,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      65197
+    ],
+    "BaseShotGridId": 65197,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "67EAD91D4B033387800F10B696A5A96A",
+      "SourceString": "Dramatic Flares",
+      "LocalizedString": "Dramatic Flares"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3052009140CAA082A2EFD5A3558C40AF",
+      "SourceString": "Send them a signal of your distress.",
+      "LocalizedString": "Send them a signal of your distress."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B4C2D2364321FD210EC5ABA4422E4D9C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 60.0,
+          "Z": 17.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-CrispRover.T-Icon-Emotes-CrispRover",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-CrispRover-L.T-Icon-Emotes-CrispRover-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.Set.HeroicRascal"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

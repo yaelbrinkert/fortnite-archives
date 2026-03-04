@@ -1,0 +1,118 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_JethroXV_FNE_Plasma",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JethroXV/Gameplay/Fighter/Weapon_Plasma/B_JethroXV_Plasma_Weapon.B_JethroXV_Plasma_Weapon_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'JethroXVAthenaRangedWeapons'",
+        "ObjectPath": "/JethroXV/DataTables/JethroXVAthenaRangedWeapons.0"
+      },
+      "RowName": "JethroXV_PlasmaWeapon_R"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JethroXV/Gameplay/Fighter/Weapon_Plasma/GA_Ranged_JethroXV_FNE_Projectile_Athena.GA_Ranged_JethroXV_FNE_Projectile_Athena_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite.AmmoInfinite",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.XV"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Gameplay.Damage.Vehicle.JethroXV.LaserCannons"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.XV",
+      "Tag:Weapon:wid_jethroxv_fne_plasma"
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "65CD05564ECAE703F69D61990FBC34A2",
+      "SourceString": "X-Wing Laser Cannon",
+      "LocalizedString": "X-Wing Laser Cannon"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/JethroXV/Gameplay/Fighter/Weapon_Plasma/B_Prj_JethroXV_Laser.B_Prj_JethroXV_Laser_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "AbilityWeapon.Ranged",
+          "Rarity.Rare",
+          "Trait.Vehicle",
+          "Trait.Explosive",
+          "Item.Weapon.Vehicle.XV",
+          "Weapon.Ranged.XV"
+        ]
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Default'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Default.0"
+        }
+      }
+    ]
+  }
+}

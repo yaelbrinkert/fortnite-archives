@@ -1,0 +1,60 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_OysterKnock_Sync",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OysterKnock/CMM/Emote_OysterKnock_Lead_CMM_Sync_M.Emote_OysterKnock_Lead_CMM_Sync_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OysterKnock/CMF/Emote_OysterKnock_Lead_CMF_Sync_M.Emote_OysterKnock_Lead_CMF_Sync_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OysterKnock/CLM/Emote_OysterKnock_Lead_CLM_Sync_M.Emote_OysterKnock_Lead_CLM_Sync_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OysterKnock/CLF/Emote_OysterKnock_Lead_CLF_Sync_M.Emote_OysterKnock_Lead_CLF_Sync_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A866C8D94E72CC1B01B4649A9974BE9F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      }
+    ]
+  }
+}

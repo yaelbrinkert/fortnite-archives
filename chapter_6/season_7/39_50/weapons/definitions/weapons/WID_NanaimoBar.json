@@ -1,0 +1,408 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_NanaimoBar",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/NanaimoBar/Gameplay/B_NanaimoBar_Weapon.B_NanaimoBar_Weapon_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'NanaimoBar_WeaponData'",
+        "ObjectPath": "/NanaimoBar/DataTables/NanaimoBar_WeaponData.0"
+      },
+      "RowName": "BugGauntlet_R"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/NanaimoBar/Gameplay/GA_NanaimoBar.GA_NanaimoBar_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/NanaimoBar/Gameplay/GA_NanaimoBar_PassiveFromEvent_Athena.GA_NanaimoBar_PassiveFromEvent_Athena_C",
+        "SubPathString": ""
+      }
+    ],
+    "AmmoData": {
+      "AssetPathName": "/NanaimoBar/Gameplay/AthenaAmmoData_NanaimoBar.AthenaAmmoData_NanaimoBar",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::OnRelease",
+    "bUsesPhantomReserveAmmo": true,
+    "bUsesCustomAmmoType": true,
+    "bAllowAutoReload": false,
+    "bNoFireOnReleaseBeforeMinChargeTime": true,
+    "ReticleCornerAngles": [],
+    "ReticleCenterImageOffset": {
+      "X": 0.0,
+      "Y": 23.0
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Heavy",
+      "Item.Weapon.Ranged.NanaimoBar"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "Granted.BoostedJump.PreventHoslter",
+      "Granted.RollLanding.PreventHolster",
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+      "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+      "Item.Weapon.Ranged.NanaimoBar",
+      "Animation.CharacterParts.HideFX.Hands",
+      "CameraController.DisableFirstPerson"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Heavy",
+      "Item.Weapon.Ranged.NanaimoBar",
+      "Tag:Weapon:wid_nanaimobar"
+    ],
+    "BoneSetsToHide": [
+      "CharacterPart.BoneSet.LowerForearmRight",
+      "CharacterPart.BoneSet.HandRight"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Special",
+        "CH6S4",
+        "Explosive",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E03C9AC64F0E9FECBF53C4B444C72AF6",
+      "SourceString": "Bug Blaster",
+      "LocalizedString": "Bug Blaster"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FD2E4F0F427E995FDE42DDB9C5D2E5E8",
+      "SourceString": "Repurposed Bomber attack that fires an exploding ball of energy. Charge up to deal more damage in a bigger area.",
+      "LocalizedString": "Repurposed Bomber attack that fires an exploding ball of energy. Charge up to deal more damage in a bigger area."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/NanaimoBar/Assets/Meshes/NanaimoBar_Gauntlet_Pickup.NanaimoBar_Gauntlet_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Explosive-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Explosive-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_Weapons/AutoRifle/AssaultHeavy/AssaultHeavy_Pickup_01.AssaultHeavy_Pickup_01",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_Weapons/AutoRifle/AssaultHeavy/AssaultHeavy_Drop_Cue.AssaultHeavy_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/UI_DropWeaponImpact_Launcher_Cue.UI_DropWeaponImpact_Launcher_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/NanaimoBar/Assets/Audio/SL_NanaimoBar_Pickup.SL_NanaimoBar_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 15.253843,
+          "Y": 24.142279,
+          "Z": 25.016363
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.206897,
+          "Yaw": 20.854452,
+          "Roll": -20.854452
+        },
+        "Scale": 1.1
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "578E12814E963208AB38DDA60E7D5FE2",
+          "SourceString": "Guns Ranged Grenade Launcher AOE",
+          "LocalizedString": "Guns Ranged Grenade Launcher AOE"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/NanaimoBar/Assets/Icons/T_Icon_BR_NanaimoBar.T_Icon_BR_NanaimoBar",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Rarity.Rare",
+          "Item.Weapon.Ranged.ImpulsePhysicsObjects",
+          "HUD.PreferredSlotType.Launcher",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Weapon.IgnoresCancelPrimaryAbilityOnRelease",
+          "Weapon.SemiAuto.IgnoresCancelPrimaryAbilityOnFire",
+          "phoebe.items.assault_rifle",
+          "phoebe.weapon.ranged.rifle",
+          "phoebe.weapon.trait.charge",
+          "Item.Weapon.Ranged.NanaimoBar",
+          "Animation.CharacterParts.HideFX.Hands",
+          "weapon.ranged.heavy.grenade_launcher"
+        ]
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/NanaimoBar/Gameplay/B_Projectile_NanaimoBar.B_Projectile_NanaimoBar_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ChargeToBurstRoundsCurve": {
+          "ObjectName": "CurveFloat'ChargeCurve_NanaimoBar_Rounds_SingleShot'",
+          "ObjectPath": "/NanaimoBar/DataTables/ChargeCurve_NanaimoBar_Rounds_SingleShot.0"
+        },
+        "ChargeToBurstFireRateCurve": null
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_NanaimoBar_Weapon'",
+            "ObjectPath": "/NanaimoBar/Assets/Audio/SL_NanaimoBar_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/NanaimoBar/Assets/Icons/T_Icon_BR_NanaimoBar_L.T_Icon_BR_NanaimoBar_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

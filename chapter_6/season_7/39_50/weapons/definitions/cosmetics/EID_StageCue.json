@@ -1,0 +1,136 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_StageCue",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StageCue/CMM/Emote_StageCue_CMM_M.Emote_StageCue_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StageCue/CMF/Emote_StageCue_CMF_M.Emote_StageCue_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StageCue/CLM/Emote_StageCue_CLM_M.Emote_StageCue_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StageCue/CLF/Emote_StageCue_CLF_M.Emote_StageCue_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "MetaTags": [
+      "Cosmetics.MetaTags.StageCue"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_StageCue:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_StageCue.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AD0EFAA84ACA591E66567989D3141034",
+      "SourceString": "The Break Shot",
+      "LocalizedString": "The Break Shot"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9D19520E4D4D8E7E2F468584E778D39E",
+      "SourceString": "Send 'em spinning.",
+      "LocalizedString": "Send 'em spinning."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8CD4DE434889D3A9EDA10D91D4BC5D5A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Set.WalletBat",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_StageCue.T_Icon_Emotes_StageCue",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_StageCue_L.T_Icon_Emotes_StageCue_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.SceneChanger.BattlePass"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_StageCue_Chalk.Character_StageCue_Chalk",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

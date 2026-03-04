@@ -1,0 +1,386 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Juno_FloppingRabbit_T2",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/JunoFishing/Fishing/B_FloppingRabbit_Weap_Juno.B_FloppingRabbit_Weap_Juno_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Juno_MeleeWeapons'",
+        "ObjectPath": "/JunoGame/DataTables/Juno_MeleeWeapons.0"
+      },
+      "RowName": "FishingRod"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/JunoFishing/Fishing/GA_Juno_FloppingRabbit.GA_Juno_FloppingRabbit_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/JunoFishing/Fishing/GA_Juno_FloppingRabbit_Passive.GA_Juno_FloppingRabbit_Passive_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/JunoFishing/Fishing/GA_Juno_FloppingRabbit_Fight.GA_Juno_FloppingRabbit_Fight_C",
+        "SubPathString": ""
+      }
+    ],
+    "AmmoData": {
+      "AssetPathName": "/JunoFishing/Fishing/WID_Juno_FloppingRabbit_T2.WID_Juno_FloppingRabbit_T2",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Consumable.FloppingRabbit"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.FloppingRabbit",
+      "Tag:Weapon:wid_juno_floppingrabbit_t2"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2457FCF3417A7DD25E6DB19745AAC1B6",
+      "SourceString": "Stone Fishing Rod",
+      "LocalizedString": "Stone Fishing Rod"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0B3089BF4262FBA7E42BDDBF1A25676C",
+      "SourceString": "An Uncommon Fishing Rod that can be used to catch fish.",
+      "LocalizedString": "An Uncommon Fishing Rod that can be used to catch fish."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E74BF49C40166D21E5DD99B5FB7B75C2",
+      "SourceString": "Reel in the good times.",
+      "LocalizedString": "Reel in the good times."
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/JunoGame/UI/Icons/Tools_Weapons/T_UI_Juno_Icon_Tool_FishingRod_T2.T_UI_Juno_Icon_Tool_FishingRod_T2",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/JunoFishing/FishingRod/SkeletalMesh/SKM_FishingRod.SKM_FishingRod",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.16773143,
+            "Y": 0.044942774,
+            "Z": 0.95125043,
+            "W": 0.25489,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/LFN_Fishing/Audio/Fishing/Sounds/MSS_Fishing_Flopper_Pickup.MSS_Fishing_Flopper_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/LFN_Fishing/Audio/Fishing/Sounds/MSS_Fishing_Flopper_Drop.MSS_Fishing_Flopper_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/LFN_Fishing/Audio/Fishing/Sounds/MSS_Fishing_Flopper_Land.MSS_Fishing_Flopper_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 16.790455,
+          "Y": 12.070774,
+          "Z": 96.00626
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/JunoFishing/Fishing/Prj_Juno_FloppingRabbit.Prj_Juno_FloppingRabbit_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_Fishing'",
+            "ObjectPath": "/LFN_Fishing/Audio/Fishing/Libraries/SL_Fishing.0"
+          },
+          {
+            "ObjectName": "SoundLibrary'SL_Foley_Traverse_FishingPole'",
+            "ObjectPath": "/JunoCommonArtAssets/Audio/Resources/Foley/Libraries/SL_Foley_Traverse_FishingPole.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponMaterialOverrides": [
+          {
+            "AssetPathName": "/JunoFishing/FishingRod/Material/MI_LegoStandard_IndexColors_Pawn_Preskinned_FishingRod_Tier_2.MI_LegoStandard_IndexColors_Pawn_Preskinned_FishingRod_Tier_2",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "Tags": [
+          "Athena.ItemAction.Throw",
+          "Item.Utility",
+          "Item.Consumable.FloppingRabbit",
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Utility",
+          "Juno.Inventory.Group.Quickbar",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Juno.Item.HarvestingTool.FishingRod_T2",
+          "Juno.Inventory.AutoReplace.Category.FishingRod",
+          "Juno.Item.ShowStats",
+          "Juno.Boost.Stat.Lure",
+          "Juno.Boost.Stat.Durability.DisplayOnly",
+          "Weapon.Meta.DoNotApplyWraps"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.HasDurability",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoGame/UI/Icons/Tools_Weapons/MI_UI_Juno_Slot_Tool_FishingRod_T2.MI_UI_Juno_Slot_Tool_FishingRod_T2",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Tool"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.FishingTool"
+        },
+        "ItemTypeTag": {
+          "TagName": "None"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "D172C916480DA2146E0799B8A8FDBD73",
+          "SourceString": "You'll need a <EmphA>Stone Breaker</>.",
+          "LocalizedString": "You'll need a <EmphA>Stone Breaker</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "WIDJunoFloppingRabbitT2"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

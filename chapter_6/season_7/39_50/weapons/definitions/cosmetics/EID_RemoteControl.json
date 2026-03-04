@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_RemoteControl",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RemoteControl/Emote_RemoteControl_CMM_M.Emote_RemoteControl_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RemoteControl/Emote_RemoteControl_CMF_M.Emote_RemoteControl_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RemoteControl/Emote_RemoteControl_CLM_M.Emote_RemoteControl_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/RemoteControl/Emote_RemoteControl_CLF_M.Emote_RemoteControl_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 0,
+    "PreviewLength": 38.633,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "991C48364BD1951062F8159ED3D71CE4",
+      "SourceString": "My Cabbages!",
+      "LocalizedString": "My Cabbages!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "084749CA4E0CCC7DDE667CA4BD1C8A5A",
+      "SourceString": "Protect them with your life.",
+      "LocalizedString": "Protect them with your life."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6DD08C8B49509A2BF32237969A66FB82",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Set.HarshPat",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-RemoteControl.T-Icon-Emotes-RemoteControl",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-RemoteControl-L.T-Icon-Emotes-RemoteControl-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

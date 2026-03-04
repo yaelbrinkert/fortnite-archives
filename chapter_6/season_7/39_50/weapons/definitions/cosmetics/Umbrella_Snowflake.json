@@ -1,0 +1,168 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Umbrella_Snowflake",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GliderType": "EFortGliderType::Umbrella",
+    "CameraFramingBoundsCenterOffset": {
+      "X": -120.0,
+      "Y": -10.0,
+      "Z": 10.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_Umbrella/Meshes/SK_VinderTech_Umbella.SK_VinderTech_Umbella",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/VinderTech_Umbrella_AnimBP.VinderTech_Umbrella_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/Umbrella/UmbrellaPlayerAnimSet.UmbrellaPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Umbrella_Open_Cue.Athena_Umbrella_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Umbrella_Close_Cue.Athena_Umbrella_Close_Cue",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_Umbrella/Umbrella_Snowflake/Materials/MI_Umbrella_Snowflake.MI_Umbrella_Snowflake",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemSearchTags": [
+      {
+        "Namespace": "",
+        "Key": "8E33607149919AAD19DA23B092111D9B",
+        "SourceString": "Umbrella",
+        "LocalizedString": "Umbrella"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "80B9EA6E4BE26137463475908F74CC05",
+      "SourceString": "Snowflake",
+      "LocalizedString": "Snowflake"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9E27FF874871D012D759B0B74465E700",
+      "SourceString": "A Season 2 Victory Royale umbrella handcrafted from locally sourced snowflakes.",
+      "LocalizedString": "A Season 2 Victory Royale umbrella handcrafted from locally sourced snowflakes."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5110886B4B82702C760EDCBF12AFD624",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 15.0,
+          "Yaw": 45.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.05
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Umbrella-S-VinderTech-Umbrella-WinterSnowflake.T-Icon_Umbrella-S-VinderTech-Umbrella-WinterSnowflake",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Umbrella-S-VinderTech-Umbrella-WinterSnowflake-L.T-Icon_Umbrella-S-VinderTech-Umbrella-WinterSnowflake-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.Season2.FirstWin",
+          "Cosmetics.QuestsMetaData.Achievements.Umbrella",
+          "Cosmetics.Filter.Season.2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          248,
+          246,
+          667,
+          877,
+          885,
+          943,
+          127,
+          309,
+          1356,
+          310,
+          2004,
+          243,
+          2217,
+          394,
+          380,
+          349,
+          3843
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Keytar_Boomerang",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Boomerang/Persistent/Emote_Keytar_Boomerang_CMM_M.Emote_Keytar_Boomerang_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Boomerang/Persistent/Emote_Keytar_Boomerang_CMF_M.Emote_Keytar_Boomerang_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Boomerang/Persistent/Emote_Keytar_Boomerang_CLM_M.Emote_Keytar_Boomerang_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Boomerang/Persistent/Emote_Keytar_Boomerang_CLF_M.Emote_Keytar_Boomerang_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Keytar_Boomerang:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Keytar/Boomerang/EID_Keytar_Boomerang.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C879F4794A4D86F377194DAA0EE85360",
+      "SourceString": "Boomerang",
+      "LocalizedString": "Boomerang"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1D8C38914667B29DE51763893C8C16C9",
+      "SourceString": "Don't call it a comeback.",
+      "LocalizedString": "Don't call it a comeback."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7142418740E959731B1BE0A970458F47",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Keytar_Boomerang.T_UI_Icon_SparksEmote_Keytar_Boomerang",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Keytar_Boomerang_L.T_UI_Icon_SparksEmote_Keytar_Boomerang_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Filter.Sparks.Season.06",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

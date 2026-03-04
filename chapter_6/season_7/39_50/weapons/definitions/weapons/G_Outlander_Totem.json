@@ -1,0 +1,52 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_Outlander_Totem",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bCanChangePreviewImageDuringGame": true,
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Outlander/Actives/Fragment/Totem/GA_Outlander_Totem.GA_Outlander_Totem_C",
+      "SubPathString": ""
+    },
+    "WeaponItemDefinition": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Generic/Gadgets/Llama/d_Outlander_SpecialFragment_Llama.d_Outlander_SpecialFragment_Llama",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::HeroAbility",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B45D2B2E487E80EAF6D114897C91B109",
+      "SourceString": "Dimensional Fragment",
+      "LocalizedString": "Dimensional Fragment"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.AllowQuickbarFocusForGamepadOnly",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "PreferredQuickbarSlot": 9
+      },
+      {
+        "SecondaryCategoryOverrideTags": [
+          "Gameplay.Explorer.Fragment.Offensive",
+          "Gameplay.Explorer.Fragment.Defensive",
+          "Gameplay.Explorer.Fragment.Specialty"
+        ],
+        "TertiaryCategoryOverrideTags": []
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Outlander/Abilities/Icon-Outlander-BearFragment-128.Icon-Outlander-BearFragment-128",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_Outlander_ZoneHarvest",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'F_SML_Outlander_02_Backpack_01'",
+        "ObjectPath": "/SaveTheWorld/Characters/CharacterParts/Backpacks/F_SML_Outlander_02_Backpack_01.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Outlander-ZoneHarvest.T-Icon-Backpacks-Outlander-ZoneHarvest",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Outlander-ZoneHarvest-L.T-Icon-Backpacks-Outlander-ZoneHarvest-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

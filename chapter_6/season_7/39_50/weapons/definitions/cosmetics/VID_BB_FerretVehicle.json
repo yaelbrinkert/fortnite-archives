@@ -1,0 +1,50 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_BB_FerretVehicle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Ferret.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Ferret.MaxSpawnPercent"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 100.0
+    },
+    "MaxPercentWithGas": {
+      "Value": 100.0
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/BlastberryMapContent/Game/Blueprints/Biplane/Rufus_FerretVehicle.Rufus_FerretVehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "rufusbiplane",
+      "rufusferret"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

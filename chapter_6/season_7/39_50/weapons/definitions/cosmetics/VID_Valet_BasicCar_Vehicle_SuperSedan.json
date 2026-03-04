@@ -1,0 +1,108 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Valet_BasicCar_Vehicle_SuperSedan",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinSpawnPercent.BasicCar"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxSpawnPercent.BasicCar"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0,
+      "Curve": {
+        "RowName": "Default.Valet.BasicCar.MaxCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentWithGas.BasicCar"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentWithGas.BasicCar"
+      }
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentInoperable.BasicCar"
+      }
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentInoperable.BasicCar"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/ModdedBasicCar/Vehicle/Valet_BasicCar_Vehicle_SuperSedan.Valet_BasicCar_Vehicle_SuperSedan_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "basicmodsuper",
+      "supersedan"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BC9BC8EE437C8D14DAF8F4AC9CD31E37",
+      "SourceString": "Islander Prevalent Nitro Drifter",
+      "LocalizedString": "Islander Prevalent Nitro Drifter"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ModdedBasicCar/Icons/T-T-Icon-BR-vehicle-sedan-neoncity.T-T-Icon-BR-vehicle-sedan-neoncity",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/ModdedBasicCar/Icons/T-T-Icon-BR-vehicle-sedan-neoncity-L.T-T-Icon-BR-vehicle-sedan-neoncity-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

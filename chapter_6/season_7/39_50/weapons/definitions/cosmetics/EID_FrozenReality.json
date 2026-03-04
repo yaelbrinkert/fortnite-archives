@@ -1,0 +1,118 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_FrozenReality",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "unequip",
+        "EvaluationMode": "EMontageSelectionPredicateType::ActiveSwapPresence",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [],
+            "Item": null
+          }
+        ]
+      }
+    ],
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FrozenReality/Emote_FrozenRealityEquip_CMM__FE_M.Emote_FrozenRealityEquip_CMM__FE_M",
+      "SubPathString": ""
+    },
+    "bUseMetaTagsFromPickaxeActor": false,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FrozenReality/Emote_FrozenRealityEquip_CMM_M.Emote_FrozenRealityEquip_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_FrozenReality.Character_FrozenReality",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      69242
+    ],
+    "BaseShotGridId": 69242,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FF3DFF274157C18761E60392F1626AFA",
+      "SourceString": "Battle Ready",
+      "LocalizedString": "Battle Ready"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F124606F42B776A50B67699B7B497DEC",
+      "SourceString": "They're gonna feel the sting.",
+      "LocalizedString": "They're gonna feel the sting."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "73132BEF4B7C157C9B8FB1A3C03BC757",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S26/T-Icon-Emotes-FrozenRealityEmote.T-Icon-Emotes-FrozenRealityEmote",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S26/T-Icon-Emotes-FrozenRealityEmote-L.T-Icon-Emotes-FrozenRealityEmote-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.TorchSour",
+          "Cosmetics.Filter.Season.26"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

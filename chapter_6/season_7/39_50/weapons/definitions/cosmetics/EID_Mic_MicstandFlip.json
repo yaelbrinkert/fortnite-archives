@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Mic_MicstandFlip",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Mic/MicstandFlip/Persistent/Emote_Mic_MicstandFlip_CMM_M.Emote_Mic_MicstandFlip_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Mic/MicstandFlip/Persistent/Emote_Mic_MicstandFlip_CMF_M.Emote_Mic_MicstandFlip_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Mic/MicstandFlip/Persistent/Emote_Mic_MicstandFlip_CLM_M.Emote_Mic_MicstandFlip_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Mic/MicstandFlip/Persistent/Emote_Mic_MicstandFlip_CLF_M.Emote_Mic_MicstandFlip_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Mic_MicstandFlip:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Mic/MicstandFlip/EID_Mic_MicstandFlip.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "425FFCF141FD93541CD30D9DDEB3EE5A",
+      "SourceString": "Microflip",
+      "LocalizedString": "Microflip"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "02A2B5834070A0683D3EBC93FE5D1C5C",
+      "SourceString": "Flip it. ",
+      "LocalizedString": "Flip it. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D1B161E44DC71BBDCCC76293D72D8D0E",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S37/T_UI_Icon_SparksEmote_Mic_MicStandFlip.T_UI_Icon_SparksEmote_Mic_MicStandFlip",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S37/T_UI_Icon_SparksEmote_Mic_MicStandFlip_L.T_UI_Icon_SparksEmote_Mic_MicStandFlip_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.65
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

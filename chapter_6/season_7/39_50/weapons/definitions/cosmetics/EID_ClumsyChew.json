@@ -1,0 +1,104 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ClumsyChew",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClumsyChew/CMM/Emote_ClumsyChew_CMM_M.Emote_ClumsyChew_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClumsyChew/CMF/Emote_ClumsyChew_CMF_M.Emote_ClumsyChew_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClumsyChew/CLM/Emote_ClumsyChew_CLM_M.Emote_ClumsyChew_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClumsyChew/CLF/Emote_ClumsyChew_CLF_M.Emote_ClumsyChew_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "46A91B3047174AD7B3023581226EB18A",
+      "SourceString": "Reporting for Duty",
+      "LocalizedString": "Reporting for Duty"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2C155DBB44CD7A00C5E96CB2676B4E89",
+      "SourceString": "The professionals are here. ",
+      "LocalizedString": "The professionals are here. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8CB58CD24EDFD4C9141CCC964FAD6E1F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 10.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.BlackWhite"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_ClumsyChew.T_Icon_Emotes_ClumsyChew",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_ClumsyChew_L.T_Icon_Emotes_ClumsyChew_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

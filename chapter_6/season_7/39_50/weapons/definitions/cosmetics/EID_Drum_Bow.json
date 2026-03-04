@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Drum_Bow",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/Bow/Persistent/Emote_Drum_Bow_CMM_M.Emote_Drum_Bow_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/Bow/Persistent/Emote_Drum_Bow_CMF_M.Emote_Drum_Bow_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/Bow/Persistent/Emote_Drum_Bow_CLM_M.Emote_Drum_Bow_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/Bow/Persistent/Emote_Drum_Bow_CLF_M.Emote_Drum_Bow_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Drum_Bow:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Drum/Bow/EID_Drum_Bow.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3D806B6E471164507CF76BA157A6483A",
+      "SourceString": "Backbeat Bow",
+      "LocalizedString": "Backbeat Bow"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "272BB7634D70A3A432D7F7BBEBA4DCC3",
+      "SourceString": "Thank you and goodnight.",
+      "LocalizedString": "Thank you and goodnight."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "04A593DF4FA80148879EF08979A7CB96",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.65
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Drum-Bow.T-UI-Icon-SparksEmote-Drum-Bow",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Drum-Bow-L.T-UI-Icon-SparksEmote-Drum-Bow-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

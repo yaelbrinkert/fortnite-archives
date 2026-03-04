@@ -1,0 +1,107 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Relish_TNPZI",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 105.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Relish/Emote_Relish_CMM_M.Emote_Relish_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Relish/Emote_Relish_CMF_M.Emote_Relish_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Relish/Emote_Relish_CLM_M.Emote_Relish_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Relish/Emote_Relish_CLF_M.Emote_Relish_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Relish_TNPZI:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Relish_TNPZI.1"
+      }
+    ],
+    "ShotGridIds": [
+      53513
+    ],
+    "BaseShotGridId": 53513,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E707DBB24865F9F19986B3931F95CE75",
+      "SourceString": "Brolly Stroll",
+      "LocalizedString": "Brolly Stroll"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "ECAEE2E54694398357D59B82E6694577",
+      "SourceString": "I love the smell after it rains, don't you?",
+      "LocalizedString": "I love the smell after it rains, don't you?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5AF4B51343780D2E529BA899EC4645D9",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Relish.T-Icon-Emotes-E-Relish",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Relish-L.T-Icon-Emotes-E-Relish-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.18",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.SaladInsure",
+          "Emote.Mech.Disabled.Art"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SingAlong_FE",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/SingAlong/Emote_SingAlong_CMM_M_FrontEnd_Follower.Emote_SingAlong_CMM_M_FrontEnd_Follower",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/SingAlong/Emote_SingAlong_CMF_M_FrontEnd_Follower.Emote_SingAlong_CMF_M_FrontEnd_Follower",
+      "SubPathString": ""
+    },
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 55.0,
+    "bMoveForwardOnly": true,
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "33DE6EBB42F914B7A89CDBBE503EDC9B",
+      "SourceString": "Sing Along",
+      "LocalizedString": "Sing Along"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BA16A4F54AD18112981E08A20604D0CC",
+      "SourceString": "C'mon, you know the words!",
+      "LocalizedString": "C'mon, you know the words!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "CE63CB4E49EF389CA3406BAD18EAE368",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.15",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-SingAlong.T-Icon-Emotes-E-SingAlong",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-SingAlong-L.T-Icon-Emotes-E-SingAlong-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": -120.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 20.0,
+              "Y": -80.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": null,
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 0.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 20.0,
+                "Y": -160.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": null,
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 0.0
+            },
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 0.0,
+                "Y": -240.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": null,
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 0.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Immediate",
+          "GroupEmotePreviewFollowerJoinDelayOverride": 3.0
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "SpecificationMethod": "ECosmeticItemPreviewActorOverrideMethod::ByCosmeticPreviewActorClassMapTag",
+        "ExplicitPreviewActorOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorIdentifierTag": {
+          "TagName": "Cosmetics.Emote.LargeGroupEmote"
+        }
+      }
+    ]
+  }
+}

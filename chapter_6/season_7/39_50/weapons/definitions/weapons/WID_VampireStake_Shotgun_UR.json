@@ -1,0 +1,396 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_VampireStake_Shotgun_UR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/B_VampireStake_Shotgun.B_VampireStake_Shotgun_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Shotgun_VampireStake_Athena_UR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Shotgun_CosmeticAlteration_Athena.Shotgun_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/GA_Ranged_Athena_VampireStake_Shotgun.GA_Ranged_Athena_VampireStake_Shotgun_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bAllowTargetingDuringReload": true,
+    "HitNotifyDuration": 0.5,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Heavy_Shotgun_V2.HUD_Xhair_Heavy_Shotgun_V2",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [
+      45.0,
+      135.0,
+      225.0,
+      315.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Weapon.Ranged.Shotgun.Stake",
+      "Weapon.Ranged.Shotgun"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Weapon.Ranged.Shotgun.Stake",
+      "Weapon.Ranged.Shotgun",
+      "Tag:Weapon:wid_vampirestake_shotgun_ur"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Shells",
+        "CH4S4",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "954F437F41D1435B2BA3E8AECF457BA2",
+      "SourceString": "High Stakes' Shotgun",
+      "LocalizedString": "High Stakes' Shotgun"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E059393C4BEA3D39A926EAADD4EE5E2B",
+      "SourceString": "Shotgun: Fires wooden stakes that deal significant damage at close ranges. Created to fight vampires and the undead - but still good against most things.",
+      "LocalizedString": "Shotgun: Fires wooden stakes that deal significant damage at close ranges. Created to fight vampires and the undead - but still good against most things."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.WeaponRanged.ShowReticleHitNotifyAtImpactLocation"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/Meshes/Stake_Launcher.Stake_Launcher",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Explosive-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Explosive-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/Audio/SL_VampireStake_Shotgun_Pickup.SL_VampireStake_Shotgun_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 6.5385942,
+          "Y": 44.41303,
+          "Z": 13.002382
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": -4.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.677672,
+          "Yaw": 27.94883,
+          "Roll": -18.777086
+        },
+        "Scale": 0.7
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "F3AF1BA94F14EC45EEE5FAAEDAD69E7A",
+          "SourceString": "Guns Ranged",
+          "LocalizedString": "Guns Ranged"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/Icons/T-Icon-Weapons-StakeLauncher.T-Icon-Weapons-StakeLauncher",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/Icons/T-Icon-Weapons-StakeLauncher-L.T-Icon-Weapons-StakeLauncher-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Rarity.Mythic",
+          "Bacchus.Shoot.Shotgun.Tactical",
+          "Item.Weapon.Ranged.Shotgun.Stake",
+          "phoebe.items.pump_shotgun",
+          "phoebe.weapon.ranged.shotgun",
+          "Weapon.Ranged.Shotgun.Stake",
+          "Weapon.Meta.DoNotApplyWraps"
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_VampireStake_Shotgun_Fire_Weapon'",
+            "ObjectPath": "/VampireStakeGameplay/Items/StakeLauncher/Audio/SL_VampireStake_Shotgun_Fire_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Rifle'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Rifle.0"
+        }
+      }
+    ]
+  }
+}

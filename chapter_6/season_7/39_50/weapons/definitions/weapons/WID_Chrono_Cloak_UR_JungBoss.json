@@ -1,0 +1,321 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Chrono_Cloak_UR_JungBoss",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/ChronoCloak/Cloak/B_Chrono_Cloak.B_Chrono_Cloak_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_Placeholder"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/ChronoCloak/Cloak/GA_Chrono_Cloak_JungBoss.GA_Chrono_Cloak_JungBoss_C",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/Fort_HUD/HUD_Xhair_Basic.HUD_Xhair_Basic",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "PlayerGrantedGameplayTags": [
+      "Gameplay.Status.DisableSwimSprintCancel",
+      "Ability.Chrono.Cloak.IsEquipped",
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Consumable:wid_chrono_cloak_ur_jungboss"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "ch4s3",
+        "Concealment",
+        "ConsumableItem",
+        "Item",
+        "MythicItem"
+      ]
+    },
+    "ItemType": "EFortItemType::Consumable",
+    "PrimaryAssetIdItemTypeOverride": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "21CA954A43EBB8FF3454FCA1313E6E73",
+      "SourceString": "Wildguard Relik's Cloak Gauntlets",
+      "LocalizedString": "Wildguard Relik's Cloak Gauntlets"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F774979848631393F834CBA8BFD35C01",
+      "SourceString": "Wildguard Relik's personal Cloak Gauntlets.",
+      "LocalizedString": "Wildguard Relik's personal Cloak Gauntlets."
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/ChronoCloak/Cloak/Assets/ActiveCamo/Meshes/Cloaking_Device_Pickup.Cloaking_Device_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -100.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/ChronoCloak/SFX/Chrono_Cloak_Pickup_Cue.Chrono_Cloak_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/ChronoCloak/SFX/Chrono_Cloak_Drop_Cue.Chrono_Cloak_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 39.644833,
+          "Y": 12.7255745,
+          "Z": 22.302849
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "C0FD4D7F46F60AAD020F768160E7D3C7",
+          "SourceString": "Power",
+          "LocalizedString": "Power"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "EquippedCharacterParts": [
+          {
+            "AssetPathName": "/ChronoCloak/Cloak/CP_Chrono_Cloak.CP_Chrono_Cloak",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ChronoCloak/UI/Icons/T-T-Icon-BR-Gauntlet-CloakingDevice.T-T-Icon-BR-Gauntlet-CloakingDevice",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/ChronoCloak/UI/Icons/T-T-Icon-BR-Gauntlet-CloakingDevice-L.T-T-Icon-BR-Gauntlet-CloakingDevice-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Gadget"
+      },
+      {
+        "Tags": [
+          "Weapon.HasUseForFireIcon",
+          "Weapon.Gauntlet",
+          "Animation.CharacterParts.HideFX.Hands",
+          "Rarity.Mythic",
+          "Item.ExclusivePickupGroup.ChronoCloak",
+          "Athena.Item.Utility"
+        ]
+      }
+    ]
+  }
+}

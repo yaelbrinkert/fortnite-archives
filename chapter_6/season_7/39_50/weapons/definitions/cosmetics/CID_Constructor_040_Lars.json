@@ -1,0 +1,79 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Constructor_040_Lars",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FeedbackBank": {
+      "AssetPathName": "/SaveTheWorld/Characters/Feedback/Const_Lars_Feedback.Const_Lars_Feedback",
+      "SubPathString": ""
+    },
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Medium/Constructor/Constructor_Male_Body_MediumBodyType_Montage_Idle.Constructor_Male_Body_MediumBodyType_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Constructor_040_Lars:CP_Head_Outlander_029_Dino'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Constructor/CosmeticCharacterItemDefinitions/CID_Constructor_040_Lars.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "46AEBFE64720A51ABB8A87B27FABBD0D",
+      "SourceString": "Lars",
+      "LocalizedString": "Lars"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C5A508CA457C142DA417CC82363298AC",
+      "SourceString": "Storm scientist and founding member of Steel Wool.",
+      "LocalizedString": "Storm scientist and founding member of Steel Wool."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-A-186-Athena-Commando-M-Lars.T-Soldier-HID-A-186-Athena-Commando-M-Lars",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-A-186-Athena-Commando-M-Lars-L.T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

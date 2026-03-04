@@ -1,0 +1,61 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Figment_QuadCrasher",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 100.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'Figment_QuadCrasher_Data'",
+          "ObjectPath": "/Figment_Vehicle_QuadCrasher/datatables/Figment_QuadCrasher_Data.0"
+        },
+        "RowName": "Vehicle.Antelope.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 100.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'Figment_QuadCrasher_Data'",
+          "ObjectPath": "/Figment_Vehicle_QuadCrasher/datatables/Figment_QuadCrasher_Data.0"
+        },
+        "RowName": "Vehicle.Antelope.MaxSpawnPercent"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/Figment_Vehicle_QuadCrasher/blueprints/Figment_QuadCrasher.Figment_QuadCrasher_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "figmentatv",
+      "figmentantelope",
+      "figmentquadcrasher",
+      "figmentquad"
+    ],
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Vehicles/T-Icon-Vehicle-QuadBike.T-Icon-Vehicle-QuadBike",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Vehicles/T-Icon-Vehicle-QuadBike-L.T-Icon-Vehicle-QuadBike-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

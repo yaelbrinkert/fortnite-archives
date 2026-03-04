@@ -1,0 +1,107 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_PolarityWin",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Polaritywinn/CMM/Emote_PolarityWinn_CMM_M.Emote_PolarityWinn_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Polaritywinn/CMF/Emote_PolarityWinn_CMF_M.Emote_PolarityWinn_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Polaritywinn/CLF/Emote_PolarityWinn_CLF_M.Emote_PolarityWinn_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Polaritywinn/CLM/Emote_PolarityWinn_CLM_M.Emote_PolarityWinn_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 31.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B10635A5489A6AB1566F249B768DBC38",
+      "SourceString": "Synth Step",
+      "LocalizedString": "Synth Step"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4B1D18CB457644025E8E069068B40C8F",
+      "SourceString": "Keep it upbeat.",
+      "LocalizedString": "Keep it upbeat."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "1FCE7F5642A66BA2E9991E9D514EE5D2",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 80.0,
+          "Z": 25.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.Set.MusicPlayer",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_PolarityWinn.T_Icon_Emotes_PolarityWinn",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_PolarityWinn_L.T_Icon_Emotes_PolarityWinn_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

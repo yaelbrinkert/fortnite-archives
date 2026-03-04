@@ -1,0 +1,85 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Sunrise_RPZ6M",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 50.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Sunrise/Emote_Sunrise_CMM_M.Emote_Sunrise_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Sunrise/Emote_Sunrise_CMF_M.Emote_Sunrise_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Sunrise/Emote_Sunrise_CLM_M.Emote_Sunrise_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      52912
+    ],
+    "BaseShotGridId": 52912,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A26F622D4F2DA97758B558BA714700FC",
+      "SourceString": "Sand Walk",
+      "LocalizedString": "Sand Walk"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3E9295004341D7FEE2FA5DB3D69F37CB",
+      "SourceString": "Walk without rhythm to avoid attracting sandworms.",
+      "LocalizedString": "Walk without rhythm to avoid attracting sandworms."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2F8ECEFA45C241B7CB3D69ABB9AA36B3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.18",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.StickPolish"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Sunrise.T-Icon-Emotes-E-Sunrise",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Sunrise-L.T-Icon-Emotes-E-Sunrise-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

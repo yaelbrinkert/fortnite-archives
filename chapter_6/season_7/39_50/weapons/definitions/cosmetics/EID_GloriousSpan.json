@@ -1,0 +1,109 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_GloriousSpan",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GloriousSpan/CMM/Emote_GloriousSpan_CMM_M.Emote_GloriousSpan_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GloriousSpan/CMF/Emote_GloriousSpan_CMF_M.Emote_GloriousSpan_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GloriousSpan/CLF/Emote_GloriousSpan_CLF_M.Emote_GloriousSpan_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/GloriousSpan/CLM/Emote_GloriousSpan_CLM_M.Emote_GloriousSpan_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 40.0,
+    "EmoteCooldownSecs": 1.0,
+    "ObservedPlayerStats": [
+      "StatManager.GloriousSpanProgress"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "91193B0040CCA77C85E8E9961770D185",
+      "SourceString": "Wings of Renown",
+      "LocalizedString": "Wings of Renown"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "55F61F4B4F8231A518238D9F94A01F18",
+      "SourceString": "You're a champion.",
+      "LocalizedString": "You're a champion."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2F0672FE487FE1D7006BBF8AD570E278",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 30.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Emote.GloriousSpan",
+          "Cosmetics.Filter.Season.38"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_GloriousSpan.T_Icon_Emotes_GloriousSpan",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_GloriousSpan_L.T_Icon_Emotes_GloriousSpan_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

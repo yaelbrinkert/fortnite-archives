@@ -1,0 +1,96 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_DoubleTake",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DoubleTake/Emote_DoubleTake_CMM_M.Emote_DoubleTake_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DoubleTake/Emote_DoubleTake_CMF_M.Emote_DoubleTake_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DoubleTake/Emote_DoubleTake_CLM_M.Emote_DoubleTake_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DoubleTake/Emote_DoubleTake_CLF_M.Emote_DoubleTake_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      69560
+    ],
+    "BaseShotGridId": 69560,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "990DA4EE4E84A719F35431AFA5D3B878",
+      "SourceString": "Made You Look",
+      "LocalizedString": "Made You Look"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8FAF63384A4FFD7AC90161A6078907EB",
+      "SourceString": "Flaunt in whatever you've got on.",
+      "LocalizedString": "Flaunt in whatever you've got on."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "AFC3EB0541B477046EF09887894B8400",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-DoubleTake.T-Icon-Emotes-DoubleTake",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-DoubleTake-L.T-Icon-Emotes-DoubleTake-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.24",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

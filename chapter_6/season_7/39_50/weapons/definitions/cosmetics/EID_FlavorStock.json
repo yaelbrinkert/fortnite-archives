@@ -1,0 +1,122 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_FlavorStock",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlavorStock/Emote_FlavorStock_CMM_M.Emote_FlavorStock_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlavorStock/Emote_FlavorStock_CMF_M.Emote_FlavorStock_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlavorStock/Emote_FlavorStock_CLM_M.Emote_FlavorStock_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlavorStock/Emote_FlavorStock_CLF_M.Emote_FlavorStock_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 15.0,
+      "Roll": 0.0
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_FlavorStock:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_FlavorStock.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "603281EA45EBFDF83F9CAB9CAA7BE331",
+      "SourceString": "It's Clobberin' Time!",
+      "LocalizedString": "It's Clobberin' Time!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "09B1D22944A69D62E4E7F7AA0512E04B",
+      "SourceString": "Get ready for a Yancy Street beatdown.",
+      "LocalizedString": "Get ready for a Yancy Street beatdown."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "674C43FB4E747DE74B49E3A92D00ACA4",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 10.0,
+          "Y": 25.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.Set.ColdShield"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_FlavorStock.T_Icon_Emotes_FlavorStock",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_FlavorStock_L.T_Icon_Emotes_FlavorStock_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      }
+    ]
+  }
+}

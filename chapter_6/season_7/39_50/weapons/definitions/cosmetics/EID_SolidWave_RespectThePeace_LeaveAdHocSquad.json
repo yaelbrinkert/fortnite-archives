@@ -1,0 +1,76 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SolidWave_RespectThePeace_LeaveAdHocSquad",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "bAllowLowerBodyLocomotion": true,
+    "GroupEmotePositionOffsetTolerance": 7.0,
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 500.0,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_LeaveAdHocSquad.GAB_Emote_LeaveAdHocSquad_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashVault/CMM/Emote_SwashVault_CMM_M.Emote_SwashVault_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashVault/CMF/Emote_SwashVault_CMF_M.Emote_SwashVault_CMF_M",
+      "SubPathString": ""
+    },
+    "PreviewLoops": 0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BCF8A5C94DEF9D03489DE3A9F156D1C1",
+      "SourceString": "Leave Team",
+      "LocalizedString": "Leave Team"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3CD86F644007CC387CFA3289708F8390",
+      "SourceString": "Leave yoour current team.",
+      "LocalizedString": "Leave yoour current team."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D27BE3A84433838F53869DAF5D9FE23C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Leave.T_TeamEmotes_SolidWave_Leave",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Leave_L.T_TeamEmotes_SolidWave_Leave_L",
+          "SubPathString": ""
+        }
+      },
+      {}
+    ]
+  }
+}

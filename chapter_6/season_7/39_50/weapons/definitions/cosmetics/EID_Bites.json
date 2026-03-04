@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Bites",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Unequip",
+        "EvaluationMode": "EMontageSelectionPredicateType::ActiveSwapPresence",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [],
+            "Item": {
+              "ObjectName": "AthenaPickaxeItemDefinition'Pickaxe_Bites'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_Bites.0"
+            }
+          }
+        ]
+      }
+    ],
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bites/v1/Emote_BitesEquip_CMM_Frontend_M.Emote_BitesEquip_CMM_Frontend_M",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bites/v1/Emote_BitesEquip_CMM_M_01.Emote_BitesEquip_CMM_M_01",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_036_Emote_Bites'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_036_Emote_Bites.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_Bites.Character_Bites",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Bites:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Bites.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E905AE4D46F6A2DF6637C281DC432B6C",
+      "SourceString": "Chrome Conjurer",
+      "LocalizedString": "Chrome Conjurer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BB6AA3E1447722ACFC5C10B323379768",
+      "SourceString": "Summon the gift of the Nothing.",
+      "LocalizedString": "Summon the gift of the Nothing."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "18804DC04E8FB275EC53E8B00E568D99",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Filter.Season.22",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.GoingNowhere",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-Bites.T-Icon-Emotes-E-Bites",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-Bites-L.T-Icon-Emotes-E-Bites-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

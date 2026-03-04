@@ -1,0 +1,222 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_TaxiUpgradedWhiteFemale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 150.0,
+      "Y": -25.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Mark_II/Meshes/Glider_Mark_II.Glider_Mark_II",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Mark_II_Glider_AnimBP.Mark_II_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Taxi_Upgraded_White_Female/FX/NS_Glider_TaxiUpgradedWhiteFemale.NS_Glider_TaxiUpgradedWhiteFemale",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/TaxiUpgradedMulticolorFemale/SC_GliderOpen_TaxiUpgradedMulticolorFemale.SC_GliderOpen_TaxiUpgradedMulticolorFemale",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/TaxiUpgradedMulticolorFemale/SC_GliderClose_TaxiUpgradedMulticolorFemale.SC_GliderClose_TaxiUpgradedMulticolorFemale",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/TaxiUpgradedMulticolorFemale/SC_GliderThrustLoop_TaxiUpgradedMulticolorFemale.SC_GliderThrustLoop_TaxiUpgradedMulticolorFemale",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::AnyDirection",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/TaxiUpgradedMulticolorFemale/SC_GliderThrustStart_TaxiUpgradedMulticolorFemale.SC_GliderThrustStart_TaxiUpgradedMulticolorFemale",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Taxi_Upgraded_White_Female/Materials/MI_Glider_TaxiUpgradedWhiteFemale.MI_Glider_TaxiUpgradedWhiteFemale",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5B2F82994310390023019AA6348DD78D",
+      "SourceString": "Hailstorm Rider",
+      "LocalizedString": "Hailstorm Rider"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "72EC420944D35D8ACD8DD8A5BC9A98D1",
+      "SourceString": "Catch a ride to victory.",
+      "LocalizedString": "Catch a ride to victory."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -105.0,
+          "Roll": -15.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S29/T-Icon_Glider-TaxiUpgradedWhiteFemale.T-Icon_Glider-TaxiUpgradedWhiteFemale",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S29/T-Icon_Glider-TaxiUpgradedWhiteFemale-L.T-Icon_Glider-TaxiUpgradedWhiteFemale-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Source.QuestReward"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          359,
+          248,
+          606,
+          389,
+          697,
+          1042,
+          1506,
+          1508,
+          1624,
+          1634,
+          1378,
+          2393,
+          2394,
+          2691,
+          404,
+          1897,
+          380,
+          392,
+          4431,
+          4432,
+          4462
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Athena_RiftGate_PlotTwist_Force_CP",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Backpack_DonutCupHood'",
+        "ObjectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/CP_Backpack_DonutCupHood.1"
+      }
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Tags": [
+          "phoebe.items.PassivePhase"
+        ]
+      }
+    ]
+  }
+}

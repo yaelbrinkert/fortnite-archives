@@ -1,0 +1,110 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_StoneLion",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StoneLion/Emote_StoneLion_CMM_M.Emote_StoneLion_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StoneLion/Emote_StoneLion_CMF_M.Emote_StoneLion_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StoneLion/Emote_StoneLion_CLM_M.Emote_StoneLion_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StoneLion/Emote_StoneLion_CLF_M.Emote_StoneLion_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_StoneLion:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_StoneLion.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "98C429364549A169E8A23CA787625AFB",
+      "SourceString": "Jar of Dirt",
+      "LocalizedString": "Jar of Dirt"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D45072454E9AA6DF8EFE1DA3D24EC4AD",
+      "SourceString": "I've got a jar of dirt, I've got a jar of dirt!",
+      "LocalizedString": "I've got a jar of dirt, I've got a jar of dirt!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "92D71DAB4E039813CD2D74B2C9DF64DE",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 90.0,
+          "Z": 35.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-StoneLion.T-Icon-Emotes-StoneLion",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.30",
+          "Cosmetics.Set.GroanScheme"
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S30/T-Icon-Emotes-StoneLion-L.T-Icon-Emotes-StoneLion-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

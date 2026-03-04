@@ -1,0 +1,293 @@
+{
+  "Type": "FortWeaponModItemDefinition",
+  "Name": "WMID_FeralCorgi_Underbarrel_VertForegrip",
+  "Class": "UScriptClass'FortWeaponModItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ModSlot": {
+      "TagName": "WeaponMod.Slot.Underbarrel"
+    },
+    "DefaultModData": {
+      "MeshData": {
+        "ModMesh": {
+          "AssetPathName": "/WeaponMods/Items/WeaponMods/Underbarrel/VerticalForegrip/Mesh/Under_GripVert.Under_GripVert",
+          "SubPathString": ""
+        },
+        "SocketName": "attach_under"
+      }
+    },
+    "PlayerGrantedGameplayTags": [
+      "WeaponMod.UnderBarrel.Foregrip.Vertical"
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/WeaponMods/Items/WeaponMods/Underbarrel/VerticalForegrip/AS_WM_Underbarrel_VertForegrip.AS_WM_Underbarrel_VertForegrip",
+      "SubPathString": ""
+    },
+    "AllowedWeaponTagQuery": {
+      "TagDictionary": [
+        {
+          "TagName": "Item.Weapon.Ranged.Pistol"
+        },
+        {
+          "TagName": "Item.Weapon.Ranged.Shotgun.Flavor.FirePetal"
+        },
+        {
+          "TagName": "WeaponMod.Exclusion.Underbarrel.All"
+        }
+      ],
+      "QueryTokenStream": [
+        0,
+        1,
+        3,
+        3,
+        0,
+        1,
+        2
+      ],
+      "UserDescription": "Excluded Weapons",
+      "AutoDescription": " NONE( Item.Weapon.Ranged.Pistol, Item.Weapon.Ranged.Shotgun.Flavor.FirePetal, WeaponMod.Exclusion.Underbarrel.All )"
+    },
+    "WeaponModTag": {
+      "TagName": "WeaponMod.UnderBarrel.Foregrip.Vertical"
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D7B3289C40B78E2B606D31B2BB7D7367",
+      "SourceString": "Vertical Foregrip",
+      "LocalizedString": "Vertical Foregrip"
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/WeaponMods/Items/WeaponMods/Underbarrel/VerticalForegrip/Mesh/Under_GripVert.Under_GripVert",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.043246217,
+            "Y": -0.13040195,
+            "Z": -0.0056934725,
+            "W": 0.9905012,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.2,
+            "Y": 1.2,
+            "Z": 1.2
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Drop_Cue.Shotgun_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": false,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 2.1220953,
+          "Y": 3.187767,
+          "Z": 5.819281
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "2D9BA152491D25D4ACC96CB20849228E",
+          "SourceString": "Weapon Mod",
+          "LocalizedString": "Weapon Mod"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "828BF7714BB5A101CDB95485C9D57045",
+          "SourceString": "foregrip, weaponmod, vertforegrip",
+          "LocalizedString": "foregrip, weaponmod, vertforegrip"
+        }
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Traits": [
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WeaponMods/UI/Icons/T_Icon_VerticalForegrip_32.T_Icon_VerticalForegrip_32",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/WeaponMods/UI/Icons/T_Icon_VerticalForegrip_64.T_Icon_VerticalForegrip_64",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "WeaponMod.UnderBarrel.Foregrip.Vertical"
+        ]
+      }
+    ]
+  }
+}

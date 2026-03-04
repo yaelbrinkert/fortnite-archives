@@ -1,0 +1,191 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_BirdNest",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 120.0,
+      "Y": -20.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BirdNest/Meshes/BirdNest_Glider.BirdNest_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/BirdNest_Glider_AnimBP.BirdNest_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/BirdNest/Player/BirdNestPlayerAnimSet.BirdNestPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BirdNest/FX/NS_Glider_BirdNest.NS_Glider_BirdNest",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Birdnest/Glider_Birdnest_Open_Cue.Glider_Birdnest_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Birdnest/Glider_Birdnest_Close_Cue.Glider_Birdnest_Close_Cue",
+      "SubPathString": ""
+    },
+    "OverlayMaterialData": {
+      "LowQualityMaterial": {
+        "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BirdNest/Materials/MI_M_MED_BirdNest_Glider_InvertedHull_Outlines.MI_M_MED_BirdNest_Glider_InvertedHull_Outlines",
+        "SubPathString": ""
+      },
+      "HighQualityMaterial": {
+        "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_BirdNest/Materials/MI_M_MED_BirdNest_Glider_InvertedHull_Outlines.MI_M_MED_BirdNest_Glider_InvertedHull_Outlines",
+        "SubPathString": ""
+      }
+    },
+    "ShotGridIds": [
+      66507
+    ],
+    "BaseShotGridId": 66507,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9383F716495C0BF3187C15827BC398B7",
+      "SourceString": "Nue",
+      "LocalizedString": "Nue"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1C30AEED42EE987EF1688EBEFB7D8E1A",
+      "SourceString": "A shikigami that has the ability to fly.",
+      "LocalizedString": "A shikigami that has the ability to fly."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 10.0,
+          "Yaw": 295.0,
+          "Roll": -17.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S25/T-Icon_Glider-BirdNest.T-Icon_Glider-BirdNest",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.Set.CleanWard",
+          "Cosmetics.Source.Event.Engagement.Paid"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          270,
+          546,
+          359,
+          389,
+          615,
+          666,
+          729,
+          858,
+          382,
+          76,
+          256,
+          860,
+          974,
+          1148,
+          1508,
+          1004,
+          863,
+          862,
+          4427
+        ]
+      }
+    ]
+  }
+}

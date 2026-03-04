@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_BattleHoundFire",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Cap.CP_Bean_Head_Cap",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Fantasy.CP_Bean_Body_Fantasy",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_BattleHoundFire:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_BattleHoundFire.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "279646BF448D26B4059D72A298AB1379",
+      "SourceString": "Molten Battle Hound",
+      "LocalizedString": "Molten Battle Hound"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "956788E949204826E85E0194D66E2C0E",
+      "SourceString": "Release the molten hound!",
+      "LocalizedString": "Release the molten hound!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_BattleHoundFire.T_Bean_BattleHoundFire",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_BattleHoundFire_L.T_Bean_BattleHoundFire_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.8",
+          "Cosmetics.Set.Molten",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'LavaSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/LavaSeries.0"
+        }
+      }
+    ]
+  }
+}

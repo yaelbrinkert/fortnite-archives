@@ -1,0 +1,361 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "Athena_NeonBurn_ChillBronco",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/B_NeonBurn_ChillBronco_Athena.B_NeonBurn_ChillBronco_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/Assets/Meshes/SK_ChillBronco_FinchMoon.SK_ChillBronco_FinchMoon",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_NonDamaging"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/TestCosmeticAlteration.TestCosmeticAlteration",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/GA_Athena_ChillBronco_FinchMoon_Primary.GA_Athena_ChillBronco_FinchMoon_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/GA_Athena_ChillBronco_FinchMoon_Secondary.GA_Athena_ChillBronco_FinchMoon_Secondary_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/Athena_NeonBurn_ChillBronco.Athena_NeonBurn_ChillBronco",
+      "SubPathString": ""
+    },
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Consumable.ChillBronco"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.ChillBronco",
+      "Tag:Consumable:athena_neonburn_chillbronco"
+    ],
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7CD364114FBD113FBA4887841DC75905",
+      "SourceString": "Chug Splash",
+      "LocalizedString": "Chug Splash"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "96644B4845894F4A7F3EBAB8C11337B2",
+      "SourceString": "Slurp for me, Slurp for you. I'll have a Slurp, you'll have one too. Toss to splash all nearby players. Instantly applies Health and Shields to those in splash area.",
+      "LocalizedString": "Slurp for me, Slurp for you. I'll have a Slurp, you'll have one too. Toss to splash all nearby players. Instantly applies Health and Shields to those in splash area."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.MaxStackAmount.ChugSplash"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/Assets/Meshes/ChillBronco_FinchMoon_Pickup.ChillBronco_FinchMoon_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.17298733,
+            "Y": -0.08583166,
+            "Z": -0.015134433,
+            "W": 0.9810603,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0000001
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Chug_Bomb/Chug_Bomb_Pickup_Cue.Chug_Bomb_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Chug_Bomb/Chug_Bomb_Drop_Cue.Chug_Bomb_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 10.179119,
+          "Y": 16.939713,
+          "Z": 11.194778
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "0EA2C0C0496DEF64E72025B6732BA264",
+          "SourceString": "AoEHealing Heal UtilityItem ",
+          "LocalizedString": "AoEHealing Heal UtilityItem "
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/B_Prj_Athena_NeonBurn_ChillBronco.B_Prj_Athena_NeonBurn_ChillBronco_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Consumables.RechargeRate.ChugJug"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/Assets/Icons/T_Icon_BR_NeonBurnFinchMoon.T_Icon_BR_NeonBurnFinchMoon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/WildEstateConsumables/Gameplay/NeonBurn/NeonBurn_ChillBronco/Assets/Icons/T_Icon_BR_NeonBurnFinchMoon_L.T_Icon_BR_NeonBurnFinchMoon_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::WeaponRanged"
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Throw.Grenade.Explosive",
+          "Athena.Item.Utility",
+          "Athena.ItemAction.Throw",
+          "Rarity.Rare",
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Consumable",
+          "phoebe.weapon.throwable",
+          "phoebe.items.consumable.ChugSplash",
+          "phoebe.weapon.throwable_selfheal",
+          "Athena.ItemAction.ThrowDown",
+          "Item.Consumable.ChillBronco.FinchMoon"
+        ]
+      }
+    ]
+  }
+}

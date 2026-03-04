@@ -1,0 +1,275 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ArcticIceTalus",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 670.0,
+      "Y": -80.0,
+      "Z": -180.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic_Toon.B_Athena_Glider_Generic_Toon_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_ArcticIceTalus/Meshes/ArcticIceTalus_Glider.ArcticIceTalus_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/ArcticIceTalus/ArcticIceTalus_Glider_AnimBP.ArcticIceTalus_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/ArcticIceTalus/Player/ArcticIceTalus_Glider_PlayerAnimSet.ArcticIceTalus_Glider_PlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_ArcticIceTalus/FX/NS_Glider_ArcticIceTalus_Thrusters.NS_Glider_ArcticIceTalus_Thrusters",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ArcticIceTalus/SC_GliderOpen_ArcticIceTalus.SC_GliderOpen_ArcticIceTalus",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ArcticIceTalus/SC_GliderClose_ArcticIceTalus.SC_GliderClose_ArcticIceTalus",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/ArcticIceTalus/GliderThrustLoop_ArcticIceTalus_Cue.GliderThrustLoop_ArcticIceTalus_Cue",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ArcticIceTalus/SC_GliderThrustFwd_ArcticIceTalus.SC_GliderThrustFwd_ArcticIceTalus",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ArcticIceTalus/SC_GliderThrust_ArcticIceTalus.SC_GliderThrust_ArcticIceTalus",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/ArcticIceTalus/SC_GliderThrust_ArcticIceTalus.SC_GliderThrust_ArcticIceTalus",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "OverlayMaterialData": {
+      "LowQualityMaterial": {
+        "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_ArcticIceTalus/Materials/MI_Glider_ArcticIceTalus_OverlayOutlines.MI_Glider_ArcticIceTalus_OverlayOutlines",
+        "SubPathString": ""
+      },
+      "HighQualityMaterial": {
+        "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_ArcticIceTalus/Materials/MI_Glider_ArcticIceTalus_Outlines.MI_Glider_ArcticIceTalus_Outlines",
+        "SubPathString": ""
+      }
+    },
+    "ShotGridIds": [
+      62112
+    ],
+    "BaseShotGridId": 62112,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0B97FFE04ACC0ED4779339B788655063",
+      "SourceString": "Red Ribbon Army Aircraft",
+      "LocalizedString": "Red Ribbon Army Aircraft"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C906EF9341B04E65AB56A88832459423",
+      "SourceString": "Property of Red Ribbon Army.",
+      "LocalizedString": "Property of Red Ribbon Army."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -12.0,
+          "Yaw": 108.0,
+          "Roll": 18.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S23/T-Icon_Glider-ArcticIceTalus.T-Icon_Glider-ArcticIceTalus",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S23/T-Icon_Glider-ArcticIceTalus-L.T-Icon_Glider-ArcticIceTalus-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Set.WordRemark",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          537,
+          238,
+          541,
+          546,
+          231,
+          359,
+          247,
+          556,
+          162,
+          389,
+          615,
+          245,
+          246,
+          179,
+          1295,
+          352,
+          1506,
+          2394,
+          368,
+          2521,
+          2590,
+          2691,
+          2242,
+          400,
+          4434
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BerryTartRiver",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BerryTartRiver/CMM/Emote_BerryTartRiver_CMM_M.Emote_BerryTartRiver_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BerryTartRiver/CMF/Emote_BerryTartRiver_CMF_M.Emote_BerryTartRiver_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BerryTartRiver/CLM/Emote_BerryTartRiver_CLM_M.Emote_BerryTartRiver_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BerryTartRiver/CLF/Emote_BerryTartRiver_CLF_M.Emote_BerryTartRiver_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_BerryTartRiver:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_BerryTartRiver.1"
+      },
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_BerryTartRiver:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_BerryTartRiver.2"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E0FE090A46C09288DFE8A1B0E8C16A39",
+      "SourceString": "Oh Shhh",
+      "LocalizedString": "Oh Shhh"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "75FAD8A5438468B08626ADB525437E48",
+      "SourceString": "You don't have to keep it quiet.",
+      "LocalizedString": "You don't have to keep it quiet."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "336DF6A04471C4DC88422A81D2664B3F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Set.HomeSkeleton",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_BerryTartRiver.T_Icon_Emotes_BerryTartRiver",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_BerryTartRiver_L.T_Icon_Emotes_BerryTartRiver_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

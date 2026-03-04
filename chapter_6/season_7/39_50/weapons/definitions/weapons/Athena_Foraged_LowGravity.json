@@ -1,0 +1,31 @@
+{
+  "Type": "BGAConsumableWrapperItemDefinition",
+  "Name": "Athena_Foraged_LowGravity",
+  "Class": "UScriptClass'BGAConsumableWrapperItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ConsumableClass": {
+      "AssetPathName": "/Game/Athena/Items/ForagedItems/LowGravity/CBGA_LowGravity_UsingJump.CBGA_LowGravity_UsingJump_C",
+      "SubPathString": ""
+    },
+    "MinNumberConsumablesToSpawn": {
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Foraged.HopRocks.Min"
+      }
+    },
+    "MaxNumberConsumablesToSpawn": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Foraged.HopRocks.Max"
+      }
+    }
+  }
+}

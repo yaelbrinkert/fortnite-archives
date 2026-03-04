@@ -1,0 +1,122 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_FloralCardinal",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FloralCardinal/Emote_FloralCardinal_CMM_M.Emote_FloralCardinal_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FloralCardinal/Emote_FloralCardinal_CMF_M.Emote_FloralCardinal_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FloralCardinal/Emote_FloralCardinal_CLM_M.Emote_FloralCardinal_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FloralCardinal/Emote_FloralCardinal_CLF_M.Emote_FloralCardinal_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 10.0,
+      "Roll": 0.0
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_FloralCardinal:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_FloralCardinal.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "51D18A9E4CAA63C95EA1A4A4DEDDCDA6",
+      "SourceString": "Booyah!",
+      "LocalizedString": "Booyah!"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "53CC15794C7E5AAA101B55A88CDC3202",
+      "SourceString": "That's another victory for the Teen Titans.",
+      "LocalizedString": "That's another victory for the Teen Titans."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A2624EC3418344D74CBF0C81FA542AE1",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 13.0,
+          "Y": 45.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.Set.AutomaticDuke"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_FloralCardinal.T_Icon_Emotes_FloralCardinal",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_FloralCardinal_L.T_Icon_Emotes_FloralCardinal_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'DCUSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/DCUSeries.0"
+        }
+      }
+    ]
+  }
+}

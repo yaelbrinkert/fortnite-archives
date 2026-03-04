@@ -1,0 +1,84 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Malfunction",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Malfunction/Emote_Malfunction_CMM_M.Emote_Malfunction_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Malfunction/Emote_Malfunction_CMF_M.Emote_Malfunction_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Malfunction/Emote_Malfunction_CLM_M.Emote_Malfunction_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Malfunction/Emote_Malfunction_CLF_M.Emote_Malfunction_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "53158CC443C9F956FEA38796FF01795C",
+      "SourceString": "Glitchin'",
+      "LocalizedString": "Glitchin'"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3D6E7ECE47B1B7D3BF08FCBE689FC8B4",
+      "SourceString": "Somebody needs a tune-up...",
+      "LocalizedString": "Somebody needs a tune-up..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A837317F40806A800B9DAEB7FE59BAB8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.28"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-Malfunction.T-Icon-Emotes-Malfunction",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-Malfunction-L.T-Icon-Emotes-Malfunction-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

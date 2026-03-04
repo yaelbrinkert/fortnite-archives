@@ -1,0 +1,290 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_VillainTransformation_Beta",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "InventoryMinimapIconBrush": {
+      "ImageType": "ESlateBrushImageType::FullColor",
+      "ImageSize": {
+        "X": 128.0,
+        "Y": 128.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T_Icon_BR_Pickup_Medallion_Villain'",
+        "ObjectPath": "/PlayAsVillain/UI/T_Icon_BR_Pickup_Medallion_Villain.0"
+      }
+    },
+    "InventoryCompassIconBrush": {
+      "ImageType": "ESlateBrushImageType::FullColor",
+      "ImageSize": {
+        "X": 128.0,
+        "Y": 128.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T_Icon_BR_Pickup_Medallion_Villain'",
+        "ObjectPath": "/PlayAsVillain/UI/T_Icon_BR_Pickup_Medallion_Villain.0"
+      }
+    },
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Body_Commando_Both_CavalryBandit'",
+        "ObjectPath": "/PAVBoss_Beta/Assets/CharacterParts/CP_Body_Commando_Both_CavalryBandit.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Both_MED_CavalryBandit'",
+        "ObjectPath": "/PAVBoss_Beta/Assets/CharacterParts/CP_Both_MED_CavalryBandit.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Hat'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Head_Both_CavalryBandit'",
+        "ObjectPath": "/PAVBoss_Beta/Assets/CharacterParts/CP_Head_Both_CavalryBandit.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoCharm'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoBackpack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Shoe_Empty'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Common/CP_Shoe_Empty.1"
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/PAVBoss_Beta/Abilities/AS_VillainTransformation_Beta.AS_VillainTransformation_Beta",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FEC90DD84ED7FC4FC4AEB4ABA4192AFF",
+      "SourceString": "Hush's Kit",
+      "LocalizedString": "Hush's Kit"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "38C335874E96864B201DA7BD1CAC11EE",
+      "SourceString": "Hush's swiftness, grants increased stamina and vitality. Learn from her expertise to quickly dash from one location to the next.",
+      "LocalizedString": "Hush's swiftness, grants increased stamina and vitality. Learn from her expertise to quickly dash from one location to the next."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.ForceExecuteOverflowItem"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/PlayAsVillain/Assets/Meshes/Red_Victory_Crown_Gadget.Red_Victory_Crown_Gadget",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 3.0,
+            "Y": 3.0,
+            "Z": 3.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DestroyOnDrop",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Disabled",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": true,
+        "bDropOnDeath": true,
+        "bDropOnLogout": true,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 12.365363,
+          "Y": 13.721681,
+          "Z": 8.841149
+        }
+      },
+      {
+        "LimitAmount": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "LimitTag": {
+          "TagName": "Item.ExclusivePickupGroup.VillainTransform"
+        }
+      }
+    ]
+  }
+}

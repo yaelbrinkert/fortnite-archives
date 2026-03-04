@@ -1,0 +1,167 @@
+{
+  "Type": "FortTrapItemDefinition",
+  "Name": "TID_Wall_Reinforced_Athena",
+  "Class": "UScriptClass'FortTrapItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "EquipSound": {
+      "AssetPathName": "/CorruptionItems/Sounds/Traps/ReinforcedTrap_Equip_Cue.ReinforcedTrap_Equip_Cue",
+      "SubPathString": ""
+    },
+    "BlueprintClass": {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/ReinforcedTrap/Actors/B_Wall_Reinforced_Athena.B_Wall_Reinforced_Athena_C",
+      "SubPathString": ""
+    },
+    "GridPlacementOffset": 5.0,
+    "bAutoCreateAttachmentBuilding": true,
+    "bAllowAutoCreateExtraPiece": true,
+    "bGiveFreeDecoOnUndergroundPiece": true,
+    "bReplacesBuildingWhenPlaced": true,
+    "AutoCreateAttachmentBuildingShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Wall/EMP_Wall_Solid.EMP_Wall_Solid",
+        "SubPathString": ""
+      }
+    ],
+    "AllowedShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Wall/EMP_Wall_Solid.EMP_Wall_Solid",
+        "SubPathString": ""
+      }
+    ],
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaTraps'",
+        "ObjectPath": "/Game/Items/Datatables/AthenaTraps.0"
+      },
+      "RowName": "Trap_Context_FrostedTips_Athena_R_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Trap:tid_wall_reinforced_athena"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7E63BE784FEDA8A2F8482494EF53A592",
+      "SourceString": "Armored Wall",
+      "LocalizedString": "Armored Wall"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3AB0956E405D6D77D9B7B3954A9F598D",
+      "SourceString": "Transforms any building piece into a reinforced barrier. Good luck getting through this...",
+      "LocalizedString": "Transforms any building piece into a reinforced barrier. Good luck getting through this..."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.HasDurability",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 20.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 4
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Trap_T01_"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_TrapTooltipStats.Athena_TrapTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "RatingLookup": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'BaseItemRating'",
+            "ObjectPath": "/Game/Items/Datatables/BaseItemRating.0"
+          },
+          "RowName": "Default_R_T01"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::II",
+        "MaxTier": "EFortItemTier::V"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/CorruptionItems/Gameplay/Icons/T-Icon-Weapons-ArmoredAttachment.T-Icon-Weapons-ArmoredAttachment",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/CorruptionItems/Gameplay/Icons/T-Icon-Weapons-ArmoredAttachment-L.T-Icon-Weapons-ArmoredAttachment-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "trap.hostile",
+          "trap.wall",
+          "Rarity.Uncommon",
+          "Item.Trap.Armored"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 8.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -34.228867,
+          "Yaw": -108.77804,
+          "Roll": -51.37905
+        },
+        "Scale": 0.84
+      }
+    ]
+  }
+}

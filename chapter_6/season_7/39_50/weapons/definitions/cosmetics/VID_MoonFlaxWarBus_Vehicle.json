@@ -1,0 +1,96 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_MoonFlaxWarBus_Vehicle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'MoonFlaxWarBusGameData'",
+          "ObjectPath": "/MoonFlaxWarBus/DataTables/MoonFlaxWarBusGameData.0"
+        },
+        "RowName": "Default.Valet.MoonFlaxWarBus.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'MoonFlaxWarBusGameData'",
+          "ObjectPath": "/MoonFlaxWarBus/DataTables/MoonFlaxWarBusGameData.0"
+        },
+        "RowName": "Default.Valet.MoonFlaxWarBus.MaxSpawnPercent"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'MoonFlaxWarBusGameData'",
+          "ObjectPath": "/MoonFlaxWarBus/DataTables/MoonFlaxWarBusGameData.0"
+        },
+        "RowName": "Default.Valet.MoonFlaxWarBus.MaxNumberCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'MoonFlaxWarBusGameData'",
+          "ObjectPath": "/MoonFlaxWarBus/DataTables/MoonFlaxWarBusGameData.0"
+        },
+        "RowName": "Default.Valet.MoonFlaxWarBus.MinPercentWithGas"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'MoonFlaxWarBusGameData'",
+          "ObjectPath": "/MoonFlaxWarBus/DataTables/MoonFlaxWarBusGameData.0"
+        },
+        "RowName": "Default.Valet.MoonFlaxWarBus.MaxPercentWithGas"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/MoonFlaxWarBus/Gameplay/Vehicle/MoonFlaxWarBus_Vehicle.MoonFlaxWarBus_Vehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "WarBus"
+    ],
+    "MaxSpawnDistance": 2000.0,
+    "SpawnWithMods": [
+      "Vehicle.Mod.Tire.Offroad",
+      "Vehicle.Mod.FrontBumper.Spiked"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "92580AA140E9FA7860EEC4A2AD40BB0D",
+      "SourceString": "War Bus",
+      "LocalizedString": "War Bus"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/MoonFlaxWarBus/Assets/Icons/T-Vehicles-Battle-Bus-War.T-Vehicles-Battle-Bus-War",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/MoonFlaxWarBus/Assets/Icons/T-Vehicles-Battle-Bus-War-L.T-Vehicles-Battle-Bus-War-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SonnetSpirit",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CMM/Emote_SonnetSpirit_CMM_M.Emote_SonnetSpirit_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CMF/Emote_SonnetSpirit_CMF_M.Emote_SonnetSpirit_CMF_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CLM/Emote_SonnetSpirit_CLM_M.Emote_SonnetSpirit_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CLF/Emote_SonnetSpirit_CLF_M.Emote_SonnetSpirit_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CMM/Emote_SonnetSpirit_CMM_M.Emote_SonnetSpirit_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CMF/Emote_SonnetSpirit_CMF_M.Emote_SonnetSpirit_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CLMHero/Emote_SonnetSpirit_CLM_Hero_M.Emote_SonnetSpirit_CLM_Hero_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SonnetSpirit/CLF/Emote_SonnetSpirit_CLF_M.Emote_SonnetSpirit_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_SonnetSpirit:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_SonnetSpirit.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_SonnetSpirit:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_SonnetSpirit.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A847157442846E7F6F9652BAD74EEC8C",
+      "SourceString": "Make A Snow Friend",
+      "LocalizedString": "Make A Snow Friend"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D5BA795247A3F924AE5481A9A08FEE30",
+      "SourceString": "Why are you so quiet? You mad?",
+      "LocalizedString": "Why are you so quiet? You mad?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "BACCBDF54A2C94A0BA66A6B17805BBD9",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.Timmy"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_SonnetSpirit.T_Icon_Emotes_SonnetSpirit",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_SonnetSpirit_L.T_Icon_Emotes_SonnetSpirit_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

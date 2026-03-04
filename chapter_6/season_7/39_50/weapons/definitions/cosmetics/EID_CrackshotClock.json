@@ -1,0 +1,85 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CrackshotClock",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrackshotClock/Emote_CrackshotClock_CMM_M.Emote_CrackshotClock_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrackshotClock/Emote_CrackshotClock_CMF_M.Emote_CrackshotClock_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrackshotClock/Emote_CrackshotClock_CLM_M.Emote_CrackshotClock_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrackshotClock/Emote_CrackshotClock_CLF_M.Emote_CrackshotClock_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4F7A841448FB96A2D21126B1D89F4B0C",
+      "SourceString": "Around the Clock",
+      "LocalizedString": "Around the Clock"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FAEE1CE44668DD0C311CBEBD3C5F5352",
+      "SourceString": "Keep time.",
+      "LocalizedString": "Keep time."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F89FC55B4779C3EC260914873BCD203F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.11",
+          "Cosmetics.Set.Nutcracker"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-CrackshotClock.T-Icon-Emotes-E-CrackshotClock",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-CrackshotClock-L.T-Icon-Emotes-E-CrackshotClock-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

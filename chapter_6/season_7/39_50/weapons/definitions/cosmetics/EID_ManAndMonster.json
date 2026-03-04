@@ -1,0 +1,98 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ManAndMonster",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "ToMan",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.Jekyll.Monster"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "ToMonster",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.Jekyll.Man"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ManAndMonster/Emote_ManAndMonster_ToMonster_CMM_M.Emote_ManAndMonster_ToMonster_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_904_Athena_Commando_M_Jekyll.CID_904_Athena_Commando_M_Jekyll",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "22631BE843ECF8EAAEA78F91FF29AA63",
+      "SourceString": "Morph Juice",
+      "LocalizedString": "Morph Juice"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6142CA5F4389AC3E947FCEA34A43A485",
+      "SourceString": "Awaken your inner monster.",
+      "LocalizedString": "Awaken your inner monster."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "CD9D2FEE44208116B40EB58D5645EE11",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.Deceit",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Emote.BuiltIn.Transform"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ManAndMonster.T-Icon-Emotes-E-ManAndMonster",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-ManAndMonster-L.T-Icon-Emotes-E-ManAndMonster-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

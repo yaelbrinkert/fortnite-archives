@@ -1,0 +1,79 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Pimlico_WarmUp",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CustomDanceAbility": {
+      "AssetPathName": "/Beanstalk/Abilities/GAB_Bean_Emote_Generic.GAB_Bean_Emote_Generic_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/PimlicoCharacter/Animation/Emotes/AM_PimlicoCharEmote_WarmUp.AM_PimlicoCharEmote_WarmUp",
+      "SubPathString": ""
+    },
+    "RequiredEmoteParent": {
+      "AssetPathName": "/Beanstalk/Cosmetics/Bean_Empty.Bean_Empty",
+      "SubPathString": ""
+    },
+    "EmoteParentVariants": [
+      {
+        "OwnedVariantTags": [],
+        "ItemVariantIsUsedFor": null,
+        "CustomData": "",
+        "VariantChannelTag": {
+          "TagName": "None"
+        },
+        "ActiveVariantTag": {
+          "TagName": "None"
+        }
+      }
+    ],
+    "TagsWhichIndicateEmoteParent": [
+      "Beanstalk.Cosmetics.Character"
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "34C4CBC0456FCF8F314C71BBAC8A463B",
+      "SourceString": "Funky Chicken",
+      "LocalizedString": "Funky Chicken"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "78D39FA844A399E3B939749CE78F8291",
+      "SourceString": "Cluck Cluck Cluck",
+      "LocalizedString": "Cluck Cluck Cluck"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "4168740B433CE2A1AAF5FDA3FF5C6804",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Beanstalk.Cosmetics.Emote"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Beanstalk/HUD/Icons/t_ui_beanstalk_jump.t_ui_beanstalk_jump",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

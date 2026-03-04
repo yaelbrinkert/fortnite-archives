@@ -1,0 +1,416 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Proto_WingSuit_FlyingPhysics",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/B_Weap_WingSuit_PhysicsFlying.B_Weap_WingSuit_PhysicsFlying_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'WingSuit_RangedWeapons'",
+        "ObjectPath": "/WingSuit/DataTables/WingSuit_RangedWeapons.0"
+      },
+      "RowName": "WingSuit"
+    },
+    "AbilitySet": {
+      "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/AS_WingSuit_PhysicsFlying_Passive.AS_WingSuit_PhysicsFlying_Passive",
+      "SubPathString": ""
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/Native/GA_WingSuit_Activate.GA_WingSuit_Activate_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/AthenaAmmoData_WingSuit_CustomAmmo.AthenaAmmoData_WingSuit_CustomAmmo",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bUsesCustomAmmoType": true,
+    "bShouldMagazineSizeDisplayInfinity": true,
+    "bAllowSecondaryFireToInterruptPrimary": true,
+    "bAllowAutoReload": false,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [
+      0.0,
+      89.0,
+      179.0,
+      270.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Weapon.Ranged.MistRavenFlame"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.RollLanding.PreventHolster",
+      "Granted.BoostedJump.PreventHoslter",
+      "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+      "Granted.Athena.Hurdle.PreventHolster",
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+      "Granted.WallStick.PreventHolster",
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "WingSuit.Equipped",
+      "Weapon.BlockHolsterForSwimSprint"
+    ],
+    "CosmeticGatingTags": [
+      "WingSuit.CosmeticShowWingSUit"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Weapon.Ranged.MistRavenFlame",
+      "Tag:Weapon:wid_proto_wingsuit_flyingphysics"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH7S1",
+        "EpicItem",
+        "Item",
+        "MobilityItem",
+        "NewThisSeason"
+      ]
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4BD718F64340E887748BF7867227A8E7",
+      "SourceString": "Wingsuit",
+      "LocalizedString": "Wingsuit"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "528B308140DC4271DDD90785B877F4B1",
+      "SourceString": "Launch into the air and ride the wind to gain altitude and speed.",
+      "LocalizedString": "Launch into the air and ride the wind to gain altitude and speed."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "06F937224E12DD3CCB5FDA83339DB18F",
+      "SourceString": "Launch into the air and ride the wind to gain altitude and speed.",
+      "LocalizedString": "Launch into the air and ride the wind to gain altitude and speed."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.IgnoreAmmoForReload",
+          "Item.Trait.AllowSwapSingleStack",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/WingSuit/Assets/MeshGadget/Wingsuit_Pickup.Wingsuit_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.087155744,
+            "Z": 0.0,
+            "W": 0.9961947,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.4,
+            "Y": 1.4,
+            "Z": 1.4
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Assault-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/WingSuit/Audio/MSS__Wingsuit_Pickup.MSS__Wingsuit_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/WingSuit/Audio/MSS_Wingsuit_Drop.MSS_Wingsuit_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/WingSuit/Audio/MSS_Wingsuit_Drop_Impact.MSS_Wingsuit_Drop_Impact",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickupDestroyOnEmpty",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 13.060919,
+          "Y": 13.249165,
+          "Z": 15.2488785
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "64AE48BC4AC7C5812F5F11984B1E3359",
+          "SourceString": "Guns Shotguns",
+          "LocalizedString": "Guns Shotguns"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WingSuit/HUD/Icons/T_Icon_BR_Gadget_Wingsuit.T_Icon_BR_Gadget_Wingsuit",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Weapon.Meta.DoNotApplyWraps",
+          "Granted.RollLanding.PreventHolster",
+          "Granted.WallStick.PreventHolster",
+          "HUD.PreferredSlotType.Utility",
+          "Granted.Cooldown.WingSuit",
+          "MobileHUD.DisplayADS",
+          "Item.Weapon.Ranged.Wingsuit",
+          "Item.UsesCharges",
+          "Weapon.BlockHolsterForSwimSprint",
+          "Rarity.VeryRare",
+          "Item.ExclusivePickupGroup.Wingsuit"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -31.0,
+          "Z": -3.0
+        },
+        "InitialRotation": {
+          "Pitch": 9.880858,
+          "Yaw": 23.314001,
+          "Roll": -19.386724
+        },
+        "Scale": 1.1
+      },
+      {
+        "EquippedCharacterParts": [
+          {
+            "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/CharacterParts/CP_WingSuit_Backpack.CP_WingSuit_Backpack",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/B_Prj_MistRaven_FlameThrower_V3.B_Prj_MistRaven_FlameThrower_V3_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WideIcon": {
+          "AssetPathName": "/MistRaven/UI/Icons/T_IconWide_Combined_MistRaven.T_IconWide_Combined_MistRaven",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

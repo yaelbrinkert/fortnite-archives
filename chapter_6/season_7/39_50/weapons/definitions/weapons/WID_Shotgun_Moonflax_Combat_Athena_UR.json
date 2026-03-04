@@ -1,0 +1,405 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Shotgun_Moonflax_Combat_Athena_UR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/B_Shotgun_Moonflax_Combat_Athena.B_Shotgun_Moonflax_Combat_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Meshes/Combat_Moonflax_Shotgun.Combat_Moonflax_Shotgun",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Shotgun_Combat_Update_Athena_UR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "HitNotifyDuration": 0.5,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.HUD_Xhair_Shotgun_Frame",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [
+      45.0,
+      135.0,
+      225.0,
+      315.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Shotgun",
+      "Item.Weapon.Ranged.Shotgun.Combat"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Shotgun",
+      "Item.Weapon.Ranged.Shotgun.Combat",
+      "Tag:Weapon:wid_shotgun_moonflax_combat_athena_ur"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Shells",
+        "CH5S3",
+        "Guard",
+        "Modular",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "05475FBD4359EA4181FE98BA026CFE76",
+      "SourceString": "Megalo Don's Modular Combat Shotgun",
+      "LocalizedString": "Megalo Don's Modular Combat Shotgun"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9D9F786047A4772F5F6684B7D6962419",
+      "SourceString": "Megalo Don's own Shotgun crafted for intense long range and long lasting combat.",
+      "LocalizedString": "Megalo Don's own Shotgun crafted for intense long range and long lasting combat."
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Meshes/Combat_Moonflax_Shotgun.Combat_Moonflax_Shotgun",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 6.3647523,
+          "Yaw": 24.121056,
+          "Roll": -21.732279
+        },
+        "Scale": 1.0
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Meshes/Combat_Moonflax_Shotgun.Combat_Moonflax_Shotgun",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Shotgun-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Shotgun-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_Weapons/Shotgun/Combat/Shotgun_Combat_Pickup_Cue.Shotgun_Combat_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_Weapons/Shotgun/Combat/Shotgun_Combat_Drop_Cue.Shotgun_Combat_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.974846,
+          "Y": 54.309105,
+          "Z": 8.416173
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "FE5235684B6C732405BAAD846A59DA9A",
+          "SourceString": "Guns Ranged Shotgun Shells Slugs Automatic",
+          "LocalizedString": "Guns Ranged Shotgun Shells Slugs Automatic"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'CombatShotgun_Lib'",
+            "ObjectPath": "/WeaponsUpdated/Gameplay/CombatShotgun/Sounds/CombatShotgun_Lib.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponModSlots": [
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionMagazine'WMID_Magazine_Speed'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Magazines/SpeedMag/WMID_Magazine_Speed.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinition'WMID_Underbarrel_Laser'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Underbarrel/Laser/WMID_Underbarrel_Laser.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionOptic'WMOID_Optic_Holo'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Optics/Holographic/WMOID_Optic_Holo.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinition'WMID_Barrel_MuzzleBrake'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Barrel/MuzzleBrake/WMID_Barrel_MuzzleBrake.0"
+            },
+            "bIsDynamic": false
+          }
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Icons/T-Icon-Weapons-Shotgun-Combat-Moonflax.T-Icon-Weapons-Shotgun-Combat-Moonflax",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Icons/T-Icon-Weapons-Shotgun-Combat-Moonflax-L.T-Icon-Weapons-Shotgun-Combat-Moonflax-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.WeaponRanged.ShowReticleHitNotifyAtImpactLocation"
+        ]
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Ranged.Shotgun",
+          "Bacchus.Shoot.Shotgun",
+          "Quest.Metadata.LTM.Wax",
+          "Item.Weapon.Ranged.Shotgun.Combat",
+          "phoebe.weapon.ranged.shotgun",
+          "phoebe.items.CombatShotgun",
+          "ModSetBucket.Shotgun.Combat",
+          "Rarity.Mythic"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Constructor_BaseHyperHW",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Female/Large/Constructor/Constructor_Female_Body_Montage_Idle.Constructor_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/LargeFemale.LargeFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Constructor_BaseHyperHW:F_LRG_Constructor_HW01'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Constructor/CosmeticCharacterItemDefinitions/CID_Constructor_BaseHyperHW.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "751AA5684B0127A99F6C77A421D96DF5",
+      "SourceString": "Catstructor Penny",
+      "LocalizedString": "Catstructor Penny"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "80F585DA4FFB866E771BA291A1B163FC",
+      "SourceString": "It's meow or never.",
+      "LocalizedString": "It's meow or never."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-BaseHyperHW-SR-T01.T-Constructor-HID-Constructor-BaseHyperHW-SR-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L.T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

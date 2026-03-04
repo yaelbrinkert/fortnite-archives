@@ -1,0 +1,198 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_DerangedMile",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXOnPawnPreviewOffset": {
+      "X": -30.0,
+      "Y": 0.0,
+      "Z": 10.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": -19.498707,
+        "Y": -12.810321,
+        "Z": 7.971113
+      },
+      "CylinderHalfHeight": 55.0,
+      "CylinderRadius": 55.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_DerangedMile'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_DerangedMile.0"
+    },
+    "ObservedPlayerStats": [
+      "StatManager.AthenaKills"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_DerangedMile:FortCosmeticParticleVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_DerangedMile.2"
+      },
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_DerangedMile:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_DerangedMile.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      168893,
+      177541
+    ],
+    "ShotGridIds": [
+      168893,
+      168893,
+      177541
+    ],
+    "BaseShotGridId": 168893,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C5E8BF9C4B6C338B36653DB278B8169F",
+      "SourceString": "Action Knife",
+      "LocalizedString": "Action Knife"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9E2796BC49454B0EA8216781F8E0360A",
+      "SourceString": "Certified for sweet stunts.",
+      "LocalizedString": "Certified for sweet stunts."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8B3B5BFB4CC83229E074D9BD05FF5442",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": 32.0,
+          "Yaw": 315.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.OneHanded",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.FirstMove",
+          "Cosmetics.Source.Season39.BattlePass.Free",
+          "Cosmetics.Source.Season39.BattlePass.Paid",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S39/T_Icon_Pickaxes_DerangedMile.T_Icon_Pickaxes_DerangedMile",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S39/T_Icon_Pickaxes_DerangedMile_L.T_Icon_Pickaxes_DerangedMile_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          490,
+          238,
+          541,
+          546,
+          359,
+          247,
+          162,
+          576,
+          166,
+          179,
+          112,
+          259,
+          664,
+          216,
+          1986,
+          459,
+          2379,
+          2380,
+          2381,
+          2563,
+          3609,
+          6626
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.PreviewType.OffPawn"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/PickaxeItemPreview_DerangedMile.PickaxeItemPreview_DerangedMile_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

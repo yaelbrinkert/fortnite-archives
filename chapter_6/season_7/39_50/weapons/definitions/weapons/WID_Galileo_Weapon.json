@@ -1,0 +1,55 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Galileo_Weapon",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Prototype/B_Galileo_Weapon.B_Galileo_Weapon_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Weapons/Prototype/WID_Galileo_Weapon.WID_Galileo_Weapon",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_galileo_weapon"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.HasDurability",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-02BR.T-Icon-Weapons-SK-Pistol-02BR",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-02BR-L.T-Icon-Weapons-SK-Pistol-02BR-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.Uncommon"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_JunoHunterAccessoryBigTrap_T4",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bCanBeDroppedWhenEquipmentChangeIsBlocked": true,
+    "bAllowedFuelGadgetUI": false,
+    "InventoryMinimapIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "InventoryCompassIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "bApplyGadgetDataManually": true,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "AbilitySet": {
+      "AssetPathName": "/JunoHunterItems/Abilities/AS_JunoHunterAccessoryBigTrap.AS_JunoHunterAccessoryBigTrap",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::Gadget",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2F9F4F5F40305724DB8BFEB35F4A9FE2",
+      "SourceString": "Omni Trap Trinket",
+      "LocalizedString": "Omni Trap Trinket"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "78472F944CBCE8B262DE04AA53BFDE5A",
+      "SourceString": "Drop all traps at once to create a massive, powerful trap.",
+      "LocalizedString": "Drop all traps at once to create a massive, powerful trap."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "153445304D23B83EEC3038982D6D6BCD",
+      "SourceString": "Use the traps. ALL the traps.",
+      "LocalizedString": "Use the traps. ALL the traps."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoHunterItems/Icons/T_UI_Juno_HunterTrapAcessory.T_UI_Juno_HunterTrapAcessory",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Juno.Item.Gear.Player",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Juno.Inventory.Group.Gear.PassiveEquipment",
+          "juno.item.weapon.HeroItem.HunterAccessory",
+          "Juno.MountStyle.TopView",
+          "Juno.MountStyle.RotationOverride.Pitch.90"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoHunterItems/Meshes/Gear_HunterAcc_T2_A/SM_Gear_HunterAcc_T1_A.SM_Gear_HunterAcc_T1_A",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 60000.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoHunterItems/Audio/Sounds/SC_Item_Scroll_Hunter_Pickup_Stow.SC_Item_Scroll_Hunter_Pickup_Stow",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoHunterItems/Audio/Sounds/SC_Item_Scroll_Hunter_Drop.SC_Item_Scroll_Hunter_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoHunterItems/Audio/Sounds/SC_Item_Scroll_Hunter_Land.SC_Item_Scroll_Hunter_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": false,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.1999998,
+          "Y": 22.627398,
+          "Z": 22.627398
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoHunterItems/Icons/MI_UI_Juno_Icon_HunterTrapAccessory.MI_UI_Juno_Icon_HunterTrapAccessory",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Equipment"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.HeroEquipment"
+        },
+        "ItemTypeTag": {
+          "TagName": "Juno.FreeBuild.Type.HunterAccessory"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "3CC5CAC34BF084B3A2092C9AC9D6445F",
+          "SourceString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>.",
+          "LocalizedString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "AGIDJunoHunterAccessoryBigTrapT4"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

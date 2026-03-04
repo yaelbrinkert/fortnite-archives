@@ -1,0 +1,121 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_PaddleHarp",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PaddleHarp/CMM/Emote_PaddleHarp_CMM_M.Emote_PaddleHarp_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PaddleHarp/CMF/Emote_PaddleHarp_CMF_M.Emote_PaddleHarp_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PaddleHarp/CLM/Emote_PaddleHarp_CLM_M.Emote_PaddleHarp_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PaddleHarp/CLF/Emote_PaddleHarp_CLF_M.Emote_PaddleHarp_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_PaddleHarp:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PaddleHarp.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_PaddleHarp:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PaddleHarp.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7589D1A94753A2AD967B7FAE594FC288",
+      "SourceString": "Create and Destroy",
+      "LocalizedString": "Create and Destroy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3CC105D44AB7A707A78279A8F7A3A578",
+      "SourceString": "A cryokinetic wonder.",
+      "LocalizedString": "A cryokinetic wonder."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "54C2F39F446129772C7E0B801F572049",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 60.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.JeanPocket"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_PaddleHarp.T_Icon_Emotes_PaddleHarp",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_PaddleHarp_L.T_Icon_Emotes_PaddleHarp_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      }
+    ]
+  }
+}

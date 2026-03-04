@@ -1,0 +1,310 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_JunoShadowCallerAccessoryDamage_T2",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bCanBeDroppedWhenEquipmentChangeIsBlocked": true,
+    "bAllowedFuelGadgetUI": false,
+    "InventoryMinimapIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "InventoryCompassIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "bApplyGadgetDataManually": true,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "AbilitySet": {
+      "AssetPathName": "/JunoMistRavenItems/Abilities/AS_MistRaven_Accessory_Damage_T1.AS_MistRaven_Accessory_Damage_T1",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::Gadget",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8E7D2B4A463068B5EDAA359ED03DEC1B",
+      "SourceString": "Dusk Dealer",
+      "LocalizedString": "Dusk Dealer"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "C983F2304EBC7FC306491DB8AF58D3F8",
+      "SourceString": "Harness the power of darkness to make Command Shadow and Dark Flurry stronger.",
+      "LocalizedString": "Harness the power of darkness to make Command Shadow and Dark Flurry stronger."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "BC9E93254C2592CF38963D99E5E34FEA",
+      "SourceString": "The power of night in the palm of your hand.",
+      "LocalizedString": "The power of night in the palm of your hand."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoMistRavenItems/Icons/T_UI_Juno_ShadowDamageAccessory.T_UI_Juno_ShadowDamageAccessory",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Juno.Item.Gear.Player",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Juno.Inventory.Group.Gear.PassiveEquipment",
+          "Juno.MountStyle.TopView",
+          "Juno.MountStyle.RotationOverride.Pitch.90",
+          "Juno.Item.Weapon.HeroItem.MistRavenAccessory"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/JunoMistRavenItems/Meshes/Gear_MistRavenAcc_T1_A/SM_Gear_MistRavenAccDamage_T1_A_lxfml.SM_Gear_MistRavenAccDamage_T1_A_lxfml",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/JunoGame/CommonGameplay/Pickups/Juno_PickupEffect_Parent.Juno_PickupEffect_Parent_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 60000.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoMistRavenItems/Audio/MSS/SC_Item_Scroll_MistRaven_Pickup_Stow.SC_Item_Scroll_MistRaven_Pickup_Stow",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoMistRavenItems/Audio/MSS/SC_Item_Scroll_MistRaven_Drop.SC_Item_Scroll_MistRaven_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoMistRavenItems/Audio/MSS/SC_Item_Scroll_MistRaven_Land.SC_Item_Scroll_MistRaven_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": false,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.1999998,
+          "Y": 22.627398,
+          "Z": 22.627398
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "MaterialIcon": {
+          "AssetPathName": "/JunoMistRavenItems/Icons/MI_UI_Mars_MR_Damage.MI_UI_Mars_MR_Damage",
+          "SubPathString": ""
+        }
+      },
+      {
+        "IdentityTags": [],
+        "CategoryTag": {
+          "TagName": "Juno.FreeBuild.Category.Equipment"
+        },
+        "SubCategoryTag": {
+          "TagName": "Juno.FreeBuild.SubCategory.HeroEquipment"
+        },
+        "ItemTypeTag": {
+          "TagName": "Juno.FreeBuild.Type.MistRaven.Weapon"
+        },
+        "HintText": {
+          "Namespace": "",
+          "Key": "F2A40BFB46BAE066C01AE6A4911BAAEC",
+          "SourceString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>.",
+          "LocalizedString": "Unlock this recipe from the <EmphA>Mastery tab</> of the <EmphA>Player Menu</>. You can then craft it at a <EmphA>Hero Station</>."
+        },
+        "CraftingSourceHeaderOverride": {
+          "CultureInvariantString": null
+        },
+        "DescriptionOverride": {
+          "CultureInvariantString": null
+        },
+        "FlavorOverride": {
+          "CultureInvariantString": null
+        },
+        "FoundInBiomeTagContainer": [],
+        "FoundInBiomeOverrideText": {
+          "CultureInvariantString": null
+        }
+      },
+      {
+        "ItemTier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_ItemTierData'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_ItemTierData.0"
+            },
+            "RowName": "AGIDJunoShadowCallerAccessoryDamageT2"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      }
+    ]
+  }
+}

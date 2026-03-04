@@ -1,0 +1,123 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_QuirkLuster",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuirkLuster/CMM/Emote_QuirkLuster_CMM_M.Emote_QuirkLuster_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuirkLuster/CMF/Emote_QuirkLuster_CMF_M.Emote_QuirkLuster_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuirkLuster/CLM/Emote_QuirkLuster_CLM_M.Emote_QuirkLuster_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuirkLuster/CLF/Emote_QuirkLuster_CLF_M.Emote_QuirkLuster_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "bPlayRandomSection": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_QuirkLuster:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_QuirkLuster.1"
+      },
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_QuirkLuster:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_QuirkLuster.2"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "84E2F54D4A12A7805221B180E12440C3",
+      "SourceString": "S-Rank Scent",
+      "LocalizedString": "S-Rank Scent"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C0D5414A4334BA5AC246C7BD5344D1F9",
+      "SourceString": "Smells like mana.",
+      "LocalizedString": "Smells like mana."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9D0945ED415C19BF6461048270B101B5",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.PolarStorm"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_QuirkLuster.T_Icon_Emotes_QuirkLuster",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_QuirkLuster_L.T_Icon_Emotes_QuirkLuster_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_WormChalk",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WormChalk/CMM/Emote_WormChalk_CMM_M.Emote_WormChalk_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WormChalk/CMF/Emote_WormChalk_CMF_M.Emote_WormChalk_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WormChalk/CLM/Emote_WormChalk_CLM_M.Emote_WormChalk_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WormChalk/CLF/Emote_WormChalk_CLF_M.Emote_WormChalk_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_WormChalk:FortCosmeticProfileLoadoutVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_WormChalk.2"
+      },
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_WormChalk:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_WormChalk.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "816087614D6C9DC5380118BB0A1535D0",
+      "SourceString": "Hypnotic Hands",
+      "LocalizedString": "Hypnotic Hands"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "225494554BD2C54E204550B639874EE9",
+      "SourceString": "A sign that appears during Mahito's domain expansion.",
+      "LocalizedString": "A sign that appears during Mahito's domain expansion."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "58810BA64A03BB0DC12012AC2D331549",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Set.CleanWard",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_WormChalk.T_Icon_Emotes_WormChalk",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_WormChalk_L.T_Icon_Emotes_WormChalk_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

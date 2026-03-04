@@ -1,0 +1,266 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_236_HightowerTapasMale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_Generic_HighTower_Tapas.B_Athena_Glider_Generic_HighTower_Tapas_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_HighTower_Tapas/Meshes/Glider_HighTower_Tapas.Glider_HighTower_Tapas",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_HighTower_Tapas/_HighTower_Tapas_Glider_AnimBP._HighTower_Tapas_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/BRCosmetics/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydiveNoGlider.Athena_PlayerCameraModeSkydiveNoGlider_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/HighTowerTapas/HighTowerTapasPlayerAnimSet.HighTowerTapasPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "AttachSocket": "attach",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_HighTower_Tapas/FX/NS_Hightower_Tapas_Glider.NS_Hightower_Tapas_Glider",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_HighTower_Tapas/FX/NS_Glider_Tapas_hammer.NS_Glider_Tapas_hammer",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Hightower_Tapas/SC_Glider_Tapas_Open.SC_Glider_Tapas_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Hightower_Tapas/SC_Glider_Tapas_Close.SC_Glider_Tapas_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Hightower_Tapas/SC_Glider_Tapas_Loop.SC_Glider_Tapas_Loop",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::AnyDirection",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/Hightower_Tapas/SC_Glider_Tapas_Thrust.SC_Glider_Tapas_Thrust",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'Glider_ID_236_HightowerTapasMale:FortCosmeticMaterialVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_236_HightowerTapasMale.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+      "SubPathString": ""
+    },
+    "ItemPreviewHero": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_845_Athena_Commando_M_HightowerTapas.CID_845_Athena_Commando_M_HightowerTapas",
+      "SubPathString": ""
+    },
+    "ExclusiveRequiresOutfitTags": [
+      "Cosmetics.Exclusives.HightowerTapas"
+    ],
+    "CustomExclusiveCallout": {
+      "Namespace": "",
+      "Key": "0B2B5DD64B1462ED4F8AA297AFF061C3",
+      "SourceString": "Appears as the Default Glider when not equipped with the Thor Outfit.",
+      "LocalizedString": "Appears as the Default Glider when not equipped with the Thor Outfit."
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "175897B5409D29E2DAAFF28158BEA714",
+      "SourceString": "Mjolnir's Path",
+      "LocalizedString": "Mjolnir's Path"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6C013CB84B647D5B64336B9BC770F603",
+      "SourceString": "Let that hammer fly.",
+      "LocalizedString": "Let that hammer fly."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -1.3,
+          "Y": -70.0,
+          "Z": -30.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -115.0,
+          "Roll": -15.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-HTTapasGlider.T-Icon_Glider-HTTapasGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-HTTapasGlider-L.T-Icon_Glider-HTTapasGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Glider.HideBackPack",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.Season14.BattlePass.Paid",
+          "Cosmetics.Set.JusticeSin",
+          "Cosmetics.Glider.ReliesOnVariantsFromCID"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          248,
+          246,
+          1339,
+          2100,
+          1019,
+          161,
+          536,
+          2006,
+          226,
+          2773,
+          2838,
+          3528,
+          3529
+        ]
+      }
+    ]
+  }
+}

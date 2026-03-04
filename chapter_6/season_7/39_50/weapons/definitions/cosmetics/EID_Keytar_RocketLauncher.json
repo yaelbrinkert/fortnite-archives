@@ -1,0 +1,140 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Keytar_RocketLauncher",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Spawned/Emote_Keytar_RocketLauncher_Spawned_CMM_M.Emote_Keytar_RocketLauncher_Spawned_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Spawned/Emote_Keytar_RocketLauncher_Spawned_CMF_M.Emote_Keytar_RocketLauncher_Spawned_CMF_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Spawned/Emote_Keytar_RocketLauncher_Spawned_CLM_M.Emote_Keytar_RocketLauncher_Spawned_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Spawned/Emote_Keytar_RocketLauncher_Spawned_CLF_M.Emote_Keytar_RocketLauncher_Spawned_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Persistent/Emote_Keytar_RocketLauncher_CMM_M.Emote_Keytar_RocketLauncher_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Persistent/Emote_Keytar_RocketLauncher_CMF_M.Emote_Keytar_RocketLauncher_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Persistent/Emote_Keytar_RocketLauncher_CLM_M.Emote_Keytar_RocketLauncher_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/RocketLauncher/Persistent/Emote_Keytar_RocketLauncher_CLF_M.Emote_Keytar_RocketLauncher_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bPlayRandomSection": true,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "SpotlightStart",
+        "SectionWeight": 2.0
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C9F107AA4FC57E95F1348D9666C77954",
+      "SourceString": "Rocket Keys",
+      "LocalizedString": "Rocket Keys"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C9D113C8466CB7846C9F3BA1C5AAC943",
+      "SourceString": "Set it off. ",
+      "LocalizedString": "Set it off. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E57424674B6E295F9B69799DDB13D79F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S29/Icons/T-UI-Icon-SparksEmote-Keytar-RocketLauncher.T-UI-Icon-SparksEmote-Keytar-RocketLauncher",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S29/Icons/T-UI-Icon-SparksEmote-Keytar-RocketLauncher-L.T-UI-Icon-SparksEmote-Keytar-RocketLauncher-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

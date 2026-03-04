@@ -1,0 +1,185 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_192_Present",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 150.0,
+      "Y": -25.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy_PineTree.B_Athena_Glider_Legacy_PineTree_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Mark_II/Meshes/Glider_Mark_II.Glider_Mark_II",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Mark_II_Glider_AnimBP.Mark_II_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Holiday_MarkII/Present/Glider_Present_Open_Cue.Glider_Present_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Holiday_MarkII/Present/Glider_Present_Close_Cue.Glider_Present_Close_Cue",
+      "SubPathString": ""
+    },
+    "TrailEffect": {
+      "AssetPathName": "/BRCosmetics/Athena/Effects/Particles/Gliders/p_GliderContrail_Basic_TwoSided.p_GliderContrail_Basic_TwoSided",
+      "SubPathString": ""
+    },
+    "TrailEffect2": {
+      "AssetPathName": "/BRCosmetics/Athena/Effects/Particles/Gliders/p_GliderContrail_Basic_TwoSided.p_GliderContrail_Basic_TwoSided",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Present/Materials/M_Glider_Present_inst.M_Glider_Present_inst",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_ID_192_Present:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_192_Present.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A9B722864DBEDB74FC6CFA9EDCF163B9",
+      "SourceString": "Winter Wrapper",
+      "LocalizedString": "Winter Wrapper"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "928F9BB04682BCB42C07D5BB7D2B7058",
+      "SourceString": "Special delivery incoming.",
+      "LocalizedString": "Special delivery incoming."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -15.0,
+          "Yaw": -105.0,
+          "Roll": -15.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-PresentGlider.T-Icon_Glider-PresentGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-PresentGlider-L.T-Icon_Glider-PresentGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Set.IceMaiden",
+          "Cosmetics.Filter.Season.11",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          359,
+          556,
+          248,
+          389,
+          515,
+          531,
+          532,
+          533,
+          246,
+          867,
+          697,
+          1042,
+          1180,
+          352,
+          1506,
+          1508,
+          1634,
+          1926,
+          2393,
+          2394,
+          2521,
+          2691,
+          445,
+          404,
+          1897,
+          380,
+          392,
+          4432
+        ]
+      }
+    ]
+  }
+}

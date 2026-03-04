@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_JollyWrangler_C3",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_TimberStakeSoul_D.CP_Athena_Head_F_TimberStakeSoul_D",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/FNE_SWCosmetics/Parts/CP_Body_JollyWrangler.CP_Body_JollyWrangler",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_TimberStakeSoul_FaceAcc_D.CP_F_MED_TimberStakeSoul_FaceAcc_D",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "MetaTags": [
+      "Cosmetics.MetaTags.Special.BodySwap.Full"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'Character_JollyWrangler_C3:FortCosmeticMaterialVariant_4'",
+        "ObjectPath": "/FNE_SWCosmetics/CIDs/Character_JollyWrangler_C3.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CB8CD8F74F5C40A6C4C43D89A5FEBBD9",
+      "SourceString": "Moon Trader (Female C) Delta",
+      "LocalizedString": "Moon Trader (Female C) Delta"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AF90016743CC1E7DCBC2C590FE03E5A0",
+      "SourceString": "PLACEHOLDER",
+      "LocalizedString": "PLACEHOLDER"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Generic-S.T_Placeholder_Generic-S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Generic.T_Placeholder_Generic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.HandType.Glove",
+          "Cosmetics.Gating.Allow.Shoes",
+          "SoundLibrary.ID.StepType.BootsCombat",
+          "SoundLibrary.ID.ClothingType.GearTactical"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

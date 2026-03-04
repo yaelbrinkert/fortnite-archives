@@ -1,0 +1,183 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BoomShot",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Transform",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_BoomShot_Blam.CP_Athena_Body_F_BoomShot_Blam",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaCharacterItemDefinition'Character_BoomShot_Blam'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BoomShot_Blam.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Progressive"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Stage2"
+                }
+              }
+            ],
+            "Item": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_BoomShot_Blam'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BoomShot_Blam.0"
+            }
+          }
+        ]
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_BoomShot_Blam_Toon.CP_Athena_Body_F_BoomShot_Blam_Toon",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [
+              {
+                "OwnedVariantTags": [],
+                "ItemVariantIsUsedFor": {
+                  "ObjectName": "AthenaCharacterItemDefinition'Character_BoomShot_Blam'",
+                  "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BoomShot_Blam.0"
+                },
+                "CustomData": "",
+                "VariantChannelTag": {
+                  "TagName": "Cosmetics.Variant.Channel.Progressive"
+                },
+                "ActiveVariantTag": {
+                  "TagName": "Cosmetics.Variant.Property.Stage1"
+                }
+              }
+            ],
+            "Item": {
+              "ObjectName": "AthenaCharacterItemDefinition'Character_BoomShot_Blam'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BoomShot_Blam.0"
+            }
+          }
+        ]
+      }
+    ],
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BoomShot/CMF/Emote_BoomShot_CMF_M.Emote_BoomShot_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_045_BoomShot'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_045_BoomShot.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BoomShot_Blam.Character_BoomShot_Blam",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5022BCBD48CAE6E0270F28A8BA392579",
+      "SourceString": "Heartillery",
+      "LocalizedString": "Heartillery"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6AC390EE4A2469742EF853BB550AA745",
+      "SourceString": "You make my heart go tick, tick, boom.",
+      "LocalizedString": "You make my heart go tick, tick, boom."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "476B3FDE4FC905ABE8F825A9916C6A22",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 210.0,
+          "Z": 40.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Set.LargeSound"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_BoomShot.T_Icon_Emotes_BoomShot",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_BoomShot_L.T_Icon_Emotes_BoomShot_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}
