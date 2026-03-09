@@ -58,7 +58,12 @@ const VERSION_TO_CHAPTER_SEASON = [
   { minVersion: 34.0, maxVersion: 34.40, chapter: 6, season: 2 },
   { minVersion: 35.0, maxVersion: 35.40, chapter: 6, season: 3 },
   { minVersion: 36.0, maxVersion: 37.99, chapter: 6, season: 4 },
-  { minVersion: 38.0, maxVersion: 38.99, chapter: 6, season: 5 },
+  { minVersion: 38.0, maxVersion: 38.99, chapter: 6, season: 5 }, // Mini Season 2
+  // Chapter 7
+  { minVersion: 39.0, maxVersion: 39.99, chapter: 7, season: 1 },
+  { minVersion: 40.0, maxVersion: 40.99, chapter: 7, season: 2 },
+  { minVersion: 41.0, maxVersion: 41.99, chapter: 7, season: 3 },
+  { minVersion: 42.0, maxVersion: 42.99, chapter: 7, season: 4 },
 ];
 
 /**
