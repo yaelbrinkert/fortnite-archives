@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Commando_025",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/Male/Medium/Commando/Commando_Male_Body_Montage_Idle.Commando_Male_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Commando_025:M_Med_Soldier_Head_Nutcracker_ATH'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Commando/CosmeticCharacterItemDefinitions/CID_Commando_025.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B83466D6403989DE07EDCE9285788C4A",
+      "SourceString": "Crackshot",
+      "LocalizedString": "Crackshot"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "7DF213B34B4C49A1A94C0C890AF4CCFF",
+      "SourceString": "Get out there and... crack some nuts.",
+      "LocalizedString": "Get out there and... crack some nuts."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker.T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker-L.T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

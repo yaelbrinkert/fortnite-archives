@@ -1,0 +1,115 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Hurtle_Green",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/Emote_Hurtle_CMM_Green_FE_M.Emote_Hurtle_CMM_Green_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CMF/Emote_Hurtle_CMF_Green_FE_M.Emote_Hurtle_CMF_Green_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CLF/Emote_Hurtle_CLF_Green_FE_M.Emote_Hurtle_CLF_Green_FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CLM/Emote_Hurtle_CLM_Green_FE_M.Emote_Hurtle_CLM_Green_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower_Traversal.GAB_EmoteBand_Follower_Traversal_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/Emote_Hurtle_CMM_Green_M.Emote_Hurtle_CMM_Green_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CMF/Emote_Hurtle_CMF_Green_M.Emote_Hurtle_CMF_Green_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CLM/Emote_Hurtle_CLM_Green_M.Emote_Hurtle_CLM_Green_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hurtle/CLF/Emote_Hurtle_CLF_Green_M.Emote_Hurtle_CLF_Green_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 10.0,
+      "Roll": 0.0
+    },
+    "ShotGridIds": [
+      56047
+    ],
+    "BaseShotGridId": 56047,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1DAEA7254E214039222FAFA628B1C3DF",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "97F31C6B434AB5E8D956799B00291667",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8E1B984B411CA127D5A140B089425221",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      }
+    ]
+  }
+}

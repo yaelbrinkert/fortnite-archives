@@ -1,0 +1,119 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ClayPlug",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClayPlug/Emote_ClayPlug_CMM_M.Emote_ClayPlug_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClayPlug/Emote_ClayPlug_CMF_M.Emote_ClayPlug_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClayPlug/Emote_ClayPlug_CLM_M.Emote_ClayPlug_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClayPlug/Emote_ClayPlug_CLF_M.Emote_ClayPlug_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 30.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_ClayPlug:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_ClayPlug.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0909BA7342E12D715D62E3B1D1E59182",
+      "SourceString": "Rap Monster",
+      "LocalizedString": "Rap Monster"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6AC7F81F4A0B1F5F1F4862AF31529B22",
+      "SourceString": "Unleash the monster. ",
+      "LocalizedString": "Unleash the monster. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "083911784F42B18EDB1633A62ED0E657",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 60.0,
+          "Z": 18.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Set.ThickBottle",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_ClayPlug.T_Icon_Emotes_ClayPlug",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S32/T_Icon_Emotes_ClayPlug_L.T_Icon_Emotes_ClayPlug_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SlidingStone",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "bUseHighPreviewCamera": true,
+    "bGroupAnimationSync": true,
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_SlidingStone'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_SlidingStone.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_SlidingStone_Joiner'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_SlidingStone_Joiner.0"
+    },
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 143.093,
+    "bMoveForwardOnly": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_SlidingStone.GAB_Emote_SlidingStone_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SlidingStone/CMM/Emote_SlidingStone_CMM_M.Emote_SlidingStone_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SlidingStone/CMF/Emote_SlidingStone_CMF_M.Emote_SlidingStone_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SlidingStone/CLM/Emote_SlidingStone_CLM_M.Emote_SlidingStone_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SlidingStone/CLF/Emote_SlidingStone_CLF_M.Emote_SlidingStone_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_LargeGroupEmote.ItemOnPawnPreview_LargeGroupEmote_C",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C3FC1ACC431C808CE079E4BD055C962C",
+      "SourceString": "Curling Match",
+      "LocalizedString": "Curling Match"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6D9E53654C96395AA86EE7ABEF9ED5BD",
+      "SourceString": "Hurry hard!",
+      "LocalizedString": "Hurry hard!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "C64E52E44830348768B41788698ECA0A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -200.0,
+          "Z": -40.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.Emote.HideMimosaInPreview",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Filter.Season.39"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_SlidingStone.T_Icon_Emotes_SlidingStone",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_SlidingStone_L.T_Icon_Emotes_SlidingStone_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::AtLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": false,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 187.0,
+              "Y": 60.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": null,
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::FaceTowardLeader",
+            "AdditionalYaw": -20.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 140.0,
+                "Y": -47.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": false,
+              "OverrideEmoteItemDefinition": null,
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::FaceTowardLeader",
+              "AdditionalYaw": -140.0
+            },
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": 110.0,
+                "Y": 90.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": null,
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::FaceTowardLeader",
+              "AdditionalYaw": -10.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Automatic",
+          "GroupEmotePreviewFollowerJoinDelayOverride": -1.0
+        }
+      }
+    ]
+  }
+}

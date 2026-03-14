@@ -1,0 +1,71 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Ninja_038_Male_Ninja_Pirate",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Small/Ninja/Ninja_Male_Body_Montage_Idle.Ninja_Male_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/MontageLookUpTables/SmallMale.SmallMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Ninja_038_Male_Ninja_Pirate:CP_Athena_Head_M_Plague'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Ninja/CosmeticCharacterItemDefinitions/CID_Ninja_038_Male_Ninja_Pirate.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "bHideIfNotOwned": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "EFF1091A44CACD42CB2AAC8092DF9166",
+      "SourceString": "Freebooter Ken",
+      "LocalizedString": "Freebooter Ken"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0FF86CD849FC46CD0A294E9E61D86240",
+      "SourceString": "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+      "LocalizedString": "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Ninja/Portrait/T-Ninja-CID-Ninja-038-Male-Pirate-Ninja-VariantLegendaryWithHeadgear.T-Ninja-CID-Ninja-038-Male-Pirate-Ninja-VariantLegendaryWithHeadgear",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.ShoesSneakers"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

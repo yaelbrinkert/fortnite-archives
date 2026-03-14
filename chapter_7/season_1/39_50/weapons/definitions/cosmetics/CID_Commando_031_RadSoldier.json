@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Commando_031_RadSoldier",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/Female/Medium/Commando/Commando_Female_Body_Montage_Idle.Commando_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Commando_031_RadSoldier:CP_Head_Commando_F_GarageBand'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Commando/CosmeticCharacterItemDefinitions/CID_Commando_031_RadSoldier.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "09FBAE704C6D7E25212C1C87233579BE",
+      "SourceString": "Breakbeat Wildcat",
+      "LocalizedString": "Breakbeat Wildcat"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3195511D4ECFAE6AA13FD481520D4EBD",
+      "SourceString": "One, two. One, two, three, four! - Wildcat",
+      "LocalizedString": "One, two. One, two, three, four! - Wildcat"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-205-Athena-Commando-F-GarageBand.T-Soldier-HID-205-Athena-Commando-F-GarageBand",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-205-Athena-Commando-F-GarageBand-L.T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

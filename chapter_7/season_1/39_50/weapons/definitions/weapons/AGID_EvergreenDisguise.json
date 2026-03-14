@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_EvergreenDisguise",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Athena_Body_M_Bling'",
+        "ObjectPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Bling.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Mask'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Mask.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_None'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_None.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Hat'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Cap'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Cap.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Head_Med_Soldier_M_Bling'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Head_Med_Soldier_M_Bling.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoCharm'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoBackpack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+      }
+    ],
+    "CharacterPartsExtraSpecial": [
+      {
+        "CharacterPartsForExtraSpecial": [
+          {
+            "ObjectName": "CustomCharacterPart'CP_Athena_Body_M_Bling'",
+            "ObjectPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Bling.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_Mask'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Mask.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_None'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_None.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_Hat'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_Cap'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Cap.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'CP_Head_Med_Soldier_M_Bling'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Head_Med_Soldier_M_Bling.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'NoCharm'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'NoBackpack'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+          }
+        ],
+        "SkinMetaTagsForExtraSpecial": [
+          "Cosmetics.MetaTags.Trait.ExtremelyUnique"
+        ]
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/Game/Building/ActorBlueprints/Stations/PhoneBooth/Disguise/AS_EvergreenDisguise.AS_EvergreenDisguise",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault"
+        ]
+      },
+      {
+        "PreferredQuickbarSlot": 0
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Tags": [
+          "Item.SortsRight"
+        ]
+      }
+    ]
+  }
+}

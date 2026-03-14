@@ -1,0 +1,80 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_DontBeSquare",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DontBeSquare/Emote_DontBeSquare_CMM_M.Emote_DontBeSquare_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DontBeSquare/Emote_DontBeSquare_CMF_M.Emote_DontBeSquare_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DontBeSquare/Emote_DontBeSquare_CLM_M.Emote_DontBeSquare_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewHero": {
+      "AssetPathName": "/Game/Athena/Items/Cosmetics/Characters/CID_556_Athena_Commando_F_RebirthDefaultA.CID_556_Athena_Commando_F_RebirthDefaultA",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1FE30C0549A7142F33D18A91BA00883E",
+      "SourceString": "So Square",
+      "LocalizedString": "So Square"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BFCC22744F10985F6119FCADF13F670B",
+      "SourceString": "Like, seriously. So square.",
+      "LocalizedString": "Like, seriously. So square."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "C7655CCB43D18FE2F81515BAA863B6F9",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season13.BattlePass.Free",
+          "Cosmetics.Filter.Season.13",
+          "Emote.Mech.Disabled.Art"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-DontBeSquare.T-Icon-Emotes-DontBeSquare",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-DontBeSquare-L.T-Icon-Emotes-DontBeSquare-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ScrapTunnel",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Scraptunnel/CMF/Emote_ScrapTunnel_CMF_M.Emote_ScrapTunnel_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_ScrapTunnel.Character_ScrapTunnel",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "48BC067A48B2334BFE3104B499184125",
+      "SourceString": "Nanite Flex",
+      "LocalizedString": "Nanite Flex"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F07E361741E0BEA39841E78B416AB3F9",
+      "SourceString": "Check this out...",
+      "LocalizedString": "Check this out..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "1FD7755941CFD0A1C46D188EF5A49291",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 15.0,
+          "Y": 80.0,
+          "Z": 13.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.GooseBall"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_ScrapTunnel.T_Icon_Emotes_ScrapTunnel",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S36/T_Icon_Emotes_ScrapTunnel_L.T_Icon_Emotes_ScrapTunnel_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'DCUSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/DCUSeries.0"
+        }
+      }
+    ]
+  }
+}

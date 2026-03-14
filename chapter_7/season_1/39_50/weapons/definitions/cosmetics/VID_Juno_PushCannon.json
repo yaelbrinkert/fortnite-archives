@@ -1,0 +1,33 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Juno_PushCannon",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Curve": {
+        "RowName": "Default.Vehicle.PirateCannon.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Curve": {
+        "RowName": "Default.Vehicle.PirateCannon.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/JunoCannon/Blueprints/Juno_PushCannon.Juno_PushCannon_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "junocannon"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

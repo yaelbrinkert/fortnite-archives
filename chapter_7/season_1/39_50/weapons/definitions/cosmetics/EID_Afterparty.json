@@ -1,0 +1,170 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Afterparty",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "bGroupAnimationSync": true,
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Afterparty_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Afterparty_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Afterparty_Sync_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Afterparty_Sync_Follower.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Afterparty_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Afterparty_Sync.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Afterparty_Sync_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Afterparty_Sync_Follower.0"
+    },
+    "GroupEmotePositionOffset": {
+      "X": -105.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "bLockGroupEmoteLeaderRotation": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_GroupEmoteRequest.GAB_GroupEmoteRequest_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AfterParty/Emote_AfterParty_CMM_M.Emote_AfterParty_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AfterParty/Emote_AfterParty_CMF_M.Emote_AfterParty_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AfterParty/Emote_AfterParty_CLF_M.Emote_AfterParty_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/AfterParty/Emote_AfterParty_CLM_M.Emote_AfterParty_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_LargeGroupEmote.ItemOnPawnPreview_LargeGroupEmote_C",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "EDCE51884729E2ED714C9BAA53C5C8A7",
+      "SourceString": "Disco (Surf Curse)",
+      "LocalizedString": "Disco (Surf Curse)"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "434C991E46CD03E2359999837FE566CF",
+      "SourceString": "Let the disco move through you.",
+      "LocalizedString": "Let the disco move through you."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "78808CDA430A2ECF7A173B8EED30DAF0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 15.889911,
+          "Z": 16.950691
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.35"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_Afterparty.T_Icon_Emotes_Afterparty",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S35/T_Icon_Emotes_Afterparty_L.T_Icon_Emotes_Afterparty_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::BetweenLeaderAndFirstFollower",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 0.0,
+              "Y": -100.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": null,
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 90.0
+          },
+          "AdditionalPreviewFollowerConfigs": [],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Automatic",
+          "GroupEmotePreviewFollowerJoinDelayOverride": -1.0
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

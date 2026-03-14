@@ -1,0 +1,96 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Sahara",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Sahara/Character/Emote_Sahara_CMM_M.Emote_Sahara_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Sahara/Character/Emote_Sahara_CMF_M.Emote_Sahara_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Sahara/Character/Emote_Sahara_CLM_M.Emote_Sahara_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Sahara/Character/Emote_Sahara_CLF_M.Emote_Sahara_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      58806
+    ],
+    "BaseShotGridId": 58806,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "6FD37B91407D1DDE94F1E2BA41540E52",
+      "SourceString": "Teth's Throne",
+      "LocalizedString": "Teth's Throne"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3AC06C1844DC1FE410515EB6173600E1",
+      "SourceString": "Let them kneel before you.",
+      "LocalizedString": "Let them kneel before you."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E6752D024CAB1ECB0E77469B9ACFD125",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'DCUSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/DCUSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-Sahara.T-Icon-Emotes-E-Sahara",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-Sahara-L.T-Icon-Emotes-E-Sahara-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.22",
+          "Cosmetics.Set.SteepOrbit",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

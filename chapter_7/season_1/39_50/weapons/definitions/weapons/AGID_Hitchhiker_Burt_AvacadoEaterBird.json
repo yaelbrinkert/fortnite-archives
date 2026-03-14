@@ -1,0 +1,43 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Hitchhiker_Burt_AvacadoEaterBird",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Hitchhiker_Burt_AvacadoEaterBird'",
+        "ObjectPath": "/MotherGameplay/Items/AvacadoEaterBird/CP_Hitchhiker_Burt_AvacadoEaterBird.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "PreferredQuickbarSlot": 0
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Tags": [
+          "Item.SortsRight"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_BoostJumpPack_Retuned",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GadgetPriority": 1,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'BackPack_JetPack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/BackPack_JetPack.1"
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AS_BoostJumpPack.AS_BoostJumpPack",
+      "SubPathString": ""
+    },
+    "AttributeSet": {
+      "AssetPathName": "/Script/FortniteGame.FortJumpBoostSet",
+      "SubPathString": ""
+    },
+    "AttributeInitKey": {
+      "AttributeInitCategory": "JumpBoostPack",
+      "AttributeInitSubCategory": "Retuned"
+    },
+    "TrackedAttributes": [
+      {
+        "AttributeName": "Fuel",
+        "Attribute": {
+          "Path": [
+            "Fuel"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'FortJumpBoostSet'",
+            "ObjectPath": "/Script/FortniteGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'FortJumpBoostSet'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "AttributeName": "ReserveFuel",
+        "Attribute": {
+          "Path": [
+            "ReserveFuel"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'FortJumpBoostSet'",
+            "ObjectPath": "/Script/FortniteGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'FortJumpBoostSet'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      }
+    ],
+    "OnDestroyParticleSystem": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/FX/P_Jetpack_Explode.P_Jetpack_Explode",
+      "SubPathString": ""
+    },
+    "OnDestroySound": {
+      "AssetPathName": "/Game/Athena/Sounds/Items/Jetpack/Jetpack_Drop_Cue.Jetpack_Drop_Cue",
+      "SubPathString": ""
+    },
+    "OnDestroyAttachToSocketName": "Backpack",
+    "WeaponItemDefinition": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/D_BoostJumpPack_Test.D_BoostJumpPack_Test",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E26FCA3A42EE143044D362A73EF17B1C",
+      "SourceString": "Jetpack",
+      "LocalizedString": "Jetpack"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A6E74E0945E664C5058058A682589334",
+      "SourceString": "A full-throttle blast of thrills and fun. Initiate by Jumping while in air.",
+      "LocalizedString": "A full-throttle blast of thrills and fun. Initiate by Jumping while in air."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Game/Accessories/FORT_Backpacks/Mesh/SK_Jetpack_Junkpak.SK_Jetpack_Junkpak",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.0,
+              "G": 1.0,
+              "B": 0.27451,
+              "A": 1.0,
+              "Hex": "00FF8F"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_SupplyDrop'",
+            "ObjectPath": "/Game/UI/Fort_HUD/Radar/UI_Radar_SupplyDrop.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Jetpack/Jetpack_Pickup_Cue.Jetpack_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/Items/Jetpack/Jetpack_Drop_Cue.Jetpack_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 44.57831,
+          "Y": 22.548141,
+          "Z": 43.217155
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "88754BB64994273F644D05AD457CD48B",
+          "SourceString": "Boost Jump Pack",
+          "LocalizedString": "Boost Jump Pack"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-SK-Jetpack-Junkpak.T-T-Icon-BR-SK-Jetpack-Junkpak",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-SK-Jetpack-Junkpak-L.T-T-Icon-BR-SK-Jetpack-Junkpak-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Weapon.Backpack.Jetpack",
+          "Item.SortsRight",
+          "HUD.RechargeableIcon"
+        ]
+      }
+    ]
+  }
+}

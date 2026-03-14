@@ -1,0 +1,112 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Tank_Cannon",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Tank/Weapon/MainCannon/B_Tank_Cannon_Weapon.B_Tank_Cannon_Weapon_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Vehicle_Tank_Cannon_Athena_R_Ore_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Tank/Weapon/MainCannon/GA_Ranged_Projectile_Tank_Cannon.GA_Ranged_Projectile_Tank_Cannon_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite.AmmoInfinite",
+      "SubPathString": ""
+    },
+    "bAllowTargetingDuringReload": true,
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Weapon.Ranged.Turret"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Turret",
+      "Tag:Weapon:wid_tank_cannon"
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "43A4C598417902A38C3AD2ABD39AA0FC",
+      "SourceString": "Tank Cannon",
+      "LocalizedString": "Tank Cannon"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/Tank/Weapon/MainCannon/B_Prj_Tank_Cannon.B_Prj_Tank_Cannon_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "6B6C24614B275E397B615C993F676F8C",
+          "SourceString": "Tank Cannon",
+          "LocalizedString": "Tank Cannon"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "AbilityWeapon.Ranged",
+          "Rarity.Rare",
+          "Trait.Explosive",
+          "Trait.Vehicle",
+          "Item.Weapon.Ranged",
+          "phoebe.weapon.ranged.AwardThanks.Main",
+          "phoebe.items.AwardThanks.Main",
+          "Item.Weapon.Vehicle.Tank.Cannon"
+        ]
+      }
+    ]
+  }
+}

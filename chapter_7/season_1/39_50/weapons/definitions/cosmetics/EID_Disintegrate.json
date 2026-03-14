@@ -1,0 +1,109 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Disintegrate",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Disintegrate/Emote_Disintegrate_CMM_M.Emote_Disintegrate_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Disintegrate/Emote_Disintegrate_CMF_M.Emote_Disintegrate_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Disintegrate/Emote_Disintegrate_CLM_M.Emote_Disintegrate_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Disintegrate/Emote_Disintegrate_CLF_M.Emote_Disintegrate_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      71007
+    ],
+    "BaseShotGridId": 71007,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4351645344BA6F9FA3069B96792D5602",
+      "SourceString": "Instrument of Destruction",
+      "LocalizedString": "Instrument of Destruction"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4997DF144E7D41613B3DBDBFC7298457",
+      "SourceString": "Show them you're a rockstar.",
+      "LocalizedString": "Show them you're a rockstar."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D73E9B7D44BBC62A0135D8B384FB03A6",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.4
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Disintegrate.T-Icon-Emotes-Disintegrate",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-Disintegrate-L.T-Icon-Emotes-Disintegrate-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.24",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

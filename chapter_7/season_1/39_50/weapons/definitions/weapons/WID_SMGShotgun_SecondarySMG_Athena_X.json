@@ -1,0 +1,121 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_SMGShotgun_SecondarySMG_Athena_X",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bForceProjectileTooltip": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/B_DualWield_VividRazor_SMGSecondary_Athena.B_DualWield_VividRazor_SMGSecondary_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/Meshes/DualMicro_SMG.DualMicro_SMG",
+      "SubPathString": ""
+    },
+    "IntrinsicOverrideWrap": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/ItemWraps/Wrap_RushedMummy.Wrap_RushedMummy",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "SMG_VividRazor_DualWield_Athena_Exotic_UR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/GA_Ranged_SecondarySMGDamage.GA_Ranged_SecondarySMGDamage_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/GA_SMGShotgun_Secondary_Empty.GA_SMGShotgun_Secondary_Empty_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_smgshotgun_secondarysmg_athena_x"
+    ],
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "477EF0A94CC0DACC513D269F95BAD18B",
+      "SourceString": "Lawless Blink Hammer & Nail",
+      "LocalizedString": "Lawless Blink Hammer & Nail"
+    },
+    "DataList": [
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_VividRazor_SMGShotgun_SMG_Weapon'",
+            "ObjectPath": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Audio/SL_VividRazor_SMGShotgun_SMG_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/DualWieldingRuntime.FortGameplayAbility_ReloadSecondary",
+          "SubPathString": ""
+        }
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Traits": [
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Ranged",
+          "HUD.PreferredSlotType.SMG",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Rarity.Transcendent",
+          "Item.Weapon.Ranged.SMG.DualWield.ShotgunSMG.Exotic",
+          "Weapon.RequiresLeaningToFireInEnclosedVehicle",
+          "Weapon.Vehicle.Gamepad.DisableEnclosedPassengerReleaseReload"
+        ]
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_SMG'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_SMG.0"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

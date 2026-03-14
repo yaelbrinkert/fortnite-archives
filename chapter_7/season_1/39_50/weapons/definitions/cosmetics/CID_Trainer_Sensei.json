@@ -1,0 +1,59 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Trainer_Sensei",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/SaveTheWorld/Items/Workers/Trainers/Sensei/CharacterParts/Heads/CP_Head_M_Sensei.CP_Head_M_Sensei",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/SaveTheWorld/Items/Workers/Trainers/Sensei/CharacterParts/CP_Athena_Body_M_Sensei.CP_Athena_Body_M_Sensei",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimClass": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Pawns/MenuScreen_Constructor.MenuScreen_Constructor_C",
+      "SubPathString": ""
+    },
+    "bIsOwnedByCampaignHero": true,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B794F5FF42E40908098F028D169A5D5A",
+      "SourceString": "Major",
+      "LocalizedString": "Major"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Icon-Perk-Missing-M.Icon-Perk-Missing-M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

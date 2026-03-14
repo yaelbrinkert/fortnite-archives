@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Guitar_SkyLanternRelease",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/SkyLanternRelease/Persistent/Emote_Guitar_SkyLanternRelease_CMM_M.Emote_Guitar_SkyLanternRelease_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/SkyLanternRelease/Persistent/Emote_Guitar_SkyLanternRelease_CMF_M.Emote_Guitar_SkyLanternRelease_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/SkyLanternRelease/Persistent/Emote_Guitar_SkyLanternRelease_CLM_M.Emote_Guitar_SkyLanternRelease_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/SkyLanternRelease/Persistent/Emote_Guitar_SkyLanternRelease_CLF_M.Emote_Guitar_SkyLanternRelease_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Guitar_SkyLanternRelease:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Guitar/SkyLanternRelease/EID_Guitar_SkyLanternRelease.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "360DEB6A4ECC84795EE402A49701F79D",
+      "SourceString": "Melodic Illumination",
+      "LocalizedString": "Melodic Illumination"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0A7260504B9D88245D3B8E87144A937C",
+      "SourceString": "Spotlights are for amateurs.",
+      "LocalizedString": "Spotlights are for amateurs."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "11466426467AE8D701F7339D4DE3C62D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Sky_Lantern_Release.T_UI_Icon_SparksEmote_Sky_Lantern_Release",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Sky_Lantern_Release_L.T_UI_Icon_SparksEmote_Sky_Lantern_Release_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.5
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Filter.Sparks.Season.07"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

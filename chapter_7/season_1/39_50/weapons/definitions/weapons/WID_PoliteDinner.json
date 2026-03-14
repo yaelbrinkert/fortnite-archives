@@ -1,0 +1,334 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_PoliteDinner",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/PoliteDinner/Gameplay/B_Consumable_PoliteDinner.B_Consumable_PoliteDinner_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_M80"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/PoliteDinner/Gameplay/GA_PoliteDinner_Primary.GA_PoliteDinner_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/PoliteDinner/Gameplay/GA_PoliteDinner_Consumable_Pass.GA_PoliteDinner_Consumable_Pass_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bUsesCustomAmmoType": true,
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Consumable.PoliteDinner"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.PoliteDinner",
+      "Tag:Consumable:wid_politedinner"
+    ],
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "6B374F194C32F1EF207AC8A702335242",
+      "SourceString": "Mira's X-tra Spicy Ramyeon",
+      "LocalizedString": "Mira's X-tra Spicy Ramyeon"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BB9AA77B43CC317A4BA57DABED6795E5",
+      "SourceString": "Mira's newest ramyeon flavor, spicy enough to bring out the inner demon hunter in anyone!",
+      "LocalizedString": "Mira's newest ramyeon flavor, spicy enough to bring out the inner demon hunter in anyone!"
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'PoliteDinnerGameData'",
+              "ObjectPath": "/PoliteDinner/DataTables/PoliteDinnerGameData.0"
+            },
+            "RowName": "PoliteDinner.MaxStackSize"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/PoliteDinner/Assets/Meshes/PoliteDinner_Consumable.PoliteDinner_Consumable",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.110084675,
+            "Y": -0.070131674,
+            "Z": -0.8361761,
+            "W": 0.5327029,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -5.0,
+            "Z": -20.0
+          },
+          "Scale3D": {
+            "X": 1.5,
+            "Y": 1.5,
+            "Z": 1.5
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/PoliteDinner/Assets/Audio/PoliteDinner_Pickup.PoliteDinner_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/PoliteDinner/Assets/Audio/PoliteDinner_Drop.PoliteDinner_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/PoliteDinner/Assets/Audio/PoliteDinner_DropLand.PoliteDinner_DropLand",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 0.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 9.024,
+          "Y": 9.024,
+          "Z": 11.146741
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "5736B3F34B523879010816A9DA8259DA",
+          "SourceString": "Gadget UtilityItem M80",
+          "LocalizedString": "Gadget UtilityItem M80"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/PoliteDinner/Gameplay/B_Prj_PoliteDinner_Thrown.B_Prj_PoliteDinner_Thrown_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/PoliteDinner/Assets/Icon/T_Icon_BR_Consumable_PoliteDinner.T_Icon_BR_Consumable_PoliteDinner",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/PoliteDinner/Assets/Icon/T_Icon_BR_Consumable_PoliteDinner_L.T_Icon_BR_Consumable_PoliteDinner_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Bacchus.Consume.Shield.SieldLG",
+          "Athena.ItemAction.Consume",
+          "Trait.Restoration.Shields",
+          "Athena.ItemAction.Secondary.Throw",
+          "Item.SortsRight",
+          "Item.Consumable.Drinkable",
+          "HUD.PreferredSlotType.Consumable",
+          "Granted.Athena.TacticalSprint.PreventHolster",
+          "Rarity.VeryRare",
+          "Item.Consumable.PoliteDinner",
+          "Trait.Restoration.Health",
+          "phoebe.items.consumable.heal.anythreshold",
+          "phoebe.items.PoliteDinner"
+        ]
+      }
+    ]
+  }
+}

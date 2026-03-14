@@ -1,0 +1,73 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Generic_RespectThePeace_LeaveAdHocSquad",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bAllowLowerBodyLocomotion": true,
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 500.0,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_LeaveAdHocSquad.GAB_Emote_LeaveAdHocSquad_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Generic_AdHocSquad/Leave/CMM/Emote_GenericLeave_AdHocSquad_CMM_M.Emote_GenericLeave_AdHocSquad_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Generic_AdHocSquad/Leave/CMF/Emote_GenericLeave_AdHocSquad_CMF_M.Emote_GenericLeave_AdHocSquad_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E5F98EAD44DD4722FF0FF7868D273EF7",
+      "SourceString": "Leave Team",
+      "LocalizedString": "Leave Team"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E115B3A74289C6FCEC0FDDA5BC44C624",
+      "SourceString": "Leave your current team.",
+      "LocalizedString": "Leave your current team."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "915A2FD64C2F219EC7C2C088EB426AE3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.EmoteType.AdHocSquad.Leave"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T_TeamEmotes_Leave.T_TeamEmotes_Leave",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T_TeamEmotes_Leave_L.T_TeamEmotes_Leave_L",
+          "SubPathString": ""
+        }
+      },
+      {}
+    ]
+  }
+}

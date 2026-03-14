@@ -1,0 +1,433 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_MistRaven_CombinedAscended",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/B_MistRaven_CombinationAscended.B_MistRaven_CombinationAscended_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'MistRaven_TendrilVacuum_RangedWeapons'",
+        "ObjectPath": "/MistRaven/DataTables/MistRaven_TendrilVacuum_RangedWeapons.0"
+      },
+      "RowName": "MistRavenAscendedCombined"
+    },
+    "AbilitySet": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/AS_MistRaven_CombinedAscended.AS_MistRaven_CombinedAscended",
+      "SubPathString": ""
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/GA_MistRaven_Flamethrower.GA_MistRaven_Flamethrower_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/GrimStrutAscended/Blueprints/GA_GrimStrutAscended_Activate.GA_GrimStrutAscended_Activate_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/AS_MistRaven_CombinedAscended_Equipped.AS_MistRaven_CombinedAscended_Equipped",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/AthenaAmmoData_MistRavenFlameThrower_CustomAmmo.AthenaAmmoData_MistRavenFlameThrower_CustomAmmo",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bUsesPhantomReserveAmmo": true,
+    "bUsesCustomAmmoType": true,
+    "bShouldMagazineSizeDisplayInfinity": true,
+    "bAllowSecondaryFireToInterruptPrimary": true,
+    "bTargetingPreventsReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCornerAngles": [
+      0.0,
+      89.0,
+      179.0,
+      270.0
+    ],
+    "AnalyticTags": [
+      "Item.Weapon.Ranged.MistRavenFlame"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.RollLanding.PreventHolster",
+      "Granted.BoostedJump.PreventHoslter",
+      "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+      "Granted.Athena.Hurdle.PreventHolster",
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+      "Granted.WallStick.PreventHolster",
+      "Granted.Athena.TacticalSprint.PreventHolster"
+    ],
+    "CosmeticGatingTags": [
+      "MistRaven.TendrilDrain.Ascended.CharacterPartTag",
+      "MistRaven.GrimStrut.Ascended.CharacterPartTag"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Weapon.Ranged.MistRavenFlame",
+      "Tag:Weapon:wid_mistraven_combinedascended"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CH6S3",
+        "Legendary",
+        "Mobility",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "02BC85FB4CCDDA4614BD4C8D40ADEDFA",
+      "SourceString": "Ascended Myst",
+      "LocalizedString": "Ascended Myst"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B783A94447B560F3C705E4A7FE6408C6",
+      "SourceString": "Myst Gauntlets and Myst Form Combined.",
+      "LocalizedString": "Myst Gauntlets and Myst Form Combined."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "DCC309B2446BFCB35B87D9BA259FA0E4",
+      "SourceString": "Myst Gauntlets and Myst Form Combined.",
+      "LocalizedString": "Myst Gauntlets and Myst Form Combined."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.IgnoreAmmoForReload",
+          "Item.Trait.AllowSwapSingleStack",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/MistRaven/Assets/Mesh/MistRaven_Combined_Pickup.MistRaven_Combined_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Assault-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/MistRaven/Assets/Audio/SL_MistRaven_CombinedAscended_Pickup.SL_MistRaven_CombinedAscended_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickupDestroyOnEmpty",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 43.49665,
+          "Y": 22.948624,
+          "Z": 55.5256
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "D4C86E464743380C32987ABFC21B0E74",
+          "SourceString": "Guns Shotguns",
+          "LocalizedString": "Guns Shotguns"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/MistRaven/UI/Icons/T_IconWide_Combined_MistRaven.T_IconWide_Combined_MistRaven",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Granted.Cooldown.MistRaven.GrimStrut.Ascended.Cooldown",
+          "Granted.RollLanding.PreventHolster",
+          "Granted.WallStick.PreventHolster",
+          "Item.Weapon.Ranged.MistRaven.CombinedItem",
+          "Item.ExclusivePickupGroup.MistRavenCombined",
+          "Item.ExclusivePickupGroup.MistRavenCombinedExclusiveFlamethrower",
+          "Item.ExclusivePickupGroup.MistRavenCombinedExclusiveGrimStrut",
+          "Athena.HUD.EquippedItem.ShowSurplusAmmo",
+          "Animation.CharacterParts.HideFX.Hands",
+          "Athena.HUD.Pickup.ShowTotalAmmo",
+          "Rarity.SuperRare",
+          "phoebe.items.areatypeweapon",
+          "phoebe.weapon.ranged.areatypeweapon",
+          "HUD.PreferredSlotType.Utility",
+          "Athena.Item.Utility"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -31.0,
+          "Z": -3.0
+        },
+        "InitialRotation": {
+          "Pitch": 9.880858,
+          "Yaw": 23.314001,
+          "Roll": -19.386724
+        },
+        "Scale": 1.1
+      },
+      {
+        "EquippedCharacterParts": [
+          {
+            "AssetPathName": "/MistRaven/Gameplay/Ascended/CP_Mistraven_Hands_White.CP_Mistraven_Hands_White",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/MistRaven/Gameplay/Ascended/CP_Mistraven_Cloak_White.CP_Mistraven_Cloak_White",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "SlotSize": 2
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/B_Prj_MistRaven_FlameThrower_V3.B_Prj_MistRaven_FlameThrower_V3_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WideIcon": {
+          "AssetPathName": "/MistRaven/UI/Icons/T_IconWide_Combined_MistRaven.T_IconWide_Combined_MistRaven",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

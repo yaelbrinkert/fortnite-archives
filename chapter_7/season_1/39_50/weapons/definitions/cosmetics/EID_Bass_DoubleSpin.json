@@ -1,0 +1,114 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Bass_DoubleSpin",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Bass/DoubleSpin/Persistent/Emote_Bass_DoubeSpin_CMM_M.Emote_Bass_DoubeSpin_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Bass/DoubleSpin/Persistent/Emote_Bass_DoubeSpin_CMF_M.Emote_Bass_DoubeSpin_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Bass/DoubleSpin/Persistent/Emote_Bass_DoubeSpin_CLM_M.Emote_Bass_DoubeSpin_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Bass/DoubleSpin/Persistent/Emote_Bass_DoubeSpin_CLF_M.Emote_Bass_DoubeSpin_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Bass_DoubleSpin:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Bass/DoubleSpin/EID_Bass_DoubleSpin.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B36ADE4346ACE5840FA2AA99C14B305B",
+      "SourceString": "Revolver",
+      "LocalizedString": "Revolver"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F04D29F94D5D6A450671A6BF9BD8851D",
+      "SourceString": "Take a spin and strike a chord.",
+      "LocalizedString": "Take a spin and strike a chord."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FC4E9B0E49269CD285D115BEC6B24943",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Bass_DoubleSpin.T_UI_Icon_SparksEmote_Bass_DoubleSpin",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Bass_DoubleSpin_L.T_UI_Icon_SparksEmote_Bass_DoubleSpin_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks.Season.06",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.32"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

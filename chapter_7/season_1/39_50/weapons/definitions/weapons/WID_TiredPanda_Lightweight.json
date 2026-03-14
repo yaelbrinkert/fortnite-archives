@@ -1,0 +1,404 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_TiredPanda_Lightweight",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "bAllowReleaseToFire": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Blueprints/B_Weapon_TiredPanda.B_Weapon_TiredPanda_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Special_TiredPanda_Athena_R_Ore_T03"
+    },
+    "AbilitySet": {
+      "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Blueprints/AS_TiredPanda_Passive.AS_TiredPanda_Passive",
+      "SubPathString": ""
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/Projectile/GA_Ranged_AthenaSniperProjectileImpact.GA_Ranged_AthenaSniperProjectileImpact_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Blueprints/AS_TiredPanda_Equipped.AS_TiredPanda_Equipped",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Ammo_TiredPanda_Water.Ammo_TiredPanda_Water",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bUsesPhantomReserveAmmo": true,
+    "bUsesCustomAmmoType": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Power.TiredPanda"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.KeepScoreGameplay.TiredPanda.Equipped",
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+      "Granted.Athena.TacticalSprint.PreventHolster"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Power.TiredPanda",
+      "Tag:Weapon:wid_tiredpanda_lightweight"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7E84ABEC4D7DE5DBB64B9D87E4081FEC",
+      "SourceString": "Waterbending",
+      "LocalizedString": "Waterbending"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E3085DBB452A51DC0091EC907692A82B",
+      "SourceString": "Use waterbending ice technique to hurl sharp projectiles at opponents. Also grants passive healing when in water.",
+      "LocalizedString": "Use waterbending ice technique to hurl sharp projectiles at opponents. Also grants passive healing when in water."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Blueprints/Lightweight/Prj_TiredPanda_Lightweight.Prj_TiredPanda_Lightweight_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_TiredPanda'",
+            "ObjectPath": "/KeepScoreGameplay/Items/TiredPanda/Sounds/SL_TiredPanda.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Icons/T-Icon-BR-Pickup-ColdDay-TiredPanda.T-Icon-BR-Pickup-ColdDay-TiredPanda",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Icons/T-Icon-BR-Pickup-ColdDay-TiredPanda-L.T-Icon-BR-Pickup-ColdDay-TiredPanda-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.Mythic",
+          "Item.Power.TiredPanda",
+          "Gameplay.DamageSource.Weapon",
+          "HUD.PreferredSlotType.Utility",
+          "Athena.HUD.EquippedItem.HasInfiniteSurplusAmmo",
+          "Athena.HUD.EquippedItem.ShowSurplusAmmo",
+          "Athena.HUD.Quickbar.ShowInfiniteAmmo",
+          "Athena.Item.Utility",
+          "Weapon.IgnoresCancelPrimaryAbilityOnRelease"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -22.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.2860084,
+          "Yaw": 32.02907,
+          "Roll": -19.442837
+        },
+        "Scale": 1.2
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Meshes/SM_KeepScore_Scroll_B.SM_KeepScore_Scroll_B",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Sounds/TiredPanda_Pickup_Cue.TiredPanda_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Sounds/TiredPanda_Drop_Cue.TiredPanda_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Sounds/TiredPanda_Drop_Ambient_Loop_Cue.TiredPanda_Drop_Ambient_Loop_Cue",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/KeepScoreGameplay/Items/TiredPanda/Sounds/TiredPanda_Drop_Impact_Cue.TiredPanda_Drop_Impact_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 32.26674,
+          "Y": 22.13026,
+          "Z": 16.298925
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Wayfare",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GroupEmotePositionOffset": {
+      "X": 107.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WayFare/Emote_Wayfare_CMM_M.Emote_Wayfare_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WayFare/Emote_Wayfare_CMF_M.Emote_Wayfare_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WayFare/Emote_Wayfare_CLM_M.Emote_Wayfare_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/WayFare/Emote_Wayfare_CLF_M.Emote_Wayfare_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_Wayfare:FortCosmeticLoadoutTagDrivenVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Wayfare.1"
+      }
+    ],
+    "ShotGridIds": [
+      58808
+    ],
+    "BaseShotGridId": 58808,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B407F56B4D4B38319D41599C7A0D0A8B",
+      "SourceString": "Investigate",
+      "LocalizedString": "Investigate"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CBF7E9A7478CF55E9FB2BA8D90BDA9F4",
+      "SourceString": "Have your Ghost scan for important information.",
+      "LocalizedString": "Have your Ghost scan for important information."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F5307C574CCF15BE583531B78072F34D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Wayfare.T-Icon-Emotes-E-Wayfare",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Wayfare-L.T-Icon-Emotes-E-Wayfare-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.21",
+          "Cosmetics.Set.WildLinen",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

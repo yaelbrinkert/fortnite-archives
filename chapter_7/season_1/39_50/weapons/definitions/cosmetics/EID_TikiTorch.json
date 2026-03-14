@@ -1,0 +1,84 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_TikiTorch",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TikiTorch/Emote_TikiTorch_CMM_M.Emote_TikiTorch_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TikiTorch/Emote_TikiTorch_CMF_M.Emote_TikiTorch_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TikiTorch/Emote_TikiTorch_CLM_M.Emote_TikiTorch_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/TikiTorch/Emote_TikiTorch_CLF_M.Emote_TikiTorch_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E0738CFF446F7F5A309A56BB46C020CE",
+      "SourceString": "Air Flurry",
+      "LocalizedString": "Air Flurry"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "903A84034948140D1F86BF8D026172B8",
+      "SourceString": "Now, check this out!",
+      "LocalizedString": "Now, check this out!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3EB84FF34BC1D2A74F432CBBE47C5561",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.29"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-TikiTorch.T-Icon-Emotes-TikiTorch",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-TikiTorch-L.T-Icon-Emotes-TikiTorch-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Serene_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "GroupEmotePositionOffset": {
+      "X": -100.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "bLockGroupEmoteLeaderRotation": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Serene/Follower/Emote_Serene_CMM_Follower_M.Emote_Serene_CMM_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Serene/Follower/Emote_Serene_CMF_Follower_M.Emote_Serene_CMF_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Serene/Follower/Emote_Serene_CLM_Follower_M.Emote_Serene_CLM_Follower_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Serene/Follower/Emote_Serene_CLF_Follower_M.Emote_Serene_CLF_Follower_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      56047
+    ],
+    "BaseShotGridId": 56047,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3E52F83D4647676B08B15B90A6B65B5C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Assault_SunRose_Athena_C",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bForceProjectileTooltip": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/B_Assault_SunRose_AR_Athena.B_Assault_SunRose_AR_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Meshes/Assault_SunRose_Rifle.Assault_SunRose_Rifle",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Assault_Sunrose_Athena_C_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/Projectile/GA_Ranged_AthenaSniperProjectileImpact.GA_Ranged_AthenaSniperProjectileImpact_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bReticleCornerOutsideSpreadRadius": true,
+    "bIsModifiableWeapon": true,
+    "ReticleCornerAngles": [
+      0.0,
+      89.0,
+      179.0,
+      270.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Assault",
+      "item.weapon.ranged.assault.SunRose"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "item.weapon.ranged.assault.SunRose"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Assault",
+      "item.weapon.ranged.assault.SunRose",
+      "Tag:Weapon:wid_assault_sunrose_athena_c"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH5S2",
+        "Common",
+        "Guard",
+        "Modular",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2E7E43DC42A2A82F9A1D75A2C74B1153",
+      "SourceString": "Modular Warforged Assault Rifle",
+      "LocalizedString": "Modular Warforged Assault Rifle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "09A96A2741D087FC03D527BFAD27FD14",
+      "SourceString": "An aggressive assault rifle forged for battle-hungry Gods. Powerful yet unruly, this assault rifle has high damage, high rate of fire and strong recoil.\r\n",
+      "LocalizedString": "An aggressive assault rifle forged for battle-hungry Gods. Powerful yet unruly, this assault rifle has high damage, high rate of fire and strong recoil.\r\n"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3DDA91264245F993659B5891B309A1C7",
+      "SourceString": "An aggressive assault rifle forged for battle-hungry Gods. Powerful yet unruly, this assault rifle has high damage, high rate of fire and strong recoil.\r\n",
+      "LocalizedString": "An aggressive assault rifle forged for battle-hungry Gods. Powerful yet unruly, this assault rifle has high damage, high rate of fire and strong recoil.\r\n"
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Meshes/Assault_SunRose_Rifle.Assault_SunRose_Rifle",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Assault-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunRose_Assault_Pickup_Cue.SunRose_Assault_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunRose_Assault_Drop_Cue.SunRose_Assault_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunRose_Assault_Drop_Land_Cue.SunRose_Assault_Drop_Land_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 3.6658096,
+          "Y": 46.53728,
+          "Z": 11.3260565
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "2FB9612B40ABEAC3E3445FB69EF8AF62",
+          "SourceString": "Guns Assault Rifles Machinegun LightBullets Automatic",
+          "LocalizedString": "Guns Assault Rifles Machinegun LightBullets Automatic"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Prj_Assault_SunRose.Prj_Assault_SunRose_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SunroseAssault_Lib'",
+            "ObjectPath": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunroseAssault_Lib.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponModSlots": [
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionOptic'WMID_Default_IronSights'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Optics/IronSight/WMID_Default_IronSights.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionMagazine'WMID_Default_Magazine'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Magazines/DefaultMags/WMID_Default_Magazine.0"
+            },
+            "bIsDynamic": true
+          }
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Icons/T-Icon-Weapons-Rifle-Assault-Sunrose.T-Icon-Weapons-Rifle-Assault-Sunrose",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Icons/T-Icon-Weapons-Rifle-Assault-Sunrose-L.T-Icon-Weapons-Rifle-Assault-Sunrose-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.AR.Auto",
+          "Weapon.Ranged.Assault.Standard",
+          "phoebe.weapon.ranged.rifle",
+          "phoebe.weapon.trait.fullauto",
+          "phoebe.items.assault_rifle",
+          "ModSetBucket.Assault.DPS",
+          "Rarity.Common",
+          "item.weapon.ranged.assault.SunRose"
+        ]
+      }
+    ]
+  }
+}

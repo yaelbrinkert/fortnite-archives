@@ -1,0 +1,77 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SolidWave_HiFive_Sync",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "bAllowLowerBodyLocomotion": true,
+    "GroupEmotePositionOffset": {
+      "X": 132.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 1.0,
+    "WalkForwardSpeed": 400.0,
+    "Animation": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashShade/CMM/Emote_SwashShade_Lead_CMM_Sync_M.Emote_SwashShade_Lead_CMM_Sync_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SolidWave_ExtraAssets/DynamicTeamMaking_Animations/SwashShade/CMF/Emote_SwashShade_Lead_CMF_Sync_M.Emote_SwashShade_Lead_CMF_Sync_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "329C986A4FC97B0CC7619E9974158AC0",
+      "SourceString": "Invite to Team",
+      "LocalizedString": "Invite to Team"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "72FDB5634D2FE2D8CC4F0D9854B714A4",
+      "SourceString": "Invite a player to your team.",
+      "LocalizedString": "Invite a player to your team."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "DC6691A54A57789772B233A15FEE82F8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Join.T_TeamEmotes_SolidWave_Join",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SolidWave_ExtraAssets/Emotes/Icons/T_TeamEmotes_SolidWave_Join_L.T_TeamEmotes_SolidWave_Join_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

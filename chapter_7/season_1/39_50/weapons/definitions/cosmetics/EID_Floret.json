@@ -1,0 +1,116 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Floret",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Floret/Emote_Floret_CMM_M.Emote_Floret_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Floret/Emote_Floret_CMF_M.Emote_Floret_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Floret/Emote_Floret_CLM_M.Emote_Floret_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Floret/Emote_Floret_CLF_M.Emote_Floret_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "EmoteCooldownSecs": 1.0,
+    "bPlayRandomSection": true,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "LoveMe",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "LoveMeNot",
+        "SectionWeight": 1.0
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "36FBDD8B4C762EC6575B1BAFB8E87318",
+      "SourceString": "Prophetic Petals",
+      "LocalizedString": "Prophetic Petals"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AADBB29B4944C88F6B1E32B800AADF17",
+      "SourceString": "Flowers know the truth.",
+      "LocalizedString": "Flowers know the truth."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "19A3A60C49CD42089A668D8867A962B2",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 80.0,
+          "Z": 20.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-Floret.T-Icon-Emotes-Floret",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-Floret-L.T-Icon-Emotes-Floret-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.27"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

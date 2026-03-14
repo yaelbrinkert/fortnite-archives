@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Guitar_PunkOff",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/PunkOff/Persistent/Emote_Guitar_PunkOff_CMM_M.Emote_Guitar_PunkOff_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/PunkOff/Persistent/Emote_Guitar_PunkOff_CMF_M.Emote_Guitar_PunkOff_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/PunkOff/Persistent/Emote_Guitar_PunkOff_CLM_M.Emote_Guitar_PunkOff_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/PunkOff/Persistent/Emote_Guitar_PunkOff_CLF_M.Emote_Guitar_PunkOff_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Guitar_PunkOff:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Guitar/PunkOff/EID_Guitar_PunkOff.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9CEDD9DA49DD604C23F8BDB61F1EB106",
+      "SourceString": "Striking Strut",
+      "LocalizedString": "Striking Strut"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C79065144D71A71451EB889292BB103D",
+      "SourceString": "Walk it down to strut town.",
+      "LocalizedString": "Walk it down to strut town."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "25C2D9B14118AAC32114B9A068FB2969",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S37/T_UI_Icon_SparksEmote_Guitar_PunkOff.T_UI_Icon_SparksEmote_Guitar_PunkOff",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S37/T_UI_Icon_SparksEmote_Guitar_PunkOff_L.T_UI_Icon_SparksEmote_Guitar_PunkOff_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -70.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

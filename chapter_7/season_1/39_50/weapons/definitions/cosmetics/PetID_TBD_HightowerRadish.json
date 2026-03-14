@@ -1,0 +1,65 @@
+{
+  "Type": "AthenaPetItemDefinition",
+  "Name": "PetID_TBD_HightowerRadish",
+  "Class": "UScriptClass'AthenaPetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PetAttachRule": "EAthenaPetAttachRule::AttachToBody",
+    "PetAttachOffset": {
+      "X": -5.0,
+      "Y": -13.0,
+      "Z": 125.0
+    },
+    "StimuliBanks": [
+      {
+        "ObjectName": "FortPetStimuliBank'SharedPetStimuli'",
+        "ObjectPath": "/BRCosmetics/Characters/Pets/Shared/SharedPetStimuli.0"
+      }
+    ],
+    "PetPrefabClass": {
+      "AssetPathName": "/Game/Characters/PetsNoCarrier/HighTower_Radish/B_PetInst_HightowerRadish.B_PetInst_HightowerRadish_C",
+      "SubPathString": ""
+    },
+    "PetSoundBank": {
+      "AssetPathName": "/BRCosmetics/Characters/PetsNoCarrier/HighTower_Radish/SoundBank_HightowerRadish.SoundBank_HightowerRadish",
+      "SubPathString": ""
+    },
+    "CosmeticSoundLibraries": [
+      {
+        "ObjectName": "SoundLibrary'PT_HightowerRadish_VO_Lib'",
+        "ObjectPath": "/BRCosmetics/Sounds/Pets/Hightower_Radish/PT_HightowerRadish_VO_Lib.0"
+      }
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "74C39C604681F284618D62A27D14EA0C",
+      "SourceString": "Rocket",
+      "LocalizedString": "Rocket"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "736DBD9A476706F49F7124BB6E769EB3",
+      "SourceString": "Just don't call him a raccoon, pal.",
+      "LocalizedString": "Just don't call him a raccoon, pal."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D35E75A8434BA7CA1EBD5E875E62F6BE",
+      "SourceString": "Pet",
+      "LocalizedString": "Pet"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

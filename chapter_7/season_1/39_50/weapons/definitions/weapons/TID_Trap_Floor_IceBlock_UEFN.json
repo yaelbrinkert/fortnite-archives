@@ -1,0 +1,339 @@
+{
+  "Type": "FortTrapItemDefinition",
+  "Name": "TID_Trap_Floor_IceBlock_UEFN",
+  "Class": "UScriptClass'FortTrapItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "EquipSound": {
+      "AssetPathName": "/Game/Sounds/Fort_Traps/Freeze_Trap/Freeze_Trap_UI_Select_Cue.Freeze_Trap_UI_Select_Cue",
+      "SubPathString": ""
+    },
+    "UEFNFolderTag": {
+      "TagName": "UEFNFolder.Trap"
+    },
+    "BlueprintClass": {
+      "AssetPathName": "/Game/Athena/Items/Traps/Trap_Floor_OilSlick.Trap_Floor_OilSlick_C",
+      "SubPathString": ""
+    },
+    "GridPlacementOffset": -10.0,
+    "bAllowStairsWhenAttachingToFloors": true,
+    "bAutoCreateAttachmentBuilding": true,
+    "AutoCreateAttachmentBuildingShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Floor/EMP_Floor_Floor.EMP_Floor_Floor",
+        "SubPathString": ""
+      }
+    ],
+    "AllowedShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Floor/EMP_Floor_Floor.EMP_Floor_Floor",
+        "SubPathString": ""
+      }
+    ],
+    "AllowedPlayerBuiltShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Stair/EMP_Stair_StairW.EMP_Stair_StairW",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Roof/EMP_Roof_RoofS.EMP_Roof_RoofS",
+        "SubPathString": ""
+      }
+    ],
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'CreativeTraps'",
+        "ObjectPath": "/Game/Items/Datatables/CreativeTraps.0"
+      },
+      "RowName": "Trap_Floor_OilSlick"
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Trap:tid_trap_floor_iceblock_uefn"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Device",
+        "DeviceCreativeHidden",
+        "DeviceUEFNAllowIslandImport",
+        "DeviceUEFNReady",
+        "HazardDevice",
+        "MovementDevice",
+        "MutatorDevice",
+        "TrapDevice"
+      ]
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "116EE1B54F1BBF1940154BAFF0ABF3A7",
+      "SourceString": "Environmental Trap - Ice Block (Floor)",
+      "LocalizedString": "Environmental Trap - Ice Block (Floor)"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "04859881482F15F62D3D9C9D00AA61D3",
+      "SourceString": "Creates a slippery surface. Traps must be attached to the relevant building piece.",
+      "LocalizedString": "Creates a slippery surface. Traps must be attached to the relevant building piece."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 999.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 4
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/CreativeCoreDevices/SetupAssets/Icons/T-Icon-Weapons-Iceblock.T-Icon-Weapons-Iceblock",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/CreativeCoreDevices/SetupAssets/Icons/T-Icon-Weapons-Iceblock-L.T-Icon-Weapons-Iceblock-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.Rare",
+          "Item.Trap"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -5.0,
+          "Y": 0.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/CreativeCoreDevices/Weapons/FORT_TRAPS/Floor_SlipTrap/Meshes/S_IceBlock_Pickup.S_IceBlock_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Ingredients/Items/Trap_Spike_Collect_Cue.Trap_Spike_Collect_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Ingredients/Items/Trap_Spike_Drop_Cue.Trap_Spike_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 31.730005,
+          "Y": 29.309868,
+          "Z": 13.746212
+        }
+      }
+    ]
+  }
+}

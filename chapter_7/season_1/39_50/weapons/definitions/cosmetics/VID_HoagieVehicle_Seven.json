@@ -1,0 +1,95 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_HoagieVehicle_Seven",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 100.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Choppa.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 100.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Choppa.MaxSpawnPercent"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0
+    },
+    "MinPercentWithGas": {
+      "Value": 100.0
+    },
+    "MaxPercentWithGas": {
+      "Value": 100.0
+    },
+    "MaxPercentInoperable": {
+      "Value": 100.0
+    },
+    "WrapPreviewTransform": {
+      "Rotation": {
+        "X": -0.1530458,
+        "Y": 0.15304588,
+        "Z": 0.6903452,
+        "W": 0.6903458,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 5.0,
+        "Y": 5.0,
+        "Z": -20.0
+      },
+      "Scale3D": {
+        "X": 0.075,
+        "Y": 0.075,
+        "Z": 0.075
+      }
+    },
+    "WrapPreviewSectionMask": 5,
+    "VehicleActorClass": {
+      "AssetPathName": "/Hoagie/Seven_Choppa/HoagieVehicle_Seven.HoagieVehicle_Seven_C",
+      "SubPathString": ""
+    },
+    "PreviewSkeletalMesh": {
+      "AssetPathName": "/Hoagie/Meshes/SK_Hoagie_Protomesh.SK_Hoagie_Protomesh",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "sevenhelicopter",
+      "sevenhoagie",
+      "sevenchoppa"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Hoagie/Icons/T-T-Icon-BR-SevenChoppaVehicle.T-T-Icon-BR-SevenChoppaVehicle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Hoagie/Icons/T-T-Icon-BR-SevenChoppaVehicle-L.T-T-Icon-BR-SevenChoppaVehicle-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

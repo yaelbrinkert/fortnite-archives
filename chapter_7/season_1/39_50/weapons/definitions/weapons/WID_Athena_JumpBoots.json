@@ -1,0 +1,75 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_JumpBoots",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Gadget.JumpBoots"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Gadget.JumpBoots",
+      "Tag:Consumable:wid_athena_jumpboots"
+    ],
+    "ItemType": "EFortItemType::Consumable",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "589DE4E74E2A8A45ECA7B3AF0967C1B3",
+      "SourceString": "Spire Jumpboots",
+      "LocalizedString": "Spire Jumpboots"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/PrimalGameplay/Items/Icons/T-T-Icon-BR-TowerBoots.T-T-Icon-BR-TowerBoots",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/PrimalGameplay/Items/Icons/T-T-Icon-BR-TowerBoots-L.T-T-Icon-BR-TowerBoots-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Item.Gadget.JumpBoots"
+        ]
+      }
+    ]
+  }
+}

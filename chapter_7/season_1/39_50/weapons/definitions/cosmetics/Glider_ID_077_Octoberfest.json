@@ -1,0 +1,197 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_077_Octoberfest",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 0.0,
+      "Y": 5.0,
+      "Z": -30.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy_Octoberfest.B_Athena_Glider_Legacy_Octoberfest_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Octoberfest/Meshes/Glider_Octoberfest.Glider_Octoberfest",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.70710677,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Octoberfest_Glider_AnimBP.Octoberfest_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Octoberfest/FX/NS_Glider_Octoberfest.NS_Glider_Octoberfest",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Glider_Octoberfest_Open_Cue.Glider_Octoberfest_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Glider_Octoberfest_Close_Cue.Glider_Octoberfest_Close_Cue",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      15317
+    ],
+    "BaseShotGridId": 15317,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "70A58B074418D9B7BDC90F9F26B016E9",
+      "SourceString": "Oktoberfeast",
+      "LocalizedString": "Oktoberfeast"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4703D858431B07FAA60294A3D58A7174",
+      "SourceString": "Never glide on an empty stomach.",
+      "LocalizedString": "Never glide on an empty stomach."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -8.0,
+          "Yaw": -120.0,
+          "Roll": -15.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-OctoberfestGlider.T-Icon_Glider-OctoberfestGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-OctoberfestGlider-L.T-Icon_Glider-OctoberfestGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.Octoberfest",
+          "Cosmetics.Filter.Season.6"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          270,
+          546,
+          359,
+          247,
+          239,
+          626,
+          246,
+          691,
+          332,
+          879,
+          892,
+          183,
+          1700,
+          503,
+          1748,
+          525,
+          1857,
+          1982,
+          3153,
+          422,
+          3390,
+          4504,
+          4499,
+          4500,
+          4502,
+          7966,
+          4503,
+          4505,
+          5571
+        ]
+      }
+    ]
+  }
+}

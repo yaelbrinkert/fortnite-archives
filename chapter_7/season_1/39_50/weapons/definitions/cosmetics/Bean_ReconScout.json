@@ -1,0 +1,74 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_ReconScout",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Helmet.CP_Bean_Head_Helmet",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_ReconScout:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_ReconScout.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9B68254E4E58F7225B0E7DB348D8EC39",
+      "SourceString": "Recon Scout",
+      "LocalizedString": "Recon Scout"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9BB6D86F4CE94F50F16DF08AA9B31504",
+      "SourceString": "Rare recon scout outfit. ",
+      "LocalizedString": "Rare recon scout outfit. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A1C46C41417B25278849A59EF460DBFF",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_ReconScout.T_Bean_ReconScout",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_ReconScout_L.T_Bean_ReconScout_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.1",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

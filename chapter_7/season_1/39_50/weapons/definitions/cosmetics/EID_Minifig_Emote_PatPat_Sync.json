@@ -1,0 +1,68 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Minifig_Emote_PatPat_Sync",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "GroupEmotePositionOffset": {
+      "X": 60.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 0.5,
+    "bLockGroupEmoteLeaderRotation": true,
+    "Animation": {
+      "AssetPathName": "/FigureCosmetics/Animation/Emotes/Montages/Minifig_Emote_PatPat_Montage.Minifig_Emote_PatPat_Montage",
+      "SubPathString": ""
+    },
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": -15.0,
+      "Roll": 0.0
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B7DAFF7C4E02456342A64587B254FBAF",
+      "SourceString": "Pat-Pat",
+      "LocalizedString": "Pat-Pat"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F42F73154A80B61281BC11A17B702F70",
+      "SourceString": "Bring it in",
+      "LocalizedString": "Bring it in"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EECAFB58424C77C29269088844EEB37F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoGame/Items/Cosmetics/Icons/Icon-Emotes-TEMPLATE.Icon-Emotes-TEMPLATE",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

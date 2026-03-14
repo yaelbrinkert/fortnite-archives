@@ -1,0 +1,216 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_088_EvilCowboy",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 0.0,
+      "Y": -7.0,
+      "Z": -35.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_Evil_Cowboy.B_Athena_Glider_Evil_Cowboy_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_EvilCowboy/Meshes/SK_Glider_EvilCowboy.SK_Glider_EvilCowboy",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.70710677,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Blueprints/BadAssCowboy_Glider_AnimBP.BadAssCowboy_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_EvilCowboy/FX/NS_Glider_EvilCowboy_Main.NS_Glider_EvilCowboy_Main",
+          "SubPathString": ""
+        },
+        "EffectSocket": "body_offset",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      },
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_EvilCowboy/FX/NS_Glider_EvilCowboy_TrackSmoke.NS_Glider_EvilCowboy_TrackSmoke",
+          "SubPathString": ""
+        },
+        "EffectSocket": "body_offset",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/EvilCowboy/Glider_EvilCowboy_Open_Cue.Glider_EvilCowboy_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/EvilCowboy/Glider_EvilCowboy_Close_Cue.Glider_EvilCowboy_Close_Cue",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C69CECF048B861F82FC359B599B7CE27",
+      "SourceString": "Dark Engine",
+      "LocalizedString": "Dark Engine"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3A703E42452A1999B152D1AA3EE8B98E",
+      "SourceString": "Fueled by darkness.",
+      "LocalizedString": "Fueled by darkness."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-Glider-ID-088-EvilCowboy.T-Icon_Glider-Glider-ID-088-EvilCowboy",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-Glider-ID-088-EvilCowboy-L.T-Icon_Glider-Glider-ID-088-EvilCowboy-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.Event.Fortnitemares.2018",
+          "Cosmetics.Set.Cowgirl",
+          "Cosmetics.Filter.Season.6",
+          "Cosmetics.Filter.Event.Fortnitemares2018"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": -52.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          556,
+          529,
+          478,
+          244,
+          591,
+          53,
+          645,
+          696,
+          834,
+          352,
+          1700,
+          398,
+          2426,
+          358,
+          3986,
+          4513,
+          4514,
+          4515,
+          4516
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_DeerPlum_VR",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShowCooldownUI": true,
+    "GadgetPriority": 1,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "CharacterParts": [
+      null
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/WildEstateWeapons/Gameplay/DeerPlum/AS_DeerPlum_VR_InInventory.AS_DeerPlum_VR_InInventory",
+      "SubPathString": ""
+    },
+    "AttributeSet": {
+      "AssetPathName": "/Script/ChainsawGameplayRuntime.ChainsawAttributeSet",
+      "SubPathString": ""
+    },
+    "AttributeInitKey": {
+      "AttributeInitCategory": "Chainsaw",
+      "AttributeInitSubCategory": "Defaults"
+    },
+    "OnDestroyParticleSystem": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/FX/P_Jetpack_Explode.P_Jetpack_Explode",
+      "SubPathString": ""
+    },
+    "OnDestroySound": {
+      "AssetPathName": "/Game/Athena/Sounds/Items/Jetpack/Jetpack_Drop_Cue.Jetpack_Drop_Cue",
+      "SubPathString": ""
+    },
+    "OnDestroyAttachToSocketName": "Backpack",
+    "WeaponItemDefinition": {
+      "AssetPathName": "/WildEstateWeapons/Gameplay/DeerPlum/WID_DeerPlum_VR.WID_DeerPlum_VR",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0F647B784058EE51FF13DAAE662CD46B",
+      "SourceString": "Cartoon Chainsaw",
+      "LocalizedString": "Cartoon Chainsaw"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "865142BF407873359A28088BB01D4E44",
+      "SourceString": "It chops, and lops, and crops and pops and glops! Use this chainsaw to attack your enemies up close or ride around.",
+      "LocalizedString": "It chops, and lops, and crops and pops and glops! Use this chainsaw to attack your enemies up close or ride around."
+    },
+    "DataList": [
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "C5CA040C4C26F93ECC11B4B4C1D6DD83",
+          "SourceString": "War Machine Hover Jets",
+          "LocalizedString": "War Machine Hover Jets"
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/WildEstateWeapons/Assets/DeerPlum_Chainsaw/Meshes/DeerPlum_Melee_Pickup.DeerPlum_Melee_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.08707279,
+            "Y": 0.043453403,
+            "Z": -0.0038016802,
+            "W": 0.9952465,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -15.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/ChainsawGameplay/Assets/Sounds/ChainSaw_Pickup_Cue.ChainSaw_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/ChainsawGameplay/Assets/Sounds/ChainSaw_Drop_Cue.ChainSaw_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/ChainsawGameplay/Assets/Sounds/ChainSaw_Ground_Cue.ChainSaw_Ground_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 14.597894,
+          "Y": 57.398636,
+          "Z": 18.953716
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WildEstateWeapons/Assets/DeerPlum_Chainsaw/Icons/T_Icon_Weapons_Chainsaw_DeerPlum.T_Icon_Weapons_Chainsaw_DeerPlum",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/WildEstateWeapons/Assets/DeerPlum_Chainsaw/Icons/T_Icon_Weapons_Chainsaw_DeerPlum_L.T_Icon_Weapons_Chainsaw_DeerPlum_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Melee",
+          "Gameplay.Damage.IgnorePawnDamageFX",
+          "MeleeManager.Weapon.Type.Sword",
+          "MeleeManager.Weapon.Creative",
+          "phoebe.weapon.melee",
+          "phoebe.weapon.trait.noaccuracy",
+          "Rarity.VeryRare",
+          "Phoebe.Items.WildEstate.DeerPlum",
+          "phoebe.items.generic.supported",
+          "Item.Weapon.Melee.DeerPlum"
+        ]
+      }
+    ]
+  }
+}

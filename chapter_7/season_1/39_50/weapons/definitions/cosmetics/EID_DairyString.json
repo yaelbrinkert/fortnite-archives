@@ -1,0 +1,114 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_DairyString",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DairyString/CMM/Emote_DairyString_CMM_M.Emote_DairyString_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DairyString/CMF/Emote_DairyString_CMF_M.Emote_DairyString_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DairyString/CLM/Emote_DairyString_CLM_M.Emote_DairyString_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DairyString/CLF/Emote_DairyString_CLF_M.Emote_DairyString_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_DairyString:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_DairyString.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_DairyString:FortCosmeticLoadoutTagDrivenVariant_2'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_DairyString.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8F805F884AC7C7B890004894AA2D110E",
+      "SourceString": "Berzerk Banana Beam",
+      "LocalizedString": "Berzerk Banana Beam"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "686F5C95457C80FA3909ED8375E956D4",
+      "SourceString": "It was a bananaccident.",
+      "LocalizedString": "It was a bananaccident."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "69D353E84147BD6D86EDE9A935A1ED9A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.38",
+          "Cosmetics.Set.RubberTires"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_DairyString.T_Icon_Emotes_DairyString",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_DairyString_L.T_Icon_Emotes_DairyString_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

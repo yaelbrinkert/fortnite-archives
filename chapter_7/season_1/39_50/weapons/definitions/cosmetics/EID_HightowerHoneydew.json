@@ -1,0 +1,122 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HightowerHoneydew",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "ToGreen",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.HighTowerHoneydew.Normal"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "FromGreen",
+        "EvaluationMode": "EMontageSelectionPredicateType::MetaTags",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.HighTowerHoneydew.Swole"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Honeydew/Honeydew_M.Honeydew_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "Cosmetics.Awakenings.HightowerHoneydew"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_003_Emote_HightowerHoneydew'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_003_Emote_HightowerHoneydew.0"
+        }
+      }
+    ],
+    "EmoteWheelExclusiveTags": [
+      "Cosmetics.Awakenings.HightowerHoneydew"
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_842_Athena_Commando_F_HightowerHoneydew.CID_842_Athena_Commando_F_HightowerHoneydew",
+      "SubPathString": ""
+    },
+    "ExclusiveIcon": {
+      "AssetPathName": "/BRCosmetics/Athena/UI/Season/Art/Textures/T_Ui_Awakening_Mini_Honeydew.T_Ui_Awakening_Mini_Honeydew",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1DC639FD43DC11D03A42DE831EDD9E2A",
+      "SourceString": "Gamma Overload",
+      "LocalizedString": "Gamma Overload"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "BE3BAB274867FD44CF64BC9E66356C05",
+      "SourceString": "Transform into She-Hulk.",
+      "LocalizedString": "Transform into She-Hulk."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7BE5D70144472BB4A7CCA1A8E1A64551",
+      "SourceString": "Built-in Emote",
+      "LocalizedString": "Built-in Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerHoneydew.T-Icon-Emotes-E-HighTowerHoneydew",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerHoneydew-L.T-Icon-Emotes-E-HighTowerHoneydew-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season14.BattlePass.Paid",
+          "Cosmetics.QuestsMetaData.Emote.Awakening.HightowerHoneydew",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.GradualVertical",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

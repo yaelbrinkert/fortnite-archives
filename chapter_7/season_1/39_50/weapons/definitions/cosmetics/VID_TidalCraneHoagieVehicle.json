@@ -1,0 +1,104 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_TidalCraneHoagieVehicle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TidalCraneHoagieGameData'",
+          "ObjectPath": "/TidalCraneHoagie/DataTables/TidalCraneHoagieGameData.0"
+        },
+        "RowName": "Default.Vehicle.Hoagie.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'TidalCraneHoagieGameData'",
+          "ObjectPath": "/TidalCraneHoagie/DataTables/TidalCraneHoagieGameData.0"
+        },
+        "RowName": "Default.Vehicle.Hoagie.MaxSpawnPercent"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0
+    },
+    "WrapPreviewTransform": {
+      "Rotation": {
+        "X": -0.1530458,
+        "Y": 0.15304588,
+        "Z": 0.6903452,
+        "W": 0.6903458,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 5.0,
+        "Y": 5.0,
+        "Z": -20.0
+      },
+      "Scale3D": {
+        "X": 0.075,
+        "Y": 0.075,
+        "Z": 0.075
+      }
+    },
+    "WrapPreviewSectionMask": 5,
+    "VehicleActorClass": {
+      "AssetPathName": "/TidalCraneHoagie/Gameplay/TidalCraneHoagieVehicle.TidalCraneHoagieVehicle_C",
+      "SubPathString": ""
+    },
+    "PreviewSkeletalMesh": {
+      "AssetPathName": "/TidalCraneHoagie/Assets/Meshes/Chopper_TwinRotor_Veh.Chopper_TwinRotor_Veh",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "helicopter_tidalcrane",
+      "hoagie_tidalcrane",
+      "choppa_tidalcrane"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3F71C6674DECE68AF164EE8043CAB7C7",
+      "SourceString": "Hammerhead Choppa",
+      "LocalizedString": "Hammerhead Choppa"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/TidalCraneHoagie/UI/Icons/T_Icon_BR_Vehicle_Chopper_TwinRotor.T_Icon_BR_Vehicle_Chopper_TwinRotor",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/TidalCraneHoagie/UI/Icons/T_Icon_BR_Vehicle_Chopper_TwinRotor_L.T_Icon_BR_Vehicle_Chopper_TwinRotor_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

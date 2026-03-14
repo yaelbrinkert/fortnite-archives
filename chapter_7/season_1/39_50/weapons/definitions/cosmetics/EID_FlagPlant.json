@@ -1,0 +1,129 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_FlagPlant",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlagPlant/Emote_FlagPlant_CMM_M_FrontEnd.Emote_FlagPlant_CMM_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlagPlant/Emote_FlagPlant_CMF_M_FrontEnd.Emote_FlagPlant_CMF_M_FrontEnd",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlagPlant/Emote_FlagPlant_CLF_M_FrontEnd.Emote_FlagPlant_CLF_M_FrontEnd",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlagPlant/Emote_FlagPlant_CLM_M_FrontEnd.Emote_FlagPlant_CLM_M_FrontEnd",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_GroupEmoteRequest.GAB_GroupEmoteRequest_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlagPlant/Emote_FlagPlant_CMM_M.Emote_FlagPlant_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/FlagPlant/Emote_FlagPlant_CMF_M.Emote_FlagPlant_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileBannerVariant'EID_FlagPlant:FortCosmeticProfileBannerVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_FlagPlant.1"
+      }
+    ],
+    "ShotGridIds": [
+      51661
+    ],
+    "BaseShotGridId": 51661,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9DE912444B7EA9A1C70CD1BA3905F307",
+      "SourceString": "Stake Your Claim",
+      "LocalizedString": "Stake Your Claim"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "417592A547F6CA445E490DAF91530BD8",
+      "SourceString": "Fly it free. Fly it proud.",
+      "LocalizedString": "Fly it free. Fly it proud."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5B90B0B748B561F92FAA169A2B6AF42D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 60.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-FlagPlantEmote.T-Icon-Emotes-FlagPlantEmote",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-FlagPlantEmote-L.T-Icon-Emotes-FlagPlantEmote-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Emote.ActivationCondition.RequiresVictoryRoyale",
+          "Cosmetics.Filter.Season.23"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

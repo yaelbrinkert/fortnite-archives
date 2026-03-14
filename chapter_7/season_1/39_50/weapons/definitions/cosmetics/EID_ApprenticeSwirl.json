@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ApprenticeSwirl",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ApprenticeSwirl/ApprenticeSwirl_CMM_M.ApprenticeSwirl_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ApprenticeSwirl/ApprenticeSwirl_CMF_M.ApprenticeSwirl_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ApprenticeSwirl/ApprenticeSwirl_CLF_M.ApprenticeSwirl_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ApprenticeSwirl/ApprenticeSwirl_CLM_M.ApprenticeSwirl_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      65195
+    ],
+    "BaseShotGridId": 65195,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "137E8AE2439C965F7BD8A7903799C2A1",
+      "SourceString": "Hypnot-Eyes",
+      "LocalizedString": "Hypnot-Eyes"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C7BA62F04366FDE277E3F38AB4F70DDE",
+      "SourceString": "I am getting sleepy...",
+      "LocalizedString": "I am getting sleepy..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5E3F2EC047A17C12703DC2B66947438C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Set.KindaAhead"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-ApprenticeSwirl.T-Icon-Emotes-E-ApprenticeSwirl",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-ApprenticeSwirl-L.T-Icon-Emotes-E-ApprenticeSwirl-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

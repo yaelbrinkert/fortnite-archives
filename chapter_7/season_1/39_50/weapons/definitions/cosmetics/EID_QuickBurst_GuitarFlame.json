@@ -1,0 +1,107 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_QuickBurst_GuitarFlame",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower_Traversal.GAB_EmoteBand_Follower_Traversal_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CMM_M.Emote_Quickburst_GuitarFlame_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CMF_M.Emote_Quickburst_GuitarFlame_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CLM_M.Emote_Quickburst_GuitarFlame_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/QuickBurst/GuitarFlame/Emote_Quickburst_GuitarFlame_CLF_M.Emote_Quickburst_GuitarFlame_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 10.0,
+      "Roll": 0.0
+    },
+    "ShotGridIds": [
+      104864
+    ],
+    "BaseShotGridId": 104864,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E7914CFC4FAF6294A199C9A0EC91D715",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0B82A753401B326A4863F0B4E6791FBC",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6DE3B211479E63D4431016A82B42BB63",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      }
+    ]
+  }
+}

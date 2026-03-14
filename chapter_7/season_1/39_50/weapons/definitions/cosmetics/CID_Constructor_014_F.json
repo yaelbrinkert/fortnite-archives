@@ -1,0 +1,76 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Constructor_014_F",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Female/Large/Constructor/Constructor_Female_Body_Montage_Idle.Constructor_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/LargeFemale.LargeFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Constructor_014_F:F_LRG_ASN_Harper_Head_01'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Constructor/CosmeticCharacterItemDefinitions/CID_Constructor_014_F.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "105209FE43DE12E1151EA1BA73B2421F",
+      "SourceString": "Riot Control Izza",
+      "LocalizedString": "Riot Control Izza"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4D568B5C44BD185764001EADF20BFA04",
+      "SourceString": "\"I got it under control.\" - Izza",
+      "LocalizedString": "\"I got it under control.\" - Izza"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-014-F-SR-T01.T-Constructor-HID-Constructor-014-F-SR-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-014-F-SR-T01-L.T-Constructor-HID-Constructor-014-F-SR-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

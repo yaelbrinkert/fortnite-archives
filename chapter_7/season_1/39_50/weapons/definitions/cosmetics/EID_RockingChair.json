@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_RockingChair",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/RockingChair/Emote_RockingChair_CMM_M.Emote_RockingChair_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/RockingChair/Emote_RockingChair_CMF_M.Emote_RockingChair_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/RockingChair/Emote_RockingChair_CLF_M.Emote_RockingChair_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/RockingChair/Emote_RockingChair_CLM_M.Emote_RockingChair_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "34999BA94FC880675AAAF29C68518BAA",
+      "SourceString": "Pickin'",
+      "LocalizedString": "Pickin'"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AD60F1BE408FC8CC9C4CEC97FBB51687",
+      "SourceString": "And grinnin'.",
+      "LocalizedString": "And grinnin'."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8FCFA0FE43A69B87B958B69989E36A74",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Emote.Mech.Disabled.Art",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-RockingChair.T-Icon-Emotes-E-RockingChair",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-RockingChair-L.T-Icon-Emotes-E-RockingChair-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Keytar_Crabcore",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Spawned/Emote_Keytar_CrabCore_Spawned_CMM_M.Emote_Keytar_CrabCore_Spawned_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Spawned/Emote_Keytar_CrabCore_Spawned_CMF_M.Emote_Keytar_CrabCore_Spawned_CMF_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Spawned/Emote_Keytar_CrabCore_Spawned_CLM_M.Emote_Keytar_CrabCore_Spawned_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Spawned/Emote_Keytar_CrabCore_Spawned_CLF_M.Emote_Keytar_CrabCore_Spawned_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Persistent/Emote_Keytar_CrabCore_CMM_M.Emote_Keytar_CrabCore_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Persistent/Emote_Keytar_CrabCore_CMF_M.Emote_Keytar_CrabCore_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Persistent/Emote_Keytar_CrabCore_CLM_M.Emote_Keytar_CrabCore_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/Crabcore/Persistent/Emote_Keytar_CrabCore_CLF_M.Emote_Keytar_CrabCore_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bPlayRandomSection": true,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "SpotlightStart",
+        "SectionWeight": 2.0
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "917B81BF45DC14C06E141CBA98290268",
+      "SourceString": "Crab Walkin'",
+      "LocalizedString": "Crab Walkin'"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5FC5C04B4BC86ED483491DB424E81789",
+      "SourceString": "Come out of your shell. ",
+      "LocalizedString": "Come out of your shell. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3B02AD5F41C60C42D61EAD9DD2E14C50",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Keytar-CrabCore.T-UI-Icon-SparksEmote-Keytar-CrabCore",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Keytar-CrabCore-L.T-UI-Icon-SparksEmote-Keytar-CrabCore-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

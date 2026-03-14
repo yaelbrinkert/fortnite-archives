@@ -1,0 +1,121 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_DarkStance",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Transform",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_DarkStance_Inferno.CP_Athena_Body_M_DarkStance_Inferno",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_DarkStance_Pater.CP_Athena_Body_M_DarkStance_Pater",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/DarkStance/CMM/Emote_DarkStance_CMM_M.Emote_DarkStance_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_042_DarkStance'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_042_DarkStance.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_DarkStance_Inferno.Character_DarkStance_Inferno",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      60146
+    ],
+    "BaseShotGridId": 60146,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D8367E024E77BBEEEAE48BBF6328CE8C",
+      "SourceString": "Dark Transformation",
+      "LocalizedString": "Dark Transformation"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CA72F472416471BCF1032AA4BE97B5BC",
+      "SourceString": "Where there's smoke, there's a new you.",
+      "LocalizedString": "Where there's smoke, there's a new you."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A425D0E44D6576337EB8169FED85D79D",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Set.BelowRoyalty",
+          "Cosmetics.UserFacingFlags.BuiltInEmote"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-DarkStance.T-Icon-Emotes-DarkStance",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-DarkStance-L.T-Icon-Emotes-DarkStance-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

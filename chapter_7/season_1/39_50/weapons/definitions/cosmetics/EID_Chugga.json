@@ -1,0 +1,181 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Chugga",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupAnimationSync": true,
+    "GroupSyncAnimOffset": 0.5,
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_ChuggaFollower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/Chugga/EID_ChuggaFollower.0"
+    },
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Chugga/Emote_Chugga_Train_CMM_Frontend_M.Emote_Chugga_Train_CMM_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Chugga/Emote_Chugga_Train_CMF_Frontend_M.Emote_Chugga_Train_CMF_Frontend_M",
+      "SubPathString": ""
+    },
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 200.0,
+    "bMoveForwardOnly": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_Emote_Train.GAB_Emote_Train_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Chugga/Emote_Chugga_Train_CMM_M.Emote_Chugga_Train_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Chugga/Emote_Chugga_Train_CMF_M.Emote_Chugga_Train_CMF_M",
+      "SubPathString": ""
+    },
+    "PreviewLength": 40.0,
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 20.0,
+      "Roll": 0.0
+    },
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview_LargeGroupEmote.ItemOnPawnPreview_LargeGroupEmote_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      37958
+    ],
+    "BaseShotGridId": 37958,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "460F3BE545090B53251290BAD8B14A86",
+      "SourceString": "Chugga-Chugga",
+      "LocalizedString": "Chugga-Chugga"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0E73F67D4F6E63557D58F8AA75DCE89F",
+      "SourceString": "Your training begins now.",
+      "LocalizedString": "Your training begins now."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "18752C35419B55F07FE699BF9C91AA70",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Chugga.T-Icon-Emotes-E-Chugga",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Chugga-L.T-Icon-Emotes-E-Chugga-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.16",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.BlotGroup",
+          "Emote.Mech.Disabled.Design",
+          "Emote.Mech.Disabled.Art",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": -100.0,
+            "Y": -35.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": -120.0,
+              "Y": -40.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": null,
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::FaceTowardLeader",
+            "AdditionalYaw": 0.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": -240.0,
+                "Y": -80.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": null,
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::FaceTowardLeader",
+              "AdditionalYaw": 0.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Immediate",
+          "GroupEmotePreviewFollowerJoinDelayOverride": 0.5
+        }
+      },
+      {
+        "SpecificationMethod": "ECosmeticItemPreviewActorOverrideMethod::ByCosmeticPreviewActorClassMapTag",
+        "ExplicitPreviewActorOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorIdentifierTag": {
+          "TagName": "None"
+        }
+      }
+    ]
+  }
+}

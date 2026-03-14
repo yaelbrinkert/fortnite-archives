@@ -1,0 +1,51 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_STWHero",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'NoBackpack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C242D5834B88947351E3D0A4794D1E9D",
+      "SourceString": "Hero Back Bling",
+      "LocalizedString": "Hero Back Bling"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "4EECDE154383EF5B449F1CB349E4BC12",
+      "SourceString": "Use your commander's Back Bling.",
+      "LocalizedString": "Use your commander's Back Bling."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F9CFC5834C6DB0BD09B1388CBB4116E0",
+      "SourceString": "Back Bling",
+      "LocalizedString": "Back Bling"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Source.CampaignHero"
+        ]
+      }
+    ]
+  }
+}

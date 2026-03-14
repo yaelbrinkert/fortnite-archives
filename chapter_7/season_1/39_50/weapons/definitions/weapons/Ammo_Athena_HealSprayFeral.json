@@ -1,0 +1,137 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Ammo_Athena_HealSprayFeral",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageSize": {
+        "X": 128.0,
+        "Y": 128.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T-T-Icon-BR-HealthSprayItem'",
+        "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.0"
+      }
+    },
+    "AmmoIconBrush": {
+      "Brush_XXS": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-T-Icon-BR-HealthSprayItem'",
+          "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.0"
+        }
+      },
+      "Brush_XS": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-T-Icon-BR-HealthSprayItem'",
+          "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.0"
+        }
+      },
+      "Brush_S": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-T-Icon-BR-HealthSprayItem'",
+          "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.0"
+        }
+      },
+      "Brush_M": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-T-Icon-BR-HealthSprayItem'",
+          "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.0"
+        }
+      },
+      "Brush_L": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-T-Icon-BR-HealthSprayItem'",
+          "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.0"
+        }
+      },
+      "Brush_XL": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-T-Icon-BR-HealthSprayItem'",
+          "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.0"
+        }
+      }
+    },
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.T-T-Icon-BR-HealthSprayItem",
+      "SubPathString": ""
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 10.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.T-T-Icon-BR-HealthSprayItem",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem-L.T-T-Icon-BR-HealthSprayItem-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 50.000046,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      }
+    ]
+  }
+}

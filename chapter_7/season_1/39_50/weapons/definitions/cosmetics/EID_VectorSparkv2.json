@@ -1,0 +1,104 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_VectorSparkv2",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VectorSpark/CMM/Emote_VectorSpark_B_CMM_M.Emote_VectorSpark_B_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VectorSpark/CMF/Emote_VectorSpark_CMF_B_M.Emote_VectorSpark_CMF_B_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VectorSpark/CLM/Emote_VectorSpark_CLM_B_M.Emote_VectorSpark_CLM_B_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/VectorSpark/CLF/Emote_VectorSpark_CLF_B_M.Emote_VectorSpark_CLF_B_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      73289
+    ],
+    "BaseShotGridId": 73289,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "540810BF4B0DFFFCE2DC5080798AC15F",
+      "SourceString": "Shadow Play: Dog",
+      "LocalizedString": "Shadow Play: Dog"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B6DB86CA47F9EFD7DB5D3698A8AE8F0A",
+      "SourceString": "Conjure your shikigami.",
+      "LocalizedString": "Conjure your shikigami."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "C3059E4F4D7D23643D8887B54E168B10",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 80.0,
+          "Z": 10.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-VectorSpark-V2.T-Icon-Emotes-VectorSpark-V2",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.Set.CleanWard"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

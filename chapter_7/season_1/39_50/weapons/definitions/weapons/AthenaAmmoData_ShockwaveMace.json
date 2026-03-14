@@ -1,0 +1,103 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_ShockwaveMace",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T-Icon-PS-CP_Melee_Hammer_Basic'",
+        "ObjectPath": "/ShockwaveMace/Textures/T-Icon-PS-CP_Melee_Hammer_Basic.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "AmmoIconBrush": {
+      "Brush_XS": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-PS-CP_Melee_Hammer_Basic'",
+          "ObjectPath": "/ShockwaveMace/Textures/T-Icon-PS-CP_Melee_Hammer_Basic.0"
+        }
+      },
+      "Brush_S": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-PS-CP_Melee_Hammer_Basic'",
+          "ObjectPath": "/ShockwaveMace/Textures/T-Icon-PS-CP_Melee_Hammer_Basic.0"
+        }
+      },
+      "Brush_M": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-PS-CP_Melee_Hammer_Basic'",
+          "ObjectPath": "/ShockwaveMace/Textures/T-Icon-PS-CP_Melee_Hammer_Basic.0"
+        }
+      }
+    },
+    "MobileScale": {
+      "X": 1.8,
+      "Y": 1.8
+    },
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/ShockwaveMace/Textures/T-Icon-PS-CP_Melee_Hammer_Basic.T-Icon-PS-CP_Melee_Hammer_Basic",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 5.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ShockwaveMace/Textures/T-Icon-PS-CP_Melee_Hammer_Basic.T-Icon-PS-CP_Melee_Hammer_Basic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -5.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.999997,
+          "Yaw": -179.99995,
+          "Roll": -3.0000033
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

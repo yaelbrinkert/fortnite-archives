@@ -1,0 +1,120 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Melt_Tournament_SkinSwap",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GadgetPriority": 2,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Athena_Body_M_GrilledCheese_MeltTournament'",
+        "ObjectPath": "/Melt/TournamentMode/ItemDefinitions/Art/CP_Athena_Body_M_GrilledCheese_MeltTournament.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_M_MED_GrilledCheese_FaceAcc_MeltTournament'",
+        "ObjectPath": "/Melt/TournamentMode/ItemDefinitions/Art/CP_M_MED_GrilledCheese_FaceAcc_MeltTournament.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_None'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_None.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Hat'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Cap'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Cap.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Athena_Head_M_GrilledCheese_MeltTournament'",
+        "ObjectPath": "/Melt/TournamentMode/ItemDefinitions/Art/CP_Athena_Head_M_GrilledCheese_MeltTournament.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoCharm'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Backpack_GrilledCheese'",
+        "ObjectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/CP_Backpack_GrilledCheese.1"
+      }
+    ],
+    "CharacterPartsExtraSpecial": [
+      {
+        "CharacterPartsForExtraSpecial": [
+          {
+            "ObjectName": "CustomCharacterPart'CP_Athena_Body_M_GrilledCheese_MeltTournament'",
+            "ObjectPath": "/Melt/TournamentMode/ItemDefinitions/Art/CP_Athena_Body_M_GrilledCheese_MeltTournament.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'CP_M_MED_GrilledCheese_FaceAcc_MeltTournament'",
+            "ObjectPath": "/Melt/TournamentMode/ItemDefinitions/Art/CP_M_MED_GrilledCheese_FaceAcc_MeltTournament.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_None'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_None.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_Hat'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_Cap'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Cap.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'CP_Athena_Head_M_GrilledCheese_MeltTournament'",
+            "ObjectPath": "/Melt/TournamentMode/ItemDefinitions/Art/CP_Athena_Head_M_GrilledCheese_MeltTournament.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'NoCharm'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'CP_Backpack_GrilledCheese'",
+            "ObjectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/CP_Backpack_GrilledCheese.1"
+          }
+        ],
+        "SkinMetaTagsForExtraSpecial": [
+          "Cosmetics.MetaTags.Trait.ExtremelyUnique",
+          "Cosmetics.MetaTags.Trait.HeadCovered",
+          "Cosmetics.MetaTags.Trait.NeckOnBody",
+          "Cosmetics.MetaTags.Trait.Headless"
+        ]
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/Melt/TournamentMode/AS_Melt_Tournament_Cosmetics_Swap.AS_Melt_Tournament_Cosmetics_Swap",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "DataList": [
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "PreferredQuickbarSlot": 0
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Item.SortsRight"
+        ]
+      }
+    ]
+  }
+}

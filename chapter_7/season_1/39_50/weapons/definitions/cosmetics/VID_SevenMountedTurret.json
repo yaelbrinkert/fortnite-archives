@@ -1,0 +1,49 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_SevenMountedTurret",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResolveTurretGameData'",
+          "ObjectPath": "/ResolveTurret/DataTables/ResolveTurretGameData.0"
+        },
+        "RowName": "Default.SevenTurret.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResolveTurretGameData'",
+          "ObjectPath": "/ResolveTurret/DataTables/ResolveTurretGameData.0"
+        },
+        "RowName": "Default.SevenTurret.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/ResolveTurret/Items/Environmental/SevenMountedTurret/Vehicle/SevenMountedTurret.SevenMountedTurret_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "sevenmountedturret"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9EFF9C814AFC1FBA5133659E85C2D91A",
+      "SourceString": "Light Turret",
+      "LocalizedString": "Light Turret"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

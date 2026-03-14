@@ -1,0 +1,163 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_RoadTrip",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": -50.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy.B_Athena_Glider_Legacy_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Meshes/SK_M_VinderTech_GliderChute.SK_M_VinderTech_GliderChute",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.70710677,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Blueprints/VinderTech_GliderChute_AnimBP.VinderTech_GliderChute_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Open_Cue.Athena_Glider_Open_Cue",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/Athena_Glider_Close_Cue.Athena_Glider_Close_Cue",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Materials/MI_VinderTech_GliderChute_RoadTrip.MI_VinderTech_GliderChute_RoadTrip",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7FBD447549304EB99BF7BE9DE17808B9",
+      "SourceString": "Roadtrip",
+      "LocalizedString": "Roadtrip"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CE6E68A34668ADA5D3EC6F9041DF40B4",
+      "SourceString": "Never miss a battle snack with the world's first picnic-ready glider.",
+      "LocalizedString": "Never miss a battle snack with the world's first picnic-ready glider."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6FBF20DC4E0CDA36CC14FC844BCC0D37",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 10.000004,
+          "Yaw": -43.86128,
+          "Roll": -2.00001
+        },
+        "Scale": 0.8
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-S-VinderTech-Glider-SKIN-RoadTrip.T-Icon_Glider-S-VinderTech-Glider-SKIN-RoadTrip",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-S-VinderTech-Glider-SKIN-RoadTrip-L.T-Icon_Glider-S-VinderTech-Glider-SKIN-RoadTrip-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          270,
+          546,
+          359,
+          247,
+          389,
+          615,
+          564,
+          697,
+          1042,
+          1178,
+          1180,
+          834,
+          352,
+          318,
+          1428,
+          1506,
+          2393,
+          2394,
+          2521,
+          2691,
+          404,
+          380,
+          392
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_NPC_Athena_Commando_F_HenchmanSpyGood",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_HenchmanSpyGood.CP_Head_F_HenchmanSpyGood",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_HenchmanSpyGood.CP_Body_Commando_F_HenchmanSpyGood",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'CID_NPC_Athena_Commando_F_HenchmanSpyGood:FortCosmeticMaterialVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_NPC_Athena_Commando_F_HenchmanSpyGood.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A5C0F73645A82FA9CF3085AF6894BF18",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "067CBE8949ACC8CA8D355498FBA5AB61",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/Athena/Prototype/Textures/Cosmetic_Placeholder_Icons/T_CID_HenchmanSpyGood_Placeholder.T_CID_HenchmanSpyGood_Placeholder",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.StepType.BootsCombat",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Glove"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

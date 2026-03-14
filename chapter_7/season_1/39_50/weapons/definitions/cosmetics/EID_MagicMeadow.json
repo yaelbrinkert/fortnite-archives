@@ -1,0 +1,109 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_MagicMeadow",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MagicMeadow/FontEnd/Emote_MagicMeadow_CMM_FrontEnd_M.Emote_MagicMeadow_CMM_FrontEnd_M",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MagicMeadow/Emote_MagicMeadow_CMM_M.Emote_MagicMeadow_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MagicMeadow/CMF/Emote_MagicMeadow_CMF_M.Emote_MagicMeadow_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MagicMeadow/CLM/Emote_MagicMeadow_CLM_M.Emote_MagicMeadow_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MagicMeadow/CLF/Emote_MagicMeadow_CLF_M.Emote_MagicMeadow_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_MagicMeadow:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_MagicMeadow.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_MagicMeadow:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_MagicMeadow.1"
+      }
+    ],
+    "ShotGridIds": [
+      62572
+    ],
+    "BaseShotGridId": 62572,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3A8BFD35450B2E75B9E18B9F29F9F3B9",
+      "SourceString": "Igni Sign",
+      "LocalizedString": "Igni Sign"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C092D8F24324A5915678CDB1345600E5",
+      "SourceString": "Behold the sign of Fire.",
+      "LocalizedString": "Behold the sign of Fire."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EFF77E5F4E71A983883E70B575BC52F3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-MagicMeadow.T-Icon-Emotes-E-MagicMeadow",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-MagicMeadow-L.T-Icon-Emotes-E-MagicMeadow-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Set.OldThreat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Aspire",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Aspire/CMM/Emote_Aspire_CMM_M.Emote_Aspire_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Aspire/CMF/Emote_Aspire_CMF_M.Emote_Aspire_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Aspire/CLM/Emote_Aspire_CLM_M.Emote_Aspire_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Aspire/CLF/Emote_Aspire_CLF_M.Emote_Aspire_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8F6466974A1963A94729FE973BC97D45",
+      "SourceString": "Wishin'",
+      "LocalizedString": "Wishin'"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B58831D04FCF27FCAB65C79D0A88C20F",
+      "SourceString": "Don't blow it.",
+      "LocalizedString": "Don't blow it."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6A59CC2F44D06DC954CC09AB704D58B0",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.29"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-Aspire.T-Icon-Emotes-Aspire",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-Aspire-L.T-Icon-Emotes-Aspire-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

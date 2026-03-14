@@ -1,0 +1,368 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "FeralCorgi_SmokeGrenade",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/B_FeralCorgi_Grenade_Smoke.B_FeralCorgi_Grenade_Smoke_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Meshes/SmokeBomb_FeralCorgi_Explosive.SmokeBomb_FeralCorgi_Explosive",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Athena_Grenade"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/GA_FeralCorgi_Throw_SmokeGrenade.GA_FeralCorgi_Throw_SmokeGrenade_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/GA_FeralCorgi_Throw_Secondary_SmokeGrenade.GA_FeralCorgi_Throw_Secondary_SmokeGrenade_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Abilities/AS_FeralCorgi.AS_FeralCorgi",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/FeralCorgi_SmokeGrenade.FeralCorgi_SmokeGrenade",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleCornerAngles": [],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Grenade",
+      "Item.Consumable.Grenade"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.Athena.TacticalSprint.PreventHolster"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Grenade",
+      "Item.Consumable.Grenade",
+      "Tag:Weapon:feralcorgi_smokegrenade"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CommonItem",
+        "Concealment",
+        "ConsumableItem",
+        "FortniteBallistic",
+        "HiddenInEditor",
+        "Item",
+        "Throwable"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DC475D32467CDF93C610C89D1971F75D",
+      "SourceString": "Smoke Grenade",
+      "LocalizedString": "Smoke Grenade"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "632E843242F053F44ACEF4BC1A51BF29",
+      "SourceString": "Expands quickly to cover a large area with a thick smoke that is impossible to see through.",
+      "LocalizedString": "Expands quickly to cover a large area with a thick smoke that is impossible to see through."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 2.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Meshes/SmokeBomb_FeralCorgi_Explosive.SmokeBomb_FeralCorgi_Explosive",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.16773131,
+            "Y": 0.044942476,
+            "Z": 0.9512506,
+            "W": 0.25488964,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0000001
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.5,
+            "Y": 1.5,
+            "Z": 1.5
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Audio/SC_FPS_Grenade_Smoke_Pickup.SC_FPS_Grenade_Smoke_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Audio/SC_FPS_Grenade_Smoke_Drop.SC_FPS_Grenade_Smoke_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Audio/SC_FPS_Grenade_Smoke_Land.SC_FPS_Grenade_Smoke_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.424193,
+          "Y": 5.23034,
+          "Z": 9.198
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "BC45E40E4F1207C09BFFA48AEEDA2C92",
+          "SourceString": "Gadget UtilityItem M80 Grenade",
+          "LocalizedString": "Gadget UtilityItem M80 Grenade"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/OnlyDamageTooltipStat.OnlyDamageTooltipStat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/B_Prj_FeralCorgi_SmokeGrenade.B_Prj_FeralCorgi_SmokeGrenade_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_FPS_Grenade_Smoke'",
+            "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Audio/SL_FPS_Grenade_Smoke.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "Traits": [
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Textures/T_Icons_Weapons_FeralCorgi_SmokeGrenade.T_Icons_Weapons_FeralCorgi_SmokeGrenade",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/SmokeGrenade/Textures/T_Icons_Weapons_FeralCorgi_SmokeGrenade_L.T_Icons_Weapons_FeralCorgi_SmokeGrenade_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Weapon.Ranged.Heavy.Grenade",
+          "Bacchus.Throw.Grenade.Explosive",
+          "Athena.ItemAction.Throw",
+          "Rarity.Common",
+          "Weapon.Ranged.Grenade.Standard",
+          "Item.Consumable.Grenade",
+          "Trait.Explosive",
+          "phoebe.weapon.throwable.grenade",
+          "phoebe.items.Grenade.Grenade",
+          "Athena.ItemAction.Secondary.Throw",
+          "Item.SortsRight",
+          "Cosmetics.OverrideWrapBehavior.DoNotOverride",
+          "HUD.PreferredSlotType.Utility",
+          "Athena.HUD.Pickup.ShowTotalAmmo",
+          "Weapon.IgnoresCancelPrimaryAbilityOnRelease"
+        ]
+      }
+    ]
+  }
+}

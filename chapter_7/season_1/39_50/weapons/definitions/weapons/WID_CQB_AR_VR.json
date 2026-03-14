@@ -1,0 +1,408 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_CQB_AR_VR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/B_CQB_AR.B_CQB_AR_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Meshes/Assault_VividRazor_Sniper.Assault_VividRazor_Sniper",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Assault_VividRazor_CQB_Athena_VR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "bReticleCornerOutsideSpreadRadius": true,
+    "bModsHidden": true,
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.VividRazor.CQB"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.VividRazor.CQB",
+      "Tag:Weapon:wid_cqb_ar_vr"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH6S2",
+        "Epic",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "368031544C85296C404CFF9924A2FD71",
+      "SourceString": "Collateral Damage Assault Rifle",
+      "LocalizedString": "Collateral Damage Assault Rifle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3FA79DC443CBD5ACF35C69A14BAC726B",
+      "SourceString": "Boasts a blistering fire rate, at the cost of accuracy and range.",
+      "LocalizedString": "Boasts a blistering fire rate, at the cost of accuracy and range."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "0D286CCF4D81EABC5F5957BFF5EF2409",
+      "SourceString": "Boasts a blistering fire rate, at the cost of accuracy and range.",
+      "LocalizedString": "Boasts a blistering fire rate, at the cost of accuracy and range."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Icons/T_Icon_Weapons_Rifle_Assault_VividRazor.T_Icon_Weapons_Rifle_Assault_VividRazor",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Icons/T_Icon_Weapons_Rifle_Assault_VividRazor_L.T_Icon_Weapons_Rifle_Assault_VividRazor_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Weapon.Ranged.Assault",
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.AR.Semi",
+          "Bacchus.Shoot.AR.Scoped",
+          "Bacchus.Shoot.AR.Precision",
+          "Weapon.Meta.Scoped",
+          "Quest.Metadata.LTM.Wax",
+          "phoebe.weapon.ranged.rifle",
+          "phoebe.weapon.trait.fullauto",
+          "phoebe.items.TacticalAR",
+          "phoebe.weapon.trait.scoped",
+          "Trait.Scoped",
+          "Item.Weapon.Ranged.Assault.VividRazor.CQB",
+          "Rarity.VeryRare"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Meshes/Assault_VividRazor_Sniper.Assault_VividRazor_Sniper",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -35.0,
+          "Z": -2.0
+        },
+        "InitialRotation": {
+          "Pitch": 4.876024,
+          "Yaw": 27.70803,
+          "Roll": -17.801233
+        },
+        "Scale": 1.0
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Meshes/Assault_VividRazor_Sniper.Assault_VividRazor_Sniper",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Assault-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Sounds/MSS_VividRazor_CQB_AR_Pickup_Preset.MSS_VividRazor_CQB_AR_Pickup_Preset",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Sounds/MSS_VividRazor_CQB_AR_Drop_Preset.MSS_VividRazor_CQB_AR_Drop_Preset",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Sounds/MSS_VividRazor_CQB_AR_Drop_Impact_Preset.MSS_VividRazor_CQB_AR_Drop_Impact_Preset",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "Item.Weapon.Ranged.Assault"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.167557,
+          "Y": 43.27601,
+          "Z": 12.972881
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "4BAF7D24429B21A19A5DC2B9E49E360E",
+          "SourceString": "Ranged Weapon",
+          "LocalizedString": "Ranged Weapon"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "C55D38B44E4985FB3B40A2AF8372372C",
+          "SourceString": "Guns Assault Rifles Machinegun LightBullets Automatic",
+          "LocalizedString": "Guns Assault Rifles Machinegun LightBullets Automatic"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "WeaponModSlots": [
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionOptic'WMID_Default_IronSights'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Optics/IronSight/WMID_Default_IronSights.0"
+            },
+            "bIsDynamic": false
+          },
+          {
+            "WeaponMod": {
+              "ObjectName": "FortWeaponModItemDefinitionMagazine'WMID_Default_Magazine'",
+              "ObjectPath": "/WeaponMods/Items/WeaponMods/Magazines/DefaultMags/WMID_Default_Magazine.0"
+            },
+            "bIsDynamic": false
+          }
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_VividRazor_CQB_AR_Weapon'",
+            "ObjectPath": "/VividRazorWeaponGameplay/Gameplay/CQBAR/Sounds/SL_VividRazor_CQB_AR_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Rifle'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Rifle.0"
+        }
+      }
+    ]
+  }
+}

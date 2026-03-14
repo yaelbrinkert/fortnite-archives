@@ -1,0 +1,146 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_StrideMiceGiant",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.5,
+    "TraversalToStaticBlendTime": 0.5,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CMM/Emote_StrideMiceGiant_CMM_Frontend_M.Emote_StrideMiceGiant_CMM_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CMF/Emote_StrideMiceGiant_CMF_Frontend_M.Emote_StrideMiceGiant_CMF_Frontend_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CLM/Emote_StrideMiceGiant_CLM_Frontend_M.Emote_StrideMiceGiant_CLM_Frontend_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CLF/Emote_StrideMiceGiant_CLF_Frontend_M.Emote_StrideMiceGiant_CLF_Frontend_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 50.42,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CMM/Emote_StrideMiceGiant_CMM_M.Emote_StrideMiceGiant_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CMF/Emote_StrideMiceGiant_CMF_M.Emote_StrideMiceGiant_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CLM/Emote_StrideMiceGiant_CLM_M.Emote_StrideMiceGiant_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/StrideMiceGiant/CLF/Emote_StrideMiceGiant_CLF_M.Emote_StrideMiceGiant_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 5,
+    "PreviewLength": 41.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D96500394F114BC1EFA16295515CF02F",
+      "SourceString": "Around the World",
+      "LocalizedString": "Around the World"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8FB83EC64CE2D65EC9E4918AAC03D858",
+      "SourceString": "It goes round and round.",
+      "LocalizedString": "It goes round and round."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5714CCB3408CE861B794B385F2EF6B8E",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -30.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.BleakFeather"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_StrideMiceGiant.T_Icon_Emotes_StrideMiceGiant",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_StrideMiceGiant_L.T_Icon_Emotes_StrideMiceGiant_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

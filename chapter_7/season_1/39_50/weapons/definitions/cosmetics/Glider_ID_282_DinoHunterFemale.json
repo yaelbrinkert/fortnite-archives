@@ -1,0 +1,205 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_282_DinoHunterFemale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 50.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Dino_Hunter_Female/Meshes/Dino_Hunter_Female_Glider.Dino_Hunter_Female_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/DinoHunter_Female/DIno_Hunter_Female_Glider_AnimBP.DIno_Hunter_Female_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Dino_Hunter_Female/FX/NS_DinoHunter_Glider.NS_DinoHunter_Glider",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/DinoHunterFemale/SC_GliderOpen_DinoHunter_Female.SC_GliderOpen_DinoHunter_Female",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/DinoHunterFemale/SC_GliderClose_DinoHunter_Female.SC_GliderClose_DinoHunter_Female",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/DinoHunterFemale/SC_GliderThrustLoop_DinoHunter_Female.SC_GliderThrustLoop_DinoHunter_Female",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Glider_ID_282_DinoHunterFemale:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Gliders/Glider_ID_282_DinoHunterFemale.1"
+      }
+    ],
+    "VariantShotGridIds": [
+      39828
+    ],
+    "ShotGridIds": [
+      37217,
+      39828
+    ],
+    "BaseShotGridId": 37217,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "084808C44256A753891DD7BC669C247A",
+      "SourceString": "Bone Patrol",
+      "LocalizedString": "Bone Patrol"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "F3CAABAF4CE17C667FD511B56ED2C018",
+      "SourceString": "It's got good bones.",
+      "LocalizedString": "It's got good bones."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-DinoHunterGlider.T-Icon_Glider-DinoHunterGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-DinoHunterGlider-L.T-Icon_Glider-DinoHunterGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.Season16.BattlePass.Paid",
+          "Cosmetics.Filter.Season.16",
+          "Cosmetics.Set.MarrowBully",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 5.0,
+          "Yaw": 60.0,
+          "Roll": 25.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          247,
+          555,
+          249,
+          122,
+          170,
+          603,
+          558,
+          389,
+          613,
+          615,
+          724,
+          620,
+          729,
+          35,
+          778,
+          779,
+          2103,
+          2801,
+          863,
+          2953,
+          4586
+        ]
+      }
+    ]
+  }
+}

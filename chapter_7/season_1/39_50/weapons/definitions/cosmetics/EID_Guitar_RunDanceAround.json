@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Guitar_RunDanceAround",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/RunDanceAround/Persistent/Emote_Guitar_RunDanceAround_CMM_M.Emote_Guitar_RunDanceAround_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/RunDanceAround/Persistent/Emote_Guitar_RunDanceAround_CMF_M.Emote_Guitar_RunDanceAround_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/RunDanceAround/Persistent/Emote_Guitar_RunDanceAround_CLM_M.Emote_Guitar_RunDanceAround_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/RunDanceAround/Persistent/Emote_Guitar_RunDanceAround_CLF_M.Emote_Guitar_RunDanceAround_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Guitar_RunDanceAround:FortCosmeticProfileLoadoutVariant_4'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Guitar/RunDanceAround/EID_Guitar_RunDanceAround.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "715F1E204A8544100A3762AD310C41DF",
+      "SourceString": "Runaround Riff",
+      "LocalizedString": "Runaround Riff"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DC0A323A4744046DDF68F295EE112E5F",
+      "SourceString": "Kneesy does it. ",
+      "LocalizedString": "Kneesy does it. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F1E53BBF46458988C9C4B097F94C4A92",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Guitar_RunDanceAround.T_UI_Icon_SparksEmote_Guitar_RunDanceAround",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Guitar_RunDanceAround_L.T_UI_Icon_SparksEmote_Guitar_RunDanceAround_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks.Season.07",
+          "Cosmetics.Filter.Season.33"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

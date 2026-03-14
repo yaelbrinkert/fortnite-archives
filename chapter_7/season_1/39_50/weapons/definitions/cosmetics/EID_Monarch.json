@@ -1,0 +1,77 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Monarch",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Monarch/Emote_Monarch_CMF_M.Emote_Monarch_CMF_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_187_Athena_Commando_F_Monarch.CID_A_187_Athena_Commando_F_Monarch",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7C7F09DB4525CBFA8A3C8588D09A2087",
+      "SourceString": "Bracelets of Hephaestus",
+      "LocalizedString": "Bracelets of Hephaestus"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2AB0803E42467C9309A0B8B72FBD4788",
+      "SourceString": "Powerful gauntlets forged from the Aegis.",
+      "LocalizedString": "Powerful gauntlets forged from the Aegis."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2E84F39E4FB6B7362E48B1910C841357",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'DCUSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/DCUSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Monarch.T-Icon-Emotes-E-Monarch",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Monarch-L.T-Icon-Emotes-E-Monarch-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.17",
+          "Cosmetics.Set.RichFlood",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

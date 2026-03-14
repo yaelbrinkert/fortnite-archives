@@ -1,0 +1,338 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Athena_HealSprayFeral",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/B_Athena_HealSprayFeral.B_Athena_HealSprayFeral_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Athena_HealSpray_R_Ore_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/GA_Athena_HealSprayFeral_Primary.GA_Athena_HealSprayFeral_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/GA_Athena_HealSprayFeral_Secondary.GA_Athena_HealSprayFeral_Secondary_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/GA_Athena_HealSprayFeral_RemoveWhenOutOfAmmo.GA_Athena_HealSprayFeral_RemoveWhenOutOfAmmo_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/GA_Lotus_MustcheFeral_LockOnTargeting.GA_Lotus_MustcheFeral_LockOnTargeting_C",
+        "SubPathString": ""
+      }
+    ],
+    "EquippedAbilitySet": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Abilities/AS_FeralCorgi.AS_FeralCorgi",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Ammo_Athena_HealSprayFeral.Ammo_Athena_HealSprayFeral",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bUsesPhantomReserveAmmo": true,
+    "bUsesCustomAmmoType": true,
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Item.Consumable.HealSpray"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.HealSpray",
+      "Tag:Weapon:wid_athena_healsprayferal"
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9BEACED5432FF7B610D6CA9873C3C551",
+      "SourceString": "Med-Mist",
+      "LocalizedString": "Med-Mist"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C973A77245A5741391F2A7B473B0692A",
+      "SourceString": "Heal yourself or allies on the go",
+      "LocalizedString": "Heal yourself or allies on the go"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'FlipperGameplay_GameData'",
+              "ObjectPath": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/DataTables/FlipperGameplay_GameData.0"
+            },
+            "RowName": "Default.HealSpray.StackSize"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem.T-T-Icon-BR-HealthSprayItem",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Icons/T-T-Icon-BR-HealthSprayItem-L.T-T-Icon-BR-HealthSprayItem-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Consumables"
+      },
+      {
+        "Tags": [
+          "Rarity.Uncommon",
+          "HUD.PreferredSlotType.Consumable",
+          "Athena.Item.Utility",
+          "Trait.Restoration.Health",
+          "Athena.ItemAction.Consume",
+          "Athena.ItemAction.Secondary.Use",
+          "Item.Consumable.HealSpray",
+          "Item.SortsRight",
+          "Creative.Item.SpawnWithAtLeast1Ammo"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Meshes/Health_Spray.Health_Spray",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.043246217,
+            "Y": 0.13040195,
+            "Z": -0.0056934725,
+            "W": 0.9905012,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.5,
+            "Y": 1.5,
+            "Z": 1.5
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Audio/HealSprayFeral_Pickup_Cue.HealSprayFeral_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Audio/HealSprayFeral_Drop_Cue.HealSprayFeral_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Items/HealingMist/Audio/HealSprayFeral_Landed_Cue.HealSprayFeral_Landed_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 0.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.9699073,
+          "Y": 4.97718,
+          "Z": 9.639996
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::II",
+        "MaxTier": "EFortItemTier::No_Tier"
+      }
+    ]
+  }
+}

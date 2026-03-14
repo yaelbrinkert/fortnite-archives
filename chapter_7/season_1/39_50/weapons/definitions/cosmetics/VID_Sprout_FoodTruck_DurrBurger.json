@@ -1,0 +1,106 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Sprout_FoodTruck_DurrBurger",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 2.86,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinSpawnPercent.BasicCar"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxSpawnPercent.BasicCar"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0,
+      "Curve": {
+        "RowName": "Default.Valet.BasicCar.MaxCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentWithGas.BasicCar"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentWithGas.BasicCar"
+      }
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentInoperable.BasicCar"
+      }
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentInoperable.BasicCar"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/SproutVehicles/Vehicles/Truck/FoodTruck/Sprout_DurrBurger_FoodTruck_Vehicle.Sprout_DurrBurger_FoodTruck_Vehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "SproutDurrBurgerFoodTruck"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "13A286F442EF38B639D6828D3508579E",
+      "SourceString": "Durrr Burger Truck",
+      "LocalizedString": "Durrr Burger Truck"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SproutVehicles/Vehicles/UI/T_UI_Sprout_Icon_Vehicle_Sprout_DurrBurger_FoodTruck.T_UI_Sprout_Icon_Vehicle_Sprout_DurrBurger_FoodTruck",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tag": {
+          "TagName": "Sprout.Item.Cost.Currency.Cash.Vehicle.FoodTruck"
+        }
+      }
+    ]
+  }
+}

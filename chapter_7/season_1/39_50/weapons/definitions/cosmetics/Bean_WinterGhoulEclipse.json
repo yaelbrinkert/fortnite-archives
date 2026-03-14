@@ -1,0 +1,80 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_WinterGhoulEclipse",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Hood.CP_Bean_Head_Hood",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Fantasy.CP_Bean_Body_Fantasy",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_WinterGhoulEclipse:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_WinterGhoulEclipse.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FAFF5ACD4655CA0521CC8C81871845F3",
+      "SourceString": "Perfect Shadow",
+      "LocalizedString": "Perfect Shadow"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3003B1124FA9B9CD2036D191B27C7A3A",
+      "SourceString": "Become the ominous shadow.",
+      "LocalizedString": "Become the ominous shadow."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_WinterGhoulEclipse.T_Bean_WinterGhoulEclipse",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_WinterGhoulEclipse_L.T_Bean_WinterGhoulEclipse_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.9",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'ShadowSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/ShadowSeries.0"
+        }
+      }
+    ]
+  }
+}

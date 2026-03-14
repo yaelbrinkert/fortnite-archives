@@ -1,0 +1,82 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BirdsNestBlue",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BirdNestBlue/CMM/Emote_BirdNestBlue_CMM_M.Emote_BirdNestBlue_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BirdNestBlue/CMF/Emote_BirdNestBlue_CMF_M.Emote_BirdNestBlue_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BirdNestBlue/CLM/Emote_BirdNestBlue_CLM_M.Emote_BirdNestBlue_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BirdNestBlue/CLF/Emote_BirdNestBlue_CLF_M.Emote_BirdNestBlue_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      69274
+    ],
+    "BaseShotGridId": 69274,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "825182BF464916E2B173DEA4457D1C30",
+      "SourceString": "Cursed Energy",
+      "LocalizedString": "Cursed Energy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EDF86D2B422FC92B7FA124AAC5EE9981",
+      "SourceString": "Channel your negative emotions.",
+      "LocalizedString": "Channel your negative emotions."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2EC88B3F4C861A72350D1AA78F29E947",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Set.CleanWard",
+          "Cosmetics.Filter.Season.25"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-BirdNestBlue.T-Icon-Emotes-BirdNestBlue",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

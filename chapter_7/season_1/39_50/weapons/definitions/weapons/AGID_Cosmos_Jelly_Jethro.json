@@ -1,0 +1,323 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Cosmos_Jelly_Jethro",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Transport"
+      ]
+    },
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'BackPack_CosmosJelly'",
+        "ObjectPath": "/CosmosGameplay/Items/CosmosJelly/BackPack_CosmosJelly.1"
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/CosmosJellyJethro/AS_Cosmos_Jelly_JumpHover_Jethro.AS_Cosmos_Jelly_JumpHover_Jethro",
+      "SubPathString": ""
+    },
+    "AttributeSet": {
+      "AssetPathName": "/Script/FortniteGame.FortJumpBoostSet",
+      "SubPathString": ""
+    },
+    "AttributeInitKey": {
+      "AttributeInitCategory": "JumpBoostPack",
+      "AttributeInitSubCategory": "Defaults"
+    },
+    "TrackedAttributes": [
+      {
+        "AttributeName": "ReserveFuel",
+        "Attribute": {
+          "Path": [
+            "ReserveFuel"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'FortJumpBoostSet'",
+            "ObjectPath": "/Script/FortniteGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'FortJumpBoostSet'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "AttributeName": "Fuel",
+        "Attribute": {
+          "Path": [
+            "Fuel"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'FortJumpBoostSet'",
+            "ObjectPath": "/Script/FortniteGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'FortJumpBoostSet'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      }
+    ],
+    "OnDestroyParticleSystem": {
+      "AssetPathName": "/JethroWeaponGameplay/Assets/FX/Jetpack/Destroy/NS_Jelly_Jethro_Destruction.NS_Jelly_Jethro_Destruction",
+      "SubPathString": ""
+    },
+    "OnDestroySound": {
+      "AssetPathName": "/CosmosGameplay/CosmosJelly/Sounds/IP_Cosmos_Jetpack_Drop_Cue.IP_Cosmos_Jetpack_Drop_Cue",
+      "SubPathString": ""
+    },
+    "OnDestroyAttachToSocketName": "Backpack",
+    "WeaponItemDefinition": {
+      "AssetPathName": "/HoverGameplay/Gameplay/ItemDef/WID_Hover_Base.WID_Hover_Base",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "EDB4EBC1409707AF9EC2BE9EAC77DD57",
+      "SourceString": "Mandalorian Jetpack",
+      "LocalizedString": "Mandalorian Jetpack"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DB7C293A4A4B4C1F9ED7258B4BBE96B8",
+      "SourceString": "Trained in the rising phoenix, Mandalorians are adept at using jetpacks to gain the advantage on their opponents.",
+      "LocalizedString": "Trained in the rising phoenix, Mandalorians are adept at using jetpacks to gain the advantage on their opponents."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Game/Animation/Props/Cosmos_JetPack/Meshes/Cosmos_JetPack_Gadget.Cosmos_JetPack_Gadget",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.0,
+              "G": 1.0,
+              "B": 0.27451,
+              "A": 1.0,
+              "Hex": "00FF8F"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_SupplyDrop'",
+            "ObjectPath": "/Game/UI/Fort_HUD/Radar/UI_Radar_SupplyDrop.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/CosmosGameplay/CosmosJelly/Sounds/IP_Cosmos_Jetpack_Pickup_Cue.IP_Cosmos_Jetpack_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/CosmosGameplay/CosmosJelly/Sounds/IP_Cosmos_Jetpack_Drop_Cue.IP_Cosmos_Jetpack_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 18.464811,
+          "Y": 8.165002,
+          "Z": 24.75472
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "3C54DAAC4DF1822E323A91BCC090E84D",
+          "SourceString": "Mandalorian Jetpack",
+          "LocalizedString": "Mandalorian Jetpack"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/CosmosJellyJethro/Textures/Icons/T-T-Icon-BR-CosmosJetpack.T-T-Icon-BR-CosmosJetpack",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/JethroWeaponGameplay/Gameplay/CosmosJellyJethro/Textures/Icons/T-T-Icon-BR-CosmosJetpack-L.T-T-Icon-BR-CosmosJetpack-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.VeryRare",
+          "Trait.Mobility",
+          "Trait.Backpack",
+          "Item.Gadget.Jetpack.Cosmos",
+          "Item.SortsRight",
+          "Athena.Quests.Cosmos.Jetpack"
+        ]
+      }
+    ]
+  }
+}

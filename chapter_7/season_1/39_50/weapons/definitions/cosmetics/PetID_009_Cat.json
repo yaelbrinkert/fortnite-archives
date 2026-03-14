@@ -1,0 +1,64 @@
+{
+  "Type": "AthenaPetItemDefinition",
+  "Name": "PetID_009_Cat",
+  "Class": "UScriptClass'AthenaPetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StimuliBanks": [
+      {
+        "ObjectName": "FortPetStimuliBank'SharedPetStimuli'",
+        "ObjectPath": "/BRCosmetics/Characters/Pets/Shared/SharedPetStimuli.0"
+      }
+    ],
+    "PetPrefabClass": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Cat/B_Pet_Cat.B_Pet_Cat_C",
+      "SubPathString": ""
+    },
+    "PetSoundBank": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Cat/SoundBank_Cat.SoundBank_Cat",
+      "SubPathString": ""
+    },
+    "CosmeticSoundLibraries": [
+      {
+        "ObjectName": "SoundLibrary'PT_CtFm_VO_Lib'",
+        "ObjectPath": "/BRCosmetics/Sounds/Pets/CtFm/PT_CtFm_VO_Lib.0"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "83A8881E4411619356917493092B410F",
+      "SourceString": "Empress",
+      "LocalizedString": "Empress"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9017DFD24F5E8656A27BE6B0D18BB88A",
+      "SourceString": "The world is her scratching post.",
+      "LocalizedString": "The world is her scratching post."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E13006744FE2A0C6602013BB026FD6BA",
+      "SourceString": "Pet",
+      "LocalizedString": "Pet"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.8"
+        ]
+      }
+    ]
+  }
+}

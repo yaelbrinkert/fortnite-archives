@@ -1,0 +1,150 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HolidayCracker",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_HolidayCracker_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/HolidayCracker/EID_HolidayCracker_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_HolidayCracker_Sync_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/HolidayCracker/EID_HolidayCracker_Sync_Follower.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_HolidayCracker_Owned'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/HolidayCracker/EID_HolidayCracker_Owned.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_HolidayCracker_Sync_Owned_Follower'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/HolidayCracker/EID_HolidayCracker_Sync_Owned_Follower.0"
+    },
+    "GroupEmotePositionOffsetTolerance": 0.0,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HolidayCracker/Emote_HolidayCracker_FrontEnd_CMM_M.Emote_HolidayCracker_FrontEnd_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HolidayCracker/Emote_HolidayCracker_FrontEnd_CMF_M.Emote_HolidayCracker_FrontEnd_CMF_M",
+      "SubPathString": ""
+    },
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_GroupEmoteRequest.GAB_GroupEmoteRequest_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HolidayCracker/Emote_HolidayCracker_CMM_intro_M.Emote_HolidayCracker_CMM_intro_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HolidayCracker/Emote_HolidayCracker_CMF_Intro_M.Emote_HolidayCracker_CMF_Intro_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": -95.0,
+      "Roll": 0.0
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "22AF95554FE95346F33981ADAF36A703",
+      "SourceString": "Party Favor",
+      "LocalizedString": "Party Favor"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A80703E344CB7FEBE4D5D5A0C73B9F4C",
+      "SourceString": "Get Cracking.",
+      "LocalizedString": "Get Cracking."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "38400DE64E00ED3138F7009D511DDA6A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 42.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.9
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HolidayCracker.T-Icon-Emotes-E-HolidayCracker",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HolidayCracker-L.T-Icon-Emotes-E-HolidayCracker-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.15",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::BetweenLeaderAndFirstFollower",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": false,
+            "PositionOffsetOverride": {
+              "X": 0.0,
+              "Y": -140.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": null,
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::SyncWithLeader",
+            "AdditionalYaw": 0.0
+          },
+          "AdditionalPreviewFollowerConfigs": [],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::AfterLeaderIntroDelay",
+          "GroupEmotePreviewFollowerJoinDelayOverride": 1.766667
+        }
+      }
+    ]
+  }
+}

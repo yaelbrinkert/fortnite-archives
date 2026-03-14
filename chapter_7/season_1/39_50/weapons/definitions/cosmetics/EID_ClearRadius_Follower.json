@@ -1,0 +1,89 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ClearRadius_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_EmoteBand_Follower.GAB_EmoteBand_Follower_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClearRadius/Emote_ClearRadius_Follower_CMM_M.Emote_ClearRadius_Follower_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClearRadius/CMF/Emote_ClearRadius_Follower_CMF_M.Emote_ClearRadius_Follower_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClearRadius/CLF/Emote_ClearRadius_Follower_CLF_M.Emote_ClearRadius_Follower_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ClearRadius/CLM/Emote_ClearRadius_Follower_CLM_M.Emote_ClearRadius_Follower_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      56256
+    ],
+    "BaseShotGridId": 56256,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "39FEC18C4D74A9AFD02D45A13D453E4B",
+      "SourceString": "Jump Around",
+      "LocalizedString": "Jump Around"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C33DAF714BC3DC402D126BB4687ABBC1",
+      "SourceString": "What jumps up, must get down.",
+      "LocalizedString": "What jumps up, must get down."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D29ADD3C40E7646966C2F9B5618588E5",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.21"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote.T_Placeholder_Item_Emote",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

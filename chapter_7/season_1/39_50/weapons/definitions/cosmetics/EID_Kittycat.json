@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Kittycat",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Kitty_Cat/Emote_Kitty_Cat_CMM_M.Emote_Kitty_Cat_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Kitty_Cat/Emote_Kitty_Cat_CMF_M.Emote_Kitty_Cat_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Kitty_Cat/Emote_Kitty_Cat_CLM_M_Child.Emote_Kitty_Cat_CLM_M_Child",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Kitty_Cat/Emote_Kitty_Cat_CLF_M_Child.Emote_Kitty_Cat_CLF_M_Child",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "485C2BB6415D3D0C1E31ABA972EC0617",
+      "SourceString": "Cat Flip",
+      "LocalizedString": "Cat Flip"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AD8E129B40BE0063637326A29D0B3E29",
+      "SourceString": "Show your catlike reflexes.",
+      "LocalizedString": "Show your catlike reflexes."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "5184821A425BD1C5F04FF98D06EEE7CE",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season7.BattlePass.Paid",
+          "Cosmetics.Set.NeonCat",
+          "Cosmetics.Filter.Season.7",
+          "Emote.Mech.Disabled.Design",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Kittycat.T-Icon-Emotes-E-Kittycat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Kittycat-L.T-Icon-Emotes-E-Kittycat-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

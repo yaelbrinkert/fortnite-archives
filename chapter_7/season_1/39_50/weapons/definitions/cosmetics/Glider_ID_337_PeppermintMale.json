@@ -1,0 +1,214 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_337_PeppermintMale",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 110.0,
+      "Y": -25.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_Default_Mark_III/Meshes/Default_Mark_III_Glider.Default_Mark_III_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Blueprints/Default_Mark_III_Glider_AnimBP.Default_Mark_III_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Skydive/ParaGlide/HangGlider/HangGliderPlayerAnimSet.HangGliderPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/Game/Athena/Effects/Particles/Gliders/NS_Glider_Default/NS_Glider_Default_withfrontendfix.NS_Glider_Default_withfrontendfix",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/PeppermintMale/SC_GliderOpen_PeppermintMale.SC_GliderOpen_PeppermintMale",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/PeppermintMale/SC_GliderClose_PeppermintMale.SC_GliderClose_PeppermintMale",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/PeppermintMale/SC_GliderThrustLoop_PeppermintMale.SC_GliderThrustLoop_PeppermintMale",
+      "SubPathString": ""
+    },
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Peppermint_Male/Materials/MI_Glider_Peppermint_Male.MI_Glider_Peppermint_Male",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 1,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Peppermint_Male/Materials/MI_Glider_Peppermint_Male_Tarp.MI_Glider_Peppermint_Male_Tarp",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ShotGridIds": [
+      52594
+    ],
+    "BaseShotGridId": 52594,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8C7F9C4D41DB17CC1522C686859017F9",
+      "SourceString": "Swirly Soarer",
+      "LocalizedString": "Swirly Soarer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5B33E9AC4603A874FC3C1CB0E06AAF2C",
+      "SourceString": "50% sweet, 50% spicy, 100% festive.",
+      "LocalizedString": "50% sweet, 50% spicy, 100% festive."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-PeppermintGlider.T-Icon_Glider-PeppermintGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-PeppermintGlider-L.T-Icon_Glider-PeppermintGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -10.0,
+          "Yaw": 115.0,
+          "Roll": 10.0
+        },
+        "Scale": 0.95
+      },
+      {
+        "GeneratedTagsIndexes": [
+          546,
+          359,
+          247,
+          248,
+          239,
+          603,
+          389,
+          515,
+          693,
+          194,
+          877,
+          879,
+          885,
+          915,
+          697,
+          78,
+          127,
+          352,
+          310,
+          1634,
+          1666,
+          1972,
+          2394,
+          2426,
+          2691,
+          404
+        ]
+      }
+    ]
+  }
+}

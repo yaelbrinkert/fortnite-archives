@@ -1,0 +1,80 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_JonesyCube",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_HairShort.CP_Bean_Head_HairShort",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_JonesyCube:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_JonesyCube.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9A7F0275424758B9F8C962BFC1C95FAA",
+      "SourceString": "Dark Jonesy",
+      "LocalizedString": "Dark Jonesy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8496607D41549670CABA6AA363443142",
+      "SourceString": "He has seen beyond the darkness...",
+      "LocalizedString": "He has seen beyond the darkness..."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_JonesyCube.T_Bean_JonesyCube",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_JonesyCube_L.T_Bean_JonesyCube_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.10",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CUBESeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CUBESeries.0"
+        }
+      }
+    ]
+  }
+}

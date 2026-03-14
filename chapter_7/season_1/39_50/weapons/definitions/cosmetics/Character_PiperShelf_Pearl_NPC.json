@@ -1,0 +1,84 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_PiperShelf_Pearl_NPC",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_PiperShelf_Pearl_NPC.CP_Athena_Head_F_PiperShelf_Pearl_NPC",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Bodies/CP_Athena_Body_F_PiperShelf_Empress_NPC.CP_Athena_Body_F_PiperShelf_Empress_NPC",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_PiperShelf_Empress_NPC_FaceAcc.CP_F_MED_PiperShelf_Empress_NPC_FaceAcc",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/BR/CustomSkins/_s31/PiperShelfPearlF/PiperShelfPeal_Female_Idle_Montage.PiperShelfPeal_Female_Idle_Montage",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'Character_PiperShelf_Pearl_NPC:FortCosmeticCharacterPartVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_PiperShelf_Pearl_NPC.1"
+      }
+    ],
+    "ShotGridIds": [
+      100901
+    ],
+    "BaseShotGridId": 100901,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "664CA41243001CE55A18D6A1C6EBA943",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EB6D1A9D4D67D09AFCABF2B1B3F75411",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Outfit.T_Placeholder_Item_Outfit",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Glove",
+          "SoundLibrary.ID.StepType.BootsHeeled"
+        ]
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

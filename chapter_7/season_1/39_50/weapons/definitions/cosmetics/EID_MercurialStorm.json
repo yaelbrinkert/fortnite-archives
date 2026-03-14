@@ -1,0 +1,120 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_MercurialStorm",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Equip",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.Style.OptionB"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_LRG_MercurialStorm_Helmet_FaceAcc.CP_M_LRG_MercurialStorm_Helmet_FaceAcc",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.MetaTags.Style.OptionA"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_LRG_MercurialStorm_FaceAcc.CP_M_LRG_MercurialStorm_FaceAcc",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/MercurialStorm/Emote_MercurialStorm_CLM_M.Emote_MercurialStorm_CLM_M",
+      "SubPathString": ""
+    },
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_MercurialStorm.Character_MercurialStorm",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3998DDAD4D66DEEA0795DD929C0588A8",
+      "SourceString": "Iron Man, Revealed",
+      "LocalizedString": "Iron Man, Revealed"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "7069C0C94029F3D0B2F28984F6FDB167",
+      "SourceString": "Double the helmet, double the protection.",
+      "LocalizedString": "Double the helmet, double the protection."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "746F4E04475EF70CDDE720A85C647048",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-MercurialStorm.T-Icon-Emotes-E-MercurialStorm",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S22/T-Icon-Emotes-E-MercurialStorm-L.T-Icon-Emotes-E-MercurialStorm-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Filter.Season.22",
+          "Cosmetics.Set.NoneBattle",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Emote.BuiltIn.Transform"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

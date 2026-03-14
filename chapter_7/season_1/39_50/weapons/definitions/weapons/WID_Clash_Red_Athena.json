@@ -1,0 +1,96 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Clash_Red_Athena",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_Placeholder"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/ClashGameplay/Gameplay/Clash/Clash_Red/GA_Clash_Punch_Red.GA_Clash_Punch_Red_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/ClashGameplay/Gameplay/Clash/Clash_Red/AS_Clash_Red_Equip.AS_Clash_Red_Equip",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/Fort_HUD/HUD_Xhair_Basic.HUD_Xhair_Basic",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_clash_red_athena"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FC05CD3642F41D26693638858539EC5A",
+      "SourceString": "Carnage Symbiote",
+      "LocalizedString": "Carnage Symbiote"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "9A5C714D4DB690E267F4138624B402C3",
+          "SourceString": "Power",
+          "LocalizedString": "Power"
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ClashGameplay/Gameplay/Clash/Shared/Icons/T-T-Icon-BR-ClashRed.T-T-Icon-BR-ClashRed",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/ClashGameplay/Gameplay/Clash/Shared/Icons/T-T-Icon-BR-ClashRed-L.T-T-Icon-BR-ClashRed-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Rarity.Mythic",
+          "Item.Power.Clash.Red"
+        ]
+      }
+    ]
+  }
+}

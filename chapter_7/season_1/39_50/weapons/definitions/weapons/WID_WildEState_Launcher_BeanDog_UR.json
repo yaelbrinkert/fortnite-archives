@@ -1,0 +1,163 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_WildEState_Launcher_BeanDog_UR",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/WildEstateWeapons/Gameplay/BeanDog/B_BeanDog.B_BeanDog_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/WildEstateWeapons/Assets/BeanDog_Bow/Meshes/BeanDog_Bow.BeanDog_Bow",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "WildEstate_Launcher_BeanDog_Athena_UR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/WildEstateWeapons/Gameplay/BeanDog/GA_Ranged_Explosive_BeanDog.GA_Ranged_Explosive_BeanDog_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite_NoIcon.AmmoInfinite_NoIcon",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::OnRelease",
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleCornerAngles": [
+      0.0
+    ],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot_new.reticle_dot_new",
+      "SubPathString": ""
+    },
+    "ReticleInvalidTargetImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/blockedshot_reticle.blockedshot_reticle",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Weapon.Ranged.Pistol.WildEstate.BeanDogExotic",
+      "Item.Weapon.Ranged.Pistol.BeanDog"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Item.Weapon.Ranged.Pistol.BeanDog",
+      "Item.Weapon.Ranged.Pistol.WildEstate.BeanDogExotic"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Weapon.Ranged.Pistol.WildEstate.BeanDogExotic",
+      "Item.Weapon.Ranged.Pistol.BeanDog",
+      "Tag:Weapon:wid_wildestate_launcher_beandog_ur"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B4F3FD0E4D9BF766321043969DDE50DC",
+      "SourceString": "Cobalt Slingshot",
+      "LocalizedString": "Cobalt Slingshot"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0FEFF8BB4904BC0CD70F9C9D27AB3DFD",
+      "SourceString": "What? It's just a little radiation. Don't have a cow, man.",
+      "LocalizedString": "What? It's just a little radiation. Don't have a cow, man."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient",
+          "Item.Trait.HasDurability"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/WildEstateWeapons/Gameplay/BeanDog/B_Prj_BeanDog_Primary.B_Prj_BeanDog_Primary_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/WildEstateWeapons/Gameplay/BeanDog/Icons/T_Icon_Weapons_Slingshot_BeanDog.T_Icon_Weapons_Slingshot_BeanDog",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Item.Weapon.Ranged.Pistol.WildEstate.BeanDogExotic",
+          "Item.Weapon.Ranged.Pistol.BeanDog",
+          "Phoebe.Items.WildEstate.BeanDog",
+          "phoebe.weapon.ranged.bow",
+          "Weapon.Meta.DoNotApplyWraps"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -42.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.5695634,
+          "Yaw": 24.64069,
+          "Roll": -16.679253
+        },
+        "Scale": 1.0
+      },
+      {
+        "BulletWhipTrackerData": {
+          "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Default'",
+          "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Default.0"
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'IP_SL_BeanDog_Slingshot_Weapon'",
+            "ObjectPath": "/WildEstateWeapons/Gameplay/BeanDog/Audio/IP_SL_BeanDog_Slingshot_Weapon.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      }
+    ]
+  }
+}

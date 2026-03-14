@@ -1,0 +1,123 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_NightHawk_V3",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CMM/Emote_NightHawk_CMM_C_M_Frontend.Emote_NightHawk_CMM_C_M_Frontend",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CMF/Emote_NightHawk_CMF_C_M_Frontend.Emote_NightHawk_CMF_C_M_Frontend",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CLF/Emote_NightHawk_CLF_C_M_Frontend.Emote_NightHawk_CLF_C_M_Frontend",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CLM/Emote_NightHawk_CLM_C_M_Frontend.Emote_NightHawk_CLM_C_M_Frontend",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 387.779,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CMM/Emote_NightHawk_CMM_C_M.Emote_NightHawk_CMM_C_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CMF/Emote_NightHawk_CMF_C_M.Emote_NightHawk_CMF_C_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CLM/Emote_NightHawk_CLM_C_M.Emote_NightHawk_CLM_C_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/NightHawk/CLF/Emote_NightHawk_CLF_C_M.Emote_NightHawk_CLF_C_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      71009
+    ],
+    "BaseShotGridId": 71009,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7471280B4A9A7993CF72DF862C27E4C0",
+      "SourceString": "Titan Run: Freestyle",
+      "LocalizedString": "Titan Run: Freestyle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5BDDC5DC4B8D3273C1217383BC2F86A3",
+      "SourceString": "Breach the walls.",
+      "LocalizedString": "Breach the walls."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A3BD578D4AFF5F8EBB769E903E583448",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.24",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.RareGroup",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-NightHawkV3.T-Icon-Emotes-NightHawkV3",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S24/T-Icon-Emotes-NightHawkV3-L.T-Icon-Emotes-NightHawkV3-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

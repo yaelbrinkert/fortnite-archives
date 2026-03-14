@@ -1,0 +1,63 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Trainer_Scientist",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/SaveTheWorld/Items/Workers/Trainers/Scientist/CharacterParts/Heads/CP_Head_M_Scientist.CP_Head_M_Scientist",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/SaveTheWorld/Items/Workers/Trainers/Scientist/CharacterParts/CP_Athena_Body_M_Scientist.CP_Athena_Body_M_Scientist",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/SaveTheWorld/Items/Workers/Trainers/Scientist/CharacterParts/FaceAccessories/CP_M_MED_Scientist.CP_M_MED_Scientist",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimClass": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Pawns/MenuScreen_Constructor.MenuScreen_Constructor_C",
+      "SubPathString": ""
+    },
+    "bIsOwnedByCampaignHero": true,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1C74435C41CE026DF016A7816A6B82CA",
+      "SourceString": "Lars",
+      "LocalizedString": "Lars"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Icon-Perk-Missing-M.Icon-Perk-Missing-M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Bargain_Sync_Follower",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bGroupEmote": true,
+    "GroupEmotePositionOffset": {
+      "X": 135.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bargain/Emote_Bargain_CMM_Synch_Follower_M.Emote_Bargain_CMM_Synch_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bargain/Emote_Bargain_CMF_Synch_Follower_M.Emote_Bargain_CMF_Synch_Follower_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bargain/Emote_Bargain_CLM_Synch_Follower_M.Emote_Bargain_CLM_Synch_Follower_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Bargain/Emote_Bargain_CLF_Synch_Follower_M.Emote_Bargain_CLF_Synch_Follower_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      56408
+    ],
+    "BaseShotGridId": 56408,
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "55C6524D4941EE378DD6389FDEDEDE56",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Bargain.T-Icon-Emotes-E-Bargain",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Bargain-L.T-Icon-Emotes-E-Bargain-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

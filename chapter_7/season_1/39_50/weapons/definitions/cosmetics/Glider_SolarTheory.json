@@ -1,0 +1,280 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_SolarTheory",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 250.0,
+      "Y": -20.0,
+      "Z": -60.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SolarTheory/Meshes/SolarTheory_Glider.SolarTheory_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/SolarTheory/SolarTheory_Glider_AnimBP.SolarTheory_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/SolarTheory/Player/SolarTheory_PlayerAnimSet.SolarTheory_PlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_SolarTheory/FX/NS_Glider_SolarTheory_Trail.NS_Glider_SolarTheory_Trail",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/SolarTheory/SC_GliderOpen_SolarTheory.SC_GliderOpen_SolarTheory",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/SolarTheory/SC_GliderClose_SolarTheory.SC_GliderClose_SolarTheory",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/SolarTheory/SC_GliderThrustLoop_SolarTheory.SC_GliderThrustLoop_SolarTheory",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/SolarTheory/SC_GliderThrustFwd_SolarTheory.SC_GliderThrustFwd_SolarTheory",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/SolarTheory/SC_GliderThrustStart_SolarTheory.SC_GliderThrustStart_SolarTheory",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/SolarTheory/SC_GliderThrustStart_SolarTheory.SC_GliderThrustStart_SolarTheory",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "OverlayMaterialData": {
+      "LowQualityMaterial": {
+        "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_SolarTheory/Materials/MI_Undefeated_InvertedHullOutlines_SolarTheory.MI_Undefeated_InvertedHullOutlines_SolarTheory",
+        "SubPathString": ""
+      },
+      "HighQualityMaterial": {
+        "AssetPathName": "/Game/Gadgets/Assets/VinderTech_GliderChute/Glider_SolarTheory/Materials/MI_Undefeated_Outlines_Glider_SolarTheory.MI_Undefeated_Outlines_Glider_SolarTheory",
+        "SubPathString": ""
+      }
+    },
+    "ShotGridIds": [
+      68102
+    ],
+    "BaseShotGridId": 68102,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CC99690641D3840AA26F71AAAD0E2845",
+      "SourceString": "Planet Express Ship",
+      "LocalizedString": "Planet Express Ship"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E041BCAE4BE5D6E89C8B438869961FD5",
+      "SourceString": "Drop in for a special delivery.",
+      "LocalizedString": "Drop in for a special delivery."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -30.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -3.0,
+          "Yaw": 125.0,
+          "Roll": 5.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S25/T-Icon_Glider-SolarTheory.T-Icon_Glider-SolarTheory",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S25/T-Icon_Glider-SolarTheory-L.T-Icon_Glider-SolarTheory-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.Set.VanLayer",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          359,
+          247,
+          162,
+          239,
+          576,
+          603,
+          567,
+          53,
+          666,
+          839,
+          958,
+          1295,
+          352,
+          1253,
+          1254,
+          304,
+          253,
+          1257,
+          2347,
+          398,
+          2399,
+          2509,
+          2510,
+          2521,
+          388,
+          2590,
+          4512,
+          4654
+        ]
+      }
+    ]
+  }
+}

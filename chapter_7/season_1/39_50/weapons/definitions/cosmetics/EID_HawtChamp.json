@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HawtChamp",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HawtChamp/Emote_HawtChamp_CMM_M.Emote_HawtChamp_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HawtChamp/Emote_HawtChamp_CMF_M.Emote_HawtChamp_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HawtChamp/Emote_HawtChamp_CLM_M.Emote_HawtChamp_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HawtChamp/Emote_HawtChamp_CLF_M.Emote_HawtChamp_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      71461
+    ],
+    "BaseShotGridId": 71461,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "34626C784DC3BFE63AEC508408A3784B",
+      "SourceString": "Toasted Coconut",
+      "LocalizedString": "Toasted Coconut"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "824E5C0749794A5F47248AB0283E2118",
+      "SourceString": "Celebrate the competition.",
+      "LocalizedString": "Celebrate the competition."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "1463858841B6F3ECDDF6B8A03A99F1EE",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.25"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-HawtChamp.T-Icon-Emotes-HawtChamp",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-HawtChamp-L.T-Icon-Emotes-HawtChamp-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

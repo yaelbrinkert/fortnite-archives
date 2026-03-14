@@ -1,0 +1,181 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_StrideMiceDeep",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CustomDanceAbility": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/GAB_Emote_StrideMiceDeep.GAB_Emote_StrideMiceDeep_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/CMM/FrontMan/Emote_StrideMiceDeep_FrontMan_CMM_M.Emote_StrideMiceDeep_FrontMan_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/CMF/FrontMan/Emote_StrideMiceDeep_FrontMan_CMF_M.Emote_StrideMiceDeep_FrontMan_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/CLF/FrontMan/Emote_StrideMiceDeep_FrontMan_CLF_M.Emote_StrideMiceDeep_FrontMan_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/CLM/FrontMan/Emote_StrideMiceDeep_FrontMan_CLM_M.Emote_StrideMiceDeep_FrontMan_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 2,
+    "PreviewLength": 32.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "03E4F993476461F0630E9DB8DF92843E",
+      "SourceString": "Get Lucky",
+      "LocalizedString": "Get Lucky"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8C3FA7CC476DFBD7B0C4EFB46D21EABF",
+      "SourceString": "Feeling lucky.",
+      "LocalizedString": "Feeling lucky."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "34E037B442721EF341F22B9FDCF3B87D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -160.0,
+          "Z": -15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.BleakFeather"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_StrideMiceDeep.T_Icon_Emotes_StrideMiceDeep",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_StrideMiceDeep_L.T_Icon_Emotes_StrideMiceDeep_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::ManualOffsetRelativeToLeaderPawn",
+          "LeaderRelativePivotOriginOffset": {
+            "X": -80.0,
+            "Y": -45.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": false,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": -200.0,
+              "Y": -60.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": {
+              "ObjectName": "AthenaDanceItemDefinition'EID_StrideMiceDeep_Follower1'",
+              "ObjectPath": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/EID_StrideMiceDeep_Follower1.0"
+            },
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+            "AdditionalYaw": 30.0
+          },
+          "AdditionalPreviewFollowerConfigs": [
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": -60.0,
+                "Y": -150.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_StrideMiceDeep_Follower2'",
+                "ObjectPath": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/EID_StrideMiceDeep_Follower2.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": 45.0
+            },
+            {
+              "bOverrideGroupEmotePositionOffsetForPreview": true,
+              "PositionOffsetOverride": {
+                "X": -110.0,
+                "Y": 100.0,
+                "Z": 0.0
+              },
+              "AdditionalJoinDelay": 0.0,
+              "bEnableEmoteAudio": true,
+              "OverrideEmoteItemDefinition": {
+                "ObjectName": "AthenaDanceItemDefinition'EID_StrideMiceDeep_Follower3'",
+                "ObjectPath": "/SparksCosmetics/Emotes/Group/StrideMiceDeep/EID_StrideMiceDeep_Follower3.0"
+              },
+              "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::UseActorComponentSpawnRotation",
+              "AdditionalYaw": -40.0
+            }
+          ],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::Immediate",
+          "GroupEmotePreviewFollowerJoinDelayOverride": -1.0
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

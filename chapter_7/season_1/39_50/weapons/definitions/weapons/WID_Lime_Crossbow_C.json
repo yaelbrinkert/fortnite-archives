@@ -1,0 +1,365 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Lime_Crossbow_C",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/LimeCrossbow/Weapons/WoodenBow/B_Juno_Crossbow_Lime.B_Juno_Crossbow_Lime_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/LimeCrossbow/Weapons/Ranged/Crossbow/SkeletalMesh/SKM_Crossbow_2.SKM_Crossbow",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Lime_RangedWeapons'",
+        "ObjectPath": "/LimeWeaponsCore/DataTables/Lime_RangedWeapons.0"
+      },
+      "RowName": "Crossbow_C"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/LimeCrossbow/Weapons/WoodenBow/GA_Lime_Crossbow.GA_Lime_Crossbow_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/LimeWeaponsCore/Ammo/Lime_AmmoDataCrossbow.Lime_AmmoDataCrossbow",
+      "SubPathString": ""
+    },
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_2x10_line.HUD_Xhair_2x10_line",
+      "SubPathString": ""
+    },
+    "PlayerGrantedGameplayTags": [
+      "Granted.ItemEquipped.Ranged"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_lime_crossbow_c"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Bow",
+        "Common",
+        "LIME",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "DD1546664459E07FAE741C87AB0F9B35",
+      "SourceString": "Crossbow",
+      "LocalizedString": "Crossbow"
+    },
+    "ItemDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "BC19FFF542D04530AB95B183A9C0B913",
+      "SourceString": "A basic crossbow, ideal for dealing with ranged enemies from afar.",
+      "LocalizedString": "A basic crossbow, ideal for dealing with ranged enemies from afar."
+    },
+    "ItemShortDescription": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "AE3FDDC44790F7D95A58449C884B2220",
+      "SourceString": "Make your point from far away.",
+      "LocalizedString": "Make your point from far away."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/LimeCrossbow/Weapons/WoodenBow/B_Juno_Prj_Wooden_Bow_v2.B_Juno_Prj_Wooden_Bow_v2_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_Crossbow_Wood'",
+            "ObjectPath": "/JunoCommonArtAssets/Audio/Weapons/Crossbow/Libraries/SL_Crossbow_Wood.0"
+          },
+          {
+            "ObjectName": "SoundLibrary'SL_Crossbow_Projectile'",
+            "ObjectPath": "/JunoCommonArtAssets/Audio/Weapons/Crossbow/Libraries/SL_Crossbow_Projectile.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "WeaponMaterialOverrides": [
+          {
+            "AssetPathName": "/LimeCrossbow/Weapons/Materials/Instances/MI_Weapon_Hardwood.MI_Weapon_Hardwood",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/LimeCrossbow/Weapons/Ranged/Crossbow/SkeletalMesh/SKM_Crossbow_2.SKM_Crossbow",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/Lime/PickUps/B_Pickup_Override_Lime.B_Pickup_Override_Lime_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.12941022,
+            "Y": -0.12940948,
+            "Z": 0.017037174,
+            "W": 0.98296285,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Weapons/Crossbow/Sounds/Land/MSS_Crossbow_Wood_Land.MSS_Crossbow_Wood_Land",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Weapons/Crossbow/Sounds/Drop/MSS_Crossbow_Wood_Drop.MSS_Crossbow_Wood_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Weapons/Crossbow/Sounds/Land/MSS_Crossbow_Wood_Land.MSS_Crossbow_Wood_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 26.23574,
+          "Y": 21.900011,
+          "Z": 13.7999935
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -42.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.569563,
+          "Yaw": 24.64069,
+          "Roll": -16.679253
+        },
+        "Scale": 1.0
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "489DB7C443C127F0A06891A794329FD7",
+          "SourceString": "Ranged Bow",
+          "LocalizedString": "Ranged Bow"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/LimeCrossbow/UI/Icons/Tools_Weapons/T_UI_Juno_Icon_Weapon_Crossbow_T1_Hardwood.T_UI_Juno_Icon_Weapon_Crossbow_T1_Hardwood",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Ranged.Crossbow.Explosive",
+          "Juno.Item.Weapon.Ranged.Bow",
+          "Juno.Item.Weapon.Crossbow_T1",
+          "Item.Weapon.Ranged",
+          "Lime.Item.Guard",
+          "Behavior.Injection.Lime.Behaviors.Ranged",
+          "Rarity.Common",
+          "Weapon.Meta.DoNotApplyWraps"
+        ]
+      }
+    ]
+  }
+}

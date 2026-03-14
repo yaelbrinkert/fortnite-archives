@@ -1,0 +1,65 @@
+{
+  "Type": "FortTrapItemDefinition",
+  "Name": "TID_Creative_ClassSettings",
+  "Class": "UScriptClass'FortTrapItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BlueprintClass": {
+      "AssetPathName": "/Game/Creative/Devices/ClassSettings/BP_Creative_ClassSettings.BP_Creative_ClassSettings_C",
+      "SubPathString": ""
+    },
+    "PlacementPreviewClass": {
+      "AssetPathName": "/Script/FortniteGame.FortDecoPreview_GenericBuildingSMActor",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Trap:tid_creative_classsettings"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.HasDurability",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 999.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 4
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PlaysetGrenade/T-Icon-PS-CP-Devices_ClassSettings_SM.T-Icon-PS-CP-Devices_ClassSettings_SM",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PlaysetGrenade/T-Icon-PS-CP-Devices_ClassSettings.T-Icon-PS-CP-Devices_ClassSettings",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.Uncommon"
+        ]
+      }
+    ]
+  }
+}

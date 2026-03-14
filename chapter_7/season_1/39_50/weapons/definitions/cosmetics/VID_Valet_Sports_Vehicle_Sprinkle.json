@@ -1,0 +1,53 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Valet_Sports_Vehicle_Sprinkle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 100.0
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 100.0
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 1.0
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentWithGas.SportsCar"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentWithGas.SportsCar"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/Valet/SportsCar/Sprinkle/Valet_Sports_Vehicle_Sprinkle.Valet_Sports_Vehicle_Sprinkle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "sportssprinke",
+      "sprinkle"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

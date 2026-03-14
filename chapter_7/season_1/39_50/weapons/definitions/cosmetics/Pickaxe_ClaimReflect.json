@@ -1,0 +1,177 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_ClaimReflect",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXOnPawnPreviewOffset": {
+      "X": -20.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "PickaxeDualWieldPreviewOffset": {
+      "X": 1.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 15.0,
+        "Y": -2.0,
+        "Z": 13.0
+      },
+      "CylinderHalfHeight": 55.0,
+      "CylinderRadius": 55.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_ClaimReflect'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_ClaimReflect.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_ClaimReflect:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ClaimReflect.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      158469,
+      161798
+    ],
+    "ShotGridIds": [
+      158469,
+      158469,
+      161798
+    ],
+    "BaseShotGridId": 158469,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AA4AA2A949C9388D96F618AA9CC53E3F",
+      "SourceString": "Energy Sword",
+      "LocalizedString": "Energy Sword"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2DE608844A0FCBCCE21308A8175BC4EB",
+      "SourceString": "Plasma, refined and sharpened.",
+      "LocalizedString": "Plasma, refined and sharpened."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2743D293441EC9AACC4C4DB55E02DEEB",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": -58.0,
+          "Yaw": 315.0,
+          "Roll": 7.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.DualWield",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.GreyShoulder",
+          "Cosmetics.UserFacingFlags.Reactive",
+          "Cosmetics.Source.Season37.BattlePass.Paid"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S37/T_Icon_Pickaxes_ClaimReflect.T_Icon_Pickaxes_ClaimReflect",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S37/T_Icon_Pickaxes_ClaimReflect_L.T_Icon_Pickaxes_ClaimReflect_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GeneratedTagsIndexes": [
+          541,
+          546,
+          114,
+          162,
+          576,
+          105,
+          593,
+          607,
+          591,
+          24,
+          246,
+          1339,
+          595,
+          112,
+          585,
+          854,
+          259,
+          303,
+          2359,
+          5319
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      }
+    ]
+  }
+}

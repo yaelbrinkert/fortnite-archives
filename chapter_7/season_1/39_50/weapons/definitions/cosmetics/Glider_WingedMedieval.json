@@ -1,0 +1,290 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_WingedMedieval",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 0.0,
+      "Y": -40.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/LegacyGliderBPs/B_Athena_Glider_Legacy_GoldenSkeleton.B_Athena_Glider_Legacy_GoldenSkeleton_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_Golden_Skeleton/Meshes/The_Golden_Skeleton_Glider_Custom.The_Golden_Skeleton_Glider_Custom",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.70710677,
+        "W": 0.7071067,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.9999999
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/WingedMedieval/WingedMedieval_Glider_AnimBP.WingedMedieval_Glider_AnimBP_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/DarkVikingDragon/DarkVikingDragonPlayerAnimSet.DarkVikingDragonPlayerAnimSet",
+      "SubPathString": ""
+    },
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_WingedMedieval/FX/NS_Glider_WingedMedieval.NS_Glider_WingedMedieval",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/WingedMedieval/SC_GliderOpen_WingedMedieval.SC_GliderOpen_WingedMedieval",
+      "SubPathString": ""
+    },
+    "OpenFrontEndSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/WingedMedieval/SC_GliderOpen_WingedMedieval.SC_GliderOpen_WingedMedieval",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/WingedMedieval/SC_GliderClose_WingedMedieval.SC_GliderClose_WingedMedieval",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/WingedMedieval/SC_GliderThrustLoop_WingedMedieval.SC_GliderThrustLoop_WingedMedieval",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::Forwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/WingedMedieval/SC_GliderThrustStart_WingedMedieval.SC_GliderThrustStart_WingedMedieval",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Sideways",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/WingedMedieval/SC_GliderThrustStartSmall_WingedMedieval.SC_GliderThrustStartSmall_WingedMedieval",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "Key": "ELayeredAudioTriggerDirection::Backwards",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/BRCosmetics/Sounds/Gliders/WingedMedieval/SC_GliderThrustStartSmall_WingedMedieval.SC_GliderThrustStartSmall_WingedMedieval",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_WingedMedieval/Materials/MI_Glider_WingedMedieval.MI_Glider_WingedMedieval",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 1,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_WingedMedieval/Materials/MI_Glider_WingedMedieval.MI_Glider_WingedMedieval",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 2,
+        "OverrideMaterial": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_WingedMedieval/Materials/MI_Glider_WingedMedieval.MI_Glider_WingedMedieval",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ShotGridIds": [
+      78190
+    ],
+    "BaseShotGridId": 78190,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2E0595054FD4A3A5404A7EADB66C8A96",
+      "SourceString": "Skerran",
+      "LocalizedString": "Skerran"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "60A81444425FB40EC0F8E3B00D52A5FC",
+      "SourceString": "Infernal. Unstoppable.",
+      "LocalizedString": "Infernal. Unstoppable."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -2.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 2.0,
+          "Yaw": -60.0,
+          "Roll": -15.0
+        },
+        "Scale": 0.55
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S27/T-Icon_Glider-WingedMedieval.T-Icon_Glider-WingedMedieval",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S27/T-Icon_Glider-WingedMedieval-L.T-Icon_Glider-WingedMedieval-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.Filter.Season.27"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          247,
+          122,
+          170,
+          558,
+          389,
+          613,
+          488,
+          670,
+          724,
+          729,
+          35,
+          778,
+          803,
+          484,
+          931,
+          1005,
+          1158,
+          341,
+          2953
+        ]
+      }
+    ]
+  }
+}

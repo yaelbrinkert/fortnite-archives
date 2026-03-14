@@ -1,0 +1,52 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_Commando_GunTough",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'Male_Commando_02_V01'",
+        "ObjectPath": "/SaveTheWorld/Characters/CharacterParts/Backpacks/Male_Commando_02_V01.1"
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'BID_Commando_GunTough:Male_Commando_02_V01'",
+        "ObjectPath": "/SaveTheWorld/Items/Cosmetics/Backpacks/Commando/BID_Commando_GunTough.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Commando-GunTough-VariantEpic.T-Icon-Backpacks-Commando-GunTough-VariantEpic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Commando-GunTough-VariantEpic-L.T-Icon-Backpacks-Commando-GunTough-VariantEpic-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

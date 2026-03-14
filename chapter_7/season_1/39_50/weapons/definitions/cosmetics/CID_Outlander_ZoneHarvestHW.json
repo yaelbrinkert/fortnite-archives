@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Outlander_ZoneHarvestHW",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Small/Outlander/Outlander_Male_Body_Montage_Idle.Outlander_Male_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/MontageLookUpTables/SmallMale.SmallMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Outlander_ZoneHarvestHW:M_Sml_Outlander_HW01'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Outlander/CosmeticCharacterItemDefinitions/CID_Outlander_ZoneHarvestHW.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7C86085D4D30DE9B2EA96B8EAD697538",
+      "SourceString": "Bloodfinder A.C.",
+      "LocalizedString": "Bloodfinder A.C."
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "829D27D9408EFAAC64238FB13F590B1B",
+      "SourceString": "\"Invite me in!\" - Bloodfinder A.C.",
+      "LocalizedString": "\"Invite me in!\" - Bloodfinder A.C."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Outlander/Portrait/T-Outlander-HID-Outlander-ZoneHarvestHW-SR-T01.T-Outlander-HID-Outlander-ZoneHarvestHW-SR-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Outlander/Portrait/T-Outlander-HID-Outlander-ZoneHarvestHW-SR-T01-L.T-Outlander-HID-Outlander-ZoneHarvestHW-SR-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

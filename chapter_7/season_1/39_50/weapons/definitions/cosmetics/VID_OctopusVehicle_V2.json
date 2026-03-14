@@ -1,0 +1,48 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_OctopusVehicle_V2",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BallerV2GameData'",
+          "ObjectPath": "/BallerV2/DataTables/BallerV2GameData.0"
+        },
+        "RowName": "Octopus.Vehicle.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BallerV2GameData'",
+          "ObjectPath": "/BallerV2/DataTables/BallerV2GameData.0"
+        },
+        "RowName": "Octopus.Vehicle.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/BallerV2/Vehicle/OctopusVehicle_V2.OctopusVehicle_V2_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "ballerV2",
+      "hamsterV2",
+      "octopusV2",
+      "baller",
+      "hamster",
+      "octopus"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

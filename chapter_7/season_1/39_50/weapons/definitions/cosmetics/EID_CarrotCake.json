@@ -1,0 +1,90 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CarrotCake",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CarrotCake/Emote_CarrotCake_CMM_M.Emote_CarrotCake_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CarrotCake/Emote_CarrotCake_CMF_M.Emote_CarrotCake_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CarrotCake/Emote_CarrotCake_CLM_M.Emote_CarrotCake_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CarrotCake/Emote_CarrotCake_CLF_M.Emote_CarrotCake_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CE0F71144D2DED4E026D66AB122CEB10",
+      "SourceString": "Mischief Flip",
+      "LocalizedString": "Mischief Flip"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CFAEA9704DD1EFF096A0FEB94CA3B590",
+      "SourceString": "Keep them guessing so they don't see it coming.",
+      "LocalizedString": "Keep them guessing so they don't see it coming."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "0B82015441E9C34457E47DB81921CCF3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-CarrotCake.T-Icon-Emotes-CarrotCake",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S29/T-Icon-Emotes-CarrotCake-L.T-Icon-Emotes-CarrotCake-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.29",
+          "Cosmetics.Set.GorgeousCape"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

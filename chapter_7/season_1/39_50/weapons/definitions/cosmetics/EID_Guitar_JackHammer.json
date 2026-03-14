@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Guitar_JackHammer",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JackHammer/Persistent/Emote_Guitar_JackHammer_CMM_M.Emote_Guitar_JackHammer_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JackHammer/Persistent/Emote_Guitar_JackHammer_CMF_M.Emote_Guitar_JackHammer_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JackHammer/Persistent/Emote_Guitar_JackHammer_CLM_M.Emote_Guitar_JackHammer_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/JackHammer/Persistent/Emote_Guitar_JackHammer_CLF_M.Emote_Guitar_JackHammer_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Guitar_JackHammer:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Guitar/JackHammer/EID_Guitar_JackHammer.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "90968CC84E32D6EF168B40B09D731CD4",
+      "SourceString": "Hammer On",
+      "LocalizedString": "Hammer On"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2DAC424241276B7FE55EF08458F777C2",
+      "SourceString": "Work it. ",
+      "LocalizedString": "Work it. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F867E74A49DF3BD4F01076B2EF2BCB3F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Guitar_JackHammer.T_UI_Icon_SparksEmote_Guitar_JackHammer",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S33/T_UI_Icon_SparksEmote_Guitar_JackHammer_L.T_UI_Icon_SparksEmote_Guitar_JackHammer_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.75
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Filter.Sparks.Season.07",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

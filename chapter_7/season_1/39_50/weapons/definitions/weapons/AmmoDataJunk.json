@@ -1,0 +1,133 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AmmoDataJunk",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T-Ammo-Junk-64x'",
+        "ObjectPath": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk-64x.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "AmmoIconBrush": {
+      "Brush_XXS": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Ammo-Junk-32x'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk-32x.0"
+        }
+      },
+      "Brush_XS": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Ammo-Junk-32x'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk-32x.0"
+        }
+      },
+      "Brush_S": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Ammo-Junk-64x'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk-64x.0"
+        }
+      },
+      "Brush_M": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Ammo-Junk-64x'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk-64x.0"
+        }
+      },
+      "Brush_L": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Ammo-Junk-64x'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk-64x.0"
+        }
+      },
+      "Brush_XL": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Ammo-Junk'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk.0"
+        }
+      }
+    },
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A0232C6446679C38983A0E9D60D0C0BA",
+      "SourceString": "Ammo: Junk",
+      "LocalizedString": "Ammo: Junk"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "7650B2E54FB04ABF03A9D48105ACC354",
+          "SourceString": "Ammo Junk",
+          "LocalizedString": "Ammo Junk"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Items/Schematics/Ammo/T-Ammo-Junk.T-Ammo-Junk",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/PrimalGameplay/Items/Icons/T-T-Icon-BR-JunkGunProjectile-L.T-T-Icon-BR-JunkGunProjectile-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "phoebe.items.ammo"
+        ]
+      }
+    ]
+  }
+}

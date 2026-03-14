@@ -1,0 +1,192 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_RampCanal",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_RampCanal/Meshes/RampCanal_Glider.RampCanal_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/RampCanal/RampCanal_AnimBP.RampCanal_AnimBP_C",
+      "SubPathString": ""
+    },
+    "CameraClass": {
+      "AssetPathName": "/BRCosmetics/Blueprints/Camera/Athena/Athena_PlayerCameraModeSkydive_DerangedMile.Athena_PlayerCameraModeSkydive_DerangedMile_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Skydive/ParaGlide/RampCanal/Player/RampCanal_AnimAsset.RampCanal_AnimAsset",
+      "SubPathString": ""
+    },
+    "AttachSocket": "attach",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/BRCosmetics/Gadgets/Assets/VinderTech_GliderChute/Glider_RampCanal/FX/NS_Glider_RampCanal_Idle.NS_Glider_RampCanal_Idle",
+          "SubPathString": ""
+        },
+        "EffectSocket": "Root",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::FullyDeployed",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RampCanal/IP_MSS_Glider_RampCanal_Open.IP_MSS_Glider_RampCanal_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RampCanal/IP_MSS_Glider_RampCanal_Close.IP_MSS_Glider_RampCanal_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/BRCosmetics/Sounds/Gliders/RampCanal/IP_MSS_Glider_RampCanal_Thrust.IP_MSS_Glider_RampCanal_Thrust",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [],
+    "ShotGridIds": [
+      183797
+    ],
+    "BaseShotGridId": 183797,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B5EB9441410CE5E9E862C69D031557CA",
+      "SourceString": "Kaisel",
+      "LocalizedString": "Kaisel"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3F3EE5CD46E55B979CFB419476A40805",
+      "SourceString": "ARISE on a wyvern's shadow.",
+      "LocalizedString": "ARISE on a wyvern's shadow."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -5.0,
+          "Z": -25.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 110.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S39/T_Icon_Glider_RampCanal.T_Icon_Glider_RampCanal",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Skydiving/S39/T_Icon_Glider_RampCanal_L.T_Icon_Glider_RampCanal_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.PolarStorm",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          359,
+          248,
+          122,
+          105,
+          603,
+          389,
+          613,
+          615,
+          246,
+          708,
+          35,
+          6626
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_EmeraldGlassTransform",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Default",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_EmeraldGlassTransform_Style.CP_Athena_Head_M_EmeraldGlassTransform_Style",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_EmeraldGlassTransform.CP_Athena_Head_M_EmeraldGlassTransform",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/EmeraldGlassTransform/Emote_EmeraldGlass_Transform_CMM_M.Emote_EmeraldGlass_Transform_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_EmeraldGlassTransform.Character_EmeraldGlassTransform",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      60493
+    ],
+    "BaseShotGridId": 60493,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "043092F545DFE79A6F56B997ECB64730",
+      "SourceString": "All Might's Transform",
+      "LocalizedString": "All Might's Transform"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8FABED26492BCD2D45AA86AF09AA37E8",
+      "SourceString": "Unleash your inner power!",
+      "LocalizedString": "Unleash your inner power!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "253D1506476A51A296C650A8394A8FC6",
+      "SourceString": "Built-In Emote",
+      "LocalizedString": "Built-In Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 35.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-EmeraldGlassTransform.T-Icon-Emotes-E-EmeraldGlassTransform",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-EmeraldGlassTransform-L.T-Icon-Emotes-E-EmeraldGlassTransform-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Emote.BuiltIn.Transform",
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Set.FlockCherry",
+          "Cosmetics.UserFacingFlags.BuiltInEmote"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

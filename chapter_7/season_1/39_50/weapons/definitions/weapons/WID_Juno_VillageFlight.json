@@ -1,0 +1,64 @@
+{
+  "Type": "FortWeaponMeleeDualWieldItemDefinition",
+  "Name": "WID_Juno_VillageFlight",
+  "Class": "UScriptClass'FortWeaponMeleeDualWieldItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Custom",
+    "bValidForLastEquipped": false,
+    "bEnableWeaponMeshOverrideUpdates": false,
+    "ReticleImage": {
+      "AssetPathName": "/JunoGame/UI/Reticle/T_UI_Juno_Reticle_Dot.T_UI_Juno_Reticle_Dot",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_juno_villageflight"
+    ],
+    "ItemType": "EFortItemType::Weapon",
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_StackSizes'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_StackSizes.0"
+            },
+            "RowName": "MaxStackSize.Toys"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Tags": [
+          "Weapon.Melee.OverrideControlImmunity",
+          "Juno.Crafting.IgnoreIngredientsForReveal",
+          "Juno.Harvesting.AutoPickup",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Weapon.AllowsFlying",
+          "Juno.Inventory.Group.Hidden",
+          "Juno.Inventory.Item.DontPersist"
+        ]
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_LoudPhoenix",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LoudPhoenix/Emote_LoudPhoenix_CLM_M.Emote_LoudPhoenix_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_040_Emote_LoudPhoenix'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_040_Emote_LoudPhoenix.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_LoudPhoenix.Character_LoudPhoenix",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      70294
+    ],
+    "BaseShotGridId": 70294,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D7B0E6BB46A119D646848BABBB51A0B5",
+      "SourceString": "Barrage Cannon",
+      "LocalizedString": "Barrage Cannon"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "338C2EE94D278C1765C82A8C2F25BF7F",
+      "SourceString": "Ionic intimidation.",
+      "LocalizedString": "Ionic intimidation."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F9493C734F95B51FC6836F9CE73A239A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 80.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-LoudPhoenix.T-Icon-Emotes-LoudPhoenix",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-LoudPhoenix-L.T-Icon-Emotes-LoudPhoenix-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.TorchSour"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Type": "AthenaGliderItemDefinition",
+  "Name": "Glider_ID_Juno_BattleBus",
+  "Class": "UScriptClass'AthenaGliderItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBoundsCenterOffset": {
+      "X": 110.0,
+      "Y": -25.0,
+      "Z": -20.0
+    },
+    "ParachutePrefabClass": {
+      "AssetPathName": "/Game/Athena/Cosmetics/Blueprints/B_Athena_Glider_Generic.B_Athena_Glider_Generic_C",
+      "SubPathString": ""
+    },
+    "SkeletalMesh": {
+      "AssetPathName": "/JunoGame/Glider/SkeletalMesh/SKM_Glider.SKM_Glider",
+      "SubPathString": ""
+    },
+    "GliderMeshTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AnimClass": {
+      "AssetPathName": "/JunoGame/Glider/Animation/AnimBP/ABP_Glider_Gliding.ABP_Glider_Gliding_C",
+      "SubPathString": ""
+    },
+    "PlayerAnimSet": {
+      "AssetPathName": "/JunoGame/Rig/Minifig/Animation/AnimBP/AnimDataAsset/Player/JunoGliderPlayerAnimset.JunoGliderPlayerAnimset",
+      "SubPathString": ""
+    },
+    "AttachSocket": "root",
+    "TrailEffectDefinitions": [
+      {
+        "NiagaraSystem": {
+          "AssetPathName": "/JunoGame/Effects/Gadgets/Glider/NS_Juno_Glider_Base.NS_Juno_Glider_Base",
+          "SubPathString": ""
+        },
+        "EffectSocket": "None",
+        "Offset": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "ActivationMode": "EGliderTrailActivationMode::AutoActivate",
+        "AttachmentMode": "EGliderTrailAttachmentMode::GliderMesh"
+      }
+    ],
+    "OpenSound": {
+      "AssetPathName": "/JunoAudioCore/SFX/Items/Glider/Default/MSS_Glider_Juno_Default_Open.MSS_Glider_Juno_Default_Open",
+      "SubPathString": ""
+    },
+    "CloseSound": {
+      "AssetPathName": "/JunoAudioCore/SFX/Items/Glider/Default/MSS_Glider_Juno_Default_Close.MSS_Glider_Juno_Default_Close",
+      "SubPathString": ""
+    },
+    "ThrustLoopSound": {
+      "AssetPathName": "/JunoAudioCore/SFX/Items/Glider/Default/Glider_Juno_Default_Thrust_Loop_Cue.Glider_Juno_Default_Thrust_Loop_Cue",
+      "SubPathString": ""
+    },
+    "ThrustSoundParams": [
+      {
+        "Key": "ELayeredAudioTriggerDirection::AnyDirection",
+        "Value": {
+          "InterpType": "ELayeredAudioInterpolationType::Linear",
+          "Curve": null,
+          "AttackSpeed": 3.0,
+          "ReleaseSpeed": 2.0,
+          "Oneshots": [
+            {
+              "SoundRef": {
+                "AssetPathName": "/JunoAudioCore/SFX/Items/Glider/Default/MSS_Glider_Juno_Default_Thrust_Start.MSS_Glider_Juno_Default_Thrust_Start",
+                "SubPathString": ""
+              },
+              "GateValue": 0.5,
+              "Direction": "ELayeredAudioTriggerDir::Forward",
+              "FadeWhenOutsideGate": true,
+              "MinTimeSinceTrigger": 0.1,
+              "InterruptFadeTime": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "MaterialOverrides": [
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 0,
+        "OverrideMaterial": {
+          "AssetPathName": "/JunoGame/Glider/Material/MI_LegoStandard_IndexColors_Pawn_Preskinned_Glider_BattleBus.MI_LegoStandard_IndexColors_Pawn_Preskinned_Glider_BattleBus",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ComponentName": "None",
+        "MaterialOverrideIndex": 1,
+        "OverrideMaterial": {
+          "AssetPathName": "/JunoGame/Glider/Material/MI_Lego_FlatUnderside_Glider_BattleBus.MI_Lego_FlatUnderside_Glider_BattleBus",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ShotGridIds": [
+      52399
+    ],
+    "BaseShotGridId": 52399,
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "47D3262E43EEAE406915EC90E939EA78",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "05098888491CC33D6FADCCAEA4EC3DB5",
+      "SourceString": "Standard Battle Glider. ",
+      "LocalizedString": "Standard Battle Glider. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F6696CF34A757AA818C004912AAFEC0F",
+      "SourceString": "Glider",
+      "LocalizedString": "Glider"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -10.0,
+          "Yaw": 115.0,
+          "Roll": 10.0
+        },
+        "Scale": 0.95
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-DefaultMarkIIIGlider.T-Icon_Glider-DefaultMarkIIIGlider",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Skydiving/T-Icon_Glider-DefaultMarkIIIGlider-L.T-Icon_Glider-DefaultMarkIIIGlider-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.DefaultItem"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

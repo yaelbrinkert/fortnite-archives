@@ -1,0 +1,111 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Ammo_HoneyFiber_Incident",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType",
+      "ImageType": "ESlateBrushImageType::FullColor",
+      "ImageSize": {
+        "X": 128.0,
+        "Y": 128.0
+      }
+    },
+    "AmmoIconBrush": {
+      "Brush_XXS": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "Brush_XS": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "Brush_S": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "Brush_M": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "Brush_L": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "Brush_XL": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      }
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 50.000046,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      }
+    ]
+  }
+}

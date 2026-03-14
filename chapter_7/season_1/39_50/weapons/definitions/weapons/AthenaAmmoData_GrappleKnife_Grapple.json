@@ -1,0 +1,53 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_GrappleKnife_Grapple",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageSize": {
+        "X": 90.0,
+        "Y": 85.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'Grapple_Extend_Normal'",
+        "ObjectPath": "/Game/Athena/HUD/Art/BacchusHudIcons/Grapple_Extend_Normal.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/Game/Athena/HUD/Art/BacchusHudIcons/Grapple_Extend_Normal.Grapple_Extend_Normal",
+      "SubPathString": ""
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 4.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/HUD/Art/BacchusHudIcons/Grapple_Extend_Normal.Grapple_Extend_Normal",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      }
+    ]
+  }
+}

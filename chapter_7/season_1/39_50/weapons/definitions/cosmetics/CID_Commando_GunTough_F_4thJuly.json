@@ -1,0 +1,76 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Commando_GunTough_F_4thJuly",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/Female/Medium/Commando/Commando_Female_Body_Montage_Idle.Commando_Female_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Commando_GunTough_F_4thJuly:CP_158_Athena_Body_F_StarsAndStripes'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Commando/CosmeticCharacterItemDefinitions/CID_Commando_GunTough_F_4thJuly.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7643A1C84438349603C073B4A83267F6",
+      "SourceString": "Star-Spangled Headhunter",
+      "LocalizedString": "Star-Spangled Headhunter"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "65781999498122A67A9CD885CDE551EF",
+      "SourceString": "Make 'em see stars.",
+      "LocalizedString": "Make 'em see stars."
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Soldier/Portrait/T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02.T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Soldier/Portrait/T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L.T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Lime_Tabasco_Shuriken_T2",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/TabascoShuriken/Gameplay/BP_Lime_Tabasco_Shuriken.BP_Lime_Tabasco_Shuriken_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/TabascoShuriken/Assets/Meshes/SKM_Shuriken_T2.SKM_Shuriken_T2",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Lime_Tabasco_Shuriken_RangedWeapons'",
+        "ObjectPath": "/TabascoShuriken/Gameplay/DataTables/Lime_Tabasco_Shuriken_RangedWeapons.0"
+      },
+      "RowName": "Shuriken_T2"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/TabascoShuriken/Gameplay/GA_Lime_Tabasco_Shuriken_PrimaryFire.GA_Lime_Tabasco_Shuriken_PrimaryFire_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/TabascoShuriken/Gameplay/GA_Lime_Tabasco_Shuriken_SecondaryFire_TripleShot.GA_Lime_Tabasco_Shuriken_SecondaryFire_TripleShot_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/TabascoShuriken/Gameplay/AS_Lime_Tabasco_Shuriken.AS_Lime_Tabasco_Shuriken",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoInfinite_NoIcon.AmmoInfinite_NoIcon",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bShouldMagazineSizeDisplayInfinity": true,
+    "bAllowSecondaryFireToInterruptPrimary": true,
+    "bAllowTargetingDuringReload": true,
+    "bReticleCornerOutsideSpreadRadius": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_2x10_line.HUD_Xhair_2x10_line",
+      "SubPathString": ""
+    },
+    "PlayerGrantedGameplayTags": [
+      "Granted.ItemEquipped.Ranged"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_lime_tabasco_shuriken_t2"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Lime",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    "ItemName": {
+      "Namespace": "Juno_UpdateItemData",
+      "Key": "1BC230364C5E2F81F609899227BD559C",
+      "SourceString": "Shurikens",
+      "LocalizedString": "Shurikens"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EE6508734751A0ED850646BF41D8ED20",
+      "SourceString": "Razor-sharp throwing stars favored by the ninja.",
+      "LocalizedString": "Razor-sharp throwing stars favored by the ninja."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EC76712E4C87F1D4B97F1592C1239573",
+      "SourceString": "Razor-sharp throwing stars favored by the ninja.",
+      "LocalizedString": "Razor-sharp throwing stars favored by the ninja."
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/TabascoShuriken/Icons/T_Icon_TabascoShuriken.T_Icon_TabascoShuriken",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/TabascoShuriken/Assets/Meshes/SKM_Shuriken_T2.SKM_Shuriken_T2",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/Lime/PickUps/B_Pickup_Override_Lime.B_Pickup_Override_Lime_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.12941022,
+            "Y": -0.12940948,
+            "Z": 0.017037174,
+            "W": 0.98296285,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Hero-Ninja-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Hero-Ninja-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/TabascoShuriken/Assets/Audio/MSS_Lime_Tabasco_Shuriken_Pickup.MSS_Lime_Tabasco_Shuriken_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/TabascoShuriken/Assets/Audio/MSS_Lime_Tabasco_Shuriken_Drop.MSS_Lime_Tabasco_Shuriken_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/TabascoShuriken/Assets/Audio/MSS_Lime_Tabasco_Shuriken_Land.MSS_Lime_Tabasco_Shuriken_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.9699607,
+          "Y": 24.810787,
+          "Z": 24.912346
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "DC354F0B4A64379BFE5790BD190BE886",
+          "SourceString": "Throwing Projectiles",
+          "LocalizedString": "Throwing Projectiles"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/TabascoShuriken/Gameplay/BP_Lime_Tabasco_Shuriken_Projectile.BP_Lime_Tabasco_Shuriken_Projectile_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Item.Weapon.TwoHanded",
+          "Weapon.OptOutLoopingLWPWeaponSingleFireAnim",
+          "Item.Weapon.Ranged",
+          "Lime.Item.Weapon.Ranged",
+          "Rarity.Uncommon",
+          "Lime.Item.Guard",
+          "Behavior.Injection.Lime.Behaviors.Ranged"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.HasDurability"
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_Lime_Tabasco_Shuriken'",
+            "ObjectPath": "/TabascoShuriken/Assets/Audio/SL_Lime_Tabasco_Shuriken.0"
+          },
+          {
+            "ObjectName": "SoundLibrary'SL_Lime_Tabasco_Shuriken_Impacts'",
+            "ObjectPath": "/TabascoShuriken/Assets/Audio/SL_Lime_Tabasco_Shuriken_Impacts.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "Tier": "EFortItemTier::II",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/TabascoShuriken/Icons/T_Icon_TabascoShuriken_L.T_Icon_TabascoShuriken_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

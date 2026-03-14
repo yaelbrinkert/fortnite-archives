@@ -1,0 +1,93 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_HeldObject_Component_Nug",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/Irwin/AI/Prey/Nug/Abilities/PlayerAbilities/B_HeldObject_Generic_Component_Nug.B_HeldObject_Generic_Component_Nug_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Athena_IceGrenade"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/HeldObjects/HeldObjectVersion2/GA_HeldObject_Throw_Component_AI.GA_HeldObject_Throw_Component_AI_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/Game/Athena/Items/HeldObjects/HeldObjectVersion2/GA_HeldObject_Place_Component.GA_HeldObject_Place_Component_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Items/HeldObjects/HeldObjectVersion2/GA_HeldObject_Component_Passive.GA_HeldObject_Component_Passive_C",
+        "SubPathString": ""
+      }
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_heldobject_component_nug"
+    ],
+    "Rarity": "EFortRarity::Unattainable",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "4DA8DB8F439DB7E50B6DD5ACC709D36C",
+      "SourceString": "Held Item",
+      "LocalizedString": "Held Item"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Default"
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "Athena.ItemAction.Throw"
+        ]
+      }
+    ]
+  }
+}

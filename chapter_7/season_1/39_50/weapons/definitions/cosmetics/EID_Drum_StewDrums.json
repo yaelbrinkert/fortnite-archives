@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Drum_StewDrums",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/StewDrums/Persistent/Emote_Drum_StewDrums_CMM_M.Emote_Drum_StewDrums_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/StewDrums/Persistent/Emote_Drum_StewDrums_CMF_M.Emote_Drum_StewDrums_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/StewDrums/Persistent/Emote_Drum_StewDrums_CLM_M.Emote_Drum_StewDrums_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/StewDrums/Persistent/Emote_Drum_StewDrums_CLF_M.Emote_Drum_StewDrums_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Drum_StewDrums:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Drum/StewDrums/EID_Drum_StewDrums.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AAA999724CC926D551BE6AA6CEC721F2",
+      "SourceString": "Roll Up",
+      "LocalizedString": "Roll Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "54B87C534F44D589FADBB4A368CECDC8",
+      "SourceString": "Roar with the crowd.",
+      "LocalizedString": "Roar with the crowd."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E640EB48488313B15B855CBD830F40FB",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Drum-stewdrum.T-UI-Icon-SparksEmote-Drum-stewdrum",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S28/Icons/T-UI-Icon-SparksEmote-Drum-stewdrum-L.T-UI-Icon-SparksEmote-Drum-stewdrum-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

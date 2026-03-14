@@ -1,0 +1,93 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Stamina_AmmoData",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T-Icon-Blank'",
+        "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "AmmoIconBrush": {
+      "Brush_XS": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_S": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_M": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      },
+      "Brush_L": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Blank'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Blank.0"
+        }
+      }
+    },
+    "Rarity": "EFortRarity::Common",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 99.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Items/Accolades/Materials/Textures/T_UI_Accolades_WebSlinger.T_UI_Accolades_WebSlinger",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -5.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.999997,
+          "Yaw": -179.99995,
+          "Roll": -3.0000033
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

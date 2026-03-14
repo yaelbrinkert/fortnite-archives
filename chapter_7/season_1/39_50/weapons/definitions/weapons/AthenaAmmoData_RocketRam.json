@@ -1,0 +1,60 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "AthenaAmmoData_RocketRam",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType",
+      "ImageSize": {
+        "X": 128.0,
+        "Y": 128.0
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "AmmoIconBrush": {
+      "Brush_XXS": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_XS": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_S": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_M": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_L": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Brush_XL": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 4.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      }
+    ]
+  }
+}

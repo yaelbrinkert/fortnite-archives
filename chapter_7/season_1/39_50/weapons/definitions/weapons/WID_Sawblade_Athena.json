@@ -1,0 +1,372 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Sawblade_Athena",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/SawbladeGun/Items/SawbladeGun/B_SawbladeGun_Athena.B_SawbladeGun_Athena_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/SawbladeGun/Items/SawbladeGun/Meshes/Sawblade_Gun.Sawblade_Gun",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "SawbladeGun_Athena_R_Ore_T03"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SawbladeGun/Items/SawbladeGun/GA_Ranged_SawbladeGun.GA_Ranged_SawbladeGun_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/SawbladeGun/Items/SawbladeGun/GA_Daisy_SawbladeGun_AmmoDepleted.GA_Daisy_SawbladeGun_AmmoDepleted_C",
+        "SubPathString": ""
+      }
+    ],
+    "AmmoData": {
+      "AssetPathName": "/SawbladeGun/Items/SawbladeGun/AthenaAmmoDataDaisySawbladeGun.AthenaAmmoDataDaisySawbladeGun",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::OnRelease",
+    "bUsesPhantomReserveAmmo": true,
+    "ReticleCornerAngles": [],
+    "AnalyticTags": [
+      "Weapon.Ranged.Heavy",
+      "Item.Consumable.Sawblade"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Heavy",
+      "Item.Consumable.Sawblade",
+      "Tag:Weapon:wid_sawblade_athena"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Special",
+        "Rare",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "E54E15F740F256987ED5758FE7EAA71D",
+      "SourceString": "Ripsaw Launcher",
+      "LocalizedString": "Ripsaw Launcher"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EDFC2D024BAD4BFBB0B7C59293A4B14D",
+      "SourceString": "Built for felling trees, but good at taking down just about anything.",
+      "LocalizedString": "Built for felling trees, but good at taking down just about anything."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "88A50B5E425EEB419271068E2FFDD051",
+      "SourceString": "Shoots blades of destruction",
+      "LocalizedString": "Shoots blades of destruction"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/SawbladeGun/Items/SawbladeGun/Prj_Athena_Sawblade.Prj_Athena_Sawblade_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/SawbladeGun/Items/SawbladeGun/Meshes/Sawblade_Gun.Sawblade_Gun",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Explosive-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Explosive-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/SawbladeGun/Items/SawbladeGun/Sounds/SawBladeGun_Pickup_Cue.SawBladeGun_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/SawbladeGun/Items/SawbladeGun/Sounds/SawBladeGun_Drop_Cue.SawBladeGun_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/UI_DropWeaponImpact_Launcher_Cue.UI_DropWeaponImpact_Launcher_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 12.404386,
+          "Y": 54.433147,
+          "Z": 22.134308
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -9.206897,
+          "Yaw": 20.854452,
+          "Roll": -20.854452
+        },
+        "Scale": 1.1
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "578E12814E963208AB38DDA60E7D5FE2",
+          "SourceString": "Guns Ranged Grenade Launcher AOE",
+          "LocalizedString": "Guns Ranged Grenade Launcher AOE"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SawbladeGun/Items/SawbladeGun/Icons/T-Icon-Weapons-SawBladeGun.T-Icon-Weapons-SawBladeGun",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SawbladeGun/Items/SawbladeGun/Icons/T-Icon-Weapons-SawBladeGun-L.T-Icon-Weapons-SawBladeGun-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Rarity.Rare",
+          "Item.Consumable.Sawblade",
+          "Item.Weapon.Ranged.ImpulsePhysicsObjects",
+          "HUD.PreferredSlotType.Launcher",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Creative.Item.SpawnWithAtLeast1Ammo",
+          "Item.UsesNonConsumableAmmo"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Moonflax_FlamingHoops_Spawner",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/FlamingHoopsGameplay/Gameplay/Actors/B_Weap_Moonflax_FlamingHoop_Spawner.B_Weap_Moonflax_FlamingHoop_Spawner_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_Placeholder"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/FlamingHoopsGameplay/Gameplay/Abilities/GA_Moonflax_FlamingHoops_Throw.GA_Moonflax_FlamingHoops_Throw_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/FlamingHoopsGameplay/Gameplay/WID_Moonflax_FlamingHoops_Spawner.WID_Moonflax_FlamingHoops_Spawner",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_moonflax_flaminghoops_spawner"
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "410C1E884A06D70409C35E9B68E558D6",
+      "SourceString": "Flaming Hoops Spawner",
+      "LocalizedString": "Flaming Hoops Spawner"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "AB6A955247F88FE80BF6D595A3E9B1A1",
+      "SourceString": "Use to spawn a flaming hoop BGA",
+      "LocalizedString": "Use to spawn a flaming hoop BGA"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "WideIcon": {
+          "AssetPathName": "/Game/Athena/HUD/Art/BacchusHudIcons/Snap_Level_Off_Normal.Snap_Level_Off_Normal",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/HUD/Art/BacchusHudIcons/Snap_Level_Off_Normal.Snap_Level_Off_Normal",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

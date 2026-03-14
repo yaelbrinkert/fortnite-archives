@@ -1,0 +1,135 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Emperor",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Into",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.Emperor.Suit"
+        },
+        "bRequireCharacterPart": true,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Emperor_Suit.CP_Athena_Body_M_Emperor_Suit",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Exit",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "Cosmetics.Variant.Meta.Emperor.Super"
+        },
+        "bRequireCharacterPart": true,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Emperor.CP_Athena_Body_M_Emperor",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Emperor/Emote_Emperor_M.Emote_Emperor_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "Cosmetics.Emote.Emperor"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_018_Emote_EmperorStyle'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_018_Emote_EmperorStyle.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_109_Athena_Commando_M_Emperor.CID_A_109_Athena_Commando_M_Emperor",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      42428
+    ],
+    "BaseShotGridId": 42428,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1A8CBF314711D08CF542C691944F1C9F",
+      "SourceString": "Secret Identity",
+      "LocalizedString": "Secret Identity"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CF6D2FC5495B058BE042609EB1E78A6E",
+      "SourceString": "Tell no one.",
+      "LocalizedString": "Tell no one."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FAD252554C859D06B4CDFBA9BEC915CA",
+      "SourceString": "Built-in Emote",
+      "LocalizedString": "Built-in Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.17",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Source.Season17.BattlePass.Paid",
+          "Cosmetics.Set.PortionCut",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Emote.BuiltIn.Transform"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'DCUSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/DCUSeries.0"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Emperor.T-Icon-Emotes-E-Emperor",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Emperor-L.T-Icon-Emotes-E-Emperor-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

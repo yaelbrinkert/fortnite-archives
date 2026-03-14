@@ -1,0 +1,90 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_InspireSpell",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/InspireSpell/Emote_InspireSpell_CMM_M.Emote_InspireSpell_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/InspireSpell/Emote_InspireSpell_CMF_M.Emote_InspireSpell_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/InspireSpell/Emote_InspireSpell_CLM_M.Emote_InspireSpell_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/InspireSpell/Emote_InspireSpell_CLF_M.Emote_InspireSpell_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      59950
+    ],
+    "BaseShotGridId": 59950,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B616EF4A4456535CEF29B0A1BCFDDBE9",
+      "SourceString": "Target Training",
+      "LocalizedString": "Target Training"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "98EFB2464A4D4BF645539DB83F913E08",
+      "SourceString": "Keep your eyes on the mitts.",
+      "LocalizedString": "Keep your eyes on the mitts."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "244A9D2A450B8C2C22AD988A421DB70B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Set.TaxiSell"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-InspireSpell.T-Icon-Emotes-InspireSpell",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-InspireSpell-L.T-Icon-Emotes-InspireSpell-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

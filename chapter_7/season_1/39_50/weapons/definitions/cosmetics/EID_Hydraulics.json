@@ -1,0 +1,130 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Hydraulics",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Hydraulics/Emote_Hydraulics_CMM_M_FE.Emote_Hydraulics_CMM_M_FE",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Hydraulics/Emote_Hydraulics_CMF_M_FE.Emote_Hydraulics_CMF_M_FE",
+      "SubPathString": ""
+    },
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Hydraulics/Emote_Hydraulics_CMM_M.Emote_Hydraulics_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Hydraulics/Emote_Hydraulics_CMF_M.Emote_Hydraulics_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Hydraulics/Emote_Hydraulics_CLM_M.Emote_Hydraulics_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/Game/Animation/Game/MainPlayer/Emotes/Hydraulics/Emote_Hydraulics_CLF_M.Emote_Hydraulics_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "PreviewLength": 63.800083,
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 15.0,
+      "Roll": 0.0
+    },
+    "ShotGridIds": [
+      38638
+    ],
+    "BaseShotGridId": 38638,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DF970A614C0C710F934E1F9DC38B1A0C",
+      "SourceString": "Lil' Bounce",
+      "LocalizedString": "Lil' Bounce"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EE4B928340FD551F2C7037BF8A4F8509",
+      "SourceString": "Custom built with lil' hydraulics. ",
+      "LocalizedString": "Custom built with lil' hydraulics. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "91C1F2D14AC4F950BB37C78C58B01255",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Filter.Season.18",
+          "Emote.Mech.Disabled.Design",
+          "Emote.Mech.Disabled.Art",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Hydraulics.T-Icon-Emotes-E-Hydraulics",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Hydraulics-L.T-Icon-Emotes-E-Hydraulics-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -24.893133
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

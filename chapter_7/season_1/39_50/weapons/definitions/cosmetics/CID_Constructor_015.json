@@ -1,0 +1,76 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_Constructor_015",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/SaveTheWorld/Animation/Game/MainPlayer/Menu/Male/Large/Constructor/Constructor_Male_Body_Montage_Idle.Constructor_Male_Body_Montage_Idle",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/LargeMale.LargeMale",
+      "SubPathString": ""
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_Constructor_015:CP_Head_Constructor_015'",
+        "ObjectPath": "/SaveTheWorld/Heroes/Constructor/CosmeticCharacterItemDefinitions/CID_Constructor_015.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "65EBF5B54764CFC21D04BC8E98A93AA9",
+      "SourceString": "Heavy B.A.S.E. Kyle",
+      "LocalizedString": "Heavy B.A.S.E. Kyle"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CDC4E5BF4AADAFCA9581C5BAD9C0EAF6",
+      "SourceString": "\"This isn't even that heavy.\" - Kyle",
+      "LocalizedString": "\"This isn't even that heavy.\" - Kyle"
+    },
+    "ItemShortDescription": {
+      "Namespace": "CharacterItemDefinition",
+      "Key": "CharacterShortDescription",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-015-R-T01.T-Constructor-HID-Constructor-015-R-T01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Constructor/Portrait/T-Constructor-HID-Constructor-015-R-T01-L.T-Constructor-HID-Constructor-015-R-T01-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Source.CampaignHero",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "SoundLibrary.ID.ClothingType.GearTactical",
+          "SoundLibrary.ID.HandType.Bare",
+          "SoundLibrary.ID.StepType.BootsCombat"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

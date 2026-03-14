@@ -1,0 +1,84 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Ghost",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Backpack_Med_Empty'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Common/CP_Backpack_Med_Empty.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Body_Ghost'",
+        "ObjectPath": "/SaveTheWorld/Characters/CharacterParts/Male/Medium/Bodies/CP_Body_Ghost.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Head_AllSizes_Empty'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Common/CP_Head_AllSizes_Empty.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Hat'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoFaceAccessory'",
+        "ObjectPath": "/Game/Characters/CharacterParts/FaceAccessories/NoFaceAccessory.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoCharm'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Shoe_Empty'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Common/CP_Shoe_Empty.1"
+      }
+    ],
+    "FootstepBankOverride": {
+      "AssetPathName": "/Game/Athena/Sounds/Character/Footsteps/GhostRocksFootstepBankAthena.GhostRocksFootstepBankAthena",
+      "SubPathString": ""
+    },
+    "AbilitySet": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Generic/Gadgets/Ghost/AS_Ghost.AS_Ghost",
+      "SubPathString": ""
+    },
+    "GameplayAbility": {
+      "AssetPathName": "/Game/Athena/Items/ForagedItems/SpookyMist/GA_SpookyMist_EMPTYABILITY.GA_SpookyMist_EMPTYABILITY_C",
+      "SubPathString": ""
+    },
+    "WeaponItemDefinition": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Generic/Gadgets/Ghost/D_Ghost.D_Ghost",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::Gadget",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8DA582B842DB71763F1DAA9FA091456F",
+      "SourceString": "Shadow Stone",
+      "LocalizedString": "Shadow Stone"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/HUD/T-Items2-GhostMode.T-Items2-GhostMode",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/HUD/T-Items2-GhostMode-L.T-Items2-GhostMode-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

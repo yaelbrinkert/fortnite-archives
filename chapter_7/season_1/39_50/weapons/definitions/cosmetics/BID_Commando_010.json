@@ -1,0 +1,52 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "BID_Commando_010",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'Male_Commando_03_V01'",
+        "ObjectPath": "/SaveTheWorld/Characters/CharacterParts/Backpacks/Male_Commando_03_V01.1"
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'BID_Commando_010:Male_Commando_03_V01'",
+        "ObjectPath": "/SaveTheWorld/Items/Cosmetics/Backpacks/Commando/BID_Commando_010.1"
+      }
+    ],
+    "bIsOwnedByCampaignHero": true,
+    "Rarity": "EFortRarity::Epic",
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Commando-010-VariantEpic.T-Icon-Backpacks-Commando-010-VariantEpic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Backpacks/T-Icon-Backpacks-Commando-010-VariantEpic-L.T-Icon-Backpacks-Commando-010-VariantEpic-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Source.CampaignHero"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

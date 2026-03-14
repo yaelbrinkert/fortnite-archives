@@ -1,0 +1,82 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_ArmadilloRobot",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ArmadilloRobot/ArmadilloRobot_CMM_M.ArmadilloRobot_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/ArmadilloRobot/ArmadilloRobot_CMM_M.ArmadilloRobot_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_418_Athena_Commando_M_ArmadilloRobot.CID_A_418_Athena_Commando_M_ArmadilloRobot",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      57509
+    ],
+    "BaseShotGridId": 57509,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CB0A9D0A4FEA197A29791BBB1527E785",
+      "SourceString": "The Heartbreaker",
+      "LocalizedString": "The Heartbreaker"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CEB7F5DB46EFA43181B0BA8C316DD6A0",
+      "SourceString": "Put your heart into it. ",
+      "LocalizedString": "Put your heart into it. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E5D4AE0347F8515C78AE06A83224F7BE",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.CrashContact",
+          "Cosmetics.Filter.Season.21"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-ArmadilloRobotEmote.T-Icon-Emotes-ArmadilloRobotEmote",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-ArmadilloRobotEmote-L.T-Icon-Emotes-ArmadilloRobotEmote-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CrewSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CrewSeries.0"
+        }
+      }
+    ]
+  }
+}

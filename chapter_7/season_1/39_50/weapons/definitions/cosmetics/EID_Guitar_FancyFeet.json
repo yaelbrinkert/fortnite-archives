@@ -1,0 +1,111 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Guitar_FancyFeet",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/FancyFeet/Persistent/Emote_Guitar_FancyFeet_CMM_M.Emote_Guitar_FancyFeet_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Guitar/FancyFeet/Persistent/Emote_Guitar_FancyFeet_CMF_M.Emote_Guitar_FancyFeet_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/FancyFeet/Persistent/Emote_Guitar_FancyFeet_CLM_M.Emote_Guitar_FancyFeet_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Guitar/FancyFeet/Persistent/Emote_Guitar_FancyFeet_CLF_M.Emote_Guitar_FancyFeet_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Guitar_FancyFeet:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Guitar/FancyFeet/EID_Guitar_FancyFeet.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D14F54A746B327213BEAC99A60A13DB2",
+      "SourceString": "Classy Strut",
+      "LocalizedString": "Classy Strut"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "292AB94846CD261A6E7B10BEF8E72D56",
+      "SourceString": "Class up the act. ",
+      "LocalizedString": "Class up the act. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "C646BF1B466AF467A5034BA3D772B856",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S29/Icons/T-UI-Icon-SparksEmote-Guitar-FancyFeet.T-UI-Icon-SparksEmote-Guitar-FancyFeet",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S29/Icons/T-UI-Icon-SparksEmote-Guitar-FancyFeet-L.T-UI-Icon-SparksEmote-Guitar-FancyFeet-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season.31"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

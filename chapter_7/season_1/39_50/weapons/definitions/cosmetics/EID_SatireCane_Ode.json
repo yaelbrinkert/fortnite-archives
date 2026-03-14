@@ -1,0 +1,115 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SatireCane_Ode",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SatireCane_Ode/CMM/Emote_SatireCane_Ode_CMM_M.Emote_SatireCane_Ode_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SatireCane_Ode/CMF/Emote_SatireCane_Ode_CMF_M.Emote_SatireCane_Ode_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SatireCane_Ode/CLM/Emote_SatireCane_Ode_CLM_M.Emote_SatireCane_Ode_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SatireCane_Ode/CLF/Emote_SatireCane_Ode_CLF_M.Emote_SatireCane_Ode_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 15.0,
+      "Roll": 0.0
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_SatireCane_Ode:FortCosmeticLoadoutTagDrivenVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_SatireCane_Ode.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D2EDDC2C473EEAE4AB152FA9535D7EA3",
+      "SourceString": "Dragon Dagger's Song",
+      "LocalizedString": "Dragon Dagger's Song"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "38DAF66D4715C18BE9491082DDC043D4",
+      "SourceString": "Summon the Dragonzord.",
+      "LocalizedString": "Summon the Dragonzord."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "4044B63D46EE0239115352A6296D9B26",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 5.0,
+          "Y": 80.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.SuperSentai"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_SatireCane_Ode.T_Icon_Emotes_SatireCane_Ode",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_SatireCane_Ode_L.T_Icon_Emotes_SatireCane_Ode_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

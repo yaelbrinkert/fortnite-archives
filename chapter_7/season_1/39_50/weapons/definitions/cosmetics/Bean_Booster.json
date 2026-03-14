@@ -1,0 +1,75 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_Booster",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Cap.CP_Bean_Head_Cap",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_Booster:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_Booster.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A51A297A46030344064DC689CB22E717",
+      "SourceString": "The Engineer",
+      "LocalizedString": "The Engineer"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0FE1D04E44D21DC022EFE3A867C25584",
+      "SourceString": "Create something masterful.",
+      "LocalizedString": "Create something masterful."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "AC45A76F406811517F51E889A86DD799",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.BookMaker"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_Booster.T_Bean_Booster",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_Booster_L.T_Bean_Booster_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

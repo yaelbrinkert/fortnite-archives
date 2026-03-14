@@ -1,0 +1,112 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Mic_BalletDancer",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Mic/BalletDancer/Persistent/Emote_Mic_BalletDancer_CMM_M.Emote_Mic_BalletDancer_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Mic/BalletDancer/Persistent/Emote_Mic_BalletDancer_CMF_M.Emote_Mic_BalletDancer_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Mic/BalletDancer/Persistent/Emote_Mic_BalletDancer_CLM_M.Emote_Mic_BalletDancer_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Mic/BalletDancer/Persistent/Emote_Mic_BalletDancer_CLF_M.Emote_Mic_BalletDancer_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Mic_BalletDancer:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Mic/BalletDancer/EID_Mic_BalletDancer.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "C8572A9046177E05B946B69370B26AE5",
+      "SourceString": "En Point",
+      "LocalizedString": "En Point"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1F7DF6174F980023FDC8489DEAC2A210",
+      "SourceString": "Stay on your toes. ",
+      "LocalizedString": "Stay on your toes. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7C00A76A491978A2D2C54D8D5564726A",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S31/Icon/T_UI_Icon_SparksEmote_Mic_BalletDancer.T_UI_Icon_SparksEmote_Mic_BalletDancer",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S31/Icon/T_UI_Icon_SparksEmote_Mic_BalletDancer_L.T_UI_Icon_SparksEmote_Mic_BalletDancer_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.7
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks",
+          "Cosmetics.Filter.Season.31"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Griddles",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 240.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Griddles/Emote_Griddle_CMM_M.Emote_Griddle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Griddles/Emote_Griddle_CMF_M.Emote_Griddle_CMF_M",
+      "SubPathString": ""
+    },
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "87A234CC446184BB73572FA32D97B867",
+      "SourceString": "Get Griddy",
+      "LocalizedString": "Get Griddy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3D79ECB843D846922446FEBEE93D672F",
+      "SourceString": "Keep your eye on the end zone.",
+      "LocalizedString": "Keep your eye on the end zone."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9F9E876E4487714D97D419A55B0B8979",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Griddles.T-Icon-Emotes-E-Griddles",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Griddles-L.T-Icon-Emotes-E-Griddles-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.16",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Emote.Mech.Disabled.Design",
+          "Cosmetics.UserFacingFlags.Emote.Dance"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

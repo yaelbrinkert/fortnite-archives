@@ -1,0 +1,143 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CoolSlice",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CMM/Emote_CoolSlice_CMM_M_FE.Emote_CoolSlice_CMM_M_FE",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CMF/Emote_CoolSlice_CMF_M_FE.Emote_CoolSlice_CMF_M_FE",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CLM/Emote_CoolSlice_CLM_M_FE.Emote_CoolSlice_CLM_M_FE",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CLF/Emote_CoolSlice_CLF_M_FE.Emote_CoolSlice_CLF_M_FE",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 298.45,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CMM/Emote_CoolSlice_CMM_M.Emote_CoolSlice_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CMF/Emote_CoolSlice_CMF_M.Emote_CoolSlice_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CLM/Emote_CoolSlice_CLM_M.Emote_CoolSlice_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CoolSlice/CLF/Emote_CoolSlice_CLF_M.Emote_CoolSlice_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 40.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_CoolSlice:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_CoolSlice.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "88FF05F44D576567486B18A852134599",
+      "SourceString": "Stupid Sexy Skiing",
+      "LocalizedString": "Stupid Sexy Skiing"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "1A31FF8D4FF4087488869B86E8965928",
+      "SourceString": "Feels like you're skiing on nothing at all.",
+      "LocalizedString": "Feels like you're skiing on nothing at all."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A7F0B35A4585F04D5D54DE96D56F0EBF",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 250.0,
+          "Z": 50.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Set.RubberTires",
+          "Cosmetics.Filter.Season.38"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_CoolSlice.T_Icon_Emotes_CoolSlice",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S38/T_Icon_Emotes_CoolSlice_L.T_Icon_Emotes_CoolSlice_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

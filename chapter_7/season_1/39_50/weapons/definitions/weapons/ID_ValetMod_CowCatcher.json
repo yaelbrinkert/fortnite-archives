@@ -1,0 +1,326 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "ID_ValetMod_CowCatcher",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/CowCatcherMod/Mods/CowCatcher/B_ValetMod_CowCatcher_WeaponActor.B_ValetMod_CowCatcher_WeaponActor_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_NonDamaging"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/CowCatcherMod/Mods/CowCatcher/GA_ValetMod_CowCatcher_With_Trajectory.GA_ValetMod_CowCatcher_With_Trajectory_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/CowCatcherMod/Mods/CowCatcher/GA_ValetMod_CowCatcher_SecondaryTrajectory.GA_ValetMod_CowCatcher_SecondaryTrajectory_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/CowCatcherMod/Mods/CowCatcher/ID_ValetMod_CowCatcher.ID_ValetMod_CowCatcher",
+      "SubPathString": ""
+    },
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:id_valetmod_cowcatcher"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "CommonItem",
+        "Deployable",
+        "Item",
+        "Rebellion",
+        "Throwable"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "2CE21EC24597307A26FC61A646E656F2",
+      "SourceString": "Vehicle Mod: Cow Catcher",
+      "LocalizedString": "Vehicle Mod: Cow Catcher"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "943B84714B5B5BF8126E149285350890",
+      "SourceString": "Bunker down or mod your vehicle to bulldoze everything in your path.",
+      "LocalizedString": "Bunker down or mod your vehicle to bulldoze everything in your path."
+    },
+    "DataList": [
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CowCatcherModGameData'",
+              "ObjectPath": "/CowCatcherMod/DataTables/CowCatcherModGameData.0"
+            },
+            "RowName": "Default.ValetMod.CowCatcher.StackSize"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/CowCatcherMod/Mods/CowCatcher/Meshes/Cow_Catcher.Cow_Catcher",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.15571475,
+            "Y": -0.09466559,
+            "Z": -0.014993596,
+            "W": 0.9831411,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.9999999
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.2,
+            "Y": 0.25,
+            "Z": 0.25
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/CowCatcherMod/Sound/CowCatcher_Pickup_Cue.CowCatcher_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/CowCatcherMod/Sound/CowCatcher_Drop_Cue.CowCatcher_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/CowCatcherMod/Sound/CowCatcher_DropImpact_Cue.CowCatcher_DropImpact_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 80.9444,
+          "Y": 106.44261,
+          "Z": 63.781902
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "66AD740A406F10FBF974ECAAD3B45C79",
+          "SourceString": "UtilityItem cow catcher cowcatcher Valet Mod valetmod vehicle mod",
+          "LocalizedString": "UtilityItem cow catcher cowcatcher Valet Mod valetmod vehicle mod"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::I"
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/CowCatcherMod/Mods/CowCatcher/Icons/T-T-Icon-BR-CowCatcher.T-T-Icon-BR-CowCatcher",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/CowCatcherMod/Mods/CowCatcher/Icons/T-T-Icon-BR-CowCatcher-L.T-T-Icon-BR-CowCatcher-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Rarity.Common",
+          "Weapon.IgnoresTriggerHaptics",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Athena.ItemAction.Throw",
+          "Athena.ItemAction.Secondary.Throw",
+          "Item.Consumable",
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Utility",
+          "Item.ValetMod.CowCatcher"
+        ]
+      }
+    ]
+  }
+}

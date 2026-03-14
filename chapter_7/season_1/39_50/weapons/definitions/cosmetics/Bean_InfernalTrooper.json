@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_InfernalTrooper",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_Helmet.CP_Bean_Head_Helmet",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_BattleReady.CP_Bean_Body_BattleReady",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_InfernalTrooper:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_InfernalTrooper.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B3C096C34BF7D56D96C073BB546F271B",
+      "SourceString": "Molten Metal Mouth",
+      "LocalizedString": "Molten Metal Mouth"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "340F24524B950DED4BA12790EB6C614E",
+      "SourceString": "What hides behind those burning eyes?",
+      "LocalizedString": "What hides behind those burning eyes?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E0AB3C9545F5C91C7BAEFEA8ABDD86AC",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Cosmetics.Filter.Season.36",
+          "Cosmetics.Set.HotFace"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_InfernalTrooper.T_Bean_InfernalTrooper",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_InfernalTrooper_L.T_Bean_InfernalTrooper_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'LavaSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/LavaSeries.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Bean_ThumbsUp",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CustomDanceAbility": {
+      "AssetPathName": "/Beanstalk/Abilities/GAB_Bean_Emote_Generic.GAB_Bean_Emote_Generic_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/Beanstalk/Animation/Emotes/AM_BeanCharEmote_ThumbsUp.AM_BeanCharEmote_ThumbsUp",
+      "SubPathString": ""
+    },
+    "RequiredEmoteParent": {
+      "AssetPathName": "/Beanstalk/Cosmetics/Bean_Empty.Bean_Empty",
+      "SubPathString": ""
+    },
+    "TagsWhichIndicateEmoteParent": [
+      "Beanstalk.Cosmetics.Character"
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "D8A363D74FDB1F81E270AD897A34F9DD",
+      "SourceString": "Thumbs Up",
+      "LocalizedString": "Thumbs Up"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E904BABD45A4037E5264C0BEED9113DD",
+      "SourceString": "Aye!",
+      "LocalizedString": "Aye!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "85A56866453495E09AABC99A4A3BB2B9",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Beanstalk.Cosmetics.Emote"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Beanstalk/HUD/Icons/t_ui_beanstalk_jump.t_ui_beanstalk_jump",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

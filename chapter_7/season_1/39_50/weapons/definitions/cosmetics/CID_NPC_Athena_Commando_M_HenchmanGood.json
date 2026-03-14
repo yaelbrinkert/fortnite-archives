@@ -1,0 +1,69 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_NPC_Athena_Commando_M_HenchmanGood",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_EmptyHead.CP_Athena_Head_M_EmptyHead",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_HenchmanGood_Optimized.CP_Athena_Body_M_HenchmanGood_Optimized",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'CID_NPC_Athena_Commando_M_HenchmanGood:FortCosmeticMaterialVariant_0'",
+        "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/CID_NPC_Athena_Commando_M_HenchmanGood.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BD675D8443648CB31A82A39882C230F7",
+      "SourceString": "Ghost",
+      "LocalizedString": "Ghost"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6FEC601D4ED143E4D74A69AC29BC288B",
+      "SourceString": "TBD",
+      "LocalizedString": "TBD"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Inventory/Art/T_UI_WeaponType_Guard_Icon.T_UI_WeaponType_Guard_Icon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.StepType.ShoesSneakers",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Robot"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

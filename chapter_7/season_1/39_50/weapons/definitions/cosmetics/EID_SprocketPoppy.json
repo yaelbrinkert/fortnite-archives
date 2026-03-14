@@ -1,0 +1,144 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SprocketPoppy",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StaticToTraversalBlendTime": 0.3,
+    "TraversalToStaticBlendTime": 0.3,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CMM_FE_M.Emote_SprocketPoppy_Boat_CMM_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CMF_FE_M.Emote_SprocketPoppy_Boat_CMF_FE_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CLM_FE_M.Emote_SprocketPoppy_Boat_CLM_FE_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CLF_FE_M.Emote_SprocketPoppy_Boat_CLF_FE_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 200.0,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CMM_M.Emote_SprocketPoppy_Boat_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CMF_M.Emote_SprocketPoppy_Boat_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CLM_M.Emote_SprocketPoppy_Boat_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SprocketPoppy_Boat/Emote_SprocketPoppy_Boat_CLF_M.Emote_SprocketPoppy_Boat_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 30.0,
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8D88FFEF49ACA2B8AB7FFDA27EECB5EC",
+      "SourceString": "Frozen Treat Cart",
+      "LocalizedString": "Frozen Treat Cart"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5335233D4ABAB8B1255E248F1C879EE6",
+      "SourceString": "Made with all-natural cryomancy.",
+      "LocalizedString": "Made with all-natural cryomancy."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "30D81FBB4C999781059CFD83CF5D06F4",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Set.WindyPlum",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_SprocketPoppy_Boat.T_Icon_Emotes_SprocketPoppy_Boat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S34/T_Icon_Emotes_SprocketPoppy_Boat_L.T_Icon_Emotes_SprocketPoppy_Boat_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "Type": "FortTrapItemDefinition",
+  "Name": "TID_Floor_Player_Launch_Pad_UEFN",
+  "Class": "UScriptClass'FortTrapItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "EquipSound": {
+      "AssetPathName": "/Game/Athena/Sounds/LaunchPad/Launch_Pad_UI_Select_Cue.Launch_Pad_UI_Select_Cue",
+      "SubPathString": ""
+    },
+    "OverrideAutoEquipTags": [
+      "trap.mobility",
+      "Item.Trap.LaunchPad"
+    ],
+    "UEFNFolderTag": {
+      "TagName": "UEFNFolder.Trap"
+    },
+    "BlueprintClass": {
+      "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/BluePrint/Trap_Floor_Player_Launch_Pad.Trap_Floor_Player_Launch_Pad_C",
+      "SubPathString": ""
+    },
+    "GridPlacementOffset": -20.0,
+    "bForceIgnoreOverlapTest": false,
+    "bDestroySmallObjectsWhenPlaced": true,
+    "bAutoCreateAttachmentBuilding": true,
+    "AutoCreateAttachmentBuildingShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Floor/EMP_Floor_Floor.EMP_Floor_Floor",
+        "SubPathString": ""
+      }
+    ],
+    "AllowedShapes": [
+      {
+        "AssetPathName": "/Game/Building/EditModePatterns/Floor/EMP_Floor_Floor.EMP_Floor_Floor",
+        "SubPathString": ""
+      }
+    ],
+    "WeaponActorClass": {
+      "AssetPathName": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'Traps'",
+        "ObjectPath": "/Game/Items/Datatables/Traps.0"
+      },
+      "RowName": "Trap_Floor_Player_Jump_Pad"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Trap:tid_floor_player_launch_pad_uefn"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Device",
+        "DeviceCreativeHidden",
+        "DeviceNewtonExperimental",
+        "DeviceUEFNAllowIslandImport",
+        "DeviceUEFNReady",
+        "MovementDevice"
+      ]
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8CF156BD45267F0611A336A22DBAD548",
+      "SourceString": "Environmental Trap - Launch Pad",
+      "LocalizedString": "Environmental Trap - Launch Pad"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8A34D01C4F24EF98EC2F129D9CAD257A",
+      "SourceString": "Launches players into the air and allows them to deploy a glider. Traps must be attached to the relevant building piece.",
+      "LocalizedString": "Launches players into the air and allows them to deploy a glider. Traps must be attached to the relevant building piece."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 20.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 4
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/Textures/T-Icon_Trap_Athena_Launchpad.T-Icon_Trap_Athena_Launchpad",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/Textures/T-Icon_Trap_Athena_Launchpad-L.T-Icon_Trap_Athena_Launchpad-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Consumables"
+      },
+      {
+        "Tags": [
+          "trap.Floor",
+          "trap.beneficial",
+          "Bacchus.Place.Trap.Launchpad",
+          "Trap.jumppad",
+          "Athena.ItemAction.Place",
+          "Rarity.VeryRare",
+          "Item.Trap.LaunchPad"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "/Game/Weapons/FORT_TRAPS/Floor_Player_Jump_Pad/Mesh/JumpPadUP_PickUp.JumpPadUP_PickUp",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 8.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -34.228867,
+          "Yaw": -108.77804,
+          "Roll": -51.37905
+        },
+        "Scale": 0.84
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/Mesh/S_Athena_Launchpad.S_Athena_Launchpad",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -43.1,
+            "Z": 0.15
+          },
+          "Scale3D": {
+            "X": 0.17,
+            "Y": 0.17,
+            "Z": 0.17
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Athena/Sounds/LaunchPad/Launch_Pad_Pickup_Cue.Launch_Pad_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Athena/Sounds/LaunchPad/ItemizedLaunchpad_Drop_Cue.ItemizedLaunchpad_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 160.68105,
+          "Y": 160.68103,
+          "Z": 38.15551
+        }
+      },
+      {
+        "DisassembleRecipe": {
+          "DataTable": {
+            "ObjectName": "DataTable'DisassembleRecipes'",
+            "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+          },
+          "RowName": "Disassemble.Trap.Floor.Player.Jump.Pad"
+        },
+        "DisassembleDurabilityDegradeMinLootPercent": 0.0,
+        "DisassembleDurabilityDegradeMaxLootPercent": 0.8
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/Items/Traps/Blueprints/Defenders/TrapFloorDefenderTooltipStats.TrapFloorDefenderTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::No_Tier"
+      }
+    ]
+  }
+}

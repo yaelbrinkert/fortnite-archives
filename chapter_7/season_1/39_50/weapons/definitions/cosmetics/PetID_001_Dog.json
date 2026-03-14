@@ -1,0 +1,64 @@
+{
+  "Type": "AthenaPetItemDefinition",
+  "Name": "PetID_001_Dog",
+  "Class": "UScriptClass'AthenaPetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StimuliBanks": [
+      {
+        "ObjectName": "FortPetStimuliBank'SharedPetStimuli'",
+        "ObjectPath": "/BRCosmetics/Characters/Pets/Shared/SharedPetStimuli.0"
+      }
+    ],
+    "PetPrefabClass": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Dog_Bonesy/B_PetInst_Bonesy.B_PetInst_Bonesy_C",
+      "SubPathString": ""
+    },
+    "PetSoundBank": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Dog_Bonesy/SoundBank_Dog_Bonesy.SoundBank_Dog_Bonesy",
+      "SubPathString": ""
+    },
+    "CosmeticSoundLibraries": [
+      {
+        "ObjectName": "SoundLibrary'PT_DgMl_VO_Lib'",
+        "ObjectPath": "/BRCosmetics/Sounds/Pets/DgMl/PT_DgMl_VO_Lib.0"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0BD1240F4EBB40046D38E98E21526E68",
+      "SourceString": "Bonesy",
+      "LocalizedString": "Bonesy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "94828FA84B2F0D03D97BC0A5C376ED93",
+      "SourceString": "A loyal companion.",
+      "LocalizedString": "A loyal companion."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "D35E75A8434BA7CA1EBD5E875E62F6BE",
+      "SourceString": "Pet",
+      "LocalizedString": "Pet"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.6"
+        ]
+      }
+    ]
+  }
+}

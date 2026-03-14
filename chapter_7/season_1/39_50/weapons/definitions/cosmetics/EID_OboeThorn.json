@@ -1,0 +1,142 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_OboeThorn",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CMM/Emote_OboeThorn_CMM_M_FE.Emote_OboeThorn_CMM_M_FE",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CMF/Emote_OboeThorn_CMF_M_FE.Emote_OboeThorn_CMF_M_FE",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CLM/Emote_OboeThorn_CLM_M_FE.Emote_OboeThorn_CLM_M_FE",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CLF/Emote_OboeThorn_CLF_M_FE.Emote_OboeThorn_CLF_M_FE",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "WalkForwardSpeed": 273.906,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CMM/Emote_OboeThorn_CMM_M.Emote_OboeThorn_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CMF/Emote_OboeThorn_CMF_M.Emote_OboeThorn_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CLM/Emote_OboeThorn_CLM_M.Emote_OboeThorn_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OboeThorn/CLF/Emote_OboeThorn_CLF_M.Emote_OboeThorn_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 32.5,
+    "EmoteCooldownSecs": 1.0,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_OboeThorn:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_OboeThorn.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "6B3C651245E6139904D95D813D7AD67C",
+      "SourceString": "Lil' Mystery Machine",
+      "LocalizedString": "Lil' Mystery Machine"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6CE4D4B44C2236FD5D8777A9DDA6F65D",
+      "SourceString": "Assemble your lil' gang and solve lil' mysteries.",
+      "LocalizedString": "Assemble your lil' gang and solve lil' mysteries."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "04F37BCE47031F56571EE6873FEC0555",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.LongSleeve"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_OboeThorn.T_Icon_Emotes_OboeThorn",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S37/T_Icon_Emotes_OboeThorn_L.T_Icon_Emotes_OboeThorn_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

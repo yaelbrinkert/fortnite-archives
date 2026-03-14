@@ -1,0 +1,681 @@
+{
+  "Type": "FortWeaponMeleeItemDefinition",
+  "Name": "WID_Harvest_Pickaxe_CherryFemale",
+  "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/BRCosmetics/Weapons/FORT_Melee/Blueprints/Impact/B_Melee_Impact_Cherry_Female_Pickaxe.B_Melee_Impact_Cherry_Female_Pickaxe_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/Meshes/Cherry_Female_Axe.Cherry_Female_Axe",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaMeleeWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaMeleeWeapons.0"
+      },
+      "RowName": "Harvest_Pickaxe_Athena_C_T01"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_ImpactDamage.BaseAlteration_ImpactDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Abilities/GAB_Melee_ImpactCombo_Athena.GAB_Melee_ImpactCombo_Athena_C",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "AnalyticTags": [
+      "weapon.melee.harvest"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.ItemEquipped.Melee.Harvest"
+    ],
+    "ActualAnalyticFNames": [
+      "weapon.melee.harvest",
+      "Tag:Weapon:wid_harvest_pickaxe_cherryfemale"
+    ],
+    "ItemType": "EFortItemType::WeaponHarvest",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "26E4411948C78A4255975A87C1CE27CE",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "SwingEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SwingEffectNiagara": {
+          "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_PIckaxe_Cherry_Swing.NS_PIckaxe_Cherry_Swing",
+          "SubPathString": ""
+        },
+        "SwingFXSocketName": "SwingFX"
+      },
+      {
+        "AnimTrails": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AnimTrailsNiagara": {
+          "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Anim_trail.NS_Pickaxe_Cherry_Anim_trail",
+          "SubPathString": ""
+        },
+        "NiagaraSkeletonDIVariableName": "User.SkeletalMesh",
+        "AnimTrailsFirstSocketName": "AnimTrail_01",
+        "AnimTrailsSecondSocketName": "AnimTrail_02",
+        "AnimTrailsWidth": 1.0,
+        "bAttachAnimTrailsToWeapon": true
+      },
+      {
+        "PrimaryFireSoundMap": [
+          {
+            "Key": "EFortWeaponSoundState::Normal",
+            "Value": {
+              "AssetPathName": "/BRCosmetics/Sounds/PickAxes/CherryFemale/SC_PickAxe_CherryFemale_Swing.SC_PickAxe_CherryFemale_Swing",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "ImpactPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ImpactNiagaraPhysicalSurfaceEffectsMap": [
+          {
+            "Key": "SurfaceType_Default",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType1",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType2",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType3",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType8",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType9",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType10",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType11",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType12",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType13",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType14",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType15",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType16",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType17",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType18",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType19",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType20",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType21",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType22",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType23",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType24",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType25",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType26",
+            "Value": {
+              "AssetPathName": "/Game/Weapons/FORT_Melee/Pickaxe_Cherry_Female/FX/NS_Pickaxe_Cherry_Impact.NS_Pickaxe_Cherry_Impact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType27",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType28",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType29",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType30",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType31",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType32",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType33",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType34",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "ImpactPhysicalSurfaceSoundsMap": [
+          {
+            "Key": "SurfaceType4",
+            "Value": {
+              "AssetPathName": "/BRCosmetics/Sounds/PickAxes/CherryFemale/SC_PickAxe_CherryFemale_EnemyImpact.SC_PickAxe_CherryFemale_EnemyImpact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType5",
+            "Value": {
+              "AssetPathName": "/BRCosmetics/Sounds/PickAxes/CherryFemale/SC_PickAxe_CherryFemale_EnemyImpact.SC_PickAxe_CherryFemale_EnemyImpact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType6",
+            "Value": {
+              "AssetPathName": "/BRCosmetics/Sounds/PickAxes/CherryFemale/SC_PickAxe_CherryFemale_EnemyImpact.SC_PickAxe_CherryFemale_EnemyImpact",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "SurfaceType7",
+            "Value": {
+              "AssetPathName": "/BRCosmetics/Sounds/PickAxes/CherryFemale/SC_PickAxe_CherryFemale_EnemyImpact.SC_PickAxe_CherryFemale_EnemyImpact",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "ReloadSoundsMap": [
+          {
+            "Key": "EFortReloadFXState::ReloadEnd",
+            "Value": {
+              "AssetPathName": "/BRCosmetics/Sounds/PickAxes/CherryFemale/SC_PickAxe_CherryFemale_Equip.SC_PickAxe_CherryFemale_Equip",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Harvest"
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-CherryPickaxe.T-Icon-Pickaxes-CherryPickaxe",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-CherryPickaxe-L.T-Icon-Pickaxes-CherryPickaxe-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "Weapon.Melee.Impact.Pickaxe",
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Harvest.Pickaxe"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

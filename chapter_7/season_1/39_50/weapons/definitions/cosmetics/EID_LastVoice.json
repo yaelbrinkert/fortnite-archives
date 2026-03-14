@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_LastVoice",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LastVoice/Emote_LastVoice_CMM_M.Emote_LastVoice_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LastVoice/Emote_LastVoice_CMF_M.Emote_LastVoice_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LastVoice/Emote_LastVoice_CLM_M.Emote_LastVoice_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/LastVoice/Emote_LastVoice_CLF_M.Emote_LastVoice_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      65194
+    ],
+    "BaseShotGridId": 65194,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CCDF85BD478438275B99209B5F19A8F3",
+      "SourceString": "Keep 'Em Crispy",
+      "LocalizedString": "Keep 'Em Crispy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CC94E54F43ACD637ABD117B616701A1A",
+      "SourceString": "Anything but cooked.",
+      "LocalizedString": "Anything but cooked."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7387420B4FAB51AB4CF61CBE53EA0F02",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.Set.SkyLove"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-LastVoice.T-Icon-Emotes-LastVoice",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-LastVoice-L.T-Icon-Emotes-LastVoice-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

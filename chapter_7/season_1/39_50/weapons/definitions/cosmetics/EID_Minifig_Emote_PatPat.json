@@ -1,0 +1,56 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Minifig_Emote_PatPat",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Minifig_Emote_PatPat_Sync'",
+      "ObjectPath": "/JunoGame/Items/Cosmetics/EID_Minifig_Emote_PatPat_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Minifig_Emote_PatPat_Sync_Follower'",
+      "ObjectPath": "/JunoGame/Items/Cosmetics/EID_Minifig_Emote_PatPat_Sync_Follower.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Minifig_Emote_PatPat_Sync'",
+      "ObjectPath": "/JunoGame/Items/Cosmetics/EID_Minifig_Emote_PatPat_Sync.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Minifig_Emote_PatPat_Sync_Follower'",
+      "ObjectPath": "/JunoGame/Items/Cosmetics/EID_Minifig_Emote_PatPat_Sync_Follower.0"
+    },
+    "GroupEmotePositionOffsetTolerance": 0.01,
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_GroupEmoteRequest.GAB_GroupEmoteRequest_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/FigureCosmetics/Animation/Emotes/Montages/Minifig_Emote_PatPat_Intro_Montage.Minifig_Emote_PatPat_Intro_Montage",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/JunoGame/Items/Cosmetics/Icons/Icon-Emotes-TEMPLATE.Icon-Emotes-TEMPLATE",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

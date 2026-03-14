@@ -1,0 +1,199 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_MercurialStorm",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_LRG_EmptyHead.CP_Athena_Head_M_LRG_EmptyHead",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_MercurialStorm.CP_Athena_Body_M_MercurialStorm",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_LRG_MercurialStorm_FaceAcc.CP_M_LRG_MercurialStorm_FaceAcc",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Menu/BR/CustomSkins/_s22/MercurialStormM/MercurialStorm_Male_Idle_2_Montage.MercurialStorm_Male_Idle_2_Montage",
+      "SubPathString": ""
+    },
+    "MetaTags": [
+      "Cosmetics.MetaTags.Special.XLarge",
+      "Cosmetics.MetaTags.Special.BodySwap.Full"
+    ],
+    "BuiltInEmotes": [
+      {
+        "ObjectName": "AthenaDanceItemDefinition'EID_MercurialStorm'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_MercurialStorm.0"
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'Character_MercurialStorm:FortCosmeticMaterialVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_MercurialStorm.2"
+      },
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'Character_MercurialStorm:FortCosmeticCharacterPartVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_MercurialStorm.1"
+      },
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'Character_MercurialStorm:FortCosmeticMaterialVariant_1'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_MercurialStorm.3"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 4.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Material"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Mat2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      },
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 4.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Parts"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Stage2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      56218,
+      58638,
+      58639
+    ],
+    "ShotGridIds": [
+      56218,
+      56218,
+      58638,
+      58639
+    ],
+    "BaseShotGridId": 56218,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "62B16D814C4DA00021CD4DB9BE4878D5",
+      "SourceString": "Iron Man Zero",
+      "LocalizedString": "Iron Man Zero"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DA76B7D249FAB366832318ABB7A6C217",
+      "SourceString": "A high-tech suit built to the Scientist's specifications.",
+      "LocalizedString": "A high-tech suit built to the Scientist's specifications."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S22/T-Soldier-Hero-MercurialStorm-L.T-Soldier-Hero-MercurialStorm-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S22/T-Soldier-Hero-MercurialStorm.T-Soldier-Hero-MercurialStorm",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Exclusives.MercurialStorm",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Filter.Season.22",
+          "Cosmetics.Source",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.NoneBattle",
+          "Cosmetics.Variant.ForceLoadAllParts",
+          "Cosmetics.UserFacingFlags.Transform",
+          "SoundLibrary.ID.StepType.BootsMetal",
+          "SoundLibrary.ID.ClothingType.ArmorMetal",
+          "SoundLibrary.ID.HandType.Robot",
+          "Cosmetics.Gating.Allow.Shoes",
+          "Cosmetics.Filter.ThirdParty"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          8,
+          490,
+          238,
+          541,
+          359,
+          247,
+          114,
+          162,
+          563,
+          560,
+          576,
+          580,
+          639,
+          646,
+          648,
+          45,
+          265,
+          650,
+          564,
+          29,
+          651,
+          652,
+          145,
+          1018,
+          89
+        ]
+      }
+    ]
+  }
+}

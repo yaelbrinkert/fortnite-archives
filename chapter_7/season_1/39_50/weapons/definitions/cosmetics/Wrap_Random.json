@@ -1,0 +1,70 @@
+{
+  "Type": "AthenaItemWrapDefinition",
+  "Name": "Wrap_Random",
+  "Class": "UScriptClass'AthenaItemWrapDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ShuffleItempreview.ShuffleItemPreview_C",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "79A94D8A422D481792D3B7AD0EF1FAA8",
+      "SourceString": "Random",
+      "LocalizedString": "Random"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "818CE52F4236833AE63EE6B0D5E89533",
+      "SourceString": "Randomly chooses between favorite Wraps (or all owned Wraps if nothing is marked as a favorite)\r\nArchived items will be excluded.",
+      "LocalizedString": "Randomly chooses between favorite Wraps (or all owned Wraps if nothing is marked as a favorite)\r\nArchived items will be excluded."
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.ShuffleTile"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/ShuffleIcons/T_UI_Shuffle_Wrap.T_UI_Shuffle_Wrap",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Locker/T_Icon_Random_256.T_Icon_Random_256",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "/Game/Athena/UI/Icons/S_UI_ShuffleIcon.S_UI_ShuffleIcon",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -4.0,
+          "Yaw": 60.0,
+          "Roll": -8.0
+        },
+        "Scale": 1.0
+      }
+    ]
+  }
+}

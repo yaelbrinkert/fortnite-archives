@@ -1,0 +1,164 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_KneelReedy",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Switch",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_KneelReedy.CP_Athena_Body_M_KneelReedy",
+              "SubPathString": ""
+            }
+          },
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_KneelReedy.CP_Athena_Head_M_KneelReedy",
+              "SubPathString": ""
+            }
+          },
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_MED_KneelReedy_FaceAcc.CP_M_MED_KneelReedy_FaceAcc",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_KneelReedy_End.CP_Athena_Body_M_KneelReedy_End",
+              "SubPathString": ""
+            }
+          },
+          {
+            "PartType": "EFortCustomPartType::Head",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_KneelReedy_end.CP_Athena_Head_M_KneelReedy_end",
+              "SubPathString": ""
+            }
+          },
+          {
+            "PartType": "EFortCustomPartType::Face",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_MED_KneelReedy_FaceAcc_End.CP_M_MED_KneelReedy_FaceAcc_End",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KneelReedy/CMM/Emote_KneelReedy_CMM_M.Emote_KneelReedy_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/KneelReedy/CMM/Emote_KneelReedy_CMM_M.Emote_KneelReedy_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_KneelReedy.Character_KneelReedy",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "14127298428A4A5EEA7F5D8047F785E3",
+      "SourceString": "Goin' Ghost",
+      "LocalizedString": "Goin' Ghost"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "EBE48D6C4F3CEFBB0026A28F6BCDCEE4",
+      "SourceString": "Become Danny Phantom.",
+      "LocalizedString": "Become Danny Phantom."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "3B0F0849487440B5A771D796DB7B8865",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 20.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.75
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Transform",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.PlugCheese"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_KneelReedy.T_Icon_Emotes_KneelReedy",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S39/T_Icon_Emotes_KneelReedy_L.T_Icon_Emotes_KneelReedy_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

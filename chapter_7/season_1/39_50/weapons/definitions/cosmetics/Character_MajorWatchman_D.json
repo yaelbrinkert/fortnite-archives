@@ -1,0 +1,87 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Character_MajorWatchman_D",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/FNE_SWCosmetics/Parts/CP_Head_MajorWatchman_D.CP_Head_MajorWatchman_D",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/FNE_SWCosmetics/Parts/CP_Body_MajorWatchman.CP_Body_MajorWatchman",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_M_MED_Stands_FaceAcc_C.CP_M_MED_Stands_FaceAcc_C",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Male",
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumMale.MediumMale",
+      "SubPathString": ""
+    },
+    "MetaTags": [
+      "Cosmetics.MetaTags.Special.BodySwap.Full"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticMaterialVariant'Character_MajorWatchman_D:FortCosmeticMaterialVariant_4'",
+        "ObjectPath": "/FNE_SWCosmetics/CIDs/Character_MajorWatchman_D.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "FD5A3B6D4D5E034B9657EC997BD75D82",
+      "SourceString": "Moon Trader (Male D) Prime",
+      "LocalizedString": "Moon Trader (Male D) Prime"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D0989C494E353F971E6E5EAAFB8D73C7",
+      "SourceString": "PLACEHOLDER",
+      "LocalizedString": "PLACEHOLDER"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Generic-S.T_Placeholder_Generic-S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Generic.T_Placeholder_Generic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "SoundLibrary.ID.HandType.Glove",
+          "Cosmetics.Gating.Allow.Shoes",
+          "SoundLibrary.ID.StepType.BootsCombat",
+          "SoundLibrary.ID.ClothingType.GearTactical"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

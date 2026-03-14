@@ -1,0 +1,117 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Keytar_KeytarDance",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/KeytarDance/Persistent/Emote_Keytar_KeytarDance_CMM_M.Emote_Keytar_KeytarDance_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Keytar/KeytarDance/Persistent/Emote_Keytar_KeytarDance_CMF_M.Emote_Keytar_KeytarDance_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/KeytarDance/Persistent/Emote_Keytar_KeytarDance_CLM_M.Emote_Keytar_KeytarDance_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Keytar/KeytarDance/Persistent/Emote_Keytar_KeytarDance_CLF_M.Emote_Keytar_KeytarDance_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Keytar_KeytarDance:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Keytar/KeytarDance/EID_Keytar_KeytarDance.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'EID_Keytar_KeytarDance:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Keytar/KeytarDance/EID_Keytar_KeytarDance.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F8E43B3D47181830C32D5CB00709CE81",
+      "SourceString": "Topspin",
+      "LocalizedString": "Topspin"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FE4E90C049DD66AA6F2326AE35B2BC4D",
+      "SourceString": "This one's a little tricky.",
+      "LocalizedString": "This one's a little tricky."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "98B38FD44A63D44A9678A7A2CA43C4C6",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Keytar_KeytarDance.T_UI_Icon_SparksEmote_Keytar_KeytarDance",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Keytar_KeytarDance_L.T_UI_Icon_SparksEmote_Keytar_KeytarDance_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Sparks.Season.06"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

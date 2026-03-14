@@ -1,0 +1,51 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Athena_MurkyVole_BackPack",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bAllowedFuelGadgetUI": false,
+    "GadgetPriority": 1,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "bAlwaysInitAttributeSet": false,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Athena_MurkyVole_BackPack'",
+        "ObjectPath": "/MurkyVoleGameplay/Gameplay/BackPack/CP_Athena_MurkyVole_BackPack.1"
+      }
+    ],
+    "OnDestroyParticleSystem": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/FX/P_Jetpack_Explode.P_Jetpack_Explode",
+      "SubPathString": ""
+    },
+    "OnDestroySound": {
+      "AssetPathName": "/Game/Athena/Sounds/Items/Jetpack/Jetpack_Drop_Cue.Jetpack_Drop_Cue",
+      "SubPathString": ""
+    },
+    "OnDestroyAttachToSocketName": "Backpack",
+    "Rarity": "EFortRarity::Mythic",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast"
+        ]
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Tags": [
+          "Item.Gadget.JumpBoots",
+          "phoebe.items.generic.supported"
+        ]
+      }
+    ]
+  }
+}

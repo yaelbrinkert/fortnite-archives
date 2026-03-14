@@ -1,0 +1,143 @@
+{
+  "Type": "AthenaBackpackItemDefinition",
+  "Name": "Backpack_MissusMind",
+  "Class": "UScriptClass'AthenaBackpackItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Backpack_MissusMind'",
+        "ObjectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/CP_Backpack_MissusMind.1"
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Backpack_MissusMind:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/Backpack_MissusMind.2"
+      },
+      {
+        "ObjectName": "FortCosmeticLoadoutTagDrivenVariant'Backpack_MissusMind:FortCosmeticLoadoutTagDrivenVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/Backpack_MissusMind.1"
+      }
+    ],
+    "VariantShotGridIds": [
+      0
+    ],
+    "ShotGridIds": [
+      111636,
+      0
+    ],
+    "BaseShotGridId": 111636,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0CEB266C46CE2DC35DA97A9A1CA788EE",
+      "SourceString": "Tri-Ooze Tank",
+      "LocalizedString": "Tri-Ooze Tank"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5DFE10EA4A0798632BA7469DEA9C6596",
+      "SourceString": "Breach tri-containment.\r\n\r\nBackpack will match style of glider if both are equipped.",
+      "LocalizedString": "Breach tri-containment.\r\n\r\nBackpack will match style of glider if both are equipped."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "89EC8C9B42D77B6D13042C89B7EA183B",
+      "SourceString": "Back Bling",
+      "LocalizedString": "Back Bling"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Backpacks/S32/T_IconBackpacks_MissusMind.T_IconBackpacks_MissusMind",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Backpacks/S32/T_IconBackpacks_MissusMind_L.T_IconBackpacks_MissusMind_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.32",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Set.PressedEarth"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.SceneChanger.BattlePass"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_MissusMind_Suit.Character_MissusMind_Suit",
+              "SubPathString": ""
+            },
+            "VariantOverrides": [
+              {
+                "WhenViewingVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Backbling_MissusMind_StyleB.VTID_Backbling_MissusMind_StyleB",
+                  "SubPathString": ""
+                },
+                "OverrideCharacterWithVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_MissusMind_StyleB.VTID_Character_MissusMind_StyleB",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          546,
+          359,
+          248,
+          162,
+          166,
+          567,
+          564,
+          1651,
+          52,
+          948,
+          971,
+          1042,
+          1178,
+          1180,
+          834,
+          318,
+          1513,
+          1543,
+          385,
+          398,
+          2419,
+          2509,
+          2510
+        ]
+      }
+    ]
+  }
+}

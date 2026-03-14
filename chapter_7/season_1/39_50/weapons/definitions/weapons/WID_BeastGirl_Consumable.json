@@ -1,0 +1,318 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_BeastGirl_Consumable",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseOnTouch": true,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/BeastGirlStormClawsGameplay/Gameplay/Actors/B_Weap_BeastGirl_Consumable.B_Weap_BeastGirl_Consumable_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'BeastGirl_Consumable_ItemStats'",
+        "ObjectPath": "/BeastGirlStormClawsGameplay/DataTables/BeastGirl_Consumable_ItemStats.0"
+      },
+      "RowName": "PomPom"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/BeastGirlStormClawsGameplay/Gameplay/Abilities/GA_BeastGirl_PassiveTransform.GA_BeastGirl_PassiveTransform_C",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Power.BeastGirl.Consumable"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.RollLanding.PreventHolster",
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+      "Granted.BoostedJump.SkipAnimation",
+      "Granted.BoostedJump.PreventHoslter",
+      "Athena.Item.Utility"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Power.BeastGirl.Consumable",
+      "Tag:Weapon:wid_beastgirl_consumable"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B2322B354A44C3C7F5B9998DFE90E9D0",
+      "SourceString": "Storm Beast's Pom Poms",
+      "LocalizedString": "Storm Beast's Pom Poms"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DC00B6344E3D8209B1EC8687870F00AB",
+      "SourceString": "Become the Storm Beast and smash enemies with melee combos and a charged up Storm Slam",
+      "LocalizedString": "Become the Storm Beast and smash enemies with melee combos and a charged up Storm Slam"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.HasDurability",
+          "Item.Trait.SingleStack",
+          "Item.Trait.AllowSwapSingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BeastGirlStormClawsGameplay/Gameplay/T_Icon_BR_BeastTransform_BentBaton.T_Icon_BR_BeastTransform_BentBaton",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/BeastGirlStormClawsGameplay/Assets/Meshes/BeastTransform_BentBaton_Gadget.BeastTransform_BentBaton_Gadget",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-StormZone-128'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-StormZone-128.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/BeastGirlStormClawsGameplay/Assets/Audio/SL_BeastGirlStorm_Equip.SL_BeastGirlStorm_Equip",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 19.169695,
+          "Y": 20.069004,
+          "Z": 19.310818
+        }
+      },
+      {
+        "Tags": [
+          "Item.Power.BeastGirl.Consumable",
+          "Athena.Item.Utility",
+          "HUD.PreferredSlotType.Utility",
+          "Cosmetics.OverrideWrapBehavior.DoNotOverride"
+        ]
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_BeastGirlStorm_Equip'",
+            "ObjectPath": "/BeastGirlStormClawsGameplay/Assets/Audio/SL_BeastGirlStorm_Equip.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/BeastGirlStormClawsGameplay/Gameplay/BeastGirl_FortTooltipDisplayStatsList.BeastGirl_FortTooltipDisplayStatsList",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeastGirlStormClawsGameplay/Gameplay/T_Icon_BR_BeastTransform_BentBaton_L.T_Icon_BR_BeastTransform_BentBaton_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

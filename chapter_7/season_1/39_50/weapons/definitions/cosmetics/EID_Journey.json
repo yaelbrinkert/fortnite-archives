@@ -1,0 +1,103 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Journey",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "return",
+        "EvaluationMode": "EMontageSelectionPredicateType::ActiveSwapPresence",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [],
+            "Item": null
+          }
+        ]
+      }
+    ],
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Journey/Emote_Journey_CMM_M_FE_test.Emote_Journey_CMM_M_FE_test",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Journey/Emote_Journey_CMM_M.Emote_Journey_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_363_Athena_Commando_M_Journey.CID_A_363_Athena_Commando_M_Journey",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      55443
+    ],
+    "BaseShotGridId": 55443,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "22D59E0B45FFA084BF4106BCF91B7417",
+      "SourceString": "Assassin's Strike",
+      "LocalizedString": "Assassin's Strike"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E425D796424059B82DA1F587AAD8CB63",
+      "SourceString": "Stop the Templars. At all costs.",
+      "LocalizedString": "Stop the Templars. At all costs."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "ABC18AA54ED23BF690EF8CA00AC4E19F",
+      "SourceString": "Built-in Emote",
+      "LocalizedString": "Built-in Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Journey.T-Icon-Emotes-E-Journey",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Journey-L.T-Icon-Emotes-E-Journey-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Cosmetics.Set.BeamPepper",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

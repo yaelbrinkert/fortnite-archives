@@ -1,0 +1,104 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_MarineCarve_Intro",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/CharIntro/ItemOnPawnPreview_CharIntro.ItemOnPawnPreview_CharIntro_C",
+      "SubPathString": ""
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B28D7A3B42DAE983ED27F981027D1721",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote-S.T_Placeholder_Item_Emote-S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote.T_Placeholder_Item_Emote",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient",
+          "Item.Trait.HideItemDetails"
+        ]
+      },
+      {
+        "Groups": [
+          {
+            "ContextQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Cosmetics.EmoteType.Dance"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Cosmetics.EmoteType.Dance )"
+            },
+            "Entries": [
+              {
+                "Location": {
+                  "X": 0.0,
+                  "Y": 170.0,
+                  "Z": 122.0
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": -90.0,
+                  "Roll": 0.0
+                },
+                "FieldOfView": 55.0,
+                "CameraPositionMode": "EPreviewCameraPositionMode::Configured"
+              },
+              {
+                "MaleMontage": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "FemaleMontage": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DefaultMontage": {
+                  "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/CharIntros/s39/MarineCarve/CharIntro_MarineCarve_M.CharIntro_MarineCarve_M",
+                  "SubPathString": ""
+                },
+                "PlayDelay": 0.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

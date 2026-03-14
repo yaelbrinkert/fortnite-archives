@@ -1,0 +1,106 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_HightowerSquash",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WalkForwardSpeed": 100.698,
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Generic_Transformation.GAB_Emote_Generic_Transformation_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HighTowerSquash/Emote_HighTowerSquash_CMF_M.Emote_HighTowerSquash_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/HighTowerSquash/Emote_HighTowerSquash_CMF_M.Emote_HighTowerSquash_CMF_M",
+      "SubPathString": ""
+    },
+    "bIncludeAudioWithAnimDuration": false,
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "Cosmetics.Awakenings.HightowerSquash"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_004_Emote_HightowerSquash'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_004_Emote_HightowerSquash.0"
+        }
+      }
+    ],
+    "EmoteWheelExclusiveTags": [
+      "Cosmetics.Awakenings.HightowerSquash"
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_839_Athena_Commando_F_HightowerSquash.CID_839_Athena_Commando_F_HightowerSquash",
+      "SubPathString": ""
+    },
+    "ExclusiveIcon": {
+      "AssetPathName": "/BRCosmetics/Athena/UI/Season/Art/Textures/T_Ui_Awakening_Mini_Squash.T_Ui_Awakening_Mini_Squash",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "02B6B5F44343EBD41352B9926AE85DAC",
+      "SourceString": "Gale Force",
+      "LocalizedString": "Gale Force"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "2D34D0934A2E7D8CAD4315B56E12E0BD",
+      "SourceString": "Control the elements!",
+      "LocalizedString": "Control the elements!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "FFBA67C447490888F735C4848747F8F6",
+      "SourceString": "Built-in Emote",
+      "LocalizedString": "Built-in Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerSquash.T-Icon-Emotes-E-HighTowerSquash",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-HighTowerSquash-L.T-Icon-Emotes-E-HighTowerSquash-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.QuestsMetaData.Emote.Awakening.HightowerSquash",
+          "Cosmetics.Set.ComedyElbow",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

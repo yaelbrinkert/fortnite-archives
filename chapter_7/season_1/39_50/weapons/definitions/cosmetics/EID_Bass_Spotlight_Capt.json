@@ -1,0 +1,100 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Bass_Spotlight_Capt",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCharacterFull/Animation/MainPlayer/BandPlay/Bass/Intro/Bass_Spotlight_Capt_M.Bass_Spotlight_Capt_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCharacterFull/Animation/MainPlayer/BandPlay/Bass/Intro/Bass_Spotlight_Capt_CMF_M.Bass_Spotlight_Capt_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCharacterFull/Animation/MainPlayer/BandPlay/Bass/Intro/Bass_Spotlight_Capt_CLF_M.Bass_Spotlight_Capt_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCharacterFull/Animation/MainPlayer/BandPlay/Bass/Intro/Bass_Spotlight_Capt_CLM_M.Bass_Spotlight_Capt_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "AED07E8E40BC233CE70B35AACD20F2F1",
+      "SourceString": "Rock Out",
+      "LocalizedString": "Rock Out"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5183BC9A440632ABDF82578907ED2ECC",
+      "SourceString": "Are you ready to rock?!",
+      "LocalizedString": "Are you ready to rock?!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8D4EBBF740BB7A5B1CB9CC8DBE9778DA",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 5.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.65
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote-S.T_Placeholder_Item_Emote-S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Emote.T_Placeholder_Item_Emote",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

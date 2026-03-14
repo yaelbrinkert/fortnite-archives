@@ -1,0 +1,89 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_SolidWave_SwashWave_StakePurse",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GadgetPriority": 10,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_Athena_Body_M_TimberStakePurse'",
+        "ObjectPath": "/SolidWaveSwashWave/Gameplay/Parts/DisguisePart_Athena_Body_M_TimberStakePurse.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_M_MED_TimberStakePurse_FaceAcc'",
+        "ObjectPath": "/SolidWaveSwashWave/Gameplay/Parts/DisguisePart_M_MED_TimberStakePurse_FaceAcc.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Hat'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_Shoe_Empty'",
+        "ObjectPath": "/CRD_DisguiseDevice/Disguises/Parts/DisguisePart_Shoe_Empty.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_Athena_Head_M_Empty'",
+        "ObjectPath": "/CRD_DisguiseDevice/Disguises/Parts/DisguisePart_Athena_Head_M_Empty.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoCharm'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoBackpack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/SolidWaveSwashWave/Gameplay/Abilities/AS_SolidWave_SwashWave.AS_SolidWave_SwashWave",
+      "SubPathString": ""
+    },
+    "WeaponItemDefinition": {
+      "AssetPathName": "/SolidWaveSwashWave/Gameplay/D_SolidWave_SplashWave.D_SolidWave_SplashWave",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "45BFC26D483119ADFB52D4AF5C750C85",
+      "SourceString": "SwashWave",
+      "LocalizedString": "SwashWave"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "448EFD294C8F69B6800D539A639AE480",
+      "SourceString": "SwashWaveDesc",
+      "LocalizedString": "SwashWaveDesc"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "8601726B4F9496F05880BAAFE66AB5B7",
+      "SourceString": "SwashWaveDesc",
+      "LocalizedString": "SwashWaveDesc"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "PreferredQuickbarSlot": 0
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      }
+    ]
+  }
+}

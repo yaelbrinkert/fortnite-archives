@@ -1,0 +1,145 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SilentTempo",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Default",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_SilentTempo_Peril.CP_Athena_Body_F_SilentTempo_Peril",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      },
+      {
+        "MontageSectionName": "Return",
+        "EvaluationMode": "EMontageSelectionPredicateType::CharacterParts",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [
+          {
+            "PartType": "EFortCustomPartType::Body",
+            "Part": {
+              "AssetPathName": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_SilentTempo.CP_Athena_Body_F_SilentTempo",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SwapRequirements": []
+      }
+    ],
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SilentTempo/CMF/Emote_SilenTempo_Transform_M.Emote_SilenTempo_Transform_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "AccessData": [
+      {
+        "AccessTag": {
+          "TagName": "None"
+        },
+        "AccessToken": {
+          "ObjectName": "FortItemAccessTokenType'IATID_039_Emote_SilentTempo'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/ItemAccessTokens/IATID_039_Emote_SilentTempo.0"
+        }
+      }
+    ],
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_SilentTempo.Character_SilentTempo",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      71454
+    ],
+    "BaseShotGridId": 71454,
+    "Rarity": "EFortRarity::Legendary",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "74A18389442D3E6B9670988809CC9A0C",
+      "SourceString": "Ancestral Shift",
+      "LocalizedString": "Ancestral Shift"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "666C971C4C71859FF4AE9FB61BA97F2D",
+      "SourceString": "Every Era has her purpose.",
+      "LocalizedString": "Every Era has her purpose."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "AD67436948EB03B059B0DBB42D26CBF9",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -15.0,
+          "Y": 100.0,
+          "Z": 30.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-SilentTempo.T-Icon-Emotes-SilentTempo",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-SilentTempo-L.T-Icon-Emotes-SilentTempo-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Abilities.PhoneBooth.RemoveDisguise",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.Set.TribalTime",
+          "Cosmetics.UserFacingFlags.Transform",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

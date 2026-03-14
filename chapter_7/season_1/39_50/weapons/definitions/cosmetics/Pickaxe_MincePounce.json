@@ -1,0 +1,180 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_MincePounce",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXPreviewOffset": {
+      "X": -15.0,
+      "Y": 15.0,
+      "Z": 5.0
+    },
+    "PickaxeImpactFXOnPawnPreviewOffset": {
+      "X": -27.0,
+      "Y": 0.0,
+      "Z": 15.0
+    },
+    "PickaxeDualWieldPreviewOffset": {
+      "X": 5.0,
+      "Y": 10.0,
+      "Z": -12.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 8.0,
+      "Yaw": 0.0,
+      "Roll": 25.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 53.12423,
+        "Y": -13.980479,
+        "Z": 5.0
+      },
+      "CylinderHalfHeight": 75.0,
+      "CylinderRadius": 75.0
+    },
+    "CameraFramingBoundsCenterOffset": {
+      "X": -10.0,
+      "Y": -10.0,
+      "Z": 0.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_MincePounce'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_MincePounce.0"
+    },
+    "MetaTags": [
+      "Cosmetics.MetaTags.AgentSherbert"
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_MincePounce:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_MincePounce.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+      "SubPathString": ""
+    },
+    "VariantShotGridIds": [
+      164169,
+      164172
+    ],
+    "ShotGridIds": [
+      164169,
+      164169,
+      164172
+    ],
+    "BaseShotGridId": 164169,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "03BAA2DB4EA1E7CDD5A74D8C4E261331",
+      "SourceString": "Void Walker's Claws",
+      "LocalizedString": "Void Walker's Claws"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "767E7B014C493CE788EFABB1D11173D6",
+      "SourceString": "Pounce through the dark.",
+      "LocalizedString": "Pounce through the dark."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "2DF2464A4585FEF8AA0836B883AE68D6",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -50.0,
+          "Yaw": -70.0,
+          "Roll": 5.0
+        },
+        "Scale": 1.5
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.OneHanded",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Season.39",
+          "Cosmetics.Set.EmptyEye",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          359,
+          248,
+          162,
+          603,
+          615,
+          564,
+          246,
+          1339,
+          1651,
+          1508,
+          385,
+          6626
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S39/T_Icon_Pickaxes_MincePounce_L.T_Icon_Pickaxes_MincePounce_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S39/T_Icon_Pickaxes_MincePounce.T_Icon_Pickaxes_MincePounce",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.PreviewType.OffPawn"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/Cameras_Pickaxe/PickaxeItemPreview_MincePounce.PickaxeItemPreview_MincePounce_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_DimeBlanketGrace_Guitar",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -34.0
+      },
+      "CylinderHalfHeight": 75.0,
+      "CylinderRadius": 30.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeItemDefinition'Weapon_Pickaxe_DimeBlanketGrace_Guitar'",
+      "ObjectPath": "/SparksCosmetics/Items/Weapons/Weapon_Pickaxe_DimeBlanketGrace_Guitar.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_DimeBlanketGrace_Guitar:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Items/Cosmetics/Pickaxes/Pickaxe_DimeBlanketGrace_Guitar.1"
+      }
+    ],
+    "ItemPreviewActorClass": {
+      "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      63885
+    ],
+    "BaseShotGridId": 63885,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5F477BD34F2A867BA9FA88A8E86FD5D8",
+      "SourceString": "SC Guitar",
+      "LocalizedString": "SC Guitar"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "8CA660884E0B5A390AE0EDA05A1D9406",
+      "SourceString": "You're playin' nonsense.",
+      "LocalizedString": "You're playin' nonsense."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "076F0BDC4717B02359DD47A3AE96F374",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 180.0,
+          "Roll": -30.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "UI.ItemPreview.Modifier.InstrumentPickaxe",
+          "Cosmetics.Type.Pickaxe",
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.Filter.Sparks.Season.08",
+          "Cosmetics.Set.FitCheck",
+          "Cosmetics.Source.SparksPass",
+          "Cosmetics.Pickaxe.OneHanded"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Guitar_S.T_Placeholder_Item_Guitar_S",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Guitar.T_Placeholder_Item_Guitar",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      }
+    ]
+  }
+}

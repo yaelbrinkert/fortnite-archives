@@ -1,0 +1,89 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "MountedTurret_Weapon_STW",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Constructor/Actives/MountedTurret/B_MountedTurretWeapon_STW.B_MountedTurretWeapon_STW_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'RangedWeapons'",
+        "ObjectPath": "/Game/Items/Datatables/RangedWeapons.0"
+      },
+      "RowName": "MountedTurret"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Constructor/Actives/MountedTurret/GA_MountedTurretDamageSTW.GA_MountedTurretDamageSTW_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/SaveTheWorld/Items/Ammo/AmmoDataFiniteTurret.AmmoDataFiniteTurret",
+      "SubPathString": ""
+    },
+    "TriggerType": "EFortWeaponTriggerType::Automatic",
+    "AnalyticTags": [
+      "Trap.hostile"
+    ],
+    "ActualAnalyticFNames": [
+      "Trap.hostile",
+      "Tag:Weapon:mountedturret_weapon_stw"
+    ],
+    "Rarity": "EFortRarity::Transcendent",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "535E13A5486227F10B5EF986C1FC39A3",
+      "SourceString": "Mounted Turret",
+      "LocalizedString": "Mounted Turret"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.HideItemToast",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "/Script/FortniteGame.FortWeaponTooltip",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Invisible"
+      },
+      {
+        "Tags": [
+          "AbilityWeapon.Ranged",
+          "Gameplay.DamageSource.Ability",
+          "AbilityWeapon.Constructor.MountedTurret"
+        ]
+      }
+    ]
+  }
+}

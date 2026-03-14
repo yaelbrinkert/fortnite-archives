@@ -1,0 +1,173 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_KartRocket",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXPreviewOffset": {
+      "X": 0.0,
+      "Y": 45.0,
+      "Z": 40.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 14.0,
+        "Y": 2.0,
+        "Z": -5.0
+      },
+      "CylinderHalfHeight": 75.0,
+      "CylinderRadius": 75.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeItemDefinition'Weapon_Pickaxe_KartRocket'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_KartRocket.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_KartRocket:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_KartRocket.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      164297,
+      164300
+    ],
+    "ShotGridIds": [
+      164297,
+      164297,
+      164300
+    ],
+    "BaseShotGridId": 164297,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F49FB8B247AC5B5B30DFB88CFD8D4C63",
+      "SourceString": "Redline Wrecker",
+      "LocalizedString": "Redline Wrecker"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6FB3F7154631E6A6B3028FA6E8E87E1B",
+      "SourceString": "Raid the wreckage.",
+      "LocalizedString": "Raid the wreckage."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "7E818DB7404740DC07E624BB1CA5400D",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.LimitedTimeReward",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Filter.Season.37",
+          "Cosmetics.Set.FastFaster",
+          "Cosmetics.UserFacingFlags.Reactive"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": -5.0,
+          "Yaw": 38.0,
+          "Roll": 30.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          541,
+          546,
+          548,
+          359,
+          247,
+          114,
+          162,
+          573,
+          105,
+          567,
+          246,
+          1339,
+          112,
+          259,
+          1095,
+          2381,
+          2494,
+          283,
+          2674,
+          2676,
+          2677,
+          5319
+        ]
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.PreviewType.OffPawn"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/PickaxeItemPreview_KartRocket.PickaxeItemPreview_KartRocket_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VariantOverrides": []
+          }
+        ]
+      }
+    ]
+  }
+}

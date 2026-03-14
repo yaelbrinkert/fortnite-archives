@@ -1,0 +1,380 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_TwinStretchCorn",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseNativeWeaponTrace": false,
+    "bAllowADSInAir": true,
+    "bAllowCombinedAimAndFire": false,
+    "bAllowReleaseToFire": false,
+    "bAllowContinuousFire": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/TwinStretchCorn/Gameplay/Actors/B_Weap_TwinStretchCorn.B_Weap_TwinStretchCorn_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'TwinStretchCorn_RangedWeaponStats'",
+        "ObjectPath": "/TwinStretchCorn/DataTables/TwinStretchCorn_RangedWeaponStats.0"
+      },
+      "RowName": "TwinStretchCorn"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/TwinStretchCorn/Gameplay/Abilities/ShardShoot/GA_TwinStretchCorn_ShardShoot.GA_TwinStretchCorn_ShardShoot_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/TwinStretchCorn/Gameplay/Abilities/Block/GA_TwinStretchCorn_Block.GA_TwinStretchCorn_Block_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilitySet": {
+      "AssetPathName": "/TwinStretchCorn/Gameplay/Abilities/AS_TwinStretchCorn.AS_TwinStretchCorn",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/TwinStretchCorn/Gameplay/Ammo/Ammo_TwinStretchCorn.Ammo_TwinStretchCorn",
+      "SubPathString": ""
+    },
+    "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+    "bRechargeAmmoToClip": true,
+    "bUsesCustomAmmoType": true,
+    "bUpdateLastFireTimeOnDischarge": true,
+    "bCanAutofireWithMinimalCharge": true,
+    "PlayerGrantedGameplayTags": [
+      "Gameplay.Status.DisableSwimSprintCancel",
+      "Granted.Athena.TacticalSprint.PreventHolster",
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+      "Granted.TwinStretchCorn.Equipped",
+      "Granted.Athena.ADS.AllowInAir"
+    ],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_twinstretchcorn"
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DE610A69425C9EE5CE11A194FEAFCCC7",
+      "SourceString": "Magneto Power",
+      "LocalizedString": "Magneto Power"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E3909FA84D7120808B279EB2F58F1BFA",
+      "SourceString": "A pair of curious gauntlets seemingly imbued with the power to control Metal with the user's mind and gestures.",
+      "LocalizedString": "A pair of curious gauntlets seemingly imbued with the power to control Metal with the user's mind and gestures."
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/TwinStretchCorn/Assets/Icons/T-Icon-BR-Gaunlet-TwinStretchCorn.T-Icon-BR-Gaunlet-TwinStretchCorn",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/TwinStretchCorn/Meshes/TwinStretchCorn_Pickup.TwinStretchCorn_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/TwinStretchCorn/Gameplay/Actors/B_Pickup_TwinStretchCorn.B_Pickup_TwinStretchCorn_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/TwinStretchCorn/Assets/Audio/Cues/SC_TwinStretchCorn_Pickup.SC_TwinStretchCorn_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/TwinStretchCorn/Assets/Audio/Cues/SC_TwinStretchCorn_Drop.SC_TwinStretchCorn_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "/TwinStretchCorn/Assets/Audio/Cues/SC_TwinStretchCorn_Ambient_Loop.SC_TwinStretchCorn_Ambient_Loop",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/TwinStretchCorn/Assets/Audio/Cues/SC_TwinStretchCorn_DropLand.SC_TwinStretchCorn_DropLand",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": true,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 34.663795,
+          "Y": 12.413712,
+          "Z": 21.193348
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      },
+      {
+        "ChargeToBurstRoundsCurve": {
+          "ObjectName": "CurveFloat'CF_TwinStretchCorn_DummyBurstCurve'",
+          "ObjectPath": "/TwinStretchCorn/Gameplay/CF_TwinStretchCorn_DummyBurstCurve.0"
+        },
+        "ChargeToBurstFireRateCurve": {
+          "ObjectName": "CurveFloat'CF_TwinStretchCorn_DummyBurstCurve'",
+          "ObjectPath": "/TwinStretchCorn/Gameplay/CF_TwinStretchCorn_DummyBurstCurve.0"
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/TwinStretchCorn/Gameplay/Actors/B_Prj_TwinStretchCorn.B_Prj_TwinStretchCorn_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_TwinStretchCorn'",
+            "ObjectPath": "/TwinStretchCorn/Assets/Audio/Settings/SL_TwinStretchCorn.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "EquippedCharacterParts": [
+          {
+            "AssetPathName": "/TwinStretchCorn/Assets/CP_TwinStretchCorn_Gauntlets.CP_TwinStretchCorn_Gauntlets",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'TwinStretchCornGameData'",
+              "ObjectPath": "/TwinStretchCorn/DataTables/TwinStretchCornGameData.0"
+            },
+            "RowName": "TwinStretchCorn.Weapon.Ammo.RechargeTime"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'TwinStretchCornGameData'",
+              "ObjectPath": "/TwinStretchCorn/DataTables/TwinStretchCornGameData.0"
+            },
+            "RowName": "TwinStretchCorn.Weapon.Ammo.RechargeAmount"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/TwinStretchCorn/Assets/Icons/T-Icon-BR-Gaunlet-TwinStretchCorn-L.T-Icon-BR-Gaunlet-TwinStretchCorn-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Weapon.HasUseForFireIcon",
+          "Weapon.Gauntlet",
+          "Animation.CharacterParts.HideFX.Hands",
+          "Athena.Item.Utility",
+          "Item.Power.TwinStretchCorn",
+          "Granted.TwinStretchCorn.Cooldown",
+          "HUD.RechargeableIcon",
+          "Weapon.RechargeAmmo",
+          "phoebe.weapon.ranged.Gauntlets.Magneto",
+          "Weapon.IgnoresExternalInfiniteAmmoSettings",
+          "phoebe.items.assault_rifle",
+          "phoebe.weapon.ranged.rifle",
+          "phoebe.weapon.trait.dmr",
+          "Item.Weapon.Ranged.DMR",
+          "Item.Weapon.Ranged.Marksman"
+        ]
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Traits": [
+          "Item.Trait.AllowEmptyFinalStack",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      }
+    ]
+  }
+}

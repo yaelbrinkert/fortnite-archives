@@ -1,0 +1,93 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_Valet_BasicCar_Vehicle_IO",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ValetGameData'",
+          "ObjectPath": "/Valet/DataTables/ValetGameData.0"
+        },
+        "RowName": "Default.Valet.MinSpawnPercent.BasicCar.IO"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ValetGameData'",
+          "ObjectPath": "/Valet/DataTables/ValetGameData.0"
+        },
+        "RowName": "Default.Valet.MaxSpawnPercent.BasicCar.IO"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ValetGameData'",
+          "ObjectPath": "/Valet/DataTables/ValetGameData.0"
+        },
+        "RowName": "Default.Valet.MinSpawnPercent.BasicCar.IO"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ValetGameData'",
+          "ObjectPath": "/Valet/DataTables/ValetGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentWithGas.BasicCar.IO"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ValetGameData'",
+          "ObjectPath": "/Valet/DataTables/ValetGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentWithGas.BasicCar.IO"
+      }
+    },
+    "MinPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ValetGameData'",
+          "ObjectPath": "/Valet/DataTables/ValetGameData.0"
+        },
+        "RowName": "Default.Valet.MinPercentInoperable.BasicCar.IO"
+      }
+    },
+    "MaxPercentInoperable": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ValetGameData'",
+          "ObjectPath": "/Valet/DataTables/ValetGameData.0"
+        },
+        "RowName": "Default.Valet.MaxPercentInoperable.BasicCar.IO"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/Valet/BasicCar/Valet_BasicCar_Vehicle_IO.Valet_BasicCar_Vehicle_IO_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "basicio"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

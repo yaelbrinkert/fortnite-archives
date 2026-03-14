@@ -1,0 +1,182 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "CID_961_Athena_Commando_F_Shapeshifter",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_Shapeshifter.CP_Head_F_Shapeshifter",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_Shapeshifter.CP_Body_Commando_F_Shapeshifter",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_Shapeshifter.CP_F_MED_Shapeshifter",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Characters/CharacterParts/Backpacks/CP_Backpack_Shapeshifter_Female.CP_Backpack_Shapeshifter_Female",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "FrontendAnimMontageIdleOverride": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/BR/CustomSkins/_S15/Shapeshifter/ShapeShifter_Female_Idle_Montage.ShapeShifter_Female_Idle_Montage",
+      "SubPathString": ""
+    },
+    "DefaultMontageLookupTable": {
+      "AssetPathName": "/Game/Animation/Game/MainPlayer/Menu/MontageLookUpTables/MediumFemale.MediumFemale",
+      "SubPathString": ""
+    },
+    "MetaTags": [
+      "Cosmetics.MetaTags.ShapeShifter.TailOff",
+      "Cosmetics.MetaTags.ShapeShifter.SnakesOff",
+      "Cosmetics.MetaTags.Special.BodySwap.HideTail"
+    ],
+    "ReactivePreviewDrivers": [
+      {
+        "Key": {
+          "VariantChannelTag": {
+            "TagName": "Cosmetics.Variant.Channel.Parts"
+          },
+          "ActiveVariantTag": {
+            "TagName": "Cosmetics.Variant.Property.Stage1"
+          }
+        },
+        "Value": {
+          "AssetPathName": "/Script/FortniteGame.FortCosmeticReactivePreview_InterfaceWrapper",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Key": {
+          "VariantChannelTag": {
+            "TagName": "Cosmetics.Variant.Channel.Particle"
+          },
+          "ActiveVariantTag": {
+            "TagName": "Cosmetics.Variant.Property.Particle1"
+          }
+        },
+        "Value": {
+          "AssetPathName": "/Script/FortniteGame.FortCosmeticReactivePreview_InterfaceWrapper",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_961_Athena_Commando_F_Shapeshifter:FortCosmeticCharacterPartVariant_0'",
+        "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/CID_961_Athena_Commando_F_Shapeshifter.1"
+      },
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_961_Athena_Commando_F_Shapeshifter:FortCosmeticCharacterPartVariant_1'",
+        "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/CID_961_Athena_Commando_F_Shapeshifter.2"
+      },
+      {
+        "ObjectName": "FortCosmeticCharacterPartVariant'CID_961_Athena_Commando_F_Shapeshifter:FortCosmeticCharacterPartVariant_2'",
+        "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/CID_961_Athena_Commando_F_Shapeshifter.3"
+      },
+      {
+        "ObjectName": "FortCosmeticPropertyVariant'CID_961_Athena_Commando_F_Shapeshifter:FortCosmeticPropertyVariant_0'",
+        "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/CID_961_Athena_Commando_F_Shapeshifter.4"
+      }
+    ],
+    "ExclusiveIcon": {
+      "AssetPathName": "/Game/Athena/UI/Season/Art/Textures/T_UI_CosmoIngot.T_UI_CosmoIngot",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      33770
+    ],
+    "BaseShotGridId": 33770,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "033D063A41A5F2681A3A94AA2157BFD5",
+      "SourceString": "Mave",
+      "LocalizedString": "Mave"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B76D482F48A094F95B190192076E2BB3",
+      "SourceString": "Wildheart defender of the Tempest Jungle.",
+      "LocalizedString": "Wildheart defender of the Tempest Jungle."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-961-Athena-Commando-F-Shapeshifter-L.T-Soldier-HID-961-Athena-Commando-F-Shapeshifter-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-961-Athena-Commando-F-Shapeshifter.T-Soldier-HID-961-Athena-Commando-F-Shapeshifter",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.QuestsMetaData.Outfit.Shapeshifter",
+          "Cosmetics.Source.Season15.BattlePass.Paid",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.Filter.Season.15",
+          "Cosmetics.Exclusives.Shapeshifter",
+          "Cosmetics.Set.CrazyLung",
+          "Cosmetics.UserFacingFlags.Enlightened",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Reactive",
+          "SoundLibrary.ID.StepType.BootsCombat",
+          "SoundLibrary.ID.ClothingType.Generic",
+          "SoundLibrary.ID.HandType.Bare",
+          "Cosmetics.Gating.Allow.Shoes"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          538,
+          8,
+          490,
+          270,
+          544,
+          546,
+          547,
+          231,
+          551,
+          247,
+          556,
+          114,
+          88,
+          121,
+          684,
+          860,
+          894,
+          438,
+          799,
+          976,
+          853,
+          2030
+        ]
+      }
+    ]
+  }
+}

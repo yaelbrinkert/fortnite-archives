@@ -1,0 +1,119 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_IronLilac",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IronLilac/CMM/Emote_IronLilac_CMM_M.Emote_IronLilac_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IronLilac/CMF/Emote_IronLilac_CMF_M.Emote_IronLilac_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IronLilac/CLM/Emote_IronLilac_CLM_M.Emote_IronLilac_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/IronLilac/CLF/Emote_IronLilac_CLF_M.Emote_IronLilac_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "Section_A",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "Section_B",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "Section_C",
+        "SectionWeight": 1.0
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "B40EF0254F3A234F445C718DB04BB968",
+      "SourceString": "Battle Blessing",
+      "LocalizedString": "Battle Blessing"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E4A7828B4E5EB1E5AD8C85B8708137D4",
+      "SourceString": "Fortune favors the bold lines.",
+      "LocalizedString": "Fortune favors the bold lines."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "800D90F84398756105857E851B9185ED",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -15.0,
+          "Y": 200.0,
+          "Z": 55.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Set.TinyDark"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_IronLilac.T_Icon_Emotes_IronLilac",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S33/T_Icon_Emotes_IronLilac_L.T_Icon_Emotes_IronLilac_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

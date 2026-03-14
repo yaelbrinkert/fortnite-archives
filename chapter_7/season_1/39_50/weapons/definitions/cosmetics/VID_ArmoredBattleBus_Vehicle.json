@@ -1,0 +1,97 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_ArmoredBattleBus_Vehicle",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ArmoredBattleBusGameData'",
+          "ObjectPath": "/ArmoredBattleBus/DataTables/ArmoredBattleBusGameData.0"
+        },
+        "RowName": "Default.Valet.ArmoredBattleBus.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ArmoredBattleBusGameData'",
+          "ObjectPath": "/ArmoredBattleBus/DataTables/ArmoredBattleBusGameData.0"
+        },
+        "RowName": "Default.Valet.ArmoredBattleBus.MaxSpawnPercent"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ArmoredBattleBusGameData'",
+          "ObjectPath": "/ArmoredBattleBus/DataTables/ArmoredBattleBusGameData.0"
+        },
+        "RowName": "Default.Valet.ArmoredBattleBus.MaxNumberCanSpawn"
+      }
+    },
+    "MinPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ArmoredBattleBusGameData'",
+          "ObjectPath": "/ArmoredBattleBus/DataTables/ArmoredBattleBusGameData.0"
+        },
+        "RowName": "Default.Valet.ArmoredBattleBus.MinPercentWithGas"
+      }
+    },
+    "MaxPercentWithGas": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ArmoredBattleBusGameData'",
+          "ObjectPath": "/ArmoredBattleBus/DataTables/ArmoredBattleBusGameData.0"
+        },
+        "RowName": "Default.Valet.ArmoredBattleBus.MaxPercentWithGas"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/ArmoredBattleBus/Vehicle/ArmoredBattleBus_Vehicle.ArmoredBattleBus_Vehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "battlebus",
+      "armoredbus"
+    ],
+    "MaxSpawnDistance": 2000.0,
+    "SpawnWithMods": [
+      "Vehicle.Mod.Tire.Offroad",
+      "Vehicle.Mod.CowCatcher"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A605A6EA466747E66DCA66A224AD86C0",
+      "SourceString": "Armored Battle Bus",
+      "LocalizedString": "Armored Battle Bus"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/ArmoredBattleBus/Icons/T-T-Icon-BR-ArmoredBattleBus.T-T-Icon-BR-ArmoredBattleBus",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/ArmoredBattleBus/Icons/T-T-Icon-BR-ArmoredBattleBus-L.T-T-Icon-BR-ArmoredBattleBus-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

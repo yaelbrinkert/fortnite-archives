@@ -1,0 +1,378 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Lime_Sting_Blaster_C_Ore_T03",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/LimeStingBlaster/Blueprints/B_RocketLauncher_Generic_Lime_Child.B_RocketLauncher_Generic_Lime_Child_C",
+      "SubPathString": ""
+    },
+    "WeaponMeshOverride": {
+      "AssetPathName": "/LimeStingBlaster/SkeletalMeshes/SKM_StingBlaster.SKM_StingBlaster",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'AthenaRangedWeapons'",
+        "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+      },
+      "RowName": "Launcher_Rocket_Athena_C_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_ExplosiveDamage.BaseAlteration_ExplosiveDamage",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Abilities/GA_Ranged_GenericProjectileExplosive_Athena.GA_Ranged_GenericProjectileExplosive_Athena_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/LimeWeaponsCore/Ammo/Lime_AmmoDataRockets.Lime_AmmoDataRockets",
+      "SubPathString": ""
+    },
+    "bAllowTargetingDuringReload": true,
+    "AnalyticTags": [
+      "Weapon.Ranged.Heavy",
+      "Item.Weapon.Ranged.Launcher.Rocket.LimeSting",
+      "Lime.Item.Weapon.Ranged.Launcher.Rocket.LimeSting"
+    ],
+    "ActualAnalyticFNames": [
+      "Weapon.Ranged.Heavy",
+      "Item.Weapon.Ranged.Launcher.Rocket.LimeSting",
+      "Lime.Item.Weapon.Ranged.Launcher.Rocket.LimeSting",
+      "Tag:Weapon:wid_lime_sting_blaster_c_ore_t03"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo:Rockets",
+        "Common",
+        "Explosive",
+        "Guard",
+        "Lime",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "28BA0D9E49B3759A02977A975CB762EC",
+      "SourceString": "Sting Blaster",
+      "LocalizedString": "Sting Blaster"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A88F55C34F2DA943DECE108C9C47D304",
+      "SourceString": "Like an angry bee: buzz through the air, a sharp sting on impact.",
+      "LocalizedString": "Like an angry bee: buzz through the air, a sharp sting on impact."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F325F21B4F58BAD6535DDFAF61EB0558",
+      "SourceString": "Sting Blaster",
+      "LocalizedString": "Sting Blaster"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/LimeStingBlaster/Blueprints/B_Prj_Ranged_Rocket_Lime_LowTier_Child.B_Prj_Ranged_Rocket_Lime_LowTier_Child_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/LimeStingBlaster/SkeletalMeshes/SKM_StingBlaster.SKM_StingBlaster",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_LimeLauncher_64'",
+            "ObjectPath": "/LimeWeaponsCore/Ranged/Icons/T_Icon_LimeLauncher_64.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Launcher_Pickup_Athena_Cue.Launcher_Pickup_Athena_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Launcher_Drop_Cue.Launcher_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "/LimeStingBlaster/Audio/SL_Launcher_RocketStingBlaster_Pickup.SL_Launcher_RocketStingBlaster_Pickup",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 18.002562,
+          "Y": 38.022583,
+          "Z": 19.918303
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "D4B1B39E4365F1FF9683D99D46C86177",
+          "SourceString": "Guns Ranged Rocket Launcher AOE",
+          "LocalizedString": "Guns Ranged Rocket Launcher AOE"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/LimeStingBlaster/Icons/T_Icon_Weapons_LimeStingBlaster.T_Icon_Weapons_LimeStingBlaster",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/LimeStingBlaster/Icons/T_Icon_Weapons_LimeStingBlaster_L.T_Icon_Weapons_LimeStingBlaster_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Bacchus.Shoot.Launcher.Rocket",
+          "Trait.Explosive",
+          "Rarity.Common",
+          "phoebe.weapon.ranged.rocket_launcher",
+          "phoebe.items.rocket_launcher",
+          "Lime.Item.Guard",
+          "Behavior.Injection.Lime.Behaviors.Ranged",
+          "Weapon.Meta.DoNotApplyWraps",
+          "Lime.Item.Weapon.Ranged.Launcher.Rocket.LimeSting",
+          "Item.Weapon.Ranged"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "/LimeStingBlaster/SkeletalMeshes/SKM_StingBlaster.SKM_StingBlaster",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -25.0,
+          "Z": -4.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.677672,
+          "Yaw": 27.94883,
+          "Roll": -18.777086
+        },
+        "Scale": 0.7
+      }
+    ]
+  }
+}

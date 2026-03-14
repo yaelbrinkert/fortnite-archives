@@ -1,0 +1,86 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_DIsguiseDevice_Disguise_DefaultCombat_Cyrus",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GadgetPriority": 10,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_Athena_Body_M_Prime'",
+        "ObjectPath": "/CRD_DisguiseDevice/Disguises/Parts/DisguisePart_Athena_Body_M_Prime.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_M_MED_FaceAcc_Prime_C'",
+        "ObjectPath": "/CRD_DisguiseDevice/Disguises/Parts/DisguisePart_M_MED_FaceAcc_Prime_C.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Hat'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_Shoe_Empty'",
+        "ObjectPath": "/CRD_DisguiseDevice/Disguises/Parts/DisguisePart_Shoe_Empty.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'DisguisePart_Athena_Head_M_Prime_C'",
+        "ObjectPath": "/CRD_DisguiseDevice/Disguises/Parts/DisguisePart_Athena_Head_M_Prime_C.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoCharm'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoBackpack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3AFD44304AF14FD9F86CFEACEB02887B",
+      "SourceString": "SwashWave",
+      "LocalizedString": "SwashWave"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A29C28754561CA834F3C28BA4360A2CA",
+      "SourceString": "SwashWaveDesc",
+      "LocalizedString": "SwashWaveDesc"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "44C6C2E54CD49B02BF14BABBCB8B2AEA",
+      "SourceString": "SwashWaveDesc",
+      "LocalizedString": "SwashWaveDesc"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "PreferredQuickbarSlot": 0
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Tags": [
+          "Item.SortsRight"
+        ]
+      }
+    ]
+  }
+}

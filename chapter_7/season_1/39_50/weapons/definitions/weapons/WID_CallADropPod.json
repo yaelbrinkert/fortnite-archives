@@ -1,0 +1,328 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_CallADropPod",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bForceProjectileTooltip": true,
+    "WeaponActorClass": {
+      "AssetPathName": "/TidalCraneDropPod/Gameplay/B_UtilityItem_DropPod.B_UtilityItem_DropPod_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Athena_Grenade"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/TidalCraneDropPod/Gameplay/GA_CallADropPod_Throw_Primary.GA_CallADropPod_Throw_Primary_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/TidalCraneDropPod/Gameplay/GA_CallADropPod_Throw_Secondary.GA_CallADropPod_Throw_Secondary_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/TidalCraneDropPod/Gameplay/WID_CallADropPod.WID_CallADropPod",
+      "SubPathString": ""
+    },
+    "bCanFireWhileNotTargetedInVehicle": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Consumable.Thermite"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Consumable.Thermite",
+      "Tag:Weapon:wid_calladroppod"
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "6AF328414C671504BB2C0AAF216B6C4C",
+      "SourceString": "Dial-A-Pod",
+      "LocalizedString": "Dial-A-Pod"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "D7B6DBE14117E866BA4192B41E6B3171",
+      "SourceString": "Calls down a drop pod at location",
+      "LocalizedString": "Calls down a drop pod at location"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A464B4CC43AA1E0ECD7F6F8668289597",
+      "SourceString": "Calls down a drop pod at location",
+      "LocalizedString": "Calls down a drop pod at location"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 3.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "Default.ThermiteGameplay.MaxStack"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/TidalCraneDropPod/Assets/Meshes/DropPod_Remote_TidalCrane_Gadget.DropPod_Remote_TidalCrane_Gadget",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/TidalCraneDropPod/Assets/Audio/SC_TidalCraneDropPod_Pickup.SC_TidalCraneDropPod_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/TidalCraneDropPod/Assets/Audio/SC_TidalCraneDropPod_Drop.SC_TidalCraneDropPod_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/TidalCraneDropPod/Assets/Audio/SC_TidalCraneDropPod_FlareLand.SC_TidalCraneDropPod_FlareLand",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": true,
+        "bDropOnLogout": true,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 4.7753263,
+          "Y": 5.6576204,
+          "Z": 20.3011
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/TidalCraneDropPod/Gameplay/T_DialADropPod_Icon.T_DialADropPod_Icon",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/TidalCraneDropPod/Gameplay/T_DialADropPod_IconLarge.T_DialADropPod_IconLarge",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Athena.ItemAction.Secondary.Throw",
+          "Athena.ItemAction.Throw",
+          "Item.SortsRight",
+          "Athena.HUD.Pickup.ShowTotalAmmo",
+          "Rarity.SuperRare",
+          "Granted.Cooldown.DialADropPod",
+          "Item.Consumable.DialADropPod"
+        ]
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/TidalCraneDropPod/Gameplay/B_Prj_CallADropPod.B_Prj_CallADropPod_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "WeaponSoundLibraries": [],
+        "WeaponOwnerSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_TidalCraneDropPod'",
+            "ObjectPath": "/TidalCraneDropPod/Assets/Audio/SL_TidalCraneDropPod.0"
+          }
+        ],
+        "WeaponCollectionTag": []
+      }
+    ]
+  }
+}

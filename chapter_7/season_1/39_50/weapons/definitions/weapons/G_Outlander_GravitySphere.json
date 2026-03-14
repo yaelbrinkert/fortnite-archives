@@ -1,0 +1,51 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_Outlander_GravitySphere",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Outlander/Actives/GravitySphere/GA_Outlander_GravitySphere.GA_Outlander_GravitySphere_C",
+      "SubPathString": ""
+    },
+    "DamageStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'GadgetScaling'",
+        "ObjectPath": "/Game/Balance/DataTables/GadgetScaling.0"
+      },
+      "RowName": "Outlander_MatterCollector"
+    },
+    "ItemType": "EFortItemType::HeroAbility",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "060187454AAB97295E7AC7910E6363EC",
+      "SourceString": "Gravity Sphere",
+      "LocalizedString": "Gravity Sphere"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.AllowQuickbarFocusForGamepadOnly",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Icon-Perk-Missing-64.Icon-Perk-Missing-64",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.Effect.Damage",
+          "Gameplay.AOE.Shape",
+          "Gameplay.Asset.Gadget"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Lime_AmmoDataBulletsEnergy",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageType": "ESlateBrushImageType::FullColor",
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T_Icon_Lime_Ammo_Energy_32'",
+        "ObjectPath": "/LimeWeaponsCore/Ammo/EnergyAmmo/Icons/T_Icon_Lime_Ammo_Energy_32.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "AmmoIconBrush": {
+      "Brush_XS": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Lime_Ammo_Energy_32'",
+          "ObjectPath": "/LimeWeaponsCore/Ammo/EnergyAmmo/Icons/T_Icon_Lime_Ammo_Energy_32.0"
+        }
+      },
+      "Brush_S": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Lime_Ammo_Energy_32'",
+          "ObjectPath": "/LimeWeaponsCore/Ammo/EnergyAmmo/Icons/T_Icon_Lime_Ammo_Energy_32.0"
+        }
+      },
+      "Brush_M": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Lime_Ammo_Energy_32'",
+          "ObjectPath": "/LimeWeaponsCore/Ammo/EnergyAmmo/Icons/T_Icon_Lime_Ammo_Energy_32.0"
+        }
+      },
+      "Brush_L": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Lime_Ammo_Energy_64'",
+          "ObjectPath": "/LimeWeaponsCore/Ammo/EnergyAmmo/Icons/T_Icon_Lime_Ammo_Energy_64.0"
+        }
+      }
+    },
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo",
+        "Lime",
+        "OverrideCount_100",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "1B191143446BD3CC3BD25080DF49028F",
+      "SourceString": "Ammo: Energy Ammo",
+      "LocalizedString": "Ammo: Energy Ammo"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E4B47397428EE4B578C84C85E491D541",
+      "SourceString": "Ammo for energy-based weapons.",
+      "LocalizedString": "Ammo for energy-based weapons."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B93B5599400B4E3A6CEA80A5C2C77737",
+      "SourceString": "Energy Ammo",
+      "LocalizedString": "Energy Ammo"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Ammo.MaxStackAmount.Medium"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/LimeWeaponsCore/Ammo/EnergyAmmo/SM_LimeAmmo_Energy.SM_LimeAmmo_Energy",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/Lime/PickUps/B_Pickup_Override_Lime.B_Pickup_Override_Lime_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/LimeWeaponsCore/Audio/Bullet_Energy_Collect.Bullet_Energy_Collect",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/LimeWeaponsCore/Audio/Bullet_Energy_Drop.Bullet_Energy_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/LimeWeaponsCore/Audio/Bullet_Energy_Land.Bullet_Energy_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 8.000079,
+          "Y": 8.000079,
+          "Z": 16.0
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "DF9DA65443729F976DC298BA95DC2497",
+          "SourceString": "Ammo",
+          "LocalizedString": "Ammo"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/LimeWeaponsCore/Ammo/EnergyAmmo/Icons/T_Icon_Lime_Ammo_Energy_128.T_Icon_Lime_Ammo_Energy_128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/LimeWeaponsCore/Ammo/EnergyAmmo/Icons/T_Icon_Lime_Ammo_Energy_256.T_Icon_Lime_Ammo_Energy_256",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "phoebe.items.ammo",
+          "supplies.ammo.energycell"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 50.000053,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      }
+    ]
+  }
+}

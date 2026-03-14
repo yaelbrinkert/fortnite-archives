@@ -1,0 +1,303 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_KeysAndLocks_Key",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShowShortDescriptionInPickupDisplay": true,
+    "InventoryMinimapIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "InventoryCompassIconBrush": {
+      "DrawAs": "ESlateBrushDrawType::NoDrawType"
+    },
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "GameItem",
+        "Item",
+        "Paradise",
+        "RareItem"
+      ]
+    },
+    "GadgetPriority": 1,
+    "AbilitySet": {
+      "AssetPathName": "/KeysAndLocks/Items/KeysAndLocks/AS_KeysAndLocks_KeyEquipped.AS_KeysAndLocks_KeyEquipped",
+      "SubPathString": ""
+    },
+    "ItemType": "EFortItemType::WorldResource",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "391E436244AEF30F1341F38B39C645EC",
+      "SourceString": "Key",
+      "LocalizedString": "Key"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5155C82C40A3B129C561DA9BD84D4DEB",
+      "SourceString": "A single-use key. When you have them in your inventory, be on the look out for lock icons on your map.",
+      "LocalizedString": "A single-use key. When you have them in your inventory, be on the look out for lock icons on your map."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowDepositInStorageVault"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'KeysAndLocksGameData'",
+              "ObjectPath": "/KeysAndLocks/DataTables/KeysAndLocksGameData.0"
+            },
+            "RowName": "Default.KeysAndLocks.MaxKeysInInventory"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/KeysAndLocks/Items/KeysAndLocks/Icons/T-T-Icon-BR-Key.T-T-Icon-BR-Key",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/KeysAndLocks/Items/KeysAndLocks/Icons/T-T-Icon-BR-Key-L.T-T-Icon-BR-Key-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "FilterCategory": "EFortInventoryFilter::Gadget"
+      },
+      {
+        "Tags": [
+          "Item.SortsRight",
+          "HUD.PreferredSlotType.Utility",
+          "HUD.Athena.Inventory.Resource.TopRow",
+          "phoebe.items.gadget.key",
+          "Phoebe.ExcludedLoot",
+          "Rarity.Rare"
+        ]
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/KeysAndLocks/Items/KeysAndLocks/Meshes/Key.Key",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/KeysAndLocks/Items/KeysAndLocks/B_Pickups_Key.B_Pickups_Key_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.13052616,
+            "Z": 0.0,
+            "W": 0.9914449,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 10.0
+          },
+          "Scale3D": {
+            "X": 1.25,
+            "Y": 1.25,
+            "Z": 1.25
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Items-DungeonKey-L'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Items/T-Items-DungeonKey-L.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "Default.VictoryCrownsGameplay.Pickup.DespawnTime"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Containers/Keys_And_Locks/Keys_And_Locks_PickUp_Cue.Keys_And_Locks_PickUp_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Containers/Keys_And_Locks/Keys_And_Locks_Drop_Cue.Keys_And_Locks_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Containers/Keys_And_Locks/Keys_And_Locks_KeyIdleLoop_Cue.Keys_And_Locks_KeyIdleLoop_Cue",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/Game/Sounds/Foley_Loot/Containers/Keys_And_Locks/Keys_And_Locks_DropLand_Cue.Keys_And_Locks_DropLand_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 500.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": true,
+        "bDropOnDeath": true,
+        "bDropOnLogout": true,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 5.461795,
+          "Y": 2.0499346,
+          "Z": 16.313639
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "0E1A49E845CCC733F2FA6DA7CFBEDD25",
+          "SourceString": "Key",
+          "LocalizedString": "Key"
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "/Script/FortniteGame.FortTooltip",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::III",
+        "MaxTier": "EFortItemTier::III"
+      }
+    ]
+  }
+}

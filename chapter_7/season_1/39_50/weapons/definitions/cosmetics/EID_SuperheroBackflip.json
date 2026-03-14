@@ -1,0 +1,80 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_SuperheroBackflip",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SuperheroBackflip/Emote_SuperheroBackflip_CMM_M.Emote_SuperheroBackflip_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SuperheroBackflip/Emote_SuperheroBackflip_CMF_M.Emote_SuperheroBackflip_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/SuperheroBackflip/Emote_SuperheroBackflip_CLM_M.Emote_SuperheroBackflip_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemPreviewHero": {
+      "AssetPathName": "/Game/Athena/Items/Cosmetics/Characters/CID_556_Athena_Commando_F_RebirthDefaultA.CID_556_Athena_Commando_F_RebirthDefaultA",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "391922A64E8FBBF976B5EAA489530709",
+      "SourceString": "Flippin' Away",
+      "LocalizedString": "Flippin' Away"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "316890A2406EB06EBC7A3384FAE390B7",
+      "SourceString": "Back in action.",
+      "LocalizedString": "Back in action."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "4D65EC0F4F57B1BD334E87922ADBDB02",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.Season13.BattlePass.Free",
+          "Cosmetics.Filter.Season.13",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-SuperHeroBackflip.T-Icon-Emotes-SuperHeroBackflip",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-SuperHeroBackflip-L.T-Icon-Emotes-SuperHeroBackflip-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

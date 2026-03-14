@@ -1,0 +1,126 @@
+{
+  "Type": "FortPlaylistAthena",
+  "Name": "Campaign",
+  "Class": "UScriptClass'FortPlaylistAthena'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RewardPlacementBonusType": "ERewardPlacementBonusType::Solo",
+    "InMatchXPRewardScalar": {
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaPlaylistXpToggle'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaPlaylistXpToggle.0"
+        },
+        "RowName": "Playlist_DefaultSolo"
+      }
+    },
+    "bUsePlayerRating": true,
+    "bEnableRatingUpdate": true,
+    "bEnableDynamicBotBackfill": true,
+    "RatingType": "fun",
+    "bLimitedPoolMatchmakingEnabled": true,
+    "WinConditionType": "EAthenaWinCondition::MutatorControlledChinaSupported",
+    "NumWinningTeamsCN": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "NumWinningTeamsCN"
+      }
+    },
+    "PlaylistMissionGen": {
+      "ObjectName": "BlueprintGeneratedClass'MissionGen_Athena_C'",
+      "ObjectPath": "/Game/World/MissionGens/Athena/MissionGen_Athena.0"
+    },
+    "MissionIcon": {
+      "ObjectName": "Texture2D'T_Icon_Matchmaking_Solo_64'",
+      "ObjectPath": "/Game/UI/Foundation/Textures/Icons/Social/T_Icon_Matchmaking_Solo_64.0"
+    },
+    "bLimitedTimeMode": false,
+    "bShowEliminationIndicatorForSquadmates": true,
+    "bShowEliminationIndicatorForTeammates": true,
+    "MapManagerClass": {
+      "AssetPathName": "/Game/UI/IngameMap/UIMapManagerBR.UIMapManagerBR_C",
+      "SubPathString": ""
+    },
+    "SafeZoneLocationBlacklist": {
+      "AssetPathName": "/Game/Athena/Balance/DataTables/AthenaSafeZoneBlacklist.AthenaSafeZoneBlacklist",
+      "SubPathString": ""
+    },
+    "AISettings": {
+      "AssetPathName": "/Game/Athena/AI/AISettings/PlayerBotsFlow_AISettings.PlayerBotsFlow_AISettings",
+      "SubPathString": ""
+    },
+    "MaxVehiclesCanSpawnWithTireMod": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Mod.Tire.MaxVehiclesCanSpawnWith"
+      }
+    },
+    "PercentChanceSpawnWithTireMod": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Vehicle.Mod.Tire.PercentChanceSpawnWith"
+      }
+    },
+    "PlaylistName": "Campaign",
+    "GameType": "EFortGameType::STW",
+    "MinPlayers": 1,
+    "MaxPlayers": 4,
+    "MaxHumanAndBotParticipants": 100,
+    "MaxTeamCount": 1,
+    "MaxTeamSize": 4,
+    "MaxSquadSize": 4,
+    "bEnableBackfillDuringWarmupPhase": false,
+    "RichPresenceAssetName": "Save the World",
+    "GameplayTagContainer": [
+      "Athena.Playlist.DefaultXP",
+      "Athena.Playlist.Default",
+      "Athena.Playlist.Core"
+    ],
+    "LootLevel": 1,
+    "ModifierList": [
+      {
+        "AssetPathName": "/Game/Athena/Playlists/DefaultModifiers/MaterialDropOnElim_Default.MaterialDropOnElim_Default",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Playlists/ContextTutorial/ContextTutorial_AthenaContextTutorial.ContextTutorial_AthenaContextTutorial",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/GameplayMod_Phoebe_DM_Solo.GameplayMod_Phoebe_DM_Solo",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Athena/Playlists/Deimos/GameplayMod_DeimosAI.GameplayMod_DeimosAI",
+        "SubPathString": ""
+      }
+    ],
+    "bIsDefaultPlaylist": true,
+    "UIDisplayName": {
+      "Namespace": "",
+      "Key": "86BA0473421FC829F8A4E0A780681ADB",
+      "SourceString": "Save the World",
+      "LocalizedString": "Save the World"
+    },
+    "LootTierData": {
+      "AssetPathName": "/Game/Athena/Playlists/AthenaCompositeLTD.AthenaCompositeLTD",
+      "SubPathString": ""
+    },
+    "GameData": {
+      "AssetPathName": "/Game/Athena/Playlists/AthenaCompositeGameData.AthenaCompositeGameData",
+      "SubPathString": ""
+    }
+  }
+}

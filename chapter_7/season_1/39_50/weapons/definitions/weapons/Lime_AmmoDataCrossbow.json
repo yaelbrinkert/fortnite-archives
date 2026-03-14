@@ -1,0 +1,341 @@
+{
+  "Type": "FortAmmoItemDefinition",
+  "Name": "Lime_AmmoDataCrossbow",
+  "Class": "UScriptClass'FortAmmoItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ClipIconBrush": {
+      "ImageType": "ESlateBrushImageType::FullColor",
+      "ImageSize": {
+        "X": 64.0,
+        "Y": 64.0
+      },
+      "ResourceObject": {
+        "ObjectName": "Texture2D'T_UI_Juno_Ammo_Arrow_stroke_XS'",
+        "ObjectPath": "/LimeWeaponsCore/Ammo/CrossbowAmmo/Icons/T_UI_Juno_Ammo_Arrow_stroke_XS.0"
+      }
+    },
+    "bTriggersFeedbackLines": true,
+    "AmmoIconBrush": {
+      "Brush_XS": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      },
+      "Brush_S": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      },
+      "Brush_M": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      },
+      "Brush_L": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Spear-32'",
+          "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-32.0"
+        }
+      }
+    },
+    "HUDAmmoSmallPreviewImage": {
+      "AssetPathName": "/LimeWeaponsCore/Ammo/CrossbowAmmo/Icons/T_UI_Juno_Ammo_Arrow_stroke_XS.T_UI_Juno_Ammo_Arrow_stroke_XS",
+      "SubPathString": ""
+    },
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Ammo",
+        "Lime",
+        "Weapon"
+      ]
+    },
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9F40ED6B4745D46F43481FB05EDE941F",
+      "SourceString": "Ammo: Crossbow Ammo",
+      "LocalizedString": "Ammo: Crossbow Ammo"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "27E3BF8E4AAE56B4532290B67C4A65A2",
+      "SourceString": "Ammo for crossbows.",
+      "LocalizedString": "Ammo for crossbows."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B41CFB9A4FD516D8B14107BFE8B37916",
+      "SourceString": "Crossbow Ammo",
+      "LocalizedString": "Crossbow Ammo"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'AthenaGameData'",
+              "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+            },
+            "RowName": "Default.Ammo.MaxStackAmount.Arrows"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/LimeWeaponsCore/Ammo/CrossbowAmmo/SM_Arrow_arrow.SM_Arrow_arrow",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "/Lime/PickUps/B_Pickup_Override_Lime.B_Pickup_Override_Lime_C",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.25,
+            "Y": -0.25,
+            "Z": -0.066987,
+            "W": 0.933013,
+            "IsNormalized": true,
+            "Size": 1.0000002,
+            "SizeSquared": 1.0000006
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+            "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Weapons/Arrow/Sounds/Pickup/MSS_Arrow_Pickup.MSS_Arrow_Pickup",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Weapons/Arrow/Sounds/Drop/MSS_Arrow_Drop.MSS_Arrow_Drop",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/JunoCommonArtAssets/Audio/Weapons/Arrow/Sounds/Land/MSS_Arrow_Land.MSS_Arrow_Land",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": false,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 5.3461833,
+          "Y": 5.3461814,
+          "Z": 24.0
+        }
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "B06666D04EB54B17C441DE80660CD881",
+          "SourceString": "Ammo",
+          "LocalizedString": "Ammo"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Spear-128.T-Icon-Spear-128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/LimeWeaponsCore/Ammo/CrossbowAmmo/Icons/T_UI_Juno_Icon_Weapon_Ammo_Bolt.T_UI_Juno_Icon_Weapon_Ammo_Bolt",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "phoebe.items.ammo",
+          "supplies.ammo.arrows"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 50.000046,
+          "Roll": 0.0
+        },
+        "Scale": 0.8
+      }
+    ]
+  }
+}

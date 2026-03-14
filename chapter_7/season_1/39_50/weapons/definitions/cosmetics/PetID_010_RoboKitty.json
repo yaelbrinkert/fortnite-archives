@@ -1,0 +1,64 @@
+{
+  "Type": "AthenaPetItemDefinition",
+  "Name": "PetID_010_RoboKitty",
+  "Class": "UScriptClass'AthenaPetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "StimuliBanks": [
+      {
+        "ObjectName": "FortPetStimuliBank'SharedPetStimuli'",
+        "ObjectPath": "/BRCosmetics/Characters/Pets/Shared/SharedPetStimuli.0"
+      }
+    ],
+    "PetPrefabClass": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Robo_kitty/B_Pet_RoboKItty.B_Pet_RoboKItty_C",
+      "SubPathString": ""
+    },
+    "PetSoundBank": {
+      "AssetPathName": "/BRCosmetics/Characters/Pets/Robo_kitty/SoundBank_RoboKitty.SoundBank_RoboKitty",
+      "SubPathString": ""
+    },
+    "CosmeticSoundLibraries": [
+      {
+        "ObjectName": "SoundLibrary'PT_RCtFm_VO_Lib'",
+        "ObjectPath": "/BRCosmetics/Sounds/Pets/RCtFm/PT_RCtFm_VO_Lib.0"
+      }
+    ],
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "7C793AB74511B24560330D8DF7B54A3C",
+      "SourceString": "Kyo",
+      "LocalizedString": "Kyo"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9CF76FD048C8B4E09305529D308F1C19",
+      "SourceString": "Activate battle nap.",
+      "LocalizedString": "Activate battle nap."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E13006744FE2A0C6602013BB026FD6BA",
+      "SourceString": "Pet",
+      "LocalizedString": "Pet"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.Filter.Season.9"
+        ]
+      }
+    ]
+  }
+}

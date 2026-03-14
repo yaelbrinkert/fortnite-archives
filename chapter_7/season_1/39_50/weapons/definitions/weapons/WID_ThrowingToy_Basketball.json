@@ -1,0 +1,126 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_ThrowingToy_Basketball",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "WeaponActorClass": {
+      "AssetPathName": "/CRD_ThrowingToy/SetupAssets/Basket/B_ActorClass_Basketball_Held.B_ActorClass_Basketball_Held_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'UtilityItemDamage'",
+        "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+      },
+      "RowName": "Generic_Placeholder"
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/CRD_ThrowingToy/SetupAssets/Basket/GA_Athena_Grenade_WithTrajectory_Basket.GA_Athena_Grenade_WithTrajectory_Basket_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/CRD_ThrowingToy/SetupAssets/Basket/ThrowToy_Basket_Pass.ThrowToy_Basket_Pass_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/CRD_ThrowingToy/SetupAssets/ID/WID_ThrowingToy_Basketball.WID_ThrowingToy_Basketball",
+      "SubPathString": ""
+    },
+    "bAllowSecondaryFireToInterruptPrimary": true,
+    "ReticleCornerAngles": [],
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_throwingtoy_basketball"
+    ],
+    "CreativeTagsHelper": {
+      "CreativeTags": [
+        "Throwable"
+      ]
+    },
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "469C750D49D77CCE2799A493F55FCF88",
+      "SourceString": "Basketball",
+      "LocalizedString": "Basketball"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "E0B7396A4ABA20E51EEC5497B36090C0",
+      "SourceString": "Time to shoot some hoops!",
+      "LocalizedString": "Time to shoot some hoops!"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.ForceQuickbarFocusWhenAdded",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.AlwaysCountForCollectionQuest",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ProjectileTemplate": {
+          "AssetPathName": "/CRD_ThrowingToy/SetupAssets/Basket/ThrowToy_Basket_Projectile.ThrowToy_Basket_Projectile_C",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/OnlyDamageTooltipStat.OnlyDamageTooltipStat",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::I",
+        "MaxTier": "EFortItemTier::No_Tier"
+      },
+      {
+        "MaxStackSize": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "Default.Consumables.MaxStackAmount.RustyCan"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/TileImages/T_UI_FNxHoop.T_UI_FNxHoop",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Ability",
+          "Athena.ItemAction.Throw",
+          "Rarity.Common",
+          "Athena.ItemAction.Secondary.Throw",
+          "Item.SortsRight",
+          "Cosmetics.OverrideWrapBehavior.DoNotOverride",
+          "Weapon.Thrown.ThrowingAxe",
+          "Item.Weapon.Ranged.Thrown.ThrowingAxe",
+          "Event.Creative.Item.EnableHubPickup"
+        ]
+      }
+    ]
+  }
+}

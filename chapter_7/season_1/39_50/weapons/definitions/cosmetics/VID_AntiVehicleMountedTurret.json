@@ -1,0 +1,49 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_AntiVehicleMountedTurret",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResolveTurretGameData'",
+          "ObjectPath": "/ResolveTurret/DataTables/ResolveTurretGameData.0"
+        },
+        "RowName": "Default.AVT.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResolveTurretGameData'",
+          "ObjectPath": "/ResolveTurret/DataTables/ResolveTurretGameData.0"
+        },
+        "RowName": "Default.AVT.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/ResolveTurret/Items/Environmental/AntiVehicleMountedTurret/Vehicle/AntiVehicleMountedTurret.AntiVehicleMountedTurret_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "antivehiclemountedturret"
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "8E7B614243858A3234A441A86B92881A",
+      "SourceString": "Heavy Turret",
+      "LocalizedString": "Heavy Turret"
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

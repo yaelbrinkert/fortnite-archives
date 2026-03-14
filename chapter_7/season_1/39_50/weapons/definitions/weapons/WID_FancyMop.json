@@ -1,0 +1,409 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_FancyMop",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "bAllowCombinedAimAndFire": false,
+    "bAllowReleaseToFire": false,
+    "bAllowContinuousFire": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/FancyMop/Blueprints/B_Weapon_FancyMop.B_Weapon_FancyMop_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'ARWFancyMop'",
+        "ObjectPath": "/FancyMop/Blueprints/ARWFancyMop.0"
+      },
+      "RowName": "TestWeap28_Athena_SR_Ore_T03"
+    },
+    "BaseAlteration": {
+      "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+      "SubPathString": ""
+    },
+    "BaseCosmeticAlteration": {
+      "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/FancyMop/Blueprints/GA_Ranged_ItemizedPropSpawner_FancyMop.GA_Ranged_ItemizedPropSpawner_FancyMop_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/FancyMop/Blueprints/GA_Secondary_FancyMop.GA_Secondary_FancyMop_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/FancyMop/Blueprints/Ammo_FancyMop_Rock.Ammo_FancyMop_Rock",
+      "SubPathString": ""
+    },
+    "bRechargeAmmoToClip": true,
+    "bUsesCustomAmmoType": true,
+    "bEquippedCharacterPartsMatchWeaponVisibility": true,
+    "ReticleImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/Weapons/AthenaHUD_RPG.AthenaHUD_RPG",
+      "SubPathString": ""
+    },
+    "ReticleCornerAngles": [],
+    "ReticleCenterImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/Weapons/AthenaHUD_RPG.AthenaHUD_RPG",
+      "SubPathString": ""
+    },
+    "ReticleCenterPerfectAimImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/Weapons/AthenaHUD_RPG.AthenaHUD_RPG",
+      "SubPathString": ""
+    },
+    "ReticleInvalidTargetImage": {
+      "AssetPathName": "/Game/Athena/HUD/reticles/Weapons/AthenaHUD_RPG.AthenaHUD_RPG",
+      "SubPathString": ""
+    },
+    "AnalyticTags": [
+      "Item.Power.FancyMop"
+    ],
+    "PlayerGrantedGameplayTags": [
+      "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+      "Granted.Athena.TacticalSprint.PreventHolster"
+    ],
+    "ActualAnalyticFNames": [
+      "Item.Power.FancyMop",
+      "Tag:Weapon:wid_fancymop"
+    ],
+    "Rarity": "EFortRarity::Mythic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "81A5A5164361672189C3279167EEBCE3",
+      "SourceString": "Earthbending",
+      "LocalizedString": "Earthbending"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "3313B0D74248D67B48B9EF9473B400D4",
+      "SourceString": "Summon chunks of earth to hurl at foes or use them to create defensive barriers.",
+      "LocalizedString": "Summon chunks of earth to hurl at foes or use them to create defensive barriers."
+    },
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "ReloadAbility": {
+          "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": -1,
+        "MaxLevel": -1
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'SL_FancyMop'",
+            "ObjectPath": "/FancyMop/Audio/SL_FancyMop.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "EquippedCharacterParts": [
+          {
+            "AssetPathName": "/FancyMop/Blueprints/FancyMop_CP.FancyMop_CP",
+            "SubPathString": ""
+          }
+        ]
+      },
+      {
+        "WeaponRechargeAmmoRate": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'FancyMopGameData'",
+              "ObjectPath": "/FancyMop/DataTables/FancyMopGameData.0"
+            },
+            "RowName": "Default.FancyMop.Projectile.RechargeRate"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "WeaponRechargeAmmoQuantity": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "LootLevelCategoryHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'LootLevelData'",
+            "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+          },
+          "ColumnName": "Category",
+          "RowContents": "Tiered_T03_"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/FancyMop/Icons/T-Icon-BR-Pickup-ColdDay-FancyMop.T-Icon-BR-Pickup-ColdDay-FancyMop",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/FancyMop/Icons/T-Icon-BR-Pickup-ColdDay-FancyMop-L.T-Icon-BR-Pickup-ColdDay-FancyMop-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Gameplay.DamageSource.Weapon",
+          "Rarity.Mythic",
+          "Item.Power.FancyMop",
+          "Weapon.Gauntlet",
+          "Athena.Item.Utility",
+          "Animation.CharacterParts.HideFX.Hands",
+          "Weapon.RechargeAmmo",
+          "HUD.PreferredSlotType.Utility",
+          "MobileHUD.DisplayADS"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": -22.0,
+          "Z": -1.0
+        },
+        "InitialRotation": {
+          "Pitch": 7.2860084,
+          "Yaw": 32.02907,
+          "Roll": -19.442837
+        },
+        "Scale": 1.2
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/FancyMop/Meshes/SM_FancyMop_Scroll_B.SM_FancyMop_Scroll_B",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+            "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/FancyMop/Audio/Cues/FancyMop_Pickup_Cue.FancyMop_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/FancyMop/Audio/Cues/FancyMop_Drop_Cue.FancyMop_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "/FancyMop/Audio/Cues/FancyMop_Drop_Ambient_Loop_Cue.FancyMop_Drop_Ambient_Loop_Cue",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/FancyMop/Audio/Cues/FancyMop_Drop_Impact_Cue.FancyMop_Drop_Impact_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 5000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": false,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 28.688759,
+          "Y": 16.20062,
+          "Z": 16.298925
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      }
+    ]
+  }
+}

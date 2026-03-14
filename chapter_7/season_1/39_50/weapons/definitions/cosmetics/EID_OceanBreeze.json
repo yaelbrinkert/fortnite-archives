@@ -1,0 +1,85 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_OceanBreeze",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OceanBreeze/Emote_OceanBreeze_CMM_M.Emote_OceanBreeze_CMM_M",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/OceanBreeze/Emote_OceanBreeze_CMM_M.Emote_OceanBreeze_CMM_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_OceanBreeze.Character_OceanBreeze",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      61751
+    ],
+    "BaseShotGridId": 61751,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A16646BF4A5172D32CF11D9CBA672F57",
+      "SourceString": "Get Flakey",
+      "LocalizedString": "Get Flakey"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "332CF22646916C99554D6690E3A2354B",
+      "SourceString": "Meet the phantom.",
+      "LocalizedString": "Meet the phantom."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B8B59E9B454044A7846243847BA0120F",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-OceanBreeze.T-Icon-Emotes-OceanBreeze",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-OceanBreeze-L.T-Icon-Emotes-OceanBreeze-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Emote.BuiltIn.Transform",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Set.LoudStop"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

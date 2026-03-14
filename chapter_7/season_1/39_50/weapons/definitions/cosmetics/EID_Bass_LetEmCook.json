@@ -1,0 +1,115 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Bass_LetEmCook",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Bass/LetEmCook/Persistent/Emote_Bass_LetEmCook_CMM_M.Emote_Bass_LetEmCook_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Bass/LetEmCook/Persistent/Emote_Bass_LetEmCook_CMF_M.Emote_Bass_LetEmCook_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Bass/LetEmCook/Persistent/Emote_Bass_LetEmCook_CLM_M.Emote_Bass_LetEmCook_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Bass/LetEmCook/Persistent/Emote_Bass_LetEmCook_CLF_M.Emote_Bass_LetEmCook_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLength": 12.0,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Bass_LetEmCook:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Bass/LetEmCook/EID_Bass_LetEmCook.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "283AE2F64E520534A5B1EBB02CAC4294",
+      "SourceString": "Hot & Cheesy",
+      "LocalizedString": "Hot & Cheesy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A081A0934EFC683AD30570A434E33A4C",
+      "SourceString": "Serve it up piping hot.",
+      "LocalizedString": "Serve it up piping hot."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "376AE1184A7E9292C862CD94310C753B",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Sparks.Season.06",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.33",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Bass_LetEmCook.T_UI_Icon_SparksEmote_Bass_LetEmCook",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S32/T_UI_Icon_SparksEmote_Bass_LetEmCook_L.T_UI_Icon_SparksEmote_Bass_LetEmCook_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.7
+      }
+    ]
+  }
+}

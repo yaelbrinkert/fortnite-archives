@@ -1,0 +1,119 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Disguise_Alter_Shorts_2",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "CharacterParts": [
+      {
+        "ObjectName": "CustomCharacterPart'CP_Athena_Body_M_HenchmanBadShorts_Disguise'",
+        "ObjectPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_HenchmanBadShorts_Disguise.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_None'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_None.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Hat'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'Empty_Cap'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Cap.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_Athena_Head_M_HenchmanBadShorts_B_Disguise'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_HenchmanBadShorts_B_Disguise.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoCharm'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'NoBackpack'",
+        "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+      },
+      {
+        "ObjectName": "CustomCharacterPart'CP_M_MED_Henchman_Bad_FaceAcc_Disguise'",
+        "ObjectPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_MED_Henchman_Bad_FaceAcc_Disguise.1"
+      }
+    ],
+    "CharacterPartsExtraSpecial": [
+      {
+        "CharacterPartsForExtraSpecial": [
+          {
+            "ObjectName": "CustomCharacterPart'CP_Athena_Body_M_HenchmanBadShorts_Disguise'",
+            "ObjectPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_HenchmanBadShorts_Disguise.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_None'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_None.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_Hat'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Hat.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'Empty_Cap'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Hats/Empty_Cap.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'CP_Athena_Head_M_HenchmanBadShorts_B_Disguise'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_HenchmanBadShorts_B_Disguise.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'NoCharm'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Charms/NoCharm.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'NoBackpack'",
+            "ObjectPath": "/Game/Characters/CharacterParts/Backpacks/NoBackpack.1"
+          },
+          {
+            "ObjectName": "CustomCharacterPart'CP_M_MED_Henchman_Bad_FaceAcc_Disguise'",
+            "ObjectPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_MED_Henchman_Bad_FaceAcc_Disguise.1"
+          }
+        ],
+        "SkinMetaTagsForExtraSpecial": [
+          "Cosmetics.MetaTags.Trait.ExtremelyUnique",
+          "Cosmetics.MetaTags.Trait.HeadCovered",
+          "Cosmetics.MetaTags.Trait.NeckOnBody",
+          "Cosmetics.MetaTags.Trait.Headless"
+        ]
+      }
+    ],
+    "AbilitySet": {
+      "AssetPathName": "/Game/Athena/Items/EnvironmentalItems/HidingProps/Props/PhantomBooth/AS_Disguise_Alter.AS_Disguise_Alter",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Mythic",
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceIntoOverflow",
+          "Item.Trait.ForceStayInOverflow"
+        ]
+      },
+      {
+        "PreferredQuickbarSlot": 0
+      },
+      {
+        "SlotSize": 0
+      },
+      {
+        "Tier": "EFortItemTier::VI",
+        "MaxTier": "EFortItemTier::VI"
+      },
+      {
+        "Tags": [
+          "Item.SortsRight"
+        ]
+      }
+    ]
+  }
+}

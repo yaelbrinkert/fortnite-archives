@@ -1,0 +1,113 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Generic_HiFive_JoinAdHocSquads",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bAllowLowerBodyLocomotion": true,
+    "GroupEmoteToStartLeader": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Generic_HiFive_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Generic_HiFive_Sync.0"
+    },
+    "GroupEmoteToStartFollower": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Generic_HiFive_Sync'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Generic_HiFive_Sync.0"
+    },
+    "GroupEmoteToStartLeaderIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Generic_HiFive_SyncOwned'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Generic_HiFive_SyncOwned.0"
+    },
+    "GroupEmoteToStartFollowerIfBothOwn": {
+      "ObjectName": "AthenaDanceItemDefinition'EID_Generic_HiFive_SyncOwned'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_Generic_HiFive_SyncOwned.0"
+    },
+    "GroupEmotePositionOffset": {
+      "X": 105.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "GroupEmotePositionOffsetTolerance": 1.0,
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Generic_AdHocSquad/Request/CMM/Emote_GenericRequest_AdHocSquad_Joiner_CMM_Sync_M_FE.Emote_GenericRequest_AdHocSquad_Joiner_CMM_Sync_M_FE",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Generic_AdHocSquad/Request/CMF/Emote_GenericRequest_AdHocSquad_Joiner_CMF_Sync_M_FE.Emote_GenericRequest_AdHocSquad_Joiner_CMF_Sync_M_FE",
+      "SubPathString": ""
+    },
+    "CustomDanceAbility": {
+      "AssetPathName": "/BRCosmetics/Abilities/Emotes/GAB_GroupEmoteRequest_JoinAdHocSquad.GAB_GroupEmoteRequest_JoinAdHocSquad_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Generic_AdHocSquad/Request/CMM/Emote_GenericRequest_AdHocSquad_Joiner_CMM_Sync_M.Emote_GenericRequest_AdHocSquad_Joiner_CMM_Sync_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Generic_AdHocSquad/Request/CMF/Emote_GenericRequest_AdHocSquad_Joiner_CMF_Sync_M.Emote_GenericRequest_AdHocSquad_Joiner_CMF_Sync_M",
+      "SubPathString": ""
+    },
+    "EmoteCooldownSecs": 1.0,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0CAD7EB9436A6E4BD3ADB184168B1C94",
+      "SourceString": "Invite to Team",
+      "LocalizedString": "Invite to Team"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "983C826D477584DE76DC6B84B6EF0B5D",
+      "SourceString": "Invite a player to your team.",
+      "LocalizedString": "Invite a player to your team."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "521737C848C0900E2E1934BF9F151B47",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2",
+          "Cosmetics.UserFacingFlags.Emote.Group",
+          "Cosmetics.EmoteType.AdHocSquad.Join"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T_TeamEmotes_Join.T_TeamEmotes_Join",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T_TeamEmotes_Join_L.T_TeamEmotes_Join_L",
+          "SubPathString": ""
+        }
+      },
+      {},
+      {
+        "InteractText": {
+          "Namespace": "",
+          "Key": "4EF3F9BF414D4A6A60620E8DAFA546EC",
+          "SourceString": "Join Team",
+          "LocalizedString": "Join Team"
+        }
+      }
+    ]
+  }
+}

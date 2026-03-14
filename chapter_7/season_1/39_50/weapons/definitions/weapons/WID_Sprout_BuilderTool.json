@@ -1,0 +1,79 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Sprout_BuilderTool",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/SproutBuilding/BP_Sprout_BuilderTool.BP_Sprout_BuilderTool_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'DT_Sprout_BuilderTool_WeaponStats'",
+        "ObjectPath": "/SproutBuilding/DataTables/DT_Sprout_BuilderTool_WeaponStats.0"
+      },
+      "RowName": "BuilderTool"
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/SproutBuilding/Abilities/GA_Sprout_BuilderTool_Move.GA_Sprout_BuilderTool_Move_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/SproutBuilding/Abilities/GA_Sprout_BuilderTool_Pickup.GA_Sprout_BuilderTool_Pickup_C",
+      "SubPathString": ""
+    },
+    "EquippedAbilities": [
+      {
+        "AssetPathName": "/SproutBuilding/Abilities/GA_Sprout_BuilderTool_Highlight.GA_Sprout_BuilderTool_Highlight_C",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/SproutBuilding/Abilities/GA_Sprout_DisplayBuildError.GA_Sprout_DisplayBuildError_C",
+        "SubPathString": ""
+      }
+    ],
+    "LowAmmoPercentage": 0.0,
+    "ActualAnalyticFNames": [
+      "Tag:Weapon:wid_sprout_buildertool"
+    ],
+    "ItemType": "EFortItemType::WeaponCreativePhone",
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "517F3D0E4859D1398C0A619BB18C98DF",
+      "SourceString": "Building Tool",
+      "LocalizedString": "Building Tool"
+    },
+    "DataList": [
+      {
+        "PreferredQuickbarSlot": 1
+      },
+      {
+        "Tags": [
+          "Weapon",
+          "Rarity.Rare",
+          "Juno.Inventory.DefaultItem",
+          "Juno.Inventory.Group.Hidden",
+          "Weapon.Meta.DoNotApplyWraps"
+        ]
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.ForceStayInOverflow",
+          "Item.Trait.DisallowDepositInStorageVault",
+          "Item.Trait.Transient",
+          "Item.Trait.IgnoreRemoveAllInventoryItems"
+        ]
+      }
+    ]
+  }
+}

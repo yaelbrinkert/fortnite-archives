@@ -1,0 +1,83 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Firecracker",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bUseHighPreviewCamera": true,
+    "CustomDanceAbility": {
+      "AssetPathName": "/Game/Abilities/Emotes/GAB_Emote_Firecracker.GAB_Emote_Firecracker_C",
+      "SubPathString": ""
+    },
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Firecracker/Emote_Firecracker_CMM_M.Emote_Firecracker_CMM_M",
+      "SubPathString": ""
+    },
+    "PreviewLength": 10.0,
+    "EmoteCooldownSecs": 1.0,
+    "RequiredEmoteParent": {
+      "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_A_125_Athena_Commando_M_Firecracker.CID_A_125_Athena_Commando_M_Firecracker",
+      "SubPathString": ""
+    },
+    "ShotGridIds": [
+      41948
+    ],
+    "BaseShotGridId": 41948,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "41BCB2E14594DD840030DE95EF187CD6",
+      "SourceString": "Short Fuse",
+      "LocalizedString": "Short Fuse"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "6337C6564A6F8D98E4F22B8B64D80D05",
+      "SourceString": "Go ahead. Feel those feelings. ",
+      "LocalizedString": "Go ahead. Feel those feelings. "
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6A977CE04A6E1B45A3449AB0CCE564A3",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.17",
+          "Cosmetics.UserFacingFlags.BuiltInEmote",
+          "Emote.ActivationTrigger.RemoveDisguise",
+          "Emote.ActivationCondition.RequiresVictoryRoyale",
+          "Cosmetics.Set.BigBoom",
+          "Cosmetics.Frontend.UsePreviewLength",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Phoebe.Cosmetic.Minus.Zone2"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Firecracker.T-Icon-Emotes-E-Firecracker",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Firecracker-L.T-Icon-Emotes-E-Firecracker-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

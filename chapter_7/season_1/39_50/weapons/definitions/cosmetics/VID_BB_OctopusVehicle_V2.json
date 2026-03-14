@@ -1,0 +1,48 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_BB_OctopusVehicle_V2",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BallerV2GameData'",
+          "ObjectPath": "/BallerV2/DataTables/BallerV2GameData.0"
+        },
+        "RowName": "Octopus.Vehicle.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BallerV2GameData'",
+          "ObjectPath": "/BallerV2/DataTables/BallerV2GameData.0"
+        },
+        "RowName": "Octopus.Vehicle.MaxSpawnPercent"
+      }
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/BlastberryMapContent/Game/Blueprints/Baller/Rufus_OctopusVehicle.Rufus_OctopusVehicle_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "rufusballerV2",
+      "rufushamsterV2",
+      "rufusoctopusV2",
+      "rufusballer",
+      "rufushamster",
+      "rufusoctopus"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      }
+    ]
+  }
+}

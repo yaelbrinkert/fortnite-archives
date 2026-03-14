@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_MutedSheath",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_HairMid.CP_Bean_Head_HairMid",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Fashion.CP_Bean_Body_Fashion",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_MutedSheath:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_MutedSheath.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F7A8B8A1474FA03C196C23B83660B329",
+      "SourceString": "Kwame",
+      "LocalizedString": "Kwame"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "B3C213F94BBDE5715B39AFA5004C7D30",
+      "SourceString": "Cut through the red tape.",
+      "LocalizedString": "Cut through the red tape."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E4E655BC48CFEC5D1CAB5CB55FFA730B",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Set.WhiteSheath"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_MutedSheath.T_Bean_MutedSheath",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_MutedSheath_L.T_Bean_MutedSheath_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CrewSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CrewSeries.0"
+        }
+      }
+    ]
+  }
+}

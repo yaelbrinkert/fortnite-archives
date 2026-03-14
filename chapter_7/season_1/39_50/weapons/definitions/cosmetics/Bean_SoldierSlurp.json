@@ -1,0 +1,81 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_SoldierSlurp",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_HairShort.CP_Bean_Head_HairShort",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Casual.CP_Bean_Body_Casual",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_SoldierSlurp:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_SoldierSlurp.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BF0C21D143FAA37411FED99F4971022C",
+      "SourceString": "Slurp Jonesy",
+      "LocalizedString": "Slurp Jonesy"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5570D9EE43E7215D96DCEDB787EF2DB7",
+      "SourceString": "Slurp up and ship out.\r\nReactive: Head transforms with higher shields",
+      "LocalizedString": "Slurp up and ship out.\r\nReactive: Head transforms with higher shields"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "9658361F4EFF6B98FF153898E58C9D52",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_SoldierSlurp.T_Bean_SoldierSlurp",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_SoldierSlurp_L.T_Bean_SoldierSlurp_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Cosmetics.Filter.Season.12",
+          "Cosmetics.Set.DrinkChamps",
+          "Phoebe.Cosmetic.Minus.Zone1"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'SlurpSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/SlurpSeries.0"
+        }
+      }
+    ]
+  }
+}

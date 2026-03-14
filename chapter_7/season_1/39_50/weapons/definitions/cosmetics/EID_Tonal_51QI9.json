@@ -1,0 +1,94 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Tonal_51QI9",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Tonal/Emote_Tonal_CMM_M.Emote_Tonal_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Tonal/Emote_Tonal_CMF_M.Emote_Tonal_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Tonal/Emote_Tonal_CLF_M.Emote_Tonal_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Tonal/Emote_Tonal_CLM_M.Emote_Tonal_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      54765
+    ],
+    "BaseShotGridId": 54765,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "0D29EB5849001EF7D98E49A038BE1E0C",
+      "SourceString": "Dance Monkey",
+      "LocalizedString": "Dance Monkey"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "40979E164CE1D750064C52BEB1E73FB0",
+      "SourceString": "A slow, shy shimmy for the battlefield.",
+      "LocalizedString": "A slow, shy shimmy for the battlefield."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "6B0925354D7DE35E0E45ED99D503D438",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Tonal.T-Icon-Emotes-E-Tonal",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Tonal-L.T-Icon-Emotes-E-Tonal-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.19"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

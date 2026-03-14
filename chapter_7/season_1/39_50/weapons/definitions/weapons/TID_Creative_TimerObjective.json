@@ -1,0 +1,65 @@
+{
+  "Type": "FortTrapItemDefinition",
+  "Name": "TID_Creative_TimerObjective",
+  "Class": "UScriptClass'FortTrapItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BlueprintClass": {
+      "AssetPathName": "/Game/Creative/Devices/TimerObjective/BP_TimerObjective.BP_TimerObjective_C",
+      "SubPathString": ""
+    },
+    "PlacementPreviewClass": {
+      "AssetPathName": "/Script/FortniteGame.FortDecoPreview_GenericBuildingSMActor",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Trap:tid_creative_timerobjective"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.AutoCombineStacks",
+          "Item.Trait.HasDurability",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "MaxStackSize": {
+          "Value": 999.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        }
+      },
+      {
+        "PreferredQuickbarSlot": 4
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PlaysetGrenade/T-Icon-PS-CP-Devices_TimerObjective_SM.T-Icon-PS-CP-Devices_TimerObjective_SM",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PlaysetGrenade/T-Icon-PS-CP-Devices_TimerObjective.T-Icon-PS-CP-Devices_TimerObjective",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Rarity.Uncommon"
+        ]
+      }
+    ]
+  }
+}

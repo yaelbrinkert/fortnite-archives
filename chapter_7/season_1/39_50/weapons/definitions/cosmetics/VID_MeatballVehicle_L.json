@@ -1,0 +1,72 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_MeatballVehicle_L",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'MotorboatGameData'",
+          "ObjectPath": "/Motorboat/DataTables/MotorboatGameData.0"
+        },
+        "RowName": "Default.Vehicle.Motorboat.MinSpawnPercent"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'MotorboatGameData'",
+          "ObjectPath": "/Motorboat/DataTables/MotorboatGameData.0"
+        },
+        "RowName": "Default.Vehicle.Motorboat.MaxSpawnPercent"
+      }
+    },
+    "WrapPreviewTransform": {
+      "Rotation": {
+        "X": -0.23977545,
+        "Y": 0.031567663,
+        "Z": 0.61432636,
+        "W": 0.75107545,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -60.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "WrapPreviewSectionMask": 3,
+    "bUseInWrapPreviewList": true,
+    "VehicleActorClass": {
+      "AssetPathName": "/Motorboat/Vehicle/MeatballVehicle_L.MeatballVehicle_L_C",
+      "SubPathString": ""
+    },
+    "PreviewSkeletalMesh": {
+      "AssetPathName": "/Game/Athena/DrivableVehicles/Meatball/Meshes/Medium_Meatball_Veh.Medium_Meatball_Veh",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "boat",
+      "meatball"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Devices/T-Icon-Device-MeatBallSpawner-L.T-Icon-Device-MeatBallSpawner-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

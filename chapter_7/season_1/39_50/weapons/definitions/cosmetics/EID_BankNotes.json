@@ -1,0 +1,98 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_BankNotes",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BankNotes/NEW/Emote_BanksNotes_CMM_M.Emote_BanksNotes_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BankNotes/NEW/CMF/Emote_BanksNotes_CMF_M.Emote_BanksNotes_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BankNotes/NEW/CLF/Emote_BanksNotes_CLF_M.Emote_BanksNotes_CLF_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/BankNotes/NEW/CLM/Emote_BanksNotes_CLM_M.Emote_BanksNotes_CLM_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 0,
+    "PreviewLength": 18.5,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      71038
+    ],
+    "BaseShotGridId": 71038,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "3213DD6E4830033742DB579FA9D0169F",
+      "SourceString": "Fast Flex",
+      "LocalizedString": "Fast Flex"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "C23796DD489538E71AC8789C61403523",
+      "SourceString": "Don't let 'em forget it.",
+      "LocalizedString": "Don't let 'em forget it."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "DFE9B3C5454C1A3790B76986DC3C8768",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'CreatorCollabSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/CreatorCollabSeries.0"
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-BankNotes.T-Icon-Emotes-BankNotes",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-BankNotes-L.T-Icon-Emotes-BankNotes-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25",
+          "Cosmetics.UserFacingFlags.Emote.Dance",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

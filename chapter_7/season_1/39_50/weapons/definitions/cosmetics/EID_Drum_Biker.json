@@ -1,0 +1,144 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Drum_Biker",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "FrontEndAnimation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Frontend/Emote_Drum_Biker_Frontend_CMM_M.Emote_Drum_Biker_Frontend_CMM_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Frontend/Emote_Drum_Biker_Frontend_CMF_M.Emote_Drum_Biker_Frontend_CMF_M",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Frontend/Emote_Drum_Biker_Frontend_CLM_M.Emote_Drum_Biker_Frontend_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Frontend/Emote_Drum_Biker_Frontend_CLF_M.Emote_Drum_Biker_Frontend_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bMovingEmote": true,
+    "bMoveForwardOnly": true,
+    "Animation": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Persistent/Emote_Drum_Biker_CMM_M.Emote_Drum_Biker_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Persistent/Emote_Drum_Biker_CMF_M.Emote_Drum_Biker_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Persistent/Emote_Drum_Biker_CLM_M.Emote_Drum_Biker_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/SparksCosmetics/Emotes/Drum/Biker/Persistent/Emote_Drum_Biker_CLF_M.Emote_Drum_Biker_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 3,
+    "EmoteCooldownSecs": 1.0,
+    "bMontageContainsFacialAnimation": true,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_Drum_Biker:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/SparksCosmetics/Emotes/Drum/Biker/EID_Drum_Biker.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "66BF395E45FDB0EBFA22319D6902E784",
+      "SourceString": "Beat Chopper",
+      "LocalizedString": "Beat Chopper"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "9A4329B54EF486B08CC9C993425C22A3",
+      "SourceString": "Let it ride.",
+      "LocalizedString": "Let it ride."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "308AB132461D92FDE5F7029AAAC31D79",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S34/T_UI_Icon_SparksEmote_Drum_Biker.T_UI_Icon_SparksEmote_Drum_Biker",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/SparksCosmetics/UI/Icons/Emotes/S34/T_UI_Icon_SparksEmote_Drum_Biker_L.T_UI_Icon_SparksEmote_Drum_Biker_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 0.6
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Filter.Season.34",
+          "Cosmetics.Filter.Sparks.Season.08",
+          "Cosmetics.UserFacingFlags.Emote.Traversal",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

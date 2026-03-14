@@ -1,0 +1,203 @@
+{
+  "Type": "AthenaPickaxeItemDefinition",
+  "Name": "Pickaxe_AnglePatch",
+  "Class": "UScriptClass'AthenaPickaxeItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "PickaxeImpactFXPreviewOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 100.0
+    },
+    "PickaxeDualWieldPreviewRotation": {
+      "Pitch": 115.0,
+      "Yaw": 0.0,
+      "Roll": 180.0
+    },
+    "CameraFramingBounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": -15.0,
+        "Z": 32.0
+      },
+      "CylinderHalfHeight": 55.0,
+      "CylinderRadius": 75.0
+    },
+    "WeaponDefinition": {
+      "ObjectName": "FortWeaponMeleeDualWieldItemDefinition'Weapon_Pickaxe_AnglePatch'",
+      "ObjectPath": "/BRCosmetics/Athena/Items/Weapons/Weapon_Pickaxe_AnglePatch.0"
+    },
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticParticleVariant'Pickaxe_AnglePatch:FortCosmeticParticleVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_AnglePatch.1"
+      }
+    ],
+    "ItemVariantPreviews": [
+      {
+        "UnlockCondition": {
+          "CultureInvariantString": null
+        },
+        "PreviewTime": 3.0,
+        "VariantOptions": [
+          {
+            "OwnedVariantTags": [],
+            "ItemVariantIsUsedFor": null,
+            "CustomData": "",
+            "VariantChannelTag": {
+              "TagName": "Cosmetics.Variant.Channel.Particle"
+            },
+            "ActiveVariantTag": {
+              "TagName": "Cosmetics.Variant.Property.Particle2"
+            }
+          }
+        ],
+        "AdditionalItems": []
+      }
+    ],
+    "VariantShotGridIds": [
+      111646
+    ],
+    "ShotGridIds": [
+      107914,
+      111646
+    ],
+    "BaseShotGridId": 107914,
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "CAB54EAC43CCF75DE6AC64A643674280",
+      "SourceString": "The Doomblade",
+      "LocalizedString": "The Doomblade"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "0E3D017F4565F970C1083DB1562FB713",
+      "SourceString": "Forged to channel Doom's mystic arts.",
+      "LocalizedString": "Forged to channel Doom's mystic arts."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "EF5E57F24DDD97F3F3FEEA839342CB90",
+      "SourceString": "Pickaxe",
+      "LocalizedString": "Pickaxe"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Tags": [
+          "Cosmetics.Pickaxe.OneHanded",
+          "Cosmetics.Filter.Season.31",
+          "Cosmetics.Set.WarmPopulation",
+          "Cosmetics.Source.Season31.BattlePass.Paid.Additional",
+          "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+          "Cosmetics.LimitedTimeReward"
+        ]
+      },
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": -20.0,
+          "Y": -15.0,
+          "Z": -32.0
+        },
+        "InitialRotation": {
+          "Pitch": 32.0,
+          "Yaw": 315.0,
+          "Roll": 5.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'MarvelSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/MarvelSeries.0"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S31/T_IconPickaxes_AnglePatch.T_IconPickaxes_AnglePatch",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Weapons/Items/S31/T_IconPickaxes_AnglePatch_L.T_IconPickaxes_AnglePatch_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ContextualOverrides": [
+          {
+            "ContextTags": [
+              "UI.ItemPreview.SceneChanger.BattlePass"
+            ],
+            "ItemPreviewActorClass": {
+              "AssetPathName": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview.ItemOnPawnPreview_C",
+              "SubPathString": ""
+            },
+            "IdleMontage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Character": {
+              "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_AnglePatch_Lodge.Character_AnglePatch_Lodge",
+              "SubPathString": ""
+            },
+            "VariantOverrides": [
+              {
+                "WhenViewingVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Pickaxe_AnglePatch_StyleB.VTID_Pickaxe_AnglePatch_StyleB",
+                  "SubPathString": ""
+                },
+                "OverrideCharacterWithVariant": {
+                  "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_AnglePatch_StyleB.VTID_Character_AnglePatch_StyleB",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "GeneratedTagsIndexes": [
+          238,
+          541,
+          546,
+          548,
+          359,
+          554,
+          114,
+          557,
+          239,
+          105,
+          593,
+          607,
+          591,
+          626,
+          24,
+          112,
+          438,
+          259,
+          2359,
+          2617
+        ]
+      }
+    ]
+  }
+}

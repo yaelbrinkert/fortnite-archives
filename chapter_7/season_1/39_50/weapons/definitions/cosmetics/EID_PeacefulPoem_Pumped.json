@@ -1,0 +1,115 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_PeacefulPoem_Pumped",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PeacefulPoem_Pumped/CMM/Emote_PeacefulPoem_CMM_pumpedrig_M.Emote_PeacefulPoem_CMM_pumpedrig_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PeacefulPoem_Pumped/CMF/Emote_PeacefulPoem_CMF_pumpedrig_M.Emote_PeacefulPoem_CMF_pumpedrig_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PeacefulPoem_Pumped/CLM/Emote_PeacefulPoem_CLM_pumpedrig_M.Emote_PeacefulPoem_CLM_pumpedrig_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/PeacefulPoem_Pumped/CLF/Emote_PeacefulPoem_CLF_pumpedrig_M.Emote_PeacefulPoem_CLF_pumpedrig_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ItemVariants": [
+      {
+        "ObjectName": "FortCosmeticProfileLoadoutVariant'EID_PeacefulPoem_Pumped:FortCosmeticProfileLoadoutVariant_0'",
+        "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_PeacefulPoem_Pumped.1"
+      }
+    ],
+    "Rarity": "EFortRarity::Rare",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "30E53F074ECD8FA80C54409963FBFBC0",
+      "SourceString": "Battle Prep: Super",
+      "LocalizedString": "Battle Prep: Super"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "78B8457B4A57020A303D498C42413DCF",
+      "SourceString": "Extend the Steel Claws and prepare for the Turtles.",
+      "LocalizedString": "Extend the Steel Claws and prepare for the Turtles."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "71E5E0A040A23F7B1CF526B85744D2C5",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SkeletalMeshOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PivotOffset": {
+          "X": 0.0,
+          "Y": 25.0,
+          "Z": 15.0
+        },
+        "InitialRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Scale": 1.0
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-PeacefulPoem-Pumped.T-Icon-Emotes-PeacefulPoem-Pumped",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S28/T-Icon-Emotes-PeacefulPoem-Pumped-L.T-Icon-Emotes-PeacefulPoem-Pumped-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.28",
+          "Cosmetics.Set.TumbleCourt",
+          "Cosmetics.Emote.HideMimosaInPreview",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

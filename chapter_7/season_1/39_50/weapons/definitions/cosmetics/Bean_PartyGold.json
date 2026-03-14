@@ -1,0 +1,74 @@
+{
+  "Type": "AthenaCharacterItemDefinition",
+  "Name": "Bean_PartyGold",
+  "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "BaseCharacterParts": [
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Head/CP_Bean_Head_HairShort.CP_Bean_Head_HairShort",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Body/CP_Bean_Body_Casual.CP_Bean_Body_Casual",
+        "SubPathString": ""
+      }
+    ],
+    "Gender": "EFortCustomGender::Female",
+    "AdditionalDataFields": [
+      {
+        "ObjectName": "BeanCosmeticItemDefinitionBase'Bean_PartyGold:BeanCosmeticItemDefinitionBase_1'",
+        "ObjectPath": "/BeanstalkCosmetics/Cosmetics/Def/CID/Bean_PartyGold.1"
+      }
+    ],
+    "ItemName": {
+      "Namespace": "",
+      "Key": "F70E75CA4EC864E4AA62DB8876DB27EF",
+      "SourceString": "Arkon",
+      "LocalizedString": "Arkon"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5136D50E4D5D6668857F049C8CE742F0",
+      "SourceString": "Get the gold and get out.",
+      "LocalizedString": "Get the gold and get out."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "A850058E4F6A75BD596F608A728DEEAE",
+      "SourceString": "Outfit",
+      "LocalizedString": "Outfit"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Tags": [
+          "Beanstalk.Cosmetics.Character",
+          "Phoebe.Cosmetic.Minus.Zone1",
+          "Cosmetics.Filter.Season.32"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_PartyGold.T_Bean_PartyGold",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BeanstalkCosmetics/Cosmetics/Icons/T_Bean_PartyGold_L.T_Bean_PartyGold_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

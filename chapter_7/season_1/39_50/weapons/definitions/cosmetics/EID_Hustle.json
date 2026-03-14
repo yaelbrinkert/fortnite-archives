@@ -1,0 +1,83 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Hustle",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hustle/Emote_Hustle_CMM_M.Emote_Hustle_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hustle/Emote_Hustle_CMF_M.Emote_Hustle_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hustle/Emote_Hustle_CLM_M.Emote_Hustle_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Hustle/Emote_Hustle_CLF_M.Emote_Hustle_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "5C58ACBE483824310CD794BBE7AB422E",
+      "SourceString": "Tocked Off",
+      "LocalizedString": "Tocked Off"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "93B1C63E4EE0187F29135495CAB57EBA",
+      "SourceString": "Pick up the pace.",
+      "LocalizedString": "Pick up the pace."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "77F159EB49AEE83D899E40A37818AE08",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.25"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-Hustle.T-Icon-Emotes-Hustle",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S25/T-Icon-Emotes-Hustle-L.T-Icon-Emotes-Hustle-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

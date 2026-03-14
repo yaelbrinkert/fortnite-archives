@@ -1,0 +1,130 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_YouThere",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/YouThere/Emote_YouThere_CMM_M.Emote_YouThere_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/YouThere/Emote_YouThere_CMF_M.Emote_YouThere_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/YouThere/Emote_YouThere_CLM_M.Emote_YouThere_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/YouThere/Emote_YouThere_CLF_M.Emote_YouThere_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "PlayRandomSectionByName": [
+      {
+        "SectionName": "SectionA",
+        "SectionWeight": 1.0
+      },
+      {
+        "SectionName": "SectionB",
+        "SectionWeight": 1.0
+      }
+    ],
+    "PreviewPawnRotationOffset": {
+      "Pitch": 0.0,
+      "Yaw": 100.0,
+      "Roll": 0.0
+    },
+    "ShotGridIds": [
+      53733
+    ],
+    "BaseShotGridId": 53733,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "16E2F64A479E670A065A46A8F8DE5810",
+      "SourceString": "It's... you?",
+      "LocalizedString": "It's... you?"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "240298C54A11F8BD4BC07A979EE22774",
+      "SourceString": "How can it be?",
+      "LocalizedString": "How can it be?"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "38E0E9A3483B8854AFD5F79B9C1AFF6C",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Source.Season19.BattlePass.Free",
+          "Cosmetics.Filter.Season.19"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-YouThere.T-Icon-Emotes-E-YouThere",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-YouThere-L.T-Icon-Emotes-E-YouThere-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "GroupEmotePreviewSettings": {
+          "GroupCameraPivotOrigin": "EGroupEmotePreviewPivotOrigin::BetweenLeaderAndFirstFollower",
+          "LeaderRelativePivotOriginOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bLeaderRotationShouldFaceSecondaryPawnIfLocked": true,
+          "SecondaryPreviewPawnGroupEmoteConfig": {
+            "bOverrideGroupEmotePositionOffsetForPreview": true,
+            "PositionOffsetOverride": {
+              "X": 140.0,
+              "Y": -60.0,
+              "Z": 0.0
+            },
+            "AdditionalJoinDelay": 0.0,
+            "bEnableEmoteAudio": true,
+            "OverrideEmoteItemDefinition": null,
+            "RotationBehavior": "EGroupMontagePreviewFollowerRotationBehavior::FaceTowardLeader",
+            "AdditionalYaw": 25.0
+          },
+          "AdditionalPreviewFollowerConfigs": [],
+          "GroupMontagePreviewFollowerJoinBehavior": "EGroupMontagePreviewFollowerJoinBehavior::AfterLeaderIntroDelay",
+          "GroupEmotePreviewFollowerJoinDelayOverride": 1.0
+        }
+      }
+    ]
+  }
+}

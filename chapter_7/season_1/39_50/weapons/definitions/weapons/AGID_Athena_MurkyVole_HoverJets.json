@@ -1,0 +1,308 @@
+{
+  "Type": "AthenaGadgetItemDefinition",
+  "Name": "AGID_Athena_MurkyVole_HoverJets",
+  "Class": "UScriptClass'AthenaGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bShowCooldownUI": true,
+    "GadgetPriority": 1,
+    "bDestroyGadgetWhenTrackedAttributesIsZero": false,
+    "AbilitySet": {
+      "AssetPathName": "/MurkyVoleGameplay/Gameplay/HoverJets/AS_MurkyVole_HoverJets.AS_MurkyVole_HoverJets",
+      "SubPathString": ""
+    },
+    "AttributeSet": {
+      "AssetPathName": "/Script/HoverGameplayRuntime.HoverAttributeSet",
+      "SubPathString": ""
+    },
+    "AttributeInitKey": {
+      "AttributeInitCategory": "Hover",
+      "AttributeInitSubCategory": "Defaults"
+    },
+    "TrackedAttributes": [
+      {
+        "AttributeName": "Fuel",
+        "Attribute": {
+          "Path": [
+            "Fuel"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'HoverAttributeSet'",
+            "ObjectPath": "/Script/HoverGameplayRuntime"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'HoverAttributeSet'",
+          "ObjectPath": "/Script/HoverGameplayRuntime"
+        }
+      }
+    ],
+    "OnDestroyParticleSystem": {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/FX/P_Jetpack_Explode.P_Jetpack_Explode",
+      "SubPathString": ""
+    },
+    "OnDestroySound": {
+      "AssetPathName": "/Game/Athena/Sounds/Items/Jetpack/Jetpack_Drop_Cue.Jetpack_Drop_Cue",
+      "SubPathString": ""
+    },
+    "OnDestroyAttachToSocketName": "Backpack",
+    "WeaponItemDefinition": {
+      "AssetPathName": "/HoverGameplay/Gameplay/ItemDef/WID_Hover_Base.WID_Hover_Base",
+      "SubPathString": ""
+    },
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "DAA1BD7A415FAB0858CECE8F840972BF",
+      "SourceString": "War Machine's Hover Jets",
+      "LocalizedString": "War Machine's Hover Jets"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "A5F417DB4C57CA0382BC41921AC8DF70",
+      "SourceString": "Traverse the battle in the air while firing weapons with precision",
+      "LocalizedString": "Traverse the battle in the air while firing weapons with precision"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/MurkyVoleGameplay/UI/Icons/T_Icon_BR_MurkyVole_Jets.T_Icon_BR_MurkyVole_Jets",
+          "SubPathString": ""
+        }
+      },
+      {
+        "ItemTypeNameOverride": {
+          "Namespace": "",
+          "Key": "D10B76924F152C99CA5C7DB84A7AFA9E",
+          "SourceString": "War Machine's Hover Jets",
+          "LocalizedString": "War Machine's Hover Jets"
+        }
+      },
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "/MurkyVoleGameplay/Assets/Backpack/Meshes/MurkyVole_Jet_Pickup.MurkyVole_Jet_Pickup",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": -0.09979604,
+            "Y": -0.19649744,
+            "Z": 0.94115984,
+            "W": 0.2562179,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.3,
+            "Y": 1.3,
+            "Z": 1.3
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "/MurkyVoleGameplay/Assets/Audio/JetPack/MurkyVole_Jetpack_Pickup_Cue.MurkyVole_Jetpack_Pickup_Cue",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "/MurkyVoleGameplay/Assets/Audio/JetPack/MurkyVole_Jetpack_Drop_Cue.MurkyVole_Jetpack_Drop_Cue",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "/MurkyVoleGameplay/Assets/Audio/JetPack/MurkyVole_Jetpack_DropImpact_Cue.MurkyVole_Jetpack_DropImpact_Cue",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": true,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 22.545422,
+          "Y": 9.582893,
+          "Z": 17.380796
+        }
+      },
+      {
+        "WeaponSoundLibraries": [
+          {
+            "ObjectName": "SoundLibrary'MurkyVole_Jetpack_Lib'",
+            "ObjectPath": "/MurkyVoleGameplay/Assets/Audio/JetPack/MurkyVole_Jetpack_Lib.0"
+          }
+        ],
+        "WeaponOwnerSoundLibraries": [],
+        "WeaponCollectionTag": []
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "Tags": [
+          "Item.Gadget.Hover.WarMachine",
+          "Item.SortsRight",
+          "Rarity.VeryRare",
+          "HUD.PreferredSlotType.Utility",
+          "Item.SkipSingletonCheck",
+          "phoebe.items.generic.supported",
+          "Phoebe.ItemHasInventorySlotPriority"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack",
+          "Item.Trait.InventorySizeLimited"
+        ]
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/MurkyVoleGameplay/UI/Icons/T_Icon_BR_MurkyVole_Jets_L.T_Icon_BR_MurkyVole_Jets_L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

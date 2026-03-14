@@ -1,0 +1,31 @@
+{
+  "Type": "BGAConsumableWrapperItemDefinition",
+  "Name": "Athena_Foraged_ShieldsSmall",
+  "Class": "UScriptClass'BGAConsumableWrapperItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ConsumableClass": {
+      "AssetPathName": "/Game/Athena/Items/ForagedItems/ShieldsSmall/CBGA_ShieldsSmall.CBGA_ShieldsSmall_C",
+      "SubPathString": ""
+    },
+    "MinNumberConsumablesToSpawn": {
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Foraged.Mushroom.Min"
+      }
+    },
+    "MaxNumberConsumablesToSpawn": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.Foraged.Mushroom.Max"
+      }
+    }
+  }
+}

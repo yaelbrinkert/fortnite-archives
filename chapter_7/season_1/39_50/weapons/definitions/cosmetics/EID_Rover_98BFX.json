@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Rover_98BFX",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Rover/Emote_Rover_CMM_M.Emote_Rover_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Rover/Emote_Rover_CMF_M.Emote_Rover_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Rover/Emote_Rover_CLM_M.Emote_Rover_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Rover/Emote_Rover_CLF_M.Emote_Rover_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      56046
+    ],
+    "BaseShotGridId": 56046,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "BBB0798449318C0C9E285CA75A07A931",
+      "SourceString": "Update Journal",
+      "LocalizedString": "Update Journal"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "CB137FC34B2356DBF4CBAD847BC308AB",
+      "SourceString": "Lemme just jot this down…",
+      "LocalizedString": "Lemme just jot this down…"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "E9121B1F4E159A0A53A0CBA0A4806C20",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.19",
+          "Cosmetics.Set.FearCircle"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Rover.T-Icon-Emotes-E-Rover",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Rover-L.T-Icon-Emotes-E-Rover-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "Type": "AthenaBattleBusItemDefinition",
+  "Name": "BBID_DefaultBus_WildEstate",
+  "Class": "UScriptClass'AthenaBattleBusItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "IgnitionSound": {
+      "AssetPathName": "/Game/Athena/Sounds/Vehicles/Bus/S01/Athena_Bus_Ignition_Cue.Athena_Bus_Ignition_Cue",
+      "SubPathString": ""
+    },
+    "LobbyLoopingMusic": {
+      "AssetPathName": "/WildEstate/Assets/Audio/Intro/IP_MSS_WildEstate_BattleBus_Lobby_Music.IP_MSS_WildEstate_BattleBus_Lobby_Music",
+      "SubPathString": ""
+    },
+    "LobbyLoopingSound": {
+      "AssetPathName": "/Game/Athena/Sounds/Vehicles/Bus/S01/Athena_Bus_Engine_Idle_Cue.Athena_Bus_Engine_Idle_Cue",
+      "SubPathString": ""
+    },
+    "FlightLoopingSound": {
+      "AssetPathName": "/Game/Athena/Sounds/Vehicles/Bus/S01/Athena_Bus_Flying_Loop_Cue.Athena_Bus_Flying_Loop_Cue",
+      "SubPathString": ""
+    },
+    "BusPrefabClass": {
+      "AssetPathName": "/WildEstate/BattleBus/B_StockBattleBus_WildEstate.B_StockBattleBus_WildEstate_C",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "Namespace": "",
+      "Key": "9BA637834CFF917313550CA532A39CC3",
+      "SourceString": "Battle Bus",
+      "LocalizedString": "Battle Bus"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "B11058AB45D3ACE706FBCCABC42D2D60",
+      "SourceString": "Battle Bus",
+      "LocalizedString": "Battle Bus"
+    },
+    "DataList": [
+      {
+        "Icon": {
+          "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Generic.T_Placeholder_Generic",
+          "SubPathString": ""
+        }
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

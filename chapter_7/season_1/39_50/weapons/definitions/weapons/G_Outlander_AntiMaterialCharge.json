@@ -1,0 +1,56 @@
+{
+  "Type": "FortGadgetItemDefinition",
+  "Name": "G_Outlander_AntiMaterialCharge",
+  "Class": "UScriptClass'FortGadgetItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bHasChargeUp": true,
+    "GameplayAbility": {
+      "AssetPathName": "/SaveTheWorld/Abilities/Player/Outlander/Actives/AntiMaterialCharge/GA_Outlander_AntiMaterialCharge.GA_Outlander_AntiMaterialCharge_C",
+      "SubPathString": ""
+    },
+    "DamageStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'GadgetScaling'",
+        "ObjectPath": "/Game/Balance/DataTables/GadgetScaling.0"
+      },
+      "RowName": "Outlander_AntiMaterialCharge"
+    },
+    "ItemType": "EFortItemType::HeroAbility",
+    "Rarity": "EFortRarity::Common",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A410DB9D4076E1D42148F3A714F4AC8F",
+      "SourceString": "Anti-Material Charge",
+      "LocalizedString": "Anti-Material Charge"
+    },
+    "DataList": [
+      {
+        "PreferredQuickbarSlot": 8
+      },
+      {
+        "SearchTags": {
+          "Namespace": "",
+          "Key": "6EDC8E914F47104A06E311AEB70282D4",
+          "SourceString": "Anti-Material",
+          "LocalizedString": "Anti-Material"
+        }
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/SaveTheWorld/UI/Foundation/Textures/Icons/Heroes/Outlander/Abilities/Icon-Outlander-AntiMaterialCharge-128.Icon-Outlander-AntiMaterialCharge-128",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Traits": [
+          "Item.Trait.DisallowQuickbarFocus",
+          "Item.Trait.AllowQuickbarFocusForGamepadOnly",
+          "Item.Trait.DisallowActivateOnQuickbarFocus",
+          "Item.Trait.Transient",
+          "Item.Trait.SingleStack"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Lonely",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Lonely/Character/Emote_Lonely_CMM_M.Emote_Lonely_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Lonely/Character/Emote_Lonely_CMF_M.Emote_Lonely_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Lonely/Character/LargeBodies/Emote_Lonely_CLM_M.Emote_Lonely_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Lonely/Character/LargeBodies/Emote_Lonely_CLF_M.Emote_Lonely_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "PreviewLoops": 4,
+    "EmoteCooldownSecs": 1.0,
+    "ShotGridIds": [
+      64539
+    ],
+    "BaseShotGridId": 64539,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "541CB1A344283FB919B12FABBFC03053",
+      "SourceString": "Where Ya Going?",
+      "LocalizedString": "Where Ya Going?"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "5DF657BF4F208C3F02ACE69488D1570B",
+      "SourceString": "Get me outta here!",
+      "LocalizedString": "Get me outta here!"
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "38280A18481F7D1C0571F2B727AE1DA8",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.23"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-Lonely.T-Icon-Emotes-E-Lonely",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-E-Lonely-L.T-Icon-Emotes-E-Lonely-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

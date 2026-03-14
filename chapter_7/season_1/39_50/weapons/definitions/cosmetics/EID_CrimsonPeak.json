@@ -1,0 +1,143 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_CrimsonPeak",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "MotageSelectionGroups": [
+      {
+        "MontageSectionName": "Unequip",
+        "EvaluationMode": "EMontageSelectionPredicateType::ActiveSwapPresence",
+        "VariantMetaTagRequired": {
+          "TagName": "None"
+        },
+        "bRequireCharacterPart": false,
+        "PartRequirements": [],
+        "SwapRequirements": [
+          {
+            "VariantSelections": [],
+            "Item": {
+              "ObjectName": "AthenaPickaxeItemDefinition'Pickaxe_CrimsonPeak'",
+              "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Pickaxes/Pickaxe_CrimsonPeak.0"
+            }
+          }
+        ]
+      }
+    ],
+    "FrontEndAnimation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Frontend/Crimson_Peak_Equip_CMM_M_Frontend.Crimson_Peak_Equip_CMM_M_Frontend",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Frontend/Crimson_Peak_Equip_CMF_M_Frontend.Crimson_Peak_Equip_CMF_M_Frontend",
+      "SubPathString": ""
+    },
+    "FrontEndAnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Frontend/Crimson_Peak_Equip_CLM_M_Frontend.Crimson_Peak_Equip_CLM_M_Frontend",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Frontend/Crimson_Peak_Equip_CLF_M_Frontend.Crimson_Peak_Equip_CLF_M_Frontend",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Crimson_Peak_Equip_CMM_M.Crimson_Peak_Equip_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Crimson_Peak_Equip_CMF_M.Crimson_Peak_Equip_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Crimson_Peak_Equip_CLM_M.Crimson_Peak_Equip_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/CrimsonPeak/Character/Crimson_Peak_Equip_CLF_M.Crimson_Peak_Equip_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "bHolsterWeapon": false,
+    "ShotGridIds": [
+      62579
+    ],
+    "BaseShotGridId": 62579,
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A84468CA4C35AD656C69038C38EA512C",
+      "SourceString": "Bench Upgrade",
+      "LocalizedString": "Bench Upgrade"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "DFB271A842AFE14A1843F594C9D65F1F",
+      "SourceString": "Easy to assemble, even if the lights go out.",
+      "LocalizedString": "Easy to assemble, even if the lights go out."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F95039F749FB13A9B7A86785C73549D4",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Emote.ActivationCondition.SwapsPickaxe",
+          "Cosmetics.Set.WeirdMessages",
+          "Cosmetics.Filter.Season.23",
+          "Cosmetics.Emote.HideMimosaInPreview"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-CrimsonPeak.T-Icon-Emotes-CrimsonPeak",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S23/T-Icon-Emotes-CrimsonPeak-L.T-Icon-Emotes-CrimsonPeak-L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Series": {
+          "ObjectName": "FortItemSeriesDefinition'PlatformSeries'",
+          "ObjectPath": "/BRCosmetics/Athena/Items/Cosmetics/Series/PlatformSeries.0"
+        }
+      }
+    ]
+  }
+}

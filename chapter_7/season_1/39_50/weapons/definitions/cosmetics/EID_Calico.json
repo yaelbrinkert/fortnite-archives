@@ -1,0 +1,83 @@
+{
+  "Type": "AthenaDanceItemDefinition",
+  "Name": "EID_Calico",
+  "Class": "UScriptClass'AthenaDanceItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "Animation": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Calico/Emote_Calico_CMM_M.Emote_Calico_CMM_M",
+      "SubPathString": ""
+    },
+    "AnimationFemaleOverride": {
+      "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Calico/Emote_Calico_CMF_M.Emote_Calico_CMF_M",
+      "SubPathString": ""
+    },
+    "AnimationOverrides": [
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Male",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Calico/Emote_Calico_CLM_M.Emote_Calico_CLM_M",
+          "SubPathString": ""
+        }
+      },
+      {
+        "BodyType": "EFortCustomBodyType::Large",
+        "Gender": "EFortCustomGender::Female",
+        "EmoteMontage": {
+          "AssetPathName": "/BRCosmetics/Animation/Game/MainPlayer/Emotes/Calico/Emote_Calico_CLF_M.Emote_Calico_CLF_M",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "EmoteCooldownSecs": 1.0,
+    "ItemName": {
+      "Namespace": "",
+      "Key": "A2016DBC44E4650D063962AA78B7E557",
+      "SourceString": "Catling Gun",
+      "LocalizedString": "Catling Gun"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "FF3E49F7408A80366363DDBE863E989A",
+      "SourceString": "Meow you're gonna pay.",
+      "LocalizedString": "Meow you're gonna pay."
+    },
+    "ItemShortDescription": {
+      "Namespace": "",
+      "Key": "F4A3A7874D8AC5BB07CCFA992D33C81D",
+      "SourceString": "Emote",
+      "LocalizedString": "Emote"
+    },
+    "DataList": [
+      {
+        "MinLevel": 1,
+        "MaxLevel": 1
+      },
+      {
+        "Traits": [
+          "Item.Trait.SingleStack"
+        ]
+      },
+      {
+        "Tags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.27"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-Calico.T-Icon-Emotes-Calico",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/S27/T-Icon-Emotes-Calico-L.T-Icon-Emotes-Calico-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

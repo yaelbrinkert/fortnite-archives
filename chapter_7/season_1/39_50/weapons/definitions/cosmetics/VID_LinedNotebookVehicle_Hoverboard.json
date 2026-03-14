@@ -1,0 +1,64 @@
+{
+  "Type": "FortVehicleItemDefinition",
+  "Name": "VID_LinedNotebookVehicle_Hoverboard",
+  "Class": "UScriptClass'FortVehicleItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "VehicleMinSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.TestPlaceHolder.1"
+      }
+    },
+    "VehicleMaxSpawnPercent": {
+      "Value": 1.0,
+      "Curve": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'AthenaGameData'",
+          "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+        },
+        "RowName": "Default.TestPlaceHolder.1"
+      }
+    },
+    "MaxNumberCanSpawn": {
+      "Value": 100.0
+    },
+    "MinPercentWithGas": {
+      "Value": 100.0
+    },
+    "MaxPercentWithGas": {
+      "Value": 100.0
+    },
+    "VehicleActorClass": {
+      "AssetPathName": "/LinedNotebookVehicle/Vehicle/BP_LinedNotebookVehicle_Hoverboard.BP_LinedNotebookVehicle_Hoverboard_C",
+      "SubPathString": ""
+    },
+    "SpawnVehicleNames": [
+      "linednotebookhoverboard"
+    ],
+    "DataList": [
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.Transient"
+        ]
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/LinedNotebookVehicle/Icons/T-Vehicles-LinedNotedBookHoverBoard.T-Vehicles-LinedNotedBookHoverBoard",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/LinedNotebookVehicle/Icons/T-Vehicles-LinedNotedBookHoverBoard-L.T-Vehicles-LinedNotedBookHoverBoard-L",
+          "SubPathString": ""
+        }
+      }
+    ]
+  }
+}

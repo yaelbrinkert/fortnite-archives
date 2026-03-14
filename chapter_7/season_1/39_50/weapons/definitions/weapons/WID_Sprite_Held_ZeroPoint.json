@@ -1,0 +1,366 @@
+{
+  "Type": "FortWeaponRangedItemDefinition",
+  "Name": "WID_Sprite_Held_ZeroPoint",
+  "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "bPrimaryFireRequiresAmmo": false,
+    "bSecondaryFireRequiresAmmo": false,
+    "WeaponActorClass": {
+      "AssetPathName": "/Sprites_ZeroPointSprite/Gameplay/ItemVersion/B_Sprite_Held_Weapon_ZeroPoint.B_Sprite_Held_Weapon_ZeroPoint_C",
+      "SubPathString": ""
+    },
+    "WeaponStatHandle": {
+      "DataTable": {
+        "ObjectName": "DataTable'ZeroPointSpriteItemStats'",
+        "ObjectPath": "/Sprites_ZeroPointSprite/DataTables/ZeroPointSpriteItemStats.0"
+      },
+      "RowName": "ZeroPointSprite"
+    },
+    "AbilitySet": {
+      "AssetPathName": "/Sprites_ZeroPointSprite/Abilities/GAS_Item_Sprite_Water.GAS_Item_Sprite_Water",
+      "SubPathString": ""
+    },
+    "PrimaryFireAbility": {
+      "AssetPathName": "/Sprites_ZeroPointSprite/Abilities/GA_Athena_Sprite_ZeroPoint_Throw.GA_Athena_Sprite_ZeroPoint_Throw_C",
+      "SubPathString": ""
+    },
+    "SecondaryFireAbility": {
+      "AssetPathName": "/Sprites_ZeroPointSprite/Abilities/GA_Athena_Sprite_ThrowWithTrajectory_ZeroPointSprite.GA_Athena_Sprite_ThrowWithTrajectory_ZeroPointSprite_C",
+      "SubPathString": ""
+    },
+    "AmmoData": {
+      "AssetPathName": "/Sprites_ZeroPointSprite/Gameplay/ItemVersion/Sprite_ZeroPoint_Ammo.Sprite_ZeroPoint_Ammo",
+      "SubPathString": ""
+    },
+    "bUsesPhantomReserveAmmo": true,
+    "bAllowAutoReload": false,
+    "ReticleImage": {
+      "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+      "SubPathString": ""
+    },
+    "ActualAnalyticFNames": [
+      "Tag:Consumable:wid_sprite_held_zeropoint"
+    ],
+    "ItemType": "EFortItemType::Consumable",
+    "Rarity": "EFortRarity::Epic",
+    "ItemName": {
+      "Namespace": "",
+      "Key": "769CB62F49CA7C58FCF4F89F8FEF7C72",
+      "SourceString": "Dash Sprite",
+      "LocalizedString": "Dash Sprite"
+    },
+    "ItemDescription": {
+      "Namespace": "",
+      "Key": "11A7050647221072676405A219B601DB",
+      "SourceString": "Gain 3 charges of Super Dash to get the jump on enemies.",
+      "LocalizedString": "Gain 3 charges of Super Dash to get the jump on enemies."
+    },
+    "DataList": [
+      {
+        "OwnerPickupText": {
+          "CultureInvariantString": null
+        },
+        "PickupStaticMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSkeletalMesh": {
+          "AssetPathName": "/Sprites/Assets/Meshes/Sprite_Creature.Sprite_Creature",
+          "SubPathString": ""
+        },
+        "PickupEffectOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupActorComponents": [],
+        "PickupMeshTransform": {
+          "Rotation": {
+            "X": 0.08682409,
+            "Y": 0.08682409,
+            "Z": -0.0075961235,
+            "W": 0.99240386,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "MiniMapIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 20.0,
+            "Y": 20.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "PickupTagRestrictions": {
+          "AllowList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          },
+          "DenyList": {
+            "Tags": [],
+            "FailReason": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        "PickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "InStormPickupDespawnTime": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupNetworkCullDistanceOverride": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "PickupSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupByNearbyPawnSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DroppedLoopSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LandedSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundLibraries": [
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        ],
+        "MiniMapViewableDistance": 8000.0,
+        "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+        "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+        "bCanBeDroppedFromInventory": true,
+        "AllowedDropStates": 3,
+        "bDropCurrentItemOnOverflow": true,
+        "bDropExcessItemOnOverflow": true,
+        "bForceDropDuringRespawn": false,
+        "bDropOnDeath": false,
+        "bDropOnLogout": false,
+        "bCanEverDropOnDestruction": true,
+        "bDropOnDBNO": false,
+        "bForceAutoPickup": false,
+        "bShowDirectionalArrowWhenFarOff": true,
+        "ComparisonTag": {
+          "TagName": "None"
+        },
+        "MeshBoundsExtents": {
+          "X": 15.687126,
+          "Y": 9.638245,
+          "Z": 18.928345
+        }
+      },
+      {
+        "TooltipClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StatList": {
+          "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tier": "EFortItemTier::IV",
+        "MaxTier": "EFortItemTier::IV"
+      },
+      {
+        "MinLevel": 1,
+        "MaxLevel": -1
+      },
+      {
+        "Icon": {
+          "AssetPathName": "/Sprites_ZeroPointSprite/UI/T_Icon_BR_Sprite_ZeroPoint.T_Icon_BR_Sprite_ZeroPoint",
+          "SubPathString": ""
+        }
+      },
+      {
+        "LargeIcon": {
+          "AssetPathName": "/Sprites_ZeroPointSprite/UI/T_Icon_BR_Sprite_ZeroPoint_L.T_Icon_BR_Sprite_ZeroPoint_L",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Tags": [
+          "Trait.Restoration.Shields",
+          "HUD.PreferredSlotType.Consumable",
+          "Item.SortsRight",
+          "Rarity.Rare",
+          "Athena.HUD.Pickup.ShowTotalAmmo",
+          "Granted.Athena.TacticalSprint.PreventHolster",
+          "Item.ExclusivePickupGroup.Sprite",
+          "Creative.Weapon.IgnoresExternalInfiniteAmmoSettings",
+          "Item.Sprite.ZeroPoint",
+          "Athena.ItemAction.Throw"
+        ]
+      },
+      {
+        "Traits": [
+          "Item.Trait.InventorySizeLimited",
+          "Item.Trait.ForceQuickbarFocusWhenAdded",
+          "Item.Trait.SingleStack",
+          "Item.Trait.AllowSwapSingleStack"
+        ]
+      },
+      {
+        "CustomDropAction": {
+          "ObjectName": "BlueprintGeneratedClass'Action_DropZeroPointSprite_C'",
+          "ObjectPath": "/Sprites_ZeroPointSprite/Abilities/BaseSprite/Action_DropZeroPointSprite.1"
+        }
+      },
+      {
+        "TagRegistrations": [
+          {
+            "Tag": {
+              "TagName": "Athena.AI.Lager.TagDensity.CherrySmoke.ZPSprite"
+            },
+            "Range": {
+              "Value": 5000.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "DensityValue": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            }
+          },
+          {
+            "Tag": {
+              "TagName": "Athena.AI.Lager.TagDensity.FirePetal.Sprite"
+            },
+            "Range": {
+              "Value": 5000.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "DensityValue": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
