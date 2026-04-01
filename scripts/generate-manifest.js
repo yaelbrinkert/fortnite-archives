@@ -210,9 +210,38 @@ if (warnings.length > 0) {
 
 const latestVersion = versions.length > 0 ? versions[0].version : null;
 
+// Scan latest/ directory for mode-prefixed files
+const latestModes = {};
+const latestDir = path.join(ROOT_DIR, "latest");
+if (fs.existsSync(latestDir)) {
+  const latestFiles = fs.readdirSync(latestDir);
+  const modePattern = /^(\w+)_latest\.(png|jpg|jpeg|json)$/;
+  const modeFiles = {};
+
+  for (const file of latestFiles) {
+    const match = file.match(modePattern);
+    if (!match) continue;
+    const [, mode, ext] = match;
+    if (!modeFiles[mode]) modeFiles[mode] = {};
+    if (ext === "json") {
+      modeFiles[mode].pois = file;
+    } else {
+      modeFiles[mode].image = file;
+    }
+  }
+
+  for (const [mode, files] of Object.entries(modeFiles)) {
+    latestModes[mode] = {
+      image: files.image || null,
+      pois: files.pois || null,
+    };
+  }
+}
+
 const manifest = {
   generated: new Date().toISOString(),
   latest: latestVersion,
+  latestModes: Object.keys(latestModes).length > 0 ? latestModes : undefined,
   count: versions.length,
   versions,
 };
