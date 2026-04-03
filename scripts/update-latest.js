@@ -61,8 +61,14 @@ function main() {
     const mode = MODE_MAP[baseName];
 
     if (mode) {
-      // Known mode → fixed-name alias (br_latest.png, og_latest.png)
+      // Known mode → fixed-name alias (br_latest.png)
       const destName = `${mode}_latest${ext}`;
+      fs.copyFileSync(path.join(versionDir, file), path.join(latestDir, destName));
+      console.log(`  ${file} -> latest/${destName}`);
+      copied++;
+    } else if (/^MiniMapAthena_S\d{2}/i.test(baseName)) {
+      // OG mode (Figment seasonal) → og_latest.png (auto-matches any season number)
+      const destName = `og_latest${ext}`;
       fs.copyFileSync(path.join(versionDir, file), path.join(latestDir, destName));
       console.log(`  ${file} -> latest/${destName}`);
       copied++;
