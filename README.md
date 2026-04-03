@@ -1,4 +1,4 @@
-# Fortnite Archives (maps, locations, POIs, Weapons) from Chapter 6 Season 3 to Chapter 1 Season 1
+# Fortnite Archives (maps, locations, POIs, Weapons) from Chapter 1 Season 1 to Latest season
 
 This Open-Sourced project gives developers & fans any datas they want to retrieve. You will find here, every maps from every updates, JSONs with POIs, Named locations, and soon weapons & utils.
 
