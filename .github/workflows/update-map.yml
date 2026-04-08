@@ -1,5 +1,9 @@
 name: Update Latest Map Aliases
 
+# Triggered when new map versions are pushed (chapter_*/**) or manually.
+# Tiles are generated on the VPS by api_fortnite_v2 after each extraction —
+# this Action only updates latest/ aliases and manifest.json.
+
 on:
   push:
     branches: [main]
@@ -35,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add manifest.json latest/
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "auto: update latest/ aliases"
+          git commit -m "auto: update latest/ aliases and manifest"
           git push

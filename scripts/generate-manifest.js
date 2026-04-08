@@ -48,17 +48,18 @@ const VERSION_TO_CHAPTER_SEASON = [
   { minVersion: 26.0, maxVersion: 26.30, chapter: 4, season: 4 },
   { minVersion: 27.0, maxVersion: 27.11, chapter: 4, season: 5 },
   // Chapter 5
-  { minVersion: 28.0, maxVersion: 28.30, chapter: 5, season: 1 },
-  { minVersion: 29.0, maxVersion: 29.40, chapter: 5, season: 2 },
-  { minVersion: 30.0, maxVersion: 30.30, chapter: 5, season: 3 },
-  { minVersion: 31.0, maxVersion: 31.40, chapter: 5, season: 4 },
+  { minVersion: 28.0, maxVersion: 28.99, chapter: 5, season: 1 },
+  { minVersion: 29.0, maxVersion: 29.99, chapter: 5, season: 2 },
+  { minVersion: 30.0, maxVersion: 30.99, chapter: 5, season: 3 },
+  { minVersion: 31.0, maxVersion: 31.99, chapter: 5, season: 4 },
+  // Chapter 5 Season 5 = OG revival (32.x)
+  { minVersion: 32.0, maxVersion: 32.99, chapter: 5, season: 5 },
   // Chapter 6
-  { minVersion: 32.0, maxVersion: 32.11, chapter: 6, season: 0 }, // OG
-  { minVersion: 33.0, maxVersion: 33.40, chapter: 6, season: 1 },
-  { minVersion: 34.0, maxVersion: 34.40, chapter: 6, season: 2 },
-  { minVersion: 35.0, maxVersion: 35.40, chapter: 6, season: 3 },
-  { minVersion: 36.0, maxVersion: 37.99, chapter: 6, season: 4 },
-  { minVersion: 38.0, maxVersion: 38.99, chapter: 6, season: 5 }, // Mini Season 2
+  { minVersion: 33.0, maxVersion: 33.99, chapter: 6, season: 1 },
+  { minVersion: 34.0, maxVersion: 34.99, chapter: 6, season: 2 },
+  { minVersion: 35.0, maxVersion: 35.99, chapter: 6, season: 3 },
+  { minVersion: 36.0, maxVersion: 38.49, chapter: 6, season: 4 },
+  { minVersion: 38.5, maxVersion: 38.99, chapter: 6, season: 5 },
   // Chapter 7
   { minVersion: 39.0, maxVersion: 39.99, chapter: 7, season: 1 },
   { minVersion: 40.0, maxVersion: 40.99, chapter: 7, season: 2 },
