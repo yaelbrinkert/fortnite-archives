@@ -93,21 +93,45 @@ function main() {
     }
   }
 
-  // Copy pois.json if it exists
-  const poisFile = path.join(versionDir, "pois.json");
-  if (fs.existsSync(poisFile)) {
-    fs.copyFileSync(poisFile, path.join(latestDir, "pois.json"));
-    console.log(`  pois.json -> latest/pois.json`);
+  // Copy per-mode POI files to stable aliases. Mode keys match generate-manifest.js and the
+  // C# extractor: br / og / rotating:<codename>.
+  //   pois.json                    -> latest/br_pois.json
+  //   pois_og.json                 -> latest/og_pois.json
+  //   pois_rotating_<code>.json    -> latest/rotating_<code>_pois.json
+  for (const file of files) {
+    if (!file.endsWith(".json")) continue;
+
+    let destName = null;
+    if (file === "pois.json") destName = "br_pois.json";
+    else if (file === "pois_og.json") destName = "og_pois.json";
+    else {
+      const m = file.match(/^pois_rotating_(.+)\.json$/i);
+      if (m) destName = `rotating_${m[1].toLowerCase()}_pois.json`;
+    }
+
+    if (destName) {
+      fs.copyFileSync(path.join(versionDir, file), path.join(latestDir, destName));
+      console.log(`  ${file} -> latest/${destName}`);
+    }
   }
 
-  // Copy version-named JSON (e.g. 40_10.json from old workflow)
-  for (const file of files) {
-    if (file.endsWith(".json") && file !== "pois.json") {
-      const baseName = path.basename(file, ".json");
-      if (MODE_MAP[baseName]) continue;
-      fs.copyFileSync(path.join(versionDir, file), path.join(latestDir, file));
-      console.log(`  ${file} -> latest/${file}`);
+  // map_meta.json -> latest/map_meta.json plus per-mode aliases (image dims + world bounds;
+  // consumers need these to convert POI world coordinates to pixels).
+  const metaFile = path.join(versionDir, "map_meta.json");
+  if (fs.existsSync(metaFile)) {
+    for (const dest of ["map_meta.json", "br_map_meta.json", "og_map_meta.json"]) {
+      fs.copyFileSync(metaFile, path.join(latestDir, dest));
     }
+    console.log(`  map_meta.json -> latest/{,br_,og_}map_meta.json`);
+  }
+
+  // Copy version-named JSON (e.g. 40_10.json from the old workflow) verbatim.
+  for (const file of files) {
+    if (!file.endsWith(".json")) continue;
+    if (file === "pois.json" || file === "map_meta.json" || /^pois_/i.test(file)) continue;
+    if (MODE_MAP[path.basename(file, ".json")]) continue;
+    fs.copyFileSync(path.join(versionDir, file), path.join(latestDir, file));
+    console.log(`  ${file} -> latest/${file}`);
   }
 
   console.log(`\nCopied ${copied} map file(s) to latest/`);

@@ -111,6 +111,70 @@ function getChapterSeason(numericVersion) {
   return { chapter: null, season: null };
 }
 
+// ─── MODE CLASSIFICATION ─────────────────────────────────────────────────────
+// Mode keys are shared with the C# extractor (MapExtractorService) and the API
+// (MapService). Keep the three in sync — they are the contract for ?mode=.
+//   br                    the main Battle Royale map
+//   og                    the OG / Figment seasonal map
+//   rotating:<codename>   a Reload/Blitz rotating map (blastberry, punchberry, ...)
+
+/** Image asset name -> mode key, or null if it is not a recognised map image. */
+function imageMode(baseName) {
+  if (/^Apollo_Terrain_Minimap$/i.test(baseName)) return "br";
+  if (/^Hera_Terrain_Minimap$/i.test(baseName)) return "br";
+  if (/^MiniMapAthena_S\d{2}/i.test(baseName)) return "og";
+  const rotating = baseName.match(/^(?:Capture_Iteration_)?Discovered_(.+)$/i);
+  if (rotating) return `rotating:${rotating[1].toLowerCase()}`;
+  return null;
+}
+
+/** POI file name -> mode key, or null if it is not a POI file. */
+function poiMode(fileName) {
+  if (fileName === "pois.json") return "br";
+  if (fileName === "pois_og.json") return "og";
+  const rotating = fileName.match(/^pois_rotating_(.+)\.json$/i);
+  if (rotating) return `rotating:${rotating[1].toLowerCase()}`;
+  return null;
+}
+
+/** { mode: imageFileName } for every recognised image in the folder. */
+function classifyImages(files) {
+  const out = {};
+  for (const f of files) {
+    if (!/\.(jpg|jpeg|png)$/i.test(f)) continue;
+    const mode = imageMode(path.basename(f, path.extname(f)));
+    // First match wins so a re-run never flip-flops between equivalent assets.
+    if (mode && !out[mode]) out[mode] = f;
+  }
+  return out;
+}
+
+/**
+ * { mode: poiFileName } for every recognised POI file in the folder.
+ * Legacy archives store BR POIs as "<version>.json" (e.g. 40_10.json) instead of pois.json.
+ */
+function classifyPoiFiles(files, versionDir) {
+  const out = {};
+  for (const f of files) {
+    if (!/\.json$/i.test(f)) continue;
+    const mode = poiMode(f);
+    if (mode && !out[mode]) out[mode] = f;
+  }
+  if (!out.br && files.includes(`${versionDir}.json`)) out.br = `${versionDir}.json`;
+  return out;
+}
+
+/** An image is "legacy-named" when the archive used <version>.jpg rather than the asset name. */
+function isLegacyName(fileName, versionDir) {
+  const base = path.basename(fileName, path.extname(fileName));
+  return imageMode(base) === null && base !== versionDir;
+}
+
+/** Last resort when no image is recognised: keep the old "first image wins" behaviour. */
+function pickFallbackImage(files) {
+  return files.find(f => /\.(jpg|jpeg|png)$/i.test(f)) || null;
+}
+
 /**
  * Walk the directory tree to find all version folders
  */
@@ -150,23 +214,22 @@ function findVersions() {
           continue;
         }
 
-        // Look for map image (JPG/PNG)
         const files = fs.readdirSync(versionPath);
-        const mapFile = files.find(f => /\.(jpg|jpeg|png)$/i.test(f));
-        const poisFile = files.find(f => /\.json$/i.test(f));
 
-        // Check for mismatched files
-        if (mapFile) {
-          const mapBaseName = path.basename(mapFile, path.extname(mapFile));
-          if (mapBaseName !== versionDir) {
-            warnings.push(`Mismatched map file: ${relativePath}/${mapFile} (expected ${versionDir}.*)`);
-          }
-        }
-        if (poisFile) {
-          const poisBaseName = path.basename(poisFile, ".json");
-          if (poisBaseName !== versionDir) {
-            warnings.push(`Mismatched POI file: ${relativePath}/${poisFile} (expected ${versionDir}.json)`);
-          }
+        // Per-mode images and POI files (see MODE CLASSIFICATION above).
+        const mapFiles = classifyImages(files);
+        const poiFiles = classifyPoiFiles(files, versionDir);
+
+        // Primary/default entries stay BR so existing consumers keep working.
+        // NOTE: poisFile must never fall back to "the first .json in the folder" — that used to
+        // select map_meta.json, which the API then tried to parse as a POI array (→ always empty).
+        const mapFile = mapFiles.br || pickFallbackImage(files);
+        const poisFile = poiFiles.br || null;
+        const mapMetaFile = files.includes("map_meta.json") ? "map_meta.json" : null;
+
+        // Check for mismatched files (legacy layout only — the extracted layout uses asset names)
+        if (mapFile && isLegacyName(mapFile, versionDir)) {
+          warnings.push(`Mismatched map file: ${relativePath}/${mapFile} (expected ${versionDir}.*)`);
         }
 
         // Use folder-based chapter/season (most reliable since the user organized the data)
@@ -179,6 +242,10 @@ function findVersions() {
           hasPois: !!poisFile,
           mapFile: mapFile || null,
           poisFile: poisFile || null,
+          mapMetaFile,
+          modes: Object.keys({ ...mapFiles, ...poiFiles }).sort(),
+          mapFiles: Object.keys(mapFiles).length > 0 ? mapFiles : undefined,
+          poiFiles: Object.keys(poiFiles).length > 0 ? poiFiles : undefined,
         });
       }
     }
@@ -211,31 +278,36 @@ if (warnings.length > 0) {
 
 const latestVersion = versions.length > 0 ? versions[0].version : null;
 
-// Scan latest/ directory for mode-prefixed files
+// Scan latest/ for the stable per-mode aliases.
+//   images: br_latest.png, og_latest.png, rotating_<codename>.png
+//   pois:   br_pois.json,  og_pois.json,  rotating_<codename>_pois.json
+//   meta:   br_map_meta.json, og_map_meta.json, ...
+// Mode keys match the version entries ("br", "og", "rotating:<codename>") so a consumer can use
+// the same ?mode= value against latest/ or against any archived version.
 const latestModes = {};
 const latestDir = path.join(ROOT_DIR, "latest");
 if (fs.existsSync(latestDir)) {
-  const latestFiles = fs.readdirSync(latestDir);
-  const modePattern = /^(\w+)_latest\.(png|jpg|jpeg|json)$/;
-  const modeFiles = {};
+  const slotFor = file => {
+    let m = file.match(/^(br|og)_latest\.(png|jpg|jpeg)$/i);
+    if (m) return { mode: m[1].toLowerCase(), slot: "image" };
+    m = file.match(/^rotating_(.+)\.(png|jpg|jpeg)$/i);
+    if (m) return { mode: `rotating:${m[1].toLowerCase()}`, slot: "image" };
 
-  for (const file of latestFiles) {
-    const match = file.match(modePattern);
-    if (!match) continue;
-    const [, mode, ext] = match;
-    if (!modeFiles[mode]) modeFiles[mode] = {};
-    if (ext === "json") {
-      modeFiles[mode].pois = file;
-    } else {
-      modeFiles[mode].image = file;
-    }
-  }
+    m = file.match(/^(br|og)_pois\.json$/i);
+    if (m) return { mode: m[1].toLowerCase(), slot: "pois" };
+    m = file.match(/^rotating_(.+)_pois\.json$/i);
+    if (m) return { mode: `rotating:${m[1].toLowerCase()}`, slot: "pois" };
 
-  for (const [mode, files] of Object.entries(modeFiles)) {
-    latestModes[mode] = {
-      image: files.image || null,
-      pois: files.pois || null,
-    };
+    m = file.match(/^(br|og)_map_meta\.json$/i);
+    if (m) return { mode: m[1].toLowerCase(), slot: "mapMeta" };
+    return null;
+  };
+
+  for (const file of fs.readdirSync(latestDir)) {
+    const hit = slotFor(file);
+    if (!hit) continue;
+    if (!latestModes[hit.mode]) latestModes[hit.mode] = { image: null, pois: null, mapMeta: null };
+    latestModes[hit.mode][hit.slot] = file;
   }
 }
 

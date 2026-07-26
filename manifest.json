@@ -1,35 +1,149 @@
 {
-  "generated": "2026-07-25T22:40:50.804Z",
-  "latest": "41.10",
+  "generated": "2026-07-26T17:02:26.801Z",
+  "latest": "41.20",
   "latestModes": {
-    "blastberry": {
-      "image": "blastberry_latest.png",
-      "pois": null
-    },
     "br": {
       "image": "br_latest.png",
-      "pois": null
+      "pois": "br_pois.json",
+      "mapMeta": "br_map_meta.json"
     },
     "og": {
       "image": "og_latest.png",
-      "pois": null
+      "pois": "og_pois.json",
+      "mapMeta": "og_map_meta.json"
     },
-    "reload": {
-      "image": "reload_latest.png",
-      "pois": null
+    "rotating:blastberry": {
+      "image": "rotating_blastberry.png",
+      "pois": null,
+      "mapMeta": null
+    },
+    "rotating:dashberry": {
+      "image": "rotating_dashberry.png",
+      "pois": null,
+      "mapMeta": null
+    },
+    "rotating:forbiddenblastberry": {
+      "image": "rotating_forbiddenblastberry.png",
+      "pois": null,
+      "mapMeta": null
+    },
+    "rotating:matchmist": {
+      "image": "rotating_matchmist.png",
+      "pois": "rotating_matchmist_pois.json",
+      "mapMeta": null
+    },
+    "rotating:piperboot": {
+      "image": "rotating_piperboot.png",
+      "pois": null,
+      "mapMeta": null
+    },
+    "rotating:punchberry": {
+      "image": "rotating_punchberry.png",
+      "pois": "rotating_punchberry_pois.json",
+      "mapMeta": null
+    },
+    "rotating:ropesmile": {
+      "image": "rotating_ropesmile.png",
+      "pois": null,
+      "mapMeta": null
+    },
+    "rotating:sourspawn": {
+      "image": "rotating_sourspawn.png",
+      "pois": null,
+      "mapMeta": null
+    },
+    "rotating:tigerranch": {
+      "image": "rotating_tigerranch.png",
+      "pois": null,
+      "mapMeta": null
+    },
+    "rotating:timberstake": {
+      "image": "rotating_timberstake.png",
+      "pois": null,
+      "mapMeta": null
     }
   },
-  "count": 220,
+  "count": 222,
   "versions": [
+    {
+      "version": "41.20",
+      "chapter": 7,
+      "season": 3,
+      "path": "chapter_7/season_3/41_20",
+      "hasMap": true,
+      "hasPois": true,
+      "mapFile": "Apollo_Terrain_Minimap.png",
+      "poisFile": "pois.json",
+      "mapMetaFile": "map_meta.json",
+      "modes": [
+        "br",
+        "og",
+        "rotating:blastberry",
+        "rotating:dashberry",
+        "rotating:forbiddenblastberry",
+        "rotating:matchmist",
+        "rotating:piperboot",
+        "rotating:punchberry",
+        "rotating:sourspawn",
+        "rotating:tigerranch",
+        "rotating:timberstake"
+      ],
+      "mapFiles": {
+        "br": "Apollo_Terrain_Minimap.png",
+        "rotating:blastberry": "Capture_Iteration_Discovered_BlastBerry.png",
+        "rotating:dashberry": "Discovered_DashBerry.png",
+        "rotating:forbiddenblastberry": "Discovered_ForbiddenBlastBerry.png",
+        "rotating:matchmist": "Discovered_MatchMist.png",
+        "rotating:piperboot": "Discovered_PiperBoot.png",
+        "rotating:punchberry": "Discovered_PunchBerry.png",
+        "rotating:sourspawn": "Discovered_SourSpawn.png",
+        "rotating:tigerranch": "Discovered_TigerRanch.png",
+        "rotating:timberstake": "Discovered_TimberStake.png",
+        "og": "MiniMapAthena_S09Temp.png"
+      },
+      "poiFiles": {
+        "br": "pois.json",
+        "og": "pois_og.json",
+        "rotating:matchmist": "pois_rotating_matchmist.json",
+        "rotating:punchberry": "pois_rotating_punchberry.json"
+      }
+    },
     {
       "version": "41.10",
       "chapter": 7,
       "season": 3,
       "path": "chapter_7/season_3/41_10",
       "hasMap": true,
-      "hasPois": true,
+      "hasPois": false,
       "mapFile": "Apollo_Terrain_Minimap.png",
-      "poisFile": "map_meta.json"
+      "poisFile": null,
+      "mapMetaFile": "map_meta.json",
+      "modes": [
+        "br",
+        "og",
+        "rotating:blastberry",
+        "rotating:dashberry",
+        "rotating:forbiddenblastberry",
+        "rotating:matchmist",
+        "rotating:piperboot",
+        "rotating:punchberry",
+        "rotating:sourspawn",
+        "rotating:tigerranch",
+        "rotating:timberstake"
+      ],
+      "mapFiles": {
+        "br": "Apollo_Terrain_Minimap.png",
+        "rotating:blastberry": "Capture_Iteration_Discovered_BlastBerry.png",
+        "rotating:dashberry": "Discovered_DashBerry.png",
+        "rotating:forbiddenblastberry": "Discovered_ForbiddenBlastBerry.png",
+        "rotating:matchmist": "Discovered_MatchMist.png",
+        "rotating:piperboot": "Discovered_PiperBoot.png",
+        "rotating:punchberry": "Discovered_PunchBerry.png",
+        "rotating:sourspawn": "Discovered_SourSpawn.png",
+        "rotating:tigerranch": "Discovered_TigerRanch.png",
+        "rotating:timberstake": "Discovered_TimberStake.png",
+        "og": "MiniMapAthena_S09Temp.png"
+      }
     },
     {
       "version": "41.00",
@@ -37,9 +151,38 @@
       "season": 3,
       "path": "chapter_7/season_3/41_00",
       "hasMap": true,
-      "hasPois": true,
+      "hasPois": false,
       "mapFile": "Apollo_Terrain_Minimap.png",
-      "poisFile": "map_meta.json"
+      "poisFile": null,
+      "mapMetaFile": "map_meta.json",
+      "modes": [
+        "br",
+        "og",
+        "rotating:blastberry",
+        "rotating:dashberry",
+        "rotating:forbiddenblastberry",
+        "rotating:matchmist",
+        "rotating:piperboot",
+        "rotating:punchberry",
+        "rotating:ropesmile",
+        "rotating:sourspawn",
+        "rotating:tigerranch",
+        "rotating:timberstake"
+      ],
+      "mapFiles": {
+        "br": "Apollo_Terrain_Minimap.png",
+        "rotating:blastberry": "Capture_Iteration_Discovered_BlastBerry.png",
+        "rotating:dashberry": "Discovered_DashBerry.png",
+        "rotating:forbiddenblastberry": "Discovered_ForbiddenBlastBerry.png",
+        "rotating:matchmist": "Discovered_MatchMist.png",
+        "rotating:piperboot": "Discovered_PiperBoot.png",
+        "rotating:punchberry": "Discovered_PunchBerry.png",
+        "rotating:ropesmile": "Discovered_RopeSmile.png",
+        "rotating:sourspawn": "Discovered_SourSpawn.png",
+        "rotating:tigerranch": "Discovered_TigerRanch.png",
+        "rotating:timberstake": "Discovered_TimberStake.png",
+        "og": "MiniMapAthena_S08Temp.png"
+      }
     },
     {
       "version": "40.40",
@@ -47,9 +190,36 @@
       "season": 2,
       "path": "chapter_7/season_2/40_40",
       "hasMap": true,
-      "hasPois": true,
+      "hasPois": false,
       "mapFile": "Apollo_Terrain_Minimap.png",
-      "poisFile": "map_meta.json"
+      "poisFile": null,
+      "mapMetaFile": "map_meta.json",
+      "modes": [
+        "br",
+        "og",
+        "rotating:blastberry",
+        "rotating:dashberry",
+        "rotating:forbiddenblastberry",
+        "rotating:matchmist",
+        "rotating:piperboot",
+        "rotating:punchberry",
+        "rotating:sourspawn",
+        "rotating:tigerranch",
+        "rotating:timberstake"
+      ],
+      "mapFiles": {
+        "br": "Apollo_Terrain_Minimap.png",
+        "rotating:blastberry": "Capture_Iteration_Discovered_BlastBerry.png",
+        "rotating:dashberry": "Discovered_DashBerry.png",
+        "rotating:forbiddenblastberry": "Discovered_ForbiddenBlastBerry.png",
+        "rotating:matchmist": "Discovered_MatchMist.png",
+        "rotating:piperboot": "Discovered_PiperBoot.png",
+        "rotating:punchberry": "Discovered_PunchBerry.png",
+        "rotating:sourspawn": "Discovered_SourSpawn.png",
+        "rotating:tigerranch": "Discovered_TigerRanch.png",
+        "rotating:timberstake": "Discovered_TimberStake.png",
+        "og": "MiniMapAthena_S08Temp.png"
+      }
     },
     {
       "version": "40.20",
@@ -57,9 +227,32 @@
       "season": 2,
       "path": "chapter_7/season_2/40_20",
       "hasMap": true,
-      "hasPois": true,
+      "hasPois": false,
       "mapFile": "Apollo_Terrain_Minimap.png",
-      "poisFile": "map_meta.json"
+      "poisFile": null,
+      "mapMetaFile": "map_meta.json",
+      "modes": [
+        "br",
+        "rotating:blastberry",
+        "rotating:dashberry",
+        "rotating:forbiddenblastberry",
+        "rotating:piperboot",
+        "rotating:punchberry",
+        "rotating:sourspawn",
+        "rotating:tigerranch",
+        "rotating:timberstake"
+      ],
+      "mapFiles": {
+        "br": "Apollo_Terrain_Minimap.png",
+        "rotating:blastberry": "Capture_Iteration_Discovered_BlastBerry.png",
+        "rotating:dashberry": "Discovered_DashBerry.png",
+        "rotating:forbiddenblastberry": "Discovered_ForbiddenBlastBerry.png",
+        "rotating:piperboot": "Discovered_PiperBoot.png",
+        "rotating:punchberry": "Discovered_PunchBerry.png",
+        "rotating:sourspawn": "Discovered_SourSpawn.png",
+        "rotating:tigerranch": "Discovered_TigerRanch.png",
+        "rotating:timberstake": "Discovered_TimberStake.png"
+      }
     },
     {
       "version": "40.10",
@@ -68,8 +261,34 @@
       "path": "chapter_7/season_2/40_10",
       "hasMap": true,
       "hasPois": true,
-      "mapFile": "40_10.jpg",
-      "poisFile": "40_10.json"
+      "mapFile": "Apollo_Terrain_Minimap.png",
+      "poisFile": "40_10.json",
+      "mapMetaFile": "map_meta.json",
+      "modes": [
+        "br",
+        "rotating:blastberry",
+        "rotating:dashberry",
+        "rotating:forbiddenblastberry",
+        "rotating:piperboot",
+        "rotating:punchberry",
+        "rotating:sourspawn",
+        "rotating:tigerranch",
+        "rotating:timberstake"
+      ],
+      "mapFiles": {
+        "br": "Apollo_Terrain_Minimap.png",
+        "rotating:blastberry": "Capture_Iteration_Discovered_BlastBerry.png",
+        "rotating:dashberry": "Discovered_DashBerry.png",
+        "rotating:forbiddenblastberry": "Discovered_ForbiddenBlastBerry.png",
+        "rotating:piperboot": "Discovered_PiperBoot.png",
+        "rotating:punchberry": "Discovered_PunchBerry.png",
+        "rotating:sourspawn": "Discovered_SourSpawn.png",
+        "rotating:tigerranch": "Discovered_TigerRanch.png",
+        "rotating:timberstake": "Discovered_TimberStake.png"
+      },
+      "poiFiles": {
+        "br": "40_10.json"
+      }
     },
     {
       "version": "40.00",
@@ -78,8 +297,36 @@
       "path": "chapter_7/season_2/40_00",
       "hasMap": true,
       "hasPois": true,
-      "mapFile": "40_00.jpg",
-      "poisFile": "40_00.json"
+      "mapFile": "Apollo_Terrain_Minimap.png",
+      "poisFile": "40_00.json",
+      "mapMetaFile": "map_meta.json",
+      "modes": [
+        "br",
+        "og",
+        "rotating:blastberry",
+        "rotating:dashberry",
+        "rotating:forbiddenblastberry",
+        "rotating:piperboot",
+        "rotating:punchberry",
+        "rotating:sourspawn",
+        "rotating:tigerranch",
+        "rotating:timberstake"
+      ],
+      "mapFiles": {
+        "br": "Apollo_Terrain_Minimap.png",
+        "rotating:blastberry": "Capture_Iteration_Discovered_BlastBerry.png",
+        "rotating:dashberry": "Discovered_DashBerry.png",
+        "rotating:forbiddenblastberry": "Discovered_ForbiddenBlastBerry.png",
+        "rotating:piperboot": "Discovered_PiperBoot.png",
+        "rotating:punchberry": "Discovered_PunchBerry.png",
+        "rotating:sourspawn": "Discovered_SourSpawn.png",
+        "rotating:tigerranch": "Discovered_TigerRanch.png",
+        "rotating:timberstake": "Discovered_TimberStake.png",
+        "og": "MiniMapAthena_S07Temp.png"
+      },
+      "poiFiles": {
+        "br": "40_00.json"
+      }
     },
     {
       "version": "39.51",
@@ -89,7 +336,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "39_51.jpg",
-      "poisFile": "39_51.json"
+      "poisFile": "39_51.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "39_51.json"
+      }
     },
     {
       "version": "39.50",
@@ -99,7 +353,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "39_50.jpg",
-      "poisFile": "39_50.json"
+      "poisFile": "39_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "39_50.json"
+      }
     },
     {
       "version": "39.40",
@@ -109,7 +370,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "39_40.jpg",
-      "poisFile": "39_40.json"
+      "poisFile": "39_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "39_40.json"
+      }
     },
     {
       "version": "39.30",
@@ -119,7 +387,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "39_30.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "39.20",
@@ -129,7 +399,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "39_20.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "39.11",
@@ -139,7 +411,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "39_11.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "39.10",
@@ -149,7 +423,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "39_10.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "39.00",
@@ -159,7 +435,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "39_00.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "38.11",
@@ -169,7 +447,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "38_11.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "38.10",
@@ -179,7 +459,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "38_10.jpg",
-      "poisFile": "38_10.json"
+      "poisFile": "38_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "38_10.json"
+      }
     },
     {
       "version": "38.00",
@@ -189,7 +476,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "38_00.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "37.50",
@@ -199,7 +488,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "37_50.jpg",
-      "poisFile": "37_50.json"
+      "poisFile": "37_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "37_50.json"
+      }
     },
     {
       "version": "37.40",
@@ -209,7 +505,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "37_40.jpg",
-      "poisFile": "37_40.json"
+      "poisFile": "37_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "37_40.json"
+      }
     },
     {
       "version": "37.20",
@@ -219,7 +522,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "37_20.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "37.10",
@@ -229,7 +534,9 @@
       "hasMap": true,
       "hasPois": false,
       "mapFile": "37_10.jpg",
-      "poisFile": null
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "37.00",
@@ -239,7 +546,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "37_00.jpg",
-      "poisFile": "37_00.json"
+      "poisFile": "37_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "37_00.json"
+      }
     },
     {
       "version": "36.30",
@@ -249,7 +563,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "36_30.jpg",
-      "poisFile": "36_30.json"
+      "poisFile": "36_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "36_30.json"
+      }
     },
     {
       "version": "36.00",
@@ -259,7 +580,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "36_00.jpg",
-      "poisFile": "36_00.json"
+      "poisFile": "36_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "36_00.json"
+      }
     },
     {
       "version": "35.20",
@@ -269,7 +597,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "35_20.jpg",
-      "poisFile": "35_20.json"
+      "poisFile": "35_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "35_20.json"
+      }
     },
     {
       "version": "35.00",
@@ -279,7 +614,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "35_00.jpg",
-      "poisFile": "35_00.json"
+      "poisFile": "35_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "35_00.json"
+      }
     },
     {
       "version": "34.40",
@@ -289,7 +631,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "34_40.jpg",
-      "poisFile": "34_40.json"
+      "poisFile": "34_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "34_40.json"
+      }
     },
     {
       "version": "34.30",
@@ -299,7 +648,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "34_30.jpg",
-      "poisFile": "34_30.json"
+      "poisFile": "34_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "34_30.json"
+      }
     },
     {
       "version": "34.20",
@@ -309,7 +665,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "34_20.jpg",
-      "poisFile": "34_20.json"
+      "poisFile": "34_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "34_20.json"
+      }
     },
     {
       "version": "34.10",
@@ -319,7 +682,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "34_10.jpg",
-      "poisFile": "34_10.json"
+      "poisFile": "34_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "34_10.json"
+      }
     },
     {
       "version": "34.00",
@@ -329,7 +699,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "34_00.jpg",
-      "poisFile": "34_00.json"
+      "poisFile": "34_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "34_00.json"
+      }
     },
     {
       "version": "33.30",
@@ -339,7 +716,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "33_30.jpg",
-      "poisFile": "33_30.json"
+      "poisFile": "33_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "33_30.json"
+      }
     },
     {
       "version": "33.20",
@@ -349,7 +733,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "33_20.jpg",
-      "poisFile": "33_20.json"
+      "poisFile": "33_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "33_20.json"
+      }
     },
     {
       "version": "33.11",
@@ -359,7 +750,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "33_11.jpg",
-      "poisFile": "33_11.json"
+      "poisFile": "33_11.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "33_11.json"
+      }
     },
     {
       "version": "33.10",
@@ -369,7 +767,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "33_10.jpg",
-      "poisFile": "33_10.json"
+      "poisFile": "33_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "33_10.json"
+      }
     },
     {
       "version": "33.00",
@@ -379,7 +784,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "33_00.jpg",
-      "poisFile": "33_00.json"
+      "poisFile": "33_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "33_00.json"
+      }
     },
     {
       "version": "32.11",
@@ -389,7 +801,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "32_11.jpg",
-      "poisFile": "32_11.json"
+      "poisFile": "32_11.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "32_11.json"
+      }
     },
     {
       "version": "32-week-2",
@@ -399,7 +818,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "32-week-2.jpg",
-      "poisFile": "32-week-2.json"
+      "poisFile": "32-week-2.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "32-week-2.json"
+      }
     },
     {
       "version": "32-week-3",
@@ -409,7 +835,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "32-week-3.jpg",
-      "poisFile": "32-week-3.json"
+      "poisFile": "32-week-3.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "32-week-3.json"
+      }
     },
     {
       "version": "32-week-4",
@@ -419,7 +852,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "32-week-4.jpg",
-      "poisFile": "32-week-4.json"
+      "poisFile": "32-week-4.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "32-week-4.json"
+      }
     },
     {
       "version": "32.00",
@@ -429,7 +869,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "32_00.jpg",
-      "poisFile": "32_00.json"
+      "poisFile": "32_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "32_00.json"
+      }
     },
     {
       "version": "31.41",
@@ -439,7 +886,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "31_41.jpg",
-      "poisFile": "31_41.json"
+      "poisFile": "31_41.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "31_41.json"
+      }
     },
     {
       "version": "31.40",
@@ -449,7 +903,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "31_40.jpg",
-      "poisFile": "31_40.json"
+      "poisFile": "31_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "31_40.json"
+      }
     },
     {
       "version": "31.30",
@@ -459,7 +920,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "31_30.jpg",
-      "poisFile": "31_30.json"
+      "poisFile": "31_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "31_30.json"
+      }
     },
     {
       "version": "31.20",
@@ -469,7 +937,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "31_20.jpg",
-      "poisFile": "31_20.json"
+      "poisFile": "31_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "31_20.json"
+      }
     },
     {
       "version": "31.10",
@@ -479,7 +954,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "31_10.jpg",
-      "poisFile": "31_10.json"
+      "poisFile": "31_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "31_10.json"
+      }
     },
     {
       "version": "31.00",
@@ -489,7 +971,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "31_00.jpg",
-      "poisFile": "31_00.json"
+      "poisFile": "31_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "31_00.json"
+      }
     },
     {
       "version": "30.40",
@@ -499,7 +988,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "30_40.jpg",
-      "poisFile": "30_40.json"
+      "poisFile": "30_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "30_40.json"
+      }
     },
     {
       "version": "30.30",
@@ -509,7 +1005,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "30_30.jpg",
-      "poisFile": "30_30.json"
+      "poisFile": "30_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "30_30.json"
+      }
     },
     {
       "version": "30.20",
@@ -519,7 +1022,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "30_20.jpg",
-      "poisFile": "30_20.json"
+      "poisFile": "30_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "30_20.json"
+      }
     },
     {
       "version": "30.10",
@@ -529,7 +1039,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "30_10.jpg",
-      "poisFile": "30_10.json"
+      "poisFile": "30_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "30_10.json"
+      }
     },
     {
       "version": "30.00",
@@ -539,7 +1056,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "30_00.jpg",
-      "poisFile": "30_00.json"
+      "poisFile": "30_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "30_00.json"
+      }
     },
     {
       "version": "29.40",
@@ -549,7 +1073,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "29_40.jpg",
-      "poisFile": "29_40.json"
+      "poisFile": "29_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "29_40.json"
+      }
     },
     {
       "version": "29.30",
@@ -559,7 +1090,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "29_30.jpg",
-      "poisFile": "29_30.json"
+      "poisFile": "29_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "29_30.json"
+      }
     },
     {
       "version": "29.20",
@@ -569,7 +1107,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "29_20.jpg",
-      "poisFile": "29_20.json"
+      "poisFile": "29_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "29_20.json"
+      }
     },
     {
       "version": "29.10",
@@ -579,7 +1124,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "29_10.jpg",
-      "poisFile": "29_10.json"
+      "poisFile": "29_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "29_10.json"
+      }
     },
     {
       "version": "29.01",
@@ -589,7 +1141,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "29_01.jpg",
-      "poisFile": "29_01.json"
+      "poisFile": "29_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "29_01.json"
+      }
     },
     {
       "version": "29.00",
@@ -599,7 +1158,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "29_00.jpg",
-      "poisFile": "29_00.json"
+      "poisFile": "29_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "29_00.json"
+      }
     },
     {
       "version": "28.30",
@@ -609,7 +1175,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "28_30.jpg",
-      "poisFile": "28_30.json"
+      "poisFile": "28_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "28_30.json"
+      }
     },
     {
       "version": "28.20",
@@ -619,7 +1192,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "28_20.jpg",
-      "poisFile": "28_20.json"
+      "poisFile": "28_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "28_20.json"
+      }
     },
     {
       "version": "28.10",
@@ -629,7 +1209,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "28_10.jpg",
-      "poisFile": "28_10.json"
+      "poisFile": "28_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "28_10.json"
+      }
     },
     {
       "version": "28.01",
@@ -639,7 +1226,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "28_01.jpg",
-      "poisFile": "28_01.json"
+      "poisFile": "28_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "28_01.json"
+      }
     },
     {
       "version": "28.00",
@@ -649,7 +1243,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "28_00.jpg",
-      "poisFile": "28_00.json"
+      "poisFile": "28_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "28_00.json"
+      }
     },
     {
       "version": "27.11",
@@ -659,7 +1260,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "27_11.jpg",
-      "poisFile": "27_11.json"
+      "poisFile": "27_11.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "27_11.json"
+      }
     },
     {
       "version": "27.10",
@@ -669,7 +1277,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "27_10.jpg",
-      "poisFile": "27_10.json"
+      "poisFile": "27_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "27_10.json"
+      }
     },
     {
       "version": "27.00",
@@ -679,7 +1294,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "27_00.jpg",
-      "poisFile": "27_00.json"
+      "poisFile": "27_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "27_00.json"
+      }
     },
     {
       "version": "27.00-stage-2",
@@ -689,7 +1311,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "27_00-stage-2.jpg",
-      "poisFile": "27_00-stage-2.json"
+      "poisFile": "27_00-stage-2.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "27_00-stage-2.json"
+      }
     },
     {
       "version": "26.30",
@@ -699,7 +1328,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "26_30.jpg",
-      "poisFile": "26_30.json"
+      "poisFile": "26_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "26_30.json"
+      }
     },
     {
       "version": "26.20",
@@ -709,7 +1345,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "26_20.jpg",
-      "poisFile": "26_20.json"
+      "poisFile": "26_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "26_20.json"
+      }
     },
     {
       "version": "26.10",
@@ -719,7 +1362,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "26_10.jpg",
-      "poisFile": "26_10.json"
+      "poisFile": "26_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "26_10.json"
+      }
     },
     {
       "version": "26.00",
@@ -729,7 +1379,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "26_00.jpg",
-      "poisFile": "26_00.json"
+      "poisFile": "26_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "26_00.json"
+      }
     },
     {
       "version": "25.30",
@@ -739,7 +1396,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "25_30.jpg",
-      "poisFile": "25_30.json"
+      "poisFile": "25_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "25_30.json"
+      }
     },
     {
       "version": "25.20",
@@ -749,7 +1413,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "25_20.jpg",
-      "poisFile": "25_20.json"
+      "poisFile": "25_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "25_20.json"
+      }
     },
     {
       "version": "25.11",
@@ -759,7 +1430,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "25_11.jpg",
-      "poisFile": "25_11.json"
+      "poisFile": "25_11.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "25_11.json"
+      }
     },
     {
       "version": "25.10",
@@ -769,7 +1447,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "25_10.jpg",
-      "poisFile": "25_10.json"
+      "poisFile": "25_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "25_10.json"
+      }
     },
     {
       "version": "25.00",
@@ -779,7 +1464,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "25_00.jpg",
-      "poisFile": "25_00.json"
+      "poisFile": "25_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "25_00.json"
+      }
     },
     {
       "version": "24.40",
@@ -789,7 +1481,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "24_40.jpg",
-      "poisFile": "24_40.json"
+      "poisFile": "24_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "24_40.json"
+      }
     },
     {
       "version": "24.30",
@@ -799,7 +1498,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "24_30.jpg",
-      "poisFile": "24_30.json"
+      "poisFile": "24_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "24_30.json"
+      }
     },
     {
       "version": "24.20",
@@ -809,7 +1515,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "24_20.jpg",
-      "poisFile": "24_20.json"
+      "poisFile": "24_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "24_20.json"
+      }
     },
     {
       "version": "24.10",
@@ -819,7 +1532,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "24_10.jpg",
-      "poisFile": "24_10.json"
+      "poisFile": "24_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "24_10.json"
+      }
     },
     {
       "version": "24.01",
@@ -829,7 +1549,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "24_01.jpg",
-      "poisFile": "24_01.json"
+      "poisFile": "24_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "24_01.json"
+      }
     },
     {
       "version": "24.00",
@@ -839,7 +1566,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "24_00.jpg",
-      "poisFile": "24_00.json"
+      "poisFile": "24_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "24_00.json"
+      }
     },
     {
       "version": "23.50",
@@ -849,7 +1583,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "23_50.jpg",
-      "poisFile": "23_50.json"
+      "poisFile": "23_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "23_50.json"
+      }
     },
     {
       "version": "23.40",
@@ -859,7 +1600,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "23_40.jpg",
-      "poisFile": "23_40.json"
+      "poisFile": "23_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "23_40.json"
+      }
     },
     {
       "version": "23.30",
@@ -869,7 +1617,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "23_30.jpg",
-      "poisFile": "23_30.json"
+      "poisFile": "23_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "23_30.json"
+      }
     },
     {
       "version": "23.20",
@@ -879,7 +1634,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "23_20.jpg",
-      "poisFile": "23_20.json"
+      "poisFile": "23_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "23_20.json"
+      }
     },
     {
       "version": "23.10",
@@ -889,7 +1651,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "23_10.jpg",
-      "poisFile": "23_10.json"
+      "poisFile": "23_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "23_10.json"
+      }
     },
     {
       "version": "23.00",
@@ -899,7 +1668,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "23_00.jpg",
-      "poisFile": "23_00.json"
+      "poisFile": "23_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "23_00.json"
+      }
     },
     {
       "version": "22.40",
@@ -909,7 +1685,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "22_40.jpg",
-      "poisFile": "22_40.json"
+      "poisFile": "22_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "22_40.json"
+      }
     },
     {
       "version": "22.30",
@@ -919,7 +1702,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "22_30.jpg",
-      "poisFile": "22_30.json"
+      "poisFile": "22_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "22_30.json"
+      }
     },
     {
       "version": "22.20",
@@ -929,7 +1719,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "22_20.jpg",
-      "poisFile": "22_20.json"
+      "poisFile": "22_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "22_20.json"
+      }
     },
     {
       "version": "22.10",
@@ -939,7 +1736,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "22_10.jpg",
-      "poisFile": "22_10.json"
+      "poisFile": "22_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "22_10.json"
+      }
     },
     {
       "version": "22.00",
@@ -949,7 +1753,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "22_00.jpg",
-      "poisFile": "22_00.json"
+      "poisFile": "22_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "22_00.json"
+      }
     },
     {
       "version": "21.51",
@@ -959,7 +1770,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "21_51.jpg",
-      "poisFile": "21_51.json"
+      "poisFile": "21_51.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "21_51.json"
+      }
     },
     {
       "version": "21.50",
@@ -969,7 +1787,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "21_50.jpg",
-      "poisFile": "21_50.json"
+      "poisFile": "21_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "21_50.json"
+      }
     },
     {
       "version": "21.40",
@@ -979,7 +1804,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "21_40.jpg",
-      "poisFile": "21_40.json"
+      "poisFile": "21_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "21_40.json"
+      }
     },
     {
       "version": "21.30",
@@ -989,7 +1821,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "21_30.jpg",
-      "poisFile": "21_30.json"
+      "poisFile": "21_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "21_30.json"
+      }
     },
     {
       "version": "21.20",
@@ -999,7 +1838,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "21_20.jpg",
-      "poisFile": "21_20.json"
+      "poisFile": "21_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "21_20.json"
+      }
     },
     {
       "version": "21.10",
@@ -1009,7 +1855,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "21_10.jpg",
-      "poisFile": "21_10.json"
+      "poisFile": "21_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "21_10.json"
+      }
     },
     {
       "version": "21.00",
@@ -1019,7 +1872,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "21_00.jpg",
-      "poisFile": "21_00.json"
+      "poisFile": "21_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "21_00.json"
+      }
     },
     {
       "version": "20.40",
@@ -1029,7 +1889,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "20_40.jpg",
-      "poisFile": "20_40.json"
+      "poisFile": "20_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "20_40.json"
+      }
     },
     {
       "version": "20.30",
@@ -1039,7 +1906,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "20_30.jpg",
-      "poisFile": "20_30.json"
+      "poisFile": "20_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "20_30.json"
+      }
     },
     {
       "version": "20.20",
@@ -1049,7 +1923,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "20_20.jpg",
-      "poisFile": "20_20.json"
+      "poisFile": "20_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "20_20.json"
+      }
     },
     {
       "version": "20.10",
@@ -1059,7 +1940,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "20_10.jpg",
-      "poisFile": "20_10.json"
+      "poisFile": "20_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "20_10.json"
+      }
     },
     {
       "version": "20.00",
@@ -1069,7 +1957,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "20_00.jpg",
-      "poisFile": "20_00.json"
+      "poisFile": "20_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "20_00.json"
+      }
     },
     {
       "version": "19.40",
@@ -1079,7 +1974,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "19_40.jpg",
-      "poisFile": "19_40.json"
+      "poisFile": "19_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "19_40.json"
+      }
     },
     {
       "version": "19.30",
@@ -1089,7 +1991,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "19_30.jpg",
-      "poisFile": "19_30.json"
+      "poisFile": "19_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "19_30.json"
+      }
     },
     {
       "version": "19.20",
@@ -1099,7 +2008,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "19_20.jpg",
-      "poisFile": "19_20.json"
+      "poisFile": "19_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "19_20.json"
+      }
     },
     {
       "version": "19.10",
@@ -1109,7 +2025,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "19_10.jpg",
-      "poisFile": "19_10.json"
+      "poisFile": "19_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "19_10.json"
+      }
     },
     {
       "version": "19.01",
@@ -1119,7 +2042,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "19_01.jpg",
-      "poisFile": "19_01.json"
+      "poisFile": "19_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "19_01.json"
+      }
     },
     {
       "version": "19.00",
@@ -1129,7 +2059,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "19_00.jpg",
-      "poisFile": "19_00.json"
+      "poisFile": "19_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "19_00.json"
+      }
     },
     {
       "version": "18.40",
@@ -1139,7 +2076,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "18_40.jpg",
-      "poisFile": "18_40.json"
+      "poisFile": "18_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "18_40.json"
+      }
     },
     {
       "version": "18.30",
@@ -1149,7 +2093,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "18_30.jpg",
-      "poisFile": "18_30.json"
+      "poisFile": "18_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "18_30.json"
+      }
     },
     {
       "version": "18.21",
@@ -1159,7 +2110,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "18_21.jpg",
-      "poisFile": "18_21.json"
+      "poisFile": "18_21.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "18_21.json"
+      }
     },
     {
       "version": "18.20",
@@ -1169,7 +2127,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "18_20.jpg",
-      "poisFile": "18_20.json"
+      "poisFile": "18_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "18_20.json"
+      }
     },
     {
       "version": "18.10",
@@ -1179,7 +2144,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "18_10.jpg",
-      "poisFile": "18_10.json"
+      "poisFile": "18_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "18_10.json"
+      }
     },
     {
       "version": "18.00",
@@ -1189,7 +2161,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "18_00.jpg",
-      "poisFile": "18_00.json"
+      "poisFile": "18_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "18_00.json"
+      }
     },
     {
       "version": "17.50",
@@ -1199,7 +2178,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "17_50.jpg",
-      "poisFile": "17_50.json"
+      "poisFile": "17_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "17_50.json"
+      }
     },
     {
       "version": "17.40",
@@ -1209,7 +2195,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "17_40.jpg",
-      "poisFile": "17_40.json"
+      "poisFile": "17_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "17_40.json"
+      }
     },
     {
       "version": "17.30",
@@ -1219,7 +2212,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "17_30.jpg",
-      "poisFile": "17_30.json"
+      "poisFile": "17_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "17_30.json"
+      }
     },
     {
       "version": "17.21",
@@ -1229,7 +2229,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "17_21.jpg",
-      "poisFile": "17_21.json"
+      "poisFile": "17_21.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "17_21.json"
+      }
     },
     {
       "version": "17.20",
@@ -1239,7 +2246,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "17_20.jpg",
-      "poisFile": "17_20.json"
+      "poisFile": "17_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "17_20.json"
+      }
     },
     {
       "version": "17.10",
@@ -1249,7 +2263,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "17_10.jpg",
-      "poisFile": "17_10.json"
+      "poisFile": "17_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "17_10.json"
+      }
     },
     {
       "version": "17.00",
@@ -1259,7 +2280,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "17_00.jpg",
-      "poisFile": "17_00.json"
+      "poisFile": "17_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "17_00.json"
+      }
     },
     {
       "version": "16.50",
@@ -1269,7 +2297,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "16_50.jpg",
-      "poisFile": "16_50.json"
+      "poisFile": "16_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "16_50.json"
+      }
     },
     {
       "version": "16.40",
@@ -1279,7 +2314,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "16_40.jpg",
-      "poisFile": "16_40.json"
+      "poisFile": "16_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "16_40.json"
+      }
     },
     {
       "version": "16.30",
@@ -1289,7 +2331,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "16_30.jpg",
-      "poisFile": "16_30.json"
+      "poisFile": "16_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "16_30.json"
+      }
     },
     {
       "version": "16.20",
@@ -1299,7 +2348,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "16_20.jpg",
-      "poisFile": "16_20.json"
+      "poisFile": "16_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "16_20.json"
+      }
     },
     {
       "version": "16.10",
@@ -1309,7 +2365,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "16_10.jpg",
-      "poisFile": "16_10.json"
+      "poisFile": "16_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "16_10.json"
+      }
     },
     {
       "version": "16.00",
@@ -1319,7 +2382,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "16_00.jpg",
-      "poisFile": "16_00.json"
+      "poisFile": "16_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "16_00.json"
+      }
     },
     {
       "version": "15.40",
@@ -1329,7 +2399,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_40.jpg",
-      "poisFile": "15_40.json"
+      "poisFile": "15_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_40.json"
+      }
     },
     {
       "version": "15.30",
@@ -1339,7 +2416,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_30.jpg",
-      "poisFile": "15_30.json"
+      "poisFile": "15_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_30.json"
+      }
     },
     {
       "version": "15.21",
@@ -1349,7 +2433,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_21.jpg",
-      "poisFile": "15_21.json"
+      "poisFile": "15_21.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_21.json"
+      }
     },
     {
       "version": "15.20",
@@ -1359,7 +2450,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_20.jpg",
-      "poisFile": "15_20.json"
+      "poisFile": "15_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_20.json"
+      }
     },
     {
       "version": "15.10",
@@ -1369,7 +2467,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_10.jpg",
-      "poisFile": "15_10.json"
+      "poisFile": "15_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_10.json"
+      }
     },
     {
       "version": "15.10-snow",
@@ -1379,7 +2484,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_10-snow.jpg",
-      "poisFile": "15_10-snow.json"
+      "poisFile": "15_10-snow.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_10-snow.json"
+      }
     },
     {
       "version": "15.10-snow-2",
@@ -1389,7 +2501,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_10-snow-2.jpg",
-      "poisFile": "15_10-snow-2.json"
+      "poisFile": "15_10-snow-2.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_10-snow-2.json"
+      }
     },
     {
       "version": "15.00",
@@ -1399,7 +2518,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "15_00.jpg",
-      "poisFile": "15_00.json"
+      "poisFile": "15_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "15_00.json"
+      }
     },
     {
       "version": "14.40",
@@ -1409,7 +2535,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "14_40.jpg",
-      "poisFile": "14_40.json"
+      "poisFile": "14_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "14_40.json"
+      }
     },
     {
       "version": "14.20",
@@ -1419,7 +2552,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "14_20.jpg",
-      "poisFile": "14_20.json"
+      "poisFile": "14_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "14_20.json"
+      }
     },
     {
       "version": "14.10",
@@ -1429,7 +2569,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "14_10.jpg",
-      "poisFile": "14_10.json"
+      "poisFile": "14_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "14_10.json"
+      }
     },
     {
       "version": "14.00",
@@ -1439,7 +2586,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "14_00.jpg",
-      "poisFile": "14_00.json"
+      "poisFile": "14_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "14_00.json"
+      }
     },
     {
       "version": "13.30",
@@ -1449,7 +2603,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_30.jpg",
-      "poisFile": "13_30.json"
+      "poisFile": "13_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_30.json"
+      }
     },
     {
       "version": "13.30-(water-lvl-1)",
@@ -1459,7 +2620,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_30-(water-lvl-1).jpg",
-      "poisFile": "13_30-(water-lvl-1).json"
+      "poisFile": "13_30-(water-lvl-1).json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_30-(water-lvl-1).json"
+      }
     },
     {
       "version": "13.30-(water-lvl-2)",
@@ -1469,7 +2637,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_30-(water-lvl-2).jpg",
-      "poisFile": "13_30-(water-lvl-2).json"
+      "poisFile": "13_30-(water-lvl-2).json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_30-(water-lvl-2).json"
+      }
     },
     {
       "version": "13.30-(water-lvl-3)",
@@ -1479,7 +2654,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_30-(water-lvl-3).jpg",
-      "poisFile": "13_30-(water-lvl-3).json"
+      "poisFile": "13_30-(water-lvl-3).json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_30-(water-lvl-3).json"
+      }
     },
     {
       "version": "13.20",
@@ -1489,7 +2671,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_20.jpg",
-      "poisFile": "13_20.json"
+      "poisFile": "13_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_20.json"
+      }
     },
     {
       "version": "13.20-(water-lvl-4)",
@@ -1499,7 +2688,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_20-(water-lvl-4).jpg",
-      "poisFile": "13_20-(water-lvl-4).json"
+      "poisFile": "13_20-(water-lvl-4).json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_20-(water-lvl-4).json"
+      }
     },
     {
       "version": "13.20-(water-lvl-5)",
@@ -1509,7 +2705,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_20-(water-lvl-5).jpg",
-      "poisFile": "13_20-(water-lvl-5).json"
+      "poisFile": "13_20-(water-lvl-5).json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_20-(water-lvl-5).json"
+      }
     },
     {
       "version": "13.20-(water-lvl-6)",
@@ -1519,7 +2722,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_20-(water-lvl-6).jpg",
-      "poisFile": "13_20-(water-lvl-6).json"
+      "poisFile": "13_20-(water-lvl-6).json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_20-(water-lvl-6).json"
+      }
     },
     {
       "version": "13.20-(water-lvl-7)",
@@ -1529,7 +2739,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_20-(water-lvl-7).jpg",
-      "poisFile": "13_20-(water-lvl-7).json"
+      "poisFile": "13_20-(water-lvl-7).json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_20-(water-lvl-7).json"
+      }
     },
     {
       "version": "13.00",
@@ -1539,7 +2756,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "13_00.jpg",
-      "poisFile": "13_00.json"
+      "poisFile": "13_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "13_00.json"
+      }
     },
     {
       "version": "12.60",
@@ -1549,7 +2773,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "12_60.jpg",
-      "poisFile": "12_60.json"
+      "poisFile": "12_60.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "12_60.json"
+      }
     },
     {
       "version": "12.50",
@@ -1559,7 +2790,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "12_50.jpg",
-      "poisFile": "12_50.json"
+      "poisFile": "12_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "12_50.json"
+      }
     },
     {
       "version": "12.20",
@@ -1569,7 +2807,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "12_20.jpg",
-      "poisFile": "12_20.json"
+      "poisFile": "12_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "12_20.json"
+      }
     },
     {
       "version": "12.00",
@@ -1579,7 +2824,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "12_00.jpg",
-      "poisFile": "12_00.json"
+      "poisFile": "12_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "12_00.json"
+      }
     },
     {
       "version": "11.40",
@@ -1589,7 +2841,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "11_40.jpg",
-      "poisFile": "11_40.json"
+      "poisFile": "11_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "11_40.json"
+      }
     },
     {
       "version": "11.31",
@@ -1599,7 +2858,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "11_31.jpg",
-      "poisFile": "11_31.json"
+      "poisFile": "11_31.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "11_31.json"
+      }
     },
     {
       "version": "11.30",
@@ -1609,7 +2875,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "11_30.jpg",
-      "poisFile": "11_30.json"
+      "poisFile": "11_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "11_30.json"
+      }
     },
     {
       "version": "11.10",
@@ -1619,7 +2892,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "11_10.jpg",
-      "poisFile": "11_10.json"
+      "poisFile": "11_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "11_10.json"
+      }
     },
     {
       "version": "11.00",
@@ -1629,7 +2909,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "11_00.jpg",
-      "poisFile": "11_00.json"
+      "poisFile": "11_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "11_00.json"
+      }
     },
     {
       "version": "10.40",
@@ -1639,7 +2926,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "10_40.jpg",
-      "poisFile": "10_40.json"
+      "poisFile": "10_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "10_40.json"
+      }
     },
     {
       "version": "10.31",
@@ -1649,7 +2943,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "10_31.jpg",
-      "poisFile": "10_31.json"
+      "poisFile": "10_31.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "10_31.json"
+      }
     },
     {
       "version": "10.30",
@@ -1659,7 +2960,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "10_30.jpg",
-      "poisFile": "10_30.json"
+      "poisFile": "10_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "10_30.json"
+      }
     },
     {
       "version": "10.20",
@@ -1669,7 +2977,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "10_20.jpg",
-      "poisFile": "10_20.json"
+      "poisFile": "10_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "10_20.json"
+      }
     },
     {
       "version": "10.10",
@@ -1679,7 +2994,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "10_10.jpg",
-      "poisFile": "10_10.json"
+      "poisFile": "10_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "10_10.json"
+      }
     },
     {
       "version": "9.41",
@@ -1689,7 +3011,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_41.jpg",
-      "poisFile": "9_41.json"
+      "poisFile": "9_41.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_41.json"
+      }
     },
     {
       "version": "9.40",
@@ -1699,7 +3028,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_40.jpg",
-      "poisFile": "9_40.json"
+      "poisFile": "9_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_40.json"
+      }
     },
     {
       "version": "9.30",
@@ -1709,7 +3045,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_30.jpg",
-      "poisFile": "9_30.json"
+      "poisFile": "9_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_30.json"
+      }
     },
     {
       "version": "9.21",
@@ -1719,7 +3062,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_21.jpg",
-      "poisFile": "9_21.json"
+      "poisFile": "9_21.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_21.json"
+      }
     },
     {
       "version": "9.20",
@@ -1729,7 +3079,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_20.jpg",
-      "poisFile": "9_20.json"
+      "poisFile": "9_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_20.json"
+      }
     },
     {
       "version": "9.10",
@@ -1739,7 +3096,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_10.jpg",
-      "poisFile": "9_10.json"
+      "poisFile": "9_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_10.json"
+      }
     },
     {
       "version": "9.01",
@@ -1749,7 +3113,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_01.jpg",
-      "poisFile": "9_01.json"
+      "poisFile": "9_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_01.json"
+      }
     },
     {
       "version": "9.00",
@@ -1759,7 +3130,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "9_00.jpg",
-      "poisFile": "9_00.json"
+      "poisFile": "9_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "9_00.json"
+      }
     },
     {
       "version": "8.51",
@@ -1769,7 +3147,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_51.jpg",
-      "poisFile": "8_51.json"
+      "poisFile": "8_51.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_51.json"
+      }
     },
     {
       "version": "8.50",
@@ -1779,7 +3164,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_50.jpg",
-      "poisFile": "8_50.json"
+      "poisFile": "8_50.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_50.json"
+      }
     },
     {
       "version": "8.40",
@@ -1789,7 +3181,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_40.jpg",
-      "poisFile": "8_40.json"
+      "poisFile": "8_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_40.json"
+      }
     },
     {
       "version": "8.30",
@@ -1799,7 +3198,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_30.jpg",
-      "poisFile": "8_30.json"
+      "poisFile": "8_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_30.json"
+      }
     },
     {
       "version": "8.20",
@@ -1809,7 +3215,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_20.jpg",
-      "poisFile": "8_20.json"
+      "poisFile": "8_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_20.json"
+      }
     },
     {
       "version": "8.10",
@@ -1819,7 +3232,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_10.jpg",
-      "poisFile": "8_10.json"
+      "poisFile": "8_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_10.json"
+      }
     },
     {
       "version": "8.01",
@@ -1829,7 +3249,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_01.jpg",
-      "poisFile": "8_01.json"
+      "poisFile": "8_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_01.json"
+      }
     },
     {
       "version": "8.00",
@@ -1839,7 +3266,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "8_00.jpg",
-      "poisFile": "8_00.json"
+      "poisFile": "8_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "8_00.json"
+      }
     },
     {
       "version": "7.40",
@@ -1849,7 +3283,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "7_40.jpg",
-      "poisFile": "7_40.json"
+      "poisFile": "7_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "7_40.json"
+      }
     },
     {
       "version": "7.30",
@@ -1859,7 +3300,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "7_30.jpg",
-      "poisFile": "7_30.json"
+      "poisFile": "7_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "7_30.json"
+      }
     },
     {
       "version": "7.20",
@@ -1869,7 +3317,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "7_20.jpg",
-      "poisFile": "7_20.json"
+      "poisFile": "7_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "7_20.json"
+      }
     },
     {
       "version": "7.10",
@@ -1879,7 +3334,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "7_10.jpg",
-      "poisFile": "7_10.json"
+      "poisFile": "7_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "7_10.json"
+      }
     },
     {
       "version": "7.10-snow",
@@ -1889,7 +3351,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "7_10-snow.jpg",
-      "poisFile": "7_10-snow.json"
+      "poisFile": "7_10-snow.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "7_10-snow.json"
+      }
     },
     {
       "version": "7.01",
@@ -1899,7 +3368,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "7_01.jpg",
-      "poisFile": "7_01.json"
+      "poisFile": "7_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "7_01.json"
+      }
     },
     {
       "version": "7.00",
@@ -1909,7 +3385,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "7_00.jpg",
-      "poisFile": "7_00.json"
+      "poisFile": "7_00.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "7_00.json"
+      }
     },
     {
       "version": "6.31",
@@ -1919,7 +3402,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "6_31.jpg",
-      "poisFile": "6_31.json"
+      "poisFile": "6_31.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "6_31.json"
+      }
     },
     {
       "version": "6.30",
@@ -1929,7 +3419,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "6_30.jpg",
-      "poisFile": "6_30.json"
+      "poisFile": "6_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "6_30.json"
+      }
     },
     {
       "version": "6.21",
@@ -1939,7 +3436,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "6_21.jpg",
-      "poisFile": "6_21.json"
+      "poisFile": "6_21.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "6_21.json"
+      }
     },
     {
       "version": "6.20",
@@ -1949,7 +3453,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "6_20.jpg",
-      "poisFile": "6_20.json"
+      "poisFile": "6_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "6_20.json"
+      }
     },
     {
       "version": "6.10",
@@ -1959,7 +3470,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "6_10.jpg",
-      "poisFile": "6_10.json"
+      "poisFile": "6_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "6_10.json"
+      }
     },
     {
       "version": "6.01",
@@ -1969,7 +3487,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "6_01.jpg",
-      "poisFile": "6_01.json"
+      "poisFile": "6_01.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "6_01.json"
+      }
     },
     {
       "version": "5.41",
@@ -1979,7 +3504,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "5_41.jpg",
-      "poisFile": "5_41.json"
+      "poisFile": "5_41.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "5_41.json"
+      }
     },
     {
       "version": "5.40",
@@ -1989,7 +3521,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "5_40.jpg",
-      "poisFile": "5_40.json"
+      "poisFile": "5_40.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "5_40.json"
+      }
     },
     {
       "version": "5.30",
@@ -1999,7 +3538,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "5_30.jpg",
-      "poisFile": "5_30.json"
+      "poisFile": "5_30.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "5_30.json"
+      }
     },
     {
       "version": "5.21",
@@ -2009,7 +3555,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "5_21.jpg",
-      "poisFile": "5_21.json"
+      "poisFile": "5_21.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "5_21.json"
+      }
     },
     {
       "version": "5.20",
@@ -2019,7 +3572,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "5_20.jpg",
-      "poisFile": "5_20.json"
+      "poisFile": "5_20.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "5_20.json"
+      }
     },
     {
       "version": "5.10",
@@ -2029,7 +3589,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "5_10.jpg",
-      "poisFile": "5_10.json"
+      "poisFile": "5_10.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "5_10.json"
+      }
     },
     {
       "version": "4.5",
@@ -2039,7 +3606,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "4_5.jpg",
-      "poisFile": "4_5.json"
+      "poisFile": "4_5.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "4_5.json"
+      }
     },
     {
       "version": "4.4",
@@ -2049,7 +3623,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "4_4.jpg",
-      "poisFile": "4_4.json"
+      "poisFile": "4_4.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "4_4.json"
+      }
     },
     {
       "version": "4.2",
@@ -2059,7 +3640,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "4_2.jpg",
-      "poisFile": "4_2.json"
+      "poisFile": "4_2.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "4_2.json"
+      }
     },
     {
       "version": "4.1",
@@ -2069,7 +3657,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "4_1.jpg",
-      "poisFile": "4_1.json"
+      "poisFile": "4_1.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "4_1.json"
+      }
     },
     {
       "version": "4.0",
@@ -2079,7 +3674,26 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "4_0.jpg",
-      "poisFile": "4_0.json"
+      "poisFile": "4_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "4_0.json"
+      }
+    },
+    {
+      "version": "3.13",
+      "chapter": 1,
+      "season": 0,
+      "path": "chapter_1/season_0/3.13",
+      "hasMap": false,
+      "hasPois": false,
+      "mapFile": null,
+      "poisFile": null,
+      "mapMetaFile": null,
+      "modes": []
     },
     {
       "version": "3.5.0",
@@ -2089,7 +3703,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "3_5_0.jpg",
-      "poisFile": "3_5_0.json"
+      "poisFile": "3_5_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "3_5_0.json"
+      }
     },
     {
       "version": "3.3.0",
@@ -2099,7 +3720,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "3_3_0.jpg",
-      "poisFile": "3_3_0.json"
+      "poisFile": "3_3_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "3_3_0.json"
+      }
     },
     {
       "version": "3.2.0",
@@ -2109,7 +3737,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "3_2_0.jpg",
-      "poisFile": "3_2_0.json"
+      "poisFile": "3_2_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "3_2_0.json"
+      }
     },
     {
       "version": "3.1.0",
@@ -2119,7 +3754,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "3_1_0.jpg",
-      "poisFile": "3_1_0.json"
+      "poisFile": "3_1_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "3_1_0.json"
+      }
     },
     {
       "version": "2.5.0",
@@ -2129,7 +3771,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "2_5_0.jpg",
-      "poisFile": "2_5_0.json"
+      "poisFile": "2_5_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "2_5_0.json"
+      }
     },
     {
       "version": "2.4.0",
@@ -2139,7 +3788,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "2_4_0.jpg",
-      "poisFile": "2_4_0.json"
+      "poisFile": "2_4_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "2_4_0.json"
+      }
     },
     {
       "version": "2.3.0",
@@ -2149,7 +3805,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "2_3_0.jpg",
-      "poisFile": "2_3_0.json"
+      "poisFile": "2_3_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "2_3_0.json"
+      }
     },
     {
       "version": "2.2.0",
@@ -2159,7 +3822,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "2_2_0.jpg",
-      "poisFile": "2_2_0.json"
+      "poisFile": "2_2_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "2_2_0.json"
+      }
     },
     {
       "version": "2.1.0",
@@ -2169,7 +3839,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "2_1_0.jpg",
-      "poisFile": "2_1_0.json"
+      "poisFile": "2_1_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "2_1_0.json"
+      }
     },
     {
       "version": "1.11",
@@ -2179,7 +3856,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "1_11.jpg",
-      "poisFile": "1_11.json"
+      "poisFile": "1_11.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "1_11.json"
+      }
     },
     {
       "version": "1.9.0",
@@ -2189,7 +3873,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "1_9_0.jpg",
-      "poisFile": "1_9_0.json"
+      "poisFile": "1_9_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "1_9_0.json"
+      }
     },
     {
       "version": "1.8.2",
@@ -2199,7 +3890,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "1_8_2.jpg",
-      "poisFile": "1_8_2.json"
+      "poisFile": "1_8_2.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "1_8_2.json"
+      }
     },
     {
       "version": "1.8.0",
@@ -2209,7 +3907,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "1_8_0.jpg",
-      "poisFile": "1_8_0.json"
+      "poisFile": "1_8_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "1_8_0.json"
+      }
     },
     {
       "version": "1.6.0",
@@ -2219,7 +3924,14 @@
       "hasMap": true,
       "hasPois": true,
       "mapFile": "1_6_0.jpg",
-      "poisFile": "1_6_0.json"
+      "poisFile": "1_6_0.json",
+      "mapMetaFile": null,
+      "modes": [
+        "br"
+      ],
+      "poiFiles": {
+        "br": "1_6_0.json"
+      }
     }
   ]
 }
