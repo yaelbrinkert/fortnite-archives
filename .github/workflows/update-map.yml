@@ -14,6 +14,12 @@ on:
 permissions:
   contents: write
 
+# Two runs of this workflow must never be in flight together: both regenerate the same two
+# generated paths, and the loser would push a manifest built from a stale tree.
+concurrency:
+  group: update-latest-map
+  cancel-in-progress: false
+
 jobs:
   update-latest:
     runs-on: ubuntu-latest
@@ -39,7 +45,33 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add manifest.json latest/
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "auto: update latest/ aliases and manifest"
-          git push
+
+          # The Pi pushes map data into this repo continuously, so main can move between our
+          # checkout and our push. A bare `git push` then fails non-fast-forward - which is
+          # exactly what every failed run here has been since 2026-08-15.
+          #
+          # Rebasing is not the right recovery: manifest.json and latest/ are GENERATED from
+          # the repo's own contents, so a three-way merge of two generated blobs is meaningless
+          # (and conflicts). The correct resolution is always "throw ours away and regenerate on
+          # top of whatever main is now", which is what this loop does.
+          for attempt in 1 2 3 4 5; do
+            git add manifest.json latest/
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+            git commit -m "auto: update latest/ aliases and manifest"
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected on attempt $attempt - regenerating on top of origin/main"
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/generate-manifest.js
+            node scripts/update-latest.js
+            node scripts/generate-manifest.js
+            sleep $((attempt * 5))
+          done
+          echo "::error::could not push after 5 attempts"
+          exit 1
